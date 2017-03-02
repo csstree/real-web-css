@@ -132,8 +132,30 @@ var reports = sites.map(function(url, idx) {
     return report;
 });
 
+// totals
+var missedCount = reports.filter(function(report) {
+    return !report.downloaded;
+}).length;
+var parseErrorCount = reports.filter(function(report) {
+    return report.error;
+}).length;
+var passed = reports.filter(function(report) {
+    return report.downloaded && !report.error && !report.validation;
+}).length;
+
+console.log('Sites:', reports.length);
+console.log('Downloaded:', (reports.length - missedCount), '(' + missedCount + ' failed)');
+console.log('Parsed:', reports.length - missedCount - parseErrorCount, '(' + parseErrorCount + ' failed)');
+console.log('All tests passed:', passed, '(' + (reports.length - missedCount - parseErrorCount - passed) + ' failed)');
+
+// table
 inject('date', 'Update date: ' + new Date().toISOString());
 inject('table',
+    '* Sites: `' + reports.length + '`\n' +
+    '* Downloaded: `' + (reports.length - missedCount) + '` (' + missedCount + ' failed)\n' +
+    '* Parsed: `' + (reports.length - missedCount - parseErrorCount) + '` (' + parseErrorCount + ' failed)\n' +
+    '* All tests passed: `' + passed + '` (' + (reports.length - missedCount - parseErrorCount - passed) + ' failed)\n\n' +
+
     '<table>\n' +
     '<thead>\n' +
       '<tr><th>' + ['#', 'Site', '', 'Parsing', 'Validation'].join('</th><th>') + '</th></tr>\n' +
@@ -172,22 +194,3 @@ inject('table',
 );
 
 fs.writeFileSync(readmeFile, readme, 'utf8');
-
-// totals
-
-var missedCount = reports.filter(function(report) {
-    return report.downloaded;
-}).length;
-var parseErrorCount = reports.filter(function(report) {
-    return report.error;
-}).length;
-var passed = reports.filter(function(report) {
-    return report.downloaded && !report.error && !report.validation;
-}).length;
-
-console.log('Total sites:', reports.length);
-console.log('Missed CSS:', missedCount);
-console.log('Parsing:');
-console.log('  Sucessful:', reports.length - parseErrorCount);
-console.log('  Failed:', parseErrorCount);
-console.log('All tests passed:', passed);

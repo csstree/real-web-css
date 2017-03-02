@@ -5,12 +5,17 @@ Using [CSSTree](https://github.com/csstree/csstree) for real site CSS
 
 <!-- date -->
 
-Update date: 2017-03-02T16:34:58.585Z
+Update date: 2017-03-02T17:18:35.312Z
 
 <!-- /date -->
 
 
 <!-- table -->
+
+* Sites: `250`
+* Downloaded: `219` (31 failed)
+* Parsed: `145` (74 failed)
+* All tests passed: `20` (125 failed)
 
 <table>
 <thead>
