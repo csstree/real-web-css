@@ -146,7 +146,7 @@ var passed = reports.filter(function(report) {
 console.log('Sites:', reports.length);
 console.log('Downloaded:', (reports.length - missedCount), '(' + missedCount + ' failed)');
 console.log('Parsed:', reports.length - missedCount - parseErrorCount, '(' + parseErrorCount + ' failed)');
-console.log('All tests passed:', passed, '(' + (reports.length - missedCount - parseErrorCount - passed) + ' failed)');
+console.log('Validation passed:', passed, '(' + (reports.length - missedCount - parseErrorCount - passed) + ' failed)');
 
 // table
 inject('date', 'Update date: ' + new Date().toISOString());
@@ -154,7 +154,7 @@ inject('table',
     '* Sites: `' + reports.length + '`\n' +
     '* Downloaded: `' + (reports.length - missedCount) + '` (' + missedCount + ' failed)\n' +
     '* Parsed: `' + (reports.length - missedCount - parseErrorCount) + '` (' + parseErrorCount + ' failed)\n' +
-    '* All tests passed: `' + passed + '` (' + (reports.length - missedCount - parseErrorCount - passed) + ' failed)\n\n' +
+    '* Validation passed: `' + passed + '` (' + (reports.length - missedCount - parseErrorCount - passed) + ' failed)\n\n' +
 
     '<table>\n' +
     '<thead>\n' +
