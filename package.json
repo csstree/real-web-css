@@ -1,0 +1,23 @@
+{
+  "name": "real-web-css",
+  "version": "1.0.0",
+  "description": "Using CSSTree for real site CSS",
+  "scripts": {
+    "test-css": "node scripts/test",
+    "download-css": "node scripts/download-css",
+    "update-sites": "node scripts/download-sites"
+  },
+  "repository": "csstree/real-web-css",
+  "keywords": [],
+  "author": "Roman Dvornov <rdvornov@gmail.com>",
+  "license": "CC BY-SA 3.0",
+  "bugs": {
+    "url": "https://github.com/csstree/real-web-css/issues"
+  },
+  "homepage": "https://github.com/csstree/real-web-css",
+  "dependencies": {
+    "css-tree": "csstree/csstree",
+    "unzip": "^0.1.11",
+    "zombie": "^5.0.5"
+  }
+}
