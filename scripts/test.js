@@ -7,8 +7,11 @@ var sites = require('./sites');
 var readmeFile = path.join(__dirname, '../README.md');
 var readme = fs.readFileSync(readmeFile, 'utf-8');
 
-function idxFromFilename(fn) {
-    return parseInt(path.basename(fn), 10);
+function escapeHTML(str) {
+    return str
+        .replace(/&/g, '&amp;')
+        .replace(/</g, '&lt;')
+        .replace(/>/g, '&gt;');
 }
 
 function inject(name, text) {
@@ -147,7 +150,7 @@ inject('table',
                 report.error
                     ? '<details>' +
                         '<summary>Error</summary>' +
-                        '<pre>' + report.error.details + '</pre>' +
+                        '<pre>' + escapeHTML(report.error.details) + '</pre>' +
                       '</details>'
                     : 'OK',
                 report.validation
@@ -156,7 +159,7 @@ inject('table',
                             report.validation.length + (report.validation.length > 1 ? ' warnings' : ' warning') +
                             ' (unique: ' + validationErrorStat(report.validation).unique + ')' +
                         '</summary>' +
-                        '<pre>' + formatErrors(report.validation) + '</pre>' +
+                        '<pre>' + escapeHTML(formatErrors(report.validation)) + '</pre>' +
                       '</details>'
                     : (report.error ? '–' : 'OK')
             );
@@ -172,6 +175,9 @@ fs.writeFileSync(readmeFile, readme, 'utf8');
 
 // totals
 
+var missedCount = reports.filter(function(report) {
+    return report.downloaded;
+}).length;
 var parseErrorCount = reports.filter(function(report) {
     return report.error;
 }).length;
@@ -179,7 +185,8 @@ var passed = reports.filter(function(report) {
     return report.downloaded && !report.error && !report.validation;
 }).length;
 
-console.log('Total:', reports.length);
+console.log('Total sites:', reports.length);
+console.log('Missed CSS:', missedCount);
 console.log('Parsing:');
 console.log('  Sucessful:', reports.length - parseErrorCount);
 console.log('  Failed:', parseErrorCount);
