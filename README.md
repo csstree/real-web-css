@@ -5,7 +5,7 @@ Using [CSSTree](https://github.com/csstree/csstree) for real site CSS
 
 <!-- date -->
 
-Update date: 2017-03-02T17:23:25.447Z
+Update date: 2017-03-02T18:10:33.495Z
 
 <!-- /date -->
 
@@ -14,8 +14,8 @@ Update date: 2017-03-02T17:23:25.447Z
 
 * Sites: `250`
 * Downloaded: `219` (31 failed)
-* Parsed: `145` (74 failed)
-* Validation passed: `20` (125 failed)
+* Parsed: `149` (70 failed)
+* Validation passed: `21` (128 failed)
 
 <table>
 <thead>
@@ -83,7 +83,7 @@ Update date: 2017-03-02T17:23:25.447Z
     7 |…p:0;bottom:0;background:rgba(0,0,0,.7);background:progid:DXImageTransform.Microsoft.gradient(start…
 ----------------------------------------------------------------^
     8 |
-    9 |…xt{text-align:center;font-size:13px;font-weight:500;text-transform:none}.expanded-shelf-content-it…</pre></details></td><td>–</td></tr>
+    9 |…xt{text-align:center;font-size:13px;font-weight:500;text-transform:none}.expanded-shelf-content-it…</pre></details><em></em></td><td>–</td></tr>
 <tr><td>2</td><td>⚠️</td><td>facebook.com</td><td>OK</td><td><details><summary>1 warning (unique: 1)</summary><pre>* Invalid value for `overflow`
     syntax: visible | hidden | scroll | auto
      value: overlay
@@ -95,14 +95,14 @@ Update date: 2017-03-02T17:23:25.447Z
   609 |…rtant}#atomic .Hy\(n\){hyphens:normal}#atomic .Lts\(-.31em\){letter-spacing:.31em}#atomic .Lts\(-0…
 ----------------------------------------------------------------^
   610 |
-  611 |…-grey,.Themable .ThemeReset .C-grey{color:#8d919d}.C-p-dark,.Themable .ThemeReset .C-p-dark{color:…</pre></details></td><td>–</td></tr>
-<tr><td>5</td><td>⚠️</td><td>wikipedia.org</td><td><details><summary>Error</summary><pre>Parse error: Identifier `important` is expected
+  611 |…-grey,.Themable .ThemeReset .C-grey{color:#8d919d}.C-p-dark,.Themable .ThemeReset .C-p-dark{color:…</pre></details><em></em></td><td>–</td></tr>
+<tr><td>5</td><td>🆗</td><td>wikipedia.org</td><td><details><summary>Error</summary><pre>Parse error: Identifier `important` is expected
     2 |
     3 |
     4 |…rent),url(portal/wikipedia.org/assets/img/noimage.svg) !ie;background-image:-webkit-gradient(linea…
 ----------------------------------------------------------------^
     5 |
-    6 |</pre></details></td><td>–</td></tr>
+    6 |</pre></details><em>Parser has no support for `!ie` hack<br>Error is patched</em></td><td>OK</td></tr>
 <tr><td>6</td><td>⚠️</td><td>google.co.in</td><td>OK</td><td><details><summary>14 warnings (unique: 7)</summary><pre>* Invalid value for `opacity`
     syntax: &lt;number-zero-one&gt;
      value: 1\0/
@@ -244,7 +244,250 @@ Update date: 2017-03-02T17:23:25.447Z
   111 |…color:#FFF;vertical-align:baseline;white-space:nowrap}*|:-moz-full-screen-ancestor{transform:initi…
 ----------------------------------------------------------------^
   112 |
-  113 |</pre></details></td><td>–</td></tr>
+  113 |</pre></details><em>Error is patched</em></td><td><details><summary>61 warnings (unique: 12)</summary><pre>* Invalid value for `border-color`
+    syntax: &lt;color&gt;{1,4}
+     value: &lt;empty string&gt;
+    --------^
+* Invalid value for `color`
+    syntax: &lt;color&gt;
+     value: &lt;empty string&gt;
+    --------^
+* Invalid value for `background-color`
+    syntax: &lt;color&gt;
+     value: &lt;empty string&gt;
+    --------^
+* Invalid value for `background-color`
+    syntax: &lt;color&gt;
+     value: &lt;empty string&gt;
+    --------^
+* Invalid value for `background-color`
+    syntax: &lt;color&gt;
+     value: &lt;empty string&gt;
+    --------^
+* Invalid value for `color`
+    syntax: &lt;color&gt;
+     value: &lt;empty string&gt;
+    --------^
+* Invalid value for `background-color`
+    syntax: &lt;color&gt;
+     value: &lt;empty string&gt;
+    --------^
+* Invalid value for `background-color`
+    syntax: &lt;color&gt;
+     value: &lt;empty string&gt;
+    --------^
+* Invalid value for `background-color`
+    syntax: &lt;color&gt;
+     value: &lt;empty string&gt;
+    --------^
+* Invalid value for `color`
+    syntax: &lt;color&gt;
+     value: &lt;empty string&gt;
+    --------^
+* Invalid value for `background-color`
+    syntax: &lt;color&gt;
+     value: &lt;empty string&gt;
+    --------^
+* Invalid value for `background-color`
+    syntax: &lt;color&gt;
+     value: &lt;empty string&gt;
+    --------^
+* Invalid value for `background-color`
+    syntax: &lt;color&gt;
+     value: &lt;empty string&gt;
+    --------^
+* Invalid value for `color`
+    syntax: &lt;color&gt;
+     value: &lt;empty string&gt;
+    --------^
+* Invalid value for `background-color`
+    syntax: &lt;color&gt;
+     value: &lt;empty string&gt;
+    --------^
+* Invalid value for `background`
+    syntax: [ &lt;bg-layer&gt; , ]* &lt;final-bg-layer&gt;
+     value: -webkit-linear-gradient(to right,#f6f6f6,rgba(255,255,255,0),#f6f6f6)
+    --------^
+* Invalid value for `background`
+    syntax: [ &lt;bg-layer&gt; , ]* &lt;final-bg-layer&gt;
+     value: -webkit-linear-gradient(to bottom,rgba(0,0,0,.14),rgba(0,0,0,.03) 3px,transparent)
+    --------^
+* Invalid value for `background`
+    syntax: [ &lt;bg-layer&gt; , ]* &lt;final-bg-layer&gt;
+     value: -webkit-linear-gradient(to right,#fff,rgba(255,255,255,0),#fff)
+    --------^
+* Invalid value for `margin-right`
+    syntax: &lt;length&gt; | &lt;percentage&gt; | auto
+     value: none
+    --------^
+* Invalid value for `background`
+    syntax: [ &lt;bg-layer&gt; , ]* &lt;final-bg-layer&gt;
+     value: &lt;empty string&gt;
+    --------^
+* Invalid value for `border-radius`
+    syntax: &lt;length-percentage&gt;{1,4} [ / &lt;length-percentage&gt;{1,4} ]?
+     value: 0\9
+    --------^
+* Invalid value for `border-radius`
+    syntax: &lt;length-percentage&gt;{1,4} [ / &lt;length-percentage&gt;{1,4} ]?
+     value: 0\9
+    --------^
+* Invalid value for `border-radius`
+    syntax: &lt;length-percentage&gt;{1,4} [ / &lt;length-percentage&gt;{1,4} ]?
+     value: 0\9
+    --------^
+* Invalid value for `border-radius`
+    syntax: &lt;length-percentage&gt;{1,4} [ / &lt;length-percentage&gt;{1,4} ]?
+     value: 0\9
+    --------^
+* Invalid value for `-ms-filter`
+    syntax: &lt;string&gt;
+     value: opacity(.6)
+    --------^
+* Invalid value for `border-radius`
+    syntax: &lt;length-percentage&gt;{1,4} [ / &lt;length-percentage&gt;{1,4} ]?
+     value: 0\9
+    --------^
+* Invalid value for `border-radius`
+    syntax: &lt;length-percentage&gt;{1,4} [ / &lt;length-percentage&gt;{1,4} ]?
+     value: 0\9
+    --------^
+* Invalid value for `border-radius`
+    syntax: &lt;length-percentage&gt;{1,4} [ / &lt;length-percentage&gt;{1,4} ]?
+     value: 0\9
+    --------^
+* Invalid value for `border-radius`
+    syntax: &lt;length-percentage&gt;{1,4} [ / &lt;length-percentage&gt;{1,4} ]?
+     value: 0\9
+    --------^
+* Invalid value for `border-radius`
+    syntax: &lt;length-percentage&gt;{1,4} [ / &lt;length-percentage&gt;{1,4} ]?
+     value: 0\9
+    --------^
+* Invalid value for `border-radius`
+    syntax: &lt;length-percentage&gt;{1,4} [ / &lt;length-percentage&gt;{1,4} ]?
+     value: 0\9
+    --------^
+* Invalid value for `border-radius`
+    syntax: &lt;length-percentage&gt;{1,4} [ / &lt;length-percentage&gt;{1,4} ]?
+     value: 0\9
+    --------^
+* Invalid value for `border-radius`
+    syntax: &lt;length-percentage&gt;{1,4} [ / &lt;length-percentage&gt;{1,4} ]?
+     value: 0\9
+    --------^
+* Invalid value for `border-radius`
+    syntax: &lt;length-percentage&gt;{1,4} [ / &lt;length-percentage&gt;{1,4} ]?
+     value: 0\9
+    --------^
+* Invalid value for `border-radius`
+    syntax: &lt;length-percentage&gt;{1,4} [ / &lt;length-percentage&gt;{1,4} ]?
+     value: 0\9
+    --------^
+* Invalid value for `border-radius`
+    syntax: &lt;length-percentage&gt;{1,4} [ / &lt;length-percentage&gt;{1,4} ]?
+     value: 0\9
+    --------^
+* Invalid value for `display`
+    syntax: none | inline | block | list-item | inline-list-item | inline-block | inline-table | table | table-cell | table-column | table-column-group | table-footer-group | table-header-group | table-row | table-row-group | flex | inline-flex | grid | inline-grid | run-in | ruby | ruby-base | ruby-text | ruby-base-container | ruby-text-container | contents | -ms-flexbox | -ms-inline-flexbox | -ms-grid | -ms-inline-grid | -webkit-flex | -webkit-inline-flex | -webkit-box | -webkit-inline-box | -moz-inline-stack | -moz-box | -moz-inline-box
+     value: hidden
+    --------^
+* Invalid value for `border-radius`
+    syntax: &lt;length-percentage&gt;{1,4} [ / &lt;length-percentage&gt;{1,4} ]?
+     value: 0\9
+    --------^
+* Invalid value for `border-radius`
+    syntax: &lt;length-percentage&gt;{1,4} [ / &lt;length-percentage&gt;{1,4} ]?
+     value: 0\9
+    --------^
+* Invalid value for `border-radius`
+    syntax: &lt;length-percentage&gt;{1,4} [ / &lt;length-percentage&gt;{1,4} ]?
+     value: 0\9
+    --------^
+* Invalid value for `border-radius`
+    syntax: &lt;length-percentage&gt;{1,4} [ / &lt;length-percentage&gt;{1,4} ]?
+     value: 0\9
+    --------^
+* Invalid value for `border-radius`
+    syntax: &lt;length-percentage&gt;{1,4} [ / &lt;length-percentage&gt;{1,4} ]?
+     value: 0\9
+    --------^
+* Invalid value for `border-radius`
+    syntax: &lt;length-percentage&gt;{1,4} [ / &lt;length-percentage&gt;{1,4} ]?
+     value: 0\9
+    --------^
+* Invalid value for `-ms-filter`
+    syntax: &lt;string&gt;
+     value: opacity(.95)
+    --------^
+* Invalid value for `border-radius`
+    syntax: &lt;length-percentage&gt;{1,4} [ / &lt;length-percentage&gt;{1,4} ]?
+     value: 0\9
+    --------^
+* Invalid value for `-ms-filter`
+    syntax: &lt;string&gt;
+     value: opacity(0)
+    --------^
+* Invalid value for `border-radius`
+    syntax: &lt;length-percentage&gt;{1,4} [ / &lt;length-percentage&gt;{1,4} ]?
+     value: 0\9
+    --------^
+* Invalid value for `border-radius`
+    syntax: &lt;length-percentage&gt;{1,4} [ / &lt;length-percentage&gt;{1,4} ]?
+     value: 0\9
+    --------^
+* Invalid value for `border-radius`
+    syntax: &lt;length-percentage&gt;{1,4} [ / &lt;length-percentage&gt;{1,4} ]?
+     value: 0\9
+    --------^
+* Invalid value for `background`
+    syntax: [ &lt;bg-layer&gt; , ]* &lt;final-bg-layer&gt;
+     value: -webkit-gradient(linear,left top,left bottom,color-stop(0,#ddd),color-stop(3px,#f7f7f7),color-stop(100%,#fff))
+    --------^
+* Invalid value for `background`
+    syntax: [ &lt;bg-layer&gt; , ]* &lt;final-bg-layer&gt;
+     value: linear-gradient(top,#ddd,#f7f7f7 3px,#fff)
+    --------^
+* Invalid value for `background`
+    syntax: [ &lt;bg-layer&gt; , ]* &lt;final-bg-layer&gt;
+     value: linear-gradient(left,#fff,rgba(255,255,255,0),#fff)
+    --------^
+* The rest part of value can't to be matched on `-webkit-box-flex` syntax
+    syntax: &lt;number&gt;
+     value: 1 1 auto
+    ----------^
+* The rest part of value can't to be matched on `-moz-box-flex` syntax
+    syntax: &lt;number&gt;
+     value: 1 1 auto
+    ----------^
+* The rest part of value can't to be matched on `-webkit-box-flex` syntax
+    syntax: &lt;number&gt;
+     value: 1 1 auto
+    ----------^
+* The rest part of value can't to be matched on `-moz-box-flex` syntax
+    syntax: &lt;number&gt;
+     value: 1 1 auto
+    ----------^
+* Invalid value for `vertical-align`
+    syntax: baseline | sub | super | text-top | text-bottom | middle | top | bottom | &lt;percentage&gt; | &lt;length&gt;
+     value: center
+    --------^
+* Invalid value for `background-image`
+    syntax: &lt;bg-image&gt;#
+     value: -webkit-linear-gradient(to bottom,#cb0400,#a50200)
+    --------^
+* Invalid value for `background-image`
+    syntax: &lt;bg-image&gt;#
+     value: -moz-linear-gradient(to bottom,#cb0400,#a50200)
+    --------^
+* Invalid value for `background-image`
+    syntax: &lt;bg-image&gt;#
+     value: -ms-linear-gradient(to bottom,#cb0400,#a50200)
+    --------^
+* Invalid value for `background-image`
+    syntax: &lt;bg-image&gt;#
+     value: -o-linear-gradient(to bottom,#cb0400,#a50200)
+    --------^</pre></details></td></tr>
 <tr><td>14</td><td>⚠️</td><td>vk.com</td><td>OK</td><td><details><summary>14 warnings (unique: 10)</summary><pre>* Invalid value for `-ms-filter`
     syntax: &lt;string&gt;
      value: blur(10px)
@@ -406,7 +649,31 @@ Update date: 2017-03-02T17:23:25.447Z
   237 |…p:3px solid #ff8400;height:33px;background-color:#fff;px;margin-top:-1px;_margin-bottom:-1px;posit…
 ----------------------------------------------------------------^
   238 |…und:url(http://i0.sinaimg.cn/home/main/index2013/0719/bg2.png) 0 -490px no-repeat;height:50px;widt…
-  239 |…th:133px;height:50px;background:url(http://i3.sinaimg.cn/home/main/index2013/0509/bkjb.png) 0 0 no…</pre></details></td><td>–</td></tr>
+  239 |…th:133px;height:50px;background:url(http://i3.sinaimg.cn/home/main/index2013/0509/bkjb.png) 0 0 no…</pre></details><em>Error is patched</em></td><td><details><summary>7 warnings (unique: 7)</summary><pre>* Invalid value for `background-image`
+    syntax: &lt;bg-image&gt;#
+     value: -webkit-image-set(url(http://i1.sinaimg.cn/dy/deco/2013/0329/logo/LOGO_1x.png) 1x,url(http://i2.sinaimg.cn/dy/deco/2013/0329/logo/LOGO_2x.png) 2x)
+    --------^
+* Invalid value for `background`
+    syntax: [ &lt;bg-layer&gt; , ]* &lt;final-bg-layer&gt;
+     value: none\9
+    --------^
+* Invalid value for `*background-color`
+    syntax: &lt;color&gt;
+     value: transparent\9
+    --------^
+* Invalid value for `filter`
+    syntax: none | &lt;filter-function-list&gt; | &lt;-ms-filter&gt;
+     value: none\9
+    --------^
+* Invalid value for `font-style`
+    syntax: normal | italic | oblique
+     value: none
+    --------^
+* Unknown property: _pading-right
+* Invalid value for `font-size`
+    syntax: &lt;absolute-size&gt; | &lt;relative-size&gt; | &lt;length-percentage&gt;
+     value: 12
+    --------^</pre></details></td></tr>
 <tr><td>19</td><td>🆗</td><td>linkedin.com</td><td>OK</td><td>OK</td></tr>
 <tr><td>20</td><td>⚠️</td><td>jd.com</td><td colspan="2">–</td></tr>
 <tr><td>21</td><td>⚠️</td><td>google.de</td><td>OK</td><td><details><summary>14 warnings (unique: 7)</summary><pre>* Invalid value for `opacity`
@@ -676,7 +943,7 @@ Update date: 2017-03-02T17:23:25.447Z
     3 |&lt;!--
 -------^
     4 |body{word-break:break-all;font:12px/1.22 "Osaka","ＭＳ Ｐゴシック",Arial,sans-serif;*font-size:small;*fon…
-    5 |table{font-size:inherit;font:100%;}</pre></details></td><td>–</td></tr>
+    5 |table{font-size:inherit;font:100%;}</pre></details><em></em></td><td>–</td></tr>
 <tr><td>28</td><td>⚠️</td><td>hao123.com</td><td colspan="2">–</td></tr>
 <tr><td>29</td><td>⚠️</td><td>google.com.br</td><td>OK</td><td><details><summary>14 warnings (unique: 7)</summary><pre>* Invalid value for `opacity`
     syntax: &lt;number-zero-one&gt;
@@ -804,7 +1071,7 @@ Update date: 2017-03-02T17:23:25.447Z
     7 |…idth:100%;height:100%;background:#000;opacity:.6;filter:~"alpha(opacity=60)";filter:~"progid:DXIma…
 ----------------------------------------------------------------^
     8 |
-    9 |</pre></details></td><td>–</td></tr>
+    9 |</pre></details><em></em></td><td>–</td></tr>
 <tr><td>33</td><td>⚠️</td><td>google.com.hk</td><td>OK</td><td><details><summary>14 warnings (unique: 7)</summary><pre>* Invalid value for `opacity`
     syntax: &lt;number-zero-one&gt;
      value: 1\0/
@@ -1009,7 +1276,7 @@ Update date: 2017-03-02T17:23:25.447Z
     3 |@font-face{font-family:'Open Sans';font-style:normal;font-weight:400;src:local('Open Sans'),url(/a…
 ------------------------------^
     4 |
-    5 |/**** //i.alicdn.com/ae-header/20170208145626/buyer/front/ae-header-ru.css ****/</pre></details></td><td>–</td></tr>
+    5 |/**** //i.alicdn.com/ae-header/20170208145626/buyer/front/ae-header-ru.css ****/</pre></details><em></em></td><td>–</td></tr>
 <tr><td>43</td><td>⚠️</td><td>google.ca</td><td>OK</td><td><details><summary>14 warnings (unique: 7)</summary><pre>* Invalid value for `opacity`
     syntax: &lt;number-zero-one&gt;
      value: 1\0/
@@ -1232,7 +1499,7 @@ Update date: 2017-03-02T17:23:25.447Z
    15 |﻿&lt;!-- Respond.js: min/max-width media query polyfill. Remote proxy (c) Scott Jehl. MIT/GPLv2 Lic. …
 --------^
    16 |&lt;!DOCTYPE html&gt;
-   17 |&lt;html&gt;</pre></details></td><td>–</td></tr>
+   17 |&lt;html&gt;</pre></details><em></em></td><td>–</td></tr>
 <tr><td>48</td><td>⚠️</td><td>tumblr.com</td><td colspan="2">–</td></tr>
 <tr><td>49</td><td>⚠️</td><td>ntd.tv</td><td><details><summary>Error</summary><pre>Parse error: Colon is expected
    74 |
@@ -1240,7 +1507,7 @@ Update date: 2017-03-02T17:23:25.447Z
    76 |…color:#131313;}.daynight_dark_skin a.button{color:#fff;s}.daynight_dark_skin .header_search .searc…
 ----------------------------------------------------------------^
    77 |
-   78 |</pre></details></td><td>–</td></tr>
+   78 |</pre></details><em></em></td><td>–</td></tr>
 <tr><td>50</td><td>🆗</td><td>pornhub.com</td><td>OK</td><td>OK</td></tr>
 <tr><td>51</td><td>⚠️</td><td>stackoverflow.com</td><td><details><summary>Error</summary><pre>Parse error: Identifier `important` is expected
     1 |
@@ -1248,13 +1515,66 @@ Update date: 2017-03-02T17:23:25.447Z
     3 |…}pre{margin-bottom:1em;padding:5px;padding-bottom:20px !ie7;width:auto;width:650px !ie7;max-height…
 ----------------------------------------------------------------^
     4 |
-    5 |</pre></details></td><td>–</td></tr>
+    5 |</pre></details><em>Parser has no support for `!ie7` hack<br>Error is patched</em></td><td><details><summary>15 warnings (unique: 9)</summary><pre>* The rest part of value can't to be matched on `outline` syntax
+    syntax: [ &lt;'outline-color'&gt; || &lt;'outline-style'&gt; || &lt;'outline-width'&gt; ]
+     value: thin dotted \9
+    --------------------^
+* Unknown property: ms-display
+* The rest part of value can't to be matched on `max-height` syntax
+    syntax: &lt;length&gt; | &lt;percentage&gt; | none | max-content | min-content | fit-content | fill-available
+     value: 600px\9
+    -------------^
+* Invalid value for `display`
+    syntax: none | inline | block | list-item | inline-list-item | inline-block | inline-table | table | table-cell | table-column | table-column-group | table-footer-group | table-header-group | table-row | table-row-group | flex | inline-flex | grid | inline-grid | run-in | ruby | ruby-base | ruby-text | ruby-base-container | ruby-text-container | contents | -ms-flexbox | -ms-inline-flexbox | -ms-grid | -ms-inline-grid | -webkit-flex | -webkit-inline-flex | -webkit-box | -webkit-inline-box | -moz-inline-stack | -moz-box | -moz-inline-box
+     value: block\9
+    --------^
+* Invalid value for `max-height`
+    syntax: &lt;length&gt; | &lt;percentage&gt; | none | max-content | min-content | fit-content | fill-available
+     value: none\9
+    --------^
+* Invalid value for `align-items`
+    syntax: flex-start | flex-end | center | baseline | stretch
+     value: right
+    --------^
+* Invalid value for `display`
+    syntax: none | inline | block | list-item | inline-list-item | inline-block | inline-table | table | table-cell | table-column | table-column-group | table-footer-group | table-header-group | table-row | table-row-group | flex | inline-flex | grid | inline-grid | run-in | ruby | ruby-base | ruby-text | ruby-base-container | ruby-text-container | contents | -ms-flexbox | -ms-inline-flexbox | -ms-grid | -ms-inline-grid | -webkit-flex | -webkit-inline-flex | -webkit-box | -webkit-inline-box | -moz-inline-stack | -moz-box | -moz-inline-box
+     value: -ms-flex
+    --------^
+* Invalid value for `display`
+    syntax: none | inline | block | list-item | inline-list-item | inline-block | inline-table | table | table-cell | table-column | table-column-group | table-footer-group | table-header-group | table-row | table-row-group | flex | inline-flex | grid | inline-grid | run-in | ruby | ruby-base | ruby-text | ruby-base-container | ruby-text-container | contents | -ms-flexbox | -ms-inline-flexbox | -ms-grid | -ms-inline-grid | -webkit-flex | -webkit-inline-flex | -webkit-box | -webkit-inline-box | -moz-inline-stack | -moz-box | -moz-inline-box
+     value: -ms-flex
+    --------^
+* Unknown property: -webkit-align-item
+* Invalid value for `line-height`
+    syntax: normal | &lt;number&gt; | &lt;length&gt; | &lt;percentage&gt;
+     value: auto
+    --------^
+* Invalid value for `display`
+    syntax: none | inline | block | list-item | inline-list-item | inline-block | inline-table | table | table-cell | table-column | table-column-group | table-footer-group | table-header-group | table-row | table-row-group | flex | inline-flex | grid | inline-grid | run-in | ruby | ruby-base | ruby-text | ruby-base-container | ruby-text-container | contents | -ms-flexbox | -ms-inline-flexbox | -ms-grid | -ms-inline-grid | -webkit-flex | -webkit-inline-flex | -webkit-box | -webkit-inline-box | -moz-inline-stack | -moz-box | -moz-inline-box
+     value: -ms-flex
+    --------^
+* Invalid value for `white-space`
+    syntax: normal | pre | nowrap | pre-wrap | pre-line
+     value: -moz-pre-wrap
+    --------^
+* Invalid value for `white-space`
+    syntax: normal | pre | nowrap | pre-wrap | pre-line
+     value: -pre-wrap
+    --------^
+* Invalid value for `white-space`
+    syntax: normal | pre | nowrap | pre-wrap | pre-line
+     value: -o-pre-wrap
+    --------^
+* Invalid value for `display`
+    syntax: none | inline | block | list-item | inline-list-item | inline-block | inline-table | table | table-cell | table-column | table-column-group | table-footer-group | table-header-group | table-row | table-row-group | flex | inline-flex | grid | inline-grid | run-in | ruby | ruby-base | ruby-text | ruby-base-container | ruby-text-container | contents | -ms-flexbox | -ms-inline-flexbox | -ms-grid | -ms-inline-grid | -webkit-flex | -webkit-inline-flex | -webkit-box | -webkit-inline-box | -moz-inline-stack | -moz-box | -moz-inline-box
+     value: -ms-flex
+    --------^</pre></details></td></tr>
 <tr><td>52</td><td>⚠️</td><td>amazon.co.jp</td><td><details><summary>Error</summary><pre>Parse error: Identifier or asterisk is expected
   106 |
   107 |
   108 |…color:#FFF;vertical-align:baseline;white-space:nowrap}*|:-moz-full-screen-ancestor{transform:initi…
 ----------------------------------------------------------------^
-</pre></details></td><td>–</td></tr>
+</pre></details><em></em></td><td>–</td></tr>
 <tr><td>53</td><td>⚠️</td><td>livejasmin.com</td><td>OK</td><td><details><summary>63 warnings (unique: 12)</summary><pre>* Invalid value for `font-weight`
     syntax: normal | bold | bolder | lighter | 100 | 200 | 300 | 400 | 500 | 600 | 700 | 800 | 900
      value: "normal"
@@ -1510,7 +1830,7 @@ Update date: 2017-03-02T17:23:25.447Z
     7 |…ing .6s .3s linear infinite}@-webkit-keyframes loading{0,100%{-webkit-transform:translate(0,0);tra…
 ----------------------------------------------------------------^
     8 |
-    9 |</pre></details></td><td>–</td></tr>
+    9 |</pre></details><em></em></td><td>–</td></tr>
 <tr><td>55</td><td>⚠️</td><td>list.tmall.com</td><td colspan="2">–</td></tr>
 <tr><td>56</td><td>🆗</td><td>popads.net</td><td>OK</td><td>OK</td></tr>
 <tr><td>57</td><td>⚠️</td><td>imgur.com</td><td><details><summary>Error</summary><pre>Parse error: Selector is expected
@@ -1519,7 +1839,7 @@ Update date: 2017-03-02T17:23:25.447Z
    65 |…it-border-radius:inherit;opacity:inherit;border:inherit},.btn-test .btn-blue:hover{opacity:inherit…
 ----------------------------------------------------------------^
    66 |
-   67 |…idth:100%;text-decoration:none}.side-footer-links .combobox .more-arrow{display:block;width:0;heig…</pre></details></td><td>–</td></tr>
+   67 |…idth:100%;text-decoration:none}.side-footer-links .combobox .more-arrow{display:block;width:0;heig…</pre></details><em>Error is patched</em></td><td>–</td></tr>
 <tr><td>58</td><td>⚠️</td><td>office.com</td><td>OK</td><td><details><summary>1 warning (unique: 1)</summary><pre>* Invalid value for `text-rendering`
     syntax: auto | optimizeSpeed | optimizeLegibility | geometricPrecision
      value: opt imizeLegibility
@@ -1833,7 +2153,7 @@ Update date: 2017-03-02T17:23:25.447Z
   268 |…ht:34px;margin-right:3px;border:3px solid #2db400;_width//:372px;_height//:40px}
 ----------------------------------------------------------------^
   269 |…t-size:16px;color:#000;background-color:transparent;*ime-mode:active;outline:none}
-  270 |…naver.net/static/www/img/btn_search.png) no-repeat 2px 5px}</pre></details></td><td>–</td></tr>
+  270 |…naver.net/static/www/img/btn_search.png) no-repeat 2px 5px}</pre></details><em></em></td><td>–</td></tr>
 <tr><td>64</td><td>⚠️</td><td>apple.com</td><td>OK</td><td><details><summary>28 warnings (unique: 9)</summary><pre>* Unknown property: x-content
 * Unknown property: x-content
 * Unknown property: x-content
@@ -2108,14 +2428,14 @@ Update date: 2017-03-02T17:23:25.447Z
  3488 |  background-color: rgba(#fff, 0:global .95);
 ---------------------------------------^
  3489 |}
- 3490 |</pre></details></td><td>–</td></tr>
+ 3490 |</pre></details><em></em></td><td>–</td></tr>
 <tr><td>73</td><td>⚠️</td><td>github.com</td><td><details><summary>Error</summary><pre>Parse error: RightParenthesis is expected
     5 |
     6 |
     7 |…pped-e::after{right:100%}@media screen and (min-width: 0\0){.tooltipped-multiline::after{width:250…
 ----------------------------------------------------------------^
     8 |
-    9 |</pre></details></td><td>–</td></tr>
+    9 |</pre></details><em></em></td><td>–</td></tr>
 <tr><td>74</td><td>⚠️</td><td>google.co.id</td><td>OK</td><td><details><summary>14 warnings (unique: 7)</summary><pre>* Invalid value for `opacity`
     syntax: &lt;number-zero-one&gt;
      value: 1\0/
@@ -2178,7 +2498,7 @@ Update date: 2017-03-02T17:23:25.447Z
     9 |…fter{background-image:image-url(ie8/scroll-bottom-shadow.png)}@-webkit-keyframes ripple{from{-webk…
 ----------------------------------------------------------------^
    10 |
-   11 |…on:absolute;top:17px;right:0;content:" ";display:inline-block;height:14px;border-right:1px solid #…</pre></details></td><td>–</td></tr>
+   11 |…on:absolute;top:17px;right:0;content:" ";display:inline-block;height:14px;border-right:1px solid #…</pre></details><em></em></td><td>–</td></tr>
 <tr><td>76</td><td>⚠️</td><td>gmw.cn</td><td colspan="2">–</td></tr>
 <tr><td>77</td><td>⚠️</td><td>paypal.com</td><td>OK</td><td><details><summary>27 warnings (unique: 20)</summary><pre>* Invalid value for `width`
     syntax: [ &lt;length&gt; | &lt;percentage&gt; ] &amp;&amp; [ border-box | content-box ]? | available | min-content | max-content | fit-content | auto
@@ -2419,7 +2739,7 @@ Update date: 2017-03-02T17:23:25.447Z
    60 |…it;height:78vh}@media screen and (max-aspect-ratio:3/4),27.1875rem{body.social .hash-window{height…
 ----------------------------------------------------------------^
    61 |
-   62 |</pre></details></td><td>–</td></tr>
+   62 |</pre></details><em></em></td><td>–</td></tr>
 <tr><td>82</td><td>⚠️</td><td>wikia.com</td><td>OK</td><td><details><summary>8 warnings (unique: 7)</summary><pre>* Invalid value for `-webkit-align-items`
     syntax: flex-start | flex-end | center | baseline | stretch
      value: start
@@ -2459,14 +2779,14 @@ Update date: 2017-03-02T17:23:25.447Z
   128 |…;border-radius:3px;cursor:pointer}.c-btn selector-append(selector-append(.c-btn,:not(button)),:not…
 ----------------------------------------------------------------^
   129 |
-  130 |</pre></details></td><td>–</td></tr>
+  130 |</pre></details><em></em></td><td>–</td></tr>
 <tr><td>85</td><td>⚠️</td><td>googleusercontent.com</td><td colspan="2">–</td></tr>
 <tr><td>86</td><td>⚠️</td><td>amazon.de</td><td><details><summary>Error</summary><pre>Parse error: Identifier or asterisk is expected
   106 |
   107 |
   108 |…color:#FFF;vertical-align:baseline;white-space:nowrap}*|:-moz-full-screen-ancestor{transform:initi…
 ----------------------------------------------------------------^
-</pre></details></td><td>–</td></tr>
+</pre></details><em></em></td><td>–</td></tr>
 <tr><td>87</td><td>⚠️</td><td>google.com.eg</td><td>OK</td><td><details><summary>14 warnings (unique: 7)</summary><pre>* Invalid value for `opacity`
     syntax: &lt;number-zero-one&gt;
      value: 1\0/
@@ -2641,7 +2961,7 @@ Update date: 2017-03-02T17:23:25.447Z
   697 |.heada_plus_search_form{padding:32px 0 0 0; #padding:18px 0 0 0; /* IE6-7hack */}
 ---------------------------------------------------^
   698 |.heada_plus_search_form_text{width:186px; border-top:1px solid #999; border-left:1px solid #999; b…
-  699 |div#main{clear:both; position:relative; min-height:0px; width:680px; float:right; text-align:left;…</pre></details></td><td>–</td></tr>
+  699 |div#main{clear:both; position:relative; min-height:0px; width:680px; float:right; text-align:left;…</pre></details><em></em></td><td>–</td></tr>
 <tr><td>91</td><td>⚠️</td><td>google.pl</td><td>OK</td><td><details><summary>14 warnings (unique: 7)</summary><pre>* Invalid value for `opacity`
     syntax: &lt;number-zero-one&gt;
      value: 1\0/
@@ -2860,7 +3180,7 @@ Update date: 2017-03-02T17:23:25.447Z
    34 |}
 -------^
    35 |#tools-tabs .panel .code.small p{
-   36 |    font-size: 11px;</pre></details></td><td>–</td></tr>
+   36 |    font-size: 11px;</pre></details><em></em></td><td>–</td></tr>
 <tr><td>95</td><td>⚠️</td><td>google.com.pk</td><td>OK</td><td><details><summary>14 warnings (unique: 7)</summary><pre>* Invalid value for `opacity`
     syntax: &lt;number-zero-one&gt;
      value: 1\0/
@@ -3066,7 +3386,7 @@ Update date: 2017-03-02T17:23:25.447Z
   101 |
   102 |…color:#FFF;vertical-align:baseline;white-space:nowrap}*|:-moz-full-screen-ancestor{transform:initi…
 ----------------------------------------------------------------^
-</pre></details></td><td>–</td></tr>
+</pre></details><em></em></td><td>–</td></tr>
 <tr><td>100</td><td>⚠️</td><td>ask.com</td><td>OK</td><td><details><summary>1 warning (unique: 1)</summary><pre>* Invalid value for `background`
     syntax: [ &lt;bg-layer&gt; , ]* &lt;final-bg-layer&gt;
      value: linear-gradient(top,#0062b2,#0062b2)
@@ -3126,7 +3446,7 @@ Update date: 2017-03-02T17:23:25.447Z
    99 |
   100 |…color:#FFF;vertical-align:baseline;white-space:nowrap}*|:-moz-full-screen-ancestor{transform:initi…
 ----------------------------------------------------------------^
-</pre></details></td><td>–</td></tr>
+</pre></details><em></em></td><td>–</td></tr>
 <tr><td>108</td><td>⚠️</td><td>bbc.com</td><td>OK</td><td><details><summary>90 warnings (unique: 9)</summary><pre>* Invalid value for `border-right-color`
     syntax: &lt;color&gt;
      value: 12px solid #1d90cf
@@ -3721,13 +4041,13 @@ Update date: 2017-03-02T17:23:25.447Z
  6669 |   // border-top: 6px solid #ff0000;
 ------------^
  6670 |}
- 6671 |.weather h1{</pre></details></td><td>–</td></tr>
+ 6671 |.weather h1{</pre></details><em></em></td><td>–</td></tr>
 <tr><td>113</td><td>⚠️</td><td>porn555.com</td><td><details><summary>Error</summary><pre>Parse error: Unexpected input
     1 |
     2 |
     3 |…px}.taglist .tag-modern.tag-girlfriend{background-color:$tag-surprise;color:#fff}.categories_list{…
 ----------------------------------------------------------------^
-</pre></details></td><td>–</td></tr>
+</pre></details><em></em></td><td>–</td></tr>
 <tr><td>114</td><td>🆗</td><td>dailymotion.com</td><td>OK</td><td>OK</td></tr>
 <tr><td>115</td><td>⚠️</td><td>ebay.de</td><td><details><summary>Error</summary><pre>Parse error: Unexpected input
     5 |
@@ -3735,7 +4055,7 @@ Update date: 2017-03-02T17:23:25.447Z
     7 |…idth:100%;height:100%;background:#000;opacity:.6;filter:~"alpha(opacity=60)";filter:~"progid:DXIma…
 ----------------------------------------------------------------^
     8 |
-    9 |</pre></details></td><td>–</td></tr>
+    9 |</pre></details><em></em></td><td>–</td></tr>
 <tr><td>116</td><td>⚠️</td><td>china.com</td><td colspan="2">–</td></tr>
 <tr><td>117</td><td>⚠️</td><td>adexchangeprediction.com</td><td colspan="2">–</td></tr>
 <tr><td>118</td><td>⚠️</td><td>alibaba.com</td><td><details><summary>Error</summary><pre>Parse error: LeftCurlyBracket is expected
@@ -3744,21 +4064,21 @@ Update date: 2017-03-02T17:23:25.447Z
    22 |…DHYj9AAA) format('woff')}@font-face{font-family:ui2-icon;src:url(/sc-aisn/node_modules/@alife/alph…
 ----------------------------------------------------------------^
    23 |
-   24 |</pre></details></td><td>–</td></tr>
+   24 |</pre></details><em></em></td><td>–</td></tr>
 <tr><td>119</td><td>⚠️</td><td>booking.com</td><td><details><summary>Error</summary><pre>Parse error: Identifier is expected
     5 |…:#0898ff;margin-bottom:5px}.b_map_custom_zoom div.leaflet-control-zoom{-webkit-box-shadow:none;box…
     6 |
     7 |…osition:relative}.sb-dates.-side_by_side .sb-dates__col.--checkout-field{padding-left:1px}.sb-date…
 ----------------------------------------------------------------^
     8 |
-    9 |</pre></details></td><td>–</td></tr>
+    9 |</pre></details><em></em></td><td>–</td></tr>
 <tr><td>120</td><td>⚠️</td><td>rakuten.co.jp</td><td><details><summary>Error</summary><pre>Parse error: Selector is expected
   517 |
   518 |/**** inline ****/
   519 |&lt;!--
 -------^
   520 |/* ad_liquid_lideshow styles */
-  521 |div.ad-slideshow-existItemDisplay{position:relative; min-width:456px; margin: 10px 0;}</pre></details></td><td>–</td></tr>
+  521 |div.ad-slideshow-existItemDisplay{position:relative; min-width:456px; margin: 10px 0;}</pre></details><em></em></td><td>–</td></tr>
 <tr><td>121</td><td>🆗</td><td>soundcloud.com</td><td>OK</td><td>OK</td></tr>
 <tr><td>122</td><td>⚠️</td><td>login.tmall.com</td><td>OK</td><td><details><summary>4 warnings (unique: 4)</summary><pre>* Invalid value for `filter`
     syntax: none | &lt;filter-function-list&gt; | &lt;-ms-filter&gt;
@@ -3873,21 +4193,21 @@ Update date: 2017-03-02T17:23:25.447Z
    10 |
    11 |…over{background:#8aac42}@-webkit-keyframes menu_bounce{0,100%{-webkit-transform:translateY(0);tran…
 ----------------------------------------------------------------^
-</pre></details></td><td>–</td></tr>
+</pre></details><em></em></td><td>–</td></tr>
 <tr><td>128</td><td>⚠️</td><td>nytimes.com</td><td><details><summary>Error</summary><pre>Parse error: Unexpected input
   139 |
   140 |.ab-column .collection article ul li:last-child, .span-abc-region .collection article ul li:last-c…
   141 |    margin-bottom: 0=;
 ---------------------------^
   142 |}
-  143 |</pre></details></td><td>–</td></tr>
+  143 |</pre></details><em></em></td><td>–</td></tr>
 <tr><td>129</td><td>⚠️</td><td>xvideos.com</td><td><details><summary>Error</summary><pre>Parse error: RightParenthesis is expected
    52 |
    53 |
    54 |…olid #fff;padding:5px 1px 0 1px}.thumb-block:nth-child(3+1){clear:none}.thumbs-4 .thumb-block{widt…
 ----------------------------------------------------------------^
    55 |
-   56 |</pre></details></td><td>–</td></tr>
+   56 |</pre></details><em></em></td><td>–</td></tr>
 <tr><td>130</td><td>⚠️</td><td>tribunnews.com</td><td>OK</td><td><details><summary>14 warnings (unique: 12)</summary><pre>* Unknown property: font-smooth
 * Unknown property: -moz-font-smoothing
 * Unknown property: font-smoothing
@@ -3984,20 +4304,20 @@ Update date: 2017-03-02T17:23:25.447Z
  6511 |	margin-top: 0;
  6512 |}
 --------^
- 6513 |</pre></details></td><td>–</td></tr>
+ 6513 |</pre></details><em></em></td><td>–</td></tr>
 <tr><td>133</td><td>⚠️</td><td>amazonaws.com</td><td><details><summary>Error</summary><pre>Parse error: LeftCurlyBracket is expected
     5 |.js-mbox{visibility:visible;}
     6 |/**** https://a0.awsstatic.com/main/css/1.0.289/style.css ****/
     7 |﻿@font-face{font-family:'FontAwesome';src:url("../../fonts/fontawesome/4.2.0/fontawesome-webfont.e…
 --------^
     8 | *  Font Awesome 3.1.0
-    9 | *  the iconic font designed for Bootstrap</pre></details></td><td>–</td></tr>
+    9 | *  the iconic font designed for Bootstrap</pre></details><em></em></td><td>–</td></tr>
 <tr><td>134</td><td>⚠️</td><td>vice.com</td><td><details><summary>Error</summary><pre>Parse error: Unexpected input
     9 |
    10 |
    11 |…e}.col__2:last-child{margin-right:0}.col__2:nth-child(10pxn){margin-right:0;float:right}.col__2:nt…
 ----------------------------------------------------------------^
-</pre></details></td><td>–</td></tr>
+</pre></details><em></em></td><td>–</td></tr>
 <tr><td>135</td><td>⚠️</td><td>onlinesbi.com</td><td colspan="2">–</td></tr>
 <tr><td>136</td><td>⚠️</td><td>google.co.za</td><td>OK</td><td><details><summary>14 warnings (unique: 7)</summary><pre>* Invalid value for `opacity`
     syntax: &lt;number-zero-one&gt;
@@ -4061,7 +4381,7 @@ Update date: 2017-03-02T17:23:25.447Z
     7 |…idth:100%;height:100%;background:#000;opacity:.6;filter:~"alpha(opacity=60)";filter:~"progid:DXIma…
 ----------------------------------------------------------------^
     8 |
-    9 |</pre></details></td><td>–</td></tr>
+    9 |</pre></details><em></em></td><td>–</td></tr>
 <tr><td>138</td><td>⚠️</td><td>daikynguyenvn.com</td><td>OK</td><td><details><summary>19 warnings (unique: 12)</summary><pre>* Unknown property: webkit-transition
 * Unknown property: webkit-transition
 * Unknown property: font-smooth
@@ -4188,7 +4508,7 @@ Update date: 2017-03-02T17:23:25.447Z
  1614 |.btm p{ font:normal 12px/24px 'Microsoft YaHei'; text-align:center;}
 ---------------------------------------------------------------------------^
  1615 |
- 1616 |</pre></details></td><td>–</td></tr>
+ 1616 |</pre></details><em></em></td><td>–</td></tr>
 <tr><td>142</td><td>⚠️</td><td>avito.ru</td><td>OK</td><td><details><summary>3 warnings (unique: 3)</summary><pre>* The rest part of value can't to be matched on `-webkit-transition` syntax
     syntax: &lt;single-transition&gt;#
      value: border-color 0
@@ -4206,7 +4526,7 @@ Update date: 2017-03-02T17:23:25.447Z
     4 |
     5 |…ont-size:12px}pre{overflow:auto;width:auto;width:650px !ie7;padding-bottom:20px !ie7;max-height:60…
 ----------------------------------------------------------------^
-</pre></details></td><td>–</td></tr>
+</pre></details><em></em></td><td>–</td></tr>
 <tr><td>144</td><td>⚠️</td><td>google.gr</td><td>OK</td><td><details><summary>14 warnings (unique: 7)</summary><pre>* Invalid value for `opacity`
     syntax: &lt;number-zero-one&gt;
      value: 1\0/
@@ -4269,7 +4589,7 @@ Update date: 2017-03-02T17:23:25.447Z
     6 |
     7 |…ckquote&gt;ul li li{padding-bottom:0;padding-top:.7em}:not('.results_frame') .rendered_qtext&gt;ol li,:n…
 ----------------------------------------------------------------^
-</pre></details></td><td>–</td></tr>
+</pre></details><em></em></td><td>–</td></tr>
 <tr><td>147</td><td>⚠️</td><td>cctv.com</td><td colspan="2">–</td></tr>
 <tr><td>148</td><td>⚠️</td><td>google.com.vn</td><td>OK</td><td><details><summary>14 warnings (unique: 7)</summary><pre>* Invalid value for `opacity`
     syntax: &lt;number-zero-one&gt;
@@ -4337,7 +4657,7 @@ Update date: 2017-03-02T17:23:25.447Z
     5 |…nk_main { display: block; width: 310px; overflow: hidden: text-overflow: ellipsis; } a.customurl_c…
 ----------------------------------------------------------------^
     6 |
-    7 |…pha(opacity = 50); } /*+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++…</pre></details></td><td>–</td></tr>
+    7 |…pha(opacity = 50); } /*+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++…</pre></details><em></em></td><td>–</td></tr>
 <tr><td>151</td><td>⚠️</td><td>google.com.co</td><td>OK</td><td><details><summary>14 warnings (unique: 7)</summary><pre>* Invalid value for `opacity`
     syntax: &lt;number-zero-one&gt;
      value: 1\0/
@@ -4404,7 +4724,7 @@ Update date: 2017-03-02T17:23:25.447Z
  1938 |width =300;
 -------------^
  1939 |height =200;
- 1940 |}</pre></details></td><td>–</td></tr>
+ 1940 |}</pre></details><em></em></td><td>–</td></tr>
 <tr><td>154</td><td>⚠️</td><td>theguardian.com</td><td>OK</td><td><details><summary>12 warnings (unique: 5)</summary><pre>* The rest part of value can't to be matched on `top` syntax
     syntax: &lt;length&gt; | &lt;percentage&gt; | auto
      value: 2.25rem 0.25rem
@@ -4518,7 +4838,7 @@ Update date: 2017-03-02T17:23:25.447Z
     9 |…;border-radius:0 2px 2px 0;width:100%;position:relative;.O8ZS_U{position:relative;display:inline-b…
 ----------------------------------------------------------------^
    10 |…rgba(0,0,0,.1);padding:11px 12px 12px 10px;background:#fff}._26KFgP ._2rDH5A ._1SGGHk{fill:#ff6161…
-   11 |</pre></details></td><td>–</td></tr>
+   11 |</pre></details><em></em></td><td>–</td></tr>
 <tr><td>160</td><td>⚠️</td><td>theladbible.com</td><td>OK</td><td><details><summary>2 warnings (unique: 2)</summary><pre>* The rest part of value can't to be matched on `-webkit-transition` syntax
     syntax: &lt;single-transition&gt;#
      value: visibility 0 linear 0,opacity 1s 0
@@ -5419,7 +5739,7 @@ Update date: 2017-03-02T17:23:25.447Z
  2405 |			background: -webkit-linear-gradient( -60deg, #417a9b 5%,#67c1f5 95%););background: linear-gradi…
 -------------------------------------------------------------------------------^
  2406 |
- 2407 |	.btnv6_blue_hoverfade:not(.btn_disabled):not(:disabled):not(.btn_active):not(.active):hover &gt; spa…</pre></details></td><td>–</td></tr>
+ 2407 |	.btnv6_blue_hoverfade:not(.btn_disabled):not(:disabled):not(.btn_active):not(.active):hover &gt; spa…</pre></details><em></em></td><td>–</td></tr>
 <tr><td>167</td><td>⚠️</td><td>softonic.com</td><td>OK</td><td><details><summary>1 warning (unique: 1)</summary><pre>* Invalid value for `line-height`
     syntax: normal | &lt;number&gt; | &lt;length&gt; | &lt;percentage&gt;
      value: auto
@@ -5429,7 +5749,7 @@ Update date: 2017-03-02T17:23:25.447Z
     2 |
     3 |…/placar-futebol-gol.css */@-webkit-keyframes placarGol{0{background-position:-202px -35px}5%{backg…
 ----------------------------------------------------------------^
-</pre></details></td><td>–</td></tr>
+</pre></details><em></em></td><td>–</td></tr>
 <tr><td>169</td><td>🆗</td><td>cnzz.com</td><td>OK</td><td>OK</td></tr>
 <tr><td>170</td><td>⚠️</td><td>chaturbate.com</td><td>OK</td><td><details><summary>7 warnings (unique: 6)</summary><pre>* Invalid value for `filter`
     syntax: none | &lt;filter-function-list&gt; | &lt;-ms-filter&gt;
@@ -5468,7 +5788,7 @@ Update date: 2017-03-02T17:23:25.447Z
   180 |…ute;top:36px;right:0;bottom:50px;left:0;height:calc(1 - $control-bar-height);z-index:900;-webkit-t…
 ----------------------------------------------------------------^
   181 |
-  182 |</pre></details></td><td>–</td></tr>
+  182 |</pre></details><em></em></td><td>–</td></tr>
 <tr><td>173</td><td>⚠️</td><td>google.com.ua</td><td>OK</td><td><details><summary>14 warnings (unique: 7)</summary><pre>* Invalid value for `opacity`
     syntax: &lt;number-zero-one&gt;
      value: 1\0/
@@ -5842,28 +6162,28 @@ Update date: 2017-03-02T17:23:25.447Z
     3 |…:75px;margin-top:50px;background:img(/img/huaban_loading.gif) 0 0 no-repeat;color:#999;font-size:1…
 ----------------------------------------------------------------^
     4 |
-    5 |</pre></details></td><td>–</td></tr>
+    5 |</pre></details><em></em></td><td>–</td></tr>
 <tr><td>181</td><td>⚠️</td><td>kinogo.club</td><td><details><summary>Error</summary><pre>Parse error: Colon is expected
     7 |
     8 |
     9 |…order:0;padding:1px!important}@media all and (resolution=0){.b-share-popup,x:nth-child(1),x:-o-pre…
 ----------------------------------------------------------------^
    10 |
-   11 |</pre></details></td><td>–</td></tr>
+   11 |</pre></details><em></em></td><td>–</td></tr>
 <tr><td>182</td><td>⚠️</td><td>w3schools.com</td><td><details><summary>Error</summary><pre>Parse error: Identifier is expected
   627 |
   628 |
   629 |…active,#goog-gt-tt .translate-form .activity-form input:.focus:active{box-shadow:inset 0 0 0 1px r…
 ----------------------------------------------------------------^
   630 |
-  631 |</pre></details></td><td>–</td></tr>
+  631 |</pre></details><em></em></td><td>–</td></tr>
 <tr><td>183</td><td>⚠️</td><td>wittyfeed.com</td><td><details><summary>Error</summary><pre>Parse error: Unexpected input
    43 |…ow:hidden;}.flex-control-thumbs li{width:25%;float:left;margin:0;}.flex-control-thumbs img{width:1…
    44 |
    45 |…ut:focus{border:0px;box-shadow:none;margin-top:3px width: 99%;padding:5px 15px;color:#000;}.main-s…
 ----------------------------------------------------------------^
    46 |
-   47 |…ategories_rowListli&gt;ul.cateList&gt;li&gt;a.active&gt;svg,a.language-toggle.active span.down-svg&gt;svg{transfo…</pre></details></td><td>–</td></tr>
+   47 |…ategories_rowListli&gt;ul.cateList&gt;li&gt;a.active&gt;svg,a.language-toggle.active span.down-svg&gt;svg{transfo…</pre></details><em></em></td><td>–</td></tr>
 <tr><td>184</td><td>⚠️</td><td>google.com.sg</td><td>OK</td><td><details><summary>14 warnings (unique: 7)</summary><pre>* Invalid value for `opacity`
     syntax: &lt;number-zero-one&gt;
      value: 1\0/
@@ -6048,14 +6368,14 @@ Update date: 2017-03-02T17:23:25.447Z
   117 |
   118 |…ansform-style:preserve-3d;transform-style:preserve-3d;// -webkit-perspective:1000px;// -moz-perspe…
 ----------------------------------------------------------------^
-</pre></details></td><td>–</td></tr>
+</pre></details><em></em></td><td>–</td></tr>
 <tr><td>188</td><td>⚠️</td><td>abs-cbn.com</td><td><details><summary>Error</summary><pre>Parse error: Unexpected input
    19 |
    20 |
    21 |…:relative}.rangeslider--disabled{filter:DXImageTransform.Microsoft.Alpha(Opacity=40);opacity:.4}.r…
 ----------------------------------------------------------------^
    22 |
-   23 |</pre></details></td><td>–</td></tr>
+   23 |</pre></details><em></em></td><td>–</td></tr>
 <tr><td>189</td><td>⚠️</td><td>google.az</td><td>OK</td><td><details><summary>14 warnings (unique: 7)</summary><pre>* Invalid value for `opacity`
     syntax: &lt;number-zero-one&gt;
      value: 1\0/
@@ -6118,7 +6438,7 @@ Update date: 2017-03-02T17:23:25.447Z
    30 |…tio: 1.3), only screen and (-o-min-device-pixel-ratio: 1.3 / 1), only screen and (min-resolution: …
 ----------------------------------------------------------------^
    31 |
-   32 |</pre></details></td><td>–</td></tr>
+   32 |</pre></details><em></em></td><td>–</td></tr>
 <tr><td>191</td><td>⚠️</td><td>roblox.com</td><td>OK</td><td><details><summary>16 warnings (unique: 8)</summary><pre>* Invalid value for `width`
     syntax: [ &lt;length&gt; | &lt;percentage&gt; ] &amp;&amp; [ border-box | content-box ]? | available | min-content | max-content | fit-content | auto
      value: device-width
@@ -6189,27 +6509,27 @@ Update date: 2017-03-02T17:23:25.447Z
    13 |…em !important;padding-right:0.3125rem !important}@media {.pb-c-top-table-x-wide .top-table-col.mob…
 ----------------------------------------------------------------^
    14 |
-   15 |</pre></details></td><td>–</td></tr>
+   15 |</pre></details><em></em></td><td>–</td></tr>
 <tr><td>193</td><td>⚠️</td><td>huffingtonpost.com</td><td><details><summary>Error</summary><pre>Parse error: LeftCurlyBracket is expected
    44 | #topnav_margin_btm { margin: 0 !important; } 
    45 |/**** //s.m.huffpost.com/assets/desktop-517d8c7ca8f70f4314c9a783c0a9a1463466a0f31699699612f3d6018e…
    46 |﻿@font-face{font-family:"huffington-icons";font-style:normal;font-weight:normal;src:url(//s.m.huff…
 --------^
-   47 |</pre></details></td><td>–</td></tr>
+   47 |</pre></details><em></em></td><td>–</td></tr>
 <tr><td>194</td><td>⚠️</td><td>123movies.is</td><td><details><summary>Error</summary><pre>Parse error: Identifier is expected
   770 |    #mv-info .mvi-content .mvic-desc{ border-right: 0; padding-right: 0; width: 660px;}
   771 |    .mlw-related .movies-list .ml-item{ height: 240px;}
   772 |    .jwplayer,#123movies-player iframe{ height: 470px !important;}
 ----------------------^
   773 |    .infopage .uc-form{ width: 95%;}
-  774 |    footer .footer-one, footer .footer-subs{ width: 50%;}</pre></details></td><td>–</td></tr>
+  774 |    footer .footer-one, footer .footer-subs{ width: 50%;}</pre></details><em></em></td><td>–</td></tr>
 <tr><td>195</td><td>⚠️</td><td>china.com.cn</td><td><details><summary>Error</summary><pre>Parse error: Selector is expected
     2 |/**** inline ****/
     3 |
     4 |&lt;!--
 -------^
     5 |.dropdown { float:left }
-    6 |.dropdown dt { width:65px; cursor:pointer; }</pre></details></td><td>–</td></tr>
+    6 |.dropdown dt { width:65px; cursor:pointer; }</pre></details><em></em></td><td>–</td></tr>
 <tr><td>196</td><td>⚠️</td><td>gfycat.com</td><td>OK</td><td><details><summary>29 warnings (unique: 17)</summary><pre>* The rest part of value can't to be matched on `margin-top` syntax
     syntax: &lt;length&gt; | &lt;percentage&gt; | auto
      value: 1px\9
@@ -6314,7 +6634,7 @@ Update date: 2017-03-02T17:23:25.447Z
   551 |.H_disabled .H_pano_mm svg.H_icon, {
 ------------------------------------------^
   552 |  fill: #ddd;
-  553 |  stroke: #5A6166;</pre></details></td><td>–</td></tr>
+  553 |  stroke: #5A6166;</pre></details><em></em></td><td>–</td></tr>
 <tr><td>198</td><td>🆗</td><td>buzzfeed.com</td><td>OK</td><td>OK</td></tr>
 <tr><td>199</td><td>⚠️</td><td>github.io</td><td>OK</td><td><details><summary>1 warning (unique: 1)</summary><pre>* Invalid value for `background`
     syntax: [ &lt;bg-layer&gt; , ]* &lt;final-bg-layer&gt;
@@ -6404,13 +6724,13 @@ Update date: 2017-03-02T17:23:25.447Z
   423 |…58.333333333333336%}.col-sm-8{width:66.66666666666666%}.
 ----------------------------------------------------------------^
   424 |…:91.66666666666666%}.col-sm-12{width:100%}.col-sm-push-1{left:8.333333333333332%}
-  425 |…-push-4{left:33.33333333333333%}.col-sm-push-5{left:41.66666666666667%}</pre></details></td><td>–</td></tr>
+  425 |…-push-4{left:33.33333333333333%}.col-sm-push-5{left:41.66666666666667%}</pre></details><em></em></td><td>–</td></tr>
 <tr><td>203</td><td>⚠️</td><td>walmart.com</td><td><details><summary>Error</summary><pre>Parse error: Unexpected input
    13 |
    14 |
    15 |…ibility:hidden;margin-right:.625em}.ada-label{font-size:$font-size-small;color:#707070;margin-left…
 ----------------------------------------------------------------^
-   16 |</pre></details></td><td>–</td></tr>
+   16 |</pre></details><em></em></td><td>–</td></tr>
 <tr><td>204</td><td>⚠️</td><td>google.at</td><td>OK</td><td><details><summary>14 warnings (unique: 7)</summary><pre>* Invalid value for `opacity`
     syntax: &lt;number-zero-one&gt;
      value: 1\0/
@@ -6622,7 +6942,7 @@ Update date: 2017-03-02T17:23:25.447Z
     9 |
    10 |…447_5_0.ttf") format("truetype")}@font-face{font-family:"wicons";src:url("https://cdn2.editmysite.…
 ----------------------------------------------------------------^
-   11 |</pre></details></td><td>–</td></tr>
+   11 |</pre></details><em></em></td><td>–</td></tr>
 <tr><td>209</td><td>⚠️</td><td>prestoris.com</td><td>OK</td><td><details><summary>14 warnings (unique: 7)</summary><pre>* Invalid value for `opacity`
     syntax: &lt;number-zero-one&gt;
      value: 1\0/
@@ -6742,7 +7062,7 @@ Update date: 2017-03-02T17:23:25.447Z
     4 |…-colors .card.buyer-card .card-meta-row-item:nth-child(n2):before,.ds-reduced-colors .card.buyer-c…
 ----------------------------------------------------------------^
     5 |
-    6 |</pre></details></td><td>–</td></tr>
+    6 |</pre></details><em></em></td><td>–</td></tr>
 <tr><td>213</td><td>⚠️</td><td>reimageplus.com</td><td>OK</td><td><details><summary>1 warning (unique: 1)</summary><pre>* Invalid value for `border-bottom-color`
     syntax: &lt;color&gt;
      value: 2f 5bb 7
@@ -6753,7 +7073,7 @@ Update date: 2017-03-02T17:23:25.447Z
  1942 |@media 480px{.campaign_header.full_height{height:calc(80vh - 10px)}
 --------------^
  1943 |}
- 1944 |@media screen and (max-height:550px){.campaign_header.full_height h1{margin-top:50px}</pre></details></td><td>–</td></tr>
+ 1944 |@media screen and (max-height:550px){.campaign_header.full_height h1{margin-top:50px}</pre></details><em></em></td><td>–</td></tr>
 <tr><td>215</td><td>⚠️</td><td>9gag.com</td><td>OK</td><td><details><summary>2 warnings (unique: 1)</summary><pre>* The rest part of value can't to be matched on `-webkit-transition` syntax
     syntax: &lt;single-transition&gt;#
      value: opacity .1s ease 0
@@ -7136,7 +7456,7 @@ Update date: 2017-03-02T17:23:25.447Z
    45 |…7px;max-height:80px}#channelRegistration .form_username{(-bracket-:hack;margin-left:1px;)}.regForm…
 ----------------------------------------------------------------^
    46 |
-   47 |</pre></details></td><td>–</td></tr>
+   47 |</pre></details><em></em></td><td>–</td></tr>
 <tr><td>219</td><td>⚠️</td><td>google.ch</td><td>OK</td><td><details><summary>14 warnings (unique: 7)</summary><pre>* Invalid value for `opacity`
     syntax: &lt;number-zero-one&gt;
      value: 1\0/
@@ -7199,7 +7519,7 @@ Update date: 2017-03-02T17:23:25.447Z
  3488 |  background-color: rgba(#fff, 0:global .95);
 ---------------------------------------^
  3489 |}
- 3490 |</pre></details></td><td>–</td></tr>
+ 3490 |</pre></details><em></em></td><td>–</td></tr>
 <tr><td>221</td><td>⚠️</td><td>tokopedia.com</td><td>OK</td><td><details><summary>70 warnings (unique: 30)</summary><pre>* Invalid value for `width`
     syntax: [ &lt;length&gt; | &lt;percentage&gt; ] &amp;&amp; [ border-box | content-box ]? | available | min-content | max-content | fit-content | auto
      value: auto\9
@@ -7633,20 +7953,20 @@ Update date: 2017-03-02T17:23:25.447Z
    13 |…;-webkit-transform-style:preserve-3d moz-transform-style: preserve-3d;transform-style:preserve-3d;…
 ----------------------------------------------------------------^
    14 |
-   15 |…dth:100%;height:100%;position:absolute;top:0;left:0;background:#000;*background:0 0}.row-4 .theatr…</pre></details></td><td>–</td></tr>
+   15 |…dth:100%;height:100%;position:absolute;top:0;left:0;background:#000;*background:0 0}.row-4 .theatr…</pre></details><em></em></td><td>–</td></tr>
 <tr><td>227</td><td>⚠️</td><td>weather.com</td><td><details><summary>Error</summary><pre>Parse error: Unexpected input
    58 |
    59 |
    60 |…,.today_nowcard-sidecar td{padding-top:10px;first-child:.today_nowcard-sidecar th,.today_nowcard-s…
 ----------------------------------------------------------------^
    61 |…glomo_social_sharing .social-wrapper.horizontalStatic .twc-social-bar{max-width:300px !important;}…
-   62 |</pre></details></td><td>–</td></tr>
+   62 |</pre></details><em></em></td><td>–</td></tr>
 <tr><td>228</td><td>⚠️</td><td>amazon.fr</td><td><details><summary>Error</summary><pre>Parse error: Identifier or asterisk is expected
   101 |
   102 |
   103 |…color:#FFF;vertical-align:baseline;white-space:nowrap}*|:-moz-full-screen-ancestor{transform:initi…
 ----------------------------------------------------------------^
-</pre></details></td><td>–</td></tr>
+</pre></details><em></em></td><td>–</td></tr>
 <tr><td>229</td><td>⚠️</td><td>ameblo.jp</td><td>OK</td><td><details><summary>1 warning (unique: 1)</summary><pre>* Invalid value for `background`
     syntax: [ &lt;bg-layer&gt; , ]* &lt;final-bg-layer&gt;
      value: #666\9
@@ -7693,7 +8013,7 @@ Update date: 2017-03-02T17:23:25.447Z
    29 |
    30 |…p-module a{color:#fff;text-decoration:none;bottom:border:0}.hp-sign-in-pbi-hp-module a:focus,.hp-s…
 ----------------------------------------------------------------^
-</pre></details></td><td>–</td></tr>
+</pre></details><em></em></td><td>–</td></tr>
 <tr><td>234</td><td>⚠️</td><td>google.cl</td><td>OK</td><td><details><summary>14 warnings (unique: 7)</summary><pre>* Invalid value for `opacity`
     syntax: &lt;number-zero-one&gt;
      value: 1\0/
@@ -7755,7 +8075,7 @@ Update date: 2017-03-02T17:23:25.447Z
    99 |
   100 |…color:#FFF;vertical-align:baseline;white-space:nowrap}*|:-moz-full-screen-ancestor{transform:initi…
 ----------------------------------------------------------------^
-</pre></details></td><td>–</td></tr>
+</pre></details><em></em></td><td>–</td></tr>
 <tr><td>236</td><td>🆗</td><td>k618.cn</td><td>OK</td><td>OK</td></tr>
 <tr><td>237</td><td>⚠️</td><td>nicovideo.jp</td><td><details><summary>Error</summary><pre>Parse error: Colon is expected
    29 |.realdabista_logo {
@@ -7763,14 +8083,14 @@ Update date: 2017-03-02T17:23:25.447Z
    31 |  z-index 2;
 -----------------^
    32 |  top: 10px;
-   33 |  left: 5px;</pre></details></td><td>–</td></tr>
+   33 |  left: 5px;</pre></details><em></em></td><td>–</td></tr>
 <tr><td>238</td><td>⚠️</td><td>rolloid.net</td><td><details><summary>Error</summary><pre>Parse error: RightParenthesis is expected
     5 |
     6 |
     7 |…9bed 100%);background:-o-linear-gradient(top,#008be8 0%,@mobileu_gradient_two_mob 100%);background…
 ----------------------------------------------------------------^
     8 |
-    9 |</pre></details></td><td>–</td></tr>
+    9 |</pre></details><em></em></td><td>–</td></tr>
 <tr><td>239</td><td>⚠️</td><td>google.ae</td><td>OK</td><td><details><summary>14 warnings (unique: 7)</summary><pre>* Invalid value for `opacity`
     syntax: &lt;number-zero-one&gt;
      value: 1\0/
@@ -8108,7 +8428,7 @@ Update date: 2017-03-02T17:23:25.447Z
    78 |…ke--v4 .b-flatrepost-reposted .b-flatrepost-name:before. .lj-like--v4 .b-flatrepost-reposted .b-fl…
 ----------------------------------------------------------------^
    79 |
-   80 |</pre></details></td><td>–</td></tr>
+   80 |</pre></details><em></em></td><td>–</td></tr>
 <tr><td>246</td><td>🆗</td><td>skype.com</td><td>OK</td><td>OK</td></tr>
 <tr><td>247</td><td>⚠️</td><td>39.net</td><td colspan="2">–</td></tr>
 <tr><td>248</td><td>⚠️</td><td>wordpress.org</td><td>OK</td><td><details><summary>4 warnings (unique: 3)</summary><pre>* The rest part of value can't to be matched on `-webkit-transition` syntax

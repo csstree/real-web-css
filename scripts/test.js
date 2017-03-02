@@ -6,6 +6,7 @@ var dir = path.join(__dirname, '../data');
 var sites = require('./sites');
 var readmeFile = path.join(__dirname, '../README.md');
 var readme = fs.readFileSync(readmeFile, 'utf-8');
+var patches = require('./parse-patch');
 
 function escapeHTML(str) {
     return str
@@ -87,12 +88,25 @@ function formatErrors(error) {
     return output.join('\n');
 }
 
+function parseError(e, report, fixed) {
+    console.log('  [ERROR] Parsing: ' + e.message);
+    report[fixed ? 'fixedError' : 'error'] = {
+        e: e,
+        message: e.message,
+        details: e.formattedMessage || e.message
+    };
+}
+
 var reports = sites.map(function(url, idx) {
     var fullfn = dir + '/' + idx + '.css';
+    var patch = patches[url] || {};
     var report = {
         url: url,
         downloaded: false,
         error: null,
+        errorComment: false,
+        patch: false,
+        fixedError: null,
         validation: null
     };
 
@@ -105,8 +119,30 @@ var reports = sites.map(function(url, idx) {
         var host = css.match(/^\/\*\s*([^*]+)\s*\*\//)[1];
 
         try {
-            var ast = csstree.parse(css, { positions: true });
+            var ast;
+
+            try {
+                ast = csstree.parse(css, { positions: true });
+            } catch (e) {
+                if (typeof patch.patch === 'function') {
+                    parseError(e, report, true);
+                    if (patch.comment) {
+                        report.errorComment = patch.comment;
+                        console.log('  NOTE: ' + patch.comment);
+                    }
+                    console.log('  Patch CSS and parse again');
+                    report.patch = true;
+                    ast = csstree.parse(patch.patch(css), { positions: true });
+                } else {
+                    throw e;
+                }
+            }
+
             console.log('  Parsed successful');
+
+            if (patch.patch) {
+                report.patch = 'No patch needed';
+            }
 
             var errors = validate(ast);
             if (errors.length) {
@@ -116,12 +152,10 @@ var reports = sites.map(function(url, idx) {
                 console.log('  No warnings');
             }
         } catch (e) {
-            console.log('  [ERROR] Parsing: ' + e.message);
-            report.error = {
-                e: e,
-                message: e.message,
-                details: e.formattedMessage || e.message
-            };
+            if (patch.comment) {
+                report.errorComment = patch.comment;
+            }
+            parseError(e, report, false);
         }
     } else {
         console.log('  Missed');
@@ -169,12 +203,14 @@ inject('table',
 
         if (report.downloaded) {
             cells.push(
-                report.error
+                report.error || report.fixedError
                     ? '<details>' +
                         '<summary>Error</summary>' +
-                        '<pre>' + escapeHTML(report.error.details) + '</pre>' +
-                      '</details>'
-                    : 'OK',
+                        '<pre>' + escapeHTML((report.fixedError || report.error).details) + '</pre>' +
+                      '</details><em>' +
+                      (report.errorComment ? report.errorComment + '<br>' : '') +
+                      (report.fixedError ? 'Error is patched' : '') + '</em>'
+                    : 'OK' + (report.patch ? '<br><em>' + report.patch + '</em>' : ''),
                 report.validation
                     ? '<details>' +
                         '<summary>' +
