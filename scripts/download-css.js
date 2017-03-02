@@ -2,18 +2,10 @@ var path = require('path');
 var parseUrl = require('url').parse;
 var Zombie = require('zombie');
 var fs = require('fs');
+var urls = require('./sites');
 var seedFile = path.join(__dirname, '../data/idx.txt');
 var outputDir = path.join(__dirname, '../data');
-var TOP = 100;
- 
-// read site list
-var urls = fs.readFileSync(__dirname + '/../data/sites.csv', 'utf8')
-    .split(/\n/)
-    .map(function(line) {
-        return line.split(',')[1];
-    })
-    .slice(0, TOP);
- 
+
 // where are we in the list of URLs
 var idx = fs.existsSync(seedFile) ? parseInt(fs.readFileSync(seedFile)) : 0;
 if (idx >= urls.length) {

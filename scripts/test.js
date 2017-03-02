@@ -3,8 +3,19 @@ var fs = require('fs');
 var csstree = require('css-tree');
 var syntax = csstree.lexer;
 var dir = path.join(__dirname, '../data');
-var total = 0;
-var error = 0;
+var sites = require('./sites');
+var readmeFile = path.join(__dirname, '../README.md');
+var readme = fs.readFileSync(readmeFile, 'utf-8');
+
+function idxFromFilename(fn) {
+    return parseInt(path.basename(fn), 10);
+}
+
+function inject(name, text) {
+    var parts = readme.split(new RegExp('(<!-- /?' + name + ' -->)'));
+    parts[2] = '\n\n' + text + '\n\n';
+    readme = parts.join('');
+}
 
 function validate(ast) {
     var errors = [];
@@ -39,48 +50,137 @@ function validate(ast) {
     return errors;
 }
 
+function validationErrorStat(errors) {
+    var viewed = {};
+    return errors.reduce(function(stat, error) {
+        stat.total++;
+
+        if (!viewed.hasOwnProperty(error.message)) {
+            stat.unique++;
+            viewed[error.message] = true;
+        }
+
+        return stat;
+    }, {
+        total: 0,
+        unique: 0
+    });
+}
+
 function formatErrors(error) {
     var output = [];
+
     if (Array.isArray(error)) {
         output.push.apply(output, error.map(function(item) {
-            return '        * ' +
+            return '* ' +
                 String(item.error.message || item.error)
                     .replace(/^[^\n]+/, item.message)
-                    .replace(/\n/g, '\n            ');
+                    .replace(/\n/g, '\n  ');
         }));
     } else {
-        output.push('       [ERROR] ' + error);
+        output.push('[ERROR] ' + error);
     }
+
     return output.join('\n');
 }
 
-fs.readdirSync(dir).forEach(function(fn) {
-    var fullfn = dir + '/' + fn;
+var reports = sites.map(function(url, idx) {
+    var fullfn = dir + '/' + idx + '.css';
+    var report = {
+        url: url,
+        downloaded: false,
+        error: null,
+        validation: null
+    };
 
-    if (path.extname(fullfn) !== '.css') {
-        return;
-    }
+    console.log('Test #' + idx + ' ' + url);
 
-    var css = fs.readFileSync(fullfn, 'utf8');
-    var host = css.match(/^\/\*\s*([^*]+)\s*\*\//)[1];
+    if (fs.existsSync(fullfn)) {
+        report.downloaded = true;
 
-    total++;
-    try {
-        var ast = csstree.parse(css, { positions: true });
-        console.log('[OK] ' + fn + ' ' + host);
-        var errors = validate(ast);
-        if (errors.length) {
-            console.log(formatErrors(errors));
-        } else {
-            console.log('[NO ERRORS]');
+        var css = fs.readFileSync(fullfn, 'utf8');
+        var host = css.match(/^\/\*\s*([^*]+)\s*\*\//)[1];
+
+        try {
+            var ast = csstree.parse(css, { positions: true });
+            console.log('  Parsed successful');
+
+            var errors = validate(ast);
+            if (errors.length) {
+                console.log('  Warnings: ' + errors.length);
+                report.validation = errors;
+            } else {
+                console.log('  No warnings');
+            }
+        } catch (e) {
+            console.log('  [ERROR] Parsing: ' + e.message);
+            report.error = {
+                e: e,
+                message: e.message,
+                details: e.formattedMessage || e.message
+            };
         }
-    } catch (e) {
-        error++;
-        console.log('[ERROR] ' + fn + ' ' + host, '\n' + (e.formattedMessage || e.message));
+    } else {
+        console.log('  Missed');
     }
+
     console.log();
+
+    return report;
 });
 
-console.log('Total:', total);
-console.log('Success:', total - error);
-console.log('Failed:', error);
+inject('date', 'Update date: ' + new Date().toISOString());
+inject('table',
+    '<table>\n' +
+    '<thead>\n' +
+      '<tr><th>' + ['#', 'Site', '', 'Parsing', 'Validation'].join('</th><th>') + '</th></tr>\n' +
+    '</thead>\n' +
+    reports.map(function(report, idx) {
+        var cells = [
+            idx,
+            report.downloaded && !report.error && !report.validation ? '🆗' : '⚠️',
+            report.url
+        ];
+
+        if (report.downloaded) {
+            cells.push(
+                report.error
+                    ? '<details>' +
+                        '<summary>Error</summary>' +
+                        '<pre>' + report.error.details + '</pre>' +
+                      '</details>'
+                    : 'OK',
+                report.validation
+                    ? '<details>' +
+                        '<summary>' +
+                            report.validation.length + (report.validation.length > 1 ? ' warnings' : ' warning') +
+                            ' (unique: ' + validationErrorStat(report.validation).unique + ')' +
+                        '</summary>' +
+                        '<pre>' + formatErrors(report.validation) + '</pre>' +
+                      '</details>'
+                    : (report.error ? '–' : 'OK')
+            );
+            return '<tr><td>' + cells.join('</td><td>') + '</td></tr>';
+        } else {
+            return '<tr><td>' + cells.join('</td><td>') + '</td><td colspan="2">–</td></tr>';
+        }
+        
+    }).join('\n') + '</table>'
+);
+
+fs.writeFileSync(readmeFile, readme, 'utf8');
+
+// totals
+
+var parseErrorCount = reports.filter(function(report) {
+    return report.error;
+}).length;
+var passed = reports.filter(function(report) {
+    return report.downloaded && !report.error && !report.validation;
+}).length;
+
+console.log('Total:', reports.length);
+console.log('Parsing:');
+console.log('  Sucessful:', reports.length - parseErrorCount);
+console.log('  Failed:', parseErrorCount);
+console.log('All tests passed:', passed);
