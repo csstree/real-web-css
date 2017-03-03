@@ -2,8 +2,10 @@ var http = require('http');
 var path = require('path');
 var fs = require('fs');
 var unzip = require('unzip');
+var TOP = 250;
 var url = 'http://s3.amazonaws.com/alexa-static/top-1m.csv.zip';
 var outputFile = path.join(__dirname, '../data/sites.csv');
+var topFile = path.join(__dirname, '../data/top-sites.csv');
 
 console.log('Download ' + url + ' ...');
 http.get(url, function(response) {
@@ -46,6 +48,17 @@ http.get(url, function(response) {
             console.log('DONE');
             console.log('');
 
-            console.log('Write to ' + outputFile);
+            console.log('Write to ' + topFile);
+            fs.writeFileSync(
+                topFile,
+                fs.readFileSync(outputFile, 'utf8')
+                    .split(/\r\n?|\n/)
+                    .map(function(line) {
+                        return line.split(',')[1];
+                    })
+                    .slice(0, TOP)
+                    .join('\n'),
+                'utf8'
+            );
         });
 });
