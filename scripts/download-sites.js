@@ -9,7 +9,6 @@ var topFile = path.join(__dirname, '../data/top-sites.csv');
 
 console.log('Download ' + url + ' ...');
 http.get(url, function(response) {
-    var chunks = [];
     var size = response.headers['content-length'];
     var lastDownload = 0;
     var downloaded = 0;
@@ -39,7 +38,6 @@ http.get(url, function(response) {
 
     response
         .on('data', function (chunk) {
-            chunks.push(chunk);
             downloaded += chunk.length;
         })
         .on('end', function() {
