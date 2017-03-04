@@ -10,14 +10,14 @@
   "repository": "csstree/real-web-css",
   "keywords": [],
   "author": "Roman Dvornov <rdvornov@gmail.com>",
-  "license": "CC BY-SA 3.0",
+  "license": "CC-BY-SA 3.0",
   "bugs": {
     "url": "https://github.com/csstree/real-web-css/issues"
   },
   "homepage": "https://github.com/csstree/real-web-css",
   "dependencies": {
     "css-tree": "csstree/csstree",
-    "unzip": "^0.1.11",
-    "zombie": "^5.0.5"
+    "phantom": "^4.0.0",
+    "unzip": "^0.1.11"
   }
 }
