@@ -5,7 +5,7 @@ Using [CSSTree](https://github.com/csstree/csstree) for real site CSS
 
 <!-- date -->
 
-Update date: 2017-03-04T19:20:02.022Z
+Update date: 2017-03-05T21:36:12.651Z
 
 <!-- /date -->
 
@@ -13,9 +13,9 @@ Update date: 2017-03-04T19:20:02.022Z
 <!-- table -->
 
 * Sites: `250`
-* Downloaded: `234` (16 failed)
-* Parsed: `150` (84 failed)
-* Validation passed: `18` (132 failed)
+* Downloaded: `229` (21 failed)
+* Parsed: `145` (84 failed)
+* Validation passed: `13` (132 failed)
 
 <table>
 <thead>
@@ -643,7 +643,7 @@ Update date: 2017-03-04T19:20:02.022Z
 ----------------------------------------------------------------^
   122 |
   123 |…dth:11px!important;height:16px!important;background:url(https://i.sso.sina.com.cn/images/login/arr…</pre></details><em>Error is patched</em></td><td>–</td></tr>
-<tr><td>19</td><td>🆗</td><td>linkedin.com</td><td>OK</td><td>OK</td></tr>
+<tr><td>19</td><td>⚠️</td><td>linkedin.com</td><td colspan="2">–</td></tr>
 <tr><td>20</td><td>🆗</td><td>jd.com</td><td>OK</td><td>OK</td></tr>
 <tr><td>21</td><td>⚠️</td><td>google.de</td><td>OK</td><td><details><summary>13 warnings (unique: 6)</summary><pre>* Invalid value for `opacity`
     syntax: &lt;number-zero-one&gt;
@@ -1607,7 +1607,7 @@ Update date: 2017-03-04T19:20:02.022Z
 ----------------------------------------------------------------^
    83 |
    84 |</pre></details><em></em></td><td>–</td></tr>
-<tr><td>50</td><td>🆗</td><td>pornhub.com</td><td>OK</td><td>OK</td></tr>
+<tr><td>50</td><td>⚠️</td><td>pornhub.com</td><td colspan="2">–</td></tr>
 <tr><td>51</td><td>⚠️</td><td>stackoverflow.com</td><td><details><summary>Error</summary><pre>Parse error: Identifier `important` is expected
     1 |
     2 |
@@ -3182,7 +3182,7 @@ Update date: 2017-03-04T19:20:02.022Z
     syntax: none | &lt;transform-list&gt;
      value: translate(none,-25%)
     --------^</pre></details></td></tr>
-<tr><td>83</td><td>🆗</td><td>xhamster.com</td><td>OK</td><td>OK</td></tr>
+<tr><td>83</td><td>⚠️</td><td>xhamster.com</td><td colspan="2">–</td></tr>
 <tr><td>84</td><td>⚠️</td><td>dropbox.com</td><td><details><summary>Error</summary><pre>Parse error: LeftCurlyBracket is expected
    79 |
    80 |
@@ -4365,7 +4365,7 @@ Update date: 2017-03-04T19:20:02.022Z
     3 |…px}.taglist .tag-modern.tag-girlfriend{background-color:$tag-surprise;color:#fff}.categories_list{…
 ----------------------------------------------------------------^
 </pre></details><em></em></td><td>–</td></tr>
-<tr><td>114</td><td>🆗</td><td>dailymotion.com</td><td>OK</td><td>OK</td></tr>
+<tr><td>114</td><td>⚠️</td><td>dailymotion.com</td><td colspan="2">–</td></tr>
 <tr><td>115</td><td>⚠️</td><td>ebay.de</td><td><details><summary>Error</summary><pre>Parse error: Identifier is expected
    32 |                                
    33 |                                #hero-10326 {
@@ -4586,7 +4586,7 @@ Update date: 2017-03-04T19:20:02.022Z
     syntax: &lt;br-width&gt; || &lt;br-style&gt; || &lt;color&gt;
      value: block
     --------^</pre></details></td></tr>
-<tr><td>126</td><td>🆗</td><td>bet365.com</td><td>OK</td><td>OK</td></tr>
+<tr><td>126</td><td>⚠️</td><td>bet365.com</td><td colspan="2">–</td></tr>
 <tr><td>127</td><td>⚠️</td><td>vimeo.com</td><td><details><summary>Error</summary><pre>Parse error: PercentSign is expected
     9 |…BLe2FtjEiU+CXqhEex1WdIrUePuHfLb5ejzCxxSEOGwBqgIDMrPJfrTqzl8929yWV2/12p+xsHAqdZaFrfrTIB/ZIYr90HYiTH…
    10 |
