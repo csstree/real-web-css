@@ -5,6 +5,7 @@ var syntax = csstree.lexer;
 var dir = path.join(__dirname, '../data');
 var sites = require('./sites');
 var readmeFile = path.join(__dirname, '../README.md');
+var resultFile = path.join(__dirname, '../data/test-result.json');
 var readme = fs.readFileSync(readmeFile, 'utf-8');
 var patches = require('./parse-patch');
 
@@ -71,21 +72,21 @@ function validationErrorStat(errors) {
     });
 }
 
-function formatErrors(error) {
+function formatErrors(errors) {
     var output = [];
 
-    if (Array.isArray(error)) {
-        output.push.apply(output, error.map(function(item) {
+    if (Array.isArray(errors)) {
+        output.push.apply(output, errors.map(function(item) {
             return '* ' +
                 String(item.error.message || item.error)
                     .replace(/^[^\n]+/, item.message)
                     .replace(/\n/g, '\n  ');
         }));
     } else {
-        output.push('[ERROR] ' + error);
+        output.push('[ERROR] ' + errors);
     }
 
-    return output.join('\n');
+    return output;
 }
 
 function parseError(e, report, fixed) {
@@ -122,7 +123,7 @@ var reports = sites.map(function(url, idx) {
             var ast;
 
             try {
-                ast = csstree.parse(css, { positions: true });
+                ast = csstree.parse(css, { filename: fullfn, positions: true });
             } catch (e) {
                 if (typeof patch.patch === 'function') {
                     parseError(e, report, true);
@@ -132,7 +133,7 @@ var reports = sites.map(function(url, idx) {
                     }
                     console.log('  Patch CSS and parse again');
                     report.patch = true;
-                    ast = csstree.parse(patch.patch(css), { positions: true });
+                    ast = csstree.parse(patch.patch(css), { filename: fullfn, positions: true });
                 } else {
                     throw e;
                 }
@@ -217,7 +218,7 @@ inject('table',
                             report.validation.length + (report.validation.length > 1 ? ' warnings' : ' warning') +
                             ' (unique: ' + validationErrorStat(report.validation).unique + ')' +
                         '</summary>' +
-                        '<pre>' + escapeHTML(formatErrors(report.validation)) + '</pre>' +
+                        '<pre>' + escapeHTML(formatErrors(report.validation).join('\n')) + '</pre>' +
                       '</details>'
                     : (report.error ? '–' : 'OK')
             );
@@ -230,3 +231,17 @@ inject('table',
 );
 
 fs.writeFileSync(readmeFile, readme, 'utf8');
+fs.writeFileSync(resultFile, JSON.stringify(reports.reduce(function(res, report) {
+    res[report.url] = report;
+    if (report.error) {
+        report.error = report.error.details || report.error.message;
+    }
+    if (report.fixedError) {
+        report.fixedError = report.fixedError.details || report.fixedError.message;
+    }
+    if (report.validation) {
+        report.validation = formatErrors(report.validation);
+    }
+    delete report.url;
+    return res;
+}, {}), null, 2), 'utf8')
