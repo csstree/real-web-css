@@ -2,6 +2,7 @@ var path = require('path');
 var parseUrl = require('url').parse;
 var http = require('http');
 var https = require('https');
+var zlib = require('zlib');
 var fs = require('fs');
 var urls = require('./sites');
 var seedFile = path.join(__dirname, '../data/idx.txt');
@@ -91,8 +92,8 @@ function download(idx, phantom) {
                     .then(function(sheets) {
                         var css = inline.concat(sheets).join('\n');
 
-                        if (css) {
-                            fs.writeFileSync(path.join(outputDir, idx + '.css'), '/* ' + url + '*/\n' + css);
+                        if (css && !/\/rinet.ru/.test(css)) {
+                            fs.writeFileSync(path.join(outputDir, idx + '.css'), '/* ' + url + '*/\n' + css, 'utf8');
                             console.log('    🎉  DONE');
                             console.log();
                             // remember the place in the likely scenario that
@@ -102,6 +103,8 @@ function download(idx, phantom) {
                             console.log();
                         }
 
+                        page.stop();
+                        page.close();
                         download(idx + 1, phantom); // next!
                     })
                     .catch(function(error) {
@@ -132,7 +135,19 @@ function fetch(url) {
                     chunks.push(chunk);
                 })
                 .on('end', function() {
-                    resolve(Buffer.concat(chunks).toString());
+                    var buffer = Buffer.concat(chunks);
+
+                    try {
+                        if (response.headers['content-encoding'] === 'gzip') {
+                            buffer = zlib.gunzipSync(buffer);
+                        } else if (response.headers['content-encoding'] === 'deflate') {
+                            buffer = zlib.inflateSync(buffer);
+                        }
+
+                        resolve(buffer.toString());
+                    } catch(e) {
+                        reject(e);
+                    }
                 });
         });
     });
