@@ -19,5 +19,13 @@
     "css-tree": "csstree/csstree",
     "phantom": "^4.0.0",
     "unzip": "^0.1.11"
+  },
+  "basisjsConfig": {
+    "server": {
+      "base": "triage"
+    },
+    "plugins": [
+      "./triage/symlink.js"
+    ]
   }
 }
