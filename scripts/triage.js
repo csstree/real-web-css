@@ -3,7 +3,7 @@ var path = require('path');
 
 buildTriageIndex({
     input: require(path.join(__dirname, '../data/test-result.json')),
-    resolutions: path.join(path.join(__dirname, '../data/test-resoltions.json')),
+    resolutions: path.join(path.join(__dirname, '../data/test-resolutions.json')),
     subject: {
         parse: {
             facts: function(item) {
@@ -78,21 +78,21 @@ function buildTriageIndex(config) {
     if (!knownResolutions.subject) {
         knownResolutions.subject = {};
     }
-
     for (var subjectName in config.subject) {
         var subject = config.subject[subjectName];
+        var known = knownResolutions.subject[subjectName] || {};
         var resolutions = [];
 
         factBySubject[subjectName] = new Map();
 
-        if (knownResolutions.subject[subjectName].resolutions &&
-            Array.isArray(knownResolutions.subject[subjectName].resolutions)) {
-            resolutions = knownResolutions.subject[subjectName].resolutions;
+        if (known.resolutions &&
+            Array.isArray(known.resolutions)) {
+            resolutions = known.resolutions;
         }
 
-        if (knownResolutions.subject[subjectName].facts &&
-            Array.isArray(knownResolutions.subject[subjectName].facts)) {
-            knownResolutions.subject[subjectName].facts.forEach(function(fact) {
+        if (known.facts &&
+            Array.isArray(known.facts)) {
+            known.facts.forEach(function(fact) {
                 factBySubject[subjectName].set(fact.name, fact);
                 fact.sources = new Set();
 
@@ -130,7 +130,7 @@ function buildTriageIndex(config) {
                 }
 
                 var fact = subjectFacts.get(fact);
-                fact.sources.add(name);
+                fact.sources.add(name + ' (' + item.idx + ')');
             });
         }
     }

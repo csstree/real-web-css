@@ -103,6 +103,7 @@ var reports = sites.map(function(url, idx) {
     var patch = patches[url] || {};
     var report = {
         url: url,
+        idx: idx,
         downloaded: false,
         error: null,
         errorComment: false,
