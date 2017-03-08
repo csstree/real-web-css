@@ -49,11 +49,16 @@ inject('table',
       '<tr><th>' + ['#', 'Site', '', 'Parsing', 'Validation'].join('</th><th>') + '</th></tr>\n' +
     '</thead>\n' +
     reports.map(function(report, idx) {
+        var uniqueWarnings = 0;
         var cells = [
             idx,
             report.downloaded && !report.error && !report.validation ? '🆗' : '⚠️',
             report.name
         ];
+
+        if (report.validation) {
+            uniqueWarnings = validationErrorStat(report.validation).unique;
+        }
 
         if (report.downloaded) {
             cells.push(
@@ -68,7 +73,7 @@ inject('table',
                     ? '<details>' +
                         '<summary>' +
                             report.validation.length + (report.validation.length > 1 ? ' warnings' : ' warning') +
-                            ' (unique: ' + validationErrorStat(report.validation).unique + ')' +
+                            (report.validation.length !== uniqueWarnings ? ' (unique: ' + uniqueWarnings + ')' : '') +
                         '</summary>' +
                         '<pre>' + escapeHTML(report.validation.join('\n')) + '</pre>' +
                       '</details>'

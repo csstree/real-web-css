@@ -5,7 +5,7 @@ Using [CSSTree](https://github.com/csstree/csstree) for real site CSS
 
 <!-- date -->
 
-Update date: 2017-03-08T23:38:31.002Z
+Update date: 2017-03-08T23:52:36.365Z
 
 <!-- /date -->
 
@@ -21,7 +21,7 @@ Update date: 2017-03-08T23:38:31.002Z
 <thead>
 <tr><th>#</th><th>Site</th><th></th><th>Parsing</th><th>Validation</th></tr>
 </thead>
-<tr><td>0</td><td>⚠️</td><td>google.com</td><td>OK</td><td><details><summary>13 warnings (unique: 13)</summary><pre>* Invalid value for `opacity`
+<tr><td>0</td><td>⚠️</td><td>google.com</td><td>OK</td><td><details><summary>13 warnings</summary><pre>* Invalid value for `opacity`
     syntax: &lt;number-zero-one&gt;
      value: 1\0/
     --------^
@@ -227,7 +227,7 @@ Update date: 2017-03-08T23:38:31.002Z
     syntax: [ &lt;bg-layer&gt; , ]* &lt;final-bg-layer&gt;
      value: "progid:DXImageTransform.Microsoft.gradient(startColorStr='#98000000',endColorStr='#98000000')"
     --------^</pre></details></td></tr>
-<tr><td>2</td><td>⚠️</td><td>facebook.com</td><td>OK</td><td><details><summary>1 warning (unique: 1)</summary><pre>* Invalid value for `overflow`
+<tr><td>2</td><td>⚠️</td><td>facebook.com</td><td>OK</td><td><details><summary>1 warning</summary><pre>* Invalid value for `overflow`
     syntax: visible | hidden | scroll | auto
      value: overlay
     --------^</pre></details></td></tr>
@@ -319,7 +319,7 @@ Update date: 2017-03-08T23:38:31.002Z
 ----------------------------------------------------------------^
     5 |
     6 |</pre></details><em>Parser has no support for `!ie` hack</em></td><td>OK</td></tr>
-<tr><td>6</td><td>⚠️</td><td>google.co.in</td><td>OK</td><td><details><summary>13 warnings (unique: 13)</summary><pre>* Invalid value for `opacity`
+<tr><td>6</td><td>⚠️</td><td>google.co.in</td><td>OK</td><td><details><summary>13 warnings</summary><pre>* Invalid value for `opacity`
     syntax: &lt;number-zero-one&gt;
      value: 1\0/
     --------^
@@ -371,7 +371,7 @@ Update date: 2017-03-08T23:38:31.002Z
     syntax: &lt;bg-image&gt;#
      value: linear-gradient(bottom,rgba(0,0,0,.2),rgba(0,0,0,0))
     --------^</pre></details></td></tr>
-<tr><td>7</td><td>⚠️</td><td>qq.com</td><td>OK</td><td><details><summary>3 warnings (unique: 3)</summary><pre>* Invalid value for `background-image`
+<tr><td>7</td><td>⚠️</td><td>qq.com</td><td>OK</td><td><details><summary>3 warnings</summary><pre>* Invalid value for `background-image`
     syntax: &lt;bg-image&gt;#
      value: -webkit-image-set(url(//mat1.gtimg.com/www/images/qq2012/qqlogo_1x.png) 1x,url(//mat1.gtimg.com/www/images/qq2012/qqlogo_2x.png) 2x)
     --------^
@@ -566,7 +566,7 @@ Update date: 2017-03-08T23:38:31.002Z
     syntax: &lt;length&gt; | &lt;percentage&gt; | auto
      value: 0 \9
     ---------^</pre></details></td></tr>
-<tr><td>9</td><td>⚠️</td><td>google.co.jp</td><td>OK</td><td><details><summary>13 warnings (unique: 13)</summary><pre>* Invalid value for `opacity`
+<tr><td>9</td><td>⚠️</td><td>google.co.jp</td><td>OK</td><td><details><summary>13 warnings</summary><pre>* Invalid value for `opacity`
     syntax: &lt;number-zero-one&gt;
      value: 1\0/
     --------^
@@ -632,7 +632,7 @@ Update date: 2017-03-08T23:38:31.002Z
 ----------------------------------------------------------------^
   195 |
   196 |</pre></details></td><td>–</td></tr>
-<tr><td>12</td><td>⚠️</td><td>live.com</td><td>OK</td><td><details><summary>2 warnings (unique: 2)</summary><pre>* The rest part of value can't to be matched on `line-height` syntax
+<tr><td>12</td><td>⚠️</td><td>live.com</td><td>OK</td><td><details><summary>2 warnings</summary><pre>* The rest part of value can't to be matched on `line-height` syntax
     syntax: normal | &lt;number&gt; | &lt;length&gt; | &lt;percentage&gt;
      value: 1.42857 \0
     ---------------^
@@ -1000,7 +1000,7 @@ Update date: 2017-03-08T23:38:31.002Z
     syntax: &lt;number-zero-one&gt;
      value: 100
     --------^</pre></details></td></tr>
-<tr><td>16</td><td>⚠️</td><td>instagram.com</td><td>OK</td><td><details><summary>3 warnings (unique: 3)</summary><pre>* Invalid value for `width`
+<tr><td>16</td><td>⚠️</td><td>instagram.com</td><td>OK</td><td><details><summary>3 warnings</summary><pre>* Invalid value for `width`
     syntax: [ &lt;length&gt; | &lt;percentage&gt; ] &amp;&amp; [ border-box | content-box ]? | available | min-content | max-content | fit-content | auto
      value: intrinsic
     --------^
@@ -1038,7 +1038,7 @@ Update date: 2017-03-08T23:38:31.002Z
   121 |…mportant;padding:10px 0 0 0px!important;background:#fff;!important}
 ----------------------------------------------------------------^
   122 |
-  123 |…dth:11px!important;height:16px!important;background:url(https://i.sso.sina.com.cn/images/login/arr…</pre></details></td><td><details><summary>7 warnings (unique: 7)</summary><pre>* Invalid value for `background-image`
+  123 |…dth:11px!important;height:16px!important;background:url(https://i.sso.sina.com.cn/images/login/arr…</pre></details></td><td><details><summary>7 warnings</summary><pre>* Invalid value for `background-image`
     syntax: &lt;bg-image&gt;#
      value: -webkit-image-set(url(http://i1.sinaimg.cn/dy/deco/2013/0329/logo/LOGO_1x.png) 1x,url(http://i2.sinaimg.cn/dy/deco/2013/0329/logo/LOGO_2x.png) 2x)
     --------^
@@ -1065,7 +1065,7 @@ Update date: 2017-03-08T23:38:31.002Z
     --------^</pre></details></td></tr>
 <tr><td>19</td><td>⚠️</td><td>linkedin.com</td><td colspan="2">–</td></tr>
 <tr><td>20</td><td>🆗</td><td>jd.com</td><td>OK</td><td>OK</td></tr>
-<tr><td>21</td><td>⚠️</td><td>google.de</td><td>OK</td><td><details><summary>13 warnings (unique: 13)</summary><pre>* Invalid value for `opacity`
+<tr><td>21</td><td>⚠️</td><td>google.de</td><td>OK</td><td><details><summary>13 warnings</summary><pre>* Invalid value for `opacity`
     syntax: &lt;number-zero-one&gt;
      value: 1\0/
     --------^
@@ -1117,7 +1117,7 @@ Update date: 2017-03-08T23:38:31.002Z
     syntax: &lt;bg-image&gt;#
      value: linear-gradient(bottom,rgba(0,0,0,.2),rgba(0,0,0,0))
     --------^</pre></details></td></tr>
-<tr><td>22</td><td>⚠️</td><td>google.co.uk</td><td>OK</td><td><details><summary>13 warnings (unique: 13)</summary><pre>* Invalid value for `opacity`
+<tr><td>22</td><td>⚠️</td><td>google.co.uk</td><td>OK</td><td><details><summary>13 warnings</summary><pre>* Invalid value for `opacity`
     syntax: &lt;number-zero-one&gt;
      value: 1\0/
     --------^
@@ -1169,7 +1169,7 @@ Update date: 2017-03-08T23:38:31.002Z
     syntax: &lt;bg-image&gt;#
      value: linear-gradient(bottom,rgba(0,0,0,.2),rgba(0,0,0,0))
     --------^</pre></details></td></tr>
-<tr><td>23</td><td>⚠️</td><td>reddit.com</td><td>OK</td><td><details><summary>9 warnings (unique: 9)</summary><pre>* Invalid value for `font-size`
+<tr><td>23</td><td>⚠️</td><td>reddit.com</td><td>OK</td><td><details><summary>9 warnings</summary><pre>* Invalid value for `font-size`
     syntax: &lt;absolute-size&gt; | &lt;relative-size&gt; | &lt;length-percentage&gt;
      value: 14
     --------^
@@ -1205,7 +1205,7 @@ Update date: 2017-03-08T23:38:31.002Z
     syntax: start | end | left | right | center | justify | match-parent
      value: middle
     --------^</pre></details></td></tr>
-<tr><td>24</td><td>⚠️</td><td>google.fr</td><td>OK</td><td><details><summary>13 warnings (unique: 13)</summary><pre>* Invalid value for `opacity`
+<tr><td>24</td><td>⚠️</td><td>google.fr</td><td>OK</td><td><details><summary>13 warnings</summary><pre>* Invalid value for `opacity`
     syntax: &lt;number-zero-one&gt;
      value: 1\0/
     --------^
@@ -1264,7 +1264,7 @@ Update date: 2017-03-08T23:38:31.002Z
 ----------------------------------------------------------------^
    10 |
    11 |</pre></details></td><td>–</td></tr>
-<tr><td>26</td><td>⚠️</td><td>google.ru</td><td>OK</td><td><details><summary>13 warnings (unique: 13)</summary><pre>* Invalid value for `opacity`
+<tr><td>26</td><td>⚠️</td><td>google.ru</td><td>OK</td><td><details><summary>13 warnings</summary><pre>* Invalid value for `opacity`
     syntax: &lt;number-zero-one&gt;
      value: 1\0/
     --------^
@@ -1409,7 +1409,7 @@ Update date: 2017-03-08T23:38:31.002Z
     syntax: &lt;length&gt; | &lt;percentage&gt; | auto
      value: 1px\9
     -----------^</pre></details></td></tr>
-<tr><td>29</td><td>⚠️</td><td>google.com.br</td><td>OK</td><td><details><summary>13 warnings (unique: 13)</summary><pre>* Invalid value for `opacity`
+<tr><td>29</td><td>⚠️</td><td>google.com.br</td><td>OK</td><td><details><summary>13 warnings</summary><pre>* Invalid value for `opacity`
     syntax: &lt;number-zero-one&gt;
      value: 1\0/
     --------^
@@ -1461,7 +1461,7 @@ Update date: 2017-03-08T23:38:31.002Z
     syntax: &lt;bg-image&gt;#
      value: linear-gradient(bottom,rgba(0,0,0,.2),rgba(0,0,0,0))
     --------^</pre></details></td></tr>
-<tr><td>30</td><td>⚠️</td><td>yandex.ru</td><td>OK</td><td><details><summary>2 warnings (unique: 2)</summary><pre>* Invalid value for `background`
+<tr><td>30</td><td>⚠️</td><td>yandex.ru</td><td>OK</td><td><details><summary>2 warnings</summary><pre>* Invalid value for `background`
     syntax: [ &lt;bg-layer&gt; , ]* &lt;final-bg-layer&gt;
      value: -webkit-gradient(left top,right top,color-stop(0%,#61c99f),color-stop(50%,#69bbdc),color-stop(100%,#6470b0))
     --------^
@@ -1469,7 +1469,7 @@ Update date: 2017-03-08T23:38:31.002Z
     syntax: &lt;length&gt; | &lt;percentage&gt; | none | max-content | min-content | fit-content | fill-available | &lt;-non-standart-width&gt;
      value: auto
     --------^</pre></details></td></tr>
-<tr><td>31</td><td>⚠️</td><td>google.it</td><td>OK</td><td><details><summary>13 warnings (unique: 13)</summary><pre>* Invalid value for `opacity`
+<tr><td>31</td><td>⚠️</td><td>google.it</td><td>OK</td><td><details><summary>13 warnings</summary><pre>* Invalid value for `opacity`
     syntax: &lt;number-zero-one&gt;
      value: 1\0/
     --------^
@@ -1527,7 +1527,7 @@ Update date: 2017-03-08T23:38:31.002Z
     7 |…idth:100%;height:100%;background:#000;opacity:.6;filter:~"alpha(opacity=60)";filter:~"progid:DXIma…
 ----------------------------------------------------------------^
     8 |
-    9 |</pre></details><em>Unprocessed Less escaping</em></td><td><details><summary>4 warnings (unique: 4)</summary><pre>* Invalid value for `background`
+    9 |</pre></details><em>Unprocessed Less escaping</em></td><td><details><summary>4 warnings</summary><pre>* Invalid value for `background`
     syntax: [ &lt;bg-layer&gt; , ]* &lt;final-bg-layer&gt;
      value: linear-gradient(left,#fff,#e8e8e8,#e8e8e8,#e8e8e8,#fff)
     --------^
@@ -1543,7 +1543,7 @@ Update date: 2017-03-08T23:38:31.002Z
     syntax: [ &lt;bg-layer&gt; , ]* &lt;final-bg-layer&gt;
      value: linear-gradient(left,rgba(247,247,247,0) 0,rgba(247,247,247,0.9) 6%,rgba(247,247,247,0.9) 50%,rgba(247,247,247,0.9) 94%,rgba(247,247,247,0) 100%)
     --------^</pre></details></td></tr>
-<tr><td>33</td><td>⚠️</td><td>google.com.hk</td><td>OK</td><td><details><summary>13 warnings (unique: 13)</summary><pre>* Invalid value for `opacity`
+<tr><td>33</td><td>⚠️</td><td>google.com.hk</td><td>OK</td><td><details><summary>13 warnings</summary><pre>* Invalid value for `opacity`
     syntax: &lt;number-zero-one&gt;
      value: 1\0/
     --------^
@@ -1595,7 +1595,7 @@ Update date: 2017-03-08T23:38:31.002Z
     syntax: &lt;bg-image&gt;#
      value: linear-gradient(bottom,rgba(0,0,0,.2),rgba(0,0,0,0))
     --------^</pre></details></td></tr>
-<tr><td>34</td><td>⚠️</td><td>google.es</td><td>OK</td><td><details><summary>13 warnings (unique: 13)</summary><pre>* Invalid value for `opacity`
+<tr><td>34</td><td>⚠️</td><td>google.es</td><td>OK</td><td><details><summary>13 warnings</summary><pre>* Invalid value for `opacity`
     syntax: &lt;number-zero-one&gt;
      value: 1\0/
     --------^
@@ -1707,7 +1707,7 @@ Update date: 2017-03-08T23:38:31.002Z
     syntax: &lt;single-transition&gt;#
      value: color .1s ease-in 0
     --------------------------^</pre></details></td></tr>
-<tr><td>37</td><td>⚠️</td><td>bing.com</td><td>OK</td><td><details><summary>4 warnings (unique: 4)</summary><pre>* Invalid value for `-ms-scroll-snap-points-x`
+<tr><td>37</td><td>⚠️</td><td>bing.com</td><td>OK</td><td><details><summary>4 warnings</summary><pre>* Invalid value for `-ms-scroll-snap-points-x`
     syntax: none | repeat( &lt;length-percentage&gt; )
      value: snapInterval(0,150px)
     --------^
@@ -1720,7 +1720,7 @@ Update date: 2017-03-08T23:38:31.002Z
     syntax: [ &lt;bg-layer&gt; , ]* &lt;final-bg-layer&gt;
      value: #e81123 transparent
     ----------------^</pre></details></td></tr>
-<tr><td>38</td><td>⚠️</td><td>detail.tmall.com</td><td>OK</td><td><details><summary>5 warnings (unique: 5)</summary><pre>* Unknown property: dispaly
+<tr><td>38</td><td>⚠️</td><td>detail.tmall.com</td><td>OK</td><td><details><summary>5 warnings</summary><pre>* Unknown property: dispaly
 * Invalid value for `filter`
     syntax: none | &lt;filter-function-list&gt; | &lt;-ms-filter&gt;
      value: mask()
@@ -1780,7 +1780,7 @@ Update date: 2017-03-08T23:38:31.002Z
 ----------------------------------------------------------------^
     7 |
     8 |</pre></details></td><td>–</td></tr>
-<tr><td>43</td><td>⚠️</td><td>google.ca</td><td>OK</td><td><details><summary>13 warnings (unique: 13)</summary><pre>* Invalid value for `opacity`
+<tr><td>43</td><td>⚠️</td><td>google.ca</td><td>OK</td><td><details><summary>13 warnings</summary><pre>* Invalid value for `opacity`
     syntax: &lt;number-zero-one&gt;
      value: 1\0/
     --------^
@@ -1832,10 +1832,10 @@ Update date: 2017-03-08T23:38:31.002Z
     syntax: &lt;bg-image&gt;#
      value: linear-gradient(bottom,rgba(0,0,0,.2),rgba(0,0,0,0))
     --------^</pre></details></td></tr>
-<tr><td>44</td><td>⚠️</td><td>netflix.com</td><td>OK</td><td><details><summary>3 warnings (unique: 3)</summary><pre>* Unknown property: -webkit-margin-before
+<tr><td>44</td><td>⚠️</td><td>netflix.com</td><td>OK</td><td><details><summary>3 warnings</summary><pre>* Unknown property: -webkit-margin-before
 * Unknown property: -webkit-margin-after
 * Unknown property: min-font-size</pre></details></td></tr>
-<tr><td>45</td><td>⚠️</td><td>google.com.mx</td><td>OK</td><td><details><summary>13 warnings (unique: 13)</summary><pre>* Invalid value for `opacity`
+<tr><td>45</td><td>⚠️</td><td>google.com.mx</td><td>OK</td><td><details><summary>13 warnings</summary><pre>* Invalid value for `opacity`
     syntax: &lt;number-zero-one&gt;
      value: 1\0/
     --------^
@@ -2928,7 +2928,7 @@ Update date: 2017-03-08T23:38:31.002Z
     syntax: [ &lt;bg-layer&gt; , ]* &lt;final-bg-layer&gt;
      value: linear-gradient(top,#555552 0,#444442 100%)
     --------^</pre></details></td></tr>
-<tr><td>58</td><td>⚠️</td><td>office.com</td><td>OK</td><td><details><summary>1 warning (unique: 1)</summary><pre>* Invalid value for `text-rendering`
+<tr><td>58</td><td>⚠️</td><td>office.com</td><td>OK</td><td><details><summary>1 warning</summary><pre>* Invalid value for `text-rendering`
     syntax: auto | optimizeSpeed | optimizeLegibility | geometricPrecision
      value: opt imizeLegibility
     --------^</pre></details></td></tr>
@@ -3177,7 +3177,7 @@ Update date: 2017-03-08T23:38:31.002Z
     syntax: [ &lt;bg-layer&gt; , ]* &lt;final-bg-layer&gt;
      value: linear-gradient(top,#f7f8fa,#e7e9ec)
     --------^</pre></details></td></tr>
-<tr><td>60</td><td>⚠️</td><td>tianya.cn</td><td>OK</td><td><details><summary>8 warnings (unique: 8)</summary><pre>* Invalid value for `text-decoration`
+<tr><td>60</td><td>⚠️</td><td>tianya.cn</td><td>OK</td><td><details><summary>8 warnings</summary><pre>* Invalid value for `text-decoration`
     syntax: &lt;'text-decoration-line'&gt; || &lt;'text-decoration-style'&gt; || &lt;'text-decoration-color'&gt;
      value: underlline
     --------^
@@ -3203,7 +3203,7 @@ Update date: 2017-03-08T23:38:31.002Z
     syntax: [ &lt;family-name&gt; | &lt;generic-family&gt; ]#
      value: Arial,​Helvetica,​ "宋体",​sans-serif
     ---------------------------^</pre></details></td></tr>
-<tr><td>61</td><td>⚠️</td><td>google.com.tr</td><td>OK</td><td><details><summary>13 warnings (unique: 13)</summary><pre>* Invalid value for `opacity`
+<tr><td>61</td><td>⚠️</td><td>google.com.tr</td><td>OK</td><td><details><summary>13 warnings</summary><pre>* Invalid value for `opacity`
     syntax: &lt;number-zero-one&gt;
      value: 1\0/
     --------^
@@ -3638,8 +3638,8 @@ Update date: 2017-03-08T23:38:31.002Z
   203 |    only screen and (        min-device-pixel-ratio: 2),
   204 |    only screen and (                min-resolution: 120dpi),</pre></details></td><td>–</td></tr>
 <tr><td>66</td><td>⚠️</td><td>txxx.com</td><td colspan="2">–</td></tr>
-<tr><td>67</td><td>⚠️</td><td>alipay.com</td><td>OK</td><td><details><summary>1 warning (unique: 1)</summary><pre>* Unknown property: -webkit-user-modify</pre></details></td></tr>
-<tr><td>68</td><td>⚠️</td><td>google.com.au</td><td>OK</td><td><details><summary>13 warnings (unique: 13)</summary><pre>* Invalid value for `opacity`
+<tr><td>67</td><td>⚠️</td><td>alipay.com</td><td>OK</td><td><details><summary>1 warning</summary><pre>* Unknown property: -webkit-user-modify</pre></details></td></tr>
+<tr><td>68</td><td>⚠️</td><td>google.com.au</td><td>OK</td><td><details><summary>13 warnings</summary><pre>* Invalid value for `opacity`
     syntax: &lt;number-zero-one&gt;
      value: 1\0/
     --------^
@@ -3731,7 +3731,7 @@ Update date: 2017-03-08T23:38:31.002Z
     syntax: &lt;time&gt;#
      value: 0
     --------^</pre></details></td></tr>
-<tr><td>70</td><td>⚠️</td><td>csdn.net</td><td>OK</td><td><details><summary>6 warnings (unique: 6)</summary><pre>* The rest part of value can't to be matched on `padding-bottom` syntax
+<tr><td>70</td><td>⚠️</td><td>csdn.net</td><td>OK</td><td><details><summary>6 warnings</summary><pre>* The rest part of value can't to be matched on `padding-bottom` syntax
     syntax: &lt;length&gt; | &lt;percentage&gt;
      value: 3px\9
     -----------^
@@ -3755,7 +3755,7 @@ Update date: 2017-03-08T23:38:31.002Z
     syntax: &lt;length&gt; | &lt;percentage&gt; | auto
      value: 0 0 10px 0
     ----------------^</pre></details></td></tr>
-<tr><td>71</td><td>⚠️</td><td>google.com.tw</td><td>OK</td><td><details><summary>13 warnings (unique: 13)</summary><pre>* Invalid value for `opacity`
+<tr><td>71</td><td>⚠️</td><td>google.com.tw</td><td>OK</td><td><details><summary>13 warnings</summary><pre>* Invalid value for `opacity`
     syntax: &lt;number-zero-one&gt;
      value: 1\0/
     --------^
@@ -3812,7 +3812,7 @@ Update date: 2017-03-08T23:38:31.002Z
  2332 |
  2333 |…und-color:#fab904}.bg-frost{background-color:rgba(#fff,0:global .95)}.bg-shade{background-color:rg…
 ----------------------------------------------------------------^
-</pre></details></td><td><details><summary>5 warnings (unique: 5)</summary><pre>* Invalid value for `width`
+</pre></details></td><td><details><summary>5 warnings</summary><pre>* Invalid value for `width`
     syntax: [ &lt;length&gt; | &lt;percentage&gt; ] &amp;&amp; [ border-box | content-box ]? | available | min-content | max-content | fit-content | auto
      value: auto9
     --------^
@@ -3839,7 +3839,7 @@ Update date: 2017-03-08T23:38:31.002Z
 ----------------------------------------------------------------^
    28 |
    29 |</pre></details></td><td>–</td></tr>
-<tr><td>74</td><td>⚠️</td><td>google.co.id</td><td>OK</td><td><details><summary>13 warnings (unique: 13)</summary><pre>* Invalid value for `opacity`
+<tr><td>74</td><td>⚠️</td><td>google.co.id</td><td>OK</td><td><details><summary>13 warnings</summary><pre>* Invalid value for `opacity`
     syntax: &lt;number-zero-one&gt;
      value: 1\0/
     --------^
@@ -4048,7 +4048,7 @@ Update date: 2017-03-08T23:38:31.002Z
      value: url("https://www.paypalobjects.com/webstatic/mktg/wright/icons/quickbar-icons.png")\9
     -------------------------------------------------------------------------------------------^
 * Unknown property: moz-box-sizing</pre></details></td></tr>
-<tr><td>78</td><td>⚠️</td><td>google.co.kr</td><td>OK</td><td><details><summary>13 warnings (unique: 13)</summary><pre>* Invalid value for `opacity`
+<tr><td>78</td><td>⚠️</td><td>google.co.kr</td><td>OK</td><td><details><summary>13 warnings</summary><pre>* Invalid value for `opacity`
     syntax: &lt;number-zero-one&gt;
      value: 1\0/
     --------^
@@ -4100,7 +4100,7 @@ Update date: 2017-03-08T23:38:31.002Z
     syntax: &lt;bg-image&gt;#
      value: linear-gradient(bottom,rgba(0,0,0,.2),rgba(0,0,0,0))
     --------^</pre></details></td></tr>
-<tr><td>79</td><td>⚠️</td><td>coccoc.com</td><td>OK</td><td><details><summary>2 warnings (unique: 2)</summary><pre>* Invalid value for `background-image`
+<tr><td>79</td><td>⚠️</td><td>coccoc.com</td><td>OK</td><td><details><summary>2 warnings</summary><pre>* Invalid value for `background-image`
     syntax: &lt;bg-image&gt;#
      value: linear-gradient(bottom,#3b9b00 12%,#58bc00 72%)
     --------^
@@ -4108,7 +4108,7 @@ Update date: 2017-03-08T23:38:31.002Z
     syntax: &lt;bg-image&gt;#
      value: linear-gradient(bottom,#febb45 12%,#e98800 72%)
     --------^</pre></details></td></tr>
-<tr><td>80</td><td>⚠️</td><td>twitch.tv</td><td>OK</td><td><details><summary>1 warning (unique: 1)</summary><pre>* Invalid value for `background`
+<tr><td>80</td><td>⚠️</td><td>twitch.tv</td><td>OK</td><td><details><summary>1 warning</summary><pre>* Invalid value for `background`
     syntax: [ &lt;bg-layer&gt; , ]* &lt;final-bg-layer&gt;
      value: -webkit-radial-gradient(ellipse farthest-side at 150% -50%,#000 0,transparent 100%)
     --------^</pre></details></td></tr>
@@ -4263,7 +4263,7 @@ Update date: 2017-03-08T23:38:31.002Z
 * Unknown property: -ms-text-justify
 * Unknown property: text-justify
 * Unknown property: -ms-text-justify</pre></details></td></tr>
-<tr><td>82</td><td>⚠️</td><td>wikia.com</td><td>OK</td><td><details><summary>8 warnings (unique: 8)</summary><pre>* Invalid value for `-webkit-align-items`
+<tr><td>82</td><td>⚠️</td><td>wikia.com</td><td>OK</td><td><details><summary>8 warnings</summary><pre>* Invalid value for `-webkit-align-items`
     syntax: flex-start | flex-end | center | baseline | stretch
      value: start
     --------^
@@ -4610,7 +4610,7 @@ Update date: 2017-03-08T23:38:31.002Z
     syntax: &lt;bg-image&gt;#
      value: -o-linear-gradient(to bottom,#cb0400,#a50200)
     --------^</pre></details></td></tr>
-<tr><td>87</td><td>⚠️</td><td>google.com.eg</td><td>OK</td><td><details><summary>13 warnings (unique: 13)</summary><pre>* Invalid value for `opacity`
+<tr><td>87</td><td>⚠️</td><td>google.com.eg</td><td>OK</td><td><details><summary>13 warnings</summary><pre>* Invalid value for `opacity`
     syntax: &lt;number-zero-one&gt;
      value: 1\0/
     --------^
@@ -4662,7 +4662,7 @@ Update date: 2017-03-08T23:38:31.002Z
     syntax: &lt;bg-image&gt;#
      value: linear-gradient(bottom,rgba(0,0,0,.2),rgba(0,0,0,0))
     --------^</pre></details></td></tr>
-<tr><td>88</td><td>⚠️</td><td>google.co.th</td><td>OK</td><td><details><summary>13 warnings (unique: 13)</summary><pre>* Invalid value for `opacity`
+<tr><td>88</td><td>⚠️</td><td>google.co.th</td><td>OK</td><td><details><summary>13 warnings</summary><pre>* Invalid value for `opacity`
     syntax: &lt;number-zero-one&gt;
      value: 1\0/
     --------^
@@ -4714,7 +4714,7 @@ Update date: 2017-03-08T23:38:31.002Z
     syntax: &lt;bg-image&gt;#
      value: linear-gradient(bottom,rgba(0,0,0,.2),rgba(0,0,0,0))
     --------^</pre></details></td></tr>
-<tr><td>89</td><td>⚠️</td><td>google.com.sa</td><td>OK</td><td><details><summary>13 warnings (unique: 13)</summary><pre>* Invalid value for `opacity`
+<tr><td>89</td><td>⚠️</td><td>google.com.sa</td><td>OK</td><td><details><summary>13 warnings</summary><pre>* Invalid value for `opacity`
     syntax: &lt;number-zero-one&gt;
      value: 1\0/
     --------^
@@ -4773,7 +4773,7 @@ Update date: 2017-03-08T23:38:31.002Z
 ---------------------------------------------------^
   702 |.heada_plus_search_form_text{width:186px; border-top:1px solid #999; border-left:1px solid #999; b…
   703 |div#main{clear:both; position:relative; min-height:0px; width:680px; float:right; text-align:left;…</pre></details></td><td>–</td></tr>
-<tr><td>91</td><td>⚠️</td><td>google.pl</td><td>OK</td><td><details><summary>13 warnings (unique: 13)</summary><pre>* Invalid value for `opacity`
+<tr><td>91</td><td>⚠️</td><td>google.pl</td><td>OK</td><td><details><summary>13 warnings</summary><pre>* Invalid value for `opacity`
     syntax: &lt;number-zero-one&gt;
      value: 1\0/
     --------^
@@ -4953,7 +4953,7 @@ Update date: 2017-03-08T23:38:31.002Z
     syntax: &lt;single-transition&gt;#
      value: scale(1.3,1.3)
     --------^</pre></details></td></tr>
-<tr><td>93</td><td>⚠️</td><td>bongacams.com</td><td>OK</td><td><details><summary>6 warnings (unique: 6)</summary><pre>* Invalid value for `behavior`
+<tr><td>93</td><td>⚠️</td><td>bongacams.com</td><td>OK</td><td><details><summary>6 warnings</summary><pre>* Invalid value for `behavior`
     syntax: &lt;url&gt;+
      value: ''
     --------^
@@ -5156,7 +5156,7 @@ Update date: 2017-03-08T23:38:31.002Z
     syntax: [ [ &lt;'font-style'&gt; || &lt;font-variant-css21&gt; || &lt;'font-weight'&gt; || &lt;'font-stretch'&gt; ]? &lt;'font-size'&gt; [ / &lt;'line-height'&gt; ]? &lt;'font-family'&gt; ] | caption | icon | menu | message-box | small-caption | status-bar | &lt;-non-standart-font&gt;
      value: Arial,Helvetica
     --------^</pre></details></td></tr>
-<tr><td>95</td><td>⚠️</td><td>google.com.pk</td><td>OK</td><td><details><summary>13 warnings (unique: 13)</summary><pre>* Invalid value for `opacity`
+<tr><td>95</td><td>⚠️</td><td>google.com.pk</td><td>OK</td><td><details><summary>13 warnings</summary><pre>* Invalid value for `opacity`
     syntax: &lt;number-zero-one&gt;
      value: 1\0/
     --------^
@@ -5303,7 +5303,7 @@ Update date: 2017-03-08T23:38:31.002Z
     syntax: flex-start | flex-end | center | space-between | space-around | space-evenly
      value: left
     --------^</pre></details></td></tr>
-<tr><td>97</td><td>⚠️</td><td>google.com.ar</td><td>OK</td><td><details><summary>13 warnings (unique: 13)</summary><pre>* Invalid value for `opacity`
+<tr><td>97</td><td>⚠️</td><td>google.com.ar</td><td>OK</td><td><details><summary>13 warnings</summary><pre>* Invalid value for `opacity`
     syntax: &lt;number-zero-one&gt;
      value: 1\0/
     --------^
@@ -5355,7 +5355,7 @@ Update date: 2017-03-08T23:38:31.002Z
     syntax: &lt;bg-image&gt;#
      value: linear-gradient(bottom,rgba(0,0,0,.2),rgba(0,0,0,0))
     --------^</pre></details></td></tr>
-<tr><td>98</td><td>⚠️</td><td>whatsapp.com</td><td>OK</td><td><details><summary>5 warnings (unique: 5)</summary><pre>* Unknown property: font-smooth
+<tr><td>98</td><td>⚠️</td><td>whatsapp.com</td><td>OK</td><td><details><summary>5 warnings</summary><pre>* Unknown property: font-smooth
 * Invalid value for `white-space`
     syntax: normal | pre | nowrap | pre-wrap | pre-line
      value: -moz-pre-wrap
@@ -5621,11 +5621,11 @@ Update date: 2017-03-08T23:38:31.002Z
     syntax: &lt;bg-image&gt;#
      value: -o-linear-gradient(to bottom,#cb0400,#a50200)
     --------^</pre></details></td></tr>
-<tr><td>100</td><td>⚠️</td><td>ask.com</td><td>OK</td><td><details><summary>1 warning (unique: 1)</summary><pre>* Invalid value for `background`
+<tr><td>100</td><td>⚠️</td><td>ask.com</td><td>OK</td><td><details><summary>1 warning</summary><pre>* Invalid value for `background`
     syntax: [ &lt;bg-layer&gt; , ]* &lt;final-bg-layer&gt;
      value: linear-gradient(top,#0062b2,#0062b2)
     --------^</pre></details></td></tr>
-<tr><td>101</td><td>⚠️</td><td>youth.cn</td><td>OK</td><td><details><summary>3 warnings (unique: 3)</summary><pre>* Invalid value for `overflow`
+<tr><td>101</td><td>⚠️</td><td>youth.cn</td><td>OK</td><td><details><summary>3 warnings</summary><pre>* Invalid value for `overflow`
     syntax: visible | hidden | scroll | auto
      value: -moz-scrollbars-vertical
     --------^
@@ -5638,7 +5638,7 @@ Update date: 2017-03-08T23:38:31.002Z
      value: 0px 10px 10px\9\0
     ---------------------^</pre></details></td></tr>
 <tr><td>102</td><td>🆗</td><td>clicksgear.com</td><td>OK</td><td>OK</td></tr>
-<tr><td>103</td><td>⚠️</td><td>ettoday.net</td><td>OK</td><td><details><summary>3 warnings (unique: 3)</summary><pre>* Invalid value for `color`
+<tr><td>103</td><td>⚠️</td><td>ettoday.net</td><td>OK</td><td><details><summary>3 warnings</summary><pre>* Invalid value for `color`
     syntax: &lt;color&gt;
      value: #3f3a3
     --------^
@@ -5650,7 +5650,7 @@ Update date: 2017-03-08T23:38:31.002Z
     syntax: &lt;br-width&gt; || &lt;br-style&gt; || &lt;color&gt;
      value: px dashed blue
     --------^</pre></details></td></tr>
-<tr><td>104</td><td>⚠️</td><td>bbc.co.uk</td><td>OK</td><td><details><summary>4 warnings (unique: 4)</summary><pre>* Invalid value for `border-right-color`
+<tr><td>104</td><td>⚠️</td><td>bbc.co.uk</td><td>OK</td><td><details><summary>4 warnings</summary><pre>* Invalid value for `border-right-color`
     syntax: &lt;color&gt;
      value: 12px solid #1d90cf
     --------^
@@ -5666,7 +5666,7 @@ Update date: 2017-03-08T23:38:31.002Z
     syntax: none | &lt;transform-list&gt;
      value: translateZ(0),rotate(45deg)
     ---------------------^</pre></details></td></tr>
-<tr><td>105</td><td>⚠️</td><td>craigslist.org</td><td>OK</td><td><details><summary>2 warnings (unique: 2)</summary><pre>* Invalid value for `break-before`
+<tr><td>105</td><td>⚠️</td><td>craigslist.org</td><td>OK</td><td><details><summary>2 warnings</summary><pre>* Invalid value for `break-before`
     syntax: auto | avoid | avoid-page | page | left | right | recto | verso | avoid-column | column | avoid-region | region
      value: always
     --------^
@@ -6516,7 +6516,7 @@ Update date: 2017-03-08T23:38:31.002Z
     syntax: &lt;bg-image&gt;#
      value: -webkit-gradient(linear,color-stop(0,#ffffff),color-stop(0.97,#f4f4f6),color-stop(0.99,#f4f4f6))
     --------^</pre></details></td></tr>
-<tr><td>111</td><td>⚠️</td><td>google.nl</td><td>OK</td><td><details><summary>13 warnings (unique: 13)</summary><pre>* Invalid value for `opacity`
+<tr><td>111</td><td>⚠️</td><td>google.nl</td><td>OK</td><td><details><summary>13 warnings</summary><pre>* Invalid value for `opacity`
     syntax: &lt;number-zero-one&gt;
      value: 1\0/
     --------^
@@ -6611,7 +6611,7 @@ Update date: 2017-03-08T23:38:31.002Z
     7 |…idth:100%;height:100%;background:#000;opacity:.6;filter:~"alpha(opacity=60)";filter:~"progid:DXIma…
 ----------------------------------------------------------------^
     8 |
-    9 |</pre></details><em>Unprocessed Less escaping</em></td><td><details><summary>4 warnings (unique: 4)</summary><pre>* Invalid value for `background`
+    9 |</pre></details><em>Unprocessed Less escaping</em></td><td><details><summary>4 warnings</summary><pre>* Invalid value for `background`
     syntax: [ &lt;bg-layer&gt; , ]* &lt;final-bg-layer&gt;
      value: linear-gradient(left,#fff,#e8e8e8,#e8e8e8,#e8e8e8,#fff)
     --------^
@@ -6858,7 +6858,7 @@ Update date: 2017-03-08T23:38:31.002Z
 -------^
   587 |/* ad_liquid_lideshow styles */
   588 |div.ad-slideshow-existItemDisplay{position:relative; min-width:456px; margin: 10px 0;}</pre></details></td><td>–</td></tr>
-<tr><td>121</td><td>⚠️</td><td>soundcloud.com</td><td>OK</td><td><details><summary>2 warnings (unique: 2)</summary><pre>* Invalid value for `-webkit-perspective`
+<tr><td>121</td><td>⚠️</td><td>soundcloud.com</td><td>OK</td><td><details><summary>2 warnings</summary><pre>* Invalid value for `-webkit-perspective`
     syntax: none | &lt;length&gt;
      value: 900
     --------^
@@ -6866,7 +6866,7 @@ Update date: 2017-03-08T23:38:31.002Z
     syntax: none | &lt;length&gt;
      value: 900
     --------^</pre></details></td></tr>
-<tr><td>122</td><td>⚠️</td><td>login.tmall.com</td><td>OK</td><td><details><summary>4 warnings (unique: 4)</summary><pre>* Invalid value for `filter`
+<tr><td>122</td><td>⚠️</td><td>login.tmall.com</td><td>OK</td><td><details><summary>4 warnings</summary><pre>* Invalid value for `filter`
     syntax: none | &lt;filter-function-list&gt; | &lt;-ms-filter&gt;
      value: mask()
     --------^
@@ -7279,7 +7279,7 @@ Update date: 2017-03-08T23:38:31.002Z
     syntax: [ &lt;length&gt; | &lt;percentage&gt; ] &amp;&amp; [ border-box | content-box ]? | available | min-content | max-content | fit-content | auto
      value: device-width
     --------^</pre></details></td></tr>
-<tr><td>131</td><td>⚠️</td><td>google.co.ve</td><td>OK</td><td><details><summary>13 warnings (unique: 13)</summary><pre>* Invalid value for `opacity`
+<tr><td>131</td><td>⚠️</td><td>google.co.ve</td><td>OK</td><td><details><summary>13 warnings</summary><pre>* Invalid value for `opacity`
     syntax: &lt;number-zero-one&gt;
      value: 1\0/
     --------^
@@ -7719,7 +7719,7 @@ Update date: 2017-03-08T23:38:31.002Z
      value: none
     --------^</pre></details></td></tr>
 <tr><td>135</td><td>⚠️</td><td>onlinesbi.com</td><td colspan="2">–</td></tr>
-<tr><td>136</td><td>⚠️</td><td>google.co.za</td><td>OK</td><td><details><summary>13 warnings (unique: 13)</summary><pre>* Invalid value for `opacity`
+<tr><td>136</td><td>⚠️</td><td>google.co.za</td><td>OK</td><td><details><summary>13 warnings</summary><pre>* Invalid value for `opacity`
     syntax: &lt;number-zero-one&gt;
      value: 1\0/
     --------^
@@ -7777,7 +7777,7 @@ Update date: 2017-03-08T23:38:31.002Z
     7 |…idth:100%;height:100%;background:#000;opacity:.6;filter:~"alpha(opacity=60)";filter:~"progid:DXIma…
 ----------------------------------------------------------------^
     8 |
-    9 |</pre></details><em>Unprocessed Less escaping</em></td><td><details><summary>4 warnings (unique: 4)</summary><pre>* Invalid value for `background`
+    9 |</pre></details><em>Unprocessed Less escaping</em></td><td><details><summary>4 warnings</summary><pre>* Invalid value for `background`
     syntax: [ &lt;bg-layer&gt; , ]* &lt;final-bg-layer&gt;
      value: linear-gradient(left,#fff,#e8e8e8,#e8e8e8,#e8e8e8,#fff)
     --------^
@@ -7921,7 +7921,7 @@ Update date: 2017-03-08T23:38:31.002Z
  1617 |
  1618 |</pre></details><em>Missed trailing curly bracket</em></td><td><details><summary>2 warnings (unique: 1)</summary><pre>* Unknown property: blr
 * Unknown property: blr</pre></details></td></tr>
-<tr><td>142</td><td>⚠️</td><td>avito.ru</td><td>OK</td><td><details><summary>3 warnings (unique: 3)</summary><pre>* The rest part of value can't to be matched on `-webkit-transition` syntax
+<tr><td>142</td><td>⚠️</td><td>avito.ru</td><td>OK</td><td><details><summary>3 warnings</summary><pre>* The rest part of value can't to be matched on `-webkit-transition` syntax
     syntax: &lt;single-transition&gt;#
      value: border-color 0
     ---------------------^
@@ -7950,7 +7950,7 @@ Update date: 2017-03-08T23:38:31.002Z
     syntax: [ &lt;image&gt; , ]* [ normal | none | &lt;content-list&gt; ] [ / &lt;string&gt; ]?
      value: counter(section) "." counters(clause,".") " "
     -----------------------------^</pre></details></td></tr>
-<tr><td>144</td><td>⚠️</td><td>google.gr</td><td>OK</td><td><details><summary>13 warnings (unique: 13)</summary><pre>* Invalid value for `opacity`
+<tr><td>144</td><td>⚠️</td><td>google.gr</td><td>OK</td><td><details><summary>13 warnings</summary><pre>* Invalid value for `opacity`
     syntax: &lt;number-zero-one&gt;
      value: 1\0/
     --------^
@@ -8460,7 +8460,7 @@ Update date: 2017-03-08T23:38:31.002Z
 -------^
     5 |body, div, p, h3, img{margin:0;padding:0;}
     6 |body{background:#134792 none;color:#333;font-size:12px;font-style:normal;font-weight:normal;font-f…</pre></details></td><td>–</td></tr>
-<tr><td>148</td><td>⚠️</td><td>google.com.vn</td><td>OK</td><td><details><summary>13 warnings (unique: 13)</summary><pre>* Invalid value for `opacity`
+<tr><td>148</td><td>⚠️</td><td>google.com.vn</td><td>OK</td><td><details><summary>13 warnings</summary><pre>* Invalid value for `opacity`
     syntax: &lt;number-zero-one&gt;
      value: 1\0/
     --------^
@@ -8512,7 +8512,7 @@ Update date: 2017-03-08T23:38:31.002Z
     syntax: &lt;bg-image&gt;#
      value: linear-gradient(bottom,rgba(0,0,0,.2),rgba(0,0,0,0))
     --------^</pre></details></td></tr>
-<tr><td>149</td><td>⚠️</td><td>cnet.com</td><td>OK</td><td><details><summary>2 warnings (unique: 2)</summary><pre>* Unknown property: enable-background
+<tr><td>149</td><td>⚠️</td><td>cnet.com</td><td>OK</td><td><details><summary>2 warnings</summary><pre>* Unknown property: enable-background
 * The rest part of value can't to be matched on `margin-top` syntax
     syntax: &lt;length&gt; | &lt;percentage&gt; | auto
      value: 1px \9
@@ -8744,7 +8744,7 @@ Update date: 2017-03-08T23:38:31.002Z
     syntax: &lt;bg-image&gt;#
      value: linear-gradient(top,transparent,rgba(0,0,0,.15))
     --------^</pre></details></td></tr>
-<tr><td>151</td><td>⚠️</td><td>google.com.co</td><td>OK</td><td><details><summary>13 warnings (unique: 13)</summary><pre>* Invalid value for `opacity`
+<tr><td>151</td><td>⚠️</td><td>google.com.co</td><td>OK</td><td><details><summary>13 warnings</summary><pre>* Invalid value for `opacity`
     syntax: &lt;number-zero-one&gt;
      value: 1\0/
     --------^
@@ -8796,7 +8796,7 @@ Update date: 2017-03-08T23:38:31.002Z
     syntax: &lt;bg-image&gt;#
      value: linear-gradient(bottom,rgba(0,0,0,.2),rgba(0,0,0,0))
     --------^</pre></details></td></tr>
-<tr><td>152</td><td>⚠️</td><td>zhihu.com</td><td>OK</td><td><details><summary>2 warnings (unique: 2)</summary><pre>* Invalid value for `cursor`
+<tr><td>152</td><td>⚠️</td><td>zhihu.com</td><td>OK</td><td><details><summary>2 warnings</summary><pre>* Invalid value for `cursor`
     syntax: [ [ &lt;url&gt; [ &lt;x&gt; &lt;y&gt; ]? , ]* [ auto | default | none | context-menu | help | pointer | progress | wait | cell | crosshair | text | vertical-text | alias | copy | move | no-drop | not-allowed | e-resize | n-resize | ne-resize | nw-resize | s-resize | se-resize | sw-resize | w-resize | ew-resize | ns-resize | nesw-resize | nwse-resize | col-resize | row-resize | all-scroll | zoom-in | zoom-out | grab | grabbing | hand | -webkit-grab | -webkit-grabbing | -webkit-zoom-in | -webkit-zoom-out | -moz-grab | -moz-grabbing | -moz-zoom-in | -moz-zoom-out ] ]
      value: -webkit-image-set(url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABIAAAASCAYAAABWzo5XAAAABGdBTUEAALGPC/xhBQAAARpJREFUOBGdkr1KA0EUhTcxEkSQQIpAihQWPoedD2BnIVsZQiBVEkiR7SwtBDsJqXwBLQwEgoWNjY2FjYUQ38Ei5Oc7sBeGLTKze+Djzsyecxh2N4ryq0zkHpYQQ2H1SW5TNsxukaZzQsewACvTvIBg3eFUaABHMEv3OruBIN3icm8wZl+FZ3iBQ/AqweGW2FrlKlChV0McFsxOvaegm/T2lLzzTC/dqzaO7A1s/8GzE28Dhhj0f1jQnZ+c18CrKxxrcMO2/uK87m3AcAkrsKA7vzlvQJAmuNywrX84bwY1YBrBATyCFWj+QguCJKNCU1DZQ7r/Y55CsK5x2i2eWFcggTPIJd3Eiv5Zd3KlU3OJOQd9lVd4A5Xl1g4YG2GGhwRfegAAAABJRU5ErkJggg==) 1x,url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACQAAAAkCAYAAADhAJiYAAAABGdBTUEAALGPC/xhBQAAAn9JREFUWAnFlz1IV2EUxs2+ixCCrCCrIaiGGnLIRdBacqkhtCEbqqVaoqmacpIma6rFHHITh1pKMKFaInATkb4hKChKIwj7rt8D74XDy3tfKM69Hng4zz3nvc9zfH3/93//DQ31xWqsBsEnMAU6wILFSpwnwB+Db/BDoPZYjuMYsMMU/Af1nron2o7hh5KBNNhP0AtqjV24vQPFzsT5F70jVU7UiPhNcNyY7IC/AfEwxfUsvcVmvRtdhNIQkNFvcAoUsQ3yGhRDxLmpWOiZryUMzxqDrfCXiTXjZo0bvZIwKnbhvHHZBH9q1s7Am03fhV42BsUQcb5knDbAp8EzsNHUXWgfKrF52XW/cVwH1265xgXUyszL6gOuExixc/8xjIZ8C9YbHRd6GpWyHcjV33PfTpcJjMgJuJ4xOeNU7yP37DY6LvQoKnrUpwxzNb12tLpMYES64foyzBmnep+5p83ouNCDqHwHKcNc7Qv3tLtMYEQOwPVClTNO9ea5Z7/RcaH7UJFwyjBX0x/Q5TKBEdFWa8tzxqme3gTdX0/3IqrDmDLM1XTodfhdYw9qcyBnnOrpcdDrOglienDpAZYyzNX0oDwJ3GMUxZxxWe+M+yRBcBX53j8OpS9Z9ziM4tKguoJ8B5Tthq1fDPe4p+co3gbLgrLyLWDNY94X1rqnFmN8F64dUiwBIyAeRNd6Za0sjqFsTXWGdJYU+q00DGz/qhpVxg3EraH4Q7AmmDaSB4Hq10Ot0vQimMVDPaLeFJz1A1DvQsqVxmbU40Hs9ST9tZVOYMT1r+gw1zF9ReEx2BI3qrrWp6jTiH+FPwD6pI2BJ6DW0HkYBzNAQ9wH82DB4i/kUnkzGX+skQAAAABJRU5ErkJggg==) 2x) 0 17,default
     --------^
@@ -8863,7 +8863,7 @@ Update date: 2017-03-08T23:38:31.002Z
     syntax: &lt;color&gt;
      value: status-neutral
     --------^</pre></details></td></tr>
-<tr><td>155</td><td>⚠️</td><td>google.com.ph</td><td>OK</td><td><details><summary>13 warnings (unique: 13)</summary><pre>* Invalid value for `opacity`
+<tr><td>155</td><td>⚠️</td><td>google.com.ph</td><td>OK</td><td><details><summary>13 warnings</summary><pre>* Invalid value for `opacity`
     syntax: &lt;number-zero-one&gt;
      value: 1\0/
     --------^
@@ -8972,7 +8972,7 @@ Update date: 2017-03-08T23:38:31.002Z
 ----------------------------------------------------------------^
    10 |…px;border-radius:50%;margin:-10px 0 0 -10px}._2wEmBu ._1lnfpx:after{left:45%;top:50%;border:solid …
    11 |</pre></details><em>Too many errors due non-processed nesting</em></td><td>–</td></tr>
-<tr><td>160</td><td>⚠️</td><td>theladbible.com</td><td>OK</td><td><details><summary>2 warnings (unique: 2)</summary><pre>* The rest part of value can't to be matched on `-webkit-transition` syntax
+<tr><td>160</td><td>⚠️</td><td>theladbible.com</td><td>OK</td><td><details><summary>2 warnings</summary><pre>* The rest part of value can't to be matched on `-webkit-transition` syntax
     syntax: &lt;single-transition&gt;#
      value: visibility 0 linear 0,opacity 1s 0
     -------------------^
@@ -9758,7 +9758,7 @@ Update date: 2017-03-08T23:38:31.002Z
     --------^</pre></details></td></tr>
 <tr><td>162</td><td>⚠️</td><td>hclips.com</td><td colspan="2">–</td></tr>
 <tr><td>163</td><td>🆗</td><td>chase.com</td><td>OK</td><td>OK</td></tr>
-<tr><td>164</td><td>⚠️</td><td>google.be</td><td>OK</td><td><details><summary>13 warnings (unique: 13)</summary><pre>* Invalid value for `opacity`
+<tr><td>164</td><td>⚠️</td><td>google.be</td><td>OK</td><td><details><summary>13 warnings</summary><pre>* Invalid value for `opacity`
     syntax: &lt;number-zero-one&gt;
      value: 1\0/
     --------^
@@ -9880,7 +9880,7 @@ Update date: 2017-03-08T23:38:31.002Z
     syntax: [ &lt;bg-layer&gt; , ]* &lt;final-bg-layer&gt;
      value: #transparent
     --------^</pre></details></td></tr>
-<tr><td>167</td><td>⚠️</td><td>softonic.com</td><td>OK</td><td><details><summary>15 warnings (unique: 15)</summary><pre>* The rest part of value can't to be matched on `max-width` syntax
+<tr><td>167</td><td>⚠️</td><td>softonic.com</td><td>OK</td><td><details><summary>15 warnings</summary><pre>* The rest part of value can't to be matched on `max-width` syntax
     syntax: &lt;length&gt; | &lt;percentage&gt; | none | max-content | min-content | fit-content | fill-available | &lt;-non-standart-width&gt;
      value: 114px\0
     -------------^
@@ -11120,7 +11120,7 @@ Update date: 2017-03-08T23:38:31.002Z
     syntax: &lt;length&gt; | &lt;percentage&gt; | auto
      value: 15px -1px
     ------------^</pre></details></td></tr>
-<tr><td>173</td><td>⚠️</td><td>google.com.ua</td><td>OK</td><td><details><summary>13 warnings (unique: 13)</summary><pre>* Invalid value for `opacity`
+<tr><td>173</td><td>⚠️</td><td>google.com.ua</td><td>OK</td><td><details><summary>13 warnings</summary><pre>* Invalid value for `opacity`
     syntax: &lt;number-zero-one&gt;
      value: 1\0/
     --------^
@@ -11282,7 +11282,7 @@ Update date: 2017-03-08T23:38:31.002Z
     ------------^</pre></details></td></tr>
 <tr><td>175</td><td>⚠️</td><td>go2cloud.org</td><td colspan="2">–</td></tr>
 <tr><td>176</td><td>⚠️</td><td>upornia.com</td><td colspan="2">–</td></tr>
-<tr><td>177</td><td>⚠️</td><td>google.ro</td><td>OK</td><td><details><summary>13 warnings (unique: 13)</summary><pre>* Invalid value for `opacity`
+<tr><td>177</td><td>⚠️</td><td>google.ro</td><td>OK</td><td><details><summary>13 warnings</summary><pre>* Invalid value for `opacity`
     syntax: &lt;number-zero-one&gt;
      value: 1\0/
     --------^
@@ -11334,7 +11334,7 @@ Update date: 2017-03-08T23:38:31.002Z
     syntax: &lt;bg-image&gt;#
      value: linear-gradient(bottom,rgba(0,0,0,.2),rgba(0,0,0,0))
     --------^</pre></details></td></tr>
-<tr><td>178</td><td>⚠️</td><td>google.se</td><td>OK</td><td><details><summary>13 warnings (unique: 13)</summary><pre>* Invalid value for `opacity`
+<tr><td>178</td><td>⚠️</td><td>google.se</td><td>OK</td><td><details><summary>13 warnings</summary><pre>* Invalid value for `opacity`
     syntax: &lt;number-zero-one&gt;
      value: 1\0/
     --------^
@@ -11485,7 +11485,7 @@ Update date: 2017-03-08T23:38:31.002Z
     3 |…:75px;margin-top:50px;background:img(/img/huaban_loading.gif) 0 0 no-repeat;color:#999;font-size:1…
 ----------------------------------------------------------------^
     4 |
-    5 |</pre></details></td><td><details><summary>3 warnings (unique: 3)</summary><pre>* Invalid value for `clip`
+    5 |</pre></details></td><td><details><summary>3 warnings</summary><pre>* Invalid value for `clip`
     syntax: &lt;shape&gt; | auto
      value: rect(0)
     --------^
@@ -11550,7 +11550,7 @@ Update date: 2017-03-08T23:38:31.002Z
 ----------------------------------------------------------------^
    50 |
    51 |…ategories_rowListli&gt;ul.cateList&gt;li&gt;a.active&gt;svg,a.language-toggle.active span.down-svg&gt;svg{transfo…</pre></details></td><td>–</td></tr>
-<tr><td>184</td><td>⚠️</td><td>google.com.sg</td><td>OK</td><td><details><summary>13 warnings (unique: 13)</summary><pre>* Invalid value for `opacity`
+<tr><td>184</td><td>⚠️</td><td>google.com.sg</td><td>OK</td><td><details><summary>13 warnings</summary><pre>* Invalid value for `opacity`
     syntax: &lt;number-zero-one&gt;
      value: 1\0/
     --------^
@@ -11693,7 +11693,7 @@ Update date: 2017-03-08T23:38:31.002Z
 ----------------------------------------------------------------^
    30 |
    31 |</pre></details></td><td>–</td></tr>
-<tr><td>189</td><td>⚠️</td><td>google.az</td><td>OK</td><td><details><summary>13 warnings (unique: 13)</summary><pre>* Invalid value for `opacity`
+<tr><td>189</td><td>⚠️</td><td>google.az</td><td>OK</td><td><details><summary>13 warnings</summary><pre>* Invalid value for `opacity`
     syntax: &lt;number-zero-one&gt;
      value: 1\0/
     --------^
@@ -12134,7 +12134,7 @@ Update date: 2017-03-08T23:38:31.002Z
      value: linear-gradient(top,rgba(227,227,227,1) 0,rgba(198,198,198,1) 100%)
     --------^</pre></details></td></tr>
 <tr><td>198</td><td>🆗</td><td>buzzfeed.com</td><td>OK</td><td>OK</td></tr>
-<tr><td>199</td><td>⚠️</td><td>github.io</td><td>OK</td><td><details><summary>1 warning (unique: 1)</summary><pre>* Invalid value for `background`
+<tr><td>199</td><td>⚠️</td><td>github.io</td><td>OK</td><td><details><summary>1 warning</summary><pre>* Invalid value for `background`
     syntax: [ &lt;bg-layer&gt; , ]* &lt;final-bg-layer&gt;
      value: linear-gradient(top,#f7f7f7 0%,#cfcfcf 5%,#aaa 100%)
     --------^</pre></details></td></tr>
@@ -12222,7 +12222,7 @@ Update date: 2017-03-08T23:38:31.002Z
     syntax: [ [ &lt;'font-style'&gt; || &lt;font-variant-css21&gt; || &lt;'font-weight'&gt; || &lt;'font-stretch'&gt; ]? &lt;'font-size'&gt; [ / &lt;'line-height'&gt; ]? &lt;'font-family'&gt; ] | caption | icon | menu | message-box | small-caption | status-bar | &lt;-non-standart-font&gt;
      value: 1em/1.5em
     --------^</pre></details></td></tr>
-<tr><td>204</td><td>⚠️</td><td>google.at</td><td>OK</td><td><details><summary>13 warnings (unique: 13)</summary><pre>* Invalid value for `opacity`
+<tr><td>204</td><td>⚠️</td><td>google.at</td><td>OK</td><td><details><summary>13 warnings</summary><pre>* Invalid value for `opacity`
     syntax: &lt;number-zero-one&gt;
      value: 1\0/
     --------^
@@ -12274,7 +12274,7 @@ Update date: 2017-03-08T23:38:31.002Z
     syntax: &lt;bg-image&gt;#
      value: linear-gradient(bottom,rgba(0,0,0,.2),rgba(0,0,0,0))
     --------^</pre></details></td></tr>
-<tr><td>205</td><td>⚠️</td><td>google.com.ng</td><td>OK</td><td><details><summary>13 warnings (unique: 13)</summary><pre>* Invalid value for `opacity`
+<tr><td>205</td><td>⚠️</td><td>google.com.ng</td><td>OK</td><td><details><summary>13 warnings</summary><pre>* Invalid value for `opacity`
     syntax: &lt;number-zero-one&gt;
      value: 1\0/
     --------^
@@ -12326,7 +12326,7 @@ Update date: 2017-03-08T23:38:31.002Z
     syntax: &lt;bg-image&gt;#
      value: linear-gradient(bottom,rgba(0,0,0,.2),rgba(0,0,0,0))
     --------^</pre></details></td></tr>
-<tr><td>206</td><td>⚠️</td><td>indiatimes.com</td><td>OK</td><td><details><summary>11 warnings (unique: 11)</summary><pre>* The rest part of value can't to be matched on `transition` syntax
+<tr><td>206</td><td>⚠️</td><td>indiatimes.com</td><td>OK</td><td><details><summary>11 warnings</summary><pre>* The rest part of value can't to be matched on `transition` syntax
     syntax: &lt;single-transition&gt;#
      value: all 0 300ms
     ------------^
@@ -12426,7 +12426,7 @@ Update date: 2017-03-08T23:38:31.002Z
    25 |…een and (-webkit-min-device-pixel-ratio: 0){font-family:"wicons";src:url("https://cdn2.editmysite.…
 ----------------------------------------------------------------^
    26 |</pre></details></td><td>–</td></tr>
-<tr><td>209</td><td>⚠️</td><td>prestoris.com</td><td>OK</td><td><details><summary>13 warnings (unique: 13)</summary><pre>* Invalid value for `opacity`
+<tr><td>209</td><td>⚠️</td><td>prestoris.com</td><td>OK</td><td><details><summary>13 warnings</summary><pre>* Invalid value for `opacity`
     syntax: &lt;number-zero-one&gt;
      value: 1\0/
     --------^
@@ -12478,7 +12478,7 @@ Update date: 2017-03-08T23:38:31.002Z
     syntax: &lt;bg-image&gt;#
      value: linear-gradient(bottom,rgba(0,0,0,.2),rgba(0,0,0,0))
     --------^</pre></details></td></tr>
-<tr><td>210</td><td>⚠️</td><td>google.com.pe</td><td>OK</td><td><details><summary>13 warnings (unique: 13)</summary><pre>* Invalid value for `opacity`
+<tr><td>210</td><td>⚠️</td><td>google.com.pe</td><td>OK</td><td><details><summary>13 warnings</summary><pre>* Invalid value for `opacity`
     syntax: &lt;number-zero-one&gt;
      value: 1\0/
     --------^
@@ -12538,7 +12538,7 @@ Update date: 2017-03-08T23:38:31.002Z
 ----------------------------------------------------------------^
     5 |
     6 |</pre></details></td><td>–</td></tr>
-<tr><td>213</td><td>⚠️</td><td>reimageplus.com</td><td>OK</td><td><details><summary>1 warning (unique: 1)</summary><pre>* Invalid value for `border-bottom-color`
+<tr><td>213</td><td>⚠️</td><td>reimageplus.com</td><td>OK</td><td><details><summary>1 warning</summary><pre>* Invalid value for `border-bottom-color`
     syntax: &lt;color&gt;
      value: 2f 5bb 7
     --------^</pre></details></td></tr>
@@ -12549,7 +12549,7 @@ Update date: 2017-03-08T23:38:31.002Z
 --------------^
  1947 |}
  1948 |@media screen and (max-height:550px){.campaign_header.full_height h1{margin-top:50px}</pre></details></td><td>–</td></tr>
-<tr><td>215</td><td>⚠️</td><td>9gag.com</td><td>OK</td><td><details><summary>2 warnings (unique: 2)</summary><pre>* The rest part of value can't to be matched on `-webkit-transition` syntax
+<tr><td>215</td><td>⚠️</td><td>9gag.com</td><td>OK</td><td><details><summary>2 warnings</summary><pre>* The rest part of value can't to be matched on `-webkit-transition` syntax
     syntax: &lt;single-transition&gt;#
      value: opacity .1s ease 0
     -------------------------^
@@ -12557,7 +12557,7 @@ Update date: 2017-03-08T23:38:31.002Z
     syntax: &lt;single-transition&gt;#
      value: opacity .3s ease-in-out 0,bottom .3s ease-in-out .5s
     --------------------------------^</pre></details></td></tr>
-<tr><td>216</td><td>⚠️</td><td>google.cz</td><td>OK</td><td><details><summary>13 warnings (unique: 13)</summary><pre>* Invalid value for `opacity`
+<tr><td>216</td><td>⚠️</td><td>google.cz</td><td>OK</td><td><details><summary>13 warnings</summary><pre>* Invalid value for `opacity`
     syntax: &lt;number-zero-one&gt;
      value: 1\0/
     --------^
@@ -12941,7 +12941,7 @@ Update date: 2017-03-08T23:38:31.002Z
 ----------------------------------------------------------------^
    46 |
    47 |</pre></details></td><td>–</td></tr>
-<tr><td>219</td><td>⚠️</td><td>google.ch</td><td>OK</td><td><details><summary>13 warnings (unique: 13)</summary><pre>* Invalid value for `opacity`
+<tr><td>219</td><td>⚠️</td><td>google.ch</td><td>OK</td><td><details><summary>13 warnings</summary><pre>* Invalid value for `opacity`
     syntax: &lt;number-zero-one&gt;
      value: 1\0/
     --------^
@@ -12998,7 +12998,7 @@ Update date: 2017-03-08T23:38:31.002Z
  2336 |
  2337 |…und-color:#fab904}.bg-frost{background-color:rgba(#fff,0:global .95)}.bg-shade{background-color:rg…
 ----------------------------------------------------------------^
-</pre></details></td><td><details><summary>5 warnings (unique: 5)</summary><pre>* Invalid value for `width`
+</pre></details></td><td><details><summary>5 warnings</summary><pre>* Invalid value for `width`
     syntax: [ &lt;length&gt; | &lt;percentage&gt; ] &amp;&amp; [ border-box | content-box ]? | available | min-content | max-content | fit-content | auto
      value: auto9
     --------^
@@ -13404,7 +13404,7 @@ Update date: 2017-03-08T23:38:31.002Z
     syntax: &lt;single-animation&gt;#
      value: scale(1)
     --------^</pre></details></td></tr>
-<tr><td>223</td><td>⚠️</td><td>mercadolivre.com.br</td><td>OK</td><td><details><summary>7 warnings (unique: 7)</summary><pre>* Invalid value for `-webkit-animation-delay`
+<tr><td>223</td><td>⚠️</td><td>mercadolivre.com.br</td><td>OK</td><td><details><summary>7 warnings</summary><pre>* Invalid value for `-webkit-animation-delay`
     syntax: &lt;time&gt;#
      value: 0
     --------^
@@ -13429,7 +13429,7 @@ Update date: 2017-03-08T23:38:31.002Z
     syntax: none | &lt;shadow&gt;#
      value: 2px #f99
     --------^</pre></details></td></tr>
-<tr><td>224</td><td>⚠️</td><td>trello.com</td><td>OK</td><td><details><summary>1 warning (unique: 1)</summary><pre>* Invalid value for `background-color`
+<tr><td>224</td><td>⚠️</td><td>trello.com</td><td>OK</td><td><details><summary>1 warning</summary><pre>* Invalid value for `background-color`
     syntax: &lt;color&gt;
      value: none
     --------^</pre></details></td></tr>
@@ -13783,11 +13783,11 @@ Update date: 2017-03-08T23:38:31.002Z
     syntax: &lt;bg-image&gt;#
      value: -o-linear-gradient(to bottom,#cb0400,#a50200)
     --------^</pre></details></td></tr>
-<tr><td>229</td><td>⚠️</td><td>ameblo.jp</td><td>OK</td><td><details><summary>1 warning (unique: 1)</summary><pre>* Invalid value for `background`
+<tr><td>229</td><td>⚠️</td><td>ameblo.jp</td><td>OK</td><td><details><summary>1 warning</summary><pre>* Invalid value for `background`
     syntax: [ &lt;bg-layer&gt; , ]* &lt;final-bg-layer&gt;
      value: #666\9
     --------^</pre></details></td></tr>
-<tr><td>230</td><td>⚠️</td><td>openload.co</td><td>OK</td><td><details><summary>6 warnings (unique: 6)</summary><pre>* The rest part of value can't to be matched on `margin-top` syntax
+<tr><td>230</td><td>⚠️</td><td>openload.co</td><td>OK</td><td><details><summary>6 warnings</summary><pre>* The rest part of value can't to be matched on `margin-top` syntax
     syntax: &lt;length&gt; | &lt;percentage&gt; | auto
      value: 1px \9
     -----------^
@@ -13811,7 +13811,7 @@ Update date: 2017-03-08T23:38:31.002Z
     syntax: [ &lt;length&gt; | &lt;percentage&gt; ] &amp;&amp; [ border-box | content-box ]? | available | min-content | max-content | fit-content | auto
      value: device-width
     --------^</pre></details></td></tr>
-<tr><td>231</td><td>⚠️</td><td>fbcdn.net</td><td>OK</td><td><details><summary>1 warning (unique: 1)</summary><pre>* Invalid value for `overflow`
+<tr><td>231</td><td>⚠️</td><td>fbcdn.net</td><td>OK</td><td><details><summary>1 warning</summary><pre>* Invalid value for `overflow`
     syntax: visible | hidden | scroll | auto
      value: overlay
     --------^</pre></details></td></tr>
@@ -13821,7 +13821,7 @@ Update date: 2017-03-08T23:38:31.002Z
    16 |.HPP_3.ob-widget .ob-dynamic-rec-container {position:relative;margin:0;padding;0;}
 -------------------------------------------------------------------------------------^
    17 |.HPP_3.ob-widget .ob-dynamic-rec-link,
-   18 |.HPP_3.ob-widget .ob-dynamic-rec-link:hover {text-decoration:none;}</pre></details></td><td><details><summary>8 warnings (unique: 8)</summary><pre>* Unknown property: backgroud-repeat
+   18 |.HPP_3.ob-widget .ob-dynamic-rec-link:hover {text-decoration:none;}</pre></details></td><td><details><summary>8 warnings</summary><pre>* Unknown property: backgroud-repeat
 * Invalid value for `color`
     syntax: &lt;color&gt;
      value: undefined
@@ -13864,7 +13864,7 @@ Update date: 2017-03-08T23:38:31.002Z
 * Unknown property: font-color
 * Unknown property: font-color
 * Unknown property: font-color</pre></details></td></tr>
-<tr><td>234</td><td>⚠️</td><td>google.cl</td><td>OK</td><td><details><summary>13 warnings (unique: 13)</summary><pre>* Invalid value for `opacity`
+<tr><td>234</td><td>⚠️</td><td>google.cl</td><td>OK</td><td><details><summary>13 warnings</summary><pre>* Invalid value for `opacity`
     syntax: &lt;number-zero-one&gt;
      value: 1\0/
     --------^
@@ -14261,7 +14261,7 @@ Update date: 2017-03-08T23:38:31.002Z
 ----------------------------------------------------------------^
    10 |
    11 |</pre></details></td><td>–</td></tr>
-<tr><td>239</td><td>⚠️</td><td>google.ae</td><td>OK</td><td><details><summary>13 warnings (unique: 13)</summary><pre>* Invalid value for `opacity`
+<tr><td>239</td><td>⚠️</td><td>google.ae</td><td>OK</td><td><details><summary>13 warnings</summary><pre>* Invalid value for `opacity`
     syntax: &lt;number-zero-one&gt;
      value: 1\0/
     --------^
@@ -14313,7 +14313,7 @@ Update date: 2017-03-08T23:38:31.002Z
     syntax: &lt;bg-image&gt;#
      value: linear-gradient(bottom,rgba(0,0,0,.2),rgba(0,0,0,0))
     --------^</pre></details></td></tr>
-<tr><td>240</td><td>⚠️</td><td>google.dz</td><td>OK</td><td><details><summary>13 warnings (unique: 13)</summary><pre>* Invalid value for `opacity`
+<tr><td>240</td><td>⚠️</td><td>google.dz</td><td>OK</td><td><details><summary>13 warnings</summary><pre>* Invalid value for `opacity`
     syntax: &lt;number-zero-one&gt;
      value: 1\0/
     --------^
@@ -14526,7 +14526,7 @@ Update date: 2017-03-08T23:38:31.002Z
     syntax: normal | pre | nowrap | pre-wrap | pre-line
      value: -o-pre-wrap
     --------^</pre></details></td></tr>
-<tr><td>242</td><td>⚠️</td><td>google.co.ao</td><td>OK</td><td><details><summary>13 warnings (unique: 13)</summary><pre>* Invalid value for `opacity`
+<tr><td>242</td><td>⚠️</td><td>google.co.ao</td><td>OK</td><td><details><summary>13 warnings</summary><pre>* Invalid value for `opacity`
     syntax: &lt;number-zero-one&gt;
      value: 1\0/
     --------^
@@ -14579,7 +14579,7 @@ Update date: 2017-03-08T23:38:31.002Z
      value: linear-gradient(bottom,rgba(0,0,0,.2),rgba(0,0,0,0))
     --------^</pre></details></td></tr>
 <tr><td>243</td><td>⚠️</td><td>bp.blogspot.com</td><td colspan="2">–</td></tr>
-<tr><td>244</td><td>⚠️</td><td>wordreference.com</td><td>OK</td><td><details><summary>1 warning (unique: 1)</summary><pre>* Unknown property: webkit-box-shadow</pre></details></td></tr>
+<tr><td>244</td><td>⚠️</td><td>wordreference.com</td><td>OK</td><td><details><summary>1 warning</summary><pre>* Unknown property: webkit-box-shadow</pre></details></td></tr>
 <tr><td>245</td><td>⚠️</td><td>livejournal.com</td><td><details><summary>Error</summary><pre>Parse error: Identifier is expected
    76 |
    77 |
