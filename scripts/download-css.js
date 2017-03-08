@@ -6,7 +6,11 @@ var zlib = require('zlib');
 var fs = require('fs');
 var urls = require('./sites');
 var seedFile = path.join(__dirname, '../data/idx.txt');
-var outputDir = path.join(__dirname, '../data');
+var outputDir = path.join(__dirname, '../data/css');
+
+if (!fs.existsSync(outputDir)) {
+    fs.mkdir(outputDir);
+}
 
 // where are we in the list of URLs
 var idx = fs.existsSync(seedFile) ? parseInt(fs.readFileSync(seedFile)) : 0;

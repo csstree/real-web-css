@@ -2,7 +2,7 @@ var path = require('path');
 var fs = require('fs');
 var csstree = require('css-tree');
 var syntax = csstree.lexer;
-var dir = path.join(__dirname, '../data');
+var cssDir = path.join(__dirname, '../data/css');
 var sites = require('./sites');
 var readmeFile = path.join(__dirname, '../README.md');
 var resultFile = path.join(__dirname, '../data/test-result.json');
@@ -99,7 +99,7 @@ function parseError(e, report, fixed) {
 }
 
 var reports = sites.map(function(url, idx) {
-    var fullfn = dir + '/' + idx + '.css';
+    var fullfn = cssDir + '/' + idx + '.css';
     var patch = patches[url] || {};
     var report = {
         url: url,
