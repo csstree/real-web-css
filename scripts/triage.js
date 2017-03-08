@@ -9,11 +9,11 @@ buildTriageIndex({
             facts: function(item) {
                 var result = [];
                 if (item.error) {
-                    result.push(item.error);
+                    result.push(item.error.details);
                 }
-                if (item.fixedError) {
-                    result.push(item.fixedError);
-                }
+                // if (item.fixedError) {
+                //     result.push(item.fixedError.details);
+                // }
                 return result;
             },
             attributes: {
@@ -64,7 +64,7 @@ function toArray(setOrMap) {
 }
 
 function buildTriageIndex(config) {
-    var input = config.input;
+    var reports = config.input;
     var resolutionsFile = config.resolutions;
     var knownResolutions = {};
     var factBySubject = {};
@@ -108,13 +108,11 @@ function buildTriageIndex(config) {
     }
 
     // collect facts
-    for (var name in input) {
-        var item = input[name];
-
+    reports.forEach(function(report, idx) {
         for (var subjectName in config.subject) {
             var subject = config.subject[subjectName];
             var subjectFacts = factBySubject[subjectName];
-            var facts = subject.facts(item);
+            var facts = subject.facts(report);
 
             if (!facts || !facts.length) {
                 continue;
@@ -130,10 +128,10 @@ function buildTriageIndex(config) {
                 }
 
                 var fact = subjectFacts.get(fact);
-                fact.sources.add(name + ' (' + item.idx + ')');
+                fact.sources.add(report.name + ' (' + idx + ')');
             });
         }
-    }
+    });
 
     // generate result
     var result = {

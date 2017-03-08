@@ -4,7 +4,7 @@ var http = require('http');
 var https = require('https');
 var zlib = require('zlib');
 var fs = require('fs');
-var urls = require('./sites');
+var urls = require('./lib/sites');
 var seedFile = path.join(__dirname, '../data/idx.txt');
 var outputDir = path.join(__dirname, '../data/css');
 

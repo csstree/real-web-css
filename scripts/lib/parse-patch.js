@@ -72,7 +72,7 @@ module.exports = {
     },
     'quora.com': {
         patch: function(css) {
-            return css.replace(/:not\('\.results_frame\')/g, ':not(.results_frame)');
+            return css.replace(/:not\('\.results_frame\'\)/g, ':not(.results_frame)');
         }
     },
     'mediafire.com': {
@@ -121,7 +121,9 @@ module.exports = {
     },
     'sina.com.cn': {
         patch: function(css) {
-            return css.replace(/;!important}/g, ';}');
+            return css
+                .replace(/;!important}/g, ';}')
+                .replace(/;px;/g, ';');
         }
     }
 }

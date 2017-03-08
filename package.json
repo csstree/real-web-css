@@ -3,9 +3,12 @@
   "version": "1.0.0",
   "description": "Using CSSTree for real site CSS",
   "scripts": {
-    "test-css": "node scripts/test",
-    "download-css": "node scripts/download-css",
-    "update-sites": "node scripts/download-sites"
+    "test-and-triage": "npm run test && npm run triage",
+    "test": "node scripts/test",
+    "triage": "node scripts/triage",
+    "gen:table": "node scripts/gen-table",
+    "download:css": "node scripts/download-css",
+    "update:sites": "node scripts/download-sites"
   },
   "repository": "csstree/real-web-css",
   "keywords": [],
