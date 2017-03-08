@@ -83,7 +83,11 @@ function download(idx, phantom) {
                             fetch(sheet.href)
                                 .then(function(content) {
                                     console.log('    ✅  ' + sheet.href);
-                                    return '/**** ' + sheet.href + ' ****/\n' + content;
+                                    content = content.replace(/^[\uFEFF\uFFFE]/, '');
+                                    return (
+                                        '/**** ' + sheet.href + ' ****/\n' +
+                                        content
+                                    );
                                 })
                                 .catch(function(error) {
                                     console.log('    ❌  ' + sheet.href + ' Error:' + error);
