@@ -59,11 +59,10 @@ inject('table',
             cells.push(
                 report.error || report.fixedError
                     ? '<details>' +
-                        '<summary>Error</summary>' +
+                        '<summary>Error' + (report.fixedError ? ' (patched)' : '') + '</summary>' +
                         '<pre>' + escapeHTML((report.fixedError || report.error).details) + '</pre>' +
-                      '</details><em>' +
-                      (report.errorComment ? report.errorComment + '<br>' : '') +
-                      (report.fixedError ? 'Error is patched' : '') + '</em>'
+                      '</details>' +
+                      (report.errorComment ? '<em>' + report.errorComment + '</em>' : '')
                     : 'OK' + (report.patch ? '<br><em>' + report.patch + '</em>' : ''),
                 report.validation
                     ? '<details>' +

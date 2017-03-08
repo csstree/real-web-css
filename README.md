@@ -5,7 +5,7 @@ Using [CSSTree](https://github.com/csstree/csstree) for real site CSS
 
 <!-- date -->
 
-Update date: 2017-03-08T21:25:57.746Z
+Update date: 2017-03-08T21:30:09.289Z
 
 <!-- /date -->
 
@@ -79,7 +79,7 @@ Update date: 2017-03-08T21:25:57.746Z
     7 |…p:0;bottom:0;background:rgba(0,0,0,.7);background:progid:DXImageTransform.Microsoft.gradient(start…
 ----------------------------------------------------------------^
     8 |
-    9 |…xt{text-align:center;font-size:13px;font-weight:500;text-transform:none}.expanded-shelf-content-it…</pre></details><em></em></td><td>–</td></tr>
+    9 |…xt{text-align:center;font-size:13px;font-weight:500;text-transform:none}.expanded-shelf-content-it…</pre></details></td><td>–</td></tr>
 <tr><td>2</td><td>⚠️</td><td>facebook.com</td><td>OK</td><td><details><summary>1 warning (unique: 1)</summary><pre>* Invalid value for `overflow`
     syntax: visible | hidden | scroll | auto
      value: overlay
@@ -91,14 +91,14 @@ Update date: 2017-03-08T21:25:57.746Z
   609 |…rtant}#atomic .Hy\(n\){hyphens:normal}#atomic .Lts\(-.31em\){letter-spacing:.31em}#atomic .Lts\(-0…
 ----------------------------------------------------------------^
   610 |
-  611 |…-grey,.Themable .ThemeReset .C-grey{color:#8d919d}.C-p-dark,.Themable .ThemeReset .C-p-dark{color:…</pre></details><em></em></td><td>–</td></tr>
-<tr><td>5</td><td>🆗</td><td>wikipedia.org</td><td><details><summary>Error</summary><pre>Parse error: Identifier `important` is expected
+  611 |…-grey,.Themable .ThemeReset .C-grey{color:#8d919d}.C-p-dark,.Themable .ThemeReset .C-p-dark{color:…</pre></details></td><td>–</td></tr>
+<tr><td>5</td><td>🆗</td><td>wikipedia.org</td><td><details><summary>Error (patched)</summary><pre>Parse error: Identifier `important` is expected
     2 |
     3 |
     4 |…rent),url(portal/wikipedia.org/assets/img/noimage.svg) !ie;background-image:-webkit-gradient(linea…
 ----------------------------------------------------------------^
     5 |
-    6 |</pre></details><em>Parser has no support for `!ie` hack<br>Error is patched</em></td><td>OK</td></tr>
+    6 |</pre></details><em>Parser has no support for `!ie` hack</em></td><td>OK</td></tr>
 <tr><td>6</td><td>⚠️</td><td>google.co.in</td><td>OK</td><td><details><summary>13 warnings (unique: 13)</summary><pre>* Invalid value for `opacity`
     syntax: &lt;number-zero-one&gt;
      value: 1\0/
@@ -163,13 +163,13 @@ Update date: 2017-03-08T21:25:57.746Z
     syntax: [ &lt;length&gt; | &lt;percentage&gt; ]{1,4}
      value: 4px 0 1px 11px\0
     ----------------------^</pre></details></td></tr>
-<tr><td>8</td><td>⚠️</td><td>sohu.com</td><td><details><summary>Error</summary><pre>Parse error: Unexpected input
+<tr><td>8</td><td>⚠️</td><td>sohu.com</td><td><details><summary>Error (patched)</summary><pre>Parse error: Unexpected input
   788 |#sohuTools .list14 span{margin:0 5px;float:left; display:inline;}
   789 |#sohuTools .list14 span a{font-weight:bold;text-decoration:none;margin-left:0;}
   790 |#sohuTools .list14 span a:hover{color:#c00;font-weight:boldtext-decoration:none;}
 ---------------------------------------------------------------------------------^
   791 |
-  792 |/* ��׼�� */</pre></details><em>Error is patched</em></td><td>–</td></tr>
+  792 |/* ��׼�� */</pre></details></td><td>–</td></tr>
 <tr><td>9</td><td>⚠️</td><td>google.co.jp</td><td>OK</td><td><details><summary>13 warnings (unique: 13)</summary><pre>* Invalid value for `opacity`
     syntax: &lt;number-zero-one&gt;
      value: 1\0/
@@ -228,14 +228,14 @@ Update date: 2017-03-08T21:25:57.746Z
   152 |…or:transparent;_border-color:tomato;_filter:chroma(color=tomato);border-style:solid;overflow:hidde…
 ----------------------------------------------------------------^
   153 |
-  154 |…tCont .hot-buy a .name{font-size:12px;background:url(//img.alicdn.com/tps/TB1iiLsKXXXXXX5XFXXXXXXX…</pre></details><em></em></td><td>–</td></tr>
+  154 |…tCont .hot-buy a .name{font-size:12px;background:url(//img.alicdn.com/tps/TB1iiLsKXXXXXX5XFXXXXXXX…</pre></details></td><td>–</td></tr>
 <tr><td>11</td><td>⚠️</td><td>tmall.com</td><td><details><summary>Error</summary><pre>Parse error: RightParenthesis is expected
   192 |…S5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4Onh…
   193 |
   194 |…button.mui-btn-l{*border-color:#000;*filter:chroma(color=black)}.mui-btn-s-primary,.mui-btn-s{heig…
 ----------------------------------------------------------------^
   195 |
-  196 |…Nbc4zwBgCcgDluBdzoynyit0qRvsOu4EeocQexIgDYbBEatd8P8fjOYjkTRY4c4kDQi8ecyY3utvWvaZTpfQ9/xfypLvWrW6Z9…</pre></details><em></em></td><td>–</td></tr>
+  196 |…Nbc4zwBgCcgDluBdzoynyit0qRvsOu4EeocQexIgDYbBEatd8P8fjOYjkTRY4c4kDQi8ecyY3utvWvaZTpfQ9/xfypLvWrW6Z9…</pre></details></td><td>–</td></tr>
 <tr><td>12</td><td>⚠️</td><td>live.com</td><td>OK</td><td><details><summary>2 warnings (unique: 2)</summary><pre>* The rest part of value can't to be matched on `line-height` syntax
     syntax: normal | &lt;number&gt; | &lt;length&gt; | &lt;percentage&gt;
      value: 1.42857 \0
@@ -244,12 +244,12 @@ Update date: 2017-03-08T21:25:57.746Z
     syntax: [ &lt;length&gt; | &lt;percentage&gt; ] &amp;&amp; [ border-box | content-box ]? | available | min-content | max-content | fit-content | auto
      value: device-width
     --------^</pre></details></td></tr>
-<tr><td>13</td><td>⚠️</td><td>amazon.com</td><td><details><summary>Error</summary><pre>Parse error: Identifier or asterisk is expected
+<tr><td>13</td><td>⚠️</td><td>amazon.com</td><td><details><summary>Error (patched)</summary><pre>Parse error: Identifier or asterisk is expected
   109 |
   110 |
   111 |…color:#FFF;vertical-align:baseline;white-space:nowrap}*|:-moz-full-screen-ancestor{transform:initi…
 ----------------------------------------------------------------^
-</pre></details><em>Error is patched</em></td><td><details><summary>61 warnings (unique: 23)</summary><pre>* Invalid value for `border-color`
+</pre></details></td><td><details><summary>61 warnings (unique: 23)</summary><pre>* Invalid value for `border-color`
     syntax: &lt;color&gt;{1,4}
      value: &lt;empty string&gt;
     --------^
@@ -636,13 +636,13 @@ Update date: 2017-03-08T21:25:57.746Z
     syntax: [ &lt;length&gt; | &lt;percentage&gt; ] &amp;&amp; [ border-box | content-box ]? | available | min-content | max-content | fit-content | auto
      value: 317
     --------^</pre></details></td></tr>
-<tr><td>18</td><td>⚠️</td><td>sina.com.cn</td><td><details><summary>Error</summary><pre>Parse error: Identifier is expected
+<tr><td>18</td><td>⚠️</td><td>sina.com.cn</td><td><details><summary>Error (patched)</summary><pre>Parse error: Identifier is expected
   119 |…adius:60px;border-radius:60px;}
   120 |…!important;height:329px!important;background:#ebebeb!important;background:hsla(0,0%,0%,.08)!import…
   121 |…mportant;padding:10px 0 0 0px!important;background:#fff;!important}
 ----------------------------------------------------------------^
   122 |
-  123 |…dth:11px!important;height:16px!important;background:url(https://i.sso.sina.com.cn/images/login/arr…</pre></details><em>Error is patched</em></td><td><details><summary>7 warnings (unique: 7)</summary><pre>* Invalid value for `background-image`
+  123 |…dth:11px!important;height:16px!important;background:url(https://i.sso.sina.com.cn/images/login/arr…</pre></details></td><td><details><summary>7 warnings (unique: 7)</summary><pre>* Invalid value for `background-image`
     syntax: &lt;bg-image&gt;#
      value: -webkit-image-set(url(http://i1.sinaimg.cn/dy/deco/2013/0329/logo/LOGO_1x.png) 1x,url(http://i2.sinaimg.cn/dy/deco/2013/0329/logo/LOGO_2x.png) 2x)
     --------^
@@ -867,7 +867,7 @@ Update date: 2017-03-08T21:25:57.746Z
     9 |…ing 0.8s linear infinite;}@media screen and (min-width:0\0) {    .W_loading{background-image:url("…
 ----------------------------------------------------------------^
    10 |
-   11 |</pre></details><em></em></td><td>–</td></tr>
+   11 |</pre></details></td><td>–</td></tr>
 <tr><td>26</td><td>⚠️</td><td>google.ru</td><td>OK</td><td><details><summary>13 warnings (unique: 13)</summary><pre>* Invalid value for `opacity`
     syntax: &lt;number-zero-one&gt;
      value: 1\0/
@@ -926,13 +926,13 @@ Update date: 2017-03-08T21:25:57.746Z
     3 |&lt;!--
 -------^
     4 |body{margin:0;padding:0}body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,form,fieldset,input,butto…
-    5 |--&gt;</pre></details><em></em></td><td>–</td></tr>
-<tr><td>28</td><td>⚠️</td><td>hao123.com</td><td><details><summary>Error</summary><pre>Parse error: Unexpected input
+    5 |--&gt;</pre></details></td><td>–</td></tr>
+<tr><td>28</td><td>⚠️</td><td>hao123.com</td><td><details><summary>Error (patched)</summary><pre>Parse error: Unexpected input
     5 |
     6 |
     7 |…xt-overflow:ellipsis;white-space:nowrap -o-text-overflow:ellipsis}.g_list li a{overflow:hidden;tex…
 ----------------------------------------------------------------^
-</pre></details><em>Error is patched</em></td><td>–</td></tr>
+</pre></details></td><td>–</td></tr>
 <tr><td>29</td><td>⚠️</td><td>google.com.br</td><td>OK</td><td><details><summary>13 warnings (unique: 13)</summary><pre>* Invalid value for `opacity`
     syntax: &lt;number-zero-one&gt;
      value: 1\0/
@@ -1051,7 +1051,7 @@ Update date: 2017-03-08T21:25:57.746Z
     7 |…idth:100%;height:100%;background:#000;opacity:.6;filter:~"alpha(opacity=60)";filter:~"progid:DXIma…
 ----------------------------------------------------------------^
     8 |
-    9 |</pre></details><em></em></td><td>–</td></tr>
+    9 |</pre></details></td><td>–</td></tr>
 <tr><td>33</td><td>⚠️</td><td>google.com.hk</td><td>OK</td><td><details><summary>13 warnings (unique: 13)</summary><pre>* Invalid value for `opacity`
     syntax: &lt;number-zero-one&gt;
      value: 1\0/
@@ -1288,7 +1288,7 @@ Update date: 2017-03-08T21:25:57.746Z
     6 |…t:0!important}}@media \0screen{.hidden-lg{display:none !important\9}}.clearfix:after,.clearfix:bef…
 ----------------------------------------------------------------^
     7 |
-    8 |</pre></details><em></em></td><td>–</td></tr>
+    8 |</pre></details></td><td>–</td></tr>
 <tr><td>43</td><td>⚠️</td><td>google.ca</td><td>OK</td><td><details><summary>13 warnings (unique: 13)</summary><pre>* Invalid value for `opacity`
     syntax: &lt;number-zero-one&gt;
      value: 1\0/
@@ -1503,7 +1503,7 @@ Update date: 2017-03-08T21:25:57.746Z
  2336 |    float: #{$left};
 -------------------^
  2337 |}
- 2338 |.feedbwHeadRight {</pre></details><em></em></td><td>–</td></tr>
+ 2338 |.feedbwHeadRight {</pre></details></td><td>–</td></tr>
 <tr><td>48</td><td>⚠️</td><td>tumblr.com</td><td>OK</td><td><details><summary>57 warnings (unique: 22)</summary><pre>* The rest part of value can't to be matched on `background` syntax
     syntax: [ &lt;bg-layer&gt; , ]* &lt;final-bg-layer&gt;
      value: rgb(0,0,0) transparent
@@ -1636,15 +1636,15 @@ Update date: 2017-03-08T21:25:57.746Z
    82 |…color:#131313;}.daynight_dark_skin a.button{color:#fff;s}.daynight_dark_skin .header_search .searc…
 ----------------------------------------------------------------^
    83 |
-   84 |</pre></details><em></em></td><td>–</td></tr>
+   84 |</pre></details></td><td>–</td></tr>
 <tr><td>50</td><td>⚠️</td><td>pornhub.com</td><td colspan="2">–</td></tr>
-<tr><td>51</td><td>⚠️</td><td>stackoverflow.com</td><td><details><summary>Error</summary><pre>Parse error: Identifier `important` is expected
+<tr><td>51</td><td>⚠️</td><td>stackoverflow.com</td><td><details><summary>Error (patched)</summary><pre>Parse error: Identifier `important` is expected
     1 |
     2 |
     3 |…}pre{margin-bottom:1em;padding:5px;padding-bottom:20px !ie7;width:auto;width:650px !ie7;max-height…
 ----------------------------------------------------------------^
     4 |
-    5 |</pre></details><em>Parser has no support for `!ie7` hack<br>Error is patched</em></td><td><details><summary>15 warnings (unique: 12)</summary><pre>* The rest part of value can't to be matched on `outline` syntax
+    5 |</pre></details><em>Parser has no support for `!ie7` hack</em></td><td><details><summary>15 warnings (unique: 12)</summary><pre>* The rest part of value can't to be matched on `outline` syntax
     syntax: [ &lt;'outline-color'&gt; || &lt;'outline-style'&gt; || &lt;'outline-width'&gt; ]
      value: thin dotted \9
     --------------------^
@@ -1698,12 +1698,12 @@ Update date: 2017-03-08T21:25:57.746Z
     syntax: none | inline | block | list-item | inline-list-item | inline-block | inline-table | table | table-cell | table-column | table-column-group | table-footer-group | table-header-group | table-row | table-row-group | flex | inline-flex | grid | inline-grid | run-in | ruby | ruby-base | ruby-text | ruby-base-container | ruby-text-container | contents | -ms-flexbox | -ms-inline-flexbox | -ms-grid | -ms-inline-grid | -webkit-flex | -webkit-inline-flex | -webkit-box | -webkit-inline-box | -moz-inline-stack | -moz-box | -moz-inline-box
      value: -ms-flex
     --------^</pre></details></td></tr>
-<tr><td>52</td><td>⚠️</td><td>amazon.co.jp</td><td><details><summary>Error</summary><pre>Parse error: Identifier or asterisk is expected
+<tr><td>52</td><td>⚠️</td><td>amazon.co.jp</td><td><details><summary>Error (patched)</summary><pre>Parse error: Identifier or asterisk is expected
   108 |
   109 |
   110 |…color:#FFF;vertical-align:baseline;white-space:nowrap}*|:-moz-full-screen-ancestor{transform:initi…
 ----------------------------------------------------------------^
-</pre></details><em>Error is patched</em></td><td><details><summary>61 warnings (unique: 23)</summary><pre>* Invalid value for `border-color`
+</pre></details></td><td><details><summary>61 warnings (unique: 23)</summary><pre>* Invalid value for `border-color`
     syntax: &lt;color&gt;{1,4}
      value: &lt;empty string&gt;
     --------^
@@ -2202,22 +2202,22 @@ Update date: 2017-03-08T21:25:57.746Z
    11 |…ing .6s .3s linear infinite}@-webkit-keyframes loading{0,100%{-webkit-transform:translate(0,0);tra…
 ----------------------------------------------------------------^
    12 |
-   13 |</pre></details><em></em></td><td>–</td></tr>
+   13 |</pre></details></td><td>–</td></tr>
 <tr><td>55</td><td>⚠️</td><td>list.tmall.com</td><td><details><summary>Error</summary><pre>Parse error: RightParenthesis is expected
   192 |…S5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4Onh…
   193 |
   194 |…button.mui-btn-l{*border-color:#000;*filter:chroma(color=black)}.mui-btn-s-primary,.mui-btn-s{heig…
 ----------------------------------------------------------------^
   195 |
-  196 |…Nbc4zwBgCcgDluBdzoynyit0qRvsOu4EeocQexIgDYbBEatd8P8fjOYjkTRY4c4kDQi8ecyY3utvWvaZTpfQ9/xfypLvWrW6Z9…</pre></details><em></em></td><td>–</td></tr>
+  196 |…Nbc4zwBgCcgDluBdzoynyit0qRvsOu4EeocQexIgDYbBEatd8P8fjOYjkTRY4c4kDQi8ecyY3utvWvaZTpfQ9/xfypLvWrW6Z9…</pre></details></td><td>–</td></tr>
 <tr><td>56</td><td>🆗</td><td>popads.net</td><td>OK</td><td>OK</td></tr>
-<tr><td>57</td><td>⚠️</td><td>imgur.com</td><td><details><summary>Error</summary><pre>Parse error: Selector is expected
+<tr><td>57</td><td>⚠️</td><td>imgur.com</td><td><details><summary>Error (patched)</summary><pre>Parse error: Selector is expected
    63 |
    64 |
    65 |…it-border-radius:inherit;opacity:inherit;border:inherit},.btn-test .btn-blue:hover{opacity:inherit…
 ----------------------------------------------------------------^
    66 |
-   67 |…idth:100%;text-decoration:none}.side-footer-links .combobox .more-arrow{display:block;width:0;heig…</pre></details><em>Error is patched</em></td><td><details><summary>21 warnings (unique: 16)</summary><pre>* Invalid value for `border-right`
+   67 |…idth:100%;text-decoration:none}.side-footer-links .combobox .more-arrow{display:block;width:0;heig…</pre></details></td><td><details><summary>21 warnings (unique: 16)</summary><pre>* Invalid value for `border-right`
     syntax: &lt;br-width&gt; || &lt;br-style&gt; || &lt;color&gt;
      value: 0Spx solid #ccc
     --------^
@@ -2950,7 +2950,7 @@ Update date: 2017-03-08T21:25:57.746Z
   264 |…ht:34px;margin-right:3px;border:3px solid #2db400;_width//:372px;_height//:40px}
 ----------------------------------------------------------------^
   265 |…t-size:16px;color:#000;background-color:transparent;*ime-mode:active;outline:none}
-  266 |…naver.net/static/www/img/btn_search.png) no-repeat 2px 5px}</pre></details><em></em></td><td>–</td></tr>
+  266 |…naver.net/static/www/img/btn_search.png) no-repeat 2px 5px}</pre></details></td><td>–</td></tr>
 <tr><td>64</td><td>⚠️</td><td>apple.com</td><td>OK</td><td><details><summary>28 warnings (unique: 9)</summary><pre>* Unknown property: x-content
 * Unknown property: x-content
 * Unknown property: x-content
@@ -3000,7 +3000,7 @@ Update date: 2017-03-08T21:25:57.746Z
   202 |    only screen and (     -o-min-device-pixel-ratio: 2/1.6),
 ---------------------------------------------------------------^
   203 |    only screen and (        min-device-pixel-ratio: 2),
-  204 |    only screen and (                min-resolution: 120dpi),</pre></details><em></em></td><td>–</td></tr>
+  204 |    only screen and (                min-resolution: 120dpi),</pre></details></td><td>–</td></tr>
 <tr><td>66</td><td>⚠️</td><td>txxx.com</td><td colspan="2">–</td></tr>
 <tr><td>67</td><td>⚠️</td><td>alipay.com</td><td>OK</td><td><details><summary>1 warning (unique: 1)</summary><pre>* Unknown property: -webkit-user-modify</pre></details></td></tr>
 <tr><td>68</td><td>⚠️</td><td>google.com.au</td><td>OK</td><td><details><summary>13 warnings (unique: 13)</summary><pre>* Invalid value for `opacity`
@@ -3176,14 +3176,14 @@ Update date: 2017-03-08T21:25:57.746Z
  2332 |
  2333 |…und-color:#fab904}.bg-frost{background-color:rgba(#fff,0:global .95)}.bg-shade{background-color:rg…
 ----------------------------------------------------------------^
-</pre></details><em></em></td><td>–</td></tr>
+</pre></details></td><td>–</td></tr>
 <tr><td>73</td><td>⚠️</td><td>github.com</td><td><details><summary>Error</summary><pre>Parse error: RightParenthesis is expected
    25 |
    26 |
    27 |…pped-e::after{right:100%}@media screen and (min-width: 0\0){.tooltipped-multiline::after{width:250…
 ----------------------------------------------------------------^
    28 |
-   29 |</pre></details><em></em></td><td>–</td></tr>
+   29 |</pre></details></td><td>–</td></tr>
 <tr><td>74</td><td>⚠️</td><td>google.co.id</td><td>OK</td><td><details><summary>13 warnings (unique: 13)</summary><pre>* Invalid value for `opacity`
     syntax: &lt;number-zero-one&gt;
      value: 1\0/
@@ -3242,14 +3242,14 @@ Update date: 2017-03-08T21:25:57.746Z
    21 |…fter{background-image:image-url(ie8/scroll-bottom-shadow.png)}@-webkit-keyframes ripple{from{-webk…
 ----------------------------------------------------------------^
    22 |
-   23 |…on:absolute;top:17px;right:0;content:" ";display:inline-block;height:14px;border-right:1px solid #…</pre></details><em></em></td><td>–</td></tr>
-<tr><td>76</td><td>⚠️</td><td>gmw.cn</td><td><details><summary>Error</summary><pre>Parse error: Colon is expected
+   23 |…on:absolute;top:17px;right:0;content:" ";display:inline-block;height:14px;border-right:1px solid #…</pre></details></td><td>–</td></tr>
+<tr><td>76</td><td>⚠️</td><td>gmw.cn</td><td><details><summary>Error (patched)</summary><pre>Parse error: Colon is expected
   315 |#interview{}
   316 |
   317 |#zhuanti{border: 1px solid #CCCCCC;e;}
 -------------------------------------------^
   318 |#zhanti .layoutRight_zhanti{}
-  319 |#pic{}</pre></details><em>Error is patched</em></td><td>–</td></tr>
+  319 |#pic{}</pre></details></td><td>–</td></tr>
 <tr><td>77</td><td>⚠️</td><td>paypal.com</td><td>OK</td><td><details><summary>27 warnings (unique: 23)</summary><pre>* Invalid value for `width`
     syntax: [ &lt;length&gt; | &lt;percentage&gt; ] &amp;&amp; [ border-box | content-box ]? | available | min-content | max-content | fit-content | auto
      value: device-width
@@ -3410,13 +3410,13 @@ Update date: 2017-03-08T21:25:57.746Z
     syntax: [ &lt;bg-layer&gt; , ]* &lt;final-bg-layer&gt;
      value: -webkit-radial-gradient(ellipse farthest-side at 150% -50%,#000 0,transparent 100%)
     --------^</pre></details></td></tr>
-<tr><td>81</td><td>⚠️</td><td>adobe.com</td><td><details><summary>Error</summary><pre>Parse error: Identifier or parenthesis is expected
+<tr><td>81</td><td>⚠️</td><td>adobe.com</td><td><details><summary>Error (patched)</summary><pre>Parse error: Identifier or parenthesis is expected
    66 |
    67 |
    68 |…it;height:78vh}@media screen and (max-aspect-ratio:3/4),27.1875rem{body.social .hash-window{height…
 ----------------------------------------------------------------^
    69 |
-   70 |</pre></details><em>Error is patched</em></td><td><details><summary>52 warnings (unique: 32)</summary><pre>* Invalid value for `background-image`
+   70 |</pre></details></td><td><details><summary>52 warnings (unique: 32)</summary><pre>* Invalid value for `background-image`
     syntax: &lt;bg-image&gt;#
      value: radial-gradient(40% 40%,ellipse cover,#000,#322205 76.69%)
     --------^
@@ -3600,14 +3600,14 @@ Update date: 2017-03-08T21:25:57.746Z
    72 |…;border-radius:3px;cursor:pointer}.c-btn selector-append(selector-append(.c-btn,:not(button)),:not…
 ----------------------------------------------------------------^
    73 |
-   74 |</pre></details><em></em></td><td>–</td></tr>
+   74 |</pre></details></td><td>–</td></tr>
 <tr><td>85</td><td>⚠️</td><td>googleusercontent.com</td><td colspan="2">–</td></tr>
-<tr><td>86</td><td>⚠️</td><td>amazon.de</td><td><details><summary>Error</summary><pre>Parse error: Identifier or asterisk is expected
+<tr><td>86</td><td>⚠️</td><td>amazon.de</td><td><details><summary>Error (patched)</summary><pre>Parse error: Identifier or asterisk is expected
   106 |
   107 |
   108 |…color:#FFF;vertical-align:baseline;white-space:nowrap}*|:-moz-full-screen-ancestor{transform:initi…
 ----------------------------------------------------------------^
-</pre></details><em>Error is patched</em></td><td><details><summary>61 warnings (unique: 23)</summary><pre>* Invalid value for `border-color`
+</pre></details></td><td><details><summary>61 warnings (unique: 23)</summary><pre>* Invalid value for `border-color`
     syntax: &lt;color&gt;{1,4}
      value: &lt;empty string&gt;
     --------^
@@ -4013,7 +4013,7 @@ Update date: 2017-03-08T21:25:57.746Z
   701 |.heada_plus_search_form{padding:32px 0 0 0; #padding:18px 0 0 0; /* IE6-7hack */}
 ---------------------------------------------------^
   702 |.heada_plus_search_form_text{width:186px; border-top:1px solid #999; border-left:1px solid #999; b…
-  703 |div#main{clear:both; position:relative; min-height:0px; width:680px; float:right; text-align:left;…</pre></details><em></em></td><td>–</td></tr>
+  703 |div#main{clear:both; position:relative; min-height:0px; width:680px; float:right; text-align:left;…</pre></details></td><td>–</td></tr>
 <tr><td>91</td><td>⚠️</td><td>google.pl</td><td>OK</td><td><details><summary>13 warnings (unique: 13)</summary><pre>* Invalid value for `opacity`
     syntax: &lt;number-zero-one&gt;
      value: 1\0/
@@ -4224,7 +4224,7 @@ Update date: 2017-03-08T21:25:57.746Z
    86 |}
 -------^
    87 |#tools-tabs .panel .code.small p{
-   88 |    font-size: 11px;</pre></details><em></em></td><td>–</td></tr>
+   88 |    font-size: 11px;</pre></details></td><td>–</td></tr>
 <tr><td>95</td><td>⚠️</td><td>google.com.pk</td><td>OK</td><td><details><summary>13 warnings (unique: 13)</summary><pre>* Invalid value for `opacity`
     syntax: &lt;number-zero-one&gt;
      value: 1\0/
@@ -4441,12 +4441,12 @@ Update date: 2017-03-08T21:25:57.746Z
     syntax: [ [ &lt;'font-style'&gt; || &lt;font-variant-css21&gt; || &lt;'font-weight'&gt; || &lt;'font-stretch'&gt; ]? &lt;'font-size'&gt; [ / &lt;'line-height'&gt; ]? &lt;'font-family'&gt; ] | caption | icon | menu | message-box | small-caption | status-bar | &lt;-non-standart-font&gt;
      value: 16px
     --------^</pre></details></td></tr>
-<tr><td>99</td><td>⚠️</td><td>amazon.in</td><td><details><summary>Error</summary><pre>Parse error: Identifier or asterisk is expected
+<tr><td>99</td><td>⚠️</td><td>amazon.in</td><td><details><summary>Error (patched)</summary><pre>Parse error: Identifier or asterisk is expected
   100 |
   101 |
   102 |…color:#FFF;vertical-align:baseline;white-space:nowrap}*|:-moz-full-screen-ancestor{transform:initi…
 ----------------------------------------------------------------^
-</pre></details><em>Error is patched</em></td><td><details><summary>61 warnings (unique: 23)</summary><pre>* Invalid value for `border-color`
+</pre></details></td><td><details><summary>61 warnings (unique: 23)</summary><pre>* Invalid value for `border-color`
     syntax: &lt;color&gt;{1,4}
      value: &lt;empty string&gt;
     --------^
@@ -4744,12 +4744,12 @@ Update date: 2017-03-08T21:25:57.746Z
      value: bold
     --------^</pre></details></td></tr>
 <tr><td>106</td><td>⚠️</td><td>uptodown.com</td><td colspan="2">–</td></tr>
-<tr><td>107</td><td>⚠️</td><td>amazon.co.uk</td><td><details><summary>Error</summary><pre>Parse error: Identifier or asterisk is expected
+<tr><td>107</td><td>⚠️</td><td>amazon.co.uk</td><td><details><summary>Error (patched)</summary><pre>Parse error: Identifier or asterisk is expected
    98 |
    99 |
   100 |…color:#FFF;vertical-align:baseline;white-space:nowrap}*|:-moz-full-screen-ancestor{transform:initi…
 ----------------------------------------------------------------^
-</pre></details><em>Error is patched</em></td><td><details><summary>61 warnings (unique: 23)</summary><pre>* Invalid value for `border-color`
+</pre></details></td><td><details><summary>61 warnings (unique: 23)</summary><pre>* Invalid value for `border-color`
     syntax: &lt;color&gt;{1,4}
      value: &lt;empty string&gt;
     --------^
@@ -5643,13 +5643,13 @@ Update date: 2017-03-08T21:25:57.746Z
  6669 |   // border-top: 6px solid #ff0000;
 ------------^
  6670 |}
- 6671 |.weather h1{</pre></details><em></em></td><td>–</td></tr>
+ 6671 |.weather h1{</pre></details></td><td>–</td></tr>
 <tr><td>113</td><td>⚠️</td><td>porn555.com</td><td><details><summary>Error</summary><pre>Parse error: Unexpected input
     1 |
     2 |
     3 |…px}.taglist .tag-modern.tag-girlfriend{background-color:$tag-surprise;color:#fff}.categories_list{…
 ----------------------------------------------------------------^
-</pre></details><em></em></td><td>–</td></tr>
+</pre></details></td><td>–</td></tr>
 <tr><td>114</td><td>⚠️</td><td>dailymotion.com</td><td colspan="2">–</td></tr>
 <tr><td>115</td><td>⚠️</td><td>ebay.de</td><td><details><summary>Error</summary><pre>Parse error: Unexpected input
     5 |
@@ -5657,7 +5657,7 @@ Update date: 2017-03-08T21:25:57.746Z
     7 |…idth:100%;height:100%;background:#000;opacity:.6;filter:~"alpha(opacity=60)";filter:~"progid:DXIma…
 ----------------------------------------------------------------^
     8 |
-    9 |</pre></details><em></em></td><td>–</td></tr>
+    9 |</pre></details></td><td>–</td></tr>
 <tr><td>116</td><td>⚠️</td><td>china.com</td><td colspan="2">–</td></tr>
 <tr><td>117</td><td>⚠️</td><td>adexchangeprediction.com</td><td colspan="2">–</td></tr>
 <tr><td>118</td><td>⚠️</td><td>alibaba.com</td><td><details><summary>Error</summary><pre>Parse error: RightParenthesis is expected
@@ -5666,21 +5666,21 @@ Update date: 2017-03-08T21:25:57.746Z
    62 |…:transparent\9;_border-color:tomato;_filter:chroma(color=tomato);border-style:solid;overflow:hidde…
 ----------------------------------------------------------------^
    63 |…scc-category-unit dl dd.child-menu-view-more a{color:#999;padding-right:20px}.scc-category-unit .h…
-   64 |</pre></details><em></em></td><td>–</td></tr>
+   64 |</pre></details></td><td>–</td></tr>
 <tr><td>119</td><td>⚠️</td><td>booking.com</td><td><details><summary>Error</summary><pre>Parse error: Identifier is expected
     5 |…s-iw-landmark-mini-inner h3,.maps-iw-landmark-inner h3{font-size:12px!important;background:0;color…
     6 |
     7 |…osition:relative}.sb-dates.-side_by_side .sb-dates__col.--checkout-field{padding-left:1px}.sb-date…
 ----------------------------------------------------------------^
     8 |
-    9 |</pre></details><em></em></td><td>–</td></tr>
+    9 |</pre></details></td><td>–</td></tr>
 <tr><td>120</td><td>⚠️</td><td>rakuten.co.jp</td><td><details><summary>Error</summary><pre>Parse error: Selector is expected
   584 |
   585 |/**** inline ****/
   586 |&lt;!--
 -------^
   587 |/* ad_liquid_lideshow styles */
-  588 |div.ad-slideshow-existItemDisplay{position:relative; min-width:456px; margin: 10px 0;}</pre></details><em></em></td><td>–</td></tr>
+  588 |div.ad-slideshow-existItemDisplay{position:relative; min-width:456px; margin: 10px 0;}</pre></details></td><td>–</td></tr>
 <tr><td>121</td><td>⚠️</td><td>soundcloud.com</td><td>OK</td><td><details><summary>2 warnings (unique: 2)</summary><pre>* Invalid value for `-webkit-perspective`
     syntax: none | &lt;length&gt;
      value: 900
@@ -5873,14 +5873,14 @@ Update date: 2017-03-08T21:25:57.746Z
    10 |
    11 |…over{background:#8aac42}@-webkit-keyframes menu_bounce{0,100%{-webkit-transform:translateY(0);tran…
 ----------------------------------------------------------------^
-</pre></details><em></em></td><td>–</td></tr>
-<tr><td>128</td><td>⚠️</td><td>nytimes.com</td><td><details><summary>Error</summary><pre>Parse error: Unexpected input
+</pre></details></td><td>–</td></tr>
+<tr><td>128</td><td>⚠️</td><td>nytimes.com</td><td><details><summary>Error (patched)</summary><pre>Parse error: Unexpected input
   462 |
   463 |.ab-column .collection article ul li:last-child, .span-abc-region .collection article ul li:last-c…
   464 |    margin-bottom: 0=;
 ---------------------------^
   465 |}
-  466 |</pre></details><em>Error is patched</em></td><td><details><summary>38 warnings (unique: 24)</summary><pre>* Invalid value for `-webkit-flex-wrap`
+  466 |</pre></details></td><td><details><summary>38 warnings (unique: 24)</summary><pre>* Invalid value for `-webkit-flex-wrap`
     syntax: nowrap | wrap | wrap-reverse
      value: flex-top
     --------^
@@ -6029,13 +6029,13 @@ Update date: 2017-03-08T21:25:57.746Z
      value: "alpha(opacity=50)"
     --------^
 * Unknown property: -webkit-font-smooth</pre></details></td></tr>
-<tr><td>129</td><td>⚠️</td><td>xvideos.com</td><td><details><summary>Error</summary><pre>Parse error: RightParenthesis is expected
+<tr><td>129</td><td>⚠️</td><td>xvideos.com</td><td><details><summary>Error (patched)</summary><pre>Parse error: RightParenthesis is expected
    52 |
    53 |
    54 |…olid #fff;padding:5px 1px 0 1px}.thumb-block:nth-child(3+1){clear:none}.thumbs-4 .thumb-block{widt…
 ----------------------------------------------------------------^
    55 |
-   56 |</pre></details><em>Error is patched</em></td><td>–</td></tr>
+   56 |</pre></details></td><td>–</td></tr>
 <tr><td>130</td><td>⚠️</td><td>tribunnews.com</td><td>OK</td><td><details><summary>14 warnings (unique: 12)</summary><pre>* Unknown property: font-smooth
 * Unknown property: -moz-font-smoothing
 * Unknown property: font-smoothing
@@ -6128,7 +6128,7 @@ Update date: 2017-03-08T21:25:57.746Z
  6208 |    margin-right: 10px;
  6209 |}
 --------^
- 6210 |</pre></details><em></em></td><td>–</td></tr>
+ 6210 |</pre></details></td><td>–</td></tr>
 <tr><td>133</td><td>⚠️</td><td>amazonaws.com</td><td>OK</td><td><details><summary>42 warnings (unique: 13)</summary><pre>* The rest part of value can't to be matched on `-ms-filter` syntax
     syntax: &lt;string&gt;
      value: "progid:DXImageTransform.Microsoft.Alpha(Opacity=" 60 ")"
@@ -6297,13 +6297,13 @@ Update date: 2017-03-08T21:25:57.746Z
     syntax: &lt;length&gt; | &lt;percentage&gt; | auto
      value: 1
     --------^</pre></details></td></tr>
-<tr><td>134</td><td>⚠️</td><td>vice.com</td><td><details><summary>Error</summary><pre>Parse error: Unexpected input
+<tr><td>134</td><td>⚠️</td><td>vice.com</td><td><details><summary>Error (patched)</summary><pre>Parse error: Unexpected input
    21 |
    22 |
    23 |…e}.col__2:last-child{margin-right:0}.col__2:nth-child(10pxn){margin-right:0;float:right}.col__2:nt…
 ----------------------------------------------------------------^
    24 |
-   25 |</pre></details><em>Error is patched</em></td><td>–</td></tr>
+   25 |</pre></details></td><td>–</td></tr>
 <tr><td>135</td><td>⚠️</td><td>onlinesbi.com</td><td colspan="2">–</td></tr>
 <tr><td>136</td><td>⚠️</td><td>google.co.za</td><td>OK</td><td><details><summary>13 warnings (unique: 13)</summary><pre>* Invalid value for `opacity`
     syntax: &lt;number-zero-one&gt;
@@ -6363,7 +6363,7 @@ Update date: 2017-03-08T21:25:57.746Z
     7 |…idth:100%;height:100%;background:#000;opacity:.6;filter:~"alpha(opacity=60)";filter:~"progid:DXIma…
 ----------------------------------------------------------------^
     8 |
-    9 |</pre></details><em></em></td><td>–</td></tr>
+    9 |</pre></details></td><td>–</td></tr>
 <tr><td>138</td><td>⚠️</td><td>daikynguyenvn.com</td><td>OK</td><td><details><summary>20 warnings (unique: 19)</summary><pre>* Unknown property: webkit-transition
 * Unknown property: webkit-transition
 * Unknown property: font-smooth
@@ -6490,7 +6490,7 @@ Update date: 2017-03-08T21:25:57.746Z
  1616 |.btm p{ font:normal 12px/24px 'Microsoft YaHei'; text-align:center;}
 ---------------------------------------------------------------------------^
  1617 |
- 1618 |</pre></details><em></em></td><td>–</td></tr>
+ 1618 |</pre></details></td><td>–</td></tr>
 <tr><td>142</td><td>⚠️</td><td>avito.ru</td><td>OK</td><td><details><summary>3 warnings (unique: 3)</summary><pre>* The rest part of value can't to be matched on `-webkit-transition` syntax
     syntax: &lt;single-transition&gt;#
      value: border-color 0
@@ -6508,7 +6508,7 @@ Update date: 2017-03-08T21:25:57.746Z
     4 |
     5 |…ont-size:12px}pre{overflow:auto;width:auto;width:650px !ie7;padding-bottom:20px !ie7;max-height:60…
 ----------------------------------------------------------------^
-</pre></details><em></em></td><td>–</td></tr>
+</pre></details></td><td>–</td></tr>
 <tr><td>144</td><td>⚠️</td><td>google.gr</td><td>OK</td><td><details><summary>13 warnings (unique: 13)</summary><pre>* Invalid value for `opacity`
     syntax: &lt;number-zero-one&gt;
      value: 1\0/
@@ -6567,14 +6567,14 @@ Update date: 2017-03-08T21:25:57.746Z
    30 |.clearfix { display: block; #zoom:1;/*ie6-ie7*/
 -----------------------------------^
    31 |}
-   32 |.clearfix:after { content: ''; overflow: hidden; width: 100%; height: 0px; font-size: 0px; margin:…</pre></details><em></em></td><td>–</td></tr>
-<tr><td>146</td><td>⚠️</td><td>quora.com</td><td><details><summary>Error</summary><pre>Parse error: Selector is expected
+   32 |.clearfix:after { content: ''; overflow: hidden; width: 100%; height: 0px; font-size: 0px; margin:…</pre></details></td><td>–</td></tr>
+<tr><td>146</td><td>⚠️</td><td>quora.com</td><td><details><summary>Error (patched)</summary><pre>Parse error: Selector is expected
     1 |
     2 |
     3 |…xtarea:focus{border-color:#999}div:focus{outline:0}:not('.results_frame') .rendered_qtext&gt;ol li,:n…
 ----------------------------------------------------------------^
     4 |
-    5 |</pre></details><em>Error is patched</em></td><td><details><summary>111 warnings (unique: 67)</summary><pre>* The rest part of value can't to be matched on `-webkit-transition` syntax
+    5 |</pre></details></td><td><details><summary>111 warnings (unique: 67)</summary><pre>* The rest part of value can't to be matched on `-webkit-transition` syntax
     syntax: &lt;single-transition&gt;#
      value: border-color .2s 180ms ease-in-out 0s
     -------------------------------------------^
@@ -7018,7 +7018,7 @@ Update date: 2017-03-08T21:25:57.746Z
     4 |&lt;!--
 -------^
     5 |body, div, p, h3, img{margin:0;padding:0;}
-    6 |body{background:#134792 none;color:#333;font-size:12px;font-style:normal;font-weight:normal;font-f…</pre></details><em></em></td><td>–</td></tr>
+    6 |body{background:#134792 none;color:#333;font-size:12px;font-style:normal;font-weight:normal;font-f…</pre></details></td><td>–</td></tr>
 <tr><td>148</td><td>⚠️</td><td>google.com.vn</td><td>OK</td><td><details><summary>13 warnings (unique: 13)</summary><pre>* Invalid value for `opacity`
     syntax: &lt;number-zero-one&gt;
      value: 1\0/
@@ -7076,13 +7076,13 @@ Update date: 2017-03-08T21:25:57.746Z
     syntax: &lt;length&gt; | &lt;percentage&gt; | auto
      value: 1px \9
     -----------^</pre></details></td></tr>
-<tr><td>150</td><td>⚠️</td><td>mediafire.com</td><td><details><summary>Error</summary><pre>Parse error: Unexpected input
+<tr><td>150</td><td>⚠️</td><td>mediafire.com</td><td><details><summary>Error (patched)</summary><pre>Parse error: Unexpected input
     3 |
     4 |
     5 |…nk_main { display: block; width: 310px; overflow: hidden: text-overflow: ellipsis; } a.customurl_c…
 ----------------------------------------------------------------^
     6 |
-    7 |…pha(opacity = 50); } /*+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++…</pre></details><em>Error is patched</em></td><td>–</td></tr>
+    7 |…pha(opacity = 50); } /*+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++…</pre></details></td><td>–</td></tr>
 <tr><td>151</td><td>⚠️</td><td>google.com.co</td><td>OK</td><td><details><summary>13 warnings (unique: 13)</summary><pre>* Invalid value for `opacity`
     syntax: &lt;number-zero-one&gt;
      value: 1\0/
@@ -7149,7 +7149,7 @@ Update date: 2017-03-08T21:25:57.746Z
  1938 |width =300;
 -------------^
  1939 |height =200;
- 1940 |}</pre></details><em></em></td><td>–</td></tr>
+ 1940 |}</pre></details></td><td>–</td></tr>
 <tr><td>154</td><td>⚠️</td><td>theguardian.com</td><td>OK</td><td><details><summary>13 warnings (unique: 10)</summary><pre>* The rest part of value can't to be matched on `top` syntax
     syntax: &lt;length&gt; | &lt;percentage&gt; | auto
      value: 2.25rem 0.25rem
@@ -7303,14 +7303,14 @@ Update date: 2017-03-08T21:25:57.746Z
     8 |…../skins/owl/images/ul_bullet.png?2017-01-01T08:00:00Z)!ie;background-repeat:no-repeat;background-…
 ----------------------------------------------------------------^
     9 |
-   10 |…a{display:block;position:absolute;width:100%;height:100%;z-index:5;background:url(//www.wikihow.co…</pre></details><em></em></td><td>–</td></tr>
+   10 |…a{display:block;position:absolute;width:100%;height:100%;z-index:5;background:url(//www.wikihow.co…</pre></details></td><td>–</td></tr>
 <tr><td>159</td><td>⚠️</td><td>flipkart.com</td><td><details><summary>Error</summary><pre>Parse error: Identifier is expected
     7 |
     8 |
     9 |…;border-radius:0 2px 2px 0;width:100%;position:relative;.O8ZS_U{position:relative;display:inline-b…
 ----------------------------------------------------------------^
    10 |…px;border-radius:50%;margin:-10px 0 0 -10px}._2wEmBu ._1lnfpx:after{left:45%;top:50%;border:solid …
-   11 |</pre></details><em></em></td><td>–</td></tr>
+   11 |</pre></details></td><td>–</td></tr>
 <tr><td>160</td><td>⚠️</td><td>theladbible.com</td><td>OK</td><td><details><summary>2 warnings (unique: 2)</summary><pre>* The rest part of value can't to be matched on `-webkit-transition` syntax
     syntax: &lt;single-transition&gt;#
      value: visibility 0 linear 0,opacity 1s 0
@@ -8207,7 +8207,7 @@ Update date: 2017-03-08T21:25:57.746Z
  2405 |            background: -webkit-linear-gradient( -60deg, #417a9b 5%,#67c1f5 95%););background: lin…
 ----------------------------------------------------------------------------------------^
  2406 |
- 2407 |    .btnv6_blue_hoverfade:not(.btn_disabled):not(:disabled):not(.btn_active):not(.active):hover &gt; …</pre></details><em></em></td><td>–</td></tr>
+ 2407 |    .btnv6_blue_hoverfade:not(.btn_disabled):not(:disabled):not(.btn_active):not(.active):hover &gt; …</pre></details></td><td>–</td></tr>
 <tr><td>167</td><td>⚠️</td><td>softonic.com</td><td>OK</td><td><details><summary>15 warnings (unique: 15)</summary><pre>* The rest part of value can't to be matched on `max-width` syntax
     syntax: &lt;length&gt; | &lt;percentage&gt; | none | max-content | min-content | fit-content | fill-available | &lt;-non-standart-width&gt;
      value: 114px\0
@@ -8274,7 +8274,7 @@ Update date: 2017-03-08T21:25:57.746Z
     7 |…/placar-futebol-gol.css */@-webkit-keyframes placarGol{0{background-position:-202px -35px}5%{backg…
 ----------------------------------------------------------------^
     8 |
-    9 |</pre></details><em></em></td><td>–</td></tr>
+    9 |</pre></details></td><td>–</td></tr>
 <tr><td>169</td><td>🆗</td><td>cnzz.com</td><td>OK</td><td>OK</td></tr>
 <tr><td>170</td><td>⚠️</td><td>chaturbate.com</td><td>OK</td><td><details><summary>7 warnings (unique: 6)</summary><pre>* Invalid value for `filter`
     syntax: none | &lt;filter-function-list&gt; | &lt;-ms-filter&gt;
@@ -8293,7 +8293,7 @@ Update date: 2017-03-08T21:25:57.746Z
  3676 |…ute;top:36px;right:0;bottom:50px;left:0;height:calc(1 - $control-bar-height);z-index:900;-webkit-t…
 ----------------------------------------------------------------^
  3677 |
- 3678 |</pre></details><em></em></td><td>–</td></tr>
+ 3678 |</pre></details></td><td>–</td></tr>
 <tr><td>173</td><td>⚠️</td><td>google.com.ua</td><td>OK</td><td><details><summary>13 warnings (unique: 13)</summary><pre>* Invalid value for `opacity`
     syntax: &lt;number-zero-one&gt;
      value: 1\0/
@@ -8653,13 +8653,13 @@ Update date: 2017-03-08T21:25:57.746Z
     syntax: &lt;bg-image&gt;#
      value: linear-gradient(top,#4d90fe,#357ae8)
     --------^</pre></details></td></tr>
-<tr><td>180</td><td>⚠️</td><td>huaban.com</td><td><details><summary>Error</summary><pre>Parse error: RightParenthesis is expected
+<tr><td>180</td><td>⚠️</td><td>huaban.com</td><td><details><summary>Error (patched)</summary><pre>Parse error: RightParenthesis is expected
     1 |
     2 |
     3 |…:75px;margin-top:50px;background:img(/img/huaban_loading.gif) 0 0 no-repeat;color:#999;font-size:1…
 ----------------------------------------------------------------^
     4 |
-    5 |</pre></details><em>Error is patched</em></td><td><details><summary>3 warnings (unique: 3)</summary><pre>* Invalid value for `clip`
+    5 |</pre></details></td><td><details><summary>3 warnings (unique: 3)</summary><pre>* Invalid value for `clip`
     syntax: &lt;shape&gt; | auto
      value: rect(0)
     --------^
@@ -8674,14 +8674,14 @@ Update date: 2017-03-08T21:25:57.746Z
     9 |…order:0;padding:1px!important}@media all and (resolution=0){.b-share-popup,x:nth-child(1),x:-o-pre…
 ----------------------------------------------------------------^
    10 |
-   11 |</pre></details><em></em></td><td>–</td></tr>
-<tr><td>182</td><td>⚠️</td><td>w3schools.com</td><td><details><summary>Error</summary><pre>Parse error: Identifier is expected
+   11 |</pre></details></td><td>–</td></tr>
+<tr><td>182</td><td>⚠️</td><td>w3schools.com</td><td><details><summary>Error (patched)</summary><pre>Parse error: Identifier is expected
   627 |
   628 |
   629 |…active,#goog-gt-tt .translate-form .activity-form input:.focus:active{box-shadow:inset 0 0 0 1px r…
 ----------------------------------------------------------------^
   630 |
-  631 |</pre></details><em>Error is patched</em></td><td><details><summary>9 warnings (unique: 8)</summary><pre>* Invalid value for `display`
+  631 |</pre></details></td><td><details><summary>9 warnings (unique: 8)</summary><pre>* Invalid value for `display`
     syntax: none | inline | block | list-item | inline-list-item | inline-block | inline-table | table | table-cell | table-column | table-column-group | table-footer-group | table-header-group | table-row | table-row-group | flex | inline-flex | grid | inline-grid | run-in | ruby | ruby-base | ruby-text | ruby-base-container | ruby-text-container | contents | -ms-flexbox | -ms-inline-flexbox | -ms-grid | -ms-inline-grid | -webkit-flex | -webkit-inline-flex | -webkit-box | -webkit-inline-box | -moz-inline-stack | -moz-box | -moz-inline-box
      value: auto
     --------^
@@ -8723,7 +8723,7 @@ Update date: 2017-03-08T21:25:57.746Z
    49 |…ut:focus{border:0px;box-shadow:none;margin-top:3px width: 99%;padding:5px 15px;color:#000;}.main-s…
 ----------------------------------------------------------------^
    50 |
-   51 |…ategories_rowListli&gt;ul.cateList&gt;li&gt;a.active&gt;svg,a.language-toggle.active span.down-svg&gt;svg{transfo…</pre></details><em></em></td><td>–</td></tr>
+   51 |…ategories_rowListli&gt;ul.cateList&gt;li&gt;a.active&gt;svg,a.language-toggle.active span.down-svg&gt;svg{transfo…</pre></details></td><td>–</td></tr>
 <tr><td>184</td><td>⚠️</td><td>google.com.sg</td><td>OK</td><td><details><summary>13 warnings (unique: 13)</summary><pre>* Invalid value for `opacity`
     syntax: &lt;number-zero-one&gt;
      value: 1\0/
@@ -8853,20 +8853,20 @@ Update date: 2017-03-08T21:25:57.746Z
    63 |…"!important}.yap-yandex_ad3d280-3ec6a-8cdff-horizontal // Для IE8 .yap-warning_ie.yap-warning_grad…
 ----------------------------------------------------------------^
    64 |
-   65 |</pre></details><em></em></td><td>–</td></tr>
+   65 |</pre></details></td><td>–</td></tr>
 <tr><td>187</td><td>⚠️</td><td>dingit.tv</td><td><details><summary>Error</summary><pre>Parse error: Identifier is expected
   266 |
   267 |
   268 |…ansform-style:preserve-3d;transform-style:preserve-3d;// -webkit-perspective:1000px;// -moz-perspe…
 ----------------------------------------------------------------^
-</pre></details><em></em></td><td>–</td></tr>
+</pre></details></td><td>–</td></tr>
 <tr><td>188</td><td>⚠️</td><td>abs-cbn.com</td><td><details><summary>Error</summary><pre>Parse error: Unexpected input
    27 |
    28 |
    29 |…:relative}.rangeslider--disabled{filter:DXImageTransform.Microsoft.Alpha(Opacity=40);opacity:.4}.r…
 ----------------------------------------------------------------^
    30 |
-   31 |</pre></details><em></em></td><td>–</td></tr>
+   31 |</pre></details></td><td>–</td></tr>
 <tr><td>189</td><td>⚠️</td><td>google.az</td><td>OK</td><td><details><summary>13 warnings (unique: 13)</summary><pre>* Invalid value for `opacity`
     syntax: &lt;number-zero-one&gt;
      value: 1\0/
@@ -8925,7 +8925,7 @@ Update date: 2017-03-08T21:25:57.746Z
    30 |…tio: 1.3), only screen and (-o-min-device-pixel-ratio: 1.3 / 1), only screen and (min-resolution: …
 ----------------------------------------------------------------^
    31 |
-   32 |</pre></details><em></em></td><td>–</td></tr>
+   32 |</pre></details></td><td>–</td></tr>
 <tr><td>191</td><td>⚠️</td><td>roblox.com</td><td>OK</td><td><details><summary>16 warnings (unique: 12)</summary><pre>* Invalid value for `width`
     syntax: [ &lt;length&gt; | &lt;percentage&gt; ] &amp;&amp; [ border-box | content-box ]? | available | min-content | max-content | fit-content | auto
      value: device-width
@@ -8996,7 +8996,7 @@ Update date: 2017-03-08T21:25:57.746Z
    11 |…em !important;padding-right:0.3125rem !important}@media {.pb-c-top-table-x-wide .top-table-col.mob…
 ----------------------------------------------------------------^
    12 |
-   13 |</pre></details><em></em></td><td>–</td></tr>
+   13 |</pre></details></td><td>–</td></tr>
 <tr><td>193</td><td>⚠️</td><td>huffingtonpost.com</td><td>OK</td><td><details><summary>133 warnings (unique: 9)</summary><pre>* Unknown property: font-smoothing
 * Unknown property: font-smoothing
 * Unknown property: font-smoothing
@@ -9154,14 +9154,14 @@ Update date: 2017-03-08T21:25:57.746Z
   828 |    .jwplayer,#123movies-player iframe{ height: 470px !important;}
 ----------------------^
   829 |    .infopage .uc-form{ width: 95%;}
-  830 |    footer .footer-one, footer .footer-subs{ width: 50%;}</pre></details><em></em></td><td>–</td></tr>
+  830 |    footer .footer-one, footer .footer-subs{ width: 50%;}</pre></details></td><td>–</td></tr>
 <tr><td>195</td><td>⚠️</td><td>china.com.cn</td><td><details><summary>Error</summary><pre>Parse error: Selector is expected
     2 |/**** inline ****/
     3 |
     4 |&lt;!--
 -------^
     5 |.dropdown { float:left }
-    6 |.dropdown dt { width:65px; cursor:pointer; }</pre></details><em></em></td><td>–</td></tr>
+    6 |.dropdown dt { width:65px; cursor:pointer; }</pre></details></td><td>–</td></tr>
 <tr><td>196</td><td>⚠️</td><td>gfycat.com</td><td>OK</td><td><details><summary>29 warnings (unique: 25)</summary><pre>* The rest part of value can't to be matched on `margin-top` syntax
     syntax: &lt;length&gt; | &lt;percentage&gt; | auto
      value: 1px\9
@@ -9266,7 +9266,7 @@ Update date: 2017-03-08T21:25:57.746Z
   549 |.H_disabled .H_pano_mm svg.H_icon, {
 ------------------------------------------^
   550 |  fill: #ddd;
-  551 |  stroke: #5A6166;</pre></details><em></em></td><td>–</td></tr>
+  551 |  stroke: #5A6166;</pre></details></td><td>–</td></tr>
 <tr><td>198</td><td>🆗</td><td>buzzfeed.com</td><td>OK</td><td>OK</td></tr>
 <tr><td>199</td><td>⚠️</td><td>github.io</td><td>OK</td><td><details><summary>1 warning (unique: 1)</summary><pre>* Invalid value for `background`
     syntax: [ &lt;bg-layer&gt; , ]* &lt;final-bg-layer&gt;
@@ -9328,14 +9328,14 @@ Update date: 2017-03-08T21:25:57.746Z
   411 |…58.333333333333336%}.col-sm-8{width:66.66666666666666%}.
 ----------------------------------------------------------------^
   412 |…:91.66666666666666%}.col-sm-12{width:100%}.col-sm-push-1{left:8.333333333333332%}
-  413 |…-push-4{left:33.33333333333333%}.col-sm-push-5{left:41.66666666666667%}</pre></details><em></em></td><td>–</td></tr>
+  413 |…-push-4{left:33.33333333333333%}.col-sm-push-5{left:41.66666666666667%}</pre></details></td><td>–</td></tr>
 <tr><td>203</td><td>⚠️</td><td>walmart.com</td><td><details><summary>Error</summary><pre>Parse error: Unexpected input
    11 |
    12 |
    13 |…ibility:hidden;margin-right:.625em}.ada-label{font-size:$font-size-small;color:#707070;margin-left…
 ----------------------------------------------------------------^
    14 |
-   15 |</pre></details><em></em></td><td>–</td></tr>
+   15 |</pre></details></td><td>–</td></tr>
 <tr><td>204</td><td>⚠️</td><td>google.at</td><td>OK</td><td><details><summary>13 warnings (unique: 13)</summary><pre>* Invalid value for `opacity`
     syntax: &lt;number-zero-one&gt;
      value: 1\0/
@@ -9539,7 +9539,7 @@ Update date: 2017-03-08T21:25:57.746Z
    24 |
    25 |…een and (-webkit-min-device-pixel-ratio: 0){font-family:"wicons";src:url("https://cdn2.editmysite.…
 ----------------------------------------------------------------^
-   26 |</pre></details><em></em></td><td>–</td></tr>
+   26 |</pre></details></td><td>–</td></tr>
 <tr><td>209</td><td>⚠️</td><td>prestoris.com</td><td>OK</td><td><details><summary>13 warnings (unique: 13)</summary><pre>* Invalid value for `opacity`
     syntax: &lt;number-zero-one&gt;
      value: 1\0/
@@ -9651,7 +9651,7 @@ Update date: 2017-03-08T21:25:57.746Z
     4 |…-colors .card.buyer-card .card-meta-row-item:nth-child(n2):before,.ds-reduced-colors .card.buyer-c…
 ----------------------------------------------------------------^
     5 |
-    6 |</pre></details><em></em></td><td>–</td></tr>
+    6 |</pre></details></td><td>–</td></tr>
 <tr><td>213</td><td>⚠️</td><td>reimageplus.com</td><td>OK</td><td><details><summary>1 warning (unique: 1)</summary><pre>* Invalid value for `border-bottom-color`
     syntax: &lt;color&gt;
      value: 2f 5bb 7
@@ -9662,7 +9662,7 @@ Update date: 2017-03-08T21:25:57.746Z
  1946 |@media 480px{.campaign_header.full_height{height:calc(80vh - 10px)}
 --------------^
  1947 |}
- 1948 |@media screen and (max-height:550px){.campaign_header.full_height h1{margin-top:50px}</pre></details><em></em></td><td>–</td></tr>
+ 1948 |@media screen and (max-height:550px){.campaign_header.full_height h1{margin-top:50px}</pre></details></td><td>–</td></tr>
 <tr><td>215</td><td>⚠️</td><td>9gag.com</td><td>OK</td><td><details><summary>2 warnings (unique: 2)</summary><pre>* The rest part of value can't to be matched on `-webkit-transition` syntax
     syntax: &lt;single-transition&gt;#
      value: opacity .1s ease 0
@@ -10054,7 +10054,7 @@ Update date: 2017-03-08T21:25:57.746Z
    45 |…7px;max-height:80px}#channelRegistration .form_username{(-bracket-:hack;margin-left:1px;)}.regForm…
 ----------------------------------------------------------------^
    46 |
-   47 |</pre></details><em></em></td><td>–</td></tr>
+   47 |</pre></details></td><td>–</td></tr>
 <tr><td>219</td><td>⚠️</td><td>google.ch</td><td>OK</td><td><details><summary>13 warnings (unique: 13)</summary><pre>* Invalid value for `opacity`
     syntax: &lt;number-zero-one&gt;
      value: 1\0/
@@ -10112,7 +10112,7 @@ Update date: 2017-03-08T21:25:57.746Z
  2336 |
  2337 |…und-color:#fab904}.bg-frost{background-color:rgba(#fff,0:global .95)}.bg-shade{background-color:rg…
 ----------------------------------------------------------------^
-</pre></details><em></em></td><td>–</td></tr>
+</pre></details></td><td>–</td></tr>
 <tr><td>221</td><td>⚠️</td><td>tokopedia.com</td><td>OK</td><td><details><summary>70 warnings (unique: 57)</summary><pre>* Invalid value for `width`
     syntax: [ &lt;length&gt; | &lt;percentage&gt; ] &amp;&amp; [ border-box | content-box ]? | available | min-content | max-content | fit-content | auto
      value: auto\9
@@ -10533,21 +10533,21 @@ Update date: 2017-03-08T21:25:57.746Z
     2 |
     3 |…dth:1024px){.line{margin-left:107px;margin-right:107px;}
 ----------------------------------------------------------------^
-</pre></details><em></em></td><td>–</td></tr>
+</pre></details></td><td>–</td></tr>
 <tr><td>226</td><td>⚠️</td><td>douyu.com</td><td><details><summary>Error</summary><pre>Parse error: Unexpected input
    13 |
    14 |
    15 |…;-webkit-transform-style:preserve-3d moz-transform-style: preserve-3d;transform-style:preserve-3d;…
 ----------------------------------------------------------------^
    16 |
-   17 |…-bezier(.46,.98,.54,1.1);-moz-transition:all .7s cubic-bezier(.46,.98,.54,1.1)}.row-4 .theatre-rig…</pre></details><em></em></td><td>–</td></tr>
+   17 |…-bezier(.46,.98,.54,1.1);-moz-transition:all .7s cubic-bezier(.46,.98,.54,1.1)}.row-4 .theatre-rig…</pre></details></td><td>–</td></tr>
 <tr><td>227</td><td>⚠️</td><td>weather.com</td><td colspan="2">–</td></tr>
-<tr><td>228</td><td>⚠️</td><td>amazon.fr</td><td><details><summary>Error</summary><pre>Parse error: Identifier or asterisk is expected
+<tr><td>228</td><td>⚠️</td><td>amazon.fr</td><td><details><summary>Error (patched)</summary><pre>Parse error: Identifier or asterisk is expected
   101 |
   102 |
   103 |…color:#FFF;vertical-align:baseline;white-space:nowrap}*|:-moz-full-screen-ancestor{transform:initi…
 ----------------------------------------------------------------^
-</pre></details><em>Error is patched</em></td><td><details><summary>61 warnings (unique: 23)</summary><pre>* Invalid value for `border-color`
+</pre></details></td><td><details><summary>61 warnings (unique: 23)</summary><pre>* Invalid value for `border-color`
     syntax: &lt;color&gt;{1,4}
      value: &lt;empty string&gt;
     --------^
@@ -10829,13 +10829,13 @@ Update date: 2017-03-08T21:25:57.746Z
    16 |.HPP_3.ob-widget .ob-dynamic-rec-container {position:relative;margin:0;padding;0;}
 -------------------------------------------------------------------------------------^
    17 |.HPP_3.ob-widget .ob-dynamic-rec-link,
-   18 |.HPP_3.ob-widget .ob-dynamic-rec-link:hover {text-decoration:none;}</pre></details><em></em></td><td>–</td></tr>
+   18 |.HPP_3.ob-widget .ob-dynamic-rec-link:hover {text-decoration:none;}</pre></details></td><td>–</td></tr>
 <tr><td>233</td><td>⚠️</td><td>bankofamerica.com</td><td><details><summary>Error</summary><pre>Parse error: Unexpected input
    36 |…rl("../../../../../../../../pa/global-assets/1.0/graphic/boa-task-layer-arrows.png") no-repeat -25…
    37 |
    38 |…p-module a{color:#fff;text-decoration:none;bottom:border:0}.hp-sign-in-pbi-hp-module a:focus,.hp-s…
 ----------------------------------------------------------------^
-</pre></details><em></em></td><td>–</td></tr>
+</pre></details></td><td>–</td></tr>
 <tr><td>234</td><td>⚠️</td><td>google.cl</td><td>OK</td><td><details><summary>13 warnings (unique: 13)</summary><pre>* Invalid value for `opacity`
     syntax: &lt;number-zero-one&gt;
      value: 1\0/
@@ -10888,12 +10888,12 @@ Update date: 2017-03-08T21:25:57.746Z
     syntax: &lt;bg-image&gt;#
      value: linear-gradient(bottom,rgba(0,0,0,.2),rgba(0,0,0,0))
     --------^</pre></details></td></tr>
-<tr><td>235</td><td>⚠️</td><td>amazon.it</td><td><details><summary>Error</summary><pre>Parse error: Identifier or asterisk is expected
+<tr><td>235</td><td>⚠️</td><td>amazon.it</td><td><details><summary>Error (patched)</summary><pre>Parse error: Identifier or asterisk is expected
    96 |
    97 |
    98 |…color:#FFF;vertical-align:baseline;white-space:nowrap}*|:-moz-full-screen-ancestor{transform:initi…
 ----------------------------------------------------------------^
-</pre></details><em>Error is patched</em></td><td><details><summary>61 warnings (unique: 23)</summary><pre>* Invalid value for `border-color`
+</pre></details></td><td><details><summary>61 warnings (unique: 23)</summary><pre>* Invalid value for `border-color`
     syntax: &lt;color&gt;{1,4}
      value: &lt;empty string&gt;
     --------^
@@ -11144,14 +11144,14 @@ Update date: 2017-03-08T21:25:57.746Z
  3432 |        text-decoration:underline:
 ----------------------------------------^
  3433 |    }
- 3434 |</pre></details><em></em></td><td>–</td></tr>
+ 3434 |</pre></details></td><td>–</td></tr>
 <tr><td>238</td><td>⚠️</td><td>rolloid.net</td><td><details><summary>Error</summary><pre>Parse error: RightParenthesis is expected
     7 |
     8 |
     9 |…9bed 100%);background:-o-linear-gradient(top,#008be8 0%,@mobileu_gradient_two_mob 100%);background…
 ----------------------------------------------------------------^
    10 |
-   11 |</pre></details><em></em></td><td>–</td></tr>
+   11 |</pre></details></td><td>–</td></tr>
 <tr><td>239</td><td>⚠️</td><td>google.ae</td><td>OK</td><td><details><summary>13 warnings (unique: 13)</summary><pre>* Invalid value for `opacity`
     syntax: &lt;number-zero-one&gt;
      value: 1\0/
@@ -11477,7 +11477,7 @@ Update date: 2017-03-08T21:25:57.746Z
    78 |…ke--v4 .b-flatrepost-reposted .b-flatrepost-name:before. .lj-like--v4 .b-flatrepost-reposted .b-fl…
 ----------------------------------------------------------------^
    79 |
-   80 |</pre></details><em></em></td><td>–</td></tr>
+   80 |</pre></details></td><td>–</td></tr>
 <tr><td>246</td><td>🆗</td><td>skype.com</td><td>OK</td><td>OK</td></tr>
 <tr><td>247</td><td>⚠️</td><td>39.net</td><td><details><summary>Error</summary><pre>Parse error: Identifier is expected
   369 |.m_yyk_yh_list li { line-height: 24px; white-space: nowrap; overflow: hidden; float: none; }
@@ -11485,7 +11485,7 @@ Update date: 2017-03-08T21:25:57.746Z
   371 |.m_yyk_mid { padding: 2px 0 0; +padding: 9px 0;
 --------------------------------------^
   372 |}
-  373 |.m_yyk_controls_layout { position: relative; }</pre></details><em></em></td><td>–</td></tr>
+  373 |.m_yyk_controls_layout { position: relative; }</pre></details></td><td>–</td></tr>
 <tr><td>248</td><td>⚠️</td><td>wordpress.org</td><td>OK</td><td><details><summary>4 warnings (unique: 3)</summary><pre>* The rest part of value can't to be matched on `-webkit-transition` syntax
     syntax: &lt;single-transition&gt;#
      value: color .1s ease-in 0
