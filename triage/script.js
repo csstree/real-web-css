@@ -8,14 +8,24 @@ fetch('./data/test-resolutions.json').then(res => res.json()).then(data => {
             .replace(/>/g, '&gt;');
     }
 
+    function isActualFact(fact) {
+        return Array.isArray(fact.sources) && fact.sources.length > 0;
+    }
+
     function generateFactList(subject) {
         var facts = data.subject[subject].facts || [];
 
-        return facts.map(function(fact) {
+        return facts.filter(isActualFact).map(function(fact) {
+            var sources = fact.sources.map(function(source) {
+                return source.replace(
+                    /([a-z0-9\-]+(?:\.[a-z0-9\-]+)+)(\s+\((\d+)\))/,
+                    '<a class="source" href="data/css/$3.css" target="_blank">$1</a>$2'
+                )
+            }).join(', ')
             var factEl = document.createElement('div');
             factEl.className = 'fact';
             factEl.innerHTML =
-                '<b>' + fact.sources.join(', ') + '</b>' +
+                '<div class="sources">' + sources + '</div>' +
                 '<pre>' + escapeHtml(fact.name) + '<pre>';
 
             return factEl;
@@ -60,7 +70,11 @@ fetch('./data/test-resolutions.json').then(res => res.json()).then(data => {
 
         // counts
         var resolutionsCount = subjectData.resolutions.length;
-        var unresolvedCount = subjectData.resolutions.reduce((count, res) => count + (res.side === null), 0);
+        var unresolvedCount = subjectData.facts
+            .filter(isActualFact)
+            .reduce(function(count, fact) {
+                return count + (subjectData.resolutions[fact.resolution].side === null);
+            }, 0);
 
         var tab = document.createElement('div');
         tab.className = 'subject';
