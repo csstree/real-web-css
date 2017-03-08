@@ -90,7 +90,7 @@ function download(idx, phantom) {
                                     );
                                 })
                                 .catch(function(error) {
-                                    console.log('    ❌  ' + sheet.href + ' Error:' + error);
+                                    console.log('    ❌  ' + sheet.href + ' Error: ' + error);
                                 })
                         );
                     }
@@ -127,7 +127,12 @@ function download(idx, phantom) {
 function fetch(url) {
     return new Promise(function(resolve, reject) {
         (parseUrl(url).protocol === 'http:' ? http : https).get(url, function(response) {
+            var contentType = response.headers['content-type'] || '';
             var chunks = [];
+
+            if (contentType.toLowerCase() !== 'text/css') {
+                return reject('Bad content type: ' + contentType);
+            }
 
             // console.log(response)
             if (response.statusCode < 200 && response.statusCode >= 400) {
