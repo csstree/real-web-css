@@ -61,7 +61,6 @@ function formatErrors(errors) {
 function parseError(e, report, fixed) {
     console.log('  [ERROR] Parsing: ' + e.message);
     report[fixed ? 'fixedError' : 'error'] = {
-        e: e,
         message: e.message,
         details: e.formattedMessage || e.message
     };
@@ -117,7 +116,7 @@ var reports = sites.map(function(url, idx) {
             var errors = validate(ast);
             if (errors.length) {
                 console.log('  Warnings: ' + errors.length);
-                report.validation = errors;
+                report.validation = formatErrors(errors);
             } else {
                 console.log('  No warnings');
             }
@@ -149,10 +148,6 @@ fs.writeFileSync(resultFile, JSON.stringify(reports.map(function(report) {
             message: report.fixedError.message,
             details: report.fixedError.details || report.fixedError.message
         };
-    }
-
-    if (report.validation) {
-        report.validation = formatErrors(report.validation);
     }
 
     return report;

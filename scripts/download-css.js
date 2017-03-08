@@ -101,7 +101,7 @@ function download(idx, phantom) {
                         var css = inline.concat(sheets).join('\n');
 
                         if (css && !/\/rinet.ru/.test(css)) {
-                            fs.writeFileSync(path.join(outputDir, idx + '.css'), '/* ' + url + '*/\n' + css, 'utf8');
+                            fs.writeFileSync(path.join(outputDir, idx + '.css'), '/* ' + url + ' */\n' + css, 'utf8');
                             console.log('    🎉  DONE');
                             console.log();
                             // remember the place in the likely scenario that
