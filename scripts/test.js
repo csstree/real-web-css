@@ -54,10 +54,17 @@ function formatErrors(errors) {
         }, {});
 
         for (var key in map) {
-            output.push(
-                map[key] > 1
+            key = map[key] > 1
                 ? key.replace(/\n|$/, ' × ' + map[key] + '$&')
-                : key
+                : key;
+
+            output.push(
+                key
+                    .split(/\n/)
+                    .map(function(line) {
+                        return line.length < 80 ? line : line.substr(0, 79) + '…';
+                    })
+                    .join('\n')                
             );
         }
     } else {
