@@ -130,7 +130,7 @@ function fetch(url) {
             var contentType = response.headers['content-type'] || '';
             var chunks = [];
 
-            if (contentType.toLowerCase() !== 'text/css') {
+            if (!/^\s*text\/css(\s*;|$)/i.test(contentType)) {
                 return reject('Bad content type: ' + contentType);
             }
 
