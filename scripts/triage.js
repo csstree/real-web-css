@@ -23,7 +23,9 @@ buildTriageIndex({
         },
         validation: {
             facts: function(item) {
-                return item.validation;
+                return item.validation && item.validation.map(function(fact) {
+                    return fact.replace(/ × \d+/, '');
+                });
             },
             attributes: {
                 side: ['csstree-unsupport', 'confimed', 'to-be-confirmed'],
