@@ -92,7 +92,7 @@ module.exports = {
             return css
                 .replace(/overflow: hidden:/g, 'overflow: hidden;')
                 .replace(/margin-right: 0 padding:/g, 'margin-right: 0; padding:')
-                .replace(/color: #;/g, '')
+                .replace(/color: #;/g, 'color: \\#;')
                 .replace(/Initial\*\/\//g, 'Initial*/')
                 .replace(/width: 360px -webkit-border/g, 'width: 360px; -webkit-border');
         }
@@ -126,7 +126,7 @@ module.exports = {
         comment: 'Missed `n` in `:nth-child()`',
         patch: function(css) {
             return css
-                .replace(/:nth-child\(\d\+1\)/g, ':nth-child(3n+1)');
+                .replace(/:nth-child\((\d)\+1\)/g, ':nth-child($1n+1)');
         }
     },
     'adobe.com': {
@@ -186,15 +186,17 @@ module.exports = {
     'taobao.com': {
         comment: 'Used `filter()` instead of `alpha()`',
         patch: function(css) {
-            return css.replace(/filter:filter\(/g, 'filter:alpha(');
+            return css
+                .replace(/filter:filter\(/g, 'filter:alpha(')
+                .replace(/input:\.focus/g, 'input:focus');
         }
     },
     'rolloid.net': {
         comment: 'Missed substitutions',
         patch: function(css) {
             return css
-                .replace(/@mobileu_gradient_two_mob/g, 'mobileu_gradient_two_mob')
-                .replace(/color:#;/g, 'color:#000;');
+                .replace(/@mobileu_gradient_two_mob/g, '\\@mobileu_gradient_two_mob')
+                .replace(/color:#;/g, 'color:\\#;');
         }
     },
     'nicovideo.jp': {
@@ -307,6 +309,7 @@ module.exports = {
             return css
                 .replace(/;\);/g, ';')
                 .replace(/width 616px/, 'width: 616px')
+                .replace(/#transparent/g, '\\#transparent')
                 .replace(/background: background:/, 'background: ');
         }
     },
@@ -329,6 +332,7 @@ module.exports = {
         patch: function(css) {
             return css
                 .replace(/filter:DXImageTransform/g, 'filter:progid:DXImageTransform')
+                .replace(/;:\?}/g, ';}')
                 .replace(/(@me\s*)?<!--.*?-->/g, '');
         }
     },
@@ -350,7 +354,7 @@ module.exports = {
     },
     'etsy.com': {
         patch: function(css) {
-            return css.replace(/:nth-child(n2)/g, ':nth-child(2n)');
+            return css.replace(/:nth-child\(n2\)/g, ':nth-child(2n)');
         }
     },
     'slack.com': {
