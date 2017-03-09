@@ -5,7 +5,7 @@ Using [CSSTree](https://github.com/csstree/csstree) for real site CSS
 
 <!-- date -->
 
-Update date: 2017-03-08T23:52:36.365Z
+Update date: 2017-03-09T00:44:00.913Z
 
 <!-- /date -->
 
@@ -14,8 +14,8 @@ Update date: 2017-03-08T23:52:36.365Z
 
 * Sites: `250`
 * Downloaded: `231` (19 failed)
-* Parsed: `193` (38 failed)
-* Validation passed: `15` (178 failed)
+* Parsed: `204` (27 failed)
+* Validation passed: `15` (189 failed)
 
 <table>
 <thead>
@@ -624,7 +624,170 @@ Update date: 2017-03-08T23:52:36.365Z
   158 |…arch-imgsearch-panel input{opacity:0;filter:filter(alpha=0)}.search-imgsearch-panel .search-imgsea…
 ----------------------------------------------------------------^
   159 |
-  160 |</pre></details><em>Missed substitutions</em></td><td>–</td></tr>
+  160 |</pre></details><em>Used `filter()` instead of `alpha()`</em></td><td><details><summary>41 warnings (unique: 27)</summary><pre>* Invalid value for `background-image`
+    syntax: &lt;bg-image&gt;#
+     value: -webkit-image-set(url(//img.alicdn.com/tps/i1/TB1qC0rIVXXXXbjaXXXH0F6FVXX-150-62.png) 1x,url(//img.alicdn.com/tps/i4/TB14nhUIVXXXXXAXpXXlu.FQpXX-300-124.png) 2x)
+    --------^
+* Invalid value for `background-image`
+    syntax: &lt;bg-image&gt;#
+     value: -webkit-image-set(url(//gtms01.alicdn.com/tps/i1/TB19TgIHpXXXXbRXVXX_AQW0XXX-529-200.png) 1x,url(//gtms04.alicdn.com/tps/i4/TB1zBENHpXXXXbUXXXXM6a0UXXX-1058-400.png) 2x)
+    --------^
+* Invalid value for `background-image`
+    syntax: &lt;bg-image&gt;#
+     value: -moz-image-set(url(//gtms01.alicdn.com/tps/i1/TB19TgIHpXXXXbRXVXX_AQW0XXX-529-200.png) 1x,url(//gtms04.alicdn.com/tps/i4/TB1zBENHpXXXXbUXXXXM6a0UXXX-1058-400.png) 2x)
+    --------^
+* Invalid value for `background-image`
+    syntax: &lt;bg-image&gt;#
+     value: -ms-image-set(url(//gtms01.alicdn.com/tps/i1/TB19TgIHpXXXXbRXVXX_AQW0XXX-529-200.png) 1x,url(//gtms04.alicdn.com/tps/i4/TB1zBENHpXXXXbUXXXXM6a0UXXX-1058-400.png) 2x)
+    --------^
+* Invalid value for `background-image`
+    syntax: &lt;bg-image&gt;#
+     value: -o-image-set(url(//gtms01.alicdn.com/tps/i1/TB19TgIHpXXXXbRXVXX_AQW0XXX-529-200.png) 1x,url(//gtms04.alicdn.com/tps/i4/TB1zBENHpXXXXbUXXXXM6a0UXXX-1058-400.png) 2x)
+    --------^
+* The rest part of value can't to be matched on `border-bottom` syntax
+    syntax: &lt;br-width&gt; || &lt;br-style&gt; || &lt;color&gt;
+     value: 3px solid #f40\9
+    ------------------^
+* Invalid value for `color`
+    syntax: &lt;color&gt;
+     value: #737373\9
+    --------^
+* Invalid value for `background-image`
+    syntax: &lt;bg-image&gt;#
+     value: -webkit-image-set(url(//gtms01.alicdn.com/tps/i1/TB19TgIHpXXXXbRXVXX_AQW0XXX-529-200.png) 1x,url(//gtms04.alicdn.com/tps/i4/TB1zBENHpXXXXbUXXXXM6a0UXXX-1058-400.png) 2x)
+    --------^
+* Invalid value for `background-image`
+    syntax: &lt;bg-image&gt;#
+     value: -moz-image-set(url(//gtms01.alicdn.com/tps/i1/TB19TgIHpXXXXbRXVXX_AQW0XXX-529-200.png) 1x,url(//gtms04.alicdn.com/tps/i4/TB1zBENHpXXXXbUXXXXM6a0UXXX-1058-400.png) 2x)
+    --------^
+* Invalid value for `background-image`
+    syntax: &lt;bg-image&gt;#
+     value: -ms-image-set(url(//gtms01.alicdn.com/tps/i1/TB19TgIHpXXXXbRXVXX_AQW0XXX-529-200.png) 1x,url(//gtms04.alicdn.com/tps/i4/TB1zBENHpXXXXbUXXXXM6a0UXXX-1058-400.png) 2x)
+    --------^
+* Invalid value for `background-image`
+    syntax: &lt;bg-image&gt;#
+     value: -o-image-set(url(//gtms01.alicdn.com/tps/i1/TB19TgIHpXXXXbRXVXX_AQW0XXX-529-200.png) 1x,url(//gtms04.alicdn.com/tps/i4/TB1zBENHpXXXXbUXXXXM6a0UXXX-1058-400.png) 2x)
+    --------^
+* The rest part of value can't to be matched on `border-bottom` syntax
+    syntax: &lt;br-width&gt; || &lt;br-style&gt; || &lt;color&gt;
+     value: 3px solid #f40\9
+    ------------------^
+* Invalid value for `color`
+    syntax: &lt;color&gt;
+     value: #737373\9
+    --------^
+* Invalid value for `background-image`
+    syntax: &lt;bg-image&gt;#
+     value: -webkit-image-set(url(//img.alicdn.com/tps/i2/T1wLGVFcRfXXXa78nI-400-200.png) 1x,url(//img.alicdn.com/tps/i1/T1CLOwFelgXXakF0U7-800-400.png) 2x)
+    --------^
+* Invalid value for `background-image`
+    syntax: &lt;bg-image&gt;#
+     value: -moz-image-set(url(//img.alicdn.com/tps/i2/T1wLGVFcRfXXXa78nI-400-200.png) 1x,url(//img.alicdn.com/tps/i1/T1CLOwFelgXXakF0U7-800-400.png) 2x)
+    --------^
+* Invalid value for `background-image`
+    syntax: &lt;bg-image&gt;#
+     value: -ms-image-set(url(//img.alicdn.com/tps/i2/T1wLGVFcRfXXXa78nI-400-200.png) 1x,url(//img.alicdn.com/tps/i1/T1CLOwFelgXXakF0U7-800-400.png) 2x)
+    --------^
+* Invalid value for `background-image`
+    syntax: &lt;bg-image&gt;#
+     value: -o-image-set(url(//img.alicdn.com/tps/i2/T1wLGVFcRfXXXa78nI-400-200.png) 1x,url(//img.alicdn.com/tps/i1/T1CLOwFelgXXakF0U7-800-400.png) 2x)
+    --------^
+* Invalid value for `-moz-osx-font-smoothing`
+    syntax: auto | unset | grayscale
+     value: grayscaleFont type
+    --------^
+* Invalid value for `*vertical-align`
+    syntax: baseline | sub | super | text-top | text-bottom | middle | top | bottom | &lt;percentage&gt; | &lt;length&gt;
+     value: auto
+    --------^
+* Invalid value for `background-image`
+    syntax: &lt;bg-image&gt;#
+     value: -webkit-image-set(url(//img.alicdn.com/tps/i3/TB1cut8FVXXXXafXXXXOcKP.FXX-130-60.gif) 1x,url(//img.alicdn.com/tps/i4/T1Rsz7FPJaXXbZhKn7-520-240.gif) 4x)
+    --------^
+* Invalid value for `background-image`
+    syntax: &lt;bg-image&gt;#
+     value: -moz-image-set(url(//img.alicdn.com/tps/i3/TB1cut8FVXXXXafXXXXOcKP.FXX-130-60.gif) 1x,url(//img.alicdn.com/tps/i4/T1Rsz7FPJaXXbZhKn7-520-240.gif) 4x)
+    --------^
+* Invalid value for `background-image`
+    syntax: &lt;bg-image&gt;#
+     value: -o-image-set(url(//img.alicdn.com/tps/i3/TB1cut8FVXXXXafXXXXOcKP.FXX-130-60.gif) 1x,url(//img.alicdn.com/tps/i4/T1Rsz7FPJaXXbZhKn7-520-240.gif) 4x)
+    --------^
+* Invalid value for `background-image`
+    syntax: &lt;bg-image&gt;#
+     value: -ms-image-set(url(//img.alicdn.com/tps/i3/TB1cut8FVXXXXafXXXXOcKP.FXX-130-60.gif) 1x,url(//img.alicdn.com/tps/i4/T1Rsz7FPJaXXbZhKn7-520-240.gif) 4x)
+    --------^
+* The rest part of value can't to be matched on `line-height` syntax
+    syntax: normal | &lt;number&gt; | &lt;length&gt; | &lt;percentage&gt;
+     value: 36px\0
+    ------------^
+* Invalid value for `border-color`
+    syntax: &lt;color&gt;{1,4}
+     value: transparent\0
+    --------^
+* Invalid value for `*vertical-align`
+    syntax: baseline | sub | super | text-top | text-bottom | middle | top | bottom | &lt;percentage&gt; | &lt;length&gt;
+     value: auto
+    --------^
+* Invalid value for `background-image`
+    syntax: &lt;bg-image&gt;#
+     value: -webkit-image-set(url(//gtms04.alicdn.com/tps/i4/TB1Ak8ZIVXXXXX0XXXXQxPyJVXX-95-40.png) 1x,url(//gtms03.alicdn.com/tps/i3/TB1OMhvIVXXXXbsXVXXD1MBIXXX-190-80.png) 2x)
+    --------^
+* Invalid value for `filter`
+    syntax: none | &lt;filter-function-list&gt; | &lt;-ms-filter&gt;
+     value: mask()
+    --------^
+* Invalid value for `background-image`
+    syntax: &lt;bg-image&gt;#
+     value: -webkit-image-set(url(//img.alicdn.com/tps/TB15tqpLXXXXXX9XFXXXXXXXXXX-169-98.png) 1x,url(//img.alicdn.com/tps/TB121akLXXXXXcaXFXXXXXXXXXX-338-196.png) 2x)
+    --------^
+* Invalid value for `background-image`
+    syntax: &lt;bg-image&gt;#
+     value: -webkit-image-set(url(//gtms04.alicdn.com/tps/i4/TB1Ak8ZIVXXXXX0XXXXQxPyJVXX-95-40.png) 1x,url(//gtms03.alicdn.com/tps/i3/TB1OMhvIVXXXXbsXVXXD1MBIXXX-190-80.png) 2x)
+    --------^
+* Invalid value for `background-image`
+    syntax: &lt;bg-image&gt;#
+     value: -webkit-image-set(url(//gtms01.alicdn.com/tps/i1/TB1qC0rIVXXXXbjaXXXH0F6FVXX-150-62.png) 1x,url(//gtms04.alicdn.com/tps/i4/TB14nhUIVXXXXXAXpXXlu.FQpXX-300-124.png) 2x)
+    --------^
+* Invalid value for `background-image`
+    syntax: &lt;bg-image&gt;#
+     value: -webkit-image-set(url(//gtms01.alicdn.com/tps/i1/TB19TgIHpXXXXbRXVXX_AQW0XXX-529-200.png) 1x,url(//gtms04.alicdn.com/tps/i4/TB1zBENHpXXXXbUXXXXM6a0UXXX-1058-400.png) 2x)
+    --------^
+* Invalid value for `background-image`
+    syntax: &lt;bg-image&gt;#
+     value: -moz-image-set(url(//gtms01.alicdn.com/tps/i1/TB19TgIHpXXXXbRXVXX_AQW0XXX-529-200.png) 1x,url(//gtms04.alicdn.com/tps/i4/TB1zBENHpXXXXbUXXXXM6a0UXXX-1058-400.png) 2x)
+    --------^
+* Invalid value for `background-image`
+    syntax: &lt;bg-image&gt;#
+     value: -ms-image-set(url(//gtms01.alicdn.com/tps/i1/TB19TgIHpXXXXbRXVXX_AQW0XXX-529-200.png) 1x,url(//gtms04.alicdn.com/tps/i4/TB1zBENHpXXXXbUXXXXM6a0UXXX-1058-400.png) 2x)
+    --------^
+* Invalid value for `background-image`
+    syntax: &lt;bg-image&gt;#
+     value: -o-image-set(url(//gtms01.alicdn.com/tps/i1/TB19TgIHpXXXXbRXVXX_AQW0XXX-529-200.png) 1x,url(//gtms04.alicdn.com/tps/i4/TB1zBENHpXXXXbUXXXXM6a0UXXX-1058-400.png) 2x)
+    --------^
+* The rest part of value can't to be matched on `border-bottom` syntax
+    syntax: &lt;br-width&gt; || &lt;br-style&gt; || &lt;color&gt;
+     value: 3px solid #f40\9
+    ------------------^
+* Invalid value for `color`
+    syntax: &lt;color&gt;
+     value: #737373\9
+    --------^
+* Invalid value for `background-image`
+    syntax: &lt;bg-image&gt;#
+     value: -webkit-image-set(url(//img.alicdn.com/tps/i1/TB1JUgwLVXXXXcHXXXXSBl3GVXX-44-19.png) 1x,url(//img.alicdn.com/tps/i3/TB1tS3hLVXXXXbqXVXXtod5JFXX-88-38.png) 2x)
+    --------^
+* Invalid value for `background-image`
+    syntax: &lt;bg-image&gt;#
+     value: -moz-image-set(url(//img.alicdn.com/tps/i1/TB1JUgwLVXXXXcHXXXXSBl3GVXX-44-19.png) 1x,url(//img.alicdn.com/tps/i3/TB1tS3hLVXXXXbqXVXXtod5JFXX-88-38.png) 2x)
+    --------^
+* Invalid value for `background-image`
+    syntax: &lt;bg-image&gt;#
+     value: -ms-image-set(url(//img.alicdn.com/tps/i1/TB1JUgwLVXXXXcHXXXXSBl3GVXX-44-19.png) 1x,url(//img.alicdn.com/tps/i3/TB1tS3hLVXXXXbqXVXXtod5JFXX-88-38.png) 2x)
+    --------^
+* Invalid value for `background-image`
+    syntax: &lt;bg-image&gt;#
+     value: -o-image-set(url(//img.alicdn.com/tps/i1/TB1JUgwLVXXXXcHXXXXSBl3GVXX-44-19.png) 1x,url(//img.alicdn.com/tps/i3/TB1tS3hLVXXXXbqXVXXtod5JFXX-88-38.png) 2x)
+    --------^</pre></details></td></tr>
 <tr><td>11</td><td>⚠️</td><td>tmall.com</td><td><details><summary>Error</summary><pre>Parse error: Identifier is expected
   192 |
   193 |
@@ -11494,7 +11657,7 @@ Update date: 2017-03-08T23:52:36.365Z
      value: linear-gradient(top,whiteSmoke 0,#EEE 100%)
     --------^
 * Unknown property: line-hight</pre></details></td></tr>
-<tr><td>181</td><td>⚠️</td><td>kinogo.club</td><td><details><summary>Error</summary><pre>Parse error: Colon is expected
+<tr><td>181</td><td>⚠️</td><td>kinogo.club</td><td><details><summary>Error (patched)</summary><pre>Parse error: Colon is expected
     7 |
     8 |
     9 |…order:0;padding:1px!important}@media all and (resolution=0){.b-share-popup,x:nth-child(1),x:-o-pre…
@@ -11543,13 +11706,60 @@ Update date: 2017-03-08T23:52:36.365Z
     syntax: &lt;bg-image&gt;#
      value: linear-gradient(top,#4d90fe,#357ae8)
     --------^</pre></details></td></tr>
-<tr><td>183</td><td>⚠️</td><td>wittyfeed.com</td><td><details><summary>Error</summary><pre>Parse error: Unexpected input
+<tr><td>183</td><td>⚠️</td><td>wittyfeed.com</td><td><details><summary>Error (patched)</summary><pre>Parse error: Unexpected input
    47 |…ow:hidden;}.flex-control-thumbs li{width:25%;float:left;margin:0;}.flex-control-thumbs img{width:1…
    48 |
    49 |…ut:focus{border:0px;box-shadow:none;margin-top:3px width: 99%;padding:5px 15px;color:#000;}.main-s…
 ----------------------------------------------------------------^
    50 |
-   51 |…ategories_rowListli&gt;ul.cateList&gt;li&gt;a.active&gt;svg,a.language-toggle.active span.down-svg&gt;svg{transfo…</pre></details></td><td>–</td></tr>
+   51 |…ategories_rowListli&gt;ul.cateList&gt;li&gt;a.active&gt;svg,a.language-toggle.active span.down-svg&gt;svg{transfo…</pre></details></td><td><details><summary>12 warnings</summary><pre>* The rest part of value can't to be matched on `margin-top` syntax
+    syntax: &lt;length&gt; | &lt;percentage&gt; | auto
+     value: 1px \9
+    -----------^
+* Invalid value for `background-image`
+    syntax: &lt;bg-image&gt;#
+     value: -webkit-linear-gradient(left,color-stop(rgba(0,0,0,0.5) 0),color-stop(rgba(0,0,0,0.0001) 100%))
+    --------^
+* Invalid value for `background-image`
+    syntax: &lt;bg-image&gt;#
+     value: -webkit-linear-gradient(left,color-stop(rgba(0,0,0,0.0001) 0),color-stop(rgba(0,0,0,0.5) 100%))
+    --------^
+* The rest part of value can't to be matched on `background-color` syntax
+    syntax: &lt;color&gt;
+     value: #000 \9
+    -------------^
+* Invalid value for `width`
+    syntax: [ &lt;length&gt; | &lt;percentage&gt; ] &amp;&amp; [ border-box | content-box ]? | available | min-content | max-content | fit-content | auto
+     value: device-width
+    --------^
+* Invalid value for `-webkit-box-shadow`
+    syntax: none | &lt;shadow&gt;#
+     value: '' 0 1px 4px rgba(0,0,0,0.2)
+    --------^
+* Invalid value for `-moz-box-shadow`
+    syntax: none | &lt;shadow&gt;#
+     value: '' 0 1px 4px rgba(0,0,0,0.2)
+    --------^
+* Invalid value for `-o-box-shadow`
+    syntax: none | &lt;shadow&gt;#
+     value: '' 0 1px 4px rgba(0,0,0,0.2)
+    --------^
+* Invalid value for `box-shadow`
+    syntax: none | &lt;shadow&gt;#
+     value: '' 0 1px 4px rgba(0,0,0,0.2)
+    --------^
+* Invalid value for `background-color`
+    syntax: &lt;color&gt;
+     value: f3f3f3
+    --------^
+* Invalid value for `display`
+    syntax: none | inline | block | list-item | inline-list-item | inline-block | inline-table | table | table-cell | table-column | table-column-group | table-footer-group | table-header-group | table-row | table-row-group | flex | inline-flex | grid | inline-grid | run-in | ruby | ruby-base | ruby-text | ruby-base-container | ruby-text-container | contents | -ms-flexbox | -ms-inline-flexbox | -ms-grid | -ms-inline-grid | -webkit-flex | -webkit-inline-flex | -webkit-box | -webkit-inline-box | -moz-inline-stack | -moz-box | -moz-inline-box
+     value: -o-inline-box
+    --------^
+* Invalid value for `-ms-filter`
+    syntax: &lt;string&gt;
+     value: blur(3px)
+    --------^</pre></details></td></tr>
 <tr><td>184</td><td>⚠️</td><td>google.com.sg</td><td>OK</td><td><details><summary>13 warnings</summary><pre>* Invalid value for `opacity`
     syntax: &lt;number-zero-one&gt;
      value: 1\0/
@@ -11673,26 +11883,778 @@ Update date: 2017-03-08T23:52:36.365Z
     syntax: &lt;length-percentage&gt;{1,4} [ / &lt;length-percentage&gt;{1,4} ]?
      value: none
     --------^</pre></details></td></tr>
-<tr><td>186</td><td>⚠️</td><td>rambler.ru</td><td><details><summary>Error</summary><pre>Parse error: Identifier `deep` is expected
+<tr><td>186</td><td>⚠️</td><td>rambler.ru</td><td><details><summary>Error (patched)</summary><pre>Parse error: Identifier `deep` is expected
    61 |
    62 |
    63 |…"!important}.yap-yandex_ad3d280-3ec6a-8cdff-horizontal // Для IE8 .yap-warning_ie.yap-warning_grad…
 ----------------------------------------------------------------^
    64 |
-   65 |</pre></details></td><td>–</td></tr>
+   65 |</pre></details></td><td><details><summary>173 warnings (unique: 35)</summary><pre>* Invalid value for `background-color`
+    syntax: &lt;color&gt;
+     value: &lt;empty string&gt;
+    --------^
+* Invalid value for `border-color`
+    syntax: &lt;color&gt;{1,4}
+     value: &lt;empty string&gt;
+    --------^
+* Invalid value for `background-color`
+    syntax: &lt;color&gt;
+     value: &lt;empty string&gt;
+    --------^
+* Invalid value for `border-color`
+    syntax: &lt;color&gt;{1,4}
+     value: &lt;empty string&gt;
+    --------^
+* Invalid value for `border-color`
+    syntax: &lt;color&gt;{1,4}
+     value: &lt;empty string&gt;
+    --------^
+* Invalid value for `border-color`
+    syntax: &lt;color&gt;{1,4}
+     value: &lt;empty string&gt;
+    --------^
+* Invalid value for `border-color`
+    syntax: &lt;color&gt;{1,4}
+     value: &lt;empty string&gt;
+    --------^
+* Invalid value for `color`
+    syntax: &lt;color&gt;
+     value: &lt;empty string&gt;
+    --------^
+* Invalid value for `*vertical-align`
+    syntax: baseline | sub | super | text-top | text-bottom | middle | top | bottom | &lt;percentage&gt; | &lt;length&gt;
+     value: auto
+    --------^
+* Invalid value for `*vertical-align`
+    syntax: baseline | sub | super | text-top | text-bottom | middle | top | bottom | &lt;percentage&gt; | &lt;length&gt;
+     value: auto
+    --------^
+* Invalid value for `color`
+    syntax: &lt;color&gt;
+     value: &lt;empty string&gt;
+    --------^
+* Invalid value for `color`
+    syntax: &lt;color&gt;
+     value: &lt;empty string&gt;
+    --------^
+* Invalid value for `color`
+    syntax: &lt;color&gt;
+     value: &lt;empty string&gt;
+    --------^
+* Invalid value for `*vertical-align`
+    syntax: baseline | sub | super | text-top | text-bottom | middle | top | bottom | &lt;percentage&gt; | &lt;length&gt;
+     value: auto
+    --------^
+* Invalid value for `*vertical-align`
+    syntax: baseline | sub | super | text-top | text-bottom | middle | top | bottom | &lt;percentage&gt; | &lt;length&gt;
+     value: auto
+    --------^
+* Invalid value for `*vertical-align`
+    syntax: baseline | sub | super | text-top | text-bottom | middle | top | bottom | &lt;percentage&gt; | &lt;length&gt;
+     value: auto
+    --------^
+* Invalid value for `font-size`
+    syntax: &lt;absolute-size&gt; | &lt;relative-size&gt; | &lt;length-percentage&gt;
+     value: &lt;empty string&gt;
+    --------^
+* Invalid value for `color`
+    syntax: &lt;color&gt;
+     value: &lt;empty string&gt;
+    --------^
+* Invalid value for `color`
+    syntax: &lt;color&gt;
+     value: &lt;empty string&gt;
+    --------^
+* Invalid value for `*vertical-align`
+    syntax: baseline | sub | super | text-top | text-bottom | middle | top | bottom | &lt;percentage&gt; | &lt;length&gt;
+     value: auto
+    --------^
+* Invalid value for `*vertical-align`
+    syntax: baseline | sub | super | text-top | text-bottom | middle | top | bottom | &lt;percentage&gt; | &lt;length&gt;
+     value: auto
+    --------^
+* Invalid value for `*vertical-align`
+    syntax: baseline | sub | super | text-top | text-bottom | middle | top | bottom | &lt;percentage&gt; | &lt;length&gt;
+     value: auto
+    --------^
+* Invalid value for `*vertical-align`
+    syntax: baseline | sub | super | text-top | text-bottom | middle | top | bottom | &lt;percentage&gt; | &lt;length&gt;
+     value: auto
+    --------^
+* Invalid value for `*vertical-align`
+    syntax: baseline | sub | super | text-top | text-bottom | middle | top | bottom | &lt;percentage&gt; | &lt;length&gt;
+     value: auto
+    --------^
+* Invalid value for `background-color`
+    syntax: &lt;color&gt;
+     value: &lt;empty string&gt;
+    --------^
+* Invalid value for `background-color`
+    syntax: &lt;color&gt;
+     value: &lt;empty string&gt;
+    --------^
+* Invalid value for `border-color`
+    syntax: &lt;color&gt;{1,4}
+     value: &lt;empty string&gt;
+    --------^
+* Invalid value for `border-color`
+    syntax: &lt;color&gt;{1,4}
+     value: &lt;empty string&gt;
+    --------^
+* Invalid value for `*vertical-align`
+    syntax: baseline | sub | super | text-top | text-bottom | middle | top | bottom | &lt;percentage&gt; | &lt;length&gt;
+     value: auto
+    --------^
+* Invalid value for `*vertical-align`
+    syntax: baseline | sub | super | text-top | text-bottom | middle | top | bottom | &lt;percentage&gt; | &lt;length&gt;
+     value: auto
+    --------^
+* Invalid value for `*vertical-align`
+    syntax: baseline | sub | super | text-top | text-bottom | middle | top | bottom | &lt;percentage&gt; | &lt;length&gt;
+     value: auto
+    --------^
+* Invalid value for `*vertical-align`
+    syntax: baseline | sub | super | text-top | text-bottom | middle | top | bottom | &lt;percentage&gt; | &lt;length&gt;
+     value: auto
+    --------^
+* Invalid value for `*vertical-align`
+    syntax: baseline | sub | super | text-top | text-bottom | middle | top | bottom | &lt;percentage&gt; | &lt;length&gt;
+     value: auto
+    --------^
+* Invalid value for `font-size`
+    syntax: &lt;absolute-size&gt; | &lt;relative-size&gt; | &lt;length-percentage&gt;
+     value: &lt;empty string&gt;
+    --------^
+* Invalid value for `*vertical-align`
+    syntax: baseline | sub | super | text-top | text-bottom | middle | top | bottom | &lt;percentage&gt; | &lt;length&gt;
+     value: auto
+    --------^
+* Invalid value for `*vertical-align`
+    syntax: baseline | sub | super | text-top | text-bottom | middle | top | bottom | &lt;percentage&gt; | &lt;length&gt;
+     value: auto
+    --------^
+* Invalid value for `*vertical-align`
+    syntax: baseline | sub | super | text-top | text-bottom | middle | top | bottom | &lt;percentage&gt; | &lt;length&gt;
+     value: auto
+    --------^
+* Invalid value for `*vertical-align`
+    syntax: baseline | sub | super | text-top | text-bottom | middle | top | bottom | &lt;percentage&gt; | &lt;length&gt;
+     value: auto
+    --------^
+* Invalid value for `*vertical-align`
+    syntax: baseline | sub | super | text-top | text-bottom | middle | top | bottom | &lt;percentage&gt; | &lt;length&gt;
+     value: auto
+    --------^
+* Invalid value for `background-color`
+    syntax: &lt;color&gt;
+     value: &lt;empty string&gt;
+    --------^
+* Invalid value for `border-color`
+    syntax: &lt;color&gt;{1,4}
+     value: &lt;empty string&gt;
+    --------^
+* Invalid value for `border-color`
+    syntax: &lt;color&gt;{1,4}
+     value: &lt;empty string&gt;
+    --------^
+* Invalid value for `*vertical-align`
+    syntax: baseline | sub | super | text-top | text-bottom | middle | top | bottom | &lt;percentage&gt; | &lt;length&gt;
+     value: auto
+    --------^
+* Invalid value for `*vertical-align`
+    syntax: baseline | sub | super | text-top | text-bottom | middle | top | bottom | &lt;percentage&gt; | &lt;length&gt;
+     value: auto
+    --------^
+* Invalid value for `*vertical-align`
+    syntax: baseline | sub | super | text-top | text-bottom | middle | top | bottom | &lt;percentage&gt; | &lt;length&gt;
+     value: auto
+    --------^
+* Invalid value for `*vertical-align`
+    syntax: baseline | sub | super | text-top | text-bottom | middle | top | bottom | &lt;percentage&gt; | &lt;length&gt;
+     value: auto
+    --------^
+* Invalid value for `*vertical-align`
+    syntax: baseline | sub | super | text-top | text-bottom | middle | top | bottom | &lt;percentage&gt; | &lt;length&gt;
+     value: auto
+    --------^
+* Invalid value for `font-size`
+    syntax: &lt;absolute-size&gt; | &lt;relative-size&gt; | &lt;length-percentage&gt;
+     value: &lt;empty string&gt;
+    --------^
+* Invalid value for `*vertical-align`
+    syntax: baseline | sub | super | text-top | text-bottom | middle | top | bottom | &lt;percentage&gt; | &lt;length&gt;
+     value: auto
+    --------^
+* Invalid value for `*vertical-align`
+    syntax: baseline | sub | super | text-top | text-bottom | middle | top | bottom | &lt;percentage&gt; | &lt;length&gt;
+     value: auto
+    --------^
+* Invalid value for `*vertical-align`
+    syntax: baseline | sub | super | text-top | text-bottom | middle | top | bottom | &lt;percentage&gt; | &lt;length&gt;
+     value: auto
+    --------^
+* Invalid value for `*vertical-align`
+    syntax: baseline | sub | super | text-top | text-bottom | middle | top | bottom | &lt;percentage&gt; | &lt;length&gt;
+     value: auto
+    --------^
+* Invalid value for `*vertical-align`
+    syntax: baseline | sub | super | text-top | text-bottom | middle | top | bottom | &lt;percentage&gt; | &lt;length&gt;
+     value: auto
+    --------^
+* Invalid value for `background-color`
+    syntax: &lt;color&gt;
+     value: &lt;empty string&gt;
+    --------^
+* Invalid value for `border-color`
+    syntax: &lt;color&gt;{1,4}
+     value: &lt;empty string&gt;
+    --------^
+* Invalid value for `border-color`
+    syntax: &lt;color&gt;{1,4}
+     value: &lt;empty string&gt;
+    --------^
+* Invalid value for `*vertical-align`
+    syntax: baseline | sub | super | text-top | text-bottom | middle | top | bottom | &lt;percentage&gt; | &lt;length&gt;
+     value: auto
+    --------^
+* Invalid value for `*vertical-align`
+    syntax: baseline | sub | super | text-top | text-bottom | middle | top | bottom | &lt;percentage&gt; | &lt;length&gt;
+     value: auto
+    --------^
+* Invalid value for `*vertical-align`
+    syntax: baseline | sub | super | text-top | text-bottom | middle | top | bottom | &lt;percentage&gt; | &lt;length&gt;
+     value: auto
+    --------^
+* Invalid value for `*vertical-align`
+    syntax: baseline | sub | super | text-top | text-bottom | middle | top | bottom | &lt;percentage&gt; | &lt;length&gt;
+     value: auto
+    --------^
+* Invalid value for `*vertical-align`
+    syntax: baseline | sub | super | text-top | text-bottom | middle | top | bottom | &lt;percentage&gt; | &lt;length&gt;
+     value: auto
+    --------^
+* Invalid value for `font-size`
+    syntax: &lt;absolute-size&gt; | &lt;relative-size&gt; | &lt;length-percentage&gt;
+     value: &lt;empty string&gt;
+    --------^
+* Invalid value for `*vertical-align`
+    syntax: baseline | sub | super | text-top | text-bottom | middle | top | bottom | &lt;percentage&gt; | &lt;length&gt;
+     value: auto
+    --------^
+* Invalid value for `*vertical-align`
+    syntax: baseline | sub | super | text-top | text-bottom | middle | top | bottom | &lt;percentage&gt; | &lt;length&gt;
+     value: auto
+    --------^
+* Invalid value for `*vertical-align`
+    syntax: baseline | sub | super | text-top | text-bottom | middle | top | bottom | &lt;percentage&gt; | &lt;length&gt;
+     value: auto
+    --------^
+* Invalid value for `*vertical-align`
+    syntax: baseline | sub | super | text-top | text-bottom | middle | top | bottom | &lt;percentage&gt; | &lt;length&gt;
+     value: auto
+    --------^
+* Invalid value for `*vertical-align`
+    syntax: baseline | sub | super | text-top | text-bottom | middle | top | bottom | &lt;percentage&gt; | &lt;length&gt;
+     value: auto
+    --------^
+* Invalid value for `background-color`
+    syntax: &lt;color&gt;
+     value: &lt;empty string&gt;
+    --------^
+* Invalid value for `border-color`
+    syntax: &lt;color&gt;{1,4}
+     value: &lt;empty string&gt;
+    --------^
+* Invalid value for `border-color`
+    syntax: &lt;color&gt;{1,4}
+     value: &lt;empty string&gt;
+    --------^
+* Invalid value for `*vertical-align`
+    syntax: baseline | sub | super | text-top | text-bottom | middle | top | bottom | &lt;percentage&gt; | &lt;length&gt;
+     value: auto
+    --------^
+* Invalid value for `*vertical-align`
+    syntax: baseline | sub | super | text-top | text-bottom | middle | top | bottom | &lt;percentage&gt; | &lt;length&gt;
+     value: auto
+    --------^
+* Invalid value for `*vertical-align`
+    syntax: baseline | sub | super | text-top | text-bottom | middle | top | bottom | &lt;percentage&gt; | &lt;length&gt;
+     value: auto
+    --------^
+* Invalid value for `*vertical-align`
+    syntax: baseline | sub | super | text-top | text-bottom | middle | top | bottom | &lt;percentage&gt; | &lt;length&gt;
+     value: auto
+    --------^
+* Invalid value for `*vertical-align`
+    syntax: baseline | sub | super | text-top | text-bottom | middle | top | bottom | &lt;percentage&gt; | &lt;length&gt;
+     value: auto
+    --------^
+* Invalid value for `font-size`
+    syntax: &lt;absolute-size&gt; | &lt;relative-size&gt; | &lt;length-percentage&gt;
+     value: &lt;empty string&gt;
+    --------^
+* Invalid value for `*vertical-align`
+    syntax: baseline | sub | super | text-top | text-bottom | middle | top | bottom | &lt;percentage&gt; | &lt;length&gt;
+     value: auto
+    --------^
+* Invalid value for `*vertical-align`
+    syntax: baseline | sub | super | text-top | text-bottom | middle | top | bottom | &lt;percentage&gt; | &lt;length&gt;
+     value: auto
+    --------^
+* Invalid value for `*vertical-align`
+    syntax: baseline | sub | super | text-top | text-bottom | middle | top | bottom | &lt;percentage&gt; | &lt;length&gt;
+     value: auto
+    --------^
+* Invalid value for `*vertical-align`
+    syntax: baseline | sub | super | text-top | text-bottom | middle | top | bottom | &lt;percentage&gt; | &lt;length&gt;
+     value: auto
+    --------^
+* Invalid value for `*vertical-align`
+    syntax: baseline | sub | super | text-top | text-bottom | middle | top | bottom | &lt;percentage&gt; | &lt;length&gt;
+     value: auto
+    --------^
+* Invalid value for `background-color`
+    syntax: &lt;color&gt;
+     value: &lt;empty string&gt;
+    --------^
+* Invalid value for `background-color`
+    syntax: &lt;color&gt;
+     value: &lt;empty string&gt;
+    --------^
+* Invalid value for `border-color`
+    syntax: &lt;color&gt;{1,4}
+     value: &lt;empty string&gt;
+    --------^
+* Invalid value for `background-color`
+    syntax: &lt;color&gt;
+     value: &lt;empty string&gt;
+    --------^
+* Invalid value for `border-color`
+    syntax: &lt;color&gt;{1,4}
+     value: &lt;empty string&gt;
+    --------^
+* Invalid value for `border-color`
+    syntax: &lt;color&gt;{1,4}
+     value: &lt;empty string&gt;
+    --------^
+* Invalid value for `border-color`
+    syntax: &lt;color&gt;{1,4}
+     value: &lt;empty string&gt;
+    --------^
+* Invalid value for `border-color`
+    syntax: &lt;color&gt;{1,4}
+     value: &lt;empty string&gt;
+    --------^
+* Invalid value for `color`
+    syntax: &lt;color&gt;
+     value: &lt;empty string&gt;
+    --------^
+* Invalid value for `*vertical-align`
+    syntax: baseline | sub | super | text-top | text-bottom | middle | top | bottom | &lt;percentage&gt; | &lt;length&gt;
+     value: auto
+    --------^
+* Invalid value for `*vertical-align`
+    syntax: baseline | sub | super | text-top | text-bottom | middle | top | bottom | &lt;percentage&gt; | &lt;length&gt;
+     value: auto
+    --------^
+* Invalid value for `color`
+    syntax: &lt;color&gt;
+     value: &lt;empty string&gt;
+    --------^
+* Invalid value for `color`
+    syntax: &lt;color&gt;
+     value: &lt;empty string&gt;
+    --------^
+* Invalid value for `color`
+    syntax: &lt;color&gt;
+     value: &lt;empty string&gt;
+    --------^
+* Invalid value for `*vertical-align`
+    syntax: baseline | sub | super | text-top | text-bottom | middle | top | bottom | &lt;percentage&gt; | &lt;length&gt;
+     value: auto
+    --------^
+* Invalid value for `*vertical-align`
+    syntax: baseline | sub | super | text-top | text-bottom | middle | top | bottom | &lt;percentage&gt; | &lt;length&gt;
+     value: auto
+    --------^
+* Invalid value for `*vertical-align`
+    syntax: baseline | sub | super | text-top | text-bottom | middle | top | bottom | &lt;percentage&gt; | &lt;length&gt;
+     value: auto
+    --------^
+* Invalid value for `font-size`
+    syntax: &lt;absolute-size&gt; | &lt;relative-size&gt; | &lt;length-percentage&gt;
+     value: &lt;empty string&gt;
+    --------^
+* Invalid value for `color`
+    syntax: &lt;color&gt;
+     value: &lt;empty string&gt;
+    --------^
+* Invalid value for `color`
+    syntax: &lt;color&gt;
+     value: &lt;empty string&gt;
+    --------^
+* Invalid value for `*vertical-align`
+    syntax: baseline | sub | super | text-top | text-bottom | middle | top | bottom | &lt;percentage&gt; | &lt;length&gt;
+     value: auto
+    --------^
+* Invalid value for `*vertical-align`
+    syntax: baseline | sub | super | text-top | text-bottom | middle | top | bottom | &lt;percentage&gt; | &lt;length&gt;
+     value: auto
+    --------^
+* Invalid value for `*vertical-align`
+    syntax: baseline | sub | super | text-top | text-bottom | middle | top | bottom | &lt;percentage&gt; | &lt;length&gt;
+     value: auto
+    --------^
+* Invalid value for `*vertical-align`
+    syntax: baseline | sub | super | text-top | text-bottom | middle | top | bottom | &lt;percentage&gt; | &lt;length&gt;
+     value: auto
+    --------^
+* Invalid value for `*vertical-align`
+    syntax: baseline | sub | super | text-top | text-bottom | middle | top | bottom | &lt;percentage&gt; | &lt;length&gt;
+     value: auto
+    --------^
+* Invalid value for `background-color`
+    syntax: &lt;color&gt;
+     value: &lt;empty string&gt;
+    --------^
+* Invalid value for `background-color`
+    syntax: &lt;color&gt;
+     value: &lt;empty string&gt;
+    --------^
+* Invalid value for `margin-right`
+    syntax: &lt;length&gt; | &lt;percentage&gt; | auto
+     value: &lt;empty string&gt;
+    --------^
+* Invalid value for `margin-right`
+    syntax: &lt;length&gt; | &lt;percentage&gt; | auto
+     value: &lt;empty string&gt;
+    --------^
+* Invalid value for `height`
+    syntax: [ &lt;length&gt; | &lt;percentage&gt; ] &amp;&amp; [ border-box | content-box ]? | available | min-content | max-content | fit-content | auto
+     value: NaNpx
+    --------^
+* Invalid value for `width`
+    syntax: [ &lt;length&gt; | &lt;percentage&gt; ] &amp;&amp; [ border-box | content-box ]? | available | min-content | max-content | fit-content | auto
+     value: NaNpx
+    --------^
+* Invalid value for `height`
+    syntax: [ &lt;length&gt; | &lt;percentage&gt; ] &amp;&amp; [ border-box | content-box ]? | available | min-content | max-content | fit-content | auto
+     value: NaNpx
+    --------^
+* Invalid value for `width`
+    syntax: [ &lt;length&gt; | &lt;percentage&gt; ] &amp;&amp; [ border-box | content-box ]? | available | min-content | max-content | fit-content | auto
+     value: NaNpx
+    --------^
+* Invalid value for `vertical-align`
+    syntax: baseline | sub | super | text-top | text-bottom | middle | top | bottom | &lt;percentage&gt; | &lt;length&gt;
+     value: &lt;empty string&gt;
+    --------^
+* Invalid value for `border-bottom-width`
+    syntax: &lt;br-width&gt;
+     value: &lt;empty string&gt;
+    --------^
+* Invalid value for `border-bottom-width`
+    syntax: &lt;br-width&gt;
+     value: &lt;empty string&gt;
+    --------^
+* Invalid value for `border-right-width`
+    syntax: &lt;br-width&gt;
+     value: &lt;empty string&gt;
+    --------^
+* Invalid value for `border-bottom-width`
+    syntax: &lt;br-width&gt;
+     value: &lt;empty string&gt;
+    --------^
+* Invalid value for `border-right-width`
+    syntax: &lt;br-width&gt;
+     value: &lt;empty string&gt;
+    --------^
+* Unknown property: tap-highlight-color
+* Invalid value for `border-spacing`
+    syntax: &lt;length&gt; &lt;length&gt;?
+     value: &lt;empty string&gt;
+    --------^
+* Invalid value for `margin-left`
+    syntax: &lt;length&gt; | &lt;percentage&gt; | auto
+     value: &lt;empty string&gt;
+    --------^
+* Invalid value for `border-spacing`
+    syntax: &lt;length&gt; &lt;length&gt;?
+     value: &lt;empty string&gt;
+    --------^
+* Invalid value for `margin`
+    syntax: [ &lt;length&gt; | &lt;percentage&gt; | auto ]{1,4}
+     value: &lt;empty string&gt;
+    --------^
+* Invalid value for `width`
+    syntax: [ &lt;length&gt; | &lt;percentage&gt; ] &amp;&amp; [ border-box | content-box ]? | available | min-content | max-content | fit-content | auto
+     value: &lt;empty string&gt;
+    --------^
+* Invalid value for `height`
+    syntax: [ &lt;length&gt; | &lt;percentage&gt; ] &amp;&amp; [ border-box | content-box ]? | available | min-content | max-content | fit-content | auto
+     value: &lt;empty string&gt;
+    --------^
+* Invalid value for `width`
+    syntax: [ &lt;length&gt; | &lt;percentage&gt; ] &amp;&amp; [ border-box | content-box ]? | available | min-content | max-content | fit-content | auto
+     value: px
+    --------^
+* Invalid value for `height`
+    syntax: [ &lt;length&gt; | &lt;percentage&gt; ] &amp;&amp; [ border-box | content-box ]? | available | min-content | max-content | fit-content | auto
+     value: px
+    --------^
+* Invalid value for `padding`
+    syntax: [ &lt;length&gt; | &lt;percentage&gt; ]{1,4}
+     value: &lt;empty string&gt;
+    --------^
+* Invalid value for `margin-top`
+    syntax: &lt;length&gt; | &lt;percentage&gt; | auto
+     value: &lt;empty string&gt;
+    --------^
+* Invalid value for `text-decoration`
+    syntax: &lt;'text-decoration-line'&gt; || &lt;'text-decoration-style'&gt; || &lt;'text-decoration-color'&gt;
+     value: &lt;empty string&gt;
+    --------^
+* Invalid value for `text-decoration`
+    syntax: &lt;'text-decoration-line'&gt; || &lt;'text-decoration-style'&gt; || &lt;'text-decoration-color'&gt;
+     value: &lt;empty string&gt;
+    --------^
+* Invalid value for `font-size`
+    syntax: &lt;absolute-size&gt; | &lt;relative-size&gt; | &lt;length-percentage&gt;
+     value: &lt;empty string&gt;
+    --------^
+* Invalid value for `margin-right`
+    syntax: &lt;length&gt; | &lt;percentage&gt; | auto
+     value: &lt;empty string&gt;
+    --------^
+* Invalid value for `margin-right`
+    syntax: &lt;length&gt; | &lt;percentage&gt; | auto
+     value: &lt;empty string&gt;
+    --------^
+* Invalid value for `height`
+    syntax: [ &lt;length&gt; | &lt;percentage&gt; ] &amp;&amp; [ border-box | content-box ]? | available | min-content | max-content | fit-content | auto
+     value: NaNpx
+    --------^
+* Invalid value for `width`
+    syntax: [ &lt;length&gt; | &lt;percentage&gt; ] &amp;&amp; [ border-box | content-box ]? | available | min-content | max-content | fit-content | auto
+     value: NaNpx
+    --------^
+* Invalid value for `height`
+    syntax: [ &lt;length&gt; | &lt;percentage&gt; ] &amp;&amp; [ border-box | content-box ]? | available | min-content | max-content | fit-content | auto
+     value: NaNpx
+    --------^
+* Invalid value for `width`
+    syntax: [ &lt;length&gt; | &lt;percentage&gt; ] &amp;&amp; [ border-box | content-box ]? | available | min-content | max-content | fit-content | auto
+     value: NaNpx
+    --------^
+* Invalid value for `vertical-align`
+    syntax: baseline | sub | super | text-top | text-bottom | middle | top | bottom | &lt;percentage&gt; | &lt;length&gt;
+     value: &lt;empty string&gt;
+    --------^
+* Invalid value for `border-bottom-width`
+    syntax: &lt;br-width&gt;
+     value: &lt;empty string&gt;
+    --------^
+* Invalid value for `border-bottom-width`
+    syntax: &lt;br-width&gt;
+     value: &lt;empty string&gt;
+    --------^
+* Invalid value for `border-right-width`
+    syntax: &lt;br-width&gt;
+     value: &lt;empty string&gt;
+    --------^
+* Invalid value for `border-bottom-width`
+    syntax: &lt;br-width&gt;
+     value: &lt;empty string&gt;
+    --------^
+* Invalid value for `border-right-width`
+    syntax: &lt;br-width&gt;
+     value: &lt;empty string&gt;
+    --------^
+* Unknown property: tap-highlight-color
+* Invalid value for `border-spacing`
+    syntax: &lt;length&gt; &lt;length&gt;?
+     value: &lt;empty string&gt;
+    --------^
+* Invalid value for `margin-left`
+    syntax: &lt;length&gt; | &lt;percentage&gt; | auto
+     value: &lt;empty string&gt;
+    --------^
+* Invalid value for `border-spacing`
+    syntax: &lt;length&gt; &lt;length&gt;?
+     value: &lt;empty string&gt;
+    --------^
+* Invalid value for `margin`
+    syntax: [ &lt;length&gt; | &lt;percentage&gt; | auto ]{1,4}
+     value: &lt;empty string&gt;
+    --------^
+* Invalid value for `width`
+    syntax: [ &lt;length&gt; | &lt;percentage&gt; ] &amp;&amp; [ border-box | content-box ]? | available | min-content | max-content | fit-content | auto
+     value: &lt;empty string&gt;
+    --------^
+* Invalid value for `height`
+    syntax: [ &lt;length&gt; | &lt;percentage&gt; ] &amp;&amp; [ border-box | content-box ]? | available | min-content | max-content | fit-content | auto
+     value: &lt;empty string&gt;
+    --------^
+* Invalid value for `width`
+    syntax: [ &lt;length&gt; | &lt;percentage&gt; ] &amp;&amp; [ border-box | content-box ]? | available | min-content | max-content | fit-content | auto
+     value: px
+    --------^
+* Invalid value for `height`
+    syntax: [ &lt;length&gt; | &lt;percentage&gt; ] &amp;&amp; [ border-box | content-box ]? | available | min-content | max-content | fit-content | auto
+     value: px
+    --------^
+* Invalid value for `padding`
+    syntax: [ &lt;length&gt; | &lt;percentage&gt; ]{1,4}
+     value: &lt;empty string&gt;
+    --------^
+* Invalid value for `margin-top`
+    syntax: &lt;length&gt; | &lt;percentage&gt; | auto
+     value: &lt;empty string&gt;
+    --------^
+* Invalid value for `text-decoration`
+    syntax: &lt;'text-decoration-line'&gt; || &lt;'text-decoration-style'&gt; || &lt;'text-decoration-color'&gt;
+     value: &lt;empty string&gt;
+    --------^
+* Invalid value for `text-decoration`
+    syntax: &lt;'text-decoration-line'&gt; || &lt;'text-decoration-style'&gt; || &lt;'text-decoration-color'&gt;
+     value: &lt;empty string&gt;
+    --------^
+* Invalid value for `font-size`
+    syntax: &lt;absolute-size&gt; | &lt;relative-size&gt; | &lt;length-percentage&gt;
+     value: &lt;empty string&gt;
+    --------^
+* Invalid value for `margin-bottom`
+    syntax: &lt;length&gt; | &lt;percentage&gt; | auto
+     value: 20
+    --------^
+* Invalid value for `-webkit-box-align`
+    syntax: start | center | end | baseline | stretch
+     value: left
+    --------^
+* Invalid value for `-webkit-align-items`
+    syntax: flex-start | flex-end | center | baseline | stretch
+     value: left
+    --------^
+* Invalid value for `-ms-flex-align`
+    syntax: start | end | center | baseline | stretch
+     value: left
+    --------^
+* Invalid value for `align-items`
+    syntax: flex-start | flex-end | center | baseline | stretch
+     value: left
+    --------^
+* Invalid value for `background`
+    syntax: [ &lt;bg-layer&gt; , ]* &lt;final-bg-layer&gt;
+     value: -webkit-image-set(url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACgAAAAoCAMAAAC7IEhfAAABj1BMVEUAAAAyXvwxXvwwXvwwX/tCYP89g/gxXv0xXvw9gvcxXfswXvwxYPkzmf8+g/k+gvg+gvc/gvc+gvozZv8xX/sxXvs+g/c9gvY/gfgvXPUxXvw/g/ovWvI+gvcwXfYwXPlAg/UxXvs+gvjH3/7///ktW/vF3f7J3/5Od/xGcfwxXfkwXPUsWvs/hPdZffvD3P6/2v4yYf+61v7H3fxAh/8yYP/B2/692P4xXv08gfe+1fQvW/M/hfs6gPcwXPf6+vUuWe+82P641f600/7E2/vC2vnA2Pj8/PcvWvGw0P6tzv7V5vzx9/o5f/e/1/Y8ffY7ePYsWPU3b/PA1fH09fAxYu8vW+221P6y0f35+/mzz/dYkvX29/MzZ/K2zfAsWO719O3E3f7M4f3C2/06Zvu81fdHiPd2pfOkw/GavPGLsfG50PDk6eypxf3l7/tafvvj7vq61PlNdfg4fffh6/ZQjfZMdPZXevVsn/Rfl/StyvNKgfPm7fKCrfJVefJLc/KtyfApVvBJb+7H1u1Vd+0dPOLpAAAAIXRSTlMA/Pa/LwP9+sSOjHVNBfr25HYuBeXlxb9N+eTDw752UFCfJO6qAAACN0lEQVQ4y42V6VvaQBjEl9OLCljtfVNjW4oJARITtZIgWC7RIhWpgkdtPXrf9/2H92WzJFl2Pziff8/Mm+SZCcIKjEUvR8LB4A1QYuveneuWPN5x34g/gGxduziangMGc7V4HECimUxyYDBEsFNDc2kgeuCD+xh0lMwMW6ZDBCNqUCC2TQ4j0DkSSgxXHs7aoHNACILPYEMnOeuATvrgaTQ2SgVrjWwcPzWtAT+KpvuS8YmM5Qg6S5+4hZMZZXwoQnG1zu/V1buUrMe5gMLUhV///fg47dbLaQ8mvSjoBufb22sLSzddWirfnsRfE1Hco2drmwturpIyAeyKAt8e9Rm+kE2ZA2qJv9ubbrBczBkGAzLJG6lSTpYkDlh9evzNMazIpXVZEhUHdJIPv7Te9bhXzeK6IYmCyILzn9utVrNMzisVTRW4GA880vdfm83dDXKeqgDHAbUnv/T9girn9ioVqQjnYW5KYMDqp7peyO9JqqmqOdmQlB3geKB2WF/OLwqiIqmG2rUDjgdq79t6YVGICYIoKoq4AxwNOi+xa5iKAQkiGDf6QF/OA+eIAcnnO4bkE4DV73Uw5ICxHhgkL/GgazjFaPf5Y2uGUJi078/PD29ucQScVYUIaV8HSjXJEdmKcVLXGtSZ6j1b12gaD0mHrjM7AGRSGtlZypCdFDxSCTaZHSmYPWbC2BNDZEiZCWOHFE/zSpwxpKcZgrFCl87PsIA99leRrYD/im/C6+nHPN4J+/fxH6JE+W8d1Mn3AAAAAElFTkSuQmCC) 1x,url(data:image/png;base64,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) 2x)
+    --------^
+* Invalid value for `background`
+    syntax: [ &lt;bg-layer&gt; , ]* &lt;final-bg-layer&gt;
+     value: image-set(url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACgAAAAoCAMAAAC7IEhfAAABj1BMVEUAAAAyXvwxXvwwXvwwX/tCYP89g/gxXv0xXvw9gvcxXfswXvwxYPkzmf8+g/k+gvg+gvc/gvc+gvozZv8xX/sxXvs+g/c9gvY/gfgvXPUxXvw/g/ovWvI+gvcwXfYwXPlAg/UxXvs+gvjH3/7///ktW/vF3f7J3/5Od/xGcfwxXfkwXPUsWvs/hPdZffvD3P6/2v4yYf+61v7H3fxAh/8yYP/B2/692P4xXv08gfe+1fQvW/M/hfs6gPcwXPf6+vUuWe+82P641f600/7E2/vC2vnA2Pj8/PcvWvGw0P6tzv7V5vzx9/o5f/e/1/Y8ffY7ePYsWPU3b/PA1fH09fAxYu8vW+221P6y0f35+/mzz/dYkvX29/MzZ/K2zfAsWO719O3E3f7M4f3C2/06Zvu81fdHiPd2pfOkw/GavPGLsfG50PDk6eypxf3l7/tafvvj7vq61PlNdfg4fffh6/ZQjfZMdPZXevVsn/Rfl/StyvNKgfPm7fKCrfJVefJLc/KtyfApVvBJb+7H1u1Vd+0dPOLpAAAAIXRSTlMA/Pa/LwP9+sSOjHVNBfr25HYuBeXlxb9N+eTDw752UFCfJO6qAAACN0lEQVQ4y42V6VvaQBjEl9OLCljtfVNjW4oJARITtZIgWC7RIhWpgkdtPXrf9/2H92WzJFl2Pziff8/Mm+SZCcIKjEUvR8LB4A1QYuveneuWPN5x34g/gGxduziangMGc7V4HECimUxyYDBEsFNDc2kgeuCD+xh0lMwMW6ZDBCNqUCC2TQ4j0DkSSgxXHs7aoHNACILPYEMnOeuATvrgaTQ2SgVrjWwcPzWtAT+KpvuS8YmM5Qg6S5+4hZMZZXwoQnG1zu/V1buUrMe5gMLUhV///fg47dbLaQ8mvSjoBufb22sLSzddWirfnsRfE1Hco2drmwturpIyAeyKAt8e9Rm+kE2ZA2qJv9ubbrBczBkGAzLJG6lSTpYkDlh9evzNMazIpXVZEhUHdJIPv7Te9bhXzeK6IYmCyILzn9utVrNMzisVTRW4GA880vdfm83dDXKeqgDHAbUnv/T9girn9ioVqQjnYW5KYMDqp7peyO9JqqmqOdmQlB3geKB2WF/OLwqiIqmG2rUDjgdq79t6YVGICYIoKoq4AxwNOi+xa5iKAQkiGDf6QF/OA+eIAcnnO4bkE4DV73Uw5ICxHhgkL/GgazjFaPf5Y2uGUJi078/PD29ucQScVYUIaV8HSjXJEdmKcVLXGtSZ6j1b12gaD0mHrjM7AGRSGtlZypCdFDxSCTaZHSmYPWbC2BNDZEiZCWOHFE/zSpwxpKcZgrFCl87PsIA99leRrYD/im/C6+nHPN4J+/fxH6JE+W8d1Mn3AAAAAElFTkSuQmCC) 1x,url(data:image/png;base64,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) 2x)
+    --------^
+* Invalid value for `background`
+    syntax: [ &lt;bg-layer&gt; , ]* &lt;final-bg-layer&gt;
+     value: -webkit-image-set(url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACgAAAAoCAMAAAC7IEhfAAACH1BMVEUAAAAzfP8wXfo9gvgxXvw9gvYwXfsvXvsuXfslYPAxXvw+g/k9gfcwXvwwXPk+gvg8gPc9gvcwXfswXfs8gfcwXfsxXvwwXfowXfs9gfY9gPQwXvwxXv0zXfE+gfczXeswW/I9g/g2ZulAhfowWu8wXvs+gvf///ktXfuxzvUxX/wrXfspWPs+g/mpy/4lW/uz0f3Q3Pm+2v5xl/wwXvmuzPUyYf8xXfcjVvuRq/r+/vn9/fk7gPgxXfNAh/////jJ3fYyXO33+vnm7/i71PYyW+cxX/4/hfvv9fjW5ffG3PatzPWqyvWryfOpx/ArW/vk7vg4f/ixzfStyvQ7evQyXfGfuuhWgPvg6/fX5vfP4PbL3/bA1/Xl5ug0YefD3f4lWfstXfr7/fkoW/nd6fe50vb6+vUxXfXJ2PMmV/Ps7u2nxO0yW+qivum5xuWeueUyX/9vlfzR3Pns8/jQ4fZHh/Y9ffbD2fXo7/RKifSvy/OLpfNRjfP19fLN3fL7+fHy8vDB1fA6dPDd5e7w8O05b+3DzuyiwOw1Yeymwus1aussWesyZeqDqeng4uXO1uWfueKv0P6Xu/6mxf2gv/2Qsf1oj/xCbftAbfvD1Pry9/jp8vjR4vcuXfU2Z/T+/PKmxvJrm/Fri/E5cvF1ou90oe9ml+zP2uvo6uqFnupwneq+yem+zuiqwOgqVuiww+fV2+Z9mea/zeWUseKYtOE3HSh0AAAAJXRSTlMABb/9/I51TS8D+vr29eXFv0725OTFw46Kdi78+fnkw3Z1UDAwyXjvkgAAAoxJREFUOMuFlVdXGlEUhUfBXqNJ1PSmA2MwTTRBA1jovQYhSCgiRTCxR6PR2JJY03vvvf5A7wxTuAPC9zIv3zr7rsM6G4Sg6Ghd5YFSDqcB52V/a3NzPQ63rDw3v7AIodlRUSJWCBoSjNnOtwKPAMMutxTvLiC1nDyFGFgU7zpIkZJb5LU5hJiHaww3aZFRa4lcBeRZZYQIm/ICEFwhTvYEizLijTAtu3KQPSX4QIbeAVt/M1vEiguROnggkezlESSPzEcqFZC4+jMcPkthoF15LrITSh7982Vq6hzFI9rEqpHSZM/0wb1wXSJBSS5covPLEE6y2G7/PT8R7BxWAkSQuBeBvKv/7MtzEqPFbJ7s8+Ei80pY/LgZi45LfJ04eLQfq4dEmrXBW/pxVOkcGXGqQPS9u00Pj6cR26/9t0f1anT4IkDahqInmzxn0opfN2N6nRoVAVAAEE+nFUcHQTIQu8zmbl8G0fQmbo/qLFK00+EwijKJ9r8x/SQQaWCRWeLG92W9TqtGlVKXS/pctJ1oer/+aS7kcgVQo1Yo1PS1bTvxhzuS+J27hHw+v5stMkvccM+rAg7HsyyiaW09EnptEWrV2Sb+ci/M6Mx8oTSLaI1/np3R8bOKgtvxyLTTkkHkUNf3bTbo1Go04I1G8KHWc4UUueQpCG7IlqaDE6qeHpURfYp/AvDCy8BxJZJXll6BJcJ47njIiVg1ea5jvStvQ6dghoae3H/wmEed62FxIrkj7PefYNHIMxioAiArZXXA9sLrbWTD4zGVAkqKqjBeKkxJEbUnWGR3XWrtEUWaWmGsIq0hq9ma0rJwNdeAYIIjB/djAFigyn4fKHuaomOHcsuruGyPW8X8fWwBmxY5FLGjPRAAAAAASUVORK5CYII=) 1x,url(data:image/png;base64,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) 2x)
+    --------^
+* Invalid value for `background`
+    syntax: [ &lt;bg-layer&gt; , ]* &lt;final-bg-layer&gt;
+     value: image-set(url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACgAAAAoCAMAAAC7IEhfAAACH1BMVEUAAAAzfP8wXfo9gvgxXvw9gvYwXfsvXvsuXfslYPAxXvw+g/k9gfcwXvwwXPk+gvg8gPc9gvcwXfswXfs8gfcwXfsxXvwwXfowXfs9gfY9gPQwXvwxXv0zXfE+gfczXeswW/I9g/g2ZulAhfowWu8wXvs+gvf///ktXfuxzvUxX/wrXfspWPs+g/mpy/4lW/uz0f3Q3Pm+2v5xl/wwXvmuzPUyYf8xXfcjVvuRq/r+/vn9/fk7gPgxXfNAh/////jJ3fYyXO33+vnm7/i71PYyW+cxX/4/hfvv9fjW5ffG3PatzPWqyvWryfOpx/ArW/vk7vg4f/ixzfStyvQ7evQyXfGfuuhWgPvg6/fX5vfP4PbL3/bA1/Xl5ug0YefD3f4lWfstXfr7/fkoW/nd6fe50vb6+vUxXfXJ2PMmV/Ps7u2nxO0yW+qivum5xuWeueUyX/9vlfzR3Pns8/jQ4fZHh/Y9ffbD2fXo7/RKifSvy/OLpfNRjfP19fLN3fL7+fHy8vDB1fA6dPDd5e7w8O05b+3DzuyiwOw1Yeymwus1aussWesyZeqDqeng4uXO1uWfueKv0P6Xu/6mxf2gv/2Qsf1oj/xCbftAbfvD1Pry9/jp8vjR4vcuXfU2Z/T+/PKmxvJrm/Fri/E5cvF1ou90oe9ml+zP2uvo6uqFnupwneq+yem+zuiqwOgqVuiww+fV2+Z9mea/zeWUseKYtOE3HSh0AAAAJXRSTlMABb/9/I51TS8D+vr29eXFv0725OTFw46Kdi78+fnkw3Z1UDAwyXjvkgAAAoxJREFUOMuFlVdXGlEUhUfBXqNJ1PSmA2MwTTRBA1jovQYhSCgiRTCxR6PR2JJY03vvvf5A7wxTuAPC9zIv3zr7rsM6G4Sg6Ghd5YFSDqcB52V/a3NzPQ63rDw3v7AIodlRUSJWCBoSjNnOtwKPAMMutxTvLiC1nDyFGFgU7zpIkZJb5LU5hJiHaww3aZFRa4lcBeRZZYQIm/ICEFwhTvYEizLijTAtu3KQPSX4QIbeAVt/M1vEiguROnggkezlESSPzEcqFZC4+jMcPkthoF15LrITSh7982Vq6hzFI9rEqpHSZM/0wb1wXSJBSS5covPLEE6y2G7/PT8R7BxWAkSQuBeBvKv/7MtzEqPFbJ7s8+Ei80pY/LgZi45LfJ04eLQfq4dEmrXBW/pxVOkcGXGqQPS9u00Pj6cR26/9t0f1anT4IkDahqInmzxn0opfN2N6nRoVAVAAEE+nFUcHQTIQu8zmbl8G0fQmbo/qLFK00+EwijKJ9r8x/SQQaWCRWeLG92W9TqtGlVKXS/pctJ1oer/+aS7kcgVQo1Yo1PS1bTvxhzuS+J27hHw+v5stMkvccM+rAg7HsyyiaW09EnptEWrV2Sb+ci/M6Mx8oTSLaI1/np3R8bOKgtvxyLTTkkHkUNf3bTbo1Go04I1G8KHWc4UUueQpCG7IlqaDE6qeHpURfYp/AvDCy8BxJZJXll6BJcJ47njIiVg1ea5jvStvQ6dghoae3H/wmEed62FxIrkj7PefYNHIMxioAiArZXXA9sLrbWTD4zGVAkqKqjBeKkxJEbUnWGR3XWrtEUWaWmGsIq0hq9ma0rJwNdeAYIIjB/djAFigyn4fKHuaomOHcsuruGyPW8X8fWwBmxY5FLGjPRAAAAAASUVORK5CYII=) 1x,url(data:image/png;base64,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) 2x)
+    --------^
+* Invalid value for `background`
+    syntax: [ &lt;bg-layer&gt; , ]* &lt;final-bg-layer&gt;
+     value: -webkit-image-set(url(data:image/png;base64,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) 1x,url(data:image/png;base64,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) 2x)
+    --------^
+* Invalid value for `background`
+    syntax: [ &lt;bg-layer&gt; , ]* &lt;final-bg-layer&gt;
+     value: image-set(url(data:image/png;base64,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) 1x,url(data:image/png;base64,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) 2x)
+    --------^
+* Invalid value for `background`
+    syntax: [ &lt;bg-layer&gt; , ]* &lt;final-bg-layer&gt;
+     value: -webkit-image-set(url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACgAAAAoCAMAAAC7IEhfAAABklBMVEUAAAAxgP8yXv0wXvwwXvswX/sxXvw9gvc+g/k+gvgxX/wxXvs+g/g/gvcxXvw+gvo+g/gxXvsxXvw/gvc9gvYxXvs/gfgvXPU+gvcvWvI+gvcwXfsyXfowXPlAg/UzZu8xXvo+gvf///m+2P4sW/suXfsxXfnC2/4+g/jF3f661v7x9/syYP8qWvswXPYwXPS81/4xXvzF3P0xX/3C2fs6gPe+0/JAh//H3v49gPe90/QvW/LA2f7B2Pm/1vcuWO631f6y0v6v0P4/hftDbvsuWfDK4v6iwf3X5/z5/Po6evYvW/PI3/7B2/5Ic/xvk/o2Zvq91fY4dPMvW+3M4/61z/6oxv2Fp/1YgPzj7vs9afswXPhGh/YsWfM2bvIyZfCYuv2Wtf2Iqf1li/w/bPzp8fvt9Pq1x/p2mPqlwfjE2vdTj/VqnvSUuPG0zPA1avAyYe4xX+4pVO640f6Lsf1+pP19of3c7Px0mPxTfPuAnfpgl/Q4Y/R0pPN/q/J1l/Kmw/GcvfGKsfGtx/CWtfBkie9OPr1oAAAAIHRSTlMABPy/di/Ejvr29eXFdkwu/Pbk5L+KTfnkw76OjlBQUHhA7sYAAAKOSURBVDjLfdV3W9pQFAbwEMGBgtrW7gEkFxJIShhCmDJliIADRCjFXbW1Wrv3/t69MZd7k9j2/MvveQ9P8pw31MWYpm23b07McE5lmg/dDnVo6+SI2WKi8NyfGo/mOZU5Y34MHYGQINCjdsRMY/koRGi41b4fQYQFek4NHUMMzSCBIJ6QMKe463mdq65hSGTIDhdPRbWOe7ywhP8jHmHURE2P6wJjL4r+yzBAWygbCkSzupDw95TfAMuygESaqWt5HTw97yuBQASFer3LskM4Ql3ltIsf/fr6CUIWNFqyJLW2Oyg1dIWa0ObNP4scHxVYtvnE5XIdJBlZ3nGo0ko5dfAkshI8arLQwdnMMJ71DXU7Tenc0+fxdFh+88F1MRXGm+Tl96rUw8+ReCqc9O671KkpkTsEkvkeSUPI+BAsZxnPYglB42bovBjmpOW/wi+RlVTYY4DbGJKH+C2eTnk0cD0LYUM0wvmPEbhZC5ksw0sFcAn+gJuDQQJ92QyzuCE6ECSbf8LAIE9gOef1tPYAhuT16WFFykr8Lgw0Jp4om3kCN3MZHr1AHaz+hm9FC5O55S0aYEhu4LxxHCQQBkqlLgrUJZ4V+4eyjGHFm2kXRAeB2uvrHdbkISxn23XiCORO4fX12AZfU+FBpqTmYTijuz5xN8krsFLb2tM5Gp0Cp1yfG16V2HnJSz7X21dNEWihdXhcg+Hdi/W2p+J77cC3io4LnWtsDd+9WCjtvxMBQBCfqy2KNuN+YLsdETNcAKhSBkVN4wARMmCsFFhS6kM0No6xpJTagxWW+J8LCHZUpGeGCjMW6V1UzVX/kt/97zjhzrDvH9y6EQoEAnpAyv4ehcdkMY9MztJGR8+Sz8cfvPL4HE9h3jsAAAAASUVORK5CYII=) 1x,url(data:image/png;base64,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) 2x)
+    --------^
+* Invalid value for `background`
+    syntax: [ &lt;bg-layer&gt; , ]* &lt;final-bg-layer&gt;
+     value: image-set(url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACgAAAAoCAMAAAC7IEhfAAABklBMVEUAAAAxgP8yXv0wXvwwXvswX/sxXvw9gvc+g/k+gvgxX/wxXvs+g/g/gvcxXvw+gvo+g/gxXvsxXvw/gvc9gvYxXvs/gfgvXPU+gvcvWvI+gvcwXfsyXfowXPlAg/UzZu8xXvo+gvf///m+2P4sW/suXfsxXfnC2/4+g/jF3f661v7x9/syYP8qWvswXPYwXPS81/4xXvzF3P0xX/3C2fs6gPe+0/JAh//H3v49gPe90/QvW/LA2f7B2Pm/1vcuWO631f6y0v6v0P4/hftDbvsuWfDK4v6iwf3X5/z5/Po6evYvW/PI3/7B2/5Ic/xvk/o2Zvq91fY4dPMvW+3M4/61z/6oxv2Fp/1YgPzj7vs9afswXPhGh/YsWfM2bvIyZfCYuv2Wtf2Iqf1li/w/bPzp8fvt9Pq1x/p2mPqlwfjE2vdTj/VqnvSUuPG0zPA1avAyYe4xX+4pVO640f6Lsf1+pP19of3c7Px0mPxTfPuAnfpgl/Q4Y/R0pPN/q/J1l/Kmw/GcvfGKsfGtx/CWtfBkie9OPr1oAAAAIHRSTlMABPy/di/Ejvr29eXFdkwu/Pbk5L+KTfnkw76OjlBQUHhA7sYAAAKOSURBVDjLfdV3W9pQFAbwEMGBgtrW7gEkFxJIShhCmDJliIADRCjFXbW1Wrv3/t69MZd7k9j2/MvveQ9P8pw31MWYpm23b07McE5lmg/dDnVo6+SI2WKi8NyfGo/mOZU5Y34MHYGQINCjdsRMY/koRGi41b4fQYQFek4NHUMMzSCBIJ6QMKe463mdq65hSGTIDhdPRbWOe7ywhP8jHmHURE2P6wJjL4r+yzBAWygbCkSzupDw95TfAMuygESaqWt5HTw97yuBQASFer3LskM4Ql3ltIsf/fr6CUIWNFqyJLW2Oyg1dIWa0ObNP4scHxVYtvnE5XIdJBlZ3nGo0ko5dfAkshI8arLQwdnMMJ71DXU7Tenc0+fxdFh+88F1MRXGm+Tl96rUw8+ReCqc9O671KkpkTsEkvkeSUPI+BAsZxnPYglB42bovBjmpOW/wi+RlVTYY4DbGJKH+C2eTnk0cD0LYUM0wvmPEbhZC5ksw0sFcAn+gJuDQQJ92QyzuCE6ECSbf8LAIE9gOef1tPYAhuT16WFFykr8Lgw0Jp4om3kCN3MZHr1AHaz+hm9FC5O55S0aYEhu4LxxHCQQBkqlLgrUJZ4V+4eyjGHFm2kXRAeB2uvrHdbkISxn23XiCORO4fX12AZfU+FBpqTmYTijuz5xN8krsFLb2tM5Gp0Cp1yfG16V2HnJSz7X21dNEWihdXhcg+Hdi/W2p+J77cC3io4LnWtsDd+9WCjtvxMBQBCfqy2KNuN+YLsdETNcAKhSBkVN4wARMmCsFFhS6kM0No6xpJTagxWW+J8LCHZUpGeGCjMW6V1UzVX/kt/97zjhzrDvH9y6EQoEAnpAyv4ehcdkMY9MztJGR8+Sz8cfvPL4HE9h3jsAAAAASUVORK5CYII=) 1x,url(data:image/png;base64,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) 2x)
+    --------^</pre></details></td></tr>
 <tr><td>187</td><td>⚠️</td><td>dingit.tv</td><td><details><summary>Error</summary><pre>Parse error: Identifier is expected
   266 |
   267 |
   268 |…ansform-style:preserve-3d;transform-style:preserve-3d;// -webkit-perspective:1000px;// -moz-perspe…
 ----------------------------------------------------------------^
 </pre></details></td><td>–</td></tr>
-<tr><td>188</td><td>⚠️</td><td>abs-cbn.com</td><td><details><summary>Error</summary><pre>Parse error: Unexpected input
+<tr><td>188</td><td>⚠️</td><td>abs-cbn.com</td><td><details><summary>Error (patched)</summary><pre>Parse error: Unexpected input
    27 |
    28 |
    29 |…:relative}.rangeslider--disabled{filter:DXImageTransform.Microsoft.Alpha(Opacity=40);opacity:.4}.r…
 ----------------------------------------------------------------^
    30 |
-   31 |</pre></details></td><td>–</td></tr>
+   31 |</pre></details></td><td><details><summary>17 warnings (unique: 9)</summary><pre>* Invalid value for `-webkit-appearance`
+    syntax: none | button | button-bevel | caps-lock-indicator | caret | checkbox | default-button | listbox | listitem | media-fullscreen-button | media-mute-button | media-play-button | media-seek-back-button | media-seek-forward-button | media-slider | media-sliderthumb | menulist | menulist-button | menulist-text | menulist-textfield | push-button | radio | scrollbarbutton-down | scrollbarbutton-left | scrollbarbutton-right | scrollbarbutton-up | scrollbargripper-horizontal | scrollbargripper-vertical | scrollbarthumb-horizontal | scrollbarthumb-vertical | scrollbartrack-horizontal | scrollbartrack-vertical | searchfield | searchfield-cancel-button | searchfield-decoration | searchfield-results-button | searchfield-results-decoration | slider-horizontal | slider-vertical | sliderthumb-horizontal | sliderthumb-vertical | square-button | textarea | textfield
+     value: #fff
+    --------^
+* Invalid value for `-moz-appearance`
+    syntax: none | button | button-arrow-down | button-arrow-next | button-arrow-previous | button-arrow-up | button-bevel | button-focus | caret | checkbox | checkbox-container | checkbox-label | checkmenuitem | dualbutton | groupbox | listbox | listitem | menuarrow | menubar | menucheckbox | menuimage | menuitem | menuitemtext | menulist | menulist-button | menulist-text | menulist-textfield | menupopup | menuradio | menuseparator | meterbar | meterchunk | progressbar | progressbar-vertical | progresschunk | progresschunk-vertical | radio | radio-container | radio-label | radiomenuitem | range | range-thumb | resizer | resizerpanel | scale-horizontal | scalethumbend | scalethumb-horizontal | scalethumbstart | scalethumbtick | scalethumb-vertical | scale-vertical | scrollbarbutton-down | scrollbarbutton-left | scrollbarbutton-right | scrollbarbutton-up | scrollbarthumb-horizontal | scrollbarthumb-vertical | scrollbartrack-horizontal | scrollbartrack-vertical | searchfield | separator | sheet | spinner | spinner-downbutton | spinner-textfield | spinner-upbutton | splitter | statusbar | statusbarpanel | tab | tabpanel | tabpanels | tab-scroll-arrow-back | tab-scroll-arrow-forward | textfield | textfield-multiline | toolbar | toolbarbutton | toolbarbutton-dropdown | toolbargripper | toolbox | tooltip | treeheader | treeheadercell | treeheadersortarrow | treeitem | treeline | treetwisty | treetwistyopen | treeview | -moz-mac-unified-toolbar | -moz-win-borderless-glass | -moz-win-browsertabbar-toolbox | -moz-win-communicationstext | -moz-win-communications-toolbox | -moz-win-exclude-glass | -moz-win-glass | -moz-win-mediatext | -moz-win-media-toolbox | -moz-window-button-box | -moz-window-button-box-maximized | -moz-window-button-close | -moz-window-button-maximize | -moz-window-button-minimize | -moz-window-button-restore | -moz-window-frame-bottom | -moz-window-frame-left | -moz-window-frame-right | -moz-window-titlebar | -moz-window-titlebar-maximized
+     value: #fff
+    --------^
+* Invalid value for `appearance`
+    syntax: auto | none
+     value: #fff
+    --------^
+* Invalid value for `visibility`
+    syntax: visible | hidden | collapse
+     value: none
+    --------^
+* Invalid value for `-webkit-appearance`
+    syntax: none | button | button-bevel | caps-lock-indicator | caret | checkbox | default-button | listbox | listitem | media-fullscreen-button | media-mute-button | media-play-button | media-seek-back-button | media-seek-forward-button | media-slider | media-sliderthumb | menulist | menulist-button | menulist-text | menulist-textfield | push-button | radio | scrollbarbutton-down | scrollbarbutton-left | scrollbarbutton-right | scrollbarbutton-up | scrollbargripper-horizontal | scrollbargripper-vertical | scrollbarthumb-horizontal | scrollbarthumb-vertical | scrollbartrack-horizontal | scrollbartrack-vertical | searchfield | searchfield-cancel-button | searchfield-decoration | searchfield-results-button | searchfield-results-decoration | slider-horizontal | slider-vertical | sliderthumb-horizontal | sliderthumb-vertical | square-button | textarea | textfield
+     value: #fff
+    --------^
+* Invalid value for `-moz-appearance`
+    syntax: none | button | button-arrow-down | button-arrow-next | button-arrow-previous | button-arrow-up | button-bevel | button-focus | caret | checkbox | checkbox-container | checkbox-label | checkmenuitem | dualbutton | groupbox | listbox | listitem | menuarrow | menubar | menucheckbox | menuimage | menuitem | menuitemtext | menulist | menulist-button | menulist-text | menulist-textfield | menupopup | menuradio | menuseparator | meterbar | meterchunk | progressbar | progressbar-vertical | progresschunk | progresschunk-vertical | radio | radio-container | radio-label | radiomenuitem | range | range-thumb | resizer | resizerpanel | scale-horizontal | scalethumbend | scalethumb-horizontal | scalethumbstart | scalethumbtick | scalethumb-vertical | scale-vertical | scrollbarbutton-down | scrollbarbutton-left | scrollbarbutton-right | scrollbarbutton-up | scrollbarthumb-horizontal | scrollbarthumb-vertical | scrollbartrack-horizontal | scrollbartrack-vertical | searchfield | separator | sheet | spinner | spinner-downbutton | spinner-textfield | spinner-upbutton | splitter | statusbar | statusbarpanel | tab | tabpanel | tabpanels | tab-scroll-arrow-back | tab-scroll-arrow-forward | textfield | textfield-multiline | toolbar | toolbarbutton | toolbarbutton-dropdown | toolbargripper | toolbox | tooltip | treeheader | treeheadercell | treeheadersortarrow | treeitem | treeline | treetwisty | treetwistyopen | treeview | -moz-mac-unified-toolbar | -moz-win-borderless-glass | -moz-win-browsertabbar-toolbox | -moz-win-communicationstext | -moz-win-communications-toolbox | -moz-win-exclude-glass | -moz-win-glass | -moz-win-mediatext | -moz-win-media-toolbox | -moz-window-button-box | -moz-window-button-box-maximized | -moz-window-button-close | -moz-window-button-maximize | -moz-window-button-minimize | -moz-window-button-restore | -moz-window-frame-bottom | -moz-window-frame-left | -moz-window-frame-right | -moz-window-titlebar | -moz-window-titlebar-maximized
+     value: #fff
+    --------^
+* Invalid value for `appearance`
+    syntax: auto | none
+     value: #fff
+    --------^
+* Invalid value for `visibility`
+    syntax: visible | hidden | collapse
+     value: none
+    --------^
+* Invalid value for `background-color`
+    syntax: &lt;color&gt;
+     value: #000\9
+    --------^
+* Invalid value for `-webkit-appearance`
+    syntax: none | button | button-bevel | caps-lock-indicator | caret | checkbox | default-button | listbox | listitem | media-fullscreen-button | media-mute-button | media-play-button | media-seek-back-button | media-seek-forward-button | media-slider | media-sliderthumb | menulist | menulist-button | menulist-text | menulist-textfield | push-button | radio | scrollbarbutton-down | scrollbarbutton-left | scrollbarbutton-right | scrollbarbutton-up | scrollbargripper-horizontal | scrollbargripper-vertical | scrollbarthumb-horizontal | scrollbarthumb-vertical | scrollbartrack-horizontal | scrollbartrack-vertical | searchfield | searchfield-cancel-button | searchfield-decoration | searchfield-results-button | searchfield-results-decoration | slider-horizontal | slider-vertical | sliderthumb-horizontal | sliderthumb-vertical | square-button | textarea | textfield
+     value: #fff
+    --------^
+* Invalid value for `-moz-appearance`
+    syntax: none | button | button-arrow-down | button-arrow-next | button-arrow-previous | button-arrow-up | button-bevel | button-focus | caret | checkbox | checkbox-container | checkbox-label | checkmenuitem | dualbutton | groupbox | listbox | listitem | menuarrow | menubar | menucheckbox | menuimage | menuitem | menuitemtext | menulist | menulist-button | menulist-text | menulist-textfield | menupopup | menuradio | menuseparator | meterbar | meterchunk | progressbar | progressbar-vertical | progresschunk | progresschunk-vertical | radio | radio-container | radio-label | radiomenuitem | range | range-thumb | resizer | resizerpanel | scale-horizontal | scalethumbend | scalethumb-horizontal | scalethumbstart | scalethumbtick | scalethumb-vertical | scale-vertical | scrollbarbutton-down | scrollbarbutton-left | scrollbarbutton-right | scrollbarbutton-up | scrollbarthumb-horizontal | scrollbarthumb-vertical | scrollbartrack-horizontal | scrollbartrack-vertical | searchfield | separator | sheet | spinner | spinner-downbutton | spinner-textfield | spinner-upbutton | splitter | statusbar | statusbarpanel | tab | tabpanel | tabpanels | tab-scroll-arrow-back | tab-scroll-arrow-forward | textfield | textfield-multiline | toolbar | toolbarbutton | toolbarbutton-dropdown | toolbargripper | toolbox | tooltip | treeheader | treeheadercell | treeheadersortarrow | treeitem | treeline | treetwisty | treetwistyopen | treeview | -moz-mac-unified-toolbar | -moz-win-borderless-glass | -moz-win-browsertabbar-toolbox | -moz-win-communicationstext | -moz-win-communications-toolbox | -moz-win-exclude-glass | -moz-win-glass | -moz-win-mediatext | -moz-win-media-toolbox | -moz-window-button-box | -moz-window-button-box-maximized | -moz-window-button-close | -moz-window-button-maximize | -moz-window-button-minimize | -moz-window-button-restore | -moz-window-frame-bottom | -moz-window-frame-left | -moz-window-frame-right | -moz-window-titlebar | -moz-window-titlebar-maximized
+     value: #fff
+    --------^
+* Invalid value for `appearance`
+    syntax: auto | none
+     value: #fff
+    --------^
+* Invalid value for `visibility`
+    syntax: visible | hidden | collapse
+     value: none
+    --------^
+* Invalid value for `font`
+    syntax: [ [ &lt;'font-style'&gt; || &lt;font-variant-css21&gt; || &lt;'font-weight'&gt; || &lt;'font-stretch'&gt; ]? &lt;'font-size'&gt; [ / &lt;'line-height'&gt; ]? &lt;'font-family'&gt; ] | caption | icon | menu | message-box | small-caption | status-bar | &lt;-non-standart-font&gt;
+     value: bold
+    --------^
+* The rest part of value can't to be matched on `list-style` syntax
+    syntax: &lt;'list-style-type'&gt; || &lt;'list-style-position'&gt; || &lt;'list-style-image'&gt;
+     value: outside none none
+    ---------------------^
+* Invalid value for `animation-delay`
+    syntax: &lt;time&gt;#
+     value: 0
+    --------^
+* Invalid value for `max-height`
+    syntax: &lt;length&gt; | &lt;percentage&gt; | none | max-content | min-content | fit-content | fill-available
+     value: auto
+    --------^</pre></details></td></tr>
 <tr><td>189</td><td>⚠️</td><td>google.az</td><td>OK</td><td><details><summary>13 warnings</summary><pre>* Invalid value for `opacity`
     syntax: &lt;number-zero-one&gt;
      value: 1\0/
@@ -11816,13 +12778,174 @@ Update date: 2017-03-08T23:52:36.365Z
     syntax: start | end | left | right | center | justify | match-parent
      value: -ms-center
     --------^</pre></details></td></tr>
-<tr><td>192</td><td>⚠️</td><td>washingtonpost.com</td><td><details><summary>Error</summary><pre>Parse error: Identifier or parenthesis is expected
+<tr><td>192</td><td>⚠️</td><td>washingtonpost.com</td><td><details><summary>Error (patched)</summary><pre>Parse error: Identifier or parenthesis is expected
     9 |…OFqJ5JwjTiY05ipippXzrJaqjRzIEfgSzxWA5kEY7lloCAHejE/N8ZloF8o88iTge6wZ3RHOLwEDMWZYSeFhxIKD13/jdwvhxK…
    10 |
    11 |…em !important;padding-right:0.3125rem !important}@media {.pb-c-top-table-x-wide .top-table-col.mob…
 ----------------------------------------------------------------^
    12 |
-   13 |</pre></details></td><td>–</td></tr>
+   13 |</pre></details></td><td><details><summary>57 warnings (unique: 36)</summary><pre>* Unknown property: -content
+* Unknown property: -display
+* Unknown property: -height
+* The rest part of value can't to be matched on `transition` syntax
+    syntax: &lt;single-transition&gt;#
+     value: background-color 0.24s ease 0
+    ------------------------------------^
+* The rest part of value can't to be matched on `transition` syntax
+    syntax: &lt;single-transition&gt;#
+     value: background-color 0.24s ease 0
+    ------------------------------------^
+* Unknown property: -display
+* Unknown property: -content
+* Unknown property: -clear
+* The rest part of value can't to be matched on `list-style` syntax
+    syntax: &lt;'list-style-type'&gt; || &lt;'list-style-position'&gt; || &lt;'list-style-image'&gt;
+     value: outside none none
+    ---------------------^
+* The rest part of value can't to be matched on `list-style` syntax
+    syntax: &lt;'list-style-type'&gt; || &lt;'list-style-position'&gt; || &lt;'list-style-image'&gt;
+     value: outside none none
+    ---------------------^
+* Invalid value for `-webkit-perspective`
+    syntax: none | &lt;length&gt;
+     value: 1000
+    --------^
+* Invalid value for `-webkit-perspective`
+    syntax: none | &lt;length&gt;
+     value: 1000
+    --------^
+* Invalid value for `overflow`
+    syntax: visible | hidden | scroll | auto
+     value: -moz-scrollbars-none
+    --------^
+* Unknown property: -color
+* Unknown property: -color
+* Unknown property: -color
+* Unknown property: -background
+* Unknown property: -background
+* The rest part of value can't to be matched on `-o-transition` syntax
+    syntax: &lt;single-transition&gt;#
+     value: color 0 ease-in
+    --------------^
+* Unknown property: xpadding
+* Invalid value for `-text-transform`
+    syntax: none | &lt;transform-list&gt;
+     value: uppercase
+    --------^
+* The rest part of value can't to be matched on `list-style` syntax
+    syntax: &lt;'list-style-type'&gt; || &lt;'list-style-position'&gt; || &lt;'list-style-image'&gt;
+     value: outside none none
+    ---------------------^
+* The rest part of value can't to be matched on `list-style` syntax
+    syntax: &lt;'list-style-type'&gt; || &lt;'list-style-position'&gt; || &lt;'list-style-image'&gt;
+     value: outside none none
+    ---------------------^
+* Invalid value for `font`
+    syntax: [ [ &lt;'font-style'&gt; || &lt;font-variant-css21&gt; || &lt;'font-weight'&gt; || &lt;'font-stretch'&gt; ]? &lt;'font-size'&gt; [ / &lt;'line-height'&gt; ]? &lt;'font-family'&gt; ] | caption | icon | menu | message-box | small-caption | status-bar | &lt;-non-standart-font&gt;
+     value: normal 16px
+    --------^
+* Invalid value for `letter-spacing`
+    syntax: normal | &lt;length-percentage&gt;
+     value: 1
+    --------^
+* Invalid value for `min-width`
+    syntax: &lt;length&gt; | &lt;percentage&gt; | auto | max-content | min-content | fit-content | fill-available | &lt;-non-standart-width&gt;
+     value: none
+    --------^
+* Invalid value for `min-height`
+    syntax: &lt;length&gt; | &lt;percentage&gt; | auto | max-content | min-content | fit-content | fill-available
+     value: none
+    --------^
+* Invalid value for `-webkit-animation-delay`
+    syntax: &lt;time&gt;#
+     value: 0
+    --------^
+* Invalid value for `animation-delay`
+    syntax: &lt;time&gt;#
+     value: 0
+    --------^
+* Invalid value for `-webkit-animation-delay`
+    syntax: &lt;time&gt;#
+     value: 0
+    --------^
+* Invalid value for `animation-delay`
+    syntax: &lt;time&gt;#
+     value: 0
+    --------^
+* Invalid value for `-webkit-animation-delay`
+    syntax: &lt;time&gt;#
+     value: 0
+    --------^
+* Invalid value for `animation-delay`
+    syntax: &lt;time&gt;#
+     value: 0
+    --------^
+* The rest part of value can't to be matched on `transition` syntax
+    syntax: &lt;single-transition&gt;#
+     value: visibility 300ms ease 0,opacity 300ms
+    ------------------------------^
+* The rest part of value can't to be matched on `-webkit-transition` syntax
+    syntax: &lt;single-transition&gt;#
+     value: visibility 300ms ease 0,opacity 300ms
+    ------------------------------^
+* The rest part of value can't to be matched on `-moz-transition` syntax
+    syntax: &lt;single-transition&gt;#
+     value: visibility 300ms ease 0,opacity 300ms
+    ------------------------------^
+* The rest part of value can't to be matched on `-o-transition` syntax
+    syntax: &lt;single-transition&gt;#
+     value: visibility 300ms ease 0,opacity 300ms
+    ------------------------------^
+* The rest part of value can't to be matched on `transition` syntax
+    syntax: &lt;single-transition&gt;#
+     value: visibility 300ms ease 300ms,opacity 0
+    --------------------------------------------^
+* The rest part of value can't to be matched on `-webkit-transition` syntax
+    syntax: &lt;single-transition&gt;#
+     value: visibility 300ms ease 300ms,opacity 0
+    --------------------------------------------^
+* The rest part of value can't to be matched on `-moz-transition` syntax
+    syntax: &lt;single-transition&gt;#
+     value: visibility 300ms ease 300ms,opacity 0
+    --------------------------------------------^
+* The rest part of value can't to be matched on `-o-transition` syntax
+    syntax: &lt;single-transition&gt;#
+     value: visibility 300ms ease 300ms,opacity 0
+    --------------------------------------------^
+* Unknown property: -padding
+* Invalid value for `animation-duration`
+    syntax: &lt;time&gt;#
+     value: 1.5
+    --------^
+* Invalid value for `animation-duration`
+    syntax: &lt;time&gt;#
+     value: 1.5
+    --------^
+* Unknown property: webkit-border-radius
+* Unknown property: webkit-border-radius
+* Unknown property: -padding
+* Unknown property: -padding
+* Unknown property: qheight
+* Unknown property: background-repeat-x
+* Unknown property: background-repeat-x
+* Unknown property: background-repeat-x
+* Unknown property: background-repeat-x
+* Invalid value for `background`
+    syntax: [ &lt;bg-layer&gt; , ]* &lt;final-bg-layer&gt;
+     value: -moz-linear-gradient(top,rgba(0,0,0,.5) 0,rgba(0,0,0,0) 100)
+    --------^
+* Invalid value for `background`
+    syntax: [ &lt;bg-layer&gt; , ]* &lt;final-bg-layer&gt;
+     value: -webkit-linear-gradient(top,rgba(0,0,0,.5) 0,rgba(0,0,0,0) 100)
+    --------^
+* Invalid value for `background`
+    syntax: [ &lt;bg-layer&gt; , ]* &lt;final-bg-layer&gt;
+     value: -o-linear-gradient(top,rgba(0,0,0,.5) 0,rgba(0,0,0,0) 100)
+    --------^
+* Invalid value for `background`
+    syntax: [ &lt;bg-layer&gt; , ]* &lt;final-bg-layer&gt;
+     value: -ms-linear-gradient(top,rgba(0,0,0,.5) 0,rgba(0,0,0,0) 100)
+    --------^</pre></details></td></tr>
 <tr><td>193</td><td>⚠️</td><td>huffingtonpost.com</td><td>OK</td><td><details><summary>133 warnings (unique: 9)</summary><pre>* Unknown property: font-smoothing
 * Unknown property: font-smoothing
 * Unknown property: font-smoothing
@@ -12188,13 +13311,61 @@ Update date: 2017-03-08T23:52:36.365Z
     syntax: &lt;bg-image&gt;#
      value: linear-gradient(top,#eee,#fefefe)
     --------^</pre></details></td></tr>
-<tr><td>202</td><td>⚠️</td><td>youm7.com</td><td><details><summary>Error</summary><pre>Parse error: Identifier is expected
+<tr><td>202</td><td>⚠️</td><td>youm7.com</td><td><details><summary>Error (patched)</summary><pre>Parse error: Identifier is expected
   409 |…l-sm-5,.col-sm-6,.col-sm-7,.col-sm-8,.col-sm-9,.col-sm-10,.col-sm-11{float:right}
   410 |….col-sm-3{width:25%}.col-sm-4{width:33.33333333333333%}
   411 |…58.333333333333336%}.col-sm-8{width:66.66666666666666%}.
 ----------------------------------------------------------------^
   412 |…:91.66666666666666%}.col-sm-12{width:100%}.col-sm-push-1{left:8.333333333333332%}
-  413 |…-push-4{left:33.33333333333333%}.col-sm-push-5{left:41.66666666666667%}</pre></details></td><td>–</td></tr>
+  413 |…-push-4{left:33.33333333333333%}.col-sm-push-5{left:41.66666666666667%}</pre></details></td><td><details><summary>13 warnings</summary><pre>* The rest part of value can't to be matched on `margin-top` syntax
+    syntax: &lt;length&gt; | &lt;percentage&gt; | auto
+     value: 1px \9
+    -----------^
+* Invalid value for `background-image`
+    syntax: &lt;bg-image&gt;#
+     value: -webkit-linear-gradient(left,color-stop(rgba(0,0,0,0.5) 0),color-stop(rgba(0,0,0,0.0001) 100%))
+    --------^
+* Invalid value for `background-image`
+    syntax: &lt;bg-image&gt;#
+     value: -webkit-linear-gradient(left,color-stop(rgba(0,0,0,0.0001) 0),color-stop(rgba(0,0,0,0.5) 100%))
+    --------^
+* Invalid value for `width`
+    syntax: [ &lt;length&gt; | &lt;percentage&gt; ] &amp;&amp; [ border-box | content-box ]? | available | min-content | max-content | fit-content | auto
+     value: device-width
+    --------^
+* Invalid value for `word-wrap`
+    syntax: normal | break-word
+     value: keep-all
+    --------^
+* The rest part of value can't to be matched on `border-color` syntax
+    syntax: &lt;color&gt;{1,4}
+     value: #3b3a3a -moz-use-text-color #3b3a3a #3b3a3a
+    ----------------^
+* The rest part of value can't to be matched on `border-color` syntax
+    syntax: &lt;color&gt;{1,4}
+     value: #de2323 -moz-use-text-color #de2323 #de2323
+    ----------------^
+* Unknown property: backgrond-color
+* Invalid value for `font-family`
+    syntax: [ &lt;family-name&gt; | &lt;generic-family&gt; ]#
+     value: &lt;empty string&gt;
+    --------^
+* Invalid value for `display`
+    syntax: none | inline | block | list-item | inline-list-item | inline-block | inline-table | table | table-cell | table-column | table-column-group | table-footer-group | table-header-group | table-row | table-row-group | flex | inline-flex | grid | inline-grid | run-in | ruby | ruby-base | ruby-text | ruby-base-container | ruby-text-container | contents | -ms-flexbox | -ms-inline-flexbox | -ms-grid | -ms-inline-grid | -webkit-flex | -webkit-inline-flex | -webkit-box | -webkit-inline-box | -moz-inline-stack | -moz-box | -moz-inline-box
+     value: inline-blocl
+    --------^
+* Invalid value for `width`
+    syntax: [ &lt;length&gt; | &lt;percentage&gt; ] &amp;&amp; [ border-box | content-box ]? | available | min-content | max-content | fit-content | auto
+     value: \@container-desktop
+    --------^
+* Invalid value for `max-width`
+    syntax: &lt;length&gt; | &lt;percentage&gt; | none | max-content | min-content | fit-content | fill-available | &lt;-non-standart-width&gt;
+     value: 540 px
+    --------^
+* Invalid value for `margin`
+    syntax: [ &lt;length&gt; | &lt;percentage&gt; | auto ]{1,4}
+     value: 5 auto
+    --------^</pre></details></td></tr>
 <tr><td>203</td><td>⚠️</td><td>walmart.com</td><td><details><summary>Error (patched)</summary><pre>Parse error: Unexpected input
    11 |
    12 |
@@ -12420,12 +13591,169 @@ Update date: 2017-03-08T23:52:36.365Z
     syntax: [ [ &lt;length-percentage&gt; | left | center | right ] &amp;&amp; [ &lt;length-percentage&gt; | top | center | bottom ] ] &lt;length&gt;? | [ &lt;length-percentage&gt; | left | center | right | top | bottom ]
      value: 0,0
     ---------^</pre></details></td></tr>
-<tr><td>208</td><td>⚠️</td><td>weebly.com</td><td><details><summary>Error</summary><pre>Parse error: Identifier is expected
+<tr><td>208</td><td>⚠️</td><td>weebly.com</td><td><details><summary>Error (patched)</summary><pre>Parse error: Identifier is expected
    23 |
    24 |
    25 |…een and (-webkit-min-device-pixel-ratio: 0){font-family:"wicons";src:url("https://cdn2.editmysite.…
 ----------------------------------------------------------------^
-   26 |</pre></details></td><td>–</td></tr>
+   26 |</pre></details></td><td><details><summary>41 warnings (unique: 23)</summary><pre>* Invalid value for `-ms-flex-align`
+    syntax: start | end | center | baseline | stretch
+     value: flex-start
+    --------^
+* Invalid value for `-ms-flex-align`
+    syntax: start | end | center | baseline | stretch
+     value: flex-end
+    --------^
+* Invalid value for `-ms-flex-line-pack`
+    syntax: start | end | center | justify | distribute | stretch
+     value: flex-start
+    --------^
+* Invalid value for `-ms-flex-line-pack`
+    syntax: start | end | center | justify | distribute | stretch
+     value: flex-end
+    --------^
+* Invalid value for `-ms-flex-line-pack`
+    syntax: start | end | center | justify | distribute | stretch
+     value: space-between
+    --------^
+* Invalid value for `-ms-flex-line-pack`
+    syntax: start | end | center | justify | distribute | stretch
+     value: space-around
+    --------^
+* Invalid value for `-ms-flex-item-align`
+    syntax: auto | start | end | center | baseline | stretch
+     value: flex-start
+    --------^
+* Invalid value for `-ms-flex-item-align`
+    syntax: auto | start | end | center | baseline | stretch
+     value: flex-end
+    --------^
+* Invalid value for `-ms-flex-align`
+    syntax: start | end | center | baseline | stretch
+     value: top
+    --------^
+* Invalid value for `align-items`
+    syntax: flex-start | flex-end | center | baseline | stretch
+     value: top
+    --------^
+* The rest part of value can't to be matched on `border` syntax
+    syntax: &lt;br-width&gt; || &lt;br-style&gt; || &lt;color&gt;
+     value: 0 0 1px 0
+    ----------^
+* The rest part of value can't to be matched on `cursor` syntax
+    syntax: [ [ &lt;url&gt; [ &lt;x&gt; &lt;y&gt; ]? , ]* [ auto | default | none | context-menu | help | pointer | progress | wait | cell | crosshair | text | vertical-text | alias | copy | move | no-drop | not-allowed | e-resize | n-resize | ne-resize | nw-resize | s-resize | se-resize | sw-resize | w-resize | ew-resize | ns-resize | nesw-resize | nwse-resize | col-resize | row-resize | all-scroll | zoom-in | zoom-out | grab | grabbing | hand | -webkit-grab | -webkit-grabbing | -webkit-zoom-in | -webkit-zoom-out | -moz-grab | -moz-grabbing | -moz-zoom-in | -moz-zoom-out ] ]
+     value: -webkit-grab,move
+    --------------------^
+* The rest part of value can't to be matched on `cursor` syntax
+    syntax: [ [ &lt;url&gt; [ &lt;x&gt; &lt;y&gt; ]? , ]* [ auto | default | none | context-menu | help | pointer | progress | wait | cell | crosshair | text | vertical-text | alias | copy | move | no-drop | not-allowed | e-resize | n-resize | ne-resize | nw-resize | s-resize | se-resize | sw-resize | w-resize | ew-resize | ns-resize | nesw-resize | nwse-resize | col-resize | row-resize | all-scroll | zoom-in | zoom-out | grab | grabbing | hand | -webkit-grab | -webkit-grabbing | -webkit-zoom-in | -webkit-zoom-out | -moz-grab | -moz-grabbing | -moz-zoom-in | -moz-zoom-out ] ]
+     value: grab,move
+    ------------^
+* The rest part of value can't to be matched on `cursor` syntax
+    syntax: [ [ &lt;url&gt; [ &lt;x&gt; &lt;y&gt; ]? , ]* [ auto | default | none | context-menu | help | pointer | progress | wait | cell | crosshair | text | vertical-text | alias | copy | move | no-drop | not-allowed | e-resize | n-resize | ne-resize | nw-resize | s-resize | se-resize | sw-resize | w-resize | ew-resize | ns-resize | nesw-resize | nwse-resize | col-resize | row-resize | all-scroll | zoom-in | zoom-out | grab | grabbing | hand | -webkit-grab | -webkit-grabbing | -webkit-zoom-in | -webkit-zoom-out | -moz-grab | -moz-grabbing | -moz-zoom-in | -moz-zoom-out ] ]
+     value: -webkit-grabbing,move
+    ------------------------^
+* The rest part of value can't to be matched on `cursor` syntax
+    syntax: [ [ &lt;url&gt; [ &lt;x&gt; &lt;y&gt; ]? , ]* [ auto | default | none | context-menu | help | pointer | progress | wait | cell | crosshair | text | vertical-text | alias | copy | move | no-drop | not-allowed | e-resize | n-resize | ne-resize | nw-resize | s-resize | se-resize | sw-resize | w-resize | ew-resize | ns-resize | nesw-resize | nwse-resize | col-resize | row-resize | all-scroll | zoom-in | zoom-out | grab | grabbing | hand | -webkit-grab | -webkit-grabbing | -webkit-zoom-in | -webkit-zoom-out | -moz-grab | -moz-grabbing | -moz-zoom-in | -moz-zoom-out ] ]
+     value: grabbing,move
+    ----------------^
+* Invalid value for `display`
+    syntax: none | inline | block | list-item | inline-list-item | inline-block | inline-table | table | table-cell | table-column | table-column-group | table-footer-group | table-header-group | table-row | table-row-group | flex | inline-flex | grid | inline-grid | run-in | ruby | ruby-base | ruby-text | ruby-base-container | ruby-text-container | contents | -ms-flexbox | -ms-inline-flexbox | -ms-grid | -ms-inline-grid | -webkit-flex | -webkit-inline-flex | -webkit-box | -webkit-inline-box | -moz-inline-stack | -moz-box | -moz-inline-box
+     value: -moz-flex
+    --------^
+* Invalid value for `-ms-flex-align`
+    syntax: start | end | center | baseline | stretch
+     value: flex-start
+    --------^
+* Invalid value for `-ms-flex-align`
+    syntax: start | end | center | baseline | stretch
+     value: flex-end
+    --------^
+* Invalid value for `-ms-flex-line-pack`
+    syntax: start | end | center | justify | distribute | stretch
+     value: flex-start
+    --------^
+* Invalid value for `-ms-flex-line-pack`
+    syntax: start | end | center | justify | distribute | stretch
+     value: flex-end
+    --------^
+* Invalid value for `-ms-flex-line-pack`
+    syntax: start | end | center | justify | distribute | stretch
+     value: space-between
+    --------^
+* Invalid value for `-ms-flex-line-pack`
+    syntax: start | end | center | justify | distribute | stretch
+     value: space-around
+    --------^
+* Invalid value for `-ms-flex-item-align`
+    syntax: auto | start | end | center | baseline | stretch
+     value: flex-start
+    --------^
+* Invalid value for `-ms-flex-item-align`
+    syntax: auto | start | end | center | baseline | stretch
+     value: flex-end
+    --------^
+* Invalid value for `opacity`
+    syntax: &lt;number-zero-one&gt;
+     value: 80
+    --------^
+* Unknown property: -moz-font-smoothing
+* Unknown property: -o-font-smoothing
+* Invalid value for `-ms-flex-align`
+    syntax: start | end | center | baseline | stretch
+     value: flex-start
+    --------^
+* Invalid value for `-ms-flex-align`
+    syntax: start | end | center | baseline | stretch
+     value: flex-end
+    --------^
+* Invalid value for `-ms-flex-line-pack`
+    syntax: start | end | center | justify | distribute | stretch
+     value: flex-start
+    --------^
+* Invalid value for `-ms-flex-line-pack`
+    syntax: start | end | center | justify | distribute | stretch
+     value: flex-end
+    --------^
+* Invalid value for `-ms-flex-line-pack`
+    syntax: start | end | center | justify | distribute | stretch
+     value: space-between
+    --------^
+* Invalid value for `-ms-flex-line-pack`
+    syntax: start | end | center | justify | distribute | stretch
+     value: space-around
+    --------^
+* Invalid value for `-ms-flex-item-align`
+    syntax: auto | start | end | center | baseline | stretch
+     value: flex-start
+    --------^
+* Invalid value for `-ms-flex-item-align`
+    syntax: auto | start | end | center | baseline | stretch
+     value: flex-end
+    --------^
+* Invalid value for `-webkit-perspective`
+    syntax: none | &lt;length&gt;
+     value: 1000
+    --------^
+* Invalid value for `-ms-flex-preferred-size`
+    syntax: &lt;'flex-basis'&gt;
+     value: 1 1 40px
+    --------^
+* Invalid value for `flex-basis`
+    syntax: content | &lt;'width'&gt;
+     value: 1 1 40px
+    --------^
+* Invalid value for `-ms-flex-preferred-size`
+    syntax: &lt;'flex-basis'&gt;
+     value: 1 1 40px
+    --------^
+* Invalid value for `flex-basis`
+    syntax: content | &lt;'width'&gt;
+     value: 1 1 40px
+    --------^
+* Invalid value for `animation-delay`
+    syntax: &lt;time&gt;#
+     value: 0.06
+    --------^</pre></details></td></tr>
 <tr><td>209</td><td>⚠️</td><td>prestoris.com</td><td>OK</td><td><details><summary>13 warnings</summary><pre>* Invalid value for `opacity`
     syntax: &lt;number-zero-one&gt;
      value: 1\0/
@@ -12531,7 +13859,7 @@ Update date: 2017-03-08T23:52:36.365Z
      value: linear-gradient(bottom,rgba(0,0,0,.2),rgba(0,0,0,0))
     --------^</pre></details></td></tr>
 <tr><td>211</td><td>🆗</td><td>livedoor.jp</td><td>OK</td><td>OK</td></tr>
-<tr><td>212</td><td>⚠️</td><td>etsy.com</td><td><details><summary>Error</summary><pre>Parse error: Unexpected input
+<tr><td>212</td><td>⚠️</td><td>etsy.com</td><td><details><summary>Error (patched)</summary><pre>Parse error: Unexpected input
     2 |
     3 |
     4 |…-colors .card.buyer-card .card-meta-row-item:nth-child(n2):before,.ds-reduced-colors .card.buyer-c…
@@ -12542,13 +13870,92 @@ Update date: 2017-03-08T23:52:36.365Z
     syntax: &lt;color&gt;
      value: 2f 5bb 7
     --------^</pre></details></td></tr>
-<tr><td>214</td><td>⚠️</td><td>slack.com</td><td><details><summary>Error</summary><pre>Parse error: Identifier or parenthesis is expected
+<tr><td>214</td><td>⚠️</td><td>slack.com</td><td><details><summary>Error (patched)</summary><pre>Parse error: Identifier or parenthesis is expected
  1944 |.campaign_header.full_height{height:calc(100vh - 10px)}
  1945 |.campaign_header.full_height .fullheight_tease{display:block}
  1946 |@media 480px{.campaign_header.full_height{height:calc(80vh - 10px)}
 --------------^
  1947 |}
- 1948 |@media screen and (max-height:550px){.campaign_header.full_height h1{margin-top:50px}</pre></details></td><td>–</td></tr>
+ 1948 |@media screen and (max-height:550px){.campaign_header.full_height h1{margin-top:50px}</pre></details></td><td><details><summary>20 warnings (unique: 9)</summary><pre>* Invalid value for `display`
+    syntax: none | inline | block | list-item | inline-list-item | inline-block | inline-table | table | table-cell | table-column | table-column-group | table-footer-group | table-header-group | table-row | table-row-group | flex | inline-flex | grid | inline-grid | run-in | ruby | ruby-base | ruby-text | ruby-base-container | ruby-text-container | contents | -ms-flexbox | -ms-inline-flexbox | -ms-grid | -ms-inline-grid | -webkit-flex | -webkit-inline-flex | -webkit-box | -webkit-inline-box | -moz-inline-stack | -moz-box | -moz-inline-box
+     value: -moz-flex
+    --------^
+* Invalid value for `display`
+    syntax: none | inline | block | list-item | inline-list-item | inline-block | inline-table | table | table-cell | table-column | table-column-group | table-footer-group | table-header-group | table-row | table-row-group | flex | inline-flex | grid | inline-grid | run-in | ruby | ruby-base | ruby-text | ruby-base-container | ruby-text-container | contents | -ms-flexbox | -ms-inline-flexbox | -ms-grid | -ms-inline-grid | -webkit-flex | -webkit-inline-flex | -webkit-box | -webkit-inline-box | -moz-inline-stack | -moz-box | -moz-inline-box
+     value: -moz-flex
+    --------^
+* Invalid value for `-webkit-box-align`
+    syntax: start | center | end | baseline | stretch
+     value: flex-start
+    --------^
+* Invalid value for `-webkit-box-align`
+    syntax: start | center | end | baseline | stretch
+     value: flex-end
+    --------^
+* Invalid value for `-ms-flex-item-align`
+    syntax: auto | start | end | center | baseline | stretch
+     value: flex-start
+    --------^
+* Invalid value for `-ms-flex-item-align`
+    syntax: auto | start | end | center | baseline | stretch
+     value: flex-end
+    --------^
+* Invalid value for `-webkit-box-pack`
+    syntax: start | center | end | justify
+     value: distribute
+    --------^
+* Invalid value for `*vertical-align`
+    syntax: baseline | sub | super | text-top | text-bottom | middle | top | bottom | &lt;percentage&gt; | &lt;length&gt;
+     value: auto
+    --------^
+* Invalid value for `*vertical-align`
+    syntax: baseline | sub | super | text-top | text-bottom | middle | top | bottom | &lt;percentage&gt; | &lt;length&gt;
+     value: auto
+    --------^
+* Invalid value for `top`
+    syntax: &lt;length&gt; | &lt;percentage&gt; | auto
+     value: 8x
+    --------^
+* Invalid value for `position`
+    syntax: static | relative | absolute | sticky | fixed
+     value: -webkit-sticky
+    --------^
+* Invalid value for `display`
+    syntax: none | inline | block | list-item | inline-list-item | inline-block | inline-table | table | table-cell | table-column | table-column-group | table-footer-group | table-header-group | table-row | table-row-group | flex | inline-flex | grid | inline-grid | run-in | ruby | ruby-base | ruby-text | ruby-base-container | ruby-text-container | contents | -ms-flexbox | -ms-inline-flexbox | -ms-grid | -ms-inline-grid | -webkit-flex | -webkit-inline-flex | -webkit-box | -webkit-inline-box | -moz-inline-stack | -moz-box | -moz-inline-box
+     value: -moz-flex
+    --------^
+* Invalid value for `display`
+    syntax: none | inline | block | list-item | inline-list-item | inline-block | inline-table | table | table-cell | table-column | table-column-group | table-footer-group | table-header-group | table-row | table-row-group | flex | inline-flex | grid | inline-grid | run-in | ruby | ruby-base | ruby-text | ruby-base-container | ruby-text-container | contents | -ms-flexbox | -ms-inline-flexbox | -ms-grid | -ms-inline-grid | -webkit-flex | -webkit-inline-flex | -webkit-box | -webkit-inline-box | -moz-inline-stack | -moz-box | -moz-inline-box
+     value: -moz-flex
+    --------^
+* Invalid value for `display`
+    syntax: none | inline | block | list-item | inline-list-item | inline-block | inline-table | table | table-cell | table-column | table-column-group | table-footer-group | table-header-group | table-row | table-row-group | flex | inline-flex | grid | inline-grid | run-in | ruby | ruby-base | ruby-text | ruby-base-container | ruby-text-container | contents | -ms-flexbox | -ms-inline-flexbox | -ms-grid | -ms-inline-grid | -webkit-flex | -webkit-inline-flex | -webkit-box | -webkit-inline-box | -moz-inline-stack | -moz-box | -moz-inline-box
+     value: -moz-flex
+    --------^
+* Invalid value for `-webkit-box-pack`
+    syntax: start | center | end | justify
+     value: distribute
+    --------^
+* Invalid value for `display`
+    syntax: none | inline | block | list-item | inline-list-item | inline-block | inline-table | table | table-cell | table-column | table-column-group | table-footer-group | table-header-group | table-row | table-row-group | flex | inline-flex | grid | inline-grid | run-in | ruby | ruby-base | ruby-text | ruby-base-container | ruby-text-container | contents | -ms-flexbox | -ms-inline-flexbox | -ms-grid | -ms-inline-grid | -webkit-flex | -webkit-inline-flex | -webkit-box | -webkit-inline-box | -moz-inline-stack | -moz-box | -moz-inline-box
+     value: -moz-flex
+    --------^
+* Invalid value for `display`
+    syntax: none | inline | block | list-item | inline-list-item | inline-block | inline-table | table | table-cell | table-column | table-column-group | table-footer-group | table-header-group | table-row | table-row-group | flex | inline-flex | grid | inline-grid | run-in | ruby | ruby-base | ruby-text | ruby-base-container | ruby-text-container | contents | -ms-flexbox | -ms-inline-flexbox | -ms-grid | -ms-inline-grid | -webkit-flex | -webkit-inline-flex | -webkit-box | -webkit-inline-box | -moz-inline-stack | -moz-box | -moz-inline-box
+     value: -moz-flex
+    --------^
+* Invalid value for `display`
+    syntax: none | inline | block | list-item | inline-list-item | inline-block | inline-table | table | table-cell | table-column | table-column-group | table-footer-group | table-header-group | table-row | table-row-group | flex | inline-flex | grid | inline-grid | run-in | ruby | ruby-base | ruby-text | ruby-base-container | ruby-text-container | contents | -ms-flexbox | -ms-inline-flexbox | -ms-grid | -ms-inline-grid | -webkit-flex | -webkit-inline-flex | -webkit-box | -webkit-inline-box | -moz-inline-stack | -moz-box | -moz-inline-box
+     value: -moz-flex
+    --------^
+* Invalid value for `display`
+    syntax: none | inline | block | list-item | inline-list-item | inline-block | inline-table | table | table-cell | table-column | table-column-group | table-footer-group | table-header-group | table-row | table-row-group | flex | inline-flex | grid | inline-grid | run-in | ruby | ruby-base | ruby-text | ruby-base-container | ruby-text-container | contents | -ms-flexbox | -ms-inline-flexbox | -ms-grid | -ms-inline-grid | -webkit-flex | -webkit-inline-flex | -webkit-box | -webkit-inline-box | -moz-inline-stack | -moz-box | -moz-inline-box
+     value: -moz-flex
+    --------^
+* Invalid value for `display`
+    syntax: none | inline | block | list-item | inline-list-item | inline-block | inline-table | table | table-cell | table-column | table-column-group | table-footer-group | table-header-group | table-row | table-row-group | flex | inline-flex | grid | inline-grid | run-in | ruby | ruby-base | ruby-text | ruby-base-container | ruby-text-container | contents | -ms-flexbox | -ms-inline-flexbox | -ms-grid | -ms-inline-grid | -webkit-flex | -webkit-inline-flex | -webkit-box | -webkit-inline-box | -moz-inline-stack | -moz-box | -moz-inline-box
+     value: -moz-flex
+    --------^</pre></details></td></tr>
 <tr><td>215</td><td>⚠️</td><td>9gag.com</td><td>OK</td><td><details><summary>2 warnings</summary><pre>* The rest part of value can't to be matched on `-webkit-transition` syntax
     syntax: &lt;single-transition&gt;#
      value: opacity .1s ease 0
@@ -12934,13 +14341,34 @@ Update date: 2017-03-08T23:52:36.365Z
     syntax: &lt;length&gt; | &lt;percentage&gt; | auto
      value: -2px\9
     ------------^</pre></details></td></tr>
-<tr><td>218</td><td>⚠️</td><td>redtube.com</td><td><details><summary>Error</summary><pre>Parse error: Identifier is expected
+<tr><td>218</td><td>⚠️</td><td>redtube.com</td><td><details><summary>Error (patched)</summary><pre>Parse error: Identifier is expected
    43 |
    44 |
    45 |…7px;max-height:80px}#channelRegistration .form_username{(-bracket-:hack;margin-left:1px;)}.regForm…
 ----------------------------------------------------------------^
    46 |
-   47 |</pre></details></td><td>–</td></tr>
+   47 |</pre></details></td><td><details><summary>7 warnings (unique: 5)</summary><pre>* Invalid value for `font-size`
+    syntax: &lt;absolute-size&gt; | &lt;relative-size&gt; | &lt;length-percentage&gt;
+     value: &lt;empty string&gt;
+    --------^
+* Invalid value for `right`
+    syntax: &lt;length&gt; | &lt;percentage&gt; | auto
+     value: &lt;empty string&gt;
+    --------^
+* Invalid value for `font-size`
+    syntax: &lt;absolute-size&gt; | &lt;relative-size&gt; | &lt;length-percentage&gt;
+     value: &lt;empty string&gt;
+    --------^
+* Unknown property: textShadow
+* Unknown property: textShadow
+* Invalid value for `-moz-background-origin`
+    syntax: &lt;box&gt;#
+     value: 3px
+    --------^
+* Invalid value for `font-style`
+    syntax: normal | italic | oblique
+     value: none
+    --------^</pre></details></td></tr>
 <tr><td>219</td><td>⚠️</td><td>google.ch</td><td>OK</td><td><details><summary>13 warnings</summary><pre>* Invalid value for `opacity`
     syntax: &lt;number-zero-one&gt;
      value: 1\0/
@@ -14254,13 +15682,189 @@ Update date: 2017-03-08T23:52:36.365Z
     syntax: &lt;position&gt;#
      value: 0 -12px\9
     ---------------^</pre></details></td></tr>
-<tr><td>238</td><td>⚠️</td><td>rolloid.net</td><td><details><summary>Error</summary><pre>Parse error: RightParenthesis is expected
+<tr><td>238</td><td>⚠️</td><td>rolloid.net</td><td><details><summary>Error (patched)</summary><pre>Parse error: RightParenthesis is expected
     7 |
     8 |
     9 |…9bed 100%);background:-o-linear-gradient(top,#008be8 0%,@mobileu_gradient_two_mob 100%);background…
 ----------------------------------------------------------------^
    10 |
-   11 |</pre></details></td><td>–</td></tr>
+   11 |</pre></details><em>Missed substitutions</em></td><td><details><summary>48 warnings (unique: 33)</summary><pre>* Invalid value for `background`
+    syntax: [ &lt;bg-layer&gt; , ]* &lt;final-bg-layer&gt;
+     value: -webkit-gradient(left top,left bottom,color-stop(0%,#008be8),color-stop(100%,#0e9bed))
+    --------^
+* Invalid value for `background`
+    syntax: [ &lt;bg-layer&gt; , ]* &lt;final-bg-layer&gt;
+     value: -o-linear-gradient(top,#008be8 0%,mobileu_gradient_two_mob 100%)
+    --------^
+* Invalid value for `-moz-border-top-color`
+    syntax: &lt;color&gt;
+     value: none
+    --------^
+* Invalid value for `-moz-border-right-color`
+    syntax: &lt;color&gt;
+     value: none
+    --------^
+* Invalid value for `-moz-border-bottom-color`
+    syntax: &lt;color&gt;
+     value: none
+    --------^
+* Invalid value for `-moz-border-left-color`
+    syntax: &lt;color&gt;
+     value: none
+    --------^
+* Unknown property: text-justify
+* Invalid value for `-webkit-perspective`
+    syntax: none | &lt;length&gt;
+     value: 1000
+    --------^
+* Invalid value for `-ms-filter`
+    syntax: &lt;string&gt;
+     value: blur(0)
+    --------^
+* Invalid value for `-webkit-perspective`
+    syntax: none | &lt;length&gt;
+     value: 1000
+    --------^
+* Unknown property: webkit-transition
+* Invalid value for `-ms-filter`
+    syntax: &lt;string&gt;
+     value: blur(2px)
+    --------^
+* Invalid value for `width`
+    syntax: [ &lt;length&gt; | &lt;percentage&gt; ] &amp;&amp; [ border-box | content-box ]? | available | min-content | max-content | fit-content | auto
+     value: auto\9
+    --------^
+* Invalid value for `-webkit-perspective`
+    syntax: none | &lt;length&gt;
+     value: 1000
+    --------^
+* Unknown property: webkit-box-shadow
+* Unknown property: webkit-box-shadow
+* Invalid value for `background`
+    syntax: [ &lt;bg-layer&gt; , ]* &lt;final-bg-layer&gt;
+     value: -webkit-gradient(left top,left bottom,color-stop(0%,#333145),color-stop(100%,#b8333e))
+    --------^
+* Invalid value for `background`
+    syntax: [ &lt;bg-layer&gt; , ]* &lt;final-bg-layer&gt;
+     value: -webkit-gradient(left top,left bottom,color-stop(0%,#333145),color-stop(100%,#b8333e))
+    --------^
+* Invalid value for `background`
+    syntax: [ &lt;bg-layer&gt; , ]* &lt;final-bg-layer&gt;
+     value: -webkit-gradient(left bottom,right top,color-stop(0%,#4db2ec),color-stop(100%,#4a8f5e))
+    --------^
+* Invalid value for `background`
+    syntax: [ &lt;bg-layer&gt; , ]* &lt;final-bg-layer&gt;
+     value: -webkit-gradient(left bottom,right top,color-stop(0%,#d17646),color-stop(100%,#c63939))
+    --------^
+* Invalid value for `background`
+    syntax: [ &lt;bg-layer&gt; , ]* &lt;final-bg-layer&gt;
+     value: -webkit-gradient(left top,right bottom,color-stop(0%,#d760b7),color-stop(100%,#3b78b4))
+    --------^
+* Invalid value for `background`
+    syntax: [ &lt;bg-layer&gt; , ]* &lt;final-bg-layer&gt;
+     value: -webkit-gradient(left bottom,right top,color-stop(0%,#54a3db),color-stop(100%,#4bcf77))
+    --------^
+* Invalid value for `background`
+    syntax: [ &lt;bg-layer&gt; , ]* &lt;final-bg-layer&gt;
+     value: -webkit-gradient(left top,right bottom,color-stop(0%,#f4d03f),color-stop(100%,#f27a35))
+    --------^
+* Invalid value for `background`
+    syntax: [ &lt;bg-layer&gt; , ]* &lt;final-bg-layer&gt;
+     value: -webkit-gradient(left top,right bottom,color-stop(0%,#d760b7),color-stop(100%,#3b78b4))
+    --------^
+* Invalid value for `background`
+    syntax: [ &lt;bg-layer&gt; , ]* &lt;final-bg-layer&gt;
+     value: -webkit-gradient(left bottom,right top,color-stop(0%,#4db2ec),color-stop(100%,#4a8f5e))
+    --------^
+* Invalid value for `background`
+    syntax: [ &lt;bg-layer&gt; , ]* &lt;final-bg-layer&gt;
+     value: -webkit-gradient(left bottom,right top,color-stop(0%,#410cbc),color-stop(100%,#ff6f31))
+    --------^
+* Invalid value for `background`
+    syntax: [ &lt;bg-layer&gt; , ]* &lt;final-bg-layer&gt;
+     value: -webkit-gradient(left bottom,right top,color-stop(0%,#f4880d),color-stop(100%,#70ff99))
+    --------^
+* Invalid value for `background`
+    syntax: [ &lt;bg-layer&gt; , ]* &lt;final-bg-layer&gt;
+     value: -webkit-gradient(left bottom,right top,color-stop(0%,#c40f79),color-stop(100%,#7ebfff))
+    --------^
+* Invalid value for `background`
+    syntax: [ &lt;bg-layer&gt; , ]* &lt;final-bg-layer&gt;
+     value: -webkit-gradient(left bottom,right top,color-stop(0%,#0016be),color-stop(100%,#2aec74))
+    --------^
+* Invalid value for `background`
+    syntax: [ &lt;bg-layer&gt; , ]* &lt;final-bg-layer&gt;
+     value: -webkit-gradient(left bottom,right top,color-stop(0%,#023c8c),color-stop(100%,#ff86d3))
+    --------^
+* Invalid value for `background`
+    syntax: [ &lt;bg-layer&gt; , ]* &lt;final-bg-layer&gt;
+     value: -webkit-gradient(left bottom,right top,color-stop(0%,#00ac81),color-stop(100%,#ff778e))
+    --------^
+* Invalid value for `background`
+    syntax: [ &lt;bg-layer&gt; , ]* &lt;final-bg-layer&gt;
+     value: -webkit-gradient(left bottom,right top,color-stop(0%,#007808),color-stop(100%,#fff940))
+    --------^
+* Invalid value for `background`
+    syntax: [ &lt;bg-layer&gt; , ]* &lt;final-bg-layer&gt;
+     value: -webkit-gradient(left bottom,right top,color-stop(0%,#d17646),color-stop(100%,#c63939))
+    --------^
+* Invalid value for `background`
+    syntax: [ &lt;bg-layer&gt; , ]* &lt;final-bg-layer&gt;
+     value: -webkit-gradient(left top,right bottom,color-stop(0%,#d760b7),color-stop(100%,#3b78b4))
+    --------^
+* Invalid value for `background`
+    syntax: [ &lt;bg-layer&gt; , ]* &lt;final-bg-layer&gt;
+     value: -webkit-gradient(left bottom,right top,color-stop(0%,#4db2ec),color-stop(100%,#4a8f5e))
+    --------^
+* Invalid value for `background`
+    syntax: [ &lt;bg-layer&gt; , ]* &lt;final-bg-layer&gt;
+     value: -webkit-gradient(left bottom,right top,color-stop(0%,#d17646),color-stop(100%,#c63939))
+    --------^
+* Invalid value for `background`
+    syntax: [ &lt;bg-layer&gt; , ]* &lt;final-bg-layer&gt;
+     value: -webkit-gradient(left top,right bottom,color-stop(0%,rgba(244,208,63,0.97)),color-stop(100%,#f27a35))
+    --------^
+* Invalid value for `background`
+    syntax: [ &lt;bg-layer&gt; , ]* &lt;final-bg-layer&gt;
+     value: -webkit-gradient(left bottom,right top,color-stop(0%,#d17646),color-stop(100%,#c63939))
+    --------^
+* Invalid value for `background`
+    syntax: [ &lt;bg-layer&gt; , ]* &lt;final-bg-layer&gt;
+     value: -webkit-gradient(left top,right bottom,color-stop(0%,#d760b7),color-stop(100%,#3b78b4))
+    --------^
+* Invalid value for `background`
+    syntax: [ &lt;bg-layer&gt; , ]* &lt;final-bg-layer&gt;
+     value: -webkit-gradient(left bottom,right top,color-stop(0%,#4db2ec),color-stop(100%,#4a8f5e))
+    --------^
+* Invalid value for `background`
+    syntax: [ &lt;bg-layer&gt; , ]* &lt;final-bg-layer&gt;
+     value: -webkit-gradient(left bottom,right top,color-stop(0%,#4db2ec),color-stop(100%,#4a8f5e))
+    --------^
+* Invalid value for `background`
+    syntax: [ &lt;bg-layer&gt; , ]* &lt;final-bg-layer&gt;
+     value: -webkit-gradient(left top,right bottom,color-stop(0%,#b0b43b),color-stop(100%,rgba(145,96,81,0.97)))
+    --------^
+* The rest part of value can't to be matched on `background-position` syntax
+    syntax: &lt;position&gt;#
+     value: 0 -923
+    ----------^
+* Unknown property: ms-transform
+* The rest part of value can't to be matched on `background-size` syntax
+    syntax: &lt;bg-size&gt;#
+     value: 132px 37x
+    --------------^
+* Invalid value for `padding-right`
+    syntax: &lt;length&gt; | &lt;percentage&gt;
+     value: auto
+    --------^
+* Invalid value for `top`
+    syntax: &lt;length&gt; | &lt;percentage&gt; | auto
+     value: 0\9
+    --------^
+* The rest part of value can't to be matched on `background-size` syntax
+    syntax: &lt;bg-size&gt;#
+     value: 132px 37x
+    --------------^</pre></details></td></tr>
 <tr><td>239</td><td>⚠️</td><td>google.ae</td><td>OK</td><td><details><summary>13 warnings</summary><pre>* Invalid value for `opacity`
     syntax: &lt;number-zero-one&gt;
      value: 1\0/
@@ -14580,13 +16184,56 @@ Update date: 2017-03-08T23:52:36.365Z
     --------^</pre></details></td></tr>
 <tr><td>243</td><td>⚠️</td><td>bp.blogspot.com</td><td colspan="2">–</td></tr>
 <tr><td>244</td><td>⚠️</td><td>wordreference.com</td><td>OK</td><td><details><summary>1 warning</summary><pre>* Unknown property: webkit-box-shadow</pre></details></td></tr>
-<tr><td>245</td><td>⚠️</td><td>livejournal.com</td><td><details><summary>Error</summary><pre>Parse error: Identifier is expected
+<tr><td>245</td><td>⚠️</td><td>livejournal.com</td><td><details><summary>Error (patched)</summary><pre>Parse error: Identifier is expected
    76 |
    77 |
    78 |…ke--v4 .b-flatrepost-reposted .b-flatrepost-name:before. .lj-like--v4 .b-flatrepost-reposted .b-fl…
 ----------------------------------------------------------------^
    79 |
-   80 |</pre></details></td><td>–</td></tr>
+   80 |</pre></details></td><td><details><summary>11 warnings (unique: 8)</summary><pre>* Invalid value for `-webkit-overflow-scrolling`
+    syntax: auto | touch
+     value: none
+    --------^
+* Invalid value for `-webkit-transform-origin`
+    syntax: [ [ &lt;length-percentage&gt; | left | center | right ] &amp;&amp; [ &lt;length-percentage&gt; | top | center | bottom ] ] &lt;length&gt;? | [ &lt;length-percentage&gt; | left | center | right | top | bottom ]
+     value: none
+    --------^
+* Invalid value for `-ms-transform-origin`
+    syntax: [ [ &lt;length-percentage&gt; | left | center | right ] &amp;&amp; [ &lt;length-percentage&gt; | top | center | bottom ] ] &lt;length&gt;? | [ &lt;length-percentage&gt; | left | center | right | top | bottom ]
+     value: none
+    --------^
+* Invalid value for `transform-origin`
+    syntax: [ [ &lt;length-percentage&gt; | left | center | right ] &amp;&amp; [ &lt;length-percentage&gt; | top | center | bottom ] ] &lt;length&gt;? | [ &lt;length-percentage&gt; | left | center | right | top | bottom ]
+     value: none
+    --------^
+* Invalid value for `-webkit-transform-origin`
+    syntax: [ [ &lt;length-percentage&gt; | left | center | right ] &amp;&amp; [ &lt;length-percentage&gt; | top | center | bottom ] ] &lt;length&gt;? | [ &lt;length-percentage&gt; | left | center | right | top | bottom ]
+     value: none
+    --------^
+* Invalid value for `-ms-transform-origin`
+    syntax: [ [ &lt;length-percentage&gt; | left | center | right ] &amp;&amp; [ &lt;length-percentage&gt; | top | center | bottom ] ] &lt;length&gt;? | [ &lt;length-percentage&gt; | left | center | right | top | bottom ]
+     value: none
+    --------^
+* Invalid value for `transform-origin`
+    syntax: [ [ &lt;length-percentage&gt; | left | center | right ] &amp;&amp; [ &lt;length-percentage&gt; | top | center | bottom ] ] &lt;length&gt;? | [ &lt;length-percentage&gt; | left | center | right | top | bottom ]
+     value: none
+    --------^
+* The rest part of value can't to be matched on `-webkit-transition` syntax
+    syntax: &lt;single-transition&gt;#
+     value: -webkit-transform 1s easy 0
+    -----------------------------^
+* The rest part of value can't to be matched on `transition` syntax
+    syntax: &lt;single-transition&gt;#
+     value: -webkit-transform 1s easy 0
+    -----------------------------^
+* The rest part of value can't to be matched on `transition` syntax
+    syntax: &lt;single-transition&gt;#
+     value: transform 1s easy 0
+    ---------------------^
+* The rest part of value can't to be matched on `transition` syntax
+    syntax: &lt;single-transition&gt;#
+     value: transform 1s easy 0,-webkit-transform 1s easy 0
+    ---------------------^</pre></details></td></tr>
 <tr><td>246</td><td>🆗</td><td>skype.com</td><td>OK</td><td>OK</td></tr>
 <tr><td>247</td><td>⚠️</td><td>39.net</td><td><details><summary>Error</summary><pre>Parse error: Identifier is expected
   369 |.m_yyk_yh_list li { line-height: 24px; white-space: nowrap; overflow: hidden; float: none; }

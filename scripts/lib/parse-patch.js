@@ -189,7 +189,7 @@ module.exports = {
             return css.replace(/filter:filter\(/g, 'filter:alpha(');
         }
     },
-    'taobao.com': {
+    'rolloid.net': {
         comment: 'Missed substitutions',
         patch: function(css) {
             return css
@@ -323,6 +323,77 @@ module.exports = {
     'nih.gov': {
         patch: function(css) {
             return css.replace(/, {/g, ' {');
+        }
+    },
+    'abs-cbn.com': {
+        patch: function(css) {
+            return css
+                .replace(/filter:DXImageTransform/g, 'filter:progid:DXImageTransform')
+                .replace(/(@me\s*)?<!--.*?-->/g, '');
+        }
+    },
+    'washingtonpost.com': {
+        patch: function(css) {
+            return css.replace(/@media {/g, '@media all {');
+        }
+    },
+    'youm7.com': {
+        patch: function(css) {
+            return css
+                .replace(/.\s+col-sm-9/g, '.col-sm-9')
+                .replace(/background-repeat no-repeat;/, 'background-repeat: no-repeat;')
+                .replace(/@container-desktop/, '\\@container-desktop')
+                .replace('<a href="../../Models/News.cs" > ../../Models/News.cs</a >', '')
+                .replace(/#Srcform {\s+}/, '#Srcform {')
+                .replace(/div\.frmdata select\s+}/, '');
+        }
+    },
+    'etsy.com': {
+        patch: function(css) {
+            return css.replace(/:nth-child(n2)/g, ':nth-child(2n)');
+        }
+    },
+    'slack.com': {
+        patch: function(css) {
+            return css.replace(/@media 480px/g, '@media \\480px');
+        }
+    },
+    'redtube.com': {
+        patch: function(css) {
+            return css.replace(/\(-bracket-:hack;(margin-left:\dpx;)\)/g, '$1');
+        }
+    },
+    'rambler.ru': {
+        patch: function(css) {
+            return css.replace(/\/\/ Для IE8/g, '');
+        }
+    },
+    'livejournal.com': {
+        patch: function(css) {
+            return css.replace(/\. \.lj-like--v4/g, ' .lj-like--v4');
+        }
+    },
+    'wittyfeed.com': {
+        patch: function(css) {
+            return css
+                .replace(/top:3px width:/g, 'top:3px; width:')
+                .replace(/svg\. \.error/, 'svg .error')
+                .replace(/input::{/, 'input{');
+        }
+    },
+    'weebly.com': {
+        patch: function(css) {
+            return css
+                .replace(
+                    /@media screen and \(-webkit-min-device-pixel-ratio: 0\){font-family:/g,
+                    '@font-face{font-family:'
+                )
+                .replace(/::--webkit/g, '::-webkit');
+        }
+    },
+    'kinogo.club': {
+        patch: function(css) {
+            return css.replace(/(resolution=0)/g, '(resolution:0)');
         }
     }
 }
