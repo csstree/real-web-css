@@ -10,27 +10,12 @@ module.exports = {
             return css.replace(/\*\|:/g, ':');
         }
     },
-    'amazon.de': {
-        patch: function(css) {
-            return css.replace(/\*\|:/g, ':');
-        }
-    },
     'amazon.in': {
         patch: function(css) {
             return css.replace(/\*\|:/g, ':');
         }
     },
-    'amazon.co.uk': {
-        patch: function(css) {
-            return css.replace(/\*\|:/g, ':');
-        }
-    },
     'amazon.co.jp': {
-        patch: function(css) {
-            return css.replace(/\*\|:/g, ':');
-        }
-    },
-    'amazon.fr': {
         patch: function(css) {
             return css.replace(/\*\|:/g, ':');
         }
@@ -273,12 +258,6 @@ module.exports = {
     'ntd.tv': {
         patch: function(css) {
             return css.replace(/;s}/gi, ';}');
-        }
-    },
-    'dropbox.com': {
-        comment: 'Missed preprocessor function',
-        patch: function(css) {
-            return css.replace(/ selector-append\(/gi, ':selector-append(');
         }
     },
     'adf.ly': {

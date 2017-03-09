@@ -5,7 +5,7 @@ Using [CSSTree](https://github.com/csstree/csstree) for real site CSS
 
 <!-- date -->
 
-Update date: 2017-03-09T18:53:55.866Z
+Update date: 2017-03-09T18:58:00.774Z
 
 <!-- /date -->
 
@@ -2830,7 +2830,7 @@ Invalid value for `background-image`
      value: linear-gradient(bottom,rgba(0,0,0,.2),rgba(0,0,0,0))
     --------^</pre></details></td></tr>
 <tr><td>84</td><td>⚠️</td><td>xhamster.com</td><td colspan="2">–</td></tr>
-<tr><td>85</td><td>⚠️</td><td>dropbox.com</td><td>OK<br><em>No patch needed</em></td><td><details><summary>7 warnings</summary><pre>Invalid value for `background-image`
+<tr><td>85</td><td>⚠️</td><td>dropbox.com</td><td>OK</td><td><details><summary>7 warnings</summary><pre>Invalid value for `background-image`
     syntax: &lt;bg-image&gt;#
      value: -webkit-linear-gradient(to right bottom,rgba(255,255,255,0.25) 0%,r…
     --------^
@@ -2856,7 +2856,7 @@ The rest part of value can't to be matched on `flex` syntax
      value: 1 auto 0
     ---------------^</pre></details></td></tr>
 <tr><td>86</td><td>⚠️</td><td>googleusercontent.com</td><td colspan="2">–</td></tr>
-<tr><td>87</td><td>⚠️</td><td>amazon.de</td><td>OK<br><em>No patch needed</em></td><td><details><summary>27 warnings</summary><pre>Invalid value for `background` × 2
+<tr><td>87</td><td>⚠️</td><td>amazon.de</td><td>OK</td><td><details><summary>27 warnings</summary><pre>Invalid value for `background` × 2
     syntax: [ &lt;bg-layer&gt; , ]* &lt;final-bg-layer&gt;
      value: linear-gradient(top,#f7f8fa,#e7e9ec)
     --------^
@@ -3759,7 +3759,7 @@ The rest part of value can't to be matched on `transform` syntax
      value: translateZ(0),rotate(45deg)
     ---------------------^</pre></details></td></tr>
 <tr><td>105</td><td>⚠️</td><td>china.com</td><td colspan="2">–</td></tr>
-<tr><td>106</td><td>⚠️</td><td>amazon.co.uk</td><td>OK<br><em>No patch needed</em></td><td><details><summary>27 warnings</summary><pre>Invalid value for `background` × 2
+<tr><td>106</td><td>⚠️</td><td>amazon.co.uk</td><td>OK</td><td><details><summary>27 warnings</summary><pre>Invalid value for `background` × 2
     syntax: [ &lt;bg-layer&gt; , ]* &lt;final-bg-layer&gt;
      value: linear-gradient(top,#f7f8fa,#e7e9ec)
     --------^
@@ -8486,7 +8486,7 @@ Invalid value for `box-shadow`
 ----------------------------------------------------------------^
 </pre></details><em>Missed trailing curly bracket</em></td><td>OK</td></tr>
 <tr><td>227</td><td>🆗</td><td>fbcdn.net</td><td>OK</td><td>OK</td></tr>
-<tr><td>228</td><td>⚠️</td><td>amazon.fr</td><td>OK<br><em>No patch needed</em></td><td><details><summary>27 warnings</summary><pre>Invalid value for `background` × 2
+<tr><td>228</td><td>⚠️</td><td>amazon.fr</td><td>OK</td><td><details><summary>27 warnings</summary><pre>Invalid value for `background` × 2
     syntax: [ &lt;bg-layer&gt; , ]* &lt;final-bg-layer&gt;
      value: linear-gradient(top,#f7f8fa,#e7e9ec)
     --------^
