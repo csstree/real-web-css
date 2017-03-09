@@ -46,12 +46,12 @@ inject('table',
 
     '<table>\n' +
     '<thead>\n' +
-      '<tr><th>' + ['#', 'Site', '', 'Parsing', 'Validation'].join('</th><th>') + '</th></tr>\n' +
+      '<tr><th>' + ['#', '', 'Site', 'Parsing', 'Validation'].join('</th><th>') + '</th></tr>\n' +
     '</thead>\n' +
     reports.map(function(report, idx) {
         var uniqueWarnings = 0;
         var cells = [
-            idx,
+            idx + 1,
             report.downloaded && !report.error && !report.validation ? '🆗' : '⚠️',
             report.name
         ];
