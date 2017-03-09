@@ -45,12 +45,21 @@ function formatErrors(errors) {
     var output = [];
 
     if (Array.isArray(errors)) {
-        output.push.apply(output, errors.map(function(item) {
-            return '* ' +
-                String(item.error.message || item.error)
-                    .replace(/^[^\n]+/, item.message)
-                    .replace(/\n/g, '\n  ');
-        }));
+        var map = errors.reduce(function(map, item) {
+            var msg = String(item.error.message || item.error)
+                        .replace(/^[^\n]+/, item.message)
+                        .replace(/\n/g, '\n  ')
+            map[msg] = (map[msg] || 0) + 1;
+            return map;
+        }, {});
+
+        for (var key in map) {
+            output.push(
+                map[key] > 1
+                ? key.replace(/\n|$/, ' × ' + map[key] + '$&')
+                : key
+            );
+        }
     } else {
         output.push('[ERROR] ' + errors);
     }
@@ -116,8 +125,8 @@ var reports = sites.map(function(url, idx) {
 
             var errors = validate(ast);
             if (errors.length) {
-                console.log('  Warnings: ' + errors.length);
                 report.validation = formatErrors(errors);
+                console.log('  Warnings: ' + report.validation.length);
             } else {
                 console.log('  No warnings');
             }
