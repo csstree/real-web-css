@@ -5,7 +5,7 @@ Using [CSSTree](https://github.com/csstree/csstree) for real site CSS
 
 <!-- date -->
 
-Update date: 2017-03-09T17:52:12.017Z
+Update date: 2017-03-09T18:53:55.866Z
 
 <!-- /date -->
 
@@ -13,9 +13,9 @@ Update date: 2017-03-09T17:52:12.017Z
 <!-- table -->
 
 * Sites: `250`
-* Downloaded: `231` (19 failed)
-* Parsed: `212` (19 failed)
-* Validation passed: `39` (173 failed)
+* Downloaded: `234` (16 failed)
+* Parsed: `212` (22 failed)
+* Validation passed: `23` (189 failed)
 
 <table>
 <thead>
@@ -79,7 +79,7 @@ Invalid value for `background-image`
     7 |…p:0;bottom:0;background:rgba(0,0,0,.7);background:progid:DXImageTransform.Microsoft.gradient(start…
 ----------------------------------------------------------------^
     8 |
-    9 |…xt{text-align:center;font-size:13px;font-weight:500;text-transform:none}.expanded-shelf-content-it…</pre></details><em>Using `progid` for `background` property</em></td><td><details><summary>24 warnings</summary><pre>Invalid value for `background`
+    9 |…xt{text-align:center;font-size:13px;font-weight:500;text-transform:none}.expanded-shelf-content-it…</pre></details><em>Using `progid` for `background` property</em></td><td><details><summary>17 warnings</summary><pre>Invalid value for `background`
     syntax: [ &lt;bg-layer&gt; , ]* &lt;final-bg-layer&gt;
      value: "progid:DXImageTransform.Microsoft.gradient(startColorStr='#B200000…
     --------^
@@ -146,100 +146,15 @@ Invalid value for `transition-delay`
 Invalid value for `background`
     syntax: [ &lt;bg-layer&gt; , ]* &lt;final-bg-layer&gt;
      value: "progid:DXImageTransform.Microsoft.gradient(startColorStr='#9800000…
-    --------^
-Invalid value for `-webkit-font-smoothing`
-    syntax: none | antialiased | subpixel-antialiased
-     value: auto
-    --------^
-Invalid value for `-ms-filter`
-    syntax: &lt;string&gt;
-     value: blur(9px)
-    --------^
-Invalid value for `-ms-filter`
-    syntax: &lt;string&gt;
-     value: blur(20px)
-    --------^
-Invalid value for `background-image`
-    syntax: &lt;bg-image&gt;#
-     value: linear-gradient(top,rgba(20,20,20,0.6),rgba(209,209,209,0.6))
-    --------^
-Invalid value for `background-image`
-    syntax: &lt;bg-image&gt;#
-     value: linear-gradient(top,rgba(0,0,0,0.8),rgba(0,0,0,0.7) 40%,rgba(0,0,0,…
-    --------^
-Invalid value for `background-image`
-    syntax: &lt;bg-image&gt;#
-     value: linear-gradient(bottom,rgba(0,0,0,0.5),rgba(0,0,0,0.4) 60%,rgba(0,0…
-    --------^
-Invalid value for `background-image`
-    syntax: &lt;bg-image&gt;#
-     value: linear-gradient(top,#ffec7b,#dea405)
     --------^</pre></details></td></tr>
 <tr><td>3</td><td>🆗</td><td>facebook.com</td><td>OK</td><td>OK</td></tr>
 <tr><td>4</td><td>⚠️</td><td>baidu.com</td><td colspan="2">–</td></tr>
-<tr><td>5</td><td>⚠️</td><td>yahoo.com</td><td><details><summary>Error (patched)</summary><pre>Parse error: PercentSign is expected
-  607 |
-  608 |
-  609 |…rtant}#atomic .Hy\(n\){hyphens:normal}#atomic .Lts\(-.31em\){letter-spacing:.31em}#atomic .Lts\(-0…
+<tr><td>5</td><td>⚠️</td><td>yahoo.com</td><td><details><summary>Error (patched)</summary><pre>Parse error: RightParenthesis is expected
+  689 |…017, Yahoo! Inc.  All rights reserved. */
+  690 |…asterWrap #my-adsLREC{margin-top:0}#applet_sidekicktv .js-stv-title{margin-bottom:4px}/* Copyright…
+  691 |…Copyright (c) 2017, Yahoo! Inc.  All rights reserved. */
 ----------------------------------------------------------------^
-  610 |
-  611 |…-grey,.Themable .ThemeReset .C-grey{color:#8d919d}.C-p-dark,.Themable .ThemeReset .C-p-dark{color:…</pre></details><em>Unescaped comma in class</em></td><td><details><summary>18 warnings</summary><pre>Invalid value for `display` × 2
-    syntax: none | inline | block | list-item | inline-list-item | inline-block…
-     value: compact
-    --------^
-Invalid value for `-ms-filter`
-    syntax: &lt;string&gt;
-     value: blur(30px)
-    --------^
-Invalid value for `hyphens`
-    syntax: none | manual | auto
-     value: normal
-    --------^
-Invalid value for `opacity`
-    syntax: &lt;number-zero-one&gt;
-     value: 33%
-    --------^
-Invalid value for `padding-top`
-    syntax: &lt;length&gt; | &lt;percentage&gt;
-     value: 10
-    --------^
-Invalid value for `padding-bottom`
-    syntax: &lt;length&gt; | &lt;percentage&gt;
-     value: 10
-    --------^
-Invalid value for `background-image`
-    syntax: &lt;bg-image&gt;#
-     value: -ms-linear-gradient(to bottom,#fff,#e6e6e6)
-    --------^
-Invalid value for `background-image`
-    syntax: &lt;bg-image&gt;#
-     value: linear-gradient(top,#4ab5f7 0,#35a2ec 58%,#2e9ee7 100%)
-    --------^
-Unknown property: -ms-font-smoothing × 2
-Unknown property: -o-font-smoothing × 2
-Unknown property: font-smoothing × 4
-Unknown property: -moz-font-smoothing
-Unknown property: font-smooth
-Invalid value for `height`
-    syntax: [ &lt;length&gt; | &lt;percentage&gt; ] &amp;&amp; [ border-box | content-box ]? | avai…
-     value: 2.5
-    --------^
-Invalid value for `-webkit-perspective`
-    syntax: none | &lt;length&gt;
-     value: 1000
-    --------^
-Invalid value for `-moz-perspective`
-    syntax: none | &lt;length&gt;
-     value: 1000
-    --------^
-Invalid value for `-o-perspective`
-    syntax: none | &lt;length&gt;
-     value: 1000
-    --------^
-Invalid value for `perspective`
-    syntax: none | &lt;length&gt;
-     value: 1000
-    --------^</pre></details></td></tr>
+  692 |</pre></details><em>Unescaped comma in class</em></td><td>–</td></tr>
 <tr><td>6</td><td>🆗</td><td>wikipedia.org</td><td><details><summary>Error (patched)</summary><pre>Parse error: Identifier `important` is expected
     2 |
     3 |
@@ -313,7 +228,7 @@ The rest part of value can't to be matched on `font` syntax
   158 |…arch-imgsearch-panel input{opacity:0;filter:filter(alpha=0)}.search-imgsearch-panel .search-imgsea…
 ----------------------------------------------------------------^
   159 |
-  160 |</pre></details><em>Used `filter()` instead of `alpha()`</em></td><td><details><summary>31 warnings</summary><pre>Invalid value for `background-image`
+  160 |</pre></details><em>Used `filter()` instead of `alpha()`</em></td><td><details><summary>23 warnings</summary><pre>Invalid value for `background-image`
     syntax: &lt;bg-image&gt;#
      value: -webkit-image-set(url(//img.alicdn.com/tps/i1/TB1qC0rIVXXXXbjaXXXH0…
     --------^
@@ -404,38 +319,6 @@ Invalid value for `background-image`
 Invalid value for `background-image`
     syntax: &lt;bg-image&gt;#
      value: -o-image-set(url(//img.alicdn.com/tps/i1/TB1JUgwLVXXXXcHXXXXSBl3GVX…
-    --------^
-Invalid value for `display`
-    syntax: none | inline | block | list-item | inline-list-item | inline-block…
-     value: auto
-    --------^
-Invalid value for `background`
-    syntax: [ &lt;bg-layer&gt; , ]* &lt;final-bg-layer&gt;
-     value: linear-gradient(top,#29910d 0%,#20af0e 100%)
-    --------^
-Invalid value for `background-image`
-    syntax: &lt;bg-image&gt;#
-     value: linear-gradient(top,#f5f5f5,#f1f1f1)
-    --------^
-Invalid value for `background-image`
-    syntax: &lt;bg-image&gt;#
-     value: linear-gradient(top,#f8f8f8,#f1f1f1)
-    --------^
-Invalid value for `background-image`
-    syntax: &lt;bg-image&gt;#
-     value: linear-gradient(top,#f6f6f6,#f1f1f1)
-    --------^
-Invalid value for `background-image`
-    syntax: &lt;bg-image&gt;#
-     value: linear-gradient(top,#eeeeee,#e0e0e0)
-    --------^
-Invalid value for `background-image`
-    syntax: &lt;bg-image&gt;#
-     value: linear-gradient(top,#4d90fe,#4787ed)
-    --------^
-Invalid value for `background-image`
-    syntax: &lt;bg-image&gt;#
-     value: linear-gradient(top,#4d90fe,#357ae8)
     --------^</pre></details></td></tr>
 <tr><td>10</td><td>⚠️</td><td>sohu.com</td><td><details><summary>Error (patched)</summary><pre>Parse error: Unexpected input
   788 |#sohuTools .list14 span{margin:0 5px;float:left; display:inline;}
@@ -593,7 +476,99 @@ The rest part of value can't to be matched on `background-image` syntax × 9
     syntax: [ &lt;length&gt; | &lt;percentage&gt; ] &amp;&amp; [ border-box | content-box ]? | avai…
      value: device-width
     --------^</pre></details></td></tr>
-<tr><td>14</td><td>🆗</td><td>amazon.com</td><td>OK<br><em>No patch needed</em></td><td>OK</td></tr>
+<tr><td>14</td><td>⚠️</td><td>amazon.com</td><td><details><summary>Error (patched)</summary><pre>Parse error: Identifier or asterisk is expected
+  115 |
+  116 |
+  117 |…color:#FFF;vertical-align:baseline;white-space:nowrap}*|:-moz-full-screen-ancestor{transform:initi…
+----------------------------------------------------------------^
+</pre></details></td><td><details><summary>22 warnings</summary><pre>Invalid value for `border-color`
+    syntax: &lt;color&gt;{1,4}
+     value: &lt;empty string&gt;
+    --------^
+Invalid value for `color` × 4
+    syntax: &lt;color&gt;
+     value: &lt;empty string&gt;
+    --------^
+Invalid value for `background-color` × 10
+    syntax: &lt;color&gt;
+     value: &lt;empty string&gt;
+    --------^
+Invalid value for `background`
+    syntax: [ &lt;bg-layer&gt; , ]* &lt;final-bg-layer&gt;
+     value: -webkit-linear-gradient(to right,#f6f6f6,rgba(255,255,255,0),#f6f6f…
+    --------^
+Invalid value for `background`
+    syntax: [ &lt;bg-layer&gt; , ]* &lt;final-bg-layer&gt;
+     value: -webkit-linear-gradient(to bottom,rgba(0,0,0,.14),rgba(0,0,0,.03) 3…
+    --------^
+Invalid value for `background`
+    syntax: [ &lt;bg-layer&gt; , ]* &lt;final-bg-layer&gt;
+     value: -webkit-linear-gradient(to right,#fff,rgba(255,255,255,0),#fff)
+    --------^
+Invalid value for `margin-right`
+    syntax: &lt;length&gt; | &lt;percentage&gt; | auto
+     value: none
+    --------^
+Invalid value for `background`
+    syntax: [ &lt;bg-layer&gt; , ]* &lt;final-bg-layer&gt;
+     value: &lt;empty string&gt;
+    --------^
+Invalid value for `-ms-filter`
+    syntax: &lt;string&gt;
+     value: opacity(.6)
+    --------^
+Invalid value for `display`
+    syntax: none | inline | block | list-item | inline-list-item | inline-block…
+     value: hidden
+    --------^
+Invalid value for `-ms-filter`
+    syntax: &lt;string&gt;
+     value: opacity(.95)
+    --------^
+Invalid value for `-ms-filter`
+    syntax: &lt;string&gt;
+     value: opacity(0)
+    --------^
+Invalid value for `background`
+    syntax: [ &lt;bg-layer&gt; , ]* &lt;final-bg-layer&gt;
+     value: -webkit-gradient(linear,left top,left bottom,color-stop(0,#ddd),col…
+    --------^
+Invalid value for `background`
+    syntax: [ &lt;bg-layer&gt; , ]* &lt;final-bg-layer&gt;
+     value: linear-gradient(top,#ddd,#f7f7f7 3px,#fff)
+    --------^
+Invalid value for `background`
+    syntax: [ &lt;bg-layer&gt; , ]* &lt;final-bg-layer&gt;
+     value: linear-gradient(left,#fff,rgba(255,255,255,0),#fff)
+    --------^
+The rest part of value can't to be matched on `-webkit-box-flex` syntax × 2
+    syntax: &lt;number&gt;
+     value: 1 1 auto
+    ----------^
+The rest part of value can't to be matched on `-moz-box-flex` syntax × 2
+    syntax: &lt;number&gt;
+     value: 1 1 auto
+    ----------^
+Invalid value for `vertical-align`
+    syntax: baseline | sub | super | text-top | text-bottom | middle | top | bo…
+     value: center
+    --------^
+Invalid value for `background-image`
+    syntax: &lt;bg-image&gt;#
+     value: -webkit-linear-gradient(to bottom,#cb0400,#a50200)
+    --------^
+Invalid value for `background-image`
+    syntax: &lt;bg-image&gt;#
+     value: -moz-linear-gradient(to bottom,#cb0400,#a50200)
+    --------^
+Invalid value for `background-image`
+    syntax: &lt;bg-image&gt;#
+     value: -ms-linear-gradient(to bottom,#cb0400,#a50200)
+    --------^
+Invalid value for `background-image`
+    syntax: &lt;bg-image&gt;#
+     value: -o-linear-gradient(to bottom,#cb0400,#a50200)
+    --------^</pre></details></td></tr>
 <tr><td>15</td><td>⚠️</td><td>vk.com</td><td>OK</td><td><details><summary>3 warnings</summary><pre>Invalid value for `-webkit-perspective` × 2
     syntax: none | &lt;length&gt;
      value: 1000
@@ -1102,8 +1077,7 @@ Invalid value for `background-image`
     syntax: &lt;bg-image&gt;#
      value: linear-gradient(bottom,rgba(0,0,0,.2),rgba(0,0,0,0))
     --------^</pre></details></td></tr>
-<tr><td>33</td><td>⚠️</td><td>detail.tmall.com</td><td>OK</td><td><details><summary>2 warnings</summary><pre>Unknown property: dispaly
-Invalid value for `filter`
+<tr><td>33</td><td>⚠️</td><td>detail.tmall.com</td><td>OK</td><td><details><summary>1 warning</summary><pre>Invalid value for `filter`
     syntax: none | &lt;filter-function-list&gt; | &lt;-ms-filter&gt;
      value: mask()
     --------^</pre></details></td></tr>
@@ -1159,7 +1133,28 @@ Invalid value for `background-image`
     syntax: &lt;bg-image&gt;#
      value: linear-gradient(bottom,rgba(0,0,0,.2),rgba(0,0,0,0))
     --------^</pre></details></td></tr>
-<tr><td>35</td><td>🆗</td><td>ebay.com</td><td>OK<br><em>No patch needed</em></td><td>OK</td></tr>
+<tr><td>35</td><td>⚠️</td><td>ebay.com</td><td><details><summary>Error (patched)</summary><pre>Parse error: Unexpected input
+    5 |
+    6 |
+    7 |…idth:100%;height:100%;background:#000;opacity:.6;filter:~"alpha(opacity=60)";filter:~"progid:DXIma…
+----------------------------------------------------------------^
+    8 |
+    9 |</pre></details><em>Unprocessed Less escaping</em></td><td><details><summary>4 warnings</summary><pre>Invalid value for `background`
+    syntax: [ &lt;bg-layer&gt; , ]* &lt;final-bg-layer&gt;
+     value: linear-gradient(left,#fff,#e8e8e8,#e8e8e8,#e8e8e8,#fff)
+    --------^
+The rest part of value can't to be matched on `border` syntax
+    syntax: &lt;br-width&gt; || &lt;br-style&gt; || &lt;color&gt;
+     value: 1px solid transparent #0065b0
+    ------------------------------^
+Invalid value for `text-shadow`
+    syntax: none | &lt;shadow-t&gt;#
+     value: 0
+    --------^
+Invalid value for `background`
+    syntax: [ &lt;bg-layer&gt; , ]* &lt;final-bg-layer&gt;
+     value: linear-gradient(left,rgba(247,247,247,0) 0,rgba(247,247,247,0.9) 6%…
+    --------^</pre></details></td></tr>
 <tr><td>36</td><td>⚠️</td><td>google.es</td><td>OK</td><td><details><summary>13 warnings</summary><pre>The rest part of value can't to be matched on `opacity` syntax
     syntax: &lt;number-zero-one&gt;
      value: 1\0/
@@ -1212,7 +1207,14 @@ Invalid value for `background-image`
     syntax: &lt;bg-image&gt;#
      value: linear-gradient(bottom,rgba(0,0,0,.2),rgba(0,0,0,0))
     --------^</pre></details></td></tr>
-<tr><td>37</td><td>🆗</td><td>msn.com</td><td>OK</td><td>OK</td></tr>
+<tr><td>37</td><td>⚠️</td><td>msn.com</td><td>OK</td><td><details><summary>2 warnings</summary><pre>Invalid value for `color` × 2
+    syntax: &lt;color&gt;
+     value: .4px
+    --------^
+Invalid value for `filter`
+    syntax: none | &lt;filter-function-list&gt; | &lt;-ms-filter&gt;
+     value: 0
+    --------^</pre></details></td></tr>
 <tr><td>38</td><td>⚠️</td><td>bing.com</td><td>OK</td><td><details><summary>4 warnings</summary><pre>Invalid value for `-ms-scroll-snap-points-x`
     syntax: none | repeat( &lt;length-percentage&gt; )
      value: snapInterval(0,150px)
@@ -1234,14 +1236,40 @@ The rest part of value can't to be matched on `background` syntax
 </pre></details></td><td>–</td></tr>
 <tr><td>40</td><td>🆗</td><td>t.co</td><td>OK</td><td>OK</td></tr>
 <tr><td>41</td><td>🆗</td><td>onclkds.com</td><td>OK</td><td>OK</td></tr>
-<tr><td>42</td><td>🆗</td><td>ok.ru</td><td>OK</td><td>OK</td></tr>
+<tr><td>42</td><td>⚠️</td><td>ok.ru</td><td>OK</td><td><details><summary>18 warnings</summary><pre>Unknown property: x
+Unknown property: y
+Unknown property: viewBox
+Invalid value for `background`
+    syntax: [ &lt;bg-layer&gt; , ]* &lt;final-bg-layer&gt;
+     value: linear-gradient(left,rgba(255,255,255,0) 0,#fff 80%)
+    --------^
+Unknown property: -moz-user-drag × 2
+Unknown property: -ms-user-drag × 2
+Unknown property: -o-user-drag × 2
+Unknown property: user-drag × 2
+Unknown property: bacground-color × 4
+Invalid value for `transition-delay`
+    syntax: &lt;time&gt;#
+     value: 0
+    --------^
+Unknown property: scrollbar-face-color
+Unknown property: scrollbar-arrow-color
+Unknown property: scrollbar-track-color
+Unknown property: scrollbar-shadow-color
+Unknown property: scrollbar-highlight-color
+Unknown property: scrollbar-3dlight-color
+Unknown property: scrollbar-darkshadow-Color
+The rest part of value can't to be matched on `transition` syntax
+    syntax: &lt;single-transition&gt;#
+     value: opacity .3s,visibility 0 .3s
+    -------------------------------^</pre></details></td></tr>
 <tr><td>43</td><td>⚠️</td><td>ntd.tv</td><td><details><summary>Error (patched)</summary><pre>Parse error: Colon is expected
-   25 |
-   26 |
-   27 |…color:#131313;}.daynight_dark_skin a.button{color:#fff;s}.daynight_dark_skin .header_search .searc…
+   80 |
+   81 |
+   82 |…color:#131313;}.daynight_dark_skin a.button{color:#fff;s}.daynight_dark_skin .header_search .searc…
 ----------------------------------------------------------------^
-   28 |
-   29 |</pre></details></td><td><details><summary>22 warnings</summary><pre>Invalid value for `-webkit-box-shadow`
+   83 |
+   84 |</pre></details></td><td><details><summary>22 warnings</summary><pre>Invalid value for `-webkit-box-shadow`
     syntax: none | &lt;shadow&gt;#
      value: '' 0 1px 4px rgba(0,0,0,0.2)
     --------^
@@ -1379,7 +1407,9 @@ Invalid value for `background-image`
     syntax: &lt;bg-image&gt;#
      value: linear-gradient(bottom,rgba(0,0,0,.2),rgba(0,0,0,0))
     --------^</pre></details></td></tr>
-<tr><td>46</td><td>🆗</td><td>netflix.com</td><td>OK</td><td>OK</td></tr>
+<tr><td>46</td><td>⚠️</td><td>netflix.com</td><td>OK</td><td><details><summary>3 warnings</summary><pre>Unknown property: -webkit-margin-before
+Unknown property: -webkit-margin-after
+Unknown property: min-font-size</pre></details></td></tr>
 <tr><td>47</td><td>⚠️</td><td>google.com.mx</td><td>OK</td><td><details><summary>13 warnings</summary><pre>The rest part of value can't to be matched on `opacity` syntax
     syntax: &lt;number-zero-one&gt;
      value: 1\0/
@@ -1579,12 +1609,12 @@ The rest part of value can't to be matched on `line-height` syntax
      value: 22px white-space nowrap
     ------------------------^</pre></details></td></tr>
 <tr><td>51</td><td>⚠️</td><td>list.tmall.com</td><td><details><summary>Error (patched)</summary><pre>Parse error: Identifier is expected
-   30 |
-   31 |
-   32 |…images/mui-mbarp-asset-ableCouponBubble-rmb_icon.png);;+ vertical-align:middle}.mui-mbarp-asset-bu…
+   28 |
+   29 |
+   30 |…images/mui-mbarp-asset-ableCouponBubble-rmb_icon.png);;+ vertical-align:middle}.mui-mbarp-asset-bu…
 ----------------------------------------------------------------^
-   33 |
-   34 |</pre></details></td><td><details><summary>22 warnings</summary><pre>Invalid value for `filter`
+   31 |
+   32 |</pre></details></td><td><details><summary>22 warnings</summary><pre>Invalid value for `filter`
     syntax: none | &lt;filter-function-list&gt; | &lt;-ms-filter&gt;
      value: mask()
     --------^
@@ -1669,8 +1699,7 @@ The rest part of value can't to be matched on `background-image` syntax × 9
     2 |
     3 |…}pre{margin-bottom:1em;padding:5px;padding-bottom:20px !ie7;width:auto;width:650px !ie7;max-height…
 ----------------------------------------------------------------^
-    4 |
-    5 |</pre></details><em>Parser has no support for `!ie7` hack</em></td><td><details><summary>8 warnings</summary><pre>Unknown property: ms-display
+</pre></details><em>Parser has no support for `!ie7` hack</em></td><td><details><summary>8 warnings</summary><pre>Unknown property: ms-display
 Invalid value for `align-items`
     syntax: flex-start | flex-end | center | baseline | stretch
      value: right
@@ -1749,14 +1778,106 @@ The rest part of value can't to be matched on `height` syntax
     syntax: [ &lt;length&gt; | &lt;percentage&gt; ] &amp;&amp; [ border-box | content-box ]? | avai…
      value: calc(100% - 6px) calc(100% - 6px)
     -------------------------^</pre></details></td></tr>
-<tr><td>55</td><td>🆗</td><td>amazon.co.jp</td><td>OK<br><em>No patch needed</em></td><td>OK</td></tr>
-<tr><td>56</td><td>⚠️</td><td>imgur.com</td><td><details><summary>Error (patched)</summary><pre>Parse error: Selector is expected
-    2 |
-    3 |
-    4 |…it-border-radius:inherit;opacity:inherit;border:inherit},.btn-test .btn-blue:hover{opacity:inherit…
+<tr><td>55</td><td>⚠️</td><td>amazon.co.jp</td><td><details><summary>Error (patched)</summary><pre>Parse error: Identifier or asterisk is expected
+  108 |
+  109 |
+  110 |…color:#FFF;vertical-align:baseline;white-space:nowrap}*|:-moz-full-screen-ancestor{transform:initi…
 ----------------------------------------------------------------^
-    5 |
-    6 |…:100%;text-decoration:none}.side-footer-links .combobox .more-arrow{display:block;width:0;height:0…</pre></details></td><td><details><summary>14 warnings</summary><pre>Invalid value for `border-right`
+</pre></details></td><td><details><summary>22 warnings</summary><pre>Invalid value for `border-color`
+    syntax: &lt;color&gt;{1,4}
+     value: &lt;empty string&gt;
+    --------^
+Invalid value for `color` × 4
+    syntax: &lt;color&gt;
+     value: &lt;empty string&gt;
+    --------^
+Invalid value for `background-color` × 10
+    syntax: &lt;color&gt;
+     value: &lt;empty string&gt;
+    --------^
+Invalid value for `background`
+    syntax: [ &lt;bg-layer&gt; , ]* &lt;final-bg-layer&gt;
+     value: -webkit-linear-gradient(to right,#f6f6f6,rgba(255,255,255,0),#f6f6f…
+    --------^
+Invalid value for `background`
+    syntax: [ &lt;bg-layer&gt; , ]* &lt;final-bg-layer&gt;
+     value: -webkit-linear-gradient(to bottom,rgba(0,0,0,.14),rgba(0,0,0,.03) 3…
+    --------^
+Invalid value for `background`
+    syntax: [ &lt;bg-layer&gt; , ]* &lt;final-bg-layer&gt;
+     value: -webkit-linear-gradient(to right,#fff,rgba(255,255,255,0),#fff)
+    --------^
+Invalid value for `margin-right`
+    syntax: &lt;length&gt; | &lt;percentage&gt; | auto
+     value: none
+    --------^
+Invalid value for `background`
+    syntax: [ &lt;bg-layer&gt; , ]* &lt;final-bg-layer&gt;
+     value: &lt;empty string&gt;
+    --------^
+Invalid value for `-ms-filter`
+    syntax: &lt;string&gt;
+     value: opacity(.6)
+    --------^
+Invalid value for `display`
+    syntax: none | inline | block | list-item | inline-list-item | inline-block…
+     value: hidden
+    --------^
+Invalid value for `-ms-filter`
+    syntax: &lt;string&gt;
+     value: opacity(.95)
+    --------^
+Invalid value for `-ms-filter`
+    syntax: &lt;string&gt;
+     value: opacity(0)
+    --------^
+Invalid value for `background`
+    syntax: [ &lt;bg-layer&gt; , ]* &lt;final-bg-layer&gt;
+     value: -webkit-gradient(linear,left top,left bottom,color-stop(0,#ddd),col…
+    --------^
+Invalid value for `background`
+    syntax: [ &lt;bg-layer&gt; , ]* &lt;final-bg-layer&gt;
+     value: linear-gradient(top,#ddd,#f7f7f7 3px,#fff)
+    --------^
+Invalid value for `background`
+    syntax: [ &lt;bg-layer&gt; , ]* &lt;final-bg-layer&gt;
+     value: linear-gradient(left,#fff,rgba(255,255,255,0),#fff)
+    --------^
+The rest part of value can't to be matched on `-webkit-box-flex` syntax × 2
+    syntax: &lt;number&gt;
+     value: 1 1 auto
+    ----------^
+The rest part of value can't to be matched on `-moz-box-flex` syntax × 2
+    syntax: &lt;number&gt;
+     value: 1 1 auto
+    ----------^
+Invalid value for `vertical-align`
+    syntax: baseline | sub | super | text-top | text-bottom | middle | top | bo…
+     value: center
+    --------^
+Invalid value for `background-image`
+    syntax: &lt;bg-image&gt;#
+     value: -webkit-linear-gradient(to bottom,#cb0400,#a50200)
+    --------^
+Invalid value for `background-image`
+    syntax: &lt;bg-image&gt;#
+     value: -moz-linear-gradient(to bottom,#cb0400,#a50200)
+    --------^
+Invalid value for `background-image`
+    syntax: &lt;bg-image&gt;#
+     value: -ms-linear-gradient(to bottom,#cb0400,#a50200)
+    --------^
+Invalid value for `background-image`
+    syntax: &lt;bg-image&gt;#
+     value: -o-linear-gradient(to bottom,#cb0400,#a50200)
+    --------^</pre></details></td></tr>
+<tr><td>56</td><td>⚠️</td><td>imgur.com</td><td><details><summary>Error (patched)</summary><pre>Parse error: Selector is expected
+   63 |
+   64 |
+   65 |…it-border-radius:inherit;opacity:inherit;border:inherit},.btn-test .btn-blue:hover{opacity:inherit…
+----------------------------------------------------------------^
+   66 |
+   67 |…:100%;text-decoration:none}.side-footer-links .combobox .more-arrow{display:block;width:0;height:0…</pre></details></td><td><details><summary>14 warnings</summary><pre>Invalid value for `border-right`
     syntax: &lt;br-width&gt; || &lt;br-style&gt; || &lt;color&gt;
      value: 0Spx solid #ccc
     --------^
@@ -2133,7 +2254,7 @@ Unknown property: hiehgt</pre></details></td></tr>
   238 |
   239 |    &lt;!--[if IE 7]&gt;
 -----------^
-  240 |        .tb__close__icon-25232887 {
+  240 |        .tb__close__icon-25232905 {
   241 |            margin-top: 6px;</pre></details></td><td><details><summary>10 warnings</summary><pre>Invalid value for `*overflow`
     syntax: visible | hidden | scroll | auto
      value: visble
@@ -2709,7 +2830,7 @@ Invalid value for `background-image`
      value: linear-gradient(bottom,rgba(0,0,0,.2),rgba(0,0,0,0))
     --------^</pre></details></td></tr>
 <tr><td>84</td><td>⚠️</td><td>xhamster.com</td><td colspan="2">–</td></tr>
-<tr><td>85</td><td>⚠️</td><td>dropbox.com</td><td>OK<br><em>No patch needed</em></td><td><details><summary>8 warnings</summary><pre>Invalid value for `background-image`
+<tr><td>85</td><td>⚠️</td><td>dropbox.com</td><td>OK<br><em>No patch needed</em></td><td><details><summary>7 warnings</summary><pre>Invalid value for `background-image`
     syntax: &lt;bg-image&gt;#
      value: -webkit-linear-gradient(to right bottom,rgba(255,255,255,0.25) 0%,r…
     --------^
@@ -2733,11 +2854,7 @@ The rest part of value can't to be matched on `-ms-flex` syntax
 The rest part of value can't to be matched on `flex` syntax
     syntax: none | [ &lt;'flex-grow'&gt; &lt;'flex-shrink'&gt;? || &lt;'flex-basis'&gt; ]
      value: 1 auto 0
-    ---------------^
-Invalid value for `border-bottom-color` × 2
-    syntax: &lt;color&gt;
-     value: 1px solid #bdc4c9
-    --------^</pre></details></td></tr>
+    ---------------^</pre></details></td></tr>
 <tr><td>86</td><td>⚠️</td><td>googleusercontent.com</td><td colspan="2">–</td></tr>
 <tr><td>87</td><td>⚠️</td><td>amazon.de</td><td>OK<br><em>No patch needed</em></td><td><details><summary>27 warnings</summary><pre>Invalid value for `background` × 2
     syntax: [ &lt;bg-layer&gt; , ]* &lt;final-bg-layer&gt;
@@ -3371,7 +3488,23 @@ Invalid value for `line-height`
     syntax: normal | &lt;number&gt; | &lt;length&gt; | &lt;percentage&gt;
      value: &lt;empty string&gt;
     --------^</pre></details></td></tr>
-<tr><td>98</td><td>🆗</td><td>whatsapp.com</td><td>OK</td><td>OK</td></tr>
+<tr><td>98</td><td>⚠️</td><td>whatsapp.com</td><td>OK</td><td><details><summary>5 warnings</summary><pre>Unknown property: font-smooth
+Invalid value for `white-space`
+    syntax: normal | pre | nowrap | pre-wrap | pre-line
+     value: -moz-pre-wrap
+    --------^
+Invalid value for `white-space`
+    syntax: normal | pre | nowrap | pre-wrap | pre-line
+     value: -pre-wrap
+    --------^
+Invalid value for `white-space`
+    syntax: normal | pre | nowrap | pre-wrap | pre-line
+     value: -o-pre-wrap
+    --------^
+Invalid value for `font`
+    syntax: [ [ &lt;'font-style'&gt; || &lt;font-variant-css21&gt; || &lt;'font-weight'&gt; || &lt;'…
+     value: 16px
+    --------^</pre></details></td></tr>
 <tr><td>99</td><td>⚠️</td><td>google.com.ar</td><td>OK</td><td><details><summary>13 warnings</summary><pre>The rest part of value can't to be matched on `opacity` syntax
     syntax: &lt;number-zero-one&gt;
      value: 1\0/
@@ -3424,8 +3557,179 @@ Invalid value for `background-image`
     syntax: &lt;bg-image&gt;#
      value: linear-gradient(bottom,rgba(0,0,0,.2),rgba(0,0,0,0))
     --------^</pre></details></td></tr>
-<tr><td>100</td><td>🆗</td><td>cnn.com</td><td>OK</td><td>OK</td></tr>
-<tr><td>101</td><td>🆗</td><td>amazon.in</td><td>OK<br><em>No patch needed</em></td><td>OK</td></tr>
+<tr><td>100</td><td>⚠️</td><td>cnn.com</td><td>OK</td><td><details><summary>23 warnings</summary><pre>Invalid value for `-moz-user-select`
+    syntax: none | text | all | -moz-none
+     value: auto
+    --------^
+Invalid value for `-ms-user-select`
+    syntax: none | element | text
+     value: auto
+    --------^
+Invalid value for `cursor`
+    syntax: [ [ &lt;url&gt; [ &lt;x&gt; &lt;y&gt; ]? , ]* [ auto | default | none | context-menu …
+     value: -o-grab
+    --------^
+Invalid value for `cursor`
+    syntax: [ [ &lt;url&gt; [ &lt;x&gt; &lt;y&gt; ]? , ]* [ auto | default | none | context-menu …
+     value: -ms-grab
+    --------^
+Invalid value for `-webkit-transition`
+    syntax: &lt;single-transition&gt;#
+     value: scale(1.3,1.3)
+    --------^
+Invalid value for `transition`
+    syntax: &lt;single-transition&gt;#
+     value: scale(1.3,1.3)
+    --------^
+Invalid value for `width`
+    syntax: [ &lt;length&gt; | &lt;percentage&gt; ] &amp;&amp; [ border-box | content-box ]? | avai…
+     value: extend-to-zoom
+    --------^
+The rest part of value can't to be matched on `-webkit-transition` syntax
+    syntax: &lt;single-transition&gt;#
+     value: background .1s ease 0
+    ----------------------------^
+The rest part of value can't to be matched on `transition` syntax
+    syntax: &lt;single-transition&gt;#
+     value: background .1s ease 0
+    ----------------------------^
+Invalid value for `background-image`
+    syntax: &lt;bg-image&gt;#
+     value: data-uri("../images/social-icons.png")
+    --------^
+The rest part of value can't to be matched on `-webkit-flex-flow` syntax
+    syntax: &lt;'flex-direction'&gt; || &lt;'flex-wrap'&gt;
+     value: row no-wrap
+    ------------^
+The rest part of value can't to be matched on `-ms-flex-flow` syntax
+    syntax: &lt;'flex-direction'&gt; || &lt;'flex-wrap'&gt;
+     value: row no-wrap
+    ------------^
+Invalid value for `width`
+    syntax: [ &lt;length&gt; | &lt;percentage&gt; ] &amp;&amp; [ border-box | content-box ]? | avai…
+     value: col(7)
+    --------^
+Unknown property: overflow-scrolling × 7
+The rest part of value can't to be matched on `-webkit-transition` syntax × 2
+    syntax: &lt;single-transition&gt;#
+     value: height 0
+    ---------------^
+The rest part of value can't to be matched on `transition` syntax × 2
+    syntax: &lt;single-transition&gt;#
+     value: height 0
+    ---------------^
+Unknown property: -webkit-overflow-scroll
+Unknown property: size × 2
+Unknown property: font-color
+Invalid value for `-webkit-box-pack`
+    syntax: start | center | end | justify
+     value: left
+    --------^
+Invalid value for `-webkit-justify-content`
+    syntax: flex-start | flex-end | center | space-between | space-around | spa…
+     value: left
+    --------^
+Invalid value for `-ms-flex-pack`
+    syntax: start | end | center | justify | distribute
+     value: left
+    --------^
+Invalid value for `justify-content`
+    syntax: flex-start | flex-end | center | space-between | space-around | spa…
+     value: left
+    --------^</pre></details></td></tr>
+<tr><td>101</td><td>⚠️</td><td>amazon.in</td><td><details><summary>Error (patched)</summary><pre>Parse error: Identifier or asterisk is expected
+  106 |
+  107 |
+  108 |…color:#FFF;vertical-align:baseline;white-space:nowrap}*|:-moz-full-screen-ancestor{transform:initi…
+----------------------------------------------------------------^
+</pre></details></td><td><details><summary>22 warnings</summary><pre>Invalid value for `border-color`
+    syntax: &lt;color&gt;{1,4}
+     value: &lt;empty string&gt;
+    --------^
+Invalid value for `color` × 4
+    syntax: &lt;color&gt;
+     value: &lt;empty string&gt;
+    --------^
+Invalid value for `background-color` × 10
+    syntax: &lt;color&gt;
+     value: &lt;empty string&gt;
+    --------^
+Invalid value for `background`
+    syntax: [ &lt;bg-layer&gt; , ]* &lt;final-bg-layer&gt;
+     value: -webkit-linear-gradient(to right,#f6f6f6,rgba(255,255,255,0),#f6f6f…
+    --------^
+Invalid value for `background`
+    syntax: [ &lt;bg-layer&gt; , ]* &lt;final-bg-layer&gt;
+     value: -webkit-linear-gradient(to bottom,rgba(0,0,0,.14),rgba(0,0,0,.03) 3…
+    --------^
+Invalid value for `background`
+    syntax: [ &lt;bg-layer&gt; , ]* &lt;final-bg-layer&gt;
+     value: -webkit-linear-gradient(to right,#fff,rgba(255,255,255,0),#fff)
+    --------^
+Invalid value for `margin-right`
+    syntax: &lt;length&gt; | &lt;percentage&gt; | auto
+     value: none
+    --------^
+Invalid value for `background`
+    syntax: [ &lt;bg-layer&gt; , ]* &lt;final-bg-layer&gt;
+     value: &lt;empty string&gt;
+    --------^
+Invalid value for `-ms-filter`
+    syntax: &lt;string&gt;
+     value: opacity(.6)
+    --------^
+Invalid value for `display`
+    syntax: none | inline | block | list-item | inline-list-item | inline-block…
+     value: hidden
+    --------^
+Invalid value for `-ms-filter`
+    syntax: &lt;string&gt;
+     value: opacity(.95)
+    --------^
+Invalid value for `-ms-filter`
+    syntax: &lt;string&gt;
+     value: opacity(0)
+    --------^
+Invalid value for `background`
+    syntax: [ &lt;bg-layer&gt; , ]* &lt;final-bg-layer&gt;
+     value: -webkit-gradient(linear,left top,left bottom,color-stop(0,#ddd),col…
+    --------^
+Invalid value for `background`
+    syntax: [ &lt;bg-layer&gt; , ]* &lt;final-bg-layer&gt;
+     value: linear-gradient(top,#ddd,#f7f7f7 3px,#fff)
+    --------^
+Invalid value for `background`
+    syntax: [ &lt;bg-layer&gt; , ]* &lt;final-bg-layer&gt;
+     value: linear-gradient(left,#fff,rgba(255,255,255,0),#fff)
+    --------^
+The rest part of value can't to be matched on `-webkit-box-flex` syntax × 2
+    syntax: &lt;number&gt;
+     value: 1 1 auto
+    ----------^
+The rest part of value can't to be matched on `-moz-box-flex` syntax × 2
+    syntax: &lt;number&gt;
+     value: 1 1 auto
+    ----------^
+Invalid value for `vertical-align`
+    syntax: baseline | sub | super | text-top | text-bottom | middle | top | bo…
+     value: center
+    --------^
+Invalid value for `background-image`
+    syntax: &lt;bg-image&gt;#
+     value: -webkit-linear-gradient(to bottom,#cb0400,#a50200)
+    --------^
+Invalid value for `background-image`
+    syntax: &lt;bg-image&gt;#
+     value: -moz-linear-gradient(to bottom,#cb0400,#a50200)
+    --------^
+Invalid value for `background-image`
+    syntax: &lt;bg-image&gt;#
+     value: -ms-linear-gradient(to bottom,#cb0400,#a50200)
+    --------^
+Invalid value for `background-image`
+    syntax: &lt;bg-image&gt;#
+     value: -o-linear-gradient(to bottom,#cb0400,#a50200)
+    --------^</pre></details></td></tr>
 <tr><td>102</td><td>⚠️</td><td>ask.com</td><td>OK</td><td><details><summary>1 warning</summary><pre>Invalid value for `background`
     syntax: [ &lt;bg-layer&gt; , ]* &lt;final-bg-layer&gt;
      value: linear-gradient(top,#0062b2,#0062b2)
@@ -3438,9 +3742,13 @@ Invalid value for `border`
     syntax: &lt;br-width&gt; || &lt;br-style&gt; || &lt;color&gt;
      value: px dashed blue
     --------^</pre></details></td></tr>
-<tr><td>104</td><td>⚠️</td><td>bbc.co.uk</td><td>OK</td><td><details><summary>3 warnings</summary><pre>Invalid value for `border-right-color`
+<tr><td>104</td><td>⚠️</td><td>bbc.co.uk</td><td>OK</td><td><details><summary>4 warnings</summary><pre>Invalid value for `border-right-color`
     syntax: &lt;color&gt;
      value: 12px solid #1d90cf
+    --------^
+Invalid value for `min-height`
+    syntax: &lt;length&gt; | &lt;percentage&gt; | auto | max-content | min-content | fit-co…
+     value: none
     --------^
 Invalid value for `box-sizing`
     syntax: content-box | border-box
@@ -3559,17 +3867,43 @@ Invalid value for `background`
     syntax: [ &lt;bg-layer&gt; , ]* &lt;final-bg-layer&gt;
      value: linear-gradient(top,rgba(255,255,255,0),white)
     --------^</pre></details></td></tr>
-<tr><td>107</td><td>🆗</td><td>craigslist.org</td><td>OK</td><td>OK</td></tr>
+<tr><td>107</td><td>⚠️</td><td>craigslist.org</td><td>OK</td><td><details><summary>2 warnings</summary><pre>Invalid value for `break-before`
+    syntax: auto | avoid | avoid-page | page | left | right | recto | verso | a…
+     value: always
+    --------^
+Invalid value for `font-style`
+    syntax: normal | italic | oblique
+     value: bold
+    --------^</pre></details></td></tr>
 <tr><td>108</td><td>🆗</td><td>clicksgear.com</td><td>OK</td><td>OK</td></tr>
-<tr><td>109</td><td>⚠️</td><td>uptodown.com</td><td colspan="2">–</td></tr>
+<tr><td>109</td><td>⚠️</td><td>uptodown.com</td><td>OK</td><td><details><summary>5 warnings</summary><pre>Invalid value for `vertical-align`
+    syntax: baseline | sub | super | text-top | text-bottom | middle | top | bo…
+     value: -webkit-baseline-middle
+    --------^
+Invalid value for `background`
+    syntax: [ &lt;bg-layer&gt; , ]* &lt;final-bg-layer&gt;
+     value: -webkit-gradient(left top,right top,color-stop(0%,rgba(255,255,255,…
+    --------^
+Invalid value for `background`
+    syntax: [ &lt;bg-layer&gt; , ]* &lt;final-bg-layer&gt;
+     value: -webkit-gradient(left top,right top,color-stop(0%,rgba(0,0,0,0)),co…
+    --------^
+Invalid value for `background`
+    syntax: [ &lt;bg-layer&gt; , ]* &lt;final-bg-layer&gt;
+     value: -webkit-gradient(left top,left bottom,color-stop(0%,rgba(0,0,0,0)),…
+    --------^
+Invalid value for `background`
+    syntax: [ &lt;bg-layer&gt; , ]* &lt;final-bg-layer&gt;
+     value: -webkit-gradient(left top,right bottom,color-stop(0%,rgba(79,155,20…
+    --------^</pre></details></td></tr>
 <tr><td>110</td><td>⚠️</td><td>blastingnews.com</td><td>OK</td><td><details><summary>11 warnings</summary><pre>Unknown property: font-weigth × 3
 Invalid value for `background-image`
     syntax: &lt;bg-image&gt;#
-     value: -webkit-linear-gradient(left,color-stop(rgba(0,0,0,0.5) 0%),color-s…
+     value: -webkit-linear-gradient(left,color-stop(rgba(0,0,0,.5) 0%),color-st…
     --------^
 Invalid value for `background-image`
     syntax: &lt;bg-image&gt;#
-     value: -webkit-linear-gradient(left,color-stop(rgba(0,0,0,0.0001) 0%),colo…
+     value: -webkit-linear-gradient(left,color-stop(rgba(0,0,0,.0001) 0%),color…
     --------^
 Invalid value for `width`
     syntax: [ &lt;length&gt; | &lt;percentage&gt; ] &amp;&amp; [ border-box | content-box ]? | avai…
@@ -3577,7 +3911,7 @@ Invalid value for `width`
     --------^
 Invalid value for `background-image` × 6
     syntax: &lt;bg-image&gt;#
-     value: -webkit-gradient(linear,color-stop(0,#ffffff),color-stop(0.97,#f4f4…
+     value: -webkit-gradient(linear,color-stop(0,#fff),color-stop(.97,#f4f4f6),…
     --------^
 Unknown property: widht
 Unknown property: diplay × 2
@@ -3594,9 +3928,13 @@ Invalid value for `-ms-filter`
     syntax: &lt;string&gt;
      value: grayscale(100%)
     --------^</pre></details></td></tr>
-<tr><td>111</td><td>⚠️</td><td>bbc.com</td><td>OK</td><td><details><summary>7 warnings</summary><pre>Invalid value for `border-right-color`
+<tr><td>111</td><td>⚠️</td><td>bbc.com</td><td>OK</td><td><details><summary>10 warnings</summary><pre>Invalid value for `border-right-color`
     syntax: &lt;color&gt;
      value: 12px solid #1d90cf
+    --------^
+Invalid value for `min-height`
+    syntax: &lt;length&gt; | &lt;percentage&gt; | auto | max-content | min-content | fit-co…
+     value: none
     --------^
 Invalid value for `width`
     syntax: [ &lt;length&gt; | &lt;percentage&gt; ] &amp;&amp; [ border-box | content-box ]? | avai…
@@ -3621,6 +3959,14 @@ Invalid value for `-moz-box-flex` × 23
 Invalid value for `box-flex` × 23
     syntax: &lt;number&gt;
      value: auto
+    --------^
+Invalid value for `direction`
+    syntax: ltr | rtl
+     value: flip(ltr,rtl)
+    --------^
+Invalid value for `text-align` × 16
+    syntax: start | end | left | right | center | justify | match-parent
+     value: flip(left,right)
     --------^</pre></details></td></tr>
 <tr><td>112</td><td>⚠️</td><td>blogger.com</td><td>OK</td><td><details><summary>11 warnings</summary><pre>Invalid value for `display` × 7
     syntax: none | inline | block | list-item | inline-list-item | inline-block…
@@ -3732,8 +4078,29 @@ Invalid value for `background-color`
     syntax: &lt;color&gt;
      value: \$tag-surprise
     --------^</pre></details></td></tr>
-<tr><td>115</td><td>⚠️</td><td>dailymotion.com</td><td colspan="2">–</td></tr>
-<tr><td>116</td><td>🆗</td><td>ebay.de</td><td>OK<br><em>No patch needed</em></td><td>OK</td></tr>
+<tr><td>115</td><td>🆗</td><td>dailymotion.com</td><td>OK</td><td>OK</td></tr>
+<tr><td>116</td><td>⚠️</td><td>ebay.de</td><td><details><summary>Error (patched)</summary><pre>Parse error: Unexpected input
+   53 |
+   54 |
+   55 |…idth:100%;height:100%;background:#000;opacity:.6;filter:~"alpha(opacity=60)";filter:~"progid:DXIma…
+----------------------------------------------------------------^
+   56 |
+   57 |</pre></details><em>Unprocessed Less escaping</em></td><td><details><summary>4 warnings</summary><pre>Invalid value for `background`
+    syntax: [ &lt;bg-layer&gt; , ]* &lt;final-bg-layer&gt;
+     value: linear-gradient(left,#fff,#e8e8e8,#e8e8e8,#e8e8e8,#fff)
+    --------^
+The rest part of value can't to be matched on `border` syntax
+    syntax: &lt;br-width&gt; || &lt;br-style&gt; || &lt;color&gt;
+     value: 1px solid transparent #0065b0
+    ------------------------------^
+Invalid value for `text-shadow`
+    syntax: none | &lt;shadow-t&gt;#
+     value: 0
+    --------^
+Invalid value for `background`
+    syntax: [ &lt;bg-layer&gt; , ]* &lt;final-bg-layer&gt;
+     value: linear-gradient(left,rgba(247,247,247,0) 0,rgba(247,247,247,0.9) 6%…
+    --------^</pre></details></td></tr>
 <tr><td>117</td><td>⚠️</td><td>adexchangeprediction.com</td><td colspan="2">–</td></tr>
 <tr><td>118</td><td>⚠️</td><td>alibaba.com</td><td><details><summary>Error</summary><pre>Parse error: RightParenthesis is expected
    66 |
@@ -3888,7 +4255,7 @@ Invalid value for `background`
   478 |/* ad_liquid_lideshow styles */
   479 |div.ad-slideshow-existItemDisplay{position:relative; min-width:456px; margin: 10px 0;}</pre></details></td><td>–</td></tr>
 <tr><td>123</td><td>🆗</td><td>thepiratebay.org</td><td>OK</td><td>OK</td></tr>
-<tr><td>124</td><td>⚠️</td><td>salesforce.com</td><td>OK</td><td><details><summary>16 warnings</summary><pre>Invalid value for `-webkit-font-smoothing` × 2
+<tr><td>124</td><td>⚠️</td><td>salesforce.com</td><td>OK</td><td><details><summary>17 warnings</summary><pre>Invalid value for `-webkit-font-smoothing` × 2
     syntax: none | antialiased | subpixel-antialiased
      value: auto
     --------^
@@ -3941,6 +4308,10 @@ Invalid value for `transition-delay`
 Invalid value for `transition-delay`
     syntax: &lt;time&gt;#
      value: 0,0
+    --------^
+Invalid value for `background-image`
+    syntax: &lt;bg-image&gt;#
+     value: linear-gradient(top,#4d90fe,#357ae8)
     --------^
 Invalid value for `border`
     syntax: &lt;br-width&gt; || &lt;br-style&gt; || &lt;color&gt;
@@ -4013,7 +4384,7 @@ Invalid value for `display`
   458 |    margin-bottom: 0=;
 ---------------------------^
   459 |}
-  460 |</pre></details><em>Typos</em></td><td><details><summary>8 warnings</summary><pre>Invalid value for `-webkit-flex-wrap`
+  460 |</pre></details><em>Typos</em></td><td><details><summary>18 warnings</summary><pre>Invalid value for `-webkit-flex-wrap`
     syntax: nowrap | wrap | wrap-reverse
      value: flex-top
     --------^
@@ -4044,7 +4415,44 @@ Invalid value for `opacity` × 2
 Invalid value for `padding`
     syntax: [ &lt;length&gt; | &lt;percentage&gt; ]{1,4}
      value: none
-    --------^</pre></details></td></tr>
+    --------^
+Invalid value for `filter` × 3
+    syntax: none | &lt;filter-function-list&gt; | &lt;-ms-filter&gt;
+     value: "alpha(opacity=75)"
+    --------^
+Invalid value for `filter`
+    syntax: none | &lt;filter-function-list&gt; | &lt;-ms-filter&gt;
+     value: "alpha(opacity=0)"
+    --------^
+Invalid value for `filter`
+    syntax: none | &lt;filter-function-list&gt; | &lt;-ms-filter&gt;
+     value: "alpha(opacity=100)"
+    --------^
+Invalid value for `filter` × 2
+    syntax: none | &lt;filter-function-list&gt; | &lt;-ms-filter&gt;
+     value: "alpha(opacity=40)"
+    --------^
+Invalid value for `filter`
+    syntax: none | &lt;filter-function-list&gt; | &lt;-ms-filter&gt;
+     value: "alpha(opacity=85)"
+    --------^
+Invalid value for `filter` × 2
+    syntax: none | &lt;filter-function-list&gt; | &lt;-ms-filter&gt;
+     value: "alpha(opacity=90)"
+    --------^
+Invalid value for `filter` × 3
+    syntax: none | &lt;filter-function-list&gt; | &lt;-ms-filter&gt;
+     value: "alpha(opacity=30)"
+    --------^
+Invalid value for `filter` × 2
+    syntax: none | &lt;filter-function-list&gt; | &lt;-ms-filter&gt;
+     value: "alpha(opacity=20)"
+    --------^
+Invalid value for `filter` × 2
+    syntax: none | &lt;filter-function-list&gt; | &lt;-ms-filter&gt;
+     value: "alpha(opacity=50)"
+    --------^
+Unknown property: -webkit-font-smooth</pre></details></td></tr>
 <tr><td>130</td><td>⚠️</td><td>tribunnews.com</td><td>OK</td><td><details><summary>11 warnings</summary><pre>Unknown property: font-smooth
 Unknown property: -moz-font-smoothing
 Unknown property: font-smoothing
@@ -4227,6 +4635,10 @@ The rest part of value can't to be matched on `list-style` syntax
     syntax: &lt;'list-style-type'&gt; || &lt;'list-style-position'&gt; || &lt;'list-style-imag…
      value: outside decimal
     ----------------^
+Invalid value for `background-image` × 2
+    syntax: &lt;bg-image&gt;#
+     value: linear-gradient(top,#4d90fe,#357ae8)
+    --------^
 Invalid value for `border`
     syntax: &lt;br-width&gt; || &lt;br-style&gt; || &lt;color&gt;
      value: block
@@ -4234,10 +4646,6 @@ Invalid value for `border`
 Invalid value for `background-image`
     syntax: &lt;bg-image&gt;#
      value: linear-gradient(top,#4d90fe,#4787ed)
-    --------^
-Invalid value for `background-image`
-    syntax: &lt;bg-image&gt;#
-     value: linear-gradient(top,#4d90fe,#357ae8)
     --------^
 Invalid value for `background-image`
     syntax: &lt;bg-image&gt;#
@@ -4295,14 +4703,35 @@ Invalid value for `background-image`
     syntax: &lt;bg-image&gt;#
      value: linear-gradient(bottom,rgba(0,0,0,.2),rgba(0,0,0,0))
     --------^</pre></details></td></tr>
-<tr><td>138</td><td>🆗</td><td>ebay.co.uk</td><td>OK<br><em>No patch needed</em></td><td>OK</td></tr>
-<tr><td>139</td><td>⚠️</td><td>vice.com</td><td><details><summary>Error (patched)</summary><pre>Parse error: Unexpected input
-   14 |
-   15 |
-   16 |…e}.col__2:last-child{margin-right:0}.col__2:nth-child(10pxn){margin-right:0;float:right}.col__2:nt…
+<tr><td>138</td><td>⚠️</td><td>ebay.co.uk</td><td><details><summary>Error (patched)</summary><pre>Parse error: Unexpected input
+    5 |
+    6 |
+    7 |…idth:100%;height:100%;background:#000;opacity:.6;filter:~"alpha(opacity=60)";filter:~"progid:DXIma…
 ----------------------------------------------------------------^
-   17 |
-   18 |</pre></details></td><td><details><summary>16 warnings</summary><pre>Invalid value for `-ms-filter` × 8
+    8 |
+    9 |</pre></details><em>Unprocessed Less escaping</em></td><td><details><summary>4 warnings</summary><pre>Invalid value for `background`
+    syntax: [ &lt;bg-layer&gt; , ]* &lt;final-bg-layer&gt;
+     value: linear-gradient(left,#fff,#e8e8e8,#e8e8e8,#e8e8e8,#fff)
+    --------^
+The rest part of value can't to be matched on `border` syntax
+    syntax: &lt;br-width&gt; || &lt;br-style&gt; || &lt;color&gt;
+     value: 1px solid transparent #0065b0
+    ------------------------------^
+Invalid value for `text-shadow`
+    syntax: none | &lt;shadow-t&gt;#
+     value: 0
+    --------^
+Invalid value for `background`
+    syntax: [ &lt;bg-layer&gt; , ]* &lt;final-bg-layer&gt;
+     value: linear-gradient(left,rgba(247,247,247,0) 0,rgba(247,247,247,0.9) 6%…
+    --------^</pre></details></td></tr>
+<tr><td>139</td><td>⚠️</td><td>vice.com</td><td><details><summary>Error (patched)</summary><pre>Parse error: Unexpected input
+   21 |
+   22 |
+   23 |…e}.col__2:last-child{margin-right:0}.col__2:nth-child(10pxn){margin-right:0;float:right}.col__2:nt…
+----------------------------------------------------------------^
+   24 |
+   25 |</pre></details></td><td><details><summary>16 warnings</summary><pre>Invalid value for `-ms-filter` × 8
     syntax: &lt;string&gt;
      value: none
     --------^
@@ -4463,9 +4892,276 @@ Invalid value for `background-image`
     syntax: &lt;bg-image&gt;#
      value: linear-gradient(bottom,rgba(0,0,0,.2),rgba(0,0,0,0))
     --------^</pre></details></td></tr>
-<tr><td>145</td><td>⚠️</td><td>quora.com</td><td>OK<br><em>No patch needed</em></td><td><details><summary>1 warning</summary><pre>Invalid value for `vertical-align`
+<tr><td>145</td><td>⚠️</td><td>quora.com</td><td><details><summary>Error (patched)</summary><pre>Parse error: Selector is expected
+  121 |
+  122 |
+  123 |…ckquote&gt;ul li li{padding-bottom:0;padding-top:.7em}:not('.results_frame') .rendered_qtext&gt;ol li,:n…
+----------------------------------------------------------------^
+</pre></details></td><td><details><summary>68 warnings</summary><pre>Invalid value for `vertical-align`
     syntax: baseline | sub | super | text-top | text-bottom | middle | top | bo…
      value: &lt;empty string&gt;
+    --------^
+Invalid value for `filter`
+    syntax: none | &lt;filter-function-list&gt; | &lt;-ms-filter&gt;
+     value: gray
+    --------^
+The rest part of value can't to be matched on `-webkit-transition` syntax
+    syntax: &lt;single-transition&gt;#
+     value: border-color .2s ease color .2s ease ease-in-out 0s
+    ------------------------------^
+The rest part of value can't to be matched on `-o-transition` syntax
+    syntax: &lt;single-transition&gt;#
+     value: border-color .2s ease color .2s ease ease-in-out 0s
+    ------------------------------^
+The rest part of value can't to be matched on `transition` syntax
+    syntax: &lt;single-transition&gt;#
+     value: border-color .2s ease color .2s ease ease-in-out 0s
+    ------------------------------^
+The rest part of value can't to be matched on `-webkit-transition` syntax × 2
+    syntax: &lt;single-transition&gt;#
+     value: opacity .5s linear 180ms ease-in-out 0s
+    ---------------------------------^
+The rest part of value can't to be matched on `-o-transition` syntax × 2
+    syntax: &lt;single-transition&gt;#
+     value: opacity .5s linear 180ms ease-in-out 0s
+    ---------------------------------^
+The rest part of value can't to be matched on `transition` syntax × 2
+    syntax: &lt;single-transition&gt;#
+     value: opacity .5s linear 180ms ease-in-out 0s
+    ---------------------------------^
+The rest part of value can't to be matched on `-webkit-transition` syntax × 5
+    syntax: &lt;single-transition&gt;#
+     value: border-color .2s 180ms ease-in-out 0s
+    -------------------------------------------^
+The rest part of value can't to be matched on `-o-transition` syntax × 5
+    syntax: &lt;single-transition&gt;#
+     value: border-color .2s 180ms ease-in-out 0s
+    -------------------------------------------^
+The rest part of value can't to be matched on `transition` syntax × 5
+    syntax: &lt;single-transition&gt;#
+     value: border-color .2s 180ms ease-in-out 0s
+    -------------------------------------------^
+The rest part of value can't to be matched on `-webkit-transition` syntax × 2
+    syntax: &lt;single-transition&gt;#
+     value: all .33s 180ms ease-in-out 0s
+    -----------------------------------^
+The rest part of value can't to be matched on `-o-transition` syntax × 2
+    syntax: &lt;single-transition&gt;#
+     value: all .33s 180ms ease-in-out 0s
+    -----------------------------------^
+The rest part of value can't to be matched on `transition` syntax × 2
+    syntax: &lt;single-transition&gt;#
+     value: all .33s 180ms ease-in-out 0s
+    -----------------------------------^
+The rest part of value can't to be matched on `-webkit-transition` syntax
+    syntax: &lt;single-transition&gt;#
+     value: opacity .33s 180ms ease-in-out 0s
+    ---------------------------------------^
+The rest part of value can't to be matched on `-o-transition` syntax
+    syntax: &lt;single-transition&gt;#
+     value: opacity .33s 180ms ease-in-out 0s
+    ---------------------------------------^
+The rest part of value can't to be matched on `transition` syntax
+    syntax: &lt;single-transition&gt;#
+     value: opacity .33s 180ms ease-in-out 0s
+    ---------------------------------------^
+The rest part of value can't to be matched on `-webkit-transition` syntax
+    syntax: &lt;single-transition&gt;#
+     value: border-color .2s ease 180ms ease-in-out 0s
+    ------------------------------------^
+The rest part of value can't to be matched on `-o-transition` syntax
+    syntax: &lt;single-transition&gt;#
+     value: border-color .2s ease 180ms ease-in-out 0s
+    ------------------------------------^
+The rest part of value can't to be matched on `transition` syntax
+    syntax: &lt;single-transition&gt;#
+     value: border-color .2s ease 180ms ease-in-out 0s
+    ------------------------------------^
+The rest part of value can't to be matched on `-webkit-transition` syntax
+    syntax: &lt;single-transition&gt;#
+     value: color .2s ease 180ms ease-in-out 0s
+    -----------------------------^
+The rest part of value can't to be matched on `-o-transition` syntax
+    syntax: &lt;single-transition&gt;#
+     value: color .2s ease 180ms ease-in-out 0s
+    -----------------------------^
+The rest part of value can't to be matched on `transition` syntax
+    syntax: &lt;single-transition&gt;#
+     value: color .2s ease 180ms ease-in-out 0s
+    -----------------------------^
+The rest part of value can't to be matched on `-webkit-transition` syntax
+    syntax: &lt;single-transition&gt;#
+     value: all .2s ease 180ms ease-in-out 0s
+    ---------------------------^
+The rest part of value can't to be matched on `-o-transition` syntax
+    syntax: &lt;single-transition&gt;#
+     value: all .2s ease 180ms ease-in-out 0s
+    ---------------------------^
+The rest part of value can't to be matched on `transition` syntax
+    syntax: &lt;single-transition&gt;#
+     value: all .2s ease 180ms ease-in-out 0s
+    ---------------------------^
+Unknown property: texd-decoration
+The rest part of value can't to be matched on `-webkit-transition` syntax
+    syntax: &lt;single-transition&gt;#
+     value: top .25s ease-in-out 180ms ease-in-out 0s
+    -----------------------------------^
+The rest part of value can't to be matched on `-o-transition` syntax
+    syntax: &lt;single-transition&gt;#
+     value: top .25s ease-in-out 180ms ease-in-out 0s
+    -----------------------------------^
+The rest part of value can't to be matched on `transition` syntax
+    syntax: &lt;single-transition&gt;#
+     value: top .25s ease-in-out 180ms ease-in-out 0s
+    -----------------------------------^
+The rest part of value can't to be matched on `-webkit-transition` syntax
+    syntax: &lt;single-transition&gt;#
+     value: opacity 55ms ease-in 180ms ease-in-out 0s
+    -----------------------------------^
+The rest part of value can't to be matched on `-o-transition` syntax
+    syntax: &lt;single-transition&gt;#
+     value: opacity 55ms ease-in 180ms ease-in-out 0s
+    -----------------------------------^
+The rest part of value can't to be matched on `transition` syntax
+    syntax: &lt;single-transition&gt;#
+     value: opacity 55ms ease-in 180ms ease-in-out 0s
+    -----------------------------------^
+The rest part of value can't to be matched on `-webkit-transition` syntax
+    syntax: &lt;single-transition&gt;#
+     value: opacity 100ms ease-in-out 180ms ease-in-out 0s
+    ----------------------------------------^
+The rest part of value can't to be matched on `-o-transition` syntax
+    syntax: &lt;single-transition&gt;#
+     value: opacity 100ms ease-in-out 180ms ease-in-out 0s
+    ----------------------------------------^
+The rest part of value can't to be matched on `transition` syntax
+    syntax: &lt;single-transition&gt;#
+     value: opacity 100ms ease-in-out 180ms ease-in-out 0s
+    ----------------------------------------^
+The rest part of value can't to be matched on `-webkit-transition` syntax × 4
+    syntax: &lt;single-transition&gt;#
+     value: all 140ms ease-in-out 180ms ease-in-out 0s
+    ------------------------------------^
+The rest part of value can't to be matched on `-o-transition` syntax × 4
+    syntax: &lt;single-transition&gt;#
+     value: all 140ms ease-in-out 180ms ease-in-out 0s
+    ------------------------------------^
+The rest part of value can't to be matched on `transition` syntax × 4
+    syntax: &lt;single-transition&gt;#
+     value: all 140ms ease-in-out 180ms ease-in-out 0s
+    ------------------------------------^
+The rest part of value can't to be matched on `-webkit-transition` syntax
+    syntax: &lt;single-transition&gt;#
+     value: background 1s 180ms ease-in-out 0s
+    ----------------------------------------^
+The rest part of value can't to be matched on `-o-transition` syntax
+    syntax: &lt;single-transition&gt;#
+     value: background 1s 180ms ease-in-out 0s
+    ----------------------------------------^
+The rest part of value can't to be matched on `transition` syntax
+    syntax: &lt;single-transition&gt;#
+     value: background 1s 180ms ease-in-out 0s
+    ----------------------------------------^
+Invalid value for `background-repeat` × 6
+    syntax: &lt;repeat-style&gt;#
+     value: none
+    --------^
+Invalid value for `font-size`
+    syntax: &lt;absolute-size&gt; | &lt;relative-size&gt; | &lt;length-percentage&gt;
+     value: 400
+    --------^
+The rest part of value can't to be matched on `-webkit-animation` syntax
+    syntax: &lt;single-animation&gt;#
+     value: notice_bubble_bottom_left 1.25s infinite cubic-bezier(0.66,0,0,1) 1…
+    --------------------------------------------------------------------------^
+The rest part of value can't to be matched on `-o-animation` syntax
+    syntax: &lt;single-animation&gt;#
+     value: notice_bubble_bottom_left 1.25s infinite cubic-bezier(0.66,0,0,1) 1…
+    --------------------------------------------------------------------------^
+The rest part of value can't to be matched on `animation` syntax
+    syntax: &lt;single-animation&gt;#
+     value: notice_bubble_bottom_left 1.25s infinite cubic-bezier(0.66,0,0,1) 1…
+    --------------------------------------------------------------------------^
+The rest part of value can't to be matched on `-webkit-animation` syntax
+    syntax: &lt;single-animation&gt;#
+     value: notice_bubble_smaller 1.25s infinite cubic-bezier(0.66,0,0,1) 1 nor…
+    ----------------------------------------------------------------------^
+The rest part of value can't to be matched on `-o-animation` syntax
+    syntax: &lt;single-animation&gt;#
+     value: notice_bubble_smaller 1.25s infinite cubic-bezier(0.66,0,0,1) 1 nor…
+    ----------------------------------------------------------------------^
+The rest part of value can't to be matched on `animation` syntax
+    syntax: &lt;single-animation&gt;#
+     value: notice_bubble_smaller 1.25s infinite cubic-bezier(0.66,0,0,1) 1 nor…
+    ----------------------------------------------------------------------^
+Invalid value for `background-color`
+    syntax: &lt;color&gt;
+     value: none
+    --------^
+The rest part of value can't to be matched on `margin-top` syntax
+    syntax: &lt;length&gt; | &lt;percentage&gt; | auto
+     value: 20px 30px 0 30px
+    -------------------^
+Invalid value for `-webkit-transform`
+    syntax: none | &lt;transform-list&gt;
+     value: rotate(-45px)
+    --------^
+Invalid value for `-webkit-perspective`
+    syntax: none | &lt;length&gt;
+     value: 1000
+    --------^
+Invalid value for `-o-perspective`
+    syntax: none | &lt;length&gt;
+     value: 1000
+    --------^
+Invalid value for `perspective`
+    syntax: none | &lt;length&gt;
+     value: 1000
+    --------^
+Invalid value for `overflow`
+    syntax: visible | hidden | scroll | auto
+     value: none
+    --------^
+Invalid value for `border`
+    syntax: &lt;br-width&gt; || &lt;br-style&gt; || &lt;color&gt;
+     value: 1 px solid #aaa
+    --------^
+The rest part of value can't to be matched on `-webkit-transition` syntax
+    syntax: &lt;single-transition&gt;#
+     value: opacity .2s 180ms ease-in-out 0s
+    --------------------------------------^
+The rest part of value can't to be matched on `-o-transition` syntax
+    syntax: &lt;single-transition&gt;#
+     value: opacity .2s 180ms ease-in-out 0s
+    --------------------------------------^
+The rest part of value can't to be matched on `transition` syntax
+    syntax: &lt;single-transition&gt;#
+     value: opacity .2s 180ms ease-in-out 0s
+    --------------------------------------^
+Unknown property: stroke-dash-array
+Invalid value for `display`
+    syntax: none | inline | block | list-item | inline-list-item | inline-block…
+     value: hidden
+    --------^
+The rest part of value can't to be matched on `-webkit-transition` syntax
+    syntax: &lt;single-transition&gt;#
+     value: color .2s 180ms ease-in-out 0s
+    ------------------------------------^
+The rest part of value can't to be matched on `-o-transition` syntax
+    syntax: &lt;single-transition&gt;#
+     value: color .2s 180ms ease-in-out 0s
+    ------------------------------------^
+The rest part of value can't to be matched on `transition` syntax
+    syntax: &lt;single-transition&gt;#
+     value: color .2s 180ms ease-in-out 0s
+    ------------------------------------^
+Invalid value for `transition-timing-function`
+    syntax: &lt;single-transition-timing-function&gt;#
+     value: swing
+    --------^
+Invalid value for `overflow-y`
+    syntax: visible | hidden | scroll | auto
+     value: none
     --------^</pre></details></td></tr>
 <tr><td>146</td><td>⚠️</td><td>zhihu.com</td><td>OK</td><td><details><summary>2 warnings</summary><pre>Invalid value for `cursor`
     syntax: [ [ &lt;url&gt; [ &lt;x&gt; &lt;y&gt; ]? , ]* [ auto | default | none | context-menu …
@@ -4543,7 +5239,206 @@ The rest part of value can't to be matched on `_border-top` syntax × 3
     ------------------^
 Unknown property: webkit-transition</pre></details></td></tr>
 <tr><td>149</td><td>⚠️</td><td>cnet.com</td><td>OK</td><td><details><summary>1 warning</summary><pre>Unknown property: enable-background</pre></details></td></tr>
-<tr><td>150</td><td>🆗</td><td>mediafire.com</td><td>OK<br><em>No patch needed</em></td><td>OK</td></tr>
+<tr><td>150</td><td>⚠️</td><td>mediafire.com</td><td><details><summary>Error (patched)</summary><pre>Parse error: Unexpected input
+    3 |
+    4 |
+    5 |…nk_main { display: block; width: 310px; overflow: hidden: text-overflow: ellipsis; } a.customurl_c…
+----------------------------------------------------------------^
+    6 |
+    7 |…pha(opacity = 50); } /*+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++…</pre></details></td><td><details><summary>50 warnings</summary><pre>Invalid value for `background-image`
+    syntax: &lt;bg-image&gt;#
+     value: linear-gradient(top,#f5f9fc,#ebf0f5)
+    --------^
+Invalid value for `background-image`
+    syntax: &lt;bg-image&gt;#
+     value: linear-gradient(top,rgba(255,255,255,.3),rgba(255,255,255,.1) 50%,r…
+    --------^
+Invalid value for `background-image` × 4
+    syntax: &lt;bg-image&gt;#
+     value: linear-gradient(top,white,rgba(255,255,255,0))
+    --------^
+Unknown property: moz-box-shadow
+Invalid value for `background-image`
+    syntax: &lt;bg-image&gt;#
+     value: e6e6e6linear-gradient(left,#fff,#e6e6e6,#fff)
+    --------^
+Invalid value for `background-image`
+    syntax: &lt;bg-image&gt;#
+     value: linear-gradient(top,rgba(255,255,255,.3),rgba(255,255,255,.0)),url(…
+    --------^
+Invalid value for `background-image`
+    syntax: &lt;bg-image&gt;#
+     value:    -moz-linear-gradient(left,#00aafc,#00f9fd)
+    --------^
+Invalid value for `background-image`
+    syntax: &lt;bg-image&gt;#
+     value:     -ms-linear-gradient(left,#00aafc,#00f9fd)
+    --------^
+Invalid value for `background-image`
+    syntax: &lt;bg-image&gt;#
+     value:      -o-linear-gradient(left,#00aafc,#00f9fd)
+    --------^
+Invalid value for `background-image`
+    syntax: &lt;bg-image&gt;#
+     value:         linear-gradient(left,#00aafc,#00f9fd)
+    --------^
+Invalid value for `background-image`
+    syntax: &lt;bg-image&gt;#
+     value: linear-gradient(left,transparent 10%,#ddd,transparent 90%)
+    --------^
+Invalid value for `background-image`
+    syntax: &lt;bg-image&gt;#
+     value: linear-gradient(top,#8a939c,#98a2ac)
+    --------^
+Invalid value for `background-image`
+    syntax: &lt;bg-image&gt;#
+     value: linear-gradient(top,rgba(255,255,255,.5),rgba(255,255,255,0))
+    --------^
+Invalid value for `background`
+    syntax: [ &lt;bg-layer&gt; , ]* &lt;final-bg-layer&gt;
+     value: linear-gradient(left,transparent,rgba(0,0,0,.1),transparent)
+    --------^
+Invalid value for `margin-top`
+    syntax: &lt;length&gt; | &lt;percentage&gt; | auto
+     value: &lt;empty string&gt;
+    --------^
+Invalid value for `background-image`
+    syntax: &lt;bg-image&gt;#
+     value: linear-gradient(top,#c0e7f5,#9bd6ed)
+    --------^
+Invalid value for `background`
+    syntax: [ &lt;bg-layer&gt; , ]* &lt;final-bg-layer&gt;
+     value: linear-gradient(bottom,rgba(255,255,255,.3),rgba(255,255,255,0))
+    --------^
+Invalid value for `background` × 2
+    syntax: [ &lt;bg-layer&gt; , ]* &lt;final-bg-layer&gt;
+     value: linear-gradient(top,#78D7FF 0%,#349EEE 100%)
+    --------^
+Invalid value for `background`
+    syntax: [ &lt;bg-layer&gt; , ]* &lt;final-bg-layer&gt;
+     value: url(https://cdnssl.mediafire.com/images/backgrounds/mobileApp/andro…
+    ---------------------------------------------------------------------------…
+Invalid value for `background`
+    syntax: [ &lt;bg-layer&gt; , ]* &lt;final-bg-layer&gt;
+     value: url(https://cdnssl.mediafire.com/images/backgrounds/mobileApp/apple…
+    ---------------------------------------------------------------------------…
+Invalid value for `background`
+    syntax: [ &lt;bg-layer&gt; , ]* &lt;final-bg-layer&gt;
+     value: url(https://cdnssl.mediafire.com/images/backgrounds/mobileApp/andro…
+    ---------------------------------------------------------------------------…
+Invalid value for `background`
+    syntax: [ &lt;bg-layer&gt; , ]* &lt;final-bg-layer&gt;
+     value: url(https://cdnssl.mediafire.com/images/backgrounds/mobileApp/apple…
+    ---------------------------------------------------------------------------…
+Invalid value for `background`
+    syntax: [ &lt;bg-layer&gt; , ]* &lt;final-bg-layer&gt;
+     value: linear-gradient(top,#88E7FF 0%,#44AEFE 100%)
+    --------^
+Invalid value for `background-image`
+    syntax: &lt;bg-image&gt;#
+     value: linear-gradient(bottom,#C0CAD6 0%,#E1E6EC 100%)
+    --------^
+Invalid value for `background-image`
+    syntax: &lt;bg-image&gt;#
+     value: linear-gradient(bottom,#2B68A5 0%,#4CA9DB 100%)
+    --------^
+Invalid value for `background`
+    syntax: [ &lt;bg-layer&gt; , ]* &lt;final-bg-layer&gt;
+     value: linear-gradient(top,#9dd53a 0%,#a1d54f 50%,#80c217 51%,#7cbc0a 100%…
+    --------^
+Invalid value for `background`
+    syntax: [ &lt;bg-layer&gt; , ]* &lt;final-bg-layer&gt;
+     value: linear-gradient(left,rgba(220,247,84,0) 0%,rgba(239,244,212,1) 53%,…
+    --------^
+Invalid value for `background`
+    syntax: [ &lt;bg-layer&gt; , ]* &lt;final-bg-layer&gt;
+     value: linear-gradient(top,#4c4c4c 0%,#000000 100%)
+    --------^
+Invalid value for `background-image`
+    syntax: &lt;bg-image&gt;#
+     value: linear-gradient(bottom,rgba(0,0,0,.25) -10px,transparent 20px)
+    --------^
+Invalid value for `background`
+    syntax: [ &lt;bg-layer&gt; , ]* &lt;final-bg-layer&gt;
+     value: -webkit-gradient(radial,top center,0px,center center,100%,color-sto…
+    --------^
+Invalid value for `background`
+    syntax: [ &lt;bg-layer&gt; , ]* &lt;final-bg-layer&gt;
+     value: linear-gradient(top,#EDF1F5 0%,#BFD0E0 100%)
+    --------^
+Invalid value for `background`
+    syntax: [ &lt;bg-layer&gt; , ]* &lt;final-bg-layer&gt;
+     value: linear-gradient(top,rgba(255,255,255,.3) 0%,rgba(255,255,255,1) 100…
+    --------^
+Invalid value for `background-image`
+    syntax: &lt;bg-image&gt;#
+     value: linear-gradient(top,rgba(0,0,0,.08),rgba(0,0,0,.08))
+    --------^
+Invalid value for `background-image`
+    syntax: &lt;bg-image&gt;#
+     value: linear-gradient(top,#fff,#eff0f1)
+    --------^
+Invalid value for `background-image`
+    syntax: &lt;bg-image&gt;#
+     value: linear-gradient(top,#f5ffd7,#e1f3c6)
+    --------^
+Invalid value for `background-image`
+    syntax: &lt;bg-image&gt;#
+     value: linear-gradient(top,#C2C7CB,#D9DADE)
+    --------^
+Invalid value for `background-image`
+    syntax: &lt;bg-image&gt;#
+     value: linear-gradient(top,#2978e6,#4F99E3)
+    --------^
+Invalid value for `background-image`
+    syntax: &lt;bg-image&gt;#
+     value: linear-gradient(top,#ecf0f3,#d4d8db)
+    --------^
+The rest part of value can't to be matched on `-webkit-transition` syntax
+    syntax: &lt;single-transition&gt;#
+     value: left 0s linear .1s,right 0s linear .1s,margin-right 0s linear .1
+    ----------------------------------------------------------------------^
+Invalid value for `background`
+    syntax: [ &lt;bg-layer&gt; , ]* &lt;final-bg-layer&gt;
+     value: linear-gradient(top,#5EB4ED 30%,#0C93ED)
+    --------^
+Invalid value for `background-image`
+    syntax: &lt;bg-image&gt;#
+     value: linear-gradient(top,#54a3f2,#3687d8)
+    --------^
+The rest part of value can't to be matched on `-moz-transition` syntax × 2
+    syntax: &lt;single-transition&gt;#
+     value: visibility 0s linear 0.2s,width 0s linear 0.2s,height 0s linear 0.2…
+    ---------------------------------------------------------------------------…
+Invalid value for `background-image`
+    syntax: &lt;bg-image&gt;#
+     value: linear-gradient(top,rgba(0,0,0,.1),transparent 3px)
+    --------^
+Invalid value for `border`
+    syntax: &lt;br-width&gt; || &lt;br-style&gt; || &lt;color&gt;
+     value: 1 px solid #fff
+    --------^
+Invalid value for `color`
+    syntax: &lt;color&gt;
+     value: \#
+    --------^
+Invalid value for `background-image`
+    syntax: &lt;bg-image&gt;#
+     value: linear-gradient(top,#467bb7,#2d629e)
+    --------^
+Invalid value for `background-image`
+    syntax: &lt;bg-image&gt;#
+     value: linear-gradient(top,#84b943,#619620)
+    --------^
+Unknown property: rotation × 4
+Invalid value for `background-image`
+    syntax: &lt;bg-image&gt;#
+     value: linear-gradient(top,rgba(0,0,0,.05),transparent 5px)
+    --------^
+Invalid value for `background-image`
+    syntax: &lt;bg-image&gt;#
+     value: linear-gradient(top,transparent,rgba(0,0,0,.15))
+    --------^</pre></details></td></tr>
 <tr><td>151</td><td>⚠️</td><td>google.com.co</td><td>OK</td><td><details><summary>13 warnings</summary><pre>The rest part of value can't to be matched on `opacity` syntax
     syntax: &lt;number-zero-one&gt;
      value: 1\0/
@@ -4636,7 +5531,11 @@ Invalid value for `color`
     syntax: &lt;color&gt;
      value: status-neutral
     --------^</pre></details></td></tr>
-<tr><td>153</td><td>⚠️</td><td>theladbible.com</td><td>OK</td><td><details><summary>2 warnings</summary><pre>Invalid value for `min-width`
+<tr><td>153</td><td>⚠️</td><td>theladbible.com</td><td>OK</td><td><details><summary>3 warnings</summary><pre>The rest part of value can't to be matched on `-webkit-transition` syntax
+    syntax: &lt;single-transition&gt;#
+     value: visibility 0 linear 0,opacity 1s 0
+    -------------------^
+Invalid value for `min-width`
     syntax: &lt;length&gt; | &lt;percentage&gt; | auto | max-content | min-content | fit-co…
      value: none
     --------^
@@ -5251,7 +6150,13 @@ Invalid value for `width`
      value: device-width
     --------^</pre></details></td></tr>
 <tr><td>165</td><td>⚠️</td><td>indeed.com</td><td colspan="2">–</td></tr>
-<tr><td>166</td><td>🆗</td><td>uol.com.br</td><td>OK</td><td>OK</td></tr>
+<tr><td>166</td><td>⚠️</td><td>uol.com.br</td><td><details><summary>Error</summary><pre>Parse error: PercentSign is expected
+    3 |
+    4 |
+    5 |…/placar-futebol-gol.css */@-webkit-keyframes placarGol{0{background-position:-202px -35px}5%{backg…
+----------------------------------------------------------------^
+    6 |
+    7 |</pre></details></td><td>–</td></tr>
 <tr><td>167</td><td>⚠️</td><td>chaturbate.com</td><td>OK</td><td><details><summary>6 warnings</summary><pre>Invalid value for `filter`
     syntax: none | &lt;filter-function-list&gt; | &lt;-ms-filter&gt;
      value: "progid:DXImageTransform.Microsoft.gradient( startColorstr='#f67300…
@@ -5262,12 +6167,12 @@ Unknown property: -webkit-margin-after
 Unknown property: -webkit-margin-end
 Unknown property: -webkit-padding-start</pre></details></td></tr>
 <tr><td>168</td><td>⚠️</td><td>steampowered.com</td><td><details><summary>Error (patched)</summary><pre>Parse error: Identifier is expected
- 2386 |
- 2387 |                background: #417a9b;
- 2388 |            background: -webkit-linear-gradient( -60deg, #417a9b 5%,#67c1f5 95%););background: lin…
+ 2403 |
+ 2404 |                background: #417a9b;
+ 2405 |            background: -webkit-linear-gradient( -60deg, #417a9b 5%,#67c1f5 95%););background: lin…
 ----------------------------------------------------------------------------------------^
- 2389 |
- 2390 |    .btnv6_blue_hoverfade:not(.btn_disabled):not(:disabled):not(.btn_active):not(.active):hover &gt; …</pre></details></td><td><details><summary>2 warnings</summary><pre>The rest part of value can't to be matched on `background-position` syntax
+ 2406 |
+ 2407 |    .btnv6_blue_hoverfade:not(.btn_disabled):not(:disabled):not(.btn_active):not(.active):hover &gt; …</pre></details></td><td><details><summary>2 warnings</summary><pre>The rest part of value can't to be matched on `background-position` syntax
     syntax: &lt;position&gt;#
      value: -24px right
     --------------^
@@ -5599,7 +6504,7 @@ Invalid value for `background-image` × 2
     syntax: &lt;bg-image&gt;#
      value: linear-gradient(top,#4d90fe,#4787ed)
     --------^
-Invalid value for `background-image` × 2
+Invalid value for `background-image` × 3
     syntax: &lt;bg-image&gt;#
      value: linear-gradient(top,#4d90fe,#357ae8)
     --------^
@@ -5664,7 +6569,7 @@ Invalid value for `background-image`
     syntax: &lt;bg-image&gt;#
      value: linear-gradient(bottom,rgba(0,0,0,.2),rgba(0,0,0,0))
     --------^</pre></details></td></tr>
-<tr><td>182</td><td>⚠️</td><td>force.com</td><td>OK</td><td><details><summary>16 warnings</summary><pre>Invalid value for `-webkit-font-smoothing` × 2
+<tr><td>182</td><td>⚠️</td><td>force.com</td><td>OK</td><td><details><summary>17 warnings</summary><pre>Invalid value for `-webkit-font-smoothing` × 2
     syntax: none | antialiased | subpixel-antialiased
      value: auto
     --------^
@@ -5718,6 +6623,10 @@ Invalid value for `transition-delay`
     syntax: &lt;time&gt;#
      value: 0,0
     --------^
+Invalid value for `background-image`
+    syntax: &lt;bg-image&gt;#
+     value: linear-gradient(top,#4d90fe,#357ae8)
+    --------^
 Invalid value for `border`
     syntax: &lt;br-width&gt; || &lt;br-style&gt; || &lt;color&gt;
      value: block
@@ -5748,12 +6657,12 @@ Invalid value for `border-radius` × 2
      value: none
     --------^</pre></details></td></tr>
 <tr><td>184</td><td>⚠️</td><td>wittyfeed.com</td><td><details><summary>Error (patched)</summary><pre>Parse error: Unexpected input
-   26 |…ow:hidden;}.flex-control-thumbs li{width:25%;float:left;margin:0;}.flex-control-thumbs img{width:1…
-   27 |
-   28 |…ut:focus{border:0px;box-shadow:none;margin-top:3px width: 99%;padding:5px 15px;color:#000;}.main-s…
+   47 |…ow:hidden;}.flex-control-thumbs li{width:25%;float:left;margin:0;}.flex-control-thumbs img{width:1…
+   48 |
+   49 |…ut:focus{border:0px;box-shadow:none;margin-top:3px width: 99%;padding:5px 15px;color:#000;}.main-s…
 ----------------------------------------------------------------^
-   29 |
-   30 |…ategories_rowListli&gt;ul.cateList&gt;li&gt;a.active&gt;svg,a.language-toggle.active span.down-svg&gt;svg{transfo…</pre></details></td><td><details><summary>10 warnings</summary><pre>Invalid value for `background-image`
+   50 |
+   51 |…ategories_rowListli&gt;ul.cateList&gt;li&gt;a.active&gt;svg,a.language-toggle.active span.down-svg&gt;svg{transfo…</pre></details></td><td><details><summary>10 warnings</summary><pre>Invalid value for `background-image`
     syntax: &lt;bg-image&gt;#
      value: -webkit-linear-gradient(left,color-stop(rgba(0,0,0,0.5) 0),color-st…
     --------^
@@ -5958,7 +6867,7 @@ The rest part of value can't to be matched on `transition` syntax
 <tr><td>187</td><td>⚠️</td><td>rambler.ru</td><td><details><summary>Error (patched)</summary><pre>Parse error: Identifier `deep` is expected
    61 |
    62 |
-   63 |…"!important}.yap-yandex_ad8c540-b874b-4cc74-horizontal // Для IE8 .yap-warning_ie.yap-warning_grad…
+   63 |…"!important}.yap-yandex_ada91a0-095cd-e2574-horizontal // Для IE8 .yap-warning_ie.yap-warning_grad…
 ----------------------------------------------------------------^
    64 |
    65 |</pre></details></td><td><details><summary>35 warnings</summary><pre>Invalid value for `border-color` × 18
@@ -5969,7 +6878,7 @@ Invalid value for `*vertical-align` × 60
     syntax: baseline | sub | super | text-top | text-bottom | middle | top | bo…
      value: auto
     --------^
-Invalid value for `font-size` × 7
+Invalid value for `font-size` × 8
     syntax: &lt;absolute-size&gt; | &lt;relative-size&gt; | &lt;length-percentage&gt;
      value: &lt;empty string&gt;
     --------^
@@ -5981,68 +6890,68 @@ Invalid value for `color` × 12
     syntax: &lt;color&gt;
      value: &lt;empty string&gt;
     --------^
-Invalid value for `margin-right` × 2
+Invalid value for `margin-right` × 4
     syntax: &lt;length&gt; | &lt;percentage&gt; | auto
+     value: &lt;empty string&gt;
+    --------^
+Invalid value for `height` × 4
+    syntax: [ &lt;length&gt; | &lt;percentage&gt; ] &amp;&amp; [ border-box | content-box ]? | avai…
+     value: NaNpx
+    --------^
+Invalid value for `width` × 4
+    syntax: [ &lt;length&gt; | &lt;percentage&gt; ] &amp;&amp; [ border-box | content-box ]? | avai…
+     value: NaNpx
+    --------^
+Invalid value for `vertical-align` × 2
+    syntax: baseline | sub | super | text-top | text-bottom | middle | top | bo…
+     value: &lt;empty string&gt;
+    --------^
+Invalid value for `border-bottom-width` × 6
+    syntax: &lt;br-width&gt;
+     value: &lt;empty string&gt;
+    --------^
+Invalid value for `border-right-width` × 4
+    syntax: &lt;br-width&gt;
+     value: &lt;empty string&gt;
+    --------^
+Unknown property: tap-highlight-color × 2
+Invalid value for `border-spacing` × 4
+    syntax: &lt;length&gt; &lt;length&gt;?
+     value: &lt;empty string&gt;
+    --------^
+Invalid value for `margin-left` × 2
+    syntax: &lt;length&gt; | &lt;percentage&gt; | auto
+     value: &lt;empty string&gt;
+    --------^
+Invalid value for `margin` × 2
+    syntax: [ &lt;length&gt; | &lt;percentage&gt; | auto ]{1,4}
+     value: &lt;empty string&gt;
+    --------^
+Invalid value for `width` × 2
+    syntax: [ &lt;length&gt; | &lt;percentage&gt; ] &amp;&amp; [ border-box | content-box ]? | avai…
      value: &lt;empty string&gt;
     --------^
 Invalid value for `height` × 2
     syntax: [ &lt;length&gt; | &lt;percentage&gt; ] &amp;&amp; [ border-box | content-box ]? | avai…
-     value: NaNpx
+     value: &lt;empty string&gt;
     --------^
 Invalid value for `width` × 2
     syntax: [ &lt;length&gt; | &lt;percentage&gt; ] &amp;&amp; [ border-box | content-box ]? | avai…
-     value: NaNpx
+     value: px
     --------^
-Invalid value for `vertical-align`
-    syntax: baseline | sub | super | text-top | text-bottom | middle | top | bo…
-     value: &lt;empty string&gt;
-    --------^
-Invalid value for `border-bottom-width` × 3
-    syntax: &lt;br-width&gt;
-     value: &lt;empty string&gt;
-    --------^
-Invalid value for `border-right-width` × 2
-    syntax: &lt;br-width&gt;
-     value: &lt;empty string&gt;
-    --------^
-Unknown property: tap-highlight-color
-Invalid value for `border-spacing` × 2
-    syntax: &lt;length&gt; &lt;length&gt;?
-     value: &lt;empty string&gt;
-    --------^
-Invalid value for `margin-left`
-    syntax: &lt;length&gt; | &lt;percentage&gt; | auto
-     value: &lt;empty string&gt;
-    --------^
-Invalid value for `margin`
-    syntax: [ &lt;length&gt; | &lt;percentage&gt; | auto ]{1,4}
-     value: &lt;empty string&gt;
-    --------^
-Invalid value for `width`
-    syntax: [ &lt;length&gt; | &lt;percentage&gt; ] &amp;&amp; [ border-box | content-box ]? | avai…
-     value: &lt;empty string&gt;
-    --------^
-Invalid value for `height`
-    syntax: [ &lt;length&gt; | &lt;percentage&gt; ] &amp;&amp; [ border-box | content-box ]? | avai…
-     value: &lt;empty string&gt;
-    --------^
-Invalid value for `width`
+Invalid value for `height` × 2
     syntax: [ &lt;length&gt; | &lt;percentage&gt; ] &amp;&amp; [ border-box | content-box ]? | avai…
      value: px
     --------^
-Invalid value for `height`
-    syntax: [ &lt;length&gt; | &lt;percentage&gt; ] &amp;&amp; [ border-box | content-box ]? | avai…
-     value: px
-    --------^
-Invalid value for `padding`
+Invalid value for `padding` × 2
     syntax: [ &lt;length&gt; | &lt;percentage&gt; ]{1,4}
      value: &lt;empty string&gt;
     --------^
-Invalid value for `margin-top`
+Invalid value for `margin-top` × 2
     syntax: &lt;length&gt; | &lt;percentage&gt; | auto
      value: &lt;empty string&gt;
     --------^
-Invalid value for `text-decoration` × 2
+Invalid value for `text-decoration` × 4
     syntax: &lt;'text-decoration-line'&gt; || &lt;'text-decoration-style'&gt; || &lt;'text-dec…
      value: &lt;empty string&gt;
     --------^
@@ -6151,9 +7060,9 @@ Invalid value for `background-image`
      value: linear-gradient(bottom,rgba(0,0,0,.2),rgba(0,0,0,0))
     --------^</pre></details></td></tr>
 <tr><td>189</td><td>⚠️</td><td>dingit.tv</td><td><details><summary>Error</summary><pre>Parse error: Identifier is expected
-  199 |
-  200 |
-  201 |…ansform-style:preserve-3d;transform-style:preserve-3d;// -webkit-perspective:1000px;// -moz-perspe…
+  266 |
+  267 |
+  268 |…ansform-style:preserve-3d;transform-style:preserve-3d;// -webkit-perspective:1000px;// -moz-perspe…
 ----------------------------------------------------------------^
 </pre></details></td><td>–</td></tr>
 <tr><td>190</td><td>⚠️</td><td>roblox.com</td><td>OK</td><td><details><summary>7 warnings</summary><pre>Invalid value for `width` × 2
@@ -6184,14 +7093,130 @@ Invalid value for `text-align`
     syntax: start | end | left | right | center | justify | match-parent
      value: -ms-center
     --------^</pre></details></td></tr>
-<tr><td>191</td><td>⚠️</td><td>washingtonpost.com</td><td>OK<br><em>No patch needed</em></td><td><details><summary>1 warning</summary><pre>Unknown property: background-repeat-x × 4</pre></details></td></tr>
+<tr><td>191</td><td>⚠️</td><td>washingtonpost.com</td><td><details><summary>Error (patched)</summary><pre>Parse error: Identifier or parenthesis is expected
+    9 |…XzrJaqjRzIEfgSzxWA5kEY7lloCAHejE/N8ZloF8o88iTge6wZ3RHOLwEDMWZYSeFhxIKD13/jdwvhxKYw1CyG8CpRYM9U8xkz…
+   10 |
+   11 |…em !important;padding-right:0.3125rem !important}@media {.pb-c-top-table-x-wide .top-table-col.mob…
+----------------------------------------------------------------^
+   12 |
+   13 |</pre></details></td><td><details><summary>36 warnings</summary><pre>Unknown property: -content × 2
+Unknown property: -display × 2
+Unknown property: -height
+The rest part of value can't to be matched on `transition` syntax × 2
+    syntax: &lt;single-transition&gt;#
+     value: background-color 0.24s ease 0
+    ------------------------------------^
+Unknown property: -clear
+The rest part of value can't to be matched on `list-style` syntax × 4
+    syntax: &lt;'list-style-type'&gt; || &lt;'list-style-position'&gt; || &lt;'list-style-imag…
+     value: outside none none
+    ---------------------^
+Invalid value for `-webkit-perspective` × 2
+    syntax: none | &lt;length&gt;
+     value: 1000
+    --------^
+Invalid value for `overflow`
+    syntax: visible | hidden | scroll | auto
+     value: -moz-scrollbars-none
+    --------^
+Unknown property: -color × 3
+Unknown property: -background × 2
+The rest part of value can't to be matched on `-o-transition` syntax
+    syntax: &lt;single-transition&gt;#
+     value: color 0 ease-in
+    --------------^
+Unknown property: xpadding
+Invalid value for `-text-transform`
+    syntax: none | &lt;transform-list&gt;
+     value: uppercase
+    --------^
+Invalid value for `font`
+    syntax: [ [ &lt;'font-style'&gt; || &lt;font-variant-css21&gt; || &lt;'font-weight'&gt; || &lt;'…
+     value: normal 16px
+    --------^
+Invalid value for `letter-spacing`
+    syntax: normal | &lt;length-percentage&gt;
+     value: 1
+    --------^
+Invalid value for `min-width`
+    syntax: &lt;length&gt; | &lt;percentage&gt; | auto | max-content | min-content | fit-co…
+     value: none
+    --------^
+Invalid value for `min-height`
+    syntax: &lt;length&gt; | &lt;percentage&gt; | auto | max-content | min-content | fit-co…
+     value: none
+    --------^
+Invalid value for `-webkit-animation-delay` × 3
+    syntax: &lt;time&gt;#
+     value: 0
+    --------^
+Invalid value for `animation-delay` × 3
+    syntax: &lt;time&gt;#
+     value: 0
+    --------^
+The rest part of value can't to be matched on `transition` syntax
+    syntax: &lt;single-transition&gt;#
+     value: visibility 300ms ease 0,opacity 300ms
+    ------------------------------^
+The rest part of value can't to be matched on `-webkit-transition` syntax
+    syntax: &lt;single-transition&gt;#
+     value: visibility 300ms ease 0,opacity 300ms
+    ------------------------------^
+The rest part of value can't to be matched on `-moz-transition` syntax
+    syntax: &lt;single-transition&gt;#
+     value: visibility 300ms ease 0,opacity 300ms
+    ------------------------------^
+The rest part of value can't to be matched on `-o-transition` syntax
+    syntax: &lt;single-transition&gt;#
+     value: visibility 300ms ease 0,opacity 300ms
+    ------------------------------^
+The rest part of value can't to be matched on `transition` syntax
+    syntax: &lt;single-transition&gt;#
+     value: visibility 300ms ease 300ms,opacity 0
+    --------------------------------------------^
+The rest part of value can't to be matched on `-webkit-transition` syntax
+    syntax: &lt;single-transition&gt;#
+     value: visibility 300ms ease 300ms,opacity 0
+    --------------------------------------------^
+The rest part of value can't to be matched on `-moz-transition` syntax
+    syntax: &lt;single-transition&gt;#
+     value: visibility 300ms ease 300ms,opacity 0
+    --------------------------------------------^
+The rest part of value can't to be matched on `-o-transition` syntax
+    syntax: &lt;single-transition&gt;#
+     value: visibility 300ms ease 300ms,opacity 0
+    --------------------------------------------^
+Unknown property: -padding × 3
+Invalid value for `animation-duration` × 2
+    syntax: &lt;time&gt;#
+     value: 1.5
+    --------^
+Unknown property: webkit-border-radius × 2
+Unknown property: qheight
+Unknown property: background-repeat-x × 4
+Invalid value for `background`
+    syntax: [ &lt;bg-layer&gt; , ]* &lt;final-bg-layer&gt;
+     value: -moz-linear-gradient(top,rgba(0,0,0,.5) 0,rgba(0,0,0,0) 100)
+    --------^
+Invalid value for `background`
+    syntax: [ &lt;bg-layer&gt; , ]* &lt;final-bg-layer&gt;
+     value: -webkit-linear-gradient(top,rgba(0,0,0,.5) 0,rgba(0,0,0,0) 100)
+    --------^
+Invalid value for `background`
+    syntax: [ &lt;bg-layer&gt; , ]* &lt;final-bg-layer&gt;
+     value: -o-linear-gradient(top,rgba(0,0,0,.5) 0,rgba(0,0,0,0) 100)
+    --------^
+Invalid value for `background`
+    syntax: [ &lt;bg-layer&gt; , ]* &lt;final-bg-layer&gt;
+     value: -ms-linear-gradient(top,rgba(0,0,0,.5) 0,rgba(0,0,0,0) 100)
+    --------^</pre></details></td></tr>
 <tr><td>192</td><td>⚠️</td><td>nih.gov</td><td><details><summary>Error (patched)</summary><pre>Parse error: Selector is expected
-  522 |}
-  523 |
-  524 |.H_disabled .H_pano_mm svg.H_icon, {
+  547 |}
+  548 |
+  549 |.H_disabled .H_pano_mm svg.H_icon, {
 ------------------------------------------^
-  525 |  fill: #ddd;
-  526 |  stroke: #5A6166;</pre></details></td><td><details><summary>7 warnings</summary><pre>Invalid value for `-webkit-transform`
+  550 |  fill: #ddd;
+  551 |  stroke: #5A6166;</pre></details></td><td><details><summary>7 warnings</summary><pre>Invalid value for `-webkit-transform`
     syntax: none | &lt;transform-list&gt;
      value: trasnlate3d(0,1,0)
     --------^
@@ -6222,7 +7247,7 @@ Invalid value for `background`
     3 |…(max-device-width :480px){div#em-message{font-size:10px;:?}#toast-container&gt;div{padding:8px}}@medi…
 ----------------------------------------------------------------^
     4 |
-    5 |</pre></details></td><td><details><summary>8 warnings</summary><pre>Invalid value for `background-image` × 2
+    5 |</pre></details></td><td><details><summary>10 warnings</summary><pre>Invalid value for `background-image` × 2
     syntax: &lt;bg-image&gt;#
      value: linear-gradient(top,rgba(255,255,255,.3),rgba(255,255,255,0))
     --------^
@@ -6253,24 +7278,28 @@ Invalid value for `font`
 The rest part of value can't to be matched on `list-style` syntax
     syntax: &lt;'list-style-type'&gt; || &lt;'list-style-position'&gt; || &lt;'list-style-imag…
      value: outside none none
-    ---------------------^</pre></details></td></tr>
+    ---------------------^
+Invalid value for `animation-delay`
+    syntax: &lt;time&gt;#
+     value: 0
+    --------^
+Invalid value for `max-height`
+    syntax: &lt;length&gt; | &lt;percentage&gt; | none | max-content | min-content | fit-co…
+     value: auto
+    --------^</pre></details></td></tr>
 <tr><td>194</td><td>⚠️</td><td>123movies.is</td><td><details><summary>Error</summary><pre>Parse error: Identifier is expected
-  826 |    #mv-info .mvi-content .mvic-desc{ border-right: 0; padding-right: 0; width: 660px;}
-  827 |    .mlw-related .movies-list .ml-item{ height: 240px;}
-  828 |    .jwplayer,#123movies-player iframe{ height: 470px !important;}
+  824 |    #mv-info .mvi-content .mvic-desc{ border-right: 0; padding-right: 0; width: 660px;}
+  825 |    .mlw-related .movies-list .ml-item{ height: 240px;}
+  826 |    .jwplayer,#123movies-player iframe{ height: 470px !important;}
 ----------------------^
-  829 |    .infopage .uc-form{ width: 95%;}
-  830 |    footer .footer-one, footer .footer-subs{ width: 50%;}</pre></details></td><td>–</td></tr>
+  827 |    .infopage .uc-form{ width: 95%;}
+  828 |    footer .footer-one, footer .footer-subs{ width: 50%;}</pre></details></td><td>–</td></tr>
 <tr><td>195</td><td>⚠️</td><td>github.io</td><td>OK</td><td><details><summary>1 warning</summary><pre>Invalid value for `background`
     syntax: [ &lt;bg-layer&gt; , ]* &lt;final-bg-layer&gt;
      value: linear-gradient(top,#f7f7f7 0%,#cfcfcf 5%,#aaa 100%)
     --------^</pre></details></td></tr>
-<tr><td>196</td><td>⚠️</td><td>huffingtonpost.com</td><td>OK</td><td><details><summary>12 warnings</summary><pre>Unknown property: font-smoothing × 120
+<tr><td>196</td><td>⚠️</td><td>huffingtonpost.com</td><td>OK</td><td><details><summary>11 warnings</summary><pre>Unknown property: font-smoothing × 120
 Unknown property: olor × 6
-The rest part of value can't to be matched on `padding` syntax
-    syntax: [ &lt;length&gt; | &lt;percentage&gt; ]{1,4}
-     value: 10px 0x 0 0px
-    -------------^
 The rest part of value can't to be matched on `background` syntax
     syntax: [ &lt;bg-layer&gt; , ]* &lt;final-bg-layer&gt;
      value: transparent url () 0 0 no-repeat
@@ -6610,13 +7639,25 @@ Invalid value for `background-image`
     syntax: &lt;bg-image&gt;#
      value: linear-gradient(top,#eee,#fefefe)
     --------^</pre></details></td></tr>
-<tr><td>206</td><td>⚠️</td><td>youm7.com</td><td><details><summary>Error (patched)</summary><pre>Parse error: Colon is expected
-  366 |    .SliderDownDiv {
-  367 |        background-image: url("http://img.youm7.com/images/black-tr.png?2");
-  368 |        background-repeat no-repeat;
----------------------------------^
-  369 |        background-size: 100% auto;
-  370 |        float: right;</pre></details></td><td><details><summary>9 warnings</summary><pre>Invalid value for `word-wrap`
+<tr><td>206</td><td>⚠️</td><td>youm7.com</td><td><details><summary>Error (patched)</summary><pre>Parse error: Identifier is expected
+  409 |…l-sm-5,.col-sm-6,.col-sm-7,.col-sm-8,.col-sm-9,.col-sm-10,.col-sm-11{float:right}
+  410 |….col-sm-3{width:25%}.col-sm-4{width:33.33333333333333%}
+  411 |…58.333333333333336%}.col-sm-8{width:66.66666666666666%}.
+----------------------------------------------------------------^
+  412 |…:91.66666666666666%}.col-sm-12{width:100%}.col-sm-push-1{left:8.333333333333332%}
+  413 |…-push-4{left:33.33333333333333%}.col-sm-push-5{left:41.66666666666667%}</pre></details></td><td><details><summary>12 warnings</summary><pre>Invalid value for `background-image`
+    syntax: &lt;bg-image&gt;#
+     value: -webkit-linear-gradient(left,color-stop(rgba(0,0,0,0.5) 0),color-st…
+    --------^
+Invalid value for `background-image`
+    syntax: &lt;bg-image&gt;#
+     value: -webkit-linear-gradient(left,color-stop(rgba(0,0,0,0.0001) 0),color…
+    --------^
+Invalid value for `width`
+    syntax: [ &lt;length&gt; | &lt;percentage&gt; ] &amp;&amp; [ border-box | content-box ]? | avai…
+     value: device-width
+    --------^
+Invalid value for `word-wrap`
     syntax: normal | break-word
      value: keep-all
     --------^
@@ -7920,7 +8961,99 @@ Invalid value for `padding-right`
     syntax: &lt;length&gt; | &lt;percentage&gt;
      value: auto
     --------^</pre></details></td></tr>
-<tr><td>238</td><td>🆗</td><td>amazon.it</td><td>OK<br><em>No patch needed</em></td><td>OK</td></tr>
+<tr><td>238</td><td>⚠️</td><td>amazon.it</td><td><details><summary>Error (patched)</summary><pre>Parse error: Identifier or asterisk is expected
+   96 |
+   97 |
+   98 |…color:#FFF;vertical-align:baseline;white-space:nowrap}*|:-moz-full-screen-ancestor{transform:initi…
+----------------------------------------------------------------^
+</pre></details></td><td><details><summary>22 warnings</summary><pre>Invalid value for `border-color`
+    syntax: &lt;color&gt;{1,4}
+     value: &lt;empty string&gt;
+    --------^
+Invalid value for `color` × 4
+    syntax: &lt;color&gt;
+     value: &lt;empty string&gt;
+    --------^
+Invalid value for `background-color` × 10
+    syntax: &lt;color&gt;
+     value: &lt;empty string&gt;
+    --------^
+Invalid value for `background`
+    syntax: [ &lt;bg-layer&gt; , ]* &lt;final-bg-layer&gt;
+     value: -webkit-linear-gradient(to right,#f6f6f6,rgba(255,255,255,0),#f6f6f…
+    --------^
+Invalid value for `background`
+    syntax: [ &lt;bg-layer&gt; , ]* &lt;final-bg-layer&gt;
+     value: -webkit-linear-gradient(to bottom,rgba(0,0,0,.14),rgba(0,0,0,.03) 3…
+    --------^
+Invalid value for `background`
+    syntax: [ &lt;bg-layer&gt; , ]* &lt;final-bg-layer&gt;
+     value: -webkit-linear-gradient(to right,#fff,rgba(255,255,255,0),#fff)
+    --------^
+Invalid value for `margin-right`
+    syntax: &lt;length&gt; | &lt;percentage&gt; | auto
+     value: none
+    --------^
+Invalid value for `background`
+    syntax: [ &lt;bg-layer&gt; , ]* &lt;final-bg-layer&gt;
+     value: &lt;empty string&gt;
+    --------^
+Invalid value for `-ms-filter`
+    syntax: &lt;string&gt;
+     value: opacity(.6)
+    --------^
+Invalid value for `display`
+    syntax: none | inline | block | list-item | inline-list-item | inline-block…
+     value: hidden
+    --------^
+Invalid value for `-ms-filter`
+    syntax: &lt;string&gt;
+     value: opacity(.95)
+    --------^
+Invalid value for `-ms-filter`
+    syntax: &lt;string&gt;
+     value: opacity(0)
+    --------^
+Invalid value for `background`
+    syntax: [ &lt;bg-layer&gt; , ]* &lt;final-bg-layer&gt;
+     value: -webkit-gradient(linear,left top,left bottom,color-stop(0,#ddd),col…
+    --------^
+Invalid value for `background`
+    syntax: [ &lt;bg-layer&gt; , ]* &lt;final-bg-layer&gt;
+     value: linear-gradient(top,#ddd,#f7f7f7 3px,#fff)
+    --------^
+Invalid value for `background`
+    syntax: [ &lt;bg-layer&gt; , ]* &lt;final-bg-layer&gt;
+     value: linear-gradient(left,#fff,rgba(255,255,255,0),#fff)
+    --------^
+The rest part of value can't to be matched on `-webkit-box-flex` syntax × 2
+    syntax: &lt;number&gt;
+     value: 1 1 auto
+    ----------^
+The rest part of value can't to be matched on `-moz-box-flex` syntax × 2
+    syntax: &lt;number&gt;
+     value: 1 1 auto
+    ----------^
+Invalid value for `vertical-align`
+    syntax: baseline | sub | super | text-top | text-bottom | middle | top | bo…
+     value: center
+    --------^
+Invalid value for `background-image`
+    syntax: &lt;bg-image&gt;#
+     value: -webkit-linear-gradient(to bottom,#cb0400,#a50200)
+    --------^
+Invalid value for `background-image`
+    syntax: &lt;bg-image&gt;#
+     value: -moz-linear-gradient(to bottom,#cb0400,#a50200)
+    --------^
+Invalid value for `background-image`
+    syntax: &lt;bg-image&gt;#
+     value: -ms-linear-gradient(to bottom,#cb0400,#a50200)
+    --------^
+Invalid value for `background-image`
+    syntax: &lt;bg-image&gt;#
+     value: -o-linear-gradient(to bottom,#cb0400,#a50200)
+    --------^</pre></details></td></tr>
 <tr><td>239</td><td>⚠️</td><td>google.ae</td><td>OK</td><td><details><summary>13 warnings</summary><pre>The rest part of value can't to be matched on `opacity` syntax
     syntax: &lt;number-zero-one&gt;
      value: 1\0/
@@ -8032,17 +9165,117 @@ Invalid value for `background-image`
     syntax: &lt;bg-image&gt;#
      value: linear-gradient(bottom,rgba(0,0,0,.2),rgba(0,0,0,0))
     --------^</pre></details></td></tr>
-<tr><td>242</td><td>🆗</td><td>doublepimp.com</td><td>OK</td><td>OK</td></tr>
+<tr><td>242</td><td>⚠️</td><td>doublepimp.com</td><td>OK</td><td><details><summary>26 warnings</summary><pre>Unknown property: -webkit-margin-top-collapse
+Invalid value for `-moz-background-clip`
+    syntax: padding | border
+     value: padding-box
+    --------^
+Invalid value for `width`
+    syntax: [ &lt;length&gt; | &lt;percentage&gt; ] &amp;&amp; [ border-box | content-box ]? | avai…
+     value: device-width
+    --------^
+Invalid value for `background`
+    syntax: [ &lt;bg-layer&gt; , ]* &lt;final-bg-layer&gt;
+     value: linear-gradient(top,#bf2432 0%,#901b25 100%)
+    --------^
+Invalid value for `background`
+    syntax: [ &lt;bg-layer&gt; , ]* &lt;final-bg-layer&gt;
+     value: linear-gradient(top,#3493b3 0%,#2a738c 100%)
+    --------^
+Invalid value for `background`
+    syntax: [ &lt;bg-layer&gt; , ]* &lt;final-bg-layer&gt;
+     value: linear-gradient(top,#534d70 0%,#474260 100%)
+    --------^
+Invalid value for `background-image`
+    syntax: &lt;bg-image&gt;#
+     value: -webkit-linear-gradient(center bottom,#eee 0%,#fff 50%)
+    --------^
+Invalid value for `background-image`
+    syntax: &lt;bg-image&gt;#
+     value: -moz-linear-gradient(center bottom,#eee 0%,#fff 50%)
+    --------^
+Invalid value for `background-image`
+    syntax: &lt;bg-image&gt;#
+     value: -webkit-linear-gradient(center bottom,#eee 0%,#fff 90%)
+    --------^
+Invalid value for `background-image`
+    syntax: &lt;bg-image&gt;#
+     value: -moz-linear-gradient(center bottom,#eee 0%,#fff 90%)
+    --------^
+Invalid value for `background-image`
+    syntax: &lt;bg-image&gt;#
+     value: -webkit-linear-gradient(center bottom,#ccc 0%,#eee 60%)
+    --------^
+Invalid value for `background-image`
+    syntax: &lt;bg-image&gt;#
+     value: -moz-linear-gradient(center bottom,#ccc 0%,#eee 60%)
+    --------^
+Invalid value for `background`
+    syntax: [ &lt;bg-layer&gt; , ]* &lt;final-bg-layer&gt;
+     value: url('/Content/css/select2.png') no-repeat 100% -22px,-webkit-linear…
+    -------------------------------------------------------------^
+Invalid value for `background`
+    syntax: [ &lt;bg-layer&gt; , ]* &lt;final-bg-layer&gt;
+     value: url('/Content/css/select2.png') no-repeat 100% -22px,-moz-linear-gr…
+    -------------------------------------------------------------^
+Invalid value for `background`
+    syntax: [ &lt;bg-layer&gt; , ]* &lt;final-bg-layer&gt;
+     value: url('/Content/css/select2.png') no-repeat -37px -22px,-webkit-linea…
+    --------------------------------------------------------------^
+Invalid value for `background`
+    syntax: [ &lt;bg-layer&gt; , ]* &lt;final-bg-layer&gt;
+     value: url('/Content/css/select2.png') no-repeat -37px -22px,-moz-linear-g…
+    --------------------------------------------------------------^
+Invalid value for `background`
+    syntax: [ &lt;bg-layer&gt; , ]* &lt;final-bg-layer&gt;
+     value: url('/Content/css/select2-spinner.gif') no-repeat 100%,-webkit-line…
+    ---------------------------------------------------------------^
+Invalid value for `background`
+    syntax: [ &lt;bg-layer&gt; , ]* &lt;final-bg-layer&gt;
+     value: url('/Content/css/select2-spinner.gif') no-repeat 100%,-moz-linear-…
+    ---------------------------------------------------------------^
+Invalid value for `background-image`
+    syntax: &lt;bg-image&gt;#
+     value: -webkit-linear-gradient(center bottom,#fff 0%,#eee 50%)
+    --------^
+Invalid value for `background-image`
+    syntax: &lt;bg-image&gt;#
+     value: -moz-linear-gradient(center bottom,#fff 0%,#eee 50%)
+    --------^
+Invalid value for `background-image`
+    syntax: &lt;bg-image&gt;#
+     value: -webkit-linear-gradient(center top,#fff 0%,#eee 50%)
+    --------^
+Invalid value for `background-image`
+    syntax: &lt;bg-image&gt;#
+     value: -moz-linear-gradient(center top,#fff 0%,#eee 50%)
+    --------^
+Invalid value for `filter`
+    syntax: none | &lt;filter-function-list&gt; | &lt;-ms-filter&gt;
+     value: mask()
+    --------^
+Invalid value for `white-space`
+    syntax: normal | pre | nowrap | pre-wrap | pre-line
+     value: -moz-pre-wrap
+    --------^
+Invalid value for `white-space`
+    syntax: normal | pre | nowrap | pre-wrap | pre-line
+     value: -pre-wrap
+    --------^
+Invalid value for `white-space`
+    syntax: normal | pre | nowrap | pre-wrap | pre-line
+     value: -o-pre-wrap
+    --------^</pre></details></td></tr>
 <tr><td>243</td><td>🆗</td><td>google.cn</td><td>OK</td><td>OK</td></tr>
 <tr><td>244</td><td>⚠️</td><td>bp.blogspot.com</td><td colspan="2">–</td></tr>
 <tr><td>245</td><td>🆗</td><td>skype.com</td><td>OK</td><td>OK</td></tr>
 <tr><td>246</td><td>⚠️</td><td>livejournal.com</td><td><details><summary>Error (patched)</summary><pre>Parse error: Identifier is expected
-   76 |
-   77 |
-   78 |…ke--v4 .b-flatrepost-reposted .b-flatrepost-name:before. .lj-like--v4 .b-flatrepost-reposted .b-fl…
-----------------------------------------------------------------^
    79 |
-   80 |</pre></details></td><td><details><summary>8 warnings</summary><pre>Invalid value for `-webkit-overflow-scrolling`
+   80 |
+   81 |…ke--v4 .b-flatrepost-reposted .b-flatrepost-name:before. .lj-like--v4 .b-flatrepost-reposted .b-fl…
+----------------------------------------------------------------^
+   82 |
+   83 |</pre></details></td><td><details><summary>8 warnings</summary><pre>Invalid value for `-webkit-overflow-scrolling`
     syntax: auto | touch
      value: none
     --------^
@@ -8076,7 +9309,24 @@ The rest part of value can't to be matched on `transition` syntax
     ---------------------^</pre></details></td></tr>
 <tr><td>247</td><td>⚠️</td><td>wordreference.com</td><td>OK</td><td><details><summary>1 warning</summary><pre>Unknown property: webkit-box-shadow</pre></details></td></tr>
 <tr><td>248</td><td>⚠️</td><td>twimg.com</td><td colspan="2">–</td></tr>
-<tr><td>249</td><td>🆗</td><td>mozilla.org</td><td>OK</td><td>OK</td></tr>
-<tr><td>250</td><td>⚠️</td><td>wellsfargo.com</td><td colspan="2">–</td></tr></table>
+<tr><td>249</td><td>⚠️</td><td>mozilla.org</td><td>OK</td><td><details><summary>3 warnings</summary><pre>Invalid value for `-webkit-box-pack` × 2
+    syntax: start | center | end | justify
+     value: flex-end
+    --------^
+Invalid value for `-webkit-background-size`
+    syntax: &lt;bg-size&gt;#
+     value: fill
+    --------^
+Invalid value for `background-size`
+    syntax: &lt;bg-size&gt;#
+     value: fill
+    --------^</pre></details></td></tr>
+<tr><td>250</td><td>⚠️</td><td>wellsfargo.com</td><td><details><summary>Error</summary><pre>Parse error: Unexpected input
+    1 |
+    2 |
+    3 |…{outline:0}body{margin:0}h1{margin:0 0 .67em 0 font-size:2em}h2{margin:0 0 .83em 0 font-size:1.5em…
+----------------------------------------------------------------^
+    4 |…ing:0;font-size:92%}.c1 #topSearch ul li{float:left;width:auto;margin-left:17px;margin-top:11px}.c…
+    5 |…r,body #shell input.c7.hover,body #c28lightbox a.c7:hover,body #c28lightbox a.c7.hover{color:#fff;…</pre></details></td><td>–</td></tr></table>
 
 <!-- /table -->
