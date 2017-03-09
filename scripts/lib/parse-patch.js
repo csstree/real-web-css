@@ -393,7 +393,34 @@ module.exports = {
     },
     'kinogo.club': {
         patch: function(css) {
-            return css.replace(/(resolution=0)/g, '(resolution:0)');
+            return css.replace(/\(resolution=0\)/g, '(resolution:0)');
+        }
+    },
+    'xinhuanet.com': {
+        patch: function(css) {
+            return css.replace(/\. picTitle/g, ' .picTitle');
+        }
+    },
+    '39.net': {
+        patch: function(css) {
+            return css
+                .replace(/a\.spad\/dx/, 'a.spad\\/dx')
+                .replace(/\.#renMap1/g, '.renMap1');
+        }
+    },
+    'tmall.com': {
+        patch: function(css) {
+            return css.replace(/;\+\s+/g, ';+');
+        }
+    },
+    'list.tmall.com': {
+        patch: function(css) {
+            return css.replace(/;\+\s+/g, ';+');
+        }
+    },
+    'mail.ru': {
+        patch: function(css) {
+            return css.replace(/<!--\[(.|\s)*?\]-->/g, '');
         }
     }
 }

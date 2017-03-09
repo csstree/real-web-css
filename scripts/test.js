@@ -79,6 +79,7 @@ var reports = sites.map(function(url, idx) {
         validation: null
     };
 
+    // if (url !== 'mail.ru') return report;
     console.log('Test #' + idx + ' ' + url);
 
     if (fs.existsSync(fullfn)) {

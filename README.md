@@ -5,7 +5,7 @@ Using [CSSTree](https://github.com/csstree/csstree) for real site CSS
 
 <!-- date -->
 
-Update date: 2017-03-09T00:44:00.913Z
+Update date: 2017-03-09T01:19:34.969Z
 
 <!-- /date -->
 
@@ -14,8 +14,8 @@ Update date: 2017-03-09T00:44:00.913Z
 
 * Sites: `250`
 * Downloaded: `231` (19 failed)
-* Parsed: `204` (27 failed)
-* Validation passed: `15` (189 failed)
+* Parsed: `212` (19 failed)
+* Validation passed: `15` (197 failed)
 
 <table>
 <thead>
@@ -788,13 +788,224 @@ Update date: 2017-03-09T00:44:00.913Z
     syntax: &lt;bg-image&gt;#
      value: -o-image-set(url(//img.alicdn.com/tps/i1/TB1JUgwLVXXXXcHXXXXSBl3GVXX-44-19.png) 1x,url(//img.alicdn.com/tps/i3/TB1tS3hLVXXXXbqXVXXtod5JFXX-88-38.png) 2x)
     --------^</pre></details></td></tr>
-<tr><td>11</td><td>⚠️</td><td>tmall.com</td><td><details><summary>Error</summary><pre>Parse error: Identifier is expected
+<tr><td>11</td><td>⚠️</td><td>tmall.com</td><td><details><summary>Error (patched)</summary><pre>Parse error: Identifier is expected
   192 |
   193 |
-  194 |…/images/mui-mbarp-asset-ableCouponBubble-rmb_icon.png);;+ vertical-align:middle}.mui-mbarp-asset-b…
+  194 |…images/mui-mbarp-asset-ableCouponBubble-rmb_icon.png);;+ vertical-align:middle}.mui-mbarp-asset-bu…
 ----------------------------------------------------------------^
   195 |
-  196 |</pre></details></td><td>–</td></tr>
+  196 |</pre></details></td><td><details><summary>56 warnings (unique: 41)</summary><pre>* Invalid value for `filter`
+    syntax: none | &lt;filter-function-list&gt; | &lt;-ms-filter&gt;
+     value: mask()
+    --------^
+* The rest part of value can't to be matched on `line-height` syntax
+    syntax: normal | &lt;number&gt; | &lt;length&gt; | &lt;percentage&gt;
+     value: 20px\9
+    ------------^
+* The rest part of value can't to be matched on `margin-top` syntax
+    syntax: &lt;length&gt; | &lt;percentage&gt; | auto
+     value: 10px\9
+    ------------^
+* Invalid value for `display`
+    syntax: none | inline | block | list-item | inline-list-item | inline-block | inline-table | table | table-cell | table-column | table-column-group | table-footer-group | table-header-group | table-row | table-row-group | flex | inline-flex | grid | inline-grid | run-in | ruby | ruby-base | ruby-text | ruby-base-container | ruby-text-container | contents | -ms-flexbox | -ms-inline-flexbox | -ms-grid | -ms-inline-grid | -webkit-flex | -webkit-inline-flex | -webkit-box | -webkit-inline-box | -moz-inline-stack | -moz-box | -moz-inline-box
+     value: inline\9
+    --------^
+* Unknown property: -webkit-user-modify
+* The rest part of value can't to be matched on `height` syntax
+    syntax: [ &lt;length&gt; | &lt;percentage&gt; ] &amp;&amp; [ border-box | content-box ]? | available | min-content | max-content | fit-content | auto
+     value: 90px\9
+    ------------^
+* Invalid value for `filter`
+    syntax: none | &lt;filter-function-list&gt; | &lt;-ms-filter&gt;
+     value: "alpha(opacity=95)"
+    --------^
+* Unknown property: text-justify
+* Invalid value for `background-color`
+    syntax: &lt;color&gt;
+     value: #797979\9
+    --------^
+* Invalid value for `display`
+    syntax: none | inline | block | list-item | inline-list-item | inline-block | inline-table | table | table-cell | table-column | table-column-group | table-footer-group | table-header-group | table-row | table-row-group | flex | inline-flex | grid | inline-grid | run-in | ruby | ruby-base | ruby-text | ruby-base-container | ruby-text-container | contents | -ms-flexbox | -ms-inline-flexbox | -ms-grid | -ms-inline-grid | -webkit-flex | -webkit-inline-flex | -webkit-box | -webkit-inline-box | -moz-inline-stack | -moz-box | -moz-inline-box
+     value: none\9
+    --------^
+* Invalid value for `top`
+    syntax: &lt;length&gt; | &lt;percentage&gt; | auto
+     value: 0\9
+    --------^
+* Invalid value for `left`
+    syntax: &lt;length&gt; | &lt;percentage&gt; | auto
+     value: 0\9
+    --------^
+* The rest part of value can't to be matched on `top` syntax
+    syntax: &lt;length&gt; | &lt;percentage&gt; | auto
+     value: 50%\9\0
+    -----------^
+* The rest part of value can't to be matched on `left` syntax
+    syntax: &lt;length&gt; | &lt;percentage&gt; | auto
+     value: 50%\9\0
+    -----------^
+* Invalid value for `background-image`
+    syntax: &lt;bg-image&gt;#
+     value: -webkit-image-set(url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAA0AAAANCAMAAABFNRROAAAAclBMVEUAAAD///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////9eWEHEAAAAJnRSTlMA1H0IwI5yK9mtnFlPR0AXDATes6ODXzs3MCMRzaiPh3draVskIssciqgAAAB2SURBVAjXPcpHDsMwDETRkdXlqLmX9MT3v6IpQPBbkPgEQbQU7PHJKHLD2i3Nz/taqhk4YgIWE+mNcbrcAEwWkC1qgUWI4yrnYTjtdy/pZ5xgFyoeQvjDrlAjqr3L4EzXGr40ZuNBkutRbEK8lOsUKv1Tfgc5Ac/wBPWOGL08AAAAAElFTkSuQmCC) 1x,url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABoAAAAaCAMAAACelLz8AAAAkFBMVEUAAAD///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////+WABnwAAAAL3RSTlMA+7UCycKfmRwU44EmBvfbqXcwuhkK7dXTsa6MbWhPQjMPzpR7Yl5SSjorFhB9WwynW7AAAAEDSURBVCjPhdDZbsIwFEXR4wnjQOYwzzMU2vP/f1eliaEkkVgvtrR146vAc2c709KeCjR8zQRrMvsf1EJwn26dclmqSRvC2+WM1/CuExrnZ3LKHV5Gc5p6bkGpUFre6pjQVhuIuJ6Jen5uym15zunfET5hwxyAE3u0Egz7wJlpR1pyBVhmHWnIBJB8dKSQBtACz5T0S/fyPp4AOUc+BaxcACU00OPw+UA6KB0dUHBe7dL2w2O5i0Rb8re35rZVhmJS/RSjmknyUp+LRvmmqS6PmIO3kjK4+y8HnPXhFQmDDJ4zjA6bEIC6HSLqAi/qFJBRrOOIDFYh3oRXOx2L8dSuR/jsF+20FrdF7dxbAAAAAElFTkSuQmCC) 2x)
+    --------^
+* Invalid value for `background-position`
+    syntax: &lt;position&gt;#
+     value: repeat-x
+    --------^
+* Invalid value for `background-image`
+    syntax: &lt;bg-image&gt;#
+     value: -webkit-image-set(url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAFEAAAAfCAMAAACoA9EYAAABBVBMVEUAAAD////1T5H///////////+dl5r///+ZmZn////////////////////////////////////////////////////////5VJX////0T5H////////////////1UZL////////////////////////////1UJH////////1UZL////////////////////////////////////2UJH////////////////////1T5D////1T5H1T5H////1UJH////////////1T5D////6V5P0UJH////////1T5D1UJH2UJH3UpT1UJP/////VZf0UJH1UJD1UJD1T5H1UJH1T5Gbm5v/VZgEVuIhAAAAV3RSTlMA3f4SzsIKn3U2LynilNOBM71DJPmPdCQIp2NIrn11XgQ+OenZtKykiX5uuoZVFst+ellXUiAQLA358evdx8eYZ02VGxfTqaaBfW08MRQN0ri2q2ZKHBVZHltYAAACoUlEQVRIx6XS2XaaUBiG4Y8IoSKIoiAKRkCp1AGHxCEOMWZOm6Rz7/9SutlxSKsYYp6DzVocvOvfA54JNhbsBCg9JWBPiYDK0w8AvgDJrE8Zxq1hTxxLjJhg5Z6LiULC09AZYm+6ridtsgAQuHJFwzSjaQKHlYMVRJLKMlQ2AwxTrpyplKnK5aqYW4pYbIGqkCLd9bBXl1RXGK5nxNukskkq+1yUjdI0rmmXnBwLL0af0TJYRhaldqPRlk1j/xlZKpixy7EFaNUmzzdvatgs7nmOGq9IksKvi2Ns8TviOdJiulFPN7gadjn88JYZvZ4s99R18ePSjyjFASMu36PICP5N1oZWqRPMuni0srNo8HQmK/aCBWMACAIdfYAND+HFONdF7/YEb3F19PU0rGi1Z04RwExBVIfH30/PPv/ZWkwYc3MOoWho0F1E8+VifH2fC7vrdKHwCFJEowlNwQZHQOK/35PxxcOO12MCoMVYHXYNqJBrbsgMNQcsRsE5j3+MJ3e5KEWkkfGAmO+3nKHvzzq+rwOlbLFjsh0igZVfeXKIV68WL00YBaBpejKsbrfldeeAM/Jk2WVlIoEXnn6enX47ftp+jlVeCYrWbQreAIBattAfqaoqiQDbBOiuN+XuJiGvRx96qi4UFQV+FYir6shUH0WcOzERMSNOeG48ENu889AXrrilItB3e0CmNEufMyTGl8hicy/YWPi0dB9aRF9y0HQzCJSkptonxS4pbneQz+fPJmQ5CCtSSsHComgPSHGq0GIpvVDDShA6zgMIL67RItAX+9keLbb5OKVK7ytaTrPVtZ2g2ABVe2cRRllJiUpQNE8ofv9igy1C55I2IIgOKSarFLurSJMIYxg6kEKgZ5FsCtTAwco1gKscgAu87i8M+FADs/1mvgAAAABJRU5ErkJggg==) 1x,url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAKIAAAA+CAMAAACfiDARAAABJlBMVEUAAAD1T5H///////////////////+Xl5eenp7////////////////////////////////////////////////////////////////////////////////1UJL////83ez2UZH////////////1UZH////////0T5D////////////////////////////////////////////////1UJD////////////////////42+f////////////////////////////////////1UJD1UJH////////////////1T5D0UJD9VZX1T5D////////0UJH1UJH1UpH5UZL4VJX1UJH1UJD1T5H2T5H1UJL3UZL2T5P1UZL1UZGYmJiampr////1T5CIX39XAAAAYHRSTlMA/NduJrhJ6hXP/Prem8J5ZiOHEaRfPRv08HRTuk5BA1j3ycZI4uzsIOlYrrOqDwi8LObRrY4qv5Y2BsRFFguJTzkOsOmkk4R/L/XWEsWAMo6CMikg3biVc2Y7V357dDXmMmixAAAFbElEQVRo3tWZCXOaUBCAtxptVRAUPNBUilaLGEOjtcYr1TRnk+bsfW7+/5/oew+0BE0mpBjtN+M+cMbx0919xwD/Gy+LG+DisMiDE3VlKMgZWBgVXAEXaSzRGDbEoPBms96MIYGHhyWcH2MgpiY3YadiG22i5Tgf7HThYeFwJpxTcRQUU8awr1SJnC7BQ5Pkx/SQ4ycknYqgGjlaCA0S1mKnsDBauO8qxJMTHssnJxlQm9rAUlzBHszg0QzAR0yJ0cOUZGEXm4AWHYAhCpYij2mYwdU0viqK6MLulVNRbCEninqtVotVyEur1TSN3BxOKz56PoW/iuWQgypTdNTiOroozFCEuSLiJjhYcytChmBoQqUqakF6bS6fImGoybQWRUyq5G4BikrAQdaluK2CtB8tmaxdgljqL0SxEnGgXFOMBCv6gYK8ac+LqQr2+suU6D4iKkXMGsBKksaBjFx3WRQH4ssoaklpJCtRB4FCeGlqMYCoWe1SjdUJ2SyNyC2kFqtFB5Na3FwbFmxFhUaOycVIXKZaTP8/itobgqLQODPRR0dwN7q/7jvpuGvRrejaSt6fJ4/9nxftRK8TuDKNUR8UF1GLz2bwQIrjjs4WCI0GjVHOw37RD8Uw2X0F3JuxCIlDgES+X8P6nWrxxTQ7/6DY4w+d/+ANBAE6dMxbHZ2b8BC1mAqgPAAbaeUGJIBuqyVYvyZeggmR0FwVc4EDOgy5ShrmzMXn+yhm2rG2BpStVW0Ic+TDl6Orq3soGkrgNBUDhhnSOjAnus8+PSId7b1dJBlbJlBFlTmuclswD77tviN+73afq14VC+VyAYApNlr00wMlCb7z4fwjnRE/PTv21C6J/VarJaO8DraiEaux1slug68cf31/RXj/5dhrR/e4OMEAGCtCGIM081kR/EN9/oom+OP55T0mnXKODQ5F2FNoHdbWwDfOdmiDfP4GBF8UdUyRGFTgDgwia/T31JsduIVxg/imCIFNEoZIvzu0avNaX3WyDxZJfEmHCBZuV9w5uwA/FUM0xyPUSYyhzWgDnYSAsa2gcQdFNtMc/fzgn2JcZhutAYkrDAMjqrlBOcUsG3Vg5LDStRXv1M5fj/1RVBs0jUZUBQpJ9zoXHZfaBhada2YVo1lKFLWsDX/TpPiDTYqvvnd9UOzjIYmtJstkOzCAOu6BTR4dClIAp5FvWVo+v7CXFk+KHN/v9wumQ9FsxoHQtLT2sSlg0aTN+5bQxAAdWLdslbCRALAT7WmBPrvwoCiwhgicThTNupJg3WLndg+xmgFCAv8St44IyiF4UWQck20O4cjDGm2SY1uiHRNUWzFkbRZDk5rjsa1aisWMxchS3NTS4FWRcXG2c4/NWE7r6ZaiyHJn4Ij1g67rKz1skQESVEwKd4BdEcw0eFa0UZ++8qwIG00lxRQZfc2qxB5O2GJiaQyNFcPBv5Rx7+9NeF4HA7OFtVxsbBhSrUJst9sVLLbbsQq4FWW8AXlOimzTaB/fRI0tvDYv8TWRqk0pGskbMDw8GvKoCOtGBkDNF2MnKlxXPMCgS9EDvh/1i9HaawCXYiCa+SfFR08t3l+dWxf/pBjWAdyKA27NFjOQdyoKU0i3PtR4dfUUGJ4V3bgVASRbTEDBqRhFNysLUwRbjMf8dcVc0ImyeEWVw8PritvgpLxYRekgBUOMQGebXC2nIqFbQqOjNXWAZVVcbyOndmWsdpZVcdREjhq8wexooliXnWQXoKhLgzLqQBedEmIzAxQBlc58Jh31N3imgUSM9bOGjdwWWLRwdayYDzupeFD0C6FeP0gARRRNmHAgASPe2wIntZ5+q+L388vJO8vF7i64uLwEX/gDi3yZBn3hDPEAAAAASUVORK5CYII=) 2x)
+    --------^
+* Invalid value for `top`
+    syntax: &lt;length&gt; | &lt;percentage&gt; | auto
+     value: 0\9
+    --------^
+* Invalid value for `left`
+    syntax: &lt;length&gt; | &lt;percentage&gt; | auto
+     value: 0\9
+    --------^
+* The rest part of value can't to be matched on `top` syntax
+    syntax: &lt;length&gt; | &lt;percentage&gt; | auto
+     value: 50%\9\0
+    -----------^
+* The rest part of value can't to be matched on `left` syntax
+    syntax: &lt;length&gt; | &lt;percentage&gt; | auto
+     value: 50%\9\0
+    -----------^
+* The rest part of value can't to be matched on `margin-right` syntax
+    syntax: &lt;length&gt; | &lt;percentage&gt; | auto
+     value: 9px\9
+    -----------^
+* The rest part of value can't to be matched on `margin-right` syntax
+    syntax: &lt;length&gt; | &lt;percentage&gt; | auto
+     value: 9px\9
+    -----------^
+* The rest part of value can't to be matched on `border` syntax
+    syntax: &lt;br-width&gt; || &lt;br-style&gt; || &lt;color&gt;
+     value: 1px solid #e5e5e5\9
+    ------------------^
+* The rest part of value can't to be matched on `border-right` syntax
+    syntax: &lt;br-width&gt; || &lt;br-style&gt; || &lt;color&gt;
+     value: 0 px\9
+    ----------^
+* Invalid value for `right`
+    syntax: &lt;length&gt; | &lt;percentage&gt; | auto
+     value: 103 px\9
+    --------^
+* Invalid value for `right`
+    syntax: &lt;length&gt; | &lt;percentage&gt; | auto
+     value: 392 px\9
+    --------^
+* The rest part of value can't to be matched on `font-family` syntax
+    syntax: [ &lt;family-name&gt; | &lt;generic-family&gt; ]#
+     value: "microsoft yahei" simsun
+    --------------------------^
+* The rest part of value can't to be matched on `+margin` syntax
+    syntax: [ &lt;length&gt; | &lt;percentage&gt; | auto ]{1,4}
+     value: 0 0 5 px
+    ------------^
+* Unknown property: magrin
+* The rest part of value can't to be matched on `right` syntax
+    syntax: &lt;length&gt; | &lt;percentage&gt; | auto
+     value: 3px\9
+    -----------^
+* The rest part of value can't to be matched on `padding` syntax
+    syntax: [ &lt;length&gt; | &lt;percentage&gt; ]{1,4}
+     value: 0 15 px\9
+    ----------^
+* Invalid value for `height`
+    syntax: [ &lt;length&gt; | &lt;percentage&gt; ] &amp;&amp; [ border-box | content-box ]? | available | min-content | max-content | fit-content | auto
+     value: 35 px\9
+    --------^
+* The rest part of value can't to be matched on `background-position` syntax
+    syntax: &lt;position&gt;#
+     value: center 300 px\9
+    ---------------^
+* The rest part of value can't to be matched on `border` syntax
+    syntax: &lt;br-width&gt; || &lt;br-style&gt; || &lt;color&gt;
+     value: 1px solid #ccc\9
+    ------------------^
+* Unknown property: magrin
+* Invalid value for `right`
+    syntax: &lt;length&gt; | &lt;percentage&gt; | auto
+     value: -25 px\9
+    --------^
+* Invalid value for `right`
+    syntax: &lt;length&gt; | &lt;percentage&gt; | auto
+     value: 37 px\9
+    --------^
+* Invalid value for `right`
+    syntax: &lt;length&gt; | &lt;percentage&gt; | auto
+     value: -43 px\9
+    --------^
+* The rest part of value can't to be matched on `right` syntax
+    syntax: &lt;length&gt; | &lt;percentage&gt; | auto
+     value: -2px\9
+    ------------^
+* The rest part of value can't to be matched on `right` syntax
+    syntax: &lt;length&gt; | &lt;percentage&gt; | auto
+     value: -46px\9
+    -------------^
+* The rest part of value can't to be matched on `right` syntax
+    syntax: &lt;length&gt; | &lt;percentage&gt; | auto
+     value: 1px\9
+    -----------^
+* The rest part of value can't to be matched on `right` syntax
+    syntax: &lt;length&gt; | &lt;percentage&gt; | auto
+     value: -49px\9
+    -------------^
+* The rest part of value can't to be matched on `font-family` syntax
+    syntax: [ &lt;family-name&gt; | &lt;generic-family&gt; ]#
+     value: STHeiti,"microsoft yahei" simsun arial
+    ----------------------------------^
+* The rest part of value can't to be matched on `font-family` syntax
+    syntax: [ &lt;family-name&gt; | &lt;generic-family&gt; ]#
+     value: FZLanTingHei-R-GBK "microsoft yahei" simsun
+    ---------------------------^
+* The rest part of value can't to be matched on `right` syntax
+    syntax: &lt;length&gt; | &lt;percentage&gt; | auto
+     value: 16px\9
+    ------------^
+* The rest part of value can't to be matched on `font-family` syntax
+    syntax: [ &lt;family-name&gt; | &lt;generic-family&gt; ]#
+     value: FZLanTingHei-R-GBK "microsoft yahei" simsun
+    ---------------------------^
+* Invalid value for `background-image`
+    syntax: &lt;bg-image&gt;#
+     value: none\0/
+    --------^
+* Invalid value for `background-image`
+    syntax: &lt;bg-image&gt;#
+     value: none\0/
+    --------^
+* Invalid value for `background-image`
+    syntax: &lt;bg-image&gt;#
+     value: none\0/
+    --------^
+* Invalid value for `background-image`
+    syntax: &lt;bg-image&gt;#
+     value: none\0/
+    --------^
+* Invalid value for `background-image`
+    syntax: &lt;bg-image&gt;#
+     value: none\0/
+    --------^
+* Invalid value for `background-image`
+    syntax: &lt;bg-image&gt;#
+     value: none\0/
+    --------^
+* Invalid value for `background-image`
+    syntax: &lt;bg-image&gt;#
+     value: none\0/
+    --------^
+* Invalid value for `background-image`
+    syntax: &lt;bg-image&gt;#
+     value: none\0/
+    --------^
+* Invalid value for `background-image`
+    syntax: &lt;bg-image&gt;#
+     value: none\0/
+    --------^</pre></details></td></tr>
 <tr><td>12</td><td>⚠️</td><td>live.com</td><td>OK</td><td><details><summary>2 warnings</summary><pre>* The rest part of value can't to be matched on `line-height` syntax
     syntax: normal | &lt;number&gt; | &lt;length&gt; | &lt;percentage&gt;
      value: 1.42857 \0
@@ -3002,13 +3213,224 @@ Update date: 2017-03-09T00:44:00.913Z
 ----------------------------------------------------------------^
    12 |
    13 |</pre></details></td><td>–</td></tr>
-<tr><td>55</td><td>⚠️</td><td>list.tmall.com</td><td><details><summary>Error</summary><pre>Parse error: Identifier is expected
+<tr><td>55</td><td>⚠️</td><td>list.tmall.com</td><td><details><summary>Error (patched)</summary><pre>Parse error: Identifier is expected
   192 |
   193 |
-  194 |…/images/mui-mbarp-asset-ableCouponBubble-rmb_icon.png);;+ vertical-align:middle}.mui-mbarp-asset-b…
+  194 |…images/mui-mbarp-asset-ableCouponBubble-rmb_icon.png);;+ vertical-align:middle}.mui-mbarp-asset-bu…
 ----------------------------------------------------------------^
   195 |
-  196 |</pre></details></td><td>–</td></tr>
+  196 |</pre></details></td><td><details><summary>56 warnings (unique: 41)</summary><pre>* Invalid value for `filter`
+    syntax: none | &lt;filter-function-list&gt; | &lt;-ms-filter&gt;
+     value: mask()
+    --------^
+* The rest part of value can't to be matched on `line-height` syntax
+    syntax: normal | &lt;number&gt; | &lt;length&gt; | &lt;percentage&gt;
+     value: 20px\9
+    ------------^
+* The rest part of value can't to be matched on `margin-top` syntax
+    syntax: &lt;length&gt; | &lt;percentage&gt; | auto
+     value: 10px\9
+    ------------^
+* Invalid value for `display`
+    syntax: none | inline | block | list-item | inline-list-item | inline-block | inline-table | table | table-cell | table-column | table-column-group | table-footer-group | table-header-group | table-row | table-row-group | flex | inline-flex | grid | inline-grid | run-in | ruby | ruby-base | ruby-text | ruby-base-container | ruby-text-container | contents | -ms-flexbox | -ms-inline-flexbox | -ms-grid | -ms-inline-grid | -webkit-flex | -webkit-inline-flex | -webkit-box | -webkit-inline-box | -moz-inline-stack | -moz-box | -moz-inline-box
+     value: inline\9
+    --------^
+* Unknown property: -webkit-user-modify
+* The rest part of value can't to be matched on `height` syntax
+    syntax: [ &lt;length&gt; | &lt;percentage&gt; ] &amp;&amp; [ border-box | content-box ]? | available | min-content | max-content | fit-content | auto
+     value: 90px\9
+    ------------^
+* Invalid value for `filter`
+    syntax: none | &lt;filter-function-list&gt; | &lt;-ms-filter&gt;
+     value: "alpha(opacity=95)"
+    --------^
+* Unknown property: text-justify
+* Invalid value for `background-color`
+    syntax: &lt;color&gt;
+     value: #797979\9
+    --------^
+* Invalid value for `display`
+    syntax: none | inline | block | list-item | inline-list-item | inline-block | inline-table | table | table-cell | table-column | table-column-group | table-footer-group | table-header-group | table-row | table-row-group | flex | inline-flex | grid | inline-grid | run-in | ruby | ruby-base | ruby-text | ruby-base-container | ruby-text-container | contents | -ms-flexbox | -ms-inline-flexbox | -ms-grid | -ms-inline-grid | -webkit-flex | -webkit-inline-flex | -webkit-box | -webkit-inline-box | -moz-inline-stack | -moz-box | -moz-inline-box
+     value: none\9
+    --------^
+* Invalid value for `top`
+    syntax: &lt;length&gt; | &lt;percentage&gt; | auto
+     value: 0\9
+    --------^
+* Invalid value for `left`
+    syntax: &lt;length&gt; | &lt;percentage&gt; | auto
+     value: 0\9
+    --------^
+* The rest part of value can't to be matched on `top` syntax
+    syntax: &lt;length&gt; | &lt;percentage&gt; | auto
+     value: 50%\9\0
+    -----------^
+* The rest part of value can't to be matched on `left` syntax
+    syntax: &lt;length&gt; | &lt;percentage&gt; | auto
+     value: 50%\9\0
+    -----------^
+* Invalid value for `background-image`
+    syntax: &lt;bg-image&gt;#
+     value: -webkit-image-set(url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAA0AAAANCAMAAABFNRROAAAAclBMVEUAAAD///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////9eWEHEAAAAJnRSTlMA1H0IwI5yK9mtnFlPR0AXDATes6ODXzs3MCMRzaiPh3draVskIssciqgAAAB2SURBVAjXPcpHDsMwDETRkdXlqLmX9MT3v6IpQPBbkPgEQbQU7PHJKHLD2i3Nz/taqhk4YgIWE+mNcbrcAEwWkC1qgUWI4yrnYTjtdy/pZ5xgFyoeQvjDrlAjqr3L4EzXGr40ZuNBkutRbEK8lOsUKv1Tfgc5Ac/wBPWOGL08AAAAAElFTkSuQmCC) 1x,url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABoAAAAaCAMAAACelLz8AAAAkFBMVEUAAAD///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////+WABnwAAAAL3RSTlMA+7UCycKfmRwU44EmBvfbqXcwuhkK7dXTsa6MbWhPQjMPzpR7Yl5SSjorFhB9WwynW7AAAAEDSURBVCjPhdDZbsIwFEXR4wnjQOYwzzMU2vP/f1eliaEkkVgvtrR146vAc2c709KeCjR8zQRrMvsf1EJwn26dclmqSRvC2+WM1/CuExrnZ3LKHV5Gc5p6bkGpUFre6pjQVhuIuJ6Jen5uym15zunfET5hwxyAE3u0Egz7wJlpR1pyBVhmHWnIBJB8dKSQBtACz5T0S/fyPp4AOUc+BaxcACU00OPw+UA6KB0dUHBe7dL2w2O5i0Rb8re35rZVhmJS/RSjmknyUp+LRvmmqS6PmIO3kjK4+y8HnPXhFQmDDJ4zjA6bEIC6HSLqAi/qFJBRrOOIDFYh3oRXOx2L8dSuR/jsF+20FrdF7dxbAAAAAElFTkSuQmCC) 2x)
+    --------^
+* Invalid value for `background-position`
+    syntax: &lt;position&gt;#
+     value: repeat-x
+    --------^
+* Invalid value for `background-image`
+    syntax: &lt;bg-image&gt;#
+     value: -webkit-image-set(url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAFEAAAAfCAMAAACoA9EYAAABBVBMVEUAAAD////1T5H///////////+dl5r///+ZmZn////////////////////////////////////////////////////////5VJX////0T5H////////////////1UZL////////////////////////////1UJH////////1UZL////////////////////////////////////2UJH////////////////////1T5D////1T5H1T5H////1UJH////////////1T5D////6V5P0UJH////////1T5D1UJH2UJH3UpT1UJP/////VZf0UJH1UJD1UJD1T5H1UJH1T5Gbm5v/VZgEVuIhAAAAV3RSTlMA3f4SzsIKn3U2LynilNOBM71DJPmPdCQIp2NIrn11XgQ+OenZtKykiX5uuoZVFst+ellXUiAQLA358evdx8eYZ02VGxfTqaaBfW08MRQN0ri2q2ZKHBVZHltYAAACoUlEQVRIx6XS2XaaUBiG4Y8IoSKIoiAKRkCp1AGHxCEOMWZOm6Rz7/9SutlxSKsYYp6DzVocvOvfA54JNhbsBCg9JWBPiYDK0w8AvgDJrE8Zxq1hTxxLjJhg5Z6LiULC09AZYm+6ridtsgAQuHJFwzSjaQKHlYMVRJLKMlQ2AwxTrpyplKnK5aqYW4pYbIGqkCLd9bBXl1RXGK5nxNukskkq+1yUjdI0rmmXnBwLL0af0TJYRhaldqPRlk1j/xlZKpixy7EFaNUmzzdvatgs7nmOGq9IksKvi2Ns8TviOdJiulFPN7gadjn88JYZvZ4s99R18ePSjyjFASMu36PICP5N1oZWqRPMuni0srNo8HQmK/aCBWMACAIdfYAND+HFONdF7/YEb3F19PU0rGi1Z04RwExBVIfH30/PPv/ZWkwYc3MOoWho0F1E8+VifH2fC7vrdKHwCFJEowlNwQZHQOK/35PxxcOO12MCoMVYHXYNqJBrbsgMNQcsRsE5j3+MJ3e5KEWkkfGAmO+3nKHvzzq+rwOlbLFjsh0igZVfeXKIV68WL00YBaBpejKsbrfldeeAM/Jk2WVlIoEXnn6enX47ftp+jlVeCYrWbQreAIBattAfqaoqiQDbBOiuN+XuJiGvRx96qi4UFQV+FYir6shUH0WcOzERMSNOeG48ENu889AXrrilItB3e0CmNEufMyTGl8hicy/YWPi0dB9aRF9y0HQzCJSkptonxS4pbneQz+fPJmQ5CCtSSsHComgPSHGq0GIpvVDDShA6zgMIL67RItAX+9keLbb5OKVK7ytaTrPVtZ2g2ABVe2cRRllJiUpQNE8ofv9igy1C55I2IIgOKSarFLurSJMIYxg6kEKgZ5FsCtTAwco1gKscgAu87i8M+FADs/1mvgAAAABJRU5ErkJggg==) 1x,url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAKIAAAA+CAMAAACfiDARAAABJlBMVEUAAAD1T5H///////////////////+Xl5eenp7////////////////////////////////////////////////////////////////////////////////1UJL////83ez2UZH////////////1UZH////////0T5D////////////////////////////////////////////////1UJD////////////////////42+f////////////////////////////////////1UJD1UJH////////////////1T5D0UJD9VZX1T5D////////0UJH1UJH1UpH5UZL4VJX1UJH1UJD1T5H2T5H1UJL3UZL2T5P1UZL1UZGYmJiampr////1T5CIX39XAAAAYHRSTlMA/NduJrhJ6hXP/Prem8J5ZiOHEaRfPRv08HRTuk5BA1j3ycZI4uzsIOlYrrOqDwi8LObRrY4qv5Y2BsRFFguJTzkOsOmkk4R/L/XWEsWAMo6CMikg3biVc2Y7V357dDXmMmixAAAFbElEQVRo3tWZCXOaUBCAtxptVRAUPNBUilaLGEOjtcYr1TRnk+bsfW7+/5/oew+0BE0mpBjtN+M+cMbx0919xwD/Gy+LG+DisMiDE3VlKMgZWBgVXAEXaSzRGDbEoPBms96MIYGHhyWcH2MgpiY3YadiG22i5Tgf7HThYeFwJpxTcRQUU8awr1SJnC7BQ5Pkx/SQ4ycknYqgGjlaCA0S1mKnsDBauO8qxJMTHssnJxlQm9rAUlzBHszg0QzAR0yJ0cOUZGEXm4AWHYAhCpYij2mYwdU0viqK6MLulVNRbCEninqtVotVyEur1TSN3BxOKz56PoW/iuWQgypTdNTiOroozFCEuSLiJjhYcytChmBoQqUqakF6bS6fImGoybQWRUyq5G4BikrAQdaluK2CtB8tmaxdgljqL0SxEnGgXFOMBCv6gYK8ac+LqQr2+suU6D4iKkXMGsBKksaBjFx3WRQH4ssoaklpJCtRB4FCeGlqMYCoWe1SjdUJ2SyNyC2kFqtFB5Na3FwbFmxFhUaOycVIXKZaTP8/itobgqLQODPRR0dwN7q/7jvpuGvRrejaSt6fJ4/9nxftRK8TuDKNUR8UF1GLz2bwQIrjjs4WCI0GjVHOw37RD8Uw2X0F3JuxCIlDgES+X8P6nWrxxTQ7/6DY4w+d/+ANBAE6dMxbHZ2b8BC1mAqgPAAbaeUGJIBuqyVYvyZeggmR0FwVc4EDOgy5ShrmzMXn+yhm2rG2BpStVW0Ic+TDl6Orq3soGkrgNBUDhhnSOjAnus8+PSId7b1dJBlbJlBFlTmuclswD77tviN+73afq14VC+VyAYApNlr00wMlCb7z4fwjnRE/PTv21C6J/VarJaO8DraiEaux1slug68cf31/RXj/5dhrR/e4OMEAGCtCGIM081kR/EN9/oom+OP55T0mnXKODQ5F2FNoHdbWwDfOdmiDfP4GBF8UdUyRGFTgDgwia/T31JsduIVxg/imCIFNEoZIvzu0avNaX3WyDxZJfEmHCBZuV9w5uwA/FUM0xyPUSYyhzWgDnYSAsa2gcQdFNtMc/fzgn2JcZhutAYkrDAMjqrlBOcUsG3Vg5LDStRXv1M5fj/1RVBs0jUZUBQpJ9zoXHZfaBhada2YVo1lKFLWsDX/TpPiDTYqvvnd9UOzjIYmtJstkOzCAOu6BTR4dClIAp5FvWVo+v7CXFk+KHN/v9wumQ9FsxoHQtLT2sSlg0aTN+5bQxAAdWLdslbCRALAT7WmBPrvwoCiwhgicThTNupJg3WLndg+xmgFCAv8St44IyiF4UWQck20O4cjDGm2SY1uiHRNUWzFkbRZDk5rjsa1aisWMxchS3NTS4FWRcXG2c4/NWE7r6ZaiyHJn4Ij1g67rKz1skQESVEwKd4BdEcw0eFa0UZ++8qwIG00lxRQZfc2qxB5O2GJiaQyNFcPBv5Rx7+9NeF4HA7OFtVxsbBhSrUJst9sVLLbbsQq4FWW8AXlOimzTaB/fRI0tvDYv8TWRqk0pGskbMDw8GvKoCOtGBkDNF2MnKlxXPMCgS9EDvh/1i9HaawCXYiCa+SfFR08t3l+dWxf/pBjWAdyKA27NFjOQdyoKU0i3PtR4dfUUGJ4V3bgVASRbTEDBqRhFNysLUwRbjMf8dcVc0ImyeEWVw8PritvgpLxYRekgBUOMQGebXC2nIqFbQqOjNXWAZVVcbyOndmWsdpZVcdREjhq8wexooliXnWQXoKhLgzLqQBedEmIzAxQBlc58Jh31N3imgUSM9bOGjdwWWLRwdayYDzupeFD0C6FeP0gARRRNmHAgASPe2wIntZ5+q+L388vJO8vF7i64uLwEX/gDi3yZBn3hDPEAAAAASUVORK5CYII=) 2x)
+    --------^
+* Invalid value for `top`
+    syntax: &lt;length&gt; | &lt;percentage&gt; | auto
+     value: 0\9
+    --------^
+* Invalid value for `left`
+    syntax: &lt;length&gt; | &lt;percentage&gt; | auto
+     value: 0\9
+    --------^
+* The rest part of value can't to be matched on `top` syntax
+    syntax: &lt;length&gt; | &lt;percentage&gt; | auto
+     value: 50%\9\0
+    -----------^
+* The rest part of value can't to be matched on `left` syntax
+    syntax: &lt;length&gt; | &lt;percentage&gt; | auto
+     value: 50%\9\0
+    -----------^
+* The rest part of value can't to be matched on `margin-right` syntax
+    syntax: &lt;length&gt; | &lt;percentage&gt; | auto
+     value: 9px\9
+    -----------^
+* The rest part of value can't to be matched on `margin-right` syntax
+    syntax: &lt;length&gt; | &lt;percentage&gt; | auto
+     value: 9px\9
+    -----------^
+* The rest part of value can't to be matched on `border` syntax
+    syntax: &lt;br-width&gt; || &lt;br-style&gt; || &lt;color&gt;
+     value: 1px solid #e5e5e5\9
+    ------------------^
+* The rest part of value can't to be matched on `border-right` syntax
+    syntax: &lt;br-width&gt; || &lt;br-style&gt; || &lt;color&gt;
+     value: 0 px\9
+    ----------^
+* Invalid value for `right`
+    syntax: &lt;length&gt; | &lt;percentage&gt; | auto
+     value: 103 px\9
+    --------^
+* Invalid value for `right`
+    syntax: &lt;length&gt; | &lt;percentage&gt; | auto
+     value: 392 px\9
+    --------^
+* The rest part of value can't to be matched on `font-family` syntax
+    syntax: [ &lt;family-name&gt; | &lt;generic-family&gt; ]#
+     value: "microsoft yahei" simsun
+    --------------------------^
+* The rest part of value can't to be matched on `+margin` syntax
+    syntax: [ &lt;length&gt; | &lt;percentage&gt; | auto ]{1,4}
+     value: 0 0 5 px
+    ------------^
+* Unknown property: magrin
+* The rest part of value can't to be matched on `right` syntax
+    syntax: &lt;length&gt; | &lt;percentage&gt; | auto
+     value: 3px\9
+    -----------^
+* The rest part of value can't to be matched on `padding` syntax
+    syntax: [ &lt;length&gt; | &lt;percentage&gt; ]{1,4}
+     value: 0 15 px\9
+    ----------^
+* Invalid value for `height`
+    syntax: [ &lt;length&gt; | &lt;percentage&gt; ] &amp;&amp; [ border-box | content-box ]? | available | min-content | max-content | fit-content | auto
+     value: 35 px\9
+    --------^
+* The rest part of value can't to be matched on `background-position` syntax
+    syntax: &lt;position&gt;#
+     value: center 300 px\9
+    ---------------^
+* The rest part of value can't to be matched on `border` syntax
+    syntax: &lt;br-width&gt; || &lt;br-style&gt; || &lt;color&gt;
+     value: 1px solid #ccc\9
+    ------------------^
+* Unknown property: magrin
+* Invalid value for `right`
+    syntax: &lt;length&gt; | &lt;percentage&gt; | auto
+     value: -25 px\9
+    --------^
+* Invalid value for `right`
+    syntax: &lt;length&gt; | &lt;percentage&gt; | auto
+     value: 37 px\9
+    --------^
+* Invalid value for `right`
+    syntax: &lt;length&gt; | &lt;percentage&gt; | auto
+     value: -43 px\9
+    --------^
+* The rest part of value can't to be matched on `right` syntax
+    syntax: &lt;length&gt; | &lt;percentage&gt; | auto
+     value: -2px\9
+    ------------^
+* The rest part of value can't to be matched on `right` syntax
+    syntax: &lt;length&gt; | &lt;percentage&gt; | auto
+     value: -46px\9
+    -------------^
+* The rest part of value can't to be matched on `right` syntax
+    syntax: &lt;length&gt; | &lt;percentage&gt; | auto
+     value: 1px\9
+    -----------^
+* The rest part of value can't to be matched on `right` syntax
+    syntax: &lt;length&gt; | &lt;percentage&gt; | auto
+     value: -49px\9
+    -------------^
+* The rest part of value can't to be matched on `font-family` syntax
+    syntax: [ &lt;family-name&gt; | &lt;generic-family&gt; ]#
+     value: STHeiti,"microsoft yahei" simsun arial
+    ----------------------------------^
+* The rest part of value can't to be matched on `font-family` syntax
+    syntax: [ &lt;family-name&gt; | &lt;generic-family&gt; ]#
+     value: FZLanTingHei-R-GBK "microsoft yahei" simsun
+    ---------------------------^
+* The rest part of value can't to be matched on `right` syntax
+    syntax: &lt;length&gt; | &lt;percentage&gt; | auto
+     value: 16px\9
+    ------------^
+* The rest part of value can't to be matched on `font-family` syntax
+    syntax: [ &lt;family-name&gt; | &lt;generic-family&gt; ]#
+     value: FZLanTingHei-R-GBK "microsoft yahei" simsun
+    ---------------------------^
+* Invalid value for `background-image`
+    syntax: &lt;bg-image&gt;#
+     value: none\0/
+    --------^
+* Invalid value for `background-image`
+    syntax: &lt;bg-image&gt;#
+     value: none\0/
+    --------^
+* Invalid value for `background-image`
+    syntax: &lt;bg-image&gt;#
+     value: none\0/
+    --------^
+* Invalid value for `background-image`
+    syntax: &lt;bg-image&gt;#
+     value: none\0/
+    --------^
+* Invalid value for `background-image`
+    syntax: &lt;bg-image&gt;#
+     value: none\0/
+    --------^
+* Invalid value for `background-image`
+    syntax: &lt;bg-image&gt;#
+     value: none\0/
+    --------^
+* Invalid value for `background-image`
+    syntax: &lt;bg-image&gt;#
+     value: none\0/
+    --------^
+* Invalid value for `background-image`
+    syntax: &lt;bg-image&gt;#
+     value: none\0/
+    --------^
+* Invalid value for `background-image`
+    syntax: &lt;bg-image&gt;#
+     value: none\0/
+    --------^</pre></details></td></tr>
 <tr><td>56</td><td>🆗</td><td>popads.net</td><td>OK</td><td>OK</td></tr>
 <tr><td>57</td><td>⚠️</td><td>imgur.com</td><td><details><summary>Error (patched)</summary><pre>Parse error: Selector is expected
    63 |
@@ -3793,13 +4215,59 @@ Update date: 2017-03-09T00:44:00.913Z
     syntax: &lt;length&gt; | &lt;percentage&gt; | auto | max-content | min-content | fit-content | fill-available
      value: none
     --------^</pre></details></td></tr>
-<tr><td>65</td><td>⚠️</td><td>mail.ru</td><td><details><summary>Error</summary><pre>Parse error: Positive integer is expected
-  200 |    only screen and (-webkit-min-device-pixel-ratio: 1.25),
-  201 |    only screen and (   min--moz-device-pixel-ratio: 1.25),
-  202 |    only screen and (     -o-min-device-pixel-ratio: 2/1.6),
----------------------------------------------------------------^
-  203 |    only screen and (        min-device-pixel-ratio: 2),
-  204 |    only screen and (                min-resolution: 120dpi),</pre></details></td><td>–</td></tr>
+<tr><td>65</td><td>⚠️</td><td>mail.ru</td><td><details><summary>Error (patched)</summary><pre>Parse error: Selector is expected
+  237 |    }
+  238 |
+  239 |    &lt;!--[if IE 7]&gt;
+-----------^
+  240 |        .tb__close__icon-25232905 {
+  241 |            margin-top: 6px;</pre></details></td><td><details><summary>14 warnings (unique: 10)</summary><pre>* Invalid value for `*overflow`
+    syntax: visible | hidden | scroll | auto
+     value: visble
+    --------^
+* The rest part of value can't to be matched on `-webkit-transition` syntax
+    syntax: &lt;single-transition&gt;#
+     value: opacity .2s false
+    --------------------^
+* The rest part of value can't to be matched on `-moz-transition` syntax
+    syntax: &lt;single-transition&gt;#
+     value: opacity .2s false
+    --------------------^
+* The rest part of value can't to be matched on `transition` syntax
+    syntax: &lt;single-transition&gt;#
+     value: opacity .2s false
+    --------------------^
+* The rest part of value can't to be matched on `-webkit-transition` syntax
+    syntax: &lt;single-transition&gt;#
+     value: opacity .2s false
+    --------------------^
+* The rest part of value can't to be matched on `-moz-transition` syntax
+    syntax: &lt;single-transition&gt;#
+     value: opacity .2s false
+    --------------------^
+* The rest part of value can't to be matched on `transition` syntax
+    syntax: &lt;single-transition&gt;#
+     value: opacity .2s false
+    --------------------^
+* Unknown property: -webkit-focus-ring-color
+* Unknown property: -webkit-focus-ring-color
+* The rest part of value can't to be matched on `-webkit-transition` syntax
+    syntax: &lt;single-transition&gt;#
+     value: height .5s ease padding .3s ease
+    ------------------------^
+* The rest part of value can't to be matched on `-moz-transition` syntax
+    syntax: &lt;single-transition&gt;#
+     value: height .5s ease padding .3s ease
+    ------------------------^
+* The rest part of value can't to be matched on `transition` syntax
+    syntax: &lt;single-transition&gt;#
+     value: height .5s ease padding .3s ease
+    ------------------------^
+* Unknown property: viibility
+* Invalid value for `filter`
+    syntax: none | &lt;filter-function-list&gt; | &lt;-ms-filter&gt;
+     value: uniquite('alpha(opacity=0)')
+    --------^</pre></details></td></tr>
 <tr><td>66</td><td>⚠️</td><td>txxx.com</td><td colspan="2">–</td></tr>
 <tr><td>67</td><td>⚠️</td><td>alipay.com</td><td>OK</td><td><details><summary>1 warning</summary><pre>* Unknown property: -webkit-user-modify</pre></details></td></tr>
 <tr><td>68</td><td>⚠️</td><td>google.com.au</td><td>OK</td><td><details><summary>13 warnings</summary><pre>* Invalid value for `opacity`
@@ -4929,13 +5397,19 @@ Update date: 2017-03-09T00:44:00.913Z
     syntax: &lt;bg-image&gt;#
      value: linear-gradient(bottom,rgba(0,0,0,.2),rgba(0,0,0,0))
     --------^</pre></details></td></tr>
-<tr><td>90</td><td>⚠️</td><td>fc2.com</td><td><details><summary>Error</summary><pre>Parse error: Identifier is expected
-  699 |div#header.whenIE7below    {*margin-bottom:60px;}
-  700 |div#header h1.h1_plus_search_form{width:140px;}
-  701 |.heada_plus_search_form{padding:32px 0 0 0; #padding:18px 0 0 0; /* IE6-7hack */}
----------------------------------------------------^
-  702 |.heada_plus_search_form_text{width:186px; border-top:1px solid #999; border-left:1px solid #999; b…
-  703 |div#main{clear:both; position:relative; min-height:0px; width:680px; float:right; text-align:left;…</pre></details></td><td>–</td></tr>
+<tr><td>90</td><td>⚠️</td><td>fc2.com</td><td>OK</td><td><details><summary>4 warnings</summary><pre>* The rest part of value can't to be matched on `font-family` syntax
+    syntax: [ &lt;family-name&gt; | &lt;generic-family&gt; ]#
+     value: Verdana,Helvetica,"ＭＳ Ｐゴシック","MS P Gothic","ヒラギノ角ゴ Pro W3","Hiragino Kaku Gothic Pro",sans-serif,
+    --------------------------------------------------------------------------------------------------------^
+* Unknown property: /margin-top
+* The rest part of value can't to be matched on `background-position` syntax
+    syntax: &lt;position&gt;#
+     value: initial initial
+    ---------------^
+* The rest part of value can't to be matched on `background-repeat` syntax
+    syntax: &lt;repeat-style&gt;#
+     value: initial initial
+    ---------------^</pre></details></td></tr>
 <tr><td>91</td><td>⚠️</td><td>google.pl</td><td>OK</td><td><details><summary>13 warnings</summary><pre>* Invalid value for `opacity`
     syntax: &lt;number-zero-one&gt;
      value: 1\0/
@@ -8165,13 +8639,57 @@ Update date: 2017-03-09T00:44:00.913Z
     syntax: &lt;bg-image&gt;#
      value: linear-gradient(bottom,rgba(0,0,0,.2),rgba(0,0,0,0))
     --------^</pre></details></td></tr>
-<tr><td>145</td><td>⚠️</td><td>xinhuanet.com</td><td><details><summary>Error</summary><pre>Parse error: Identifier is expected
-   28 |.fr { float: right; }
-   29 |/* 清除浮动 */
-   30 |.clearfix { display: block; #zoom:1;/*ie6-ie7*/
------------------------------------^
-   31 |}
-   32 |.clearfix:after { content: ''; overflow: hidden; width: 100%; height: 0px; font-size: 0px; margin:…</pre></details></td><td>–</td></tr>
+<tr><td>145</td><td>⚠️</td><td>xinhuanet.com</td><td><details><summary>Error (patched)</summary><pre>Parse error: Identifier is expected
+  962 |.st12 .tiny .tinyIn .picTitle .name { top: 45px; color: #FFFFFF; height: 35px; left: 0; line-heigh…
+  963 |.st12 .tiny .tinyIn .picTitle .name a { font-size: 12px; }
+  964 |.st12 .tiny .tinyIn. picTitle img {
+---------------------------^
+  965 |width: 150px;
+  966 |height: 96px;</pre></details></td><td><details><summary>12 warnings (unique: 8)</summary><pre>* The rest part of value can't to be matched on `top` syntax
+    syntax: &lt;length&gt; | &lt;percentage&gt; | auto
+     value: -2px\9
+    ------------^
+* The rest part of value can't to be matched on `top` syntax
+    syntax: &lt;length&gt; | &lt;percentage&gt; | auto
+     value: -2px\0
+    ------------^
+* The rest part of value can't to be matched on `margin-bottom` syntax
+    syntax: &lt;length&gt; | &lt;percentage&gt; | auto
+     value: 2px\9
+    -----------^
+* The rest part of value can't to be matched on `top` syntax
+    syntax: &lt;length&gt; | &lt;percentage&gt; | auto
+     value: -1px\9
+    ------------^
+* The rest part of value can't to be matched on `line-height` syntax
+    syntax: normal | &lt;number&gt; | &lt;length&gt; | &lt;percentage&gt;
+     value: 24px\9
+    ------------^
+* The rest part of value can't to be matched on `_border-bottom` syntax
+    syntax: &lt;br-width&gt; || &lt;br-style&gt; || &lt;color&gt;
+     value: 6px solid dashed
+    ------------------^
+* The rest part of value can't to be matched on `_border-top` syntax
+    syntax: &lt;br-width&gt; || &lt;br-style&gt; || &lt;color&gt;
+     value: 6px solid dashed
+    ------------------^
+* The rest part of value can't to be matched on `_border-bottom` syntax
+    syntax: &lt;br-width&gt; || &lt;br-style&gt; || &lt;color&gt;
+     value: 6px solid dashed
+    ------------------^
+* The rest part of value can't to be matched on `_border-top` syntax
+    syntax: &lt;br-width&gt; || &lt;br-style&gt; || &lt;color&gt;
+     value: 6px solid dashed
+    ------------------^
+* The rest part of value can't to be matched on `_border-bottom` syntax
+    syntax: &lt;br-width&gt; || &lt;br-style&gt; || &lt;color&gt;
+     value: 6px solid dashed
+    ------------------^
+* The rest part of value can't to be matched on `_border-top` syntax
+    syntax: &lt;br-width&gt; || &lt;br-style&gt; || &lt;color&gt;
+     value: 6px solid dashed
+    ------------------^
+* Unknown property: webkit-transition</pre></details></td></tr>
 <tr><td>146</td><td>⚠️</td><td>quora.com</td><td><details><summary>Error (patched)</summary><pre>Parse error: Selector is expected
     1 |
     2 |
@@ -11663,7 +12181,130 @@ Update date: 2017-03-09T00:44:00.913Z
     9 |…order:0;padding:1px!important}@media all and (resolution=0){.b-share-popup,x:nth-child(1),x:-o-pre…
 ----------------------------------------------------------------^
    10 |
-   11 |</pre></details></td><td>–</td></tr>
+   11 |</pre></details></td><td><details><summary>31 warnings (unique: 25)</summary><pre>* The rest part of value can't to be matched on `width` syntax
+    syntax: [ &lt;length&gt; | &lt;percentage&gt; ] &amp;&amp; [ border-box | content-box ]? | available | min-content | max-content | fit-content | auto
+     value: 100%,
+    ------------^
+* Invalid value for `background-image`
+    syntax: &lt;bg-image&gt;#
+     value: linear-gradient(top,#f5f5f5,#f9f9f9)
+    --------^
+* Invalid value for `background-image`
+    syntax: &lt;bg-image&gt;#
+     value: linear-gradient(top,#149bdf,#0480be)
+    --------^
+* Invalid value for `background-image`
+    syntax: &lt;bg-image&gt;#
+     value: linear-gradient(top,#ee5f5b,#c43c35)
+    --------^
+* Invalid value for `background-image`
+    syntax: &lt;bg-image&gt;#
+     value: linear-gradient(top,#62c462,#57a957)
+    --------^
+* Invalid value for `background-image`
+    syntax: &lt;bg-image&gt;#
+     value: linear-gradient(top,#5bc0de,#339bb9)
+    --------^
+* Invalid value for `background-image`
+    syntax: &lt;bg-image&gt;#
+     value: linear-gradient(top,#fbb450,#f89406)
+    --------^
+* Invalid value for `background-image`
+    syntax: &lt;bg-image&gt;#
+     value: linear-gradient(top,#f5f5f5,#f9f9f9)
+    --------^
+* Invalid value for `background-image`
+    syntax: &lt;bg-image&gt;#
+     value: linear-gradient(top,#149bdf,#0480be)
+    --------^
+* Invalid value for `background-image`
+    syntax: &lt;bg-image&gt;#
+     value: linear-gradient(top,#ee5f5b,#c43c35)
+    --------^
+* Invalid value for `background-image`
+    syntax: &lt;bg-image&gt;#
+     value: linear-gradient(top,#62c462,#57a957)
+    --------^
+* Invalid value for `background-image`
+    syntax: &lt;bg-image&gt;#
+     value: linear-gradient(top,#5bc0de,#339bb9)
+    --------^
+* Invalid value for `background-image`
+    syntax: &lt;bg-image&gt;#
+     value: linear-gradient(top,#fbb450,#f89406)
+    --------^
+* Invalid value for `background`
+    syntax: [ &lt;bg-layer&gt; , ]* &lt;final-bg-layer&gt;
+     value: linear-gradient(top,#f7f7f7,#e2e2e2)
+    --------^
+* Invalid value for `background`
+    syntax: [ &lt;bg-layer&gt; , ]* &lt;final-bg-layer&gt;
+     value: linear-gradient(top,#f0f0f0,#cfcfcf)
+    --------^
+* Invalid value for `background`
+    syntax: [ &lt;bg-layer&gt; , ]* &lt;final-bg-layer&gt;
+     value: linear-gradient(top,#fff,#d8def4)
+    --------^
+* Invalid value for `background`
+    syntax: [ &lt;bg-layer&gt; , ]* &lt;final-bg-layer&gt;
+     value: linear-gradient(top,#f2f3f7,#c0cdf3)
+    --------^
+* Invalid value for `background`
+    syntax: [ &lt;bg-layer&gt; , ]* &lt;final-bg-layer&gt;
+     value: linear-gradient(top,#fff,#d5e6ef)
+    --------^
+* Invalid value for `background`
+    syntax: [ &lt;bg-layer&gt; , ]* &lt;final-bg-layer&gt;
+     value: linear-gradient(top,#f2f8fc,#bfdfed)
+    --------^
+* Invalid value for `background`
+    syntax: [ &lt;bg-layer&gt; , ]* &lt;final-bg-layer&gt;
+     value: linear-gradient(top,#f5f5f5,#e4e4e4)
+    --------^
+* Invalid value for `background`
+    syntax: [ &lt;bg-layer&gt; , ]* &lt;final-bg-layer&gt;
+     value: linear-gradient(top,#f9f9f9,#f0f0f0)
+    --------^
+* Invalid value for `background`
+    syntax: [ &lt;bg-layer&gt; , ]* &lt;final-bg-layer&gt;
+     value: linear-gradient(top,#5d90ba,#004584)
+    --------^
+* Invalid value for `background`
+    syntax: [ &lt;bg-layer&gt; , ]* &lt;final-bg-layer&gt;
+     value: linear-gradient(top,#618cae,#001e5d)
+    --------^
+* Invalid value for `background`
+    syntax: [ &lt;bg-layer&gt; , ]* &lt;final-bg-layer&gt;
+     value: linear-gradient(top,#8faecf,#436f96)
+    --------^
+* Invalid value for `background`
+    syntax: [ &lt;bg-layer&gt; , ]* &lt;final-bg-layer&gt;
+     value: linear-gradient(top,#a2c0df,#4e80ab)
+    --------^
+* Invalid value for `background`
+    syntax: [ &lt;bg-layer&gt; , ]* &lt;final-bg-layer&gt;
+     value: linear-gradient(top,#f6bb6d,#f6900b)
+    --------^
+* Invalid value for `background`
+    syntax: [ &lt;bg-layer&gt; , ]* &lt;final-bg-layer&gt;
+     value: linear-gradient(top,#fbcc5a,#f69a21)
+    --------^
+* Invalid value for `background`
+    syntax: [ &lt;bg-layer&gt; , ]* &lt;final-bg-layer&gt;
+     value: linear-gradient(top,#fff,#cadcf3)
+    --------^
+* Invalid value for `background`
+    syntax: [ &lt;bg-layer&gt; , ]* &lt;final-bg-layer&gt;
+     value: linear-gradient(top,#ecf1f7,#bad2f0)
+    --------^
+* Invalid value for `background`
+    syntax: [ &lt;bg-layer&gt; , ]* &lt;final-bg-layer&gt;
+     value: linear-gradient(top,#fefefe,#d3d3d3)
+    --------^
+* Invalid value for `background`
+    syntax: [ &lt;bg-layer&gt; , ]* &lt;final-bg-layer&gt;
+     value: linear-gradient(top,#fff,#d9d9d9)
+    --------^</pre></details></td></tr>
 <tr><td>182</td><td>⚠️</td><td>w3schools.com</td><td><details><summary>Error (patched)</summary><pre>Parse error: Identifier is expected
   627 |
   628 |
@@ -12707,13 +13348,475 @@ Update date: 2017-03-09T00:44:00.913Z
     syntax: &lt;bg-image&gt;#
      value: linear-gradient(bottom,rgba(0,0,0,.2),rgba(0,0,0,0))
     --------^</pre></details></td></tr>
-<tr><td>190</td><td>⚠️</td><td>espn.com</td><td><details><summary>Error</summary><pre>Parse error: Positive integer is expected
-   28 |
-   29 |
-   30 |…tio: 1.3), only screen and (-o-min-device-pixel-ratio: 1.3 / 1), only screen and (min-resolution: …
-----------------------------------------------------------------^
-   31 |
-   32 |</pre></details></td><td>–</td></tr>
+<tr><td>190</td><td>⚠️</td><td>espn.com</td><td>OK</td><td><details><summary>142 warnings (unique: 16)</summary><pre>* Invalid value for `display`
+    syntax: none | inline | block | list-item | inline-list-item | inline-block | inline-table | table | table-cell | table-column | table-column-group | table-footer-group | table-header-group | table-row | table-row-group | flex | inline-flex | grid | inline-grid | run-in | ruby | ruby-base | ruby-text | ruby-base-container | ruby-text-container | contents | -ms-flexbox | -ms-inline-flexbox | -ms-grid | -ms-inline-grid | -webkit-flex | -webkit-inline-flex | -webkit-box | -webkit-inline-box | -moz-inline-stack | -moz-box | -moz-inline-box
+     value: -moz-flex
+    --------^
+* Invalid value for `display`
+    syntax: none | inline | block | list-item | inline-list-item | inline-block | inline-table | table | table-cell | table-column | table-column-group | table-footer-group | table-header-group | table-row | table-row-group | flex | inline-flex | grid | inline-grid | run-in | ruby | ruby-base | ruby-text | ruby-base-container | ruby-text-container | contents | -ms-flexbox | -ms-inline-flexbox | -ms-grid | -ms-inline-grid | -webkit-flex | -webkit-inline-flex | -webkit-box | -webkit-inline-box | -moz-inline-stack | -moz-box | -moz-inline-box
+     value: -moz-flex
+    --------^
+* Invalid value for `display`
+    syntax: none | inline | block | list-item | inline-list-item | inline-block | inline-table | table | table-cell | table-column | table-column-group | table-footer-group | table-header-group | table-row | table-row-group | flex | inline-flex | grid | inline-grid | run-in | ruby | ruby-base | ruby-text | ruby-base-container | ruby-text-container | contents | -ms-flexbox | -ms-inline-flexbox | -ms-grid | -ms-inline-grid | -webkit-flex | -webkit-inline-flex | -webkit-box | -webkit-inline-box | -moz-inline-stack | -moz-box | -moz-inline-box
+     value: -moz-flex
+    --------^
+* Invalid value for `display`
+    syntax: none | inline | block | list-item | inline-list-item | inline-block | inline-table | table | table-cell | table-column | table-column-group | table-footer-group | table-header-group | table-row | table-row-group | flex | inline-flex | grid | inline-grid | run-in | ruby | ruby-base | ruby-text | ruby-base-container | ruby-text-container | contents | -ms-flexbox | -ms-inline-flexbox | -ms-grid | -ms-inline-grid | -webkit-flex | -webkit-inline-flex | -webkit-box | -webkit-inline-box | -moz-inline-stack | -moz-box | -moz-inline-box
+     value: -moz-flex
+    --------^
+* Invalid value for `display`
+    syntax: none | inline | block | list-item | inline-list-item | inline-block | inline-table | table | table-cell | table-column | table-column-group | table-footer-group | table-header-group | table-row | table-row-group | flex | inline-flex | grid | inline-grid | run-in | ruby | ruby-base | ruby-text | ruby-base-container | ruby-text-container | contents | -ms-flexbox | -ms-inline-flexbox | -ms-grid | -ms-inline-grid | -webkit-flex | -webkit-inline-flex | -webkit-box | -webkit-inline-box | -moz-inline-stack | -moz-box | -moz-inline-box
+     value: -moz-flex
+    --------^
+* Invalid value for `display`
+    syntax: none | inline | block | list-item | inline-list-item | inline-block | inline-table | table | table-cell | table-column | table-column-group | table-footer-group | table-header-group | table-row | table-row-group | flex | inline-flex | grid | inline-grid | run-in | ruby | ruby-base | ruby-text | ruby-base-container | ruby-text-container | contents | -ms-flexbox | -ms-inline-flexbox | -ms-grid | -ms-inline-grid | -webkit-flex | -webkit-inline-flex | -webkit-box | -webkit-inline-box | -moz-inline-stack | -moz-box | -moz-inline-box
+     value: -moz-flex
+    --------^
+* Invalid value for `display`
+    syntax: none | inline | block | list-item | inline-list-item | inline-block | inline-table | table | table-cell | table-column | table-column-group | table-footer-group | table-header-group | table-row | table-row-group | flex | inline-flex | grid | inline-grid | run-in | ruby | ruby-base | ruby-text | ruby-base-container | ruby-text-container | contents | -ms-flexbox | -ms-inline-flexbox | -ms-grid | -ms-inline-grid | -webkit-flex | -webkit-inline-flex | -webkit-box | -webkit-inline-box | -moz-inline-stack | -moz-box | -moz-inline-box
+     value: -moz-flex
+    --------^
+* The rest part of value can't to be matched on `border-top` syntax
+    syntax: &lt;br-width&gt; || &lt;br-style&gt; || &lt;color&gt;
+     value: #edeef0 1 px solid
+    ----------------^
+* Invalid value for `display`
+    syntax: none | inline | block | list-item | inline-list-item | inline-block | inline-table | table | table-cell | table-column | table-column-group | table-footer-group | table-header-group | table-row | table-row-group | flex | inline-flex | grid | inline-grid | run-in | ruby | ruby-base | ruby-text | ruby-base-container | ruby-text-container | contents | -ms-flexbox | -ms-inline-flexbox | -ms-grid | -ms-inline-grid | -webkit-flex | -webkit-inline-flex | -webkit-box | -webkit-inline-box | -moz-inline-stack | -moz-box | -moz-inline-box
+     value: -moz-flex
+    --------^
+* Invalid value for `display`
+    syntax: none | inline | block | list-item | inline-list-item | inline-block | inline-table | table | table-cell | table-column | table-column-group | table-footer-group | table-header-group | table-row | table-row-group | flex | inline-flex | grid | inline-grid | run-in | ruby | ruby-base | ruby-text | ruby-base-container | ruby-text-container | contents | -ms-flexbox | -ms-inline-flexbox | -ms-grid | -ms-inline-grid | -webkit-flex | -webkit-inline-flex | -webkit-box | -webkit-inline-box | -moz-inline-stack | -moz-box | -moz-inline-box
+     value: -moz-flex
+    --------^
+* Invalid value for `display`
+    syntax: none | inline | block | list-item | inline-list-item | inline-block | inline-table | table | table-cell | table-column | table-column-group | table-footer-group | table-header-group | table-row | table-row-group | flex | inline-flex | grid | inline-grid | run-in | ruby | ruby-base | ruby-text | ruby-base-container | ruby-text-container | contents | -ms-flexbox | -ms-inline-flexbox | -ms-grid | -ms-inline-grid | -webkit-flex | -webkit-inline-flex | -webkit-box | -webkit-inline-box | -moz-inline-stack | -moz-box | -moz-inline-box
+     value: -moz-flex
+    --------^
+* The rest part of value can't to be matched on `border-top` syntax
+    syntax: &lt;br-width&gt; || &lt;br-style&gt; || &lt;color&gt;
+     value: #edeef0 1 px solid
+    ----------------^
+* Invalid value for `font-family`
+    syntax: [ &lt;family-name&gt; | &lt;generic-family&gt; ]#
+     value: 600
+    --------^
+* Unknown property: -ms-animations
+* Unknown property: -ms-animations-delay
+* Unknown property: -ms-animations
+* Unknown property: -ms-animations-delay
+* Unknown property: -moz-font-smoothing
+* Unknown property: -o-font-smoothing
+* Invalid value for `display`
+    syntax: none | inline | block | list-item | inline-list-item | inline-block | inline-table | table | table-cell | table-column | table-column-group | table-footer-group | table-header-group | table-row | table-row-group | flex | inline-flex | grid | inline-grid | run-in | ruby | ruby-base | ruby-text | ruby-base-container | ruby-text-container | contents | -ms-flexbox | -ms-inline-flexbox | -ms-grid | -ms-inline-grid | -webkit-flex | -webkit-inline-flex | -webkit-box | -webkit-inline-box | -moz-inline-stack | -moz-box | -moz-inline-box
+     value: -moz-flex
+    --------^
+* Invalid value for `background-color`
+    syntax: &lt;color&gt;
+     value: shade(#6c6d6f,20%)
+    --------^
+* Invalid value for `background-color`
+    syntax: &lt;color&gt;
+     value: shade(#3b5998,20%)
+    --------^
+* Invalid value for `background-color`
+    syntax: &lt;color&gt;
+     value: shade(#55acee,20%)
+    --------^
+* Invalid value for `background-color`
+    syntax: &lt;color&gt;
+     value: shade(#3b5998,20%)
+    --------^
+* Invalid value for `background-color`
+    syntax: &lt;color&gt;
+     value: shade(#bd081c,20%)
+    --------^
+* Invalid value for `background-color`
+    syntax: &lt;color&gt;
+     value: shade(#3b5998,20%)
+    --------^
+* Unknown property: -ms-animations
+* Unknown property: -ms-animations-delay
+* Unknown property: -ms-animations
+* Unknown property: -ms-animations-delay
+* Unknown property: -ms-animations
+* Unknown property: -ms-animations-delay
+* Unknown property: -ms-animations
+* Unknown property: -ms-animations-delay
+* Unknown property: -ms-animations
+* Unknown property: -ms-animations
+* Unknown property: -ms-animations
+* Unknown property: -ms-animations
+* Unknown property: -moz-font-smoothing
+* Unknown property: -o-font-smoothing
+* Unknown property: -moz-font-smoothing
+* Unknown property: -o-font-smoothing
+* Invalid value for `max-width`
+    syntax: &lt;length&gt; | &lt;percentage&gt; | none | max-content | min-content | fit-content | fill-available | &lt;-non-standart-width&gt;
+     value: auto
+    --------^
+* Invalid value for `width`
+    syntax: [ &lt;length&gt; | &lt;percentage&gt; ] &amp;&amp; [ border-box | content-box ]? | available | min-content | max-content | fit-content | auto
+     value: device-width
+    --------^
+* Invalid value for `display`
+    syntax: none | inline | block | list-item | inline-list-item | inline-block | inline-table | table | table-cell | table-column | table-column-group | table-footer-group | table-header-group | table-row | table-row-group | flex | inline-flex | grid | inline-grid | run-in | ruby | ruby-base | ruby-text | ruby-base-container | ruby-text-container | contents | -ms-flexbox | -ms-inline-flexbox | -ms-grid | -ms-inline-grid | -webkit-flex | -webkit-inline-flex | -webkit-box | -webkit-inline-box | -moz-inline-stack | -moz-box | -moz-inline-box
+     value: -moz-flex
+    --------^
+* Invalid value for `display`
+    syntax: none | inline | block | list-item | inline-list-item | inline-block | inline-table | table | table-cell | table-column | table-column-group | table-footer-group | table-header-group | table-row | table-row-group | flex | inline-flex | grid | inline-grid | run-in | ruby | ruby-base | ruby-text | ruby-base-container | ruby-text-container | contents | -ms-flexbox | -ms-inline-flexbox | -ms-grid | -ms-inline-grid | -webkit-flex | -webkit-inline-flex | -webkit-box | -webkit-inline-box | -moz-inline-stack | -moz-box | -moz-inline-box
+     value: -moz-flex
+    --------^
+* Invalid value for `display`
+    syntax: none | inline | block | list-item | inline-list-item | inline-block | inline-table | table | table-cell | table-column | table-column-group | table-footer-group | table-header-group | table-row | table-row-group | flex | inline-flex | grid | inline-grid | run-in | ruby | ruby-base | ruby-text | ruby-base-container | ruby-text-container | contents | -ms-flexbox | -ms-inline-flexbox | -ms-grid | -ms-inline-grid | -webkit-flex | -webkit-inline-flex | -webkit-box | -webkit-inline-box | -moz-inline-stack | -moz-box | -moz-inline-box
+     value: -moz-flex
+    --------^
+* Invalid value for `display`
+    syntax: none | inline | block | list-item | inline-list-item | inline-block | inline-table | table | table-cell | table-column | table-column-group | table-footer-group | table-header-group | table-row | table-row-group | flex | inline-flex | grid | inline-grid | run-in | ruby | ruby-base | ruby-text | ruby-base-container | ruby-text-container | contents | -ms-flexbox | -ms-inline-flexbox | -ms-grid | -ms-inline-grid | -webkit-flex | -webkit-inline-flex | -webkit-box | -webkit-inline-box | -moz-inline-stack | -moz-box | -moz-inline-box
+     value: -moz-flex
+    --------^
+* Invalid value for `display`
+    syntax: none | inline | block | list-item | inline-list-item | inline-block | inline-table | table | table-cell | table-column | table-column-group | table-footer-group | table-header-group | table-row | table-row-group | flex | inline-flex | grid | inline-grid | run-in | ruby | ruby-base | ruby-text | ruby-base-container | ruby-text-container | contents | -ms-flexbox | -ms-inline-flexbox | -ms-grid | -ms-inline-grid | -webkit-flex | -webkit-inline-flex | -webkit-box | -webkit-inline-box | -moz-inline-stack | -moz-box | -moz-inline-box
+     value: -moz-flex
+    --------^
+* Invalid value for `display`
+    syntax: none | inline | block | list-item | inline-list-item | inline-block | inline-table | table | table-cell | table-column | table-column-group | table-footer-group | table-header-group | table-row | table-row-group | flex | inline-flex | grid | inline-grid | run-in | ruby | ruby-base | ruby-text | ruby-base-container | ruby-text-container | contents | -ms-flexbox | -ms-inline-flexbox | -ms-grid | -ms-inline-grid | -webkit-flex | -webkit-inline-flex | -webkit-box | -webkit-inline-box | -moz-inline-stack | -moz-box | -moz-inline-box
+     value: -moz-flex
+    --------^
+* Invalid value for `display`
+    syntax: none | inline | block | list-item | inline-list-item | inline-block | inline-table | table | table-cell | table-column | table-column-group | table-footer-group | table-header-group | table-row | table-row-group | flex | inline-flex | grid | inline-grid | run-in | ruby | ruby-base | ruby-text | ruby-base-container | ruby-text-container | contents | -ms-flexbox | -ms-inline-flexbox | -ms-grid | -ms-inline-grid | -webkit-flex | -webkit-inline-flex | -webkit-box | -webkit-inline-box | -moz-inline-stack | -moz-box | -moz-inline-box
+     value: -moz-flex
+    --------^
+* Invalid value for `display`
+    syntax: none | inline | block | list-item | inline-list-item | inline-block | inline-table | table | table-cell | table-column | table-column-group | table-footer-group | table-header-group | table-row | table-row-group | flex | inline-flex | grid | inline-grid | run-in | ruby | ruby-base | ruby-text | ruby-base-container | ruby-text-container | contents | -ms-flexbox | -ms-inline-flexbox | -ms-grid | -ms-inline-grid | -webkit-flex | -webkit-inline-flex | -webkit-box | -webkit-inline-box | -moz-inline-stack | -moz-box | -moz-inline-box
+     value: -moz-flex
+    --------^
+* Invalid value for `display`
+    syntax: none | inline | block | list-item | inline-list-item | inline-block | inline-table | table | table-cell | table-column | table-column-group | table-footer-group | table-header-group | table-row | table-row-group | flex | inline-flex | grid | inline-grid | run-in | ruby | ruby-base | ruby-text | ruby-base-container | ruby-text-container | contents | -ms-flexbox | -ms-inline-flexbox | -ms-grid | -ms-inline-grid | -webkit-flex | -webkit-inline-flex | -webkit-box | -webkit-inline-box | -moz-inline-stack | -moz-box | -moz-inline-box
+     value: -moz-flex
+    --------^
+* Invalid value for `display`
+    syntax: none | inline | block | list-item | inline-list-item | inline-block | inline-table | table | table-cell | table-column | table-column-group | table-footer-group | table-header-group | table-row | table-row-group | flex | inline-flex | grid | inline-grid | run-in | ruby | ruby-base | ruby-text | ruby-base-container | ruby-text-container | contents | -ms-flexbox | -ms-inline-flexbox | -ms-grid | -ms-inline-grid | -webkit-flex | -webkit-inline-flex | -webkit-box | -webkit-inline-box | -moz-inline-stack | -moz-box | -moz-inline-box
+     value: -moz-flex
+    --------^
+* Invalid value for `display`
+    syntax: none | inline | block | list-item | inline-list-item | inline-block | inline-table | table | table-cell | table-column | table-column-group | table-footer-group | table-header-group | table-row | table-row-group | flex | inline-flex | grid | inline-grid | run-in | ruby | ruby-base | ruby-text | ruby-base-container | ruby-text-container | contents | -ms-flexbox | -ms-inline-flexbox | -ms-grid | -ms-inline-grid | -webkit-flex | -webkit-inline-flex | -webkit-box | -webkit-inline-box | -moz-inline-stack | -moz-box | -moz-inline-box
+     value: -moz-flex
+    --------^
+* Invalid value for `display`
+    syntax: none | inline | block | list-item | inline-list-item | inline-block | inline-table | table | table-cell | table-column | table-column-group | table-footer-group | table-header-group | table-row | table-row-group | flex | inline-flex | grid | inline-grid | run-in | ruby | ruby-base | ruby-text | ruby-base-container | ruby-text-container | contents | -ms-flexbox | -ms-inline-flexbox | -ms-grid | -ms-inline-grid | -webkit-flex | -webkit-inline-flex | -webkit-box | -webkit-inline-box | -moz-inline-stack | -moz-box | -moz-inline-box
+     value: -moz-flex
+    --------^
+* Invalid value for `display`
+    syntax: none | inline | block | list-item | inline-list-item | inline-block | inline-table | table | table-cell | table-column | table-column-group | table-footer-group | table-header-group | table-row | table-row-group | flex | inline-flex | grid | inline-grid | run-in | ruby | ruby-base | ruby-text | ruby-base-container | ruby-text-container | contents | -ms-flexbox | -ms-inline-flexbox | -ms-grid | -ms-inline-grid | -webkit-flex | -webkit-inline-flex | -webkit-box | -webkit-inline-box | -moz-inline-stack | -moz-box | -moz-inline-box
+     value: -moz-flex
+    --------^
+* Invalid value for `display`
+    syntax: none | inline | block | list-item | inline-list-item | inline-block | inline-table | table | table-cell | table-column | table-column-group | table-footer-group | table-header-group | table-row | table-row-group | flex | inline-flex | grid | inline-grid | run-in | ruby | ruby-base | ruby-text | ruby-base-container | ruby-text-container | contents | -ms-flexbox | -ms-inline-flexbox | -ms-grid | -ms-inline-grid | -webkit-flex | -webkit-inline-flex | -webkit-box | -webkit-inline-box | -moz-inline-stack | -moz-box | -moz-inline-box
+     value: -moz-flex
+    --------^
+* Invalid value for `display`
+    syntax: none | inline | block | list-item | inline-list-item | inline-block | inline-table | table | table-cell | table-column | table-column-group | table-footer-group | table-header-group | table-row | table-row-group | flex | inline-flex | grid | inline-grid | run-in | ruby | ruby-base | ruby-text | ruby-base-container | ruby-text-container | contents | -ms-flexbox | -ms-inline-flexbox | -ms-grid | -ms-inline-grid | -webkit-flex | -webkit-inline-flex | -webkit-box | -webkit-inline-box | -moz-inline-stack | -moz-box | -moz-inline-box
+     value: -moz-flex
+    --------^
+* Unknown property: -ms-animations
+* Unknown property: -ms-animations
+* Invalid value for `display`
+    syntax: none | inline | block | list-item | inline-list-item | inline-block | inline-table | table | table-cell | table-column | table-column-group | table-footer-group | table-header-group | table-row | table-row-group | flex | inline-flex | grid | inline-grid | run-in | ruby | ruby-base | ruby-text | ruby-base-container | ruby-text-container | contents | -ms-flexbox | -ms-inline-flexbox | -ms-grid | -ms-inline-grid | -webkit-flex | -webkit-inline-flex | -webkit-box | -webkit-inline-box | -moz-inline-stack | -moz-box | -moz-inline-box
+     value: -moz-flex
+    --------^
+* Invalid value for `display`
+    syntax: none | inline | block | list-item | inline-list-item | inline-block | inline-table | table | table-cell | table-column | table-column-group | table-footer-group | table-header-group | table-row | table-row-group | flex | inline-flex | grid | inline-grid | run-in | ruby | ruby-base | ruby-text | ruby-base-container | ruby-text-container | contents | -ms-flexbox | -ms-inline-flexbox | -ms-grid | -ms-inline-grid | -webkit-flex | -webkit-inline-flex | -webkit-box | -webkit-inline-box | -moz-inline-stack | -moz-box | -moz-inline-box
+     value: -moz-flex
+    --------^
+* Invalid value for `display`
+    syntax: none | inline | block | list-item | inline-list-item | inline-block | inline-table | table | table-cell | table-column | table-column-group | table-footer-group | table-header-group | table-row | table-row-group | flex | inline-flex | grid | inline-grid | run-in | ruby | ruby-base | ruby-text | ruby-base-container | ruby-text-container | contents | -ms-flexbox | -ms-inline-flexbox | -ms-grid | -ms-inline-grid | -webkit-flex | -webkit-inline-flex | -webkit-box | -webkit-inline-box | -moz-inline-stack | -moz-box | -moz-inline-box
+     value: -moz-flex
+    --------^
+* Invalid value for `display`
+    syntax: none | inline | block | list-item | inline-list-item | inline-block | inline-table | table | table-cell | table-column | table-column-group | table-footer-group | table-header-group | table-row | table-row-group | flex | inline-flex | grid | inline-grid | run-in | ruby | ruby-base | ruby-text | ruby-base-container | ruby-text-container | contents | -ms-flexbox | -ms-inline-flexbox | -ms-grid | -ms-inline-grid | -webkit-flex | -webkit-inline-flex | -webkit-box | -webkit-inline-box | -moz-inline-stack | -moz-box | -moz-inline-box
+     value: -moz-flex
+    --------^
+* Invalid value for `-webkit-box-ordinal-group`
+    syntax: &lt;integer&gt;
+     value: initial1
+    --------^
+* Invalid value for `display`
+    syntax: none | inline | block | list-item | inline-list-item | inline-block | inline-table | table | table-cell | table-column | table-column-group | table-footer-group | table-header-group | table-row | table-row-group | flex | inline-flex | grid | inline-grid | run-in | ruby | ruby-base | ruby-text | ruby-base-container | ruby-text-container | contents | -ms-flexbox | -ms-inline-flexbox | -ms-grid | -ms-inline-grid | -webkit-flex | -webkit-inline-flex | -webkit-box | -webkit-inline-box | -moz-inline-stack | -moz-box | -moz-inline-box
+     value: -moz-flex
+    --------^
+* Invalid value for `display`
+    syntax: none | inline | block | list-item | inline-list-item | inline-block | inline-table | table | table-cell | table-column | table-column-group | table-footer-group | table-header-group | table-row | table-row-group | flex | inline-flex | grid | inline-grid | run-in | ruby | ruby-base | ruby-text | ruby-base-container | ruby-text-container | contents | -ms-flexbox | -ms-inline-flexbox | -ms-grid | -ms-inline-grid | -webkit-flex | -webkit-inline-flex | -webkit-box | -webkit-inline-box | -moz-inline-stack | -moz-box | -moz-inline-box
+     value: -moz-flex
+    --------^
+* Invalid value for `display`
+    syntax: none | inline | block | list-item | inline-list-item | inline-block | inline-table | table | table-cell | table-column | table-column-group | table-footer-group | table-header-group | table-row | table-row-group | flex | inline-flex | grid | inline-grid | run-in | ruby | ruby-base | ruby-text | ruby-base-container | ruby-text-container | contents | -ms-flexbox | -ms-inline-flexbox | -ms-grid | -ms-inline-grid | -webkit-flex | -webkit-inline-flex | -webkit-box | -webkit-inline-box | -moz-inline-stack | -moz-box | -moz-inline-box
+     value: -moz-flex
+    --------^
+* Invalid value for `display`
+    syntax: none | inline | block | list-item | inline-list-item | inline-block | inline-table | table | table-cell | table-column | table-column-group | table-footer-group | table-header-group | table-row | table-row-group | flex | inline-flex | grid | inline-grid | run-in | ruby | ruby-base | ruby-text | ruby-base-container | ruby-text-container | contents | -ms-flexbox | -ms-inline-flexbox | -ms-grid | -ms-inline-grid | -webkit-flex | -webkit-inline-flex | -webkit-box | -webkit-inline-box | -moz-inline-stack | -moz-box | -moz-inline-box
+     value: -moz-flex
+    --------^
+* Invalid value for `display`
+    syntax: none | inline | block | list-item | inline-list-item | inline-block | inline-table | table | table-cell | table-column | table-column-group | table-footer-group | table-header-group | table-row | table-row-group | flex | inline-flex | grid | inline-grid | run-in | ruby | ruby-base | ruby-text | ruby-base-container | ruby-text-container | contents | -ms-flexbox | -ms-inline-flexbox | -ms-grid | -ms-inline-grid | -webkit-flex | -webkit-inline-flex | -webkit-box | -webkit-inline-box | -moz-inline-stack | -moz-box | -moz-inline-box
+     value: -moz-flex
+    --------^
+* Invalid value for `display`
+    syntax: none | inline | block | list-item | inline-list-item | inline-block | inline-table | table | table-cell | table-column | table-column-group | table-footer-group | table-header-group | table-row | table-row-group | flex | inline-flex | grid | inline-grid | run-in | ruby | ruby-base | ruby-text | ruby-base-container | ruby-text-container | contents | -ms-flexbox | -ms-inline-flexbox | -ms-grid | -ms-inline-grid | -webkit-flex | -webkit-inline-flex | -webkit-box | -webkit-inline-box | -moz-inline-stack | -moz-box | -moz-inline-box
+     value: -moz-flex
+    --------^
+* Invalid value for `display`
+    syntax: none | inline | block | list-item | inline-list-item | inline-block | inline-table | table | table-cell | table-column | table-column-group | table-footer-group | table-header-group | table-row | table-row-group | flex | inline-flex | grid | inline-grid | run-in | ruby | ruby-base | ruby-text | ruby-base-container | ruby-text-container | contents | -ms-flexbox | -ms-inline-flexbox | -ms-grid | -ms-inline-grid | -webkit-flex | -webkit-inline-flex | -webkit-box | -webkit-inline-box | -moz-inline-stack | -moz-box | -moz-inline-box
+     value: -moz-flex
+    --------^
+* Invalid value for `display`
+    syntax: none | inline | block | list-item | inline-list-item | inline-block | inline-table | table | table-cell | table-column | table-column-group | table-footer-group | table-header-group | table-row | table-row-group | flex | inline-flex | grid | inline-grid | run-in | ruby | ruby-base | ruby-text | ruby-base-container | ruby-text-container | contents | -ms-flexbox | -ms-inline-flexbox | -ms-grid | -ms-inline-grid | -webkit-flex | -webkit-inline-flex | -webkit-box | -webkit-inline-box | -moz-inline-stack | -moz-box | -moz-inline-box
+     value: -moz-flex
+    --------^
+* Invalid value for `display`
+    syntax: none | inline | block | list-item | inline-list-item | inline-block | inline-table | table | table-cell | table-column | table-column-group | table-footer-group | table-header-group | table-row | table-row-group | flex | inline-flex | grid | inline-grid | run-in | ruby | ruby-base | ruby-text | ruby-base-container | ruby-text-container | contents | -ms-flexbox | -ms-inline-flexbox | -ms-grid | -ms-inline-grid | -webkit-flex | -webkit-inline-flex | -webkit-box | -webkit-inline-box | -moz-inline-stack | -moz-box | -moz-inline-box
+     value: -moz-flex
+    --------^
+* Invalid value for `display`
+    syntax: none | inline | block | list-item | inline-list-item | inline-block | inline-table | table | table-cell | table-column | table-column-group | table-footer-group | table-header-group | table-row | table-row-group | flex | inline-flex | grid | inline-grid | run-in | ruby | ruby-base | ruby-text | ruby-base-container | ruby-text-container | contents | -ms-flexbox | -ms-inline-flexbox | -ms-grid | -ms-inline-grid | -webkit-flex | -webkit-inline-flex | -webkit-box | -webkit-inline-box | -moz-inline-stack | -moz-box | -moz-inline-box
+     value: -moz-flex
+    --------^
+* Invalid value for `display`
+    syntax: none | inline | block | list-item | inline-list-item | inline-block | inline-table | table | table-cell | table-column | table-column-group | table-footer-group | table-header-group | table-row | table-row-group | flex | inline-flex | grid | inline-grid | run-in | ruby | ruby-base | ruby-text | ruby-base-container | ruby-text-container | contents | -ms-flexbox | -ms-inline-flexbox | -ms-grid | -ms-inline-grid | -webkit-flex | -webkit-inline-flex | -webkit-box | -webkit-inline-box | -moz-inline-stack | -moz-box | -moz-inline-box
+     value: -moz-flex
+    --------^
+* Invalid value for `display`
+    syntax: none | inline | block | list-item | inline-list-item | inline-block | inline-table | table | table-cell | table-column | table-column-group | table-footer-group | table-header-group | table-row | table-row-group | flex | inline-flex | grid | inline-grid | run-in | ruby | ruby-base | ruby-text | ruby-base-container | ruby-text-container | contents | -ms-flexbox | -ms-inline-flexbox | -ms-grid | -ms-inline-grid | -webkit-flex | -webkit-inline-flex | -webkit-box | -webkit-inline-box | -moz-inline-stack | -moz-box | -moz-inline-box
+     value: -moz-flex
+    --------^
+* Invalid value for `display`
+    syntax: none | inline | block | list-item | inline-list-item | inline-block | inline-table | table | table-cell | table-column | table-column-group | table-footer-group | table-header-group | table-row | table-row-group | flex | inline-flex | grid | inline-grid | run-in | ruby | ruby-base | ruby-text | ruby-base-container | ruby-text-container | contents | -ms-flexbox | -ms-inline-flexbox | -ms-grid | -ms-inline-grid | -webkit-flex | -webkit-inline-flex | -webkit-box | -webkit-inline-box | -moz-inline-stack | -moz-box | -moz-inline-box
+     value: -moz-flex
+    --------^
+* Invalid value for `display`
+    syntax: none | inline | block | list-item | inline-list-item | inline-block | inline-table | table | table-cell | table-column | table-column-group | table-footer-group | table-header-group | table-row | table-row-group | flex | inline-flex | grid | inline-grid | run-in | ruby | ruby-base | ruby-text | ruby-base-container | ruby-text-container | contents | -ms-flexbox | -ms-inline-flexbox | -ms-grid | -ms-inline-grid | -webkit-flex | -webkit-inline-flex | -webkit-box | -webkit-inline-box | -moz-inline-stack | -moz-box | -moz-inline-box
+     value: -moz-flex
+    --------^
+* Invalid value for `display`
+    syntax: none | inline | block | list-item | inline-list-item | inline-block | inline-table | table | table-cell | table-column | table-column-group | table-footer-group | table-header-group | table-row | table-row-group | flex | inline-flex | grid | inline-grid | run-in | ruby | ruby-base | ruby-text | ruby-base-container | ruby-text-container | contents | -ms-flexbox | -ms-inline-flexbox | -ms-grid | -ms-inline-grid | -webkit-flex | -webkit-inline-flex | -webkit-box | -webkit-inline-box | -moz-inline-stack | -moz-box | -moz-inline-box
+     value: -moz-flex
+    --------^
+* Invalid value for `display`
+    syntax: none | inline | block | list-item | inline-list-item | inline-block | inline-table | table | table-cell | table-column | table-column-group | table-footer-group | table-header-group | table-row | table-row-group | flex | inline-flex | grid | inline-grid | run-in | ruby | ruby-base | ruby-text | ruby-base-container | ruby-text-container | contents | -ms-flexbox | -ms-inline-flexbox | -ms-grid | -ms-inline-grid | -webkit-flex | -webkit-inline-flex | -webkit-box | -webkit-inline-box | -moz-inline-stack | -moz-box | -moz-inline-box
+     value: -moz-flex
+    --------^
+* Unknown property: -ms-animations-delay
+* Invalid value for `-ms-filter`
+    syntax: &lt;string&gt;
+     value: blur(45px) brightness(0.85)
+    --------^
+* Invalid value for `-ms-filter`
+    syntax: &lt;string&gt;
+     value: blur(45px) brightness(0.85)
+    --------^
+* Invalid value for `-ms-filter`
+    syntax: &lt;string&gt;
+     value: blur(45px) brightness(0.85)
+    --------^
+* Invalid value for `-ms-filter`
+    syntax: &lt;string&gt;
+     value: blur(45px) brightness(0.85)
+    --------^
+* Unknown property: -ms-animations-delay
+* Unknown property: -ms-animations-delay
+* Unknown property: -ms-animations-delay
+* Unknown property: -ms-animations-delay
+* Unknown property: -ms-animations-delay
+* Unknown property: -ms-animations-delay
+* Unknown property: -moz-font-smoothing
+* Unknown property: -o-font-smoothing
+* Invalid value for `display`
+    syntax: none | inline | block | list-item | inline-list-item | inline-block | inline-table | table | table-cell | table-column | table-column-group | table-footer-group | table-header-group | table-row | table-row-group | flex | inline-flex | grid | inline-grid | run-in | ruby | ruby-base | ruby-text | ruby-base-container | ruby-text-container | contents | -ms-flexbox | -ms-inline-flexbox | -ms-grid | -ms-inline-grid | -webkit-flex | -webkit-inline-flex | -webkit-box | -webkit-inline-box | -moz-inline-stack | -moz-box | -moz-inline-box
+     value: -moz-flex
+    --------^
+* Invalid value for `display`
+    syntax: none | inline | block | list-item | inline-list-item | inline-block | inline-table | table | table-cell | table-column | table-column-group | table-footer-group | table-header-group | table-row | table-row-group | flex | inline-flex | grid | inline-grid | run-in | ruby | ruby-base | ruby-text | ruby-base-container | ruby-text-container | contents | -ms-flexbox | -ms-inline-flexbox | -ms-grid | -ms-inline-grid | -webkit-flex | -webkit-inline-flex | -webkit-box | -webkit-inline-box | -moz-inline-stack | -moz-box | -moz-inline-box
+     value: -moz-flex
+    --------^
+* Invalid value for `display`
+    syntax: none | inline | block | list-item | inline-list-item | inline-block | inline-table | table | table-cell | table-column | table-column-group | table-footer-group | table-header-group | table-row | table-row-group | flex | inline-flex | grid | inline-grid | run-in | ruby | ruby-base | ruby-text | ruby-base-container | ruby-text-container | contents | -ms-flexbox | -ms-inline-flexbox | -ms-grid | -ms-inline-grid | -webkit-flex | -webkit-inline-flex | -webkit-box | -webkit-inline-box | -moz-inline-stack | -moz-box | -moz-inline-box
+     value: -moz-flex
+    --------^
+* Invalid value for `display`
+    syntax: none | inline | block | list-item | inline-list-item | inline-block | inline-table | table | table-cell | table-column | table-column-group | table-footer-group | table-header-group | table-row | table-row-group | flex | inline-flex | grid | inline-grid | run-in | ruby | ruby-base | ruby-text | ruby-base-container | ruby-text-container | contents | -ms-flexbox | -ms-inline-flexbox | -ms-grid | -ms-inline-grid | -webkit-flex | -webkit-inline-flex | -webkit-box | -webkit-inline-box | -moz-inline-stack | -moz-box | -moz-inline-box
+     value: -moz-flex
+    --------^
+* Invalid value for `display`
+    syntax: none | inline | block | list-item | inline-list-item | inline-block | inline-table | table | table-cell | table-column | table-column-group | table-footer-group | table-header-group | table-row | table-row-group | flex | inline-flex | grid | inline-grid | run-in | ruby | ruby-base | ruby-text | ruby-base-container | ruby-text-container | contents | -ms-flexbox | -ms-inline-flexbox | -ms-grid | -ms-inline-grid | -webkit-flex | -webkit-inline-flex | -webkit-box | -webkit-inline-box | -moz-inline-stack | -moz-box | -moz-inline-box
+     value: -moz-flex
+    --------^
+* Invalid value for `-ms-flex-wrap`
+    syntax: nowrap | wrap | wrap-reverse
+     value: none
+    --------^
+* Invalid value for `display`
+    syntax: none | inline | block | list-item | inline-list-item | inline-block | inline-table | table | table-cell | table-column | table-column-group | table-footer-group | table-header-group | table-row | table-row-group | flex | inline-flex | grid | inline-grid | run-in | ruby | ruby-base | ruby-text | ruby-base-container | ruby-text-container | contents | -ms-flexbox | -ms-inline-flexbox | -ms-grid | -ms-inline-grid | -webkit-flex | -webkit-inline-flex | -webkit-box | -webkit-inline-box | -moz-inline-stack | -moz-box | -moz-inline-box
+     value: -moz-flex
+    --------^
+* Invalid value for `-ms-flex-wrap`
+    syntax: nowrap | wrap | wrap-reverse
+     value: none
+    --------^
+* Invalid value for `display`
+    syntax: none | inline | block | list-item | inline-list-item | inline-block | inline-table | table | table-cell | table-column | table-column-group | table-footer-group | table-header-group | table-row | table-row-group | flex | inline-flex | grid | inline-grid | run-in | ruby | ruby-base | ruby-text | ruby-base-container | ruby-text-container | contents | -ms-flexbox | -ms-inline-flexbox | -ms-grid | -ms-inline-grid | -webkit-flex | -webkit-inline-flex | -webkit-box | -webkit-inline-box | -moz-inline-stack | -moz-box | -moz-inline-box
+     value: -moz-flex
+    --------^
+* Invalid value for `display`
+    syntax: none | inline | block | list-item | inline-list-item | inline-block | inline-table | table | table-cell | table-column | table-column-group | table-footer-group | table-header-group | table-row | table-row-group | flex | inline-flex | grid | inline-grid | run-in | ruby | ruby-base | ruby-text | ruby-base-container | ruby-text-container | contents | -ms-flexbox | -ms-inline-flexbox | -ms-grid | -ms-inline-grid | -webkit-flex | -webkit-inline-flex | -webkit-box | -webkit-inline-box | -moz-inline-stack | -moz-box | -moz-inline-box
+     value: -moz-flex
+    --------^
+* Invalid value for `display`
+    syntax: none | inline | block | list-item | inline-list-item | inline-block | inline-table | table | table-cell | table-column | table-column-group | table-footer-group | table-header-group | table-row | table-row-group | flex | inline-flex | grid | inline-grid | run-in | ruby | ruby-base | ruby-text | ruby-base-container | ruby-text-container | contents | -ms-flexbox | -ms-inline-flexbox | -ms-grid | -ms-inline-grid | -webkit-flex | -webkit-inline-flex | -webkit-box | -webkit-inline-box | -moz-inline-stack | -moz-box | -moz-inline-box
+     value: -moz-flex
+    --------^
+* Invalid value for `display`
+    syntax: none | inline | block | list-item | inline-list-item | inline-block | inline-table | table | table-cell | table-column | table-column-group | table-footer-group | table-header-group | table-row | table-row-group | flex | inline-flex | grid | inline-grid | run-in | ruby | ruby-base | ruby-text | ruby-base-container | ruby-text-container | contents | -ms-flexbox | -ms-inline-flexbox | -ms-grid | -ms-inline-grid | -webkit-flex | -webkit-inline-flex | -webkit-box | -webkit-inline-box | -moz-inline-stack | -moz-box | -moz-inline-box
+     value: -moz-flex
+    --------^
+* Invalid value for `display`
+    syntax: none | inline | block | list-item | inline-list-item | inline-block | inline-table | table | table-cell | table-column | table-column-group | table-footer-group | table-header-group | table-row | table-row-group | flex | inline-flex | grid | inline-grid | run-in | ruby | ruby-base | ruby-text | ruby-base-container | ruby-text-container | contents | -ms-flexbox | -ms-inline-flexbox | -ms-grid | -ms-inline-grid | -webkit-flex | -webkit-inline-flex | -webkit-box | -webkit-inline-box | -moz-inline-stack | -moz-box | -moz-inline-box
+     value: -moz-flex
+    --------^
+* Invalid value for `display`
+    syntax: none | inline | block | list-item | inline-list-item | inline-block | inline-table | table | table-cell | table-column | table-column-group | table-footer-group | table-header-group | table-row | table-row-group | flex | inline-flex | grid | inline-grid | run-in | ruby | ruby-base | ruby-text | ruby-base-container | ruby-text-container | contents | -ms-flexbox | -ms-inline-flexbox | -ms-grid | -ms-inline-grid | -webkit-flex | -webkit-inline-flex | -webkit-box | -webkit-inline-box | -moz-inline-stack | -moz-box | -moz-inline-box
+     value: -moz-flex
+    --------^
+* Invalid value for `display`
+    syntax: none | inline | block | list-item | inline-list-item | inline-block | inline-table | table | table-cell | table-column | table-column-group | table-footer-group | table-header-group | table-row | table-row-group | flex | inline-flex | grid | inline-grid | run-in | ruby | ruby-base | ruby-text | ruby-base-container | ruby-text-container | contents | -ms-flexbox | -ms-inline-flexbox | -ms-grid | -ms-inline-grid | -webkit-flex | -webkit-inline-flex | -webkit-box | -webkit-inline-box | -moz-inline-stack | -moz-box | -moz-inline-box
+     value: -moz-flex
+    --------^
+* Invalid value for `display`
+    syntax: none | inline | block | list-item | inline-list-item | inline-block | inline-table | table | table-cell | table-column | table-column-group | table-footer-group | table-header-group | table-row | table-row-group | flex | inline-flex | grid | inline-grid | run-in | ruby | ruby-base | ruby-text | ruby-base-container | ruby-text-container | contents | -ms-flexbox | -ms-inline-flexbox | -ms-grid | -ms-inline-grid | -webkit-flex | -webkit-inline-flex | -webkit-box | -webkit-inline-box | -moz-inline-stack | -moz-box | -moz-inline-box
+     value: -moz-flex
+    --------^
+* Invalid value for `display`
+    syntax: none | inline | block | list-item | inline-list-item | inline-block | inline-table | table | table-cell | table-column | table-column-group | table-footer-group | table-header-group | table-row | table-row-group | flex | inline-flex | grid | inline-grid | run-in | ruby | ruby-base | ruby-text | ruby-base-container | ruby-text-container | contents | -ms-flexbox | -ms-inline-flexbox | -ms-grid | -ms-inline-grid | -webkit-flex | -webkit-inline-flex | -webkit-box | -webkit-inline-box | -moz-inline-stack | -moz-box | -moz-inline-box
+     value: -moz-flex
+    --------^
+* Invalid value for `display`
+    syntax: none | inline | block | list-item | inline-list-item | inline-block | inline-table | table | table-cell | table-column | table-column-group | table-footer-group | table-header-group | table-row | table-row-group | flex | inline-flex | grid | inline-grid | run-in | ruby | ruby-base | ruby-text | ruby-base-container | ruby-text-container | contents | -ms-flexbox | -ms-inline-flexbox | -ms-grid | -ms-inline-grid | -webkit-flex | -webkit-inline-flex | -webkit-box | -webkit-inline-box | -moz-inline-stack | -moz-box | -moz-inline-box
+     value: -moz-flex
+    --------^
+* Invalid value for `display`
+    syntax: none | inline | block | list-item | inline-list-item | inline-block | inline-table | table | table-cell | table-column | table-column-group | table-footer-group | table-header-group | table-row | table-row-group | flex | inline-flex | grid | inline-grid | run-in | ruby | ruby-base | ruby-text | ruby-base-container | ruby-text-container | contents | -ms-flexbox | -ms-inline-flexbox | -ms-grid | -ms-inline-grid | -webkit-flex | -webkit-inline-flex | -webkit-box | -webkit-inline-box | -moz-inline-stack | -moz-box | -moz-inline-box
+     value: -moz-flex
+    --------^
+* Invalid value for `display`
+    syntax: none | inline | block | list-item | inline-list-item | inline-block | inline-table | table | table-cell | table-column | table-column-group | table-footer-group | table-header-group | table-row | table-row-group | flex | inline-flex | grid | inline-grid | run-in | ruby | ruby-base | ruby-text | ruby-base-container | ruby-text-container | contents | -ms-flexbox | -ms-inline-flexbox | -ms-grid | -ms-inline-grid | -webkit-flex | -webkit-inline-flex | -webkit-box | -webkit-inline-box | -moz-inline-stack | -moz-box | -moz-inline-box
+     value: -moz-flex
+    --------^
+* Invalid value for `display`
+    syntax: none | inline | block | list-item | inline-list-item | inline-block | inline-table | table | table-cell | table-column | table-column-group | table-footer-group | table-header-group | table-row | table-row-group | flex | inline-flex | grid | inline-grid | run-in | ruby | ruby-base | ruby-text | ruby-base-container | ruby-text-container | contents | -ms-flexbox | -ms-inline-flexbox | -ms-grid | -ms-inline-grid | -webkit-flex | -webkit-inline-flex | -webkit-box | -webkit-inline-box | -moz-inline-stack | -moz-box | -moz-inline-box
+     value: -moz-flex
+    --------^
+* Invalid value for `display`
+    syntax: none | inline | block | list-item | inline-list-item | inline-block | inline-table | table | table-cell | table-column | table-column-group | table-footer-group | table-header-group | table-row | table-row-group | flex | inline-flex | grid | inline-grid | run-in | ruby | ruby-base | ruby-text | ruby-base-container | ruby-text-container | contents | -ms-flexbox | -ms-inline-flexbox | -ms-grid | -ms-inline-grid | -webkit-flex | -webkit-inline-flex | -webkit-box | -webkit-inline-box | -moz-inline-stack | -moz-box | -moz-inline-box
+     value: -moz-flex
+    --------^
+* Invalid value for `display`
+    syntax: none | inline | block | list-item | inline-list-item | inline-block | inline-table | table | table-cell | table-column | table-column-group | table-footer-group | table-header-group | table-row | table-row-group | flex | inline-flex | grid | inline-grid | run-in | ruby | ruby-base | ruby-text | ruby-base-container | ruby-text-container | contents | -ms-flexbox | -ms-inline-flexbox | -ms-grid | -ms-inline-grid | -webkit-flex | -webkit-inline-flex | -webkit-box | -webkit-inline-box | -moz-inline-stack | -moz-box | -moz-inline-box
+     value: -moz-flex
+    --------^
+* Invalid value for `display`
+    syntax: none | inline | block | list-item | inline-list-item | inline-block | inline-table | table | table-cell | table-column | table-column-group | table-footer-group | table-header-group | table-row | table-row-group | flex | inline-flex | grid | inline-grid | run-in | ruby | ruby-base | ruby-text | ruby-base-container | ruby-text-container | contents | -ms-flexbox | -ms-inline-flexbox | -ms-grid | -ms-inline-grid | -webkit-flex | -webkit-inline-flex | -webkit-box | -webkit-inline-box | -moz-inline-stack | -moz-box | -moz-inline-box
+     value: -moz-flex
+    --------^
+* Invalid value for `display`
+    syntax: none | inline | block | list-item | inline-list-item | inline-block | inline-table | table | table-cell | table-column | table-column-group | table-footer-group | table-header-group | table-row | table-row-group | flex | inline-flex | grid | inline-grid | run-in | ruby | ruby-base | ruby-text | ruby-base-container | ruby-text-container | contents | -ms-flexbox | -ms-inline-flexbox | -ms-grid | -ms-inline-grid | -webkit-flex | -webkit-inline-flex | -webkit-box | -webkit-inline-box | -moz-inline-stack | -moz-box | -moz-inline-box
+     value: -moz-flex
+    --------^
+* Invalid value for `display`
+    syntax: none | inline | block | list-item | inline-list-item | inline-block | inline-table | table | table-cell | table-column | table-column-group | table-footer-group | table-header-group | table-row | table-row-group | flex | inline-flex | grid | inline-grid | run-in | ruby | ruby-base | ruby-text | ruby-base-container | ruby-text-container | contents | -ms-flexbox | -ms-inline-flexbox | -ms-grid | -ms-inline-grid | -webkit-flex | -webkit-inline-flex | -webkit-box | -webkit-inline-box | -moz-inline-stack | -moz-box | -moz-inline-box
+     value: -moz-flex
+    --------^
+* Invalid value for `display`
+    syntax: none | inline | block | list-item | inline-list-item | inline-block | inline-table | table | table-cell | table-column | table-column-group | table-footer-group | table-header-group | table-row | table-row-group | flex | inline-flex | grid | inline-grid | run-in | ruby | ruby-base | ruby-text | ruby-base-container | ruby-text-container | contents | -ms-flexbox | -ms-inline-flexbox | -ms-grid | -ms-inline-grid | -webkit-flex | -webkit-inline-flex | -webkit-box | -webkit-inline-box | -moz-inline-stack | -moz-box | -moz-inline-box
+     value: -moz-flex
+    --------^
+* Invalid value for `display`
+    syntax: none | inline | block | list-item | inline-list-item | inline-block | inline-table | table | table-cell | table-column | table-column-group | table-footer-group | table-header-group | table-row | table-row-group | flex | inline-flex | grid | inline-grid | run-in | ruby | ruby-base | ruby-text | ruby-base-container | ruby-text-container | contents | -ms-flexbox | -ms-inline-flexbox | -ms-grid | -ms-inline-grid | -webkit-flex | -webkit-inline-flex | -webkit-box | -webkit-inline-box | -moz-inline-stack | -moz-box | -moz-inline-box
+     value: -moz-flex
+    --------^
+* Invalid value for `display`
+    syntax: none | inline | block | list-item | inline-list-item | inline-block | inline-table | table | table-cell | table-column | table-column-group | table-footer-group | table-header-group | table-row | table-row-group | flex | inline-flex | grid | inline-grid | run-in | ruby | ruby-base | ruby-text | ruby-base-container | ruby-text-container | contents | -ms-flexbox | -ms-inline-flexbox | -ms-grid | -ms-inline-grid | -webkit-flex | -webkit-inline-flex | -webkit-box | -webkit-inline-box | -moz-inline-stack | -moz-box | -moz-inline-box
+     value: -moz-flex
+    --------^
+* Invalid value for `display`
+    syntax: none | inline | block | list-item | inline-list-item | inline-block | inline-table | table | table-cell | table-column | table-column-group | table-footer-group | table-header-group | table-row | table-row-group | flex | inline-flex | grid | inline-grid | run-in | ruby | ruby-base | ruby-text | ruby-base-container | ruby-text-container | contents | -ms-flexbox | -ms-inline-flexbox | -ms-grid | -ms-inline-grid | -webkit-flex | -webkit-inline-flex | -webkit-box | -webkit-inline-box | -moz-inline-stack | -moz-box | -moz-inline-box
+     value: -moz-flex
+    --------^
+* Invalid value for `display`
+    syntax: none | inline | block | list-item | inline-list-item | inline-block | inline-table | table | table-cell | table-column | table-column-group | table-footer-group | table-header-group | table-row | table-row-group | flex | inline-flex | grid | inline-grid | run-in | ruby | ruby-base | ruby-text | ruby-base-container | ruby-text-container | contents | -ms-flexbox | -ms-inline-flexbox | -ms-grid | -ms-inline-grid | -webkit-flex | -webkit-inline-flex | -webkit-box | -webkit-inline-box | -moz-inline-stack | -moz-box | -moz-inline-box
+     value: -moz-flex
+    --------^
+* Invalid value for `display`
+    syntax: none | inline | block | list-item | inline-list-item | inline-block | inline-table | table | table-cell | table-column | table-column-group | table-footer-group | table-header-group | table-row | table-row-group | flex | inline-flex | grid | inline-grid | run-in | ruby | ruby-base | ruby-text | ruby-base-container | ruby-text-container | contents | -ms-flexbox | -ms-inline-flexbox | -ms-grid | -ms-inline-grid | -webkit-flex | -webkit-inline-flex | -webkit-box | -webkit-inline-box | -moz-inline-stack | -moz-box | -moz-inline-box
+     value: -moz-flex
+    --------^
+* Invalid value for `display`
+    syntax: none | inline | block | list-item | inline-list-item | inline-block | inline-table | table | table-cell | table-column | table-column-group | table-footer-group | table-header-group | table-row | table-row-group | flex | inline-flex | grid | inline-grid | run-in | ruby | ruby-base | ruby-text | ruby-base-container | ruby-text-container | contents | -ms-flexbox | -ms-inline-flexbox | -ms-grid | -ms-inline-grid | -webkit-flex | -webkit-inline-flex | -webkit-box | -webkit-inline-box | -moz-inline-stack | -moz-box | -moz-inline-box
+     value: -moz-flex
+    --------^
+* Invalid value for `display`
+    syntax: none | inline | block | list-item | inline-list-item | inline-block | inline-table | table | table-cell | table-column | table-column-group | table-footer-group | table-header-group | table-row | table-row-group | flex | inline-flex | grid | inline-grid | run-in | ruby | ruby-base | ruby-text | ruby-base-container | ruby-text-container | contents | -ms-flexbox | -ms-inline-flexbox | -ms-grid | -ms-inline-grid | -webkit-flex | -webkit-inline-flex | -webkit-box | -webkit-inline-box | -moz-inline-stack | -moz-box | -moz-inline-box
+     value: -moz-flex
+    --------^
+* Invalid value for `display`
+    syntax: none | inline | block | list-item | inline-list-item | inline-block | inline-table | table | table-cell | table-column | table-column-group | table-footer-group | table-header-group | table-row | table-row-group | flex | inline-flex | grid | inline-grid | run-in | ruby | ruby-base | ruby-text | ruby-base-container | ruby-text-container | contents | -ms-flexbox | -ms-inline-flexbox | -ms-grid | -ms-inline-grid | -webkit-flex | -webkit-inline-flex | -webkit-box | -webkit-inline-box | -moz-inline-stack | -moz-box | -moz-inline-box
+     value: -moz-flex
+    --------^
+* Invalid value for `display`
+    syntax: none | inline | block | list-item | inline-list-item | inline-block | inline-table | table | table-cell | table-column | table-column-group | table-footer-group | table-header-group | table-row | table-row-group | flex | inline-flex | grid | inline-grid | run-in | ruby | ruby-base | ruby-text | ruby-base-container | ruby-text-container | contents | -ms-flexbox | -ms-inline-flexbox | -ms-grid | -ms-inline-grid | -webkit-flex | -webkit-inline-flex | -webkit-box | -webkit-inline-box | -moz-inline-stack | -moz-box | -moz-inline-box
+     value: -moz-flex
+    --------^
+* Invalid value for `display`
+    syntax: none | inline | block | list-item | inline-list-item | inline-block | inline-table | table | table-cell | table-column | table-column-group | table-footer-group | table-header-group | table-row | table-row-group | flex | inline-flex | grid | inline-grid | run-in | ruby | ruby-base | ruby-text | ruby-base-container | ruby-text-container | contents | -ms-flexbox | -ms-inline-flexbox | -ms-grid | -ms-inline-grid | -webkit-flex | -webkit-inline-flex | -webkit-box | -webkit-inline-box | -moz-inline-stack | -moz-box | -moz-inline-box
+     value: -moz-flex
+    --------^
+* Invalid value for `display`
+    syntax: none | inline | block | list-item | inline-list-item | inline-block | inline-table | table | table-cell | table-column | table-column-group | table-footer-group | table-header-group | table-row | table-row-group | flex | inline-flex | grid | inline-grid | run-in | ruby | ruby-base | ruby-text | ruby-base-container | ruby-text-container | contents | -ms-flexbox | -ms-inline-flexbox | -ms-grid | -ms-inline-grid | -webkit-flex | -webkit-inline-flex | -webkit-box | -webkit-inline-box | -moz-inline-stack | -moz-box | -moz-inline-box
+     value: -moz-flex
+    --------^
+* Invalid value for `display`
+    syntax: none | inline | block | list-item | inline-list-item | inline-block | inline-table | table | table-cell | table-column | table-column-group | table-footer-group | table-header-group | table-row | table-row-group | flex | inline-flex | grid | inline-grid | run-in | ruby | ruby-base | ruby-text | ruby-base-container | ruby-text-container | contents | -ms-flexbox | -ms-inline-flexbox | -ms-grid | -ms-inline-grid | -webkit-flex | -webkit-inline-flex | -webkit-box | -webkit-inline-box | -moz-inline-stack | -moz-box | -moz-inline-box
+     value: -moz-flex
+    --------^
+* Invalid value for `display`
+    syntax: none | inline | block | list-item | inline-list-item | inline-block | inline-table | table | table-cell | table-column | table-column-group | table-footer-group | table-header-group | table-row | table-row-group | flex | inline-flex | grid | inline-grid | run-in | ruby | ruby-base | ruby-text | ruby-base-container | ruby-text-container | contents | -ms-flexbox | -ms-inline-flexbox | -ms-grid | -ms-inline-grid | -webkit-flex | -webkit-inline-flex | -webkit-box | -webkit-inline-box | -moz-inline-stack | -moz-box | -moz-inline-box
+     value: -moz-flex
+    --------^
+* Invalid value for `-webkit-box-ordinal-group`
+    syntax: &lt;integer&gt;
+     value: initial1
+    --------^
+* Invalid value for `display`
+    syntax: none | inline | block | list-item | inline-list-item | inline-block | inline-table | table | table-cell | table-column | table-column-group | table-footer-group | table-header-group | table-row | table-row-group | flex | inline-flex | grid | inline-grid | run-in | ruby | ruby-base | ruby-text | ruby-base-container | ruby-text-container | contents | -ms-flexbox | -ms-inline-flexbox | -ms-grid | -ms-inline-grid | -webkit-flex | -webkit-inline-flex | -webkit-box | -webkit-inline-box | -moz-inline-stack | -moz-box | -moz-inline-box
+     value: -moz-flex
+    --------^
+* Invalid value for `display`
+    syntax: none | inline | block | list-item | inline-list-item | inline-block | inline-table | table | table-cell | table-column | table-column-group | table-footer-group | table-header-group | table-row | table-row-group | flex | inline-flex | grid | inline-grid | run-in | ruby | ruby-base | ruby-text | ruby-base-container | ruby-text-container | contents | -ms-flexbox | -ms-inline-flexbox | -ms-grid | -ms-inline-grid | -webkit-flex | -webkit-inline-flex | -webkit-box | -webkit-inline-box | -moz-inline-stack | -moz-box | -moz-inline-box
+     value: -moz-flex
+    --------^
+* Invalid value for `display`
+    syntax: none | inline | block | list-item | inline-list-item | inline-block | inline-table | table | table-cell | table-column | table-column-group | table-footer-group | table-header-group | table-row | table-row-group | flex | inline-flex | grid | inline-grid | run-in | ruby | ruby-base | ruby-text | ruby-base-container | ruby-text-container | contents | -ms-flexbox | -ms-inline-flexbox | -ms-grid | -ms-inline-grid | -webkit-flex | -webkit-inline-flex | -webkit-box | -webkit-inline-box | -moz-inline-stack | -moz-box | -moz-inline-box
+     value: -moz-flex
+    --------^
+* Invalid value for `display`
+    syntax: none | inline | block | list-item | inline-list-item | inline-block | inline-table | table | table-cell | table-column | table-column-group | table-footer-group | table-header-group | table-row | table-row-group | flex | inline-flex | grid | inline-grid | run-in | ruby | ruby-base | ruby-text | ruby-base-container | ruby-text-container | contents | -ms-flexbox | -ms-inline-flexbox | -ms-grid | -ms-inline-grid | -webkit-flex | -webkit-inline-flex | -webkit-box | -webkit-inline-box | -moz-inline-stack | -moz-box | -moz-inline-box
+     value: -moz-flex
+    --------^
+* Invalid value for `display`
+    syntax: none | inline | block | list-item | inline-list-item | inline-block | inline-table | table | table-cell | table-column | table-column-group | table-footer-group | table-header-group | table-row | table-row-group | flex | inline-flex | grid | inline-grid | run-in | ruby | ruby-base | ruby-text | ruby-base-container | ruby-text-container | contents | -ms-flexbox | -ms-inline-flexbox | -ms-grid | -ms-inline-grid | -webkit-flex | -webkit-inline-flex | -webkit-box | -webkit-inline-box | -moz-inline-stack | -moz-box | -moz-inline-box
+     value: -moz-flex
+    --------^
+* Invalid value for `display`
+    syntax: none | inline | block | list-item | inline-list-item | inline-block | inline-table | table | table-cell | table-column | table-column-group | table-footer-group | table-header-group | table-row | table-row-group | flex | inline-flex | grid | inline-grid | run-in | ruby | ruby-base | ruby-text | ruby-base-container | ruby-text-container | contents | -ms-flexbox | -ms-inline-flexbox | -ms-grid | -ms-inline-grid | -webkit-flex | -webkit-inline-flex | -webkit-box | -webkit-inline-box | -moz-inline-stack | -moz-box | -moz-inline-box
+     value: -moz-flex
+    --------^</pre></details></td></tr>
 <tr><td>191</td><td>⚠️</td><td>roblox.com</td><td>OK</td><td><details><summary>16 warnings (unique: 12)</summary><pre>* Invalid value for `width`
     syntax: [ &lt;length&gt; | &lt;percentage&gt; ] &amp;&amp; [ border-box | content-box ]? | available | min-content | max-content | fit-content | auto
      value: device-width
@@ -16235,13 +17338,26 @@ Update date: 2017-03-09T00:44:00.913Z
      value: transform 1s easy 0,-webkit-transform 1s easy 0
     ---------------------^</pre></details></td></tr>
 <tr><td>246</td><td>🆗</td><td>skype.com</td><td>OK</td><td>OK</td></tr>
-<tr><td>247</td><td>⚠️</td><td>39.net</td><td><details><summary>Error</summary><pre>Parse error: Identifier is expected
-  369 |.m_yyk_yh_list li { line-height: 24px; white-space: nowrap; overflow: hidden; float: none; }
-  370 |.m_yyk_yh_list li em { color: #ff6600; }
-  371 |.m_yyk_mid { padding: 2px 0 0; +padding: 9px 0;
---------------------------------------^
-  372 |}
-  373 |.m_yyk_controls_layout { position: relative; }</pre></details></td><td>–</td></tr>
+<tr><td>247</td><td>⚠️</td><td>39.net</td><td><details><summary>Error (patched)</summary><pre>Parse error: Identifier `deep` is expected
+ 1062 |.art_topbar .art_logo a.sj{ background-position:0 -1666px;width:135px;}
+ 1063 |.art_topbar .art_logo a.disease{ background-position:0 -1734px;width:135px;}
+ 1064 |.art_topbar .art_logo a.spad/dx{ background-position:0 -1734px;width:135px;}
+------------------------------------^
+ 1065 |.art_topbar .art_logo a.wgk{ background-position:0 -1700px;width:170px;}
+ 1066 |</pre></details></td><td><details><summary>5 warnings (unique: 3)</summary><pre>* The rest part of value can't to be matched on `background-position` syntax
+    syntax: &lt;position&gt;#
+     value: -41px -65px\9
+    -------------------^
+* The rest part of value can't to be matched on `background-position` syntax
+    syntax: &lt;position&gt;#
+     value: -41px -65px\9
+    -------------------^
+* Invalid value for `text-overflow`
+    syntax: [ clip | ellipsis | &lt;string&gt; ]{1,2}
+     value: hidden
+    --------^
+* Unknown property: text-justify
+* Unknown property: text-justify</pre></details></td></tr>
 <tr><td>248</td><td>⚠️</td><td>wordpress.org</td><td>OK</td><td><details><summary>4 warnings (unique: 3)</summary><pre>* The rest part of value can't to be matched on `-webkit-transition` syntax
     syntax: &lt;single-transition&gt;#
      value: color .1s ease-in 0
