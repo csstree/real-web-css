@@ -196,7 +196,6 @@ function fetch(resourceUrl) {
                 .on('data', function (chunk) {
                     chunks.push(chunk);
                 })
-                .on('error', function(){})
                 .on('end', function() {
                     var buffer = Buffer.concat(chunks);
 
@@ -212,6 +211,6 @@ function fetch(resourceUrl) {
                         reject(e);
                     }
                 });
-        });
+        }).on('error', reject);
     });
 }
