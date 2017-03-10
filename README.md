@@ -5,7 +5,7 @@ Using [CSSTree](https://github.com/csstree/csstree) for real site CSS
 
 <!-- date -->
 
-Update date: 2017-03-10T01:45:40.138Z
+Update date: 2017-03-10T02:16:03.058Z
 
 <!-- /date -->
 
@@ -13,9 +13,9 @@ Update date: 2017-03-10T01:45:40.138Z
 <!-- table -->
 
 * Sites: `250`
-* Downloaded: `229` (21 failed)
-* Parsed: `215` (14 failed)
-* Validation passed: `19` (196 failed)
+* Downloaded: `228` (22 failed)
+* Parsed: `219` (9 failed)
+* Validation passed: `21` (198 failed)
 
 <table>
 <thead>
@@ -271,13 +271,7 @@ Invalid value for `perspective`
     syntax: none | &lt;length&gt;
      value: 1000
     --------^</pre></details></td></tr>
-<tr><td>6</td><td>🆗</td><td>wikipedia.org</td><td><details><summary>Error (patched)</summary><pre>Parse error: Identifier `important` is expected
-    2 |
-    3 |
-    4 |…rent),url(portal/wikipedia.org/assets/img/noimage.svg) !ie;background-image:-webkit-gradient(linea…
-----------------------------------------------------------------^
-    5 |
-    6 |</pre></details><em>Parser has no support for `!ie` hack</em></td><td>OK</td></tr>
+<tr><td>6</td><td>🆗</td><td>wikipedia.org</td><td>OK</td><td>OK</td></tr>
 <tr><td>7</td><td>⚠️</td><td>google.co.in</td><td>OK</td><td><details><summary>13 warnings</summary><pre>The rest part of value can't to be matched on `opacity` syntax
     syntax: &lt;number-zero-one&gt;
      value: 1\0/
@@ -1098,11 +1092,11 @@ Invalid value for `background-image`
      value: linear-gradient(bottom,rgba(0,0,0,.2),rgba(0,0,0,0))
     --------^</pre></details></td></tr>
 <tr><td>28</td><td>⚠️</td><td>yahoo.co.jp</td><td><details><summary>Error</summary><pre>Parse error: Selector is expected
-    1 |/* http://yahoo.co.jp */
-    2 |/**** inline ****/
-    3 |&lt;!--
--------^
-    4 |@charset "UTF-8";blockquote,body,button,dd,div,dl,dt,fieldset,form,h1,h2,h3,h4,h5,h6,input,li,ol,p…</pre></details></td><td>–</td></tr>
+    2 |
+    3 |
+    4 |…;float:left}.f1{margin-left:83px}.f2b{margin-left:129px}%clearfix:after,%clearfix:before{content:"…
+----------------------------------------------------------------^
+</pre></details></td><td>–</td></tr>
 <tr><td>29</td><td>⚠️</td><td>google.com.br</td><td>OK</td><td><details><summary>13 warnings</summary><pre>The rest part of value can't to be matched on `opacity` syntax
     syntax: &lt;number-zero-one&gt;
      value: 1\0/
@@ -1531,13 +1525,124 @@ Invalid value for `-ms-filter`
     syntax: &lt;string&gt;
      value: blur(2px)
     --------^</pre></details></td></tr>
-<tr><td>44</td><td>⚠️</td><td>aliexpress.com</td><td><details><summary>Error</summary><pre>Parse error: Identifier `important` is expected
+<tr><td>44</td><td>⚠️</td><td>aliexpress.com</td><td><details><summary>Error (patched)</summary><pre>Parse error: Selector is expected
     4 |
     5 |
-    6 |…t:0!important}}@media \0screen{.hidden-lg{display:none !important\9}}.clearfix:after,.clearfix:bef…
+    6 |…ndustry-more.current .s-t-icon{background-color:#F54B51}{background-color:#F54B51}.sidebar-industr…
 ----------------------------------------------------------------^
     7 |
-    8 |</pre></details></td><td>–</td></tr>
+    8 |</pre></details></td><td><details><summary>28 warnings</summary><pre>Invalid value for `width`
+    syntax: [ &lt;length&gt; | &lt;percentage&gt; ] &amp;&amp; [ border-box | content-box ]? | avai…
+     value: device-width
+    --------^
+Invalid value for `font`
+    syntax: [ [ &lt;'font-style'&gt; || &lt;font-variant-css21&gt; || &lt;'font-weight'&gt; || &lt;'…
+     value: 12px/1
+    --------^
+Invalid value for `background-image`
+    syntax: &lt;bg-image&gt;#
+     value: -webkit-image-set(url(https://gw.alicdn.com/tps/TB1uq_RKXXXXXblXFXX…
+    --------^
+Invalid value for `background-image`
+    syntax: &lt;bg-image&gt;#
+     value: -webkit-image-set(url(//ae01.alicdn.com/tps/i3/TB1E9_3GVXXXXX4XpXXe…
+    --------^
+Invalid value for `background-image`
+    syntax: &lt;bg-image&gt;#
+     value: -webkit-image-set(url(https://gw.alicdn.com/tps/TB1U3TOKXXXXXcyXFXX…
+    --------^
+Invalid value for `background-image`
+    syntax: &lt;bg-image&gt;#
+     value: -webkit-image-set(url(https://gw.alicdn.com/tps/TB1BTHJKXXXXXX9XVXX…
+    --------^
+Invalid value for `background-image`
+    syntax: &lt;bg-image&gt;#
+     value: -webkit-image-set(url(https://gw.alicdn.com/tps/TB170P2KXXXXXX0XpXX…
+    --------^
+Invalid value for `background-image`
+    syntax: &lt;bg-image&gt;#
+     value: -webkit-image-set(url(https://gw.alicdn.com/tps/TB1xWuxJXXXXXaMXpXX…
+    --------^
+Invalid value for `background-image` × 2
+    syntax: &lt;bg-image&gt;#
+     value: -webkit-image-set(url(https://gw.alicdn.com/tps/TB1YwqaJXXXXXarapXX…
+    --------^
+Invalid value for `background-image`
+    syntax: &lt;bg-image&gt;#
+     value: -webkit-image-set(url(https://gw.alicdn.com/tps/TB1NaWpJXXXXXckXFXX…
+    --------^
+Invalid value for `background-image`
+    syntax: &lt;bg-image&gt;#
+     value: -webkit-image-set(url(https://gw.alicdn.com/tps/TB1YOegJXXXXXc7XVXX…
+    --------^
+Invalid value for `background-image`
+    syntax: &lt;bg-image&gt;#
+     value: -webkit-image-set(url(https://gw.alicdn.com/tps/TB1aeupJXXXXXbTXFXX…
+    --------^
+Invalid value for `background-image`
+    syntax: &lt;bg-image&gt;#
+     value: -webkit-image-set(url(https://gw.alicdn.com/tps/TB1a69pJXXXXXbaXFXX…
+    --------^
+Invalid value for `background-image`
+    syntax: &lt;bg-image&gt;#
+     value: -webkit-image-set(url(https://gw.alicdn.com/tps/TB1oWCBJXXXXXajXXXX…
+    --------^
+Invalid value for `background-image`
+    syntax: &lt;bg-image&gt;#
+     value: -webkit-image-set(url(https://gw.alicdn.com/tps/TB1KMSrJXXXXXchXFXX…
+    --------^
+Invalid value for `background-image`
+    syntax: &lt;bg-image&gt;#
+     value: -webkit-image-set(url(https://gw.alicdn.com/tps/TB1P4KBJXXXXXbkXXXX…
+    --------^
+Invalid value for `background-image`
+    syntax: &lt;bg-image&gt;#
+     value: linear-gradient(top,#ffab02,#ff8a28)
+    --------^
+Invalid value for `background-image`
+    syntax: &lt;bg-image&gt;#
+     value: linear-gradient(top,#ffbc35,#f2a210)
+    --------^
+Invalid value for `background-image`
+    syntax: &lt;bg-image&gt;#
+     value: linear-gradient(top,#fafafa,#e8e8e8)
+    --------^
+Invalid value for `background-image`
+    syntax: &lt;bg-image&gt;#
+     value: linear-gradient(top,#fafafa,#f2f2f2)
+    --------^
+Invalid value for `background-image`
+    syntax: &lt;bg-image&gt;#
+     value: linear-gradient(top,#f5f5f5,#e6e6e6)
+    --------^
+Invalid value for `white-space`
+    syntax: normal | pre | nowrap | pre-wrap | pre-line
+     value: -1
+    --------^
+Invalid value for `font-weight`
+    syntax: normal | bold | bolder | lighter | 100 | 200 | 300 | 400 | 500 | 60…
+     value: 700px
+    --------^
+Invalid value for `text-overflow`
+    syntax: [ clip | ellipsis | &lt;string&gt; ]{1,2}
+     value: -o-ellipsis-lastline
+    --------^
+The rest part of value can't to be matched on `background-color` syntax
+    syntax: &lt;color&gt;
+     value: #FFEACD none
+    ----------------^
+Invalid value for `cursor`
+    syntax: [ [ &lt;url&gt; [ &lt;x&gt; &lt;y&gt; ]? , ]* [ auto | default | none | context-menu …
+     value: normal
+    --------^
+Invalid value for `background-image`
+    syntax: &lt;bg-image&gt;#
+     value: -webkit-image-set(url(/ae-footer/20170227134848/common/img/android.…
+    --------^
+Invalid value for `background-image`
+    syntax: &lt;bg-image&gt;#
+     value: -webkit-image-set(url(/ae-footer/20170227134848/common/img/apple.pn…
+    --------^</pre></details></td></tr>
 <tr><td>45</td><td>⚠️</td><td>google.ca</td><td>OK</td><td><details><summary>13 warnings</summary><pre>The rest part of value can't to be matched on `opacity` syntax
     syntax: &lt;number-zero-one&gt;
      value: 1\0/
@@ -1813,20 +1918,8 @@ Invalid value for `background-image`
     syntax: &lt;bg-image&gt;#
      value: -webkit-image-set(url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgA…
     --------^</pre></details></td></tr>
-<tr><td>52</td><td>⚠️</td><td>pornhub.com</td><td><details><summary>Error</summary><pre>Parse error: Identifier `important` is expected
-    1 |
-    2 |
-    3 |…}pre{margin-bottom:1em;padding:5px;padding-bottom:20px !ie7;width:auto;width:650px !ie7;max-height…
-----------------------------------------------------------------^
-    4 |
-    5 |</pre></details></td><td>–</td></tr>
-<tr><td>53</td><td>⚠️</td><td>stackoverflow.com</td><td><details><summary>Error (patched)</summary><pre>Parse error: Identifier `important` is expected
-    1 |
-    2 |
-    3 |…}pre{margin-bottom:1em;padding:5px;padding-bottom:20px !ie7;width:auto;width:650px !ie7;max-height…
-----------------------------------------------------------------^
-    4 |
-    5 |</pre></details><em>Parser has no support for `!ie7` hack</em></td><td><details><summary>8 warnings</summary><pre>Unknown property: ms-display
+<tr><td>52</td><td>⚠️</td><td>pornhub.com</td><td colspan="2">–</td></tr>
+<tr><td>53</td><td>⚠️</td><td>stackoverflow.com</td><td>OK</td><td><details><summary>8 warnings</summary><pre>Unknown property: ms-display
 Invalid value for `align-items`
     syntax: flex-start | flex-end | center | baseline | stretch
      value: right
@@ -2376,11 +2469,11 @@ The rest part of value can't to be matched on `outline` syntax
      value: medium 0
     ---------------^
 Unknown property: hiehgt</pre></details></td></tr>
-<tr><td>65</td><td>⚠️</td><td>mail.ru</td><td><details><summary>Error (patched)</summary><pre>Parse error: Selector is expected
+<tr><td>65</td><td>⚠️</td><td>mail.ru</td><td><details><summary>Error (patched)</summary><pre>Parse error: RightSquareBracket is expected
   237 |    }
   238 |
   239 |    &lt;!--[if IE 7]&gt;
------------^
+----------------------^
   240 |        .tb__close__icon-25232905 {
   241 |            margin-top: 6px;</pre></details></td><td><details><summary>10 warnings</summary><pre>Invalid value for `*overflow`
     syntax: visible | hidden | scroll | auto
@@ -4448,13 +4541,13 @@ Invalid value for `background`
 ------------^
  6670 |}
  6671 |.weather h1{</pre></details></td><td>–</td></tr>
-<tr><td>122</td><td>⚠️</td><td>rakuten.co.jp</td><td><details><summary>Error</summary><pre>Parse error: Selector is expected
-  532 |
-  533 |/**** inline ****/
-  534 |&lt;!--
--------^
-  535 |/* ad_liquid_lideshow styles */
-  536 |div.ad-slideshow-existItemDisplay{position:relative; min-width:456px; margin: 10px 0;}</pre></details></td><td>–</td></tr>
+<tr><td>122</td><td>⚠️</td><td>rakuten.co.jp</td><td><details><summary>Error</summary><pre>Parse error: Unexpected input
+  582 |
+  583 |
+  584 |…margin-left:24px}html&gt;body .lqTSSArea{float:left9;width:%9}.lqTSSArea{display:table-cell}.lqTSSAre…
+----------------------------------------------------------------^
+  585 |
+  586 |</pre></details></td><td>–</td></tr>
 <tr><td>123</td><td>⚠️</td><td>thepiratebay.org</td><td colspan="2">–</td></tr>
 <tr><td>124</td><td>⚠️</td><td>salesforce.com</td><td>OK</td><td><details><summary>17 warnings</summary><pre>Invalid value for `-webkit-font-smoothing` × 2
     syntax: none | antialiased | subpixel-antialiased
@@ -5011,12 +5104,7 @@ Invalid value for `line-height` × 2
      value: auto
     --------^</pre></details></td></tr>
 <tr><td>141</td><td>🆗</td><td>thewhizmarketing.com</td><td>OK</td><td>OK</td></tr>
-<tr><td>142</td><td>⚠️</td><td>stackexchange.com</td><td><details><summary>Error (patched)</summary><pre>Parse error: Identifier `important` is expected
-    3 |…elp{padding-right:4px !important}.topbar .icon-help.topbar-icon-on{color:rgba(12,13,14,0.86) !impo…
-    4 |
-    5 |…ont-size:12px}pre{overflow:auto;width:auto;width:650px !ie7;padding-bottom:20px !ie7;max-height:60…
-----------------------------------------------------------------^
-</pre></details><em>Parser has no support for `!ie7` hack</em></td><td><details><summary>2 warnings</summary><pre>Invalid value for `-moz-background-clip` × 2
+<tr><td>142</td><td>⚠️</td><td>stackexchange.com</td><td>OK</td><td><details><summary>2 warnings</summary><pre>Invalid value for `-moz-background-clip` × 2
     syntax: padding | border
      value: content
     --------^
@@ -5717,20 +5805,19 @@ Invalid value for `font-style`
     syntax: normal | italic | oblique
      value: bold
     --------^</pre></details></td></tr>
-<tr><td>154</td><td>⚠️</td><td>cctv.com</td><td><details><summary>Error</summary><pre>Parse error: Selector is expected
-    2 |/**** inline ****/
-    3 |
-    4 |&lt;!--
--------^
-    5 |body, div, p, h3, img{margin:0;padding:0;}
-    6 |body{background:#134792 none;color:#333;font-size:12px;font-style:normal;font-weight:normal;font-f…</pre></details></td><td>–</td></tr>
-<tr><td>155</td><td>⚠️</td><td>wikihow.com</td><td><details><summary>Error</summary><pre>Parse error: Identifier `important` is expected
-    6 |
-    7 |
-    8 |…../skins/owl/images/ul_bullet.png?2017-01-01T08:00:00Z)!ie;background-repeat:no-repeat;background-…
-----------------------------------------------------------------^
-    9 |
-   10 |…a{display:block;position:absolute;width:100%;height:100%;z-index:5;background:url(//www.wikihow.co…</pre></details></td><td>–</td></tr>
+<tr><td>154</td><td>🆗</td><td>cctv.com</td><td>OK</td><td>OK</td></tr>
+<tr><td>155</td><td>⚠️</td><td>wikihow.com</td><td>OK</td><td><details><summary>3 warnings</summary><pre>Invalid value for `padding` × 2
+    syntax: [ &lt;length&gt; | &lt;percentage&gt; ]{1,4}
+     value: none
+    --------^
+Invalid value for `float`
+    syntax: left | right | none | inline-start | inline-end
+     value: center
+    --------^
+Invalid value for `white-space`
+    syntax: normal | pre | nowrap | pre-wrap | pre-line
+     value: wrap
+    --------^</pre></details></td></tr>
 <tr><td>156</td><td>⚠️</td><td>google.com.ph</td><td>OK</td><td><details><summary>13 warnings</summary><pre>The rest part of value can't to be matched on `opacity` syntax
     syntax: &lt;number-zero-one&gt;
      value: 1\0/
@@ -7593,13 +7680,7 @@ Invalid value for `position`
      value: -webkit-sticky
     --------^</pre></details></td></tr>
 <tr><td>197</td><td>🆗</td><td>buzzfeed.com</td><td>OK</td><td>OK</td></tr>
-<tr><td>198</td><td>⚠️</td><td>china.com.cn</td><td><details><summary>Error</summary><pre>Parse error: Selector is expected
-    2 |/**** inline ****/
-    3 |
-    4 |&lt;!--
--------^
-    5 |.dropdown { float:left }
-    6 |.dropdown dt { width:65px; cursor:pointer; }</pre></details></td><td>–</td></tr>
+<tr><td>198</td><td>🆗</td><td>china.com.cn</td><td>OK</td><td>OK</td></tr>
 <tr><td>199</td><td>⚠️</td><td>walmart.com</td><td><details><summary>Error (patched)</summary><pre>Parse error: Unexpected input
     9 |
    10 |

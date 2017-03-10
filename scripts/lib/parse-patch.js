@@ -1,10 +1,4 @@
 module.exports = {
-    'wikipedia.org': {
-        comment: 'Parser has no support for `!ie` hack',
-        patch: function(css) {
-            return css.replace(/!ie/g, '!important');
-        }
-    },
     'amazon.com': {
         patch: function(css) {
             return css.replace(/\*\|:/g, ':');
@@ -51,18 +45,6 @@ module.exports = {
             return css
                 .replace(/},\./g, '}.')
                 .replace(/font-weight:bold:/g, 'font-weight:bold;');
-        }
-    },
-    'stackoverflow.com': {
-        comment: 'Parser has no support for `!ie7` hack',
-        patch: function(css) {
-            return css.replace(/!ie7/g, '!important');
-        }
-    },
-    'stackexchange.com': {
-        comment: 'Parser has no support for `!ie7` hack',
-        patch: function(css) {
-            return css.replace(/!ie7/g, '!important');
         }
     },
     'nytimes.com': {
@@ -227,7 +209,6 @@ module.exports = {
     'douyu.com': {
         patch: function(css) {
             return css
-                .replace(/!ie/g, '!important')
                 .replace(/preserve-3d moz-transform-style:/g, 'preserve-3d; -moz-transform-style:')
                 .replace(/\. \.normallevel/g, '.normallevel')
                 .replace(/_png:#00f\/ie6\/[a-z]+\.png/g, '');
@@ -422,6 +403,11 @@ module.exports = {
     'varzesh3.com': {
         patch: function(css) {
             return css.replace(/300ms\)\}@keyframes/g, '300ms);}@keyframes');
+        }
+    },
+    'aliexpress.com': {
+        patch: function(css) {
+            return css.replace(/}{/g, '}a{');
         }
     }
 }
