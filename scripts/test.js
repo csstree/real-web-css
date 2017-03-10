@@ -86,6 +86,7 @@ var reports = sites.map(function(url, idx) {
     var fullfn = cssDir + '/' + idx + '.css';
     var patch = patches[url] || {};
     var report = {
+        idx: idx,
         name: url,
         downloaded: false,
         error: null,
@@ -109,6 +110,10 @@ var reports = sites.map(function(url, idx) {
 
             try {
                 ast = csstree.parse(css, { filename: fullfn, positions: true });
+
+                if (patch.patch) {
+                    report.patch = 'No patch needed';
+                }
             } catch (e) {
                 if (typeof patch.patch === 'function') {
                     parseError(e, report, true);
@@ -125,10 +130,6 @@ var reports = sites.map(function(url, idx) {
             }
 
             console.log('  Parsed successful');
-
-            if (patch.patch) {
-                report.patch = 'No patch needed';
-            }
 
             var errors = validate(ast);
             if (errors.length) {
