@@ -20,9 +20,25 @@ module.exports = {
             return css.replace(/\*\|:/g, ':');
         }
     },
+    'amazon.co.uk': {
+        patch: function(css) {
+            return css.replace(/\*\|:/g, ':');
+        }
+    },
+    'amazon.fr': {
+        patch: function(css) {
+            return css.replace(/\*\|:/g, ':');
+        }
+    },
     'amazon.it': {
         patch: function(css) {
             return css.replace(/\*\|:/g, ':');
+        }
+    },
+    'dropbox.com': {
+        comment: 'Missed preprocessor function',
+        patch: function(css) {
+            return css.replace(/ selector-append\(/gi, ':selector-append(');
         }
     },
     'sina.com.cn': {
@@ -153,7 +169,9 @@ module.exports = {
     'ebay.com': {
         comment: 'Unprocessed Less escaping',
         patch: function(css) {
-            return css.replace(/~"([^"]+)"/g, '$1');
+            return css
+                .replace(/~"([^"]+)"/g, '$1')
+                .replace(/position:relativeoverflow:/, 'position:relative;overflow:');
         }
     },
     'ebay.de': {
@@ -396,14 +414,14 @@ module.exports = {
             return css.replace(/;\+\s+/g, ';+');
         }
     },
-    'list.tmall.com': {
-        patch: function(css) {
-            return css.replace(/;\+\s+/g, ';+');
-        }
-    },
     'mail.ru': {
         patch: function(css) {
             return css.replace(/<!--\[(.|\s)*?\]-->/g, '');
+        }
+    },
+    'varzesh3.com': {
+        patch: function(css) {
+            return css.replace(/300ms\)\}@keyframes/g, '300ms);}@keyframes');
         }
     }
 }
