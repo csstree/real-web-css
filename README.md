@@ -5,7 +5,7 @@ Using [CSSTree](https://github.com/csstree/csstree) for real site CSS
 
 <!-- date -->
 
-Update date: 2017-03-13T04:43:03.651Z
+Update date: 2017-03-13T06:17:09.360Z
 
 <!-- /date -->
 
@@ -214,7 +214,7 @@ Invalid value for `background-image`
   609 |…rtant}#atomic .Hy\(n\){hyphens:normal}#atomic .Lts\(-.31em\){letter-spacing:.31em}#atomic .Lts\(-0…
 ----------------------------------------------------------------^
   610 |
-  611 |…-grey,.Themable .ThemeReset .C-grey{color:#8d919d}.C-p-dark,.Themable .ThemeReset .C-p-dark{color:…</pre></details><em>Unescaped comma in class</em></td><td><details><summary>18 warnings</summary><pre>Invalid value for `display` × 2
+  611 |…-grey,.Themable .ThemeReset .C-grey{color:#8d919d}.C-p-dark,.Themable .ThemeReset .C-p-dark{color:…</pre></details><em>Unescaped full stop in class</em></td><td><details><summary>18 warnings</summary><pre>Invalid value for `display` × 2
     syntax: none | inline | block | list-item | inline-list-item | inline-block…
      value: compact
     --------^

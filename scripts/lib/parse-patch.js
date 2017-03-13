@@ -148,7 +148,7 @@ module.exports = {
         }
     },
     'yahoo.com': {
-        comment: 'Unescaped comma in class',
+        comment: 'Unescaped full stop in class',
         patch: function(css) {
             return css.replace(/\.Lts\\\(-\.31em\\\)/g, '.Lts\\(-\\.31em\\)');
         }
