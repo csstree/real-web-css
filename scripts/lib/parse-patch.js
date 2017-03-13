@@ -35,12 +35,8 @@ module.exports = {
             return css.replace(/ selector-append\(/gi, ':selector-append(');
         }
     },
-    'sina.com.cn': {
-        patch: function(css) {
-            return css.replace(/;px;/g, ';');
-        }
-    },
     'imgur.com': {
+        comment: 'Various issues',
         patch: function(css) {
             return css
                 .replace(/},\./g, '}.')
@@ -56,6 +52,7 @@ module.exports = {
         }
     },
     'vice.com': {
+        comment: 'Wrong and missed substitutions',
         patch: function(css) {
             return css
                 .replace(/:nth-child\(10pxn/g, ':nth-child(10n')
@@ -66,11 +63,13 @@ module.exports = {
         }
     },
     'quora.com': {
+        comment: 'Missed quotes in selector',
         patch: function(css) {
             return css.replace(/:not\('\.results_frame\'\)/g, ':not(.results_frame)');
         }
     },
     'mediafire.com': {
+        comment: 'Various issues',
         patch: function(css) {
             return css
                 .replace(/overflow: hidden:/g, 'overflow: hidden;')
@@ -81,11 +80,13 @@ module.exports = {
         }
     },
     'huaban.com': {
+        comment: 'Using img() function instead url()',
         patch: function(css) {
             return css.replace(/background:img\(/g, 'background:url(');
         }
     },
     'w3schools.com': {
+        comment: 'Typo',
         patch: function(css) {
             return css.replace(/input:\.focus/g, 'input:focus');
         }
@@ -99,6 +100,7 @@ module.exports = {
         }
     },
     'gmw.cn': {
+        comment: 'Some missed parts',
         patch: function(css) {
             return css
                 .replace(/;e;/g, ';')
@@ -113,6 +115,7 @@ module.exports = {
         }
     },
     'adobe.com': {
+        comment: 'Various issues',
         patch: function(css) {
             return css
                 .replace(/\),27\.1875rem/g, ')')
@@ -120,6 +123,7 @@ module.exports = {
         }
     },
     'hao123.com': {
+        comment: 'Various issues',
         patch: function(css) {
             return css
                 .replace(/white-space:nowrap -o-text-overflow/g, 'white-space:nowrap; -o-text-overflow')
@@ -127,6 +131,7 @@ module.exports = {
         }
     },
     'sina.com.cn': {
+        comment: 'Some missed things',
         patch: function(css) {
             return css
                 .replace(/;!important}/g, ';}')
@@ -146,6 +151,12 @@ module.exports = {
         comment: 'Unescaped comma in class',
         patch: function(css) {
             return css.replace(/\.Lts\\\(-\.31em\\\)/g, '.Lts\\(-\\.31em\\)');
+        }
+    },
+    'yahoo.co.jp': {
+        comment: 'Missed substitions',
+        patch: function(css) {
+            return css.replace(/%clearfix/g, '\\%clearfix');
         }
     },
     'ebay.com': {
@@ -193,13 +204,14 @@ module.exports = {
         }
     },
     'bankofamerica.com': {
-        comment: 'Typo',
+        comment: 'Broken declaration',
         patch: function(css) {
             return css
                 .replace(/bottom:border:0/g, 'border:0');
         }
     },
     'foxnews.com': {
+        comment: 'Typo and broken comment',
         patch: function(css) {
             return css
                 .replace(/padding;0;/g, 'padding:0;')
@@ -207,6 +219,7 @@ module.exports = {
         }
     },
     'douyu.com': {
+        comment: 'Various issues',
         patch: function(css) {
             return css
                 .replace(/preserve-3d moz-transform-style:/g, 'preserve-3d; -moz-transform-style:')
@@ -233,11 +246,13 @@ module.exports = {
         }
     },
     'pinterest.com': {
+        comment: 'Missed substitutions',
         patch: function(css) {
             return css.replace(/:global/g, '');
         }
     },
     'pinimg.com': {
+        comment: 'Missed substitutions',
         patch: function(css) {
             return css.replace(/:global/g, '');
         }
@@ -255,6 +270,7 @@ module.exports = {
         }
     },
     'ntd.tv': {
+        comment: 'Typo',
         patch: function(css) {
             return css.replace(/;s}/gi, ';}');
         }
@@ -267,11 +283,13 @@ module.exports = {
         }
     },
     'porn555.com': {
+        comment: 'Missed substitutions',
         patch: function(css) {
             return css.replace(/\$tag-surprise/gi, '\\$tag-surprise');
         }
     },
     'booking.com': {
+        comment: 'Typos and using double dash for class selector name',
         patch: function(css) {
             return css
                 .replace(/\.--/g, '.-')
@@ -280,9 +298,10 @@ module.exports = {
         }
     },
     'flipkart.com': {
-        comment: 'Too many errors due non-processed nesting'
+        comment: 'Too many errors, too hard to patch'
     },
     'steampowered.com': {
+        comment: 'Various issues',
         patch: function(css) {
             return css
                 .replace(/;\);/g, ';')
@@ -292,21 +311,25 @@ module.exports = {
         }
     },
     'dailymail.co.uk': {
+        comment: 'Missed substitutions',
         patch: function(css) {
             return css.replace(/\$control-bar/g, '\\$control-bar');
         }
     },
     'walmart.com': {
+        comment: 'Missed substitutions',
         patch: function(css) {
             return css.replace(/\$font-size-small/g, '\\$font-size-small');
         }
     },
     'nih.gov': {
+        comment: 'Missed trailing comma in selector',
         patch: function(css) {
             return css.replace(/, {/g, ' {');
         }
     },
     'abs-cbn.com': {
+        comment: 'Various issues',
         patch: function(css) {
             return css
                 .replace(/filter:DXImageTransform/g, 'filter:progid:DXImageTransform')
@@ -315,11 +338,13 @@ module.exports = {
         }
     },
     'washingtonpost.com': {
+        comment: 'Missed media query',
         patch: function(css) {
             return css.replace(/@media {/g, '@media all {');
         }
     },
     'youm7.com': {
+        comment: 'Various issues',
         patch: function(css) {
             return css
                 .replace(/.\s+col-sm-9/g, '.col-sm-9')
@@ -331,31 +356,37 @@ module.exports = {
         }
     },
     'etsy.com': {
+        comment: 'Broken An+B expression',
         patch: function(css) {
             return css.replace(/:nth-child\(n2\)/g, ':nth-child(2n)');
         }
     },
     'slack.com': {
+        comment: 'Broken media query',
         patch: function(css) {
             return css.replace(/@media 480px/g, '@media \\480px');
         }
     },
     'redtube.com': {
+        comment: 'Used bracket hack (usupported by CSSTree)',
         patch: function(css) {
             return css.replace(/\(-bracket-:hack;(margin-left:\dpx;)\)/g, '$1');
         }
     },
     'rambler.ru': {
+        comment: 'Broken selector by unsupported single line comment',
         patch: function(css) {
             return css.replace(/\/\/ Для IE8/g, '');
         }
     },
     'livejournal.com': {
+        comment: 'Typo in selector',
         patch: function(css) {
             return css.replace(/\. \.lj-like--v4/g, ' .lj-like--v4');
         }
     },
     'wittyfeed.com': {
+        comment: 'Typos',
         patch: function(css) {
             return css
                 .replace(/top:3px width:/g, 'top:3px; width:')
@@ -364,6 +395,7 @@ module.exports = {
         }
     },
     'weebly.com': {
+        comment: 'Using @media expression for @font-face block',
         patch: function(css) {
             return css
                 .replace(
@@ -374,16 +406,19 @@ module.exports = {
         }
     },
     'kinogo.club': {
+        comment: 'Typo in media feature',
         patch: function(css) {
             return css.replace(/\(resolution=0\)/g, '(resolution:0)');
         }
     },
     'xinhuanet.com': {
+        comment: 'Typo in class selector',
         patch: function(css) {
             return css.replace(/\. picTitle/g, ' .picTitle');
         }
     },
     '39.net': {
+        comment: 'Broken selectors',
         patch: function(css) {
             return css
                 .replace(/a\.spad\/dx/, 'a.spad\\/dx')
@@ -401,13 +436,39 @@ module.exports = {
         }
     },
     'varzesh3.com': {
+        comment: 'Missed custom at-rule',
         patch: function(css) {
             return css.replace(/300ms\)\}@keyframes/g, '300ms);}@keyframes');
         }
     },
     'aliexpress.com': {
+        comment: 'Missed selector',
         patch: function(css) {
             return css.replace(/}{/g, '}a{');
         }
+    },
+    'rakuten.co.jp': {
+        comment: 'Typo',
+        patch: function(css) {
+            return css.replace(/width:%9/g, 'width:9%');
+        }
+    },
+    '123movies.is': {
+        comment: 'Bad id name (starts with number)',
+        patch: function(css) {
+            return css.replace(/#123movies-player/g, '#\\31 23movies-player');
+        }
+    },
+    'diply.com': {
+        comment: 'Missed percent sign for keyframe selector',
+        patch: function(css) {
+            return css.replace(/loading{0,100%/g, 'loading{0%,100%');
+        }
+    },
+    'uol.com.br': {
+        comment: 'Missed percent sign for keyframe selector',
+        patch: function(css) {
+            return css.replace(/placarGol{0{/g, 'placarGol{0%{');
+        }
     }
-}
+};
