@@ -1,4 +1,3 @@
-
 Using [CSSTree](https://github.com/csstree/csstree) for real site CSS
 
 ## Alexa TOP 250
@@ -5140,18 +5139,7 @@ The rest part of value can't to be matched on `content` syntax
     syntax: [ &lt;image&gt; , ]* [ normal | none | &lt;content-list&gt; ] [ / &lt;string&gt; ]?
      value: counter(section) "." counters(clause,".") " "
     -----------------------------^</pre></details></td></tr>
-<tr><td>143</td><td>⚠️</td><td>avito.ru</td><td>OK</td><td><details><summary>3 warnings</summary><pre>The rest part of value can't to be matched on `-webkit-transition` syntax
-    syntax: &lt;single-transition&gt;#
-     value: border-color 0
-    ---------------------^
-The rest part of value can't to be matched on `transition` syntax
-    syntax: &lt;single-transition&gt;#
-     value: border-color 0
-    ---------------------^
-Invalid value for `display`
-    syntax: none | inline | block | list-item | inline-list-item | inline-block…
-     value: -moz-flex
-    --------^</pre></details></td></tr>
+<tr><td>143</td><td>🆗️</td><td>avito.ru</td><td>OK</td><td>OK</td></tr>
 <tr><td>144</td><td>⚠️</td><td>google.gr</td><td>OK</td><td><details><summary>13 warnings</summary><pre>The rest part of value can't to be matched on `opacity` syntax
     syntax: &lt;number-zero-one&gt;
      value: 1\0/
