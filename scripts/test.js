@@ -13,14 +13,15 @@ function validate(ast) {
 
     try {
         csstree.walkDeclarations(ast, function(node) {
-            if (!syntax.matchProperty(node.property, node.value)) {
-                var error = syntax.lastMatchError;
+            var error = syntax.matchDeclaration(node).error;
+
+            if (error) {
                 var message = error.rawMessage || error.message || error;
 
                 if (message === 'Mismatch') {
                     message = 'Invalid value for `' + node.property + '`';
                 } else if (message === 'Uncomplete match') {
-                    message = 'The rest part of value can\'t to be matched on `' + node.property + '` syntax';
+                    message = 'The rest part of value can\'t be matched to `' + node.property + '` grammar';
                 }
 
                 errors.push({
@@ -30,7 +31,7 @@ function validate(ast) {
                     column: error.column || node.loc && node.loc.start && node.loc.start.column,
                     property: node.property,
                     message: message,
-                    error: syntax.lastMatchError
+                    error: error
                 });
             }
         });
@@ -104,12 +105,16 @@ var reports = sites.map(function(url, idx) {
 
         var css = fs.readFileSync(fullfn, 'utf8');
         var host = css.match(/^\/\*\s*([^*]+)\s*\*\//)[1];
+        var ast = null;
 
         try {
-            var ast;
-
             try {
-                ast = csstree.parse(css, { filename: fullfn, positions: true });
+                ast = csstree.parse(css, {
+                    filename: fullfn,
+                    positions: true,
+                    tolerant: true,
+                    
+                });
 
                 if (patch.patch) {
                     report.patch = 'No patch needed';
@@ -130,7 +135,14 @@ var reports = sites.map(function(url, idx) {
             }
 
             console.log('  Parsed successful');
+        } catch (e) {
+            if (patch.comment) {
+                report.errorComment = patch.comment;
+            }
+            parseError(e, report, false);
+        }
 
+        if (ast !== null) {
             var errors = validate(ast);
             if (errors.length) {
                 report.validation = formatErrors(errors);
@@ -138,11 +150,6 @@ var reports = sites.map(function(url, idx) {
             } else {
                 console.log('  No warnings');
             }
-        } catch (e) {
-            if (patch.comment) {
-                report.errorComment = patch.comment;
-            }
-            parseError(e, report, false);
         }
     } else {
         console.log('  Missed');

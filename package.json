@@ -19,7 +19,7 @@
   },
   "homepage": "https://github.com/csstree/real-web-css",
   "dependencies": {
-    "css-tree": "csstree/csstree",
+    "css-tree": "1.0.0-alpha24",
     "phantom": "^4.0.0",
     "unzip": "^0.1.11"
   },
