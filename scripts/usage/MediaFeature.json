@@ -9,7 +9,7 @@
         "bootstrap 3 uses `@media all and (transform-3d),(-webkit-transform-3d)` for , but `(transform-3d)`",
         "no confirmation found that unprefixed min/max-device-pixel-ratio is supported by any browser"
     ],
-    "good": [
+    "valid": [
         "-moz-mac-graphite-theme",
         "-moz-maemo-classic",
         "-moz-device-pixel-ratio",
@@ -80,7 +80,7 @@
         "update",
         "width"
     ],
-    "bad": [
+    "invalid": [
         "-moz-min-device-pixel-ratio",
         "max-widwth",
         "max-device-pixel-ratio",

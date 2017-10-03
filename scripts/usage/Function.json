@@ -5,7 +5,7 @@
     "comments": [
         "snapInterval() & snapList() - https://msdn.microsoft.com/library/hh772036"
     ],
-    "good": [
+    "valid": [
         "-moz-calc()",
         "-moz-image-set()",
         "-moz-linear-gradient()",
@@ -76,7 +76,7 @@
         "url-prefix()",
         "var()"
     ],
-    "bad": [
+    "invalid": [
         "-o-linear-gradient()",
         "-o-radial-gradient()",
         "-o-repeating-linear-gradient()",

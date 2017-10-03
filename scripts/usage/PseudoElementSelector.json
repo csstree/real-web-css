@@ -17,7 +17,7 @@
         "::-webkit-validation-bubble & ::-webkit-validation-bubble-* – Chrome 28 removed support",
         "CSS Pseudo-Elements Module Level 4 have additional pseudo-elements, not added since in ED stage and no browser support yet"
     ],
-    "good": [
+    "valid": [
         "-internal-media-controls-cast-button",
         "-moz-anonymous-block",
         "-moz-anonymous-positioned-block",
@@ -165,7 +165,7 @@
         "shadow",
         "slotted"
     ],
-    "bad": [
+    "invalid": [
         "-moz-input-placeholder",
         "-ms-input-placeholder",
         "-ms-placeholder",

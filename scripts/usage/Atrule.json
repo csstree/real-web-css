@@ -4,7 +4,7 @@
         { "url": "https://github.com/tabatkins/parse-css", "comment": "Standards-based CSS Parser by @tabatkins" },
         { "url": "https://drafts.csswg.org/css-page-3/#at-page-rule", "comment": "https://drafts.csswg.org/css-page-3/#at-page-rule" }
     ],
-    "good": [
+    "valid": [
         "-moz-document",
         "-moz-keyframes",
         "-ms-viewport",
@@ -46,7 +46,7 @@
         "top-right-corner",
         "viewport"
     ],
-    "bad": [
+    "invalid": [
         "-keyframes",
         "-moz-viewport",
         "-ms-keyframes",

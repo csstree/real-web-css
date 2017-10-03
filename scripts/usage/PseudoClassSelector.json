@@ -9,7 +9,7 @@
         "horizontal, vertical, decrement, increment, start, end, double-button, single-button, no-button, corner-present and window-inactive are all about scrollbar states",
         ":host, :host(), :host-context() – CSS Scoping Module Level 1"
     ],
-    "good": [
+    "valid": [
         "-moz-any()",
         "-moz-any-link",
         "-moz-broken",
@@ -136,7 +136,7 @@
         "visited",
         "window-inactive"
     ],
-    "bad": [
+    "invalid": [
         "-moz-focus-inner",
         "-moz-input-placeholder",
         "-ms-expand",

@@ -2,12 +2,13 @@ var fs = require('fs');
 var csstree = require('css-tree');
 var fws = require('fixed-width-string');
 var types = [
+    'Atrule',
+    'MediaFeature',
     'PseudoClassSelector',
     'PseudoElementSelector',
     'Function',
-    'Atrule',
     'Declaration',
-    'MediaFeature'
+    'Dimension'
 ];
 var names = types.reduce(function(res, type) {
     res[type] = new Map();
@@ -16,10 +17,10 @@ var names = types.reduce(function(res, type) {
 var status = types.reduce(function(res, type) {
     var data = require('./usage/' + type + '.json');
     var status = Object.create(null);
-    data.bad.forEach(function(name) {
+    data.invalid.forEach(function(name) {
         status[name] = '⚠'; // 🚫❌❗⛔️
     });
-    data.good.forEach(function(name) {
+    data.valid.forEach(function(name) {
         if (name in status) {
             throw new Error('Duplicate status for `' + type + '/' + name + '`');
         }
@@ -57,6 +58,8 @@ fs.readdirSync('./data/css').forEach(function(fn, idx, list) {
                     return;
                 }
                 name = name.vendor + name.name;// + (name.hack ? ' (with hack: ' + name.hack + ')' : '');
+            } else if (node.type === 'Dimension') {
+                name = node.unit.toLowerCase();
             } else {
                 name = node.name.toLowerCase();
                 if (node.type === 'PseudoClassSelector' ||
@@ -90,6 +93,12 @@ fs.readdirSync('./data/css').forEach(function(fn, idx, list) {
         }
     });
 });
+
+// TOC
+Object.keys(names).sort().forEach((type) => {
+    console.log('- [' + type + '](#' + type.toLowerCase() + ')');
+});
+console.log('');
 
 Object.keys(names).sort().forEach((type) => {
     console.log('## ' + type);

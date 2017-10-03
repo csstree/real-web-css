@@ -4,7 +4,7 @@
         { "url": "https://github.com/Microsoft/vscode-css-languageservice/blob/master/build/css-schema.xml", "comment": "VS Code CSS language service dictionary" },
         { "url": "https://github.com/mdn/data", "comment": "MDN data" }
     ],
-    "good": [
+    "valid": [
         "-apple-dashboard-region",
         "-moz-animation",
         "-moz-animation-delay",
@@ -1156,7 +1156,7 @@
         "z-index",
         "zoom"
     ],
-    "bad": [
+    "invalid": [
         "-background",
         "-background-color",
         "-clear",
