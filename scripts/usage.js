@@ -94,12 +94,20 @@ fs.readdirSync('./data/css').forEach(function(fn, idx, list) {
     });
 });
 
+// ============= output results ==================
+
+console.log('# TOP 250 Alexa sites CSS usage');
+console.log('');
+console.log('Update date: ' + new Date().toISOString());
+console.log('');
+
 // TOC
 Object.keys(names).sort().forEach((type) => {
     console.log('- [' + type + '](#' + type.toLowerCase() + ')');
 });
 console.log('');
 
+// Sections
 Object.keys(names).sort().forEach((type) => {
     console.log('## ' + type);
     console.log([...names[type]].map(function([name, info]) {
@@ -124,4 +132,4 @@ Object.keys(names).sort().forEach((type) => {
     console.log();
 });
 
-console.error(totalCssLength + ' bytes of CSS from ' + totalCssCount + ' sites in ' + ((Date.now() - startTime) / 1000).toFixed(1) + ' sec');
+console.log(totalCssLength + ' bytes of CSS from ' + totalCssCount + ' sites in ' + ((Date.now() - startTime) / 1000).toFixed(1) + ' sec');

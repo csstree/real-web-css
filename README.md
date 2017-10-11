@@ -16,6 +16,8 @@ Update date: 2017-03-13T06:17:09.360Z
 * Parsed: `224` (4 failed)
 * Validation passed: `20` (204 failed)
 
+[CSS usage data](usage.md)
+
 <table>
 <thead>
 <tr><th>#</th><th></th><th>Site</th><th>Parsing</th><th>Validation</th></tr>

@@ -7,6 +7,7 @@
     "test": "node scripts/test",
     "triage": "node scripts/triage",
     "gen:table": "node scripts/gen-table",
+    "gen:usage": "node scripts/usage > usage.md",
     "download:css": "node scripts/download-css",
     "update:sites": "node scripts/download-sites"
   },
