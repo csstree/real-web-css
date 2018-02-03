@@ -1,4 +1,4 @@
-Using [CSSTree](https://github.com/csstree/csstree) for real site CSS
+Use [CSSTree](https://github.com/csstree/csstree) to test a real site CSS and collect a data
 
 ## Alexa TOP 250
 
