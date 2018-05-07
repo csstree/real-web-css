@@ -57,13 +57,12 @@ inject('table',
 
         if (report.downloaded) {
             cells.push(
-                report.error || report.fixedError
+                report.parsing
                     ? '<details>' +
-                        '<summary>Error' + (report.fixedError ? ' (patched)' : '') + '</summary>' +
-                        '<pre>' + escapeHTML((report.fixedError || report.error).details) + '</pre>' +
-                      '</details>' +
-                      (report.errorComment ? '<em>' + report.errorComment + '</em>' : '')
-                    : 'OK' + (report.patch ? '<br><em>' + report.patch + '</em>' : ''),
+                        '<summary>Errors: ' + report.parsing.length + '</summary>' +
+                        '<pre>' + report.parsing.map(e => e.details).map(escapeHTML).join('\n') + '</pre>' +
+                      '</details>'
+                    : 'OK',
                 report.validation
                     ? '<details>' +
                         '<summary>' +

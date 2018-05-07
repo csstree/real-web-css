@@ -6,37 +6,40 @@ var testStat = require('./lib/test-stat');
 var sites = require('./lib/sites');
 var cssDir = path.join(__dirname, '../data/css');
 var resultFile = path.join(__dirname, '../data/test-result.json');
-var patches = require('./lib/parse-patch');
 
 function validate(ast) {
     var errors = [];
 
     try {
-        csstree.walkDeclarations(ast, function(node) {
-            var error = syntax.matchDeclaration(node).error;
+        csstree.walk(ast, {
+            visit: 'Declaration',
+            enter: function(node) {
+                var error = syntax.matchDeclaration(node).error;
 
-            if (error) {
-                var message = error.rawMessage || error.message || error;
+                if (error) {
+                    var message = error.rawMessage || error.message || error;
 
-                if (message === 'Mismatch') {
-                    message = 'Invalid value for `' + node.property + '`';
-                } else if (message === 'Uncomplete match') {
-                    message = 'The rest part of value can\'t be matched to `' + node.property + '` grammar';
+                    if (message === 'Mismatch') {
+                        message = 'Invalid value for `' + node.property + '`';
+                    } else if (message === 'Uncomplete match') {
+                        message = 'The rest part of value can\'t be matched to `' + node.property + '` grammar';
+                    }
+
+                    errors.push({
+                        node: node,
+                        loc: error.loc || node.loc,
+                        line: error.line || node.loc && node.loc.start && node.loc.start.line,
+                        column: error.column || node.loc && node.loc.start && node.loc.start.column,
+                        property: node.property,
+                        message: message,
+                        error: error
+                    });
                 }
-
-                errors.push({
-                    node: node,
-                    loc: error.loc || node.loc,
-                    line: error.line || node.loc && node.loc.start && node.loc.start.line,
-                    column: error.column || node.loc && node.loc.start && node.loc.start.column,
-                    property: node.property,
-                    message: message,
-                    error: error
-                });
             }
         });
     } catch (e) {
-        return e;
+        console.error('Error on validation', e);
+        process.exit();
     }
 
     return errors;
@@ -48,6 +51,7 @@ function formatErrors(errors) {
     if (Array.isArray(errors)) {
         var map = errors.reduce(function(map, item) {
             var msg = String(item.error.message || item.error)
+                        .replace(/\n\s+syntax: .+?\n/, '\n')
                         .replace(/^[^\n]+/, item.message)
                         .replace(/\n/g, '\n  ')
             map[msg] = (map[msg] || 0) + 1;
@@ -85,19 +89,14 @@ function parseError(e, report, fixed) {
 
 var reports = sites.map(function(url, idx) {
     var fullfn = cssDir + '/' + idx + '.css';
-    var patch = patches[url] || {};
     var report = {
         idx: idx,
         name: url,
         downloaded: false,
-        error: null,
-        errorComment: false,
-        patch: false,
-        fixedError: null,
+        parsing: null,
         validation: null
     };
 
-    // if (url !== 'mail.ru') return report;
     console.log('Test #' + idx + ' ' + url);
 
     if (fs.existsSync(fullfn)) {
@@ -106,41 +105,31 @@ var reports = sites.map(function(url, idx) {
         var css = fs.readFileSync(fullfn, 'utf8');
         var host = css.match(/^\/\*\s*([^*]+)\s*\*\//)[1];
         var ast = null;
+        var parseErrors = [];
 
         try {
-            try {
-                ast = csstree.parse(css, {
-                    filename: fullfn,
-                    positions: true,
-                    tolerant: true,
-                    
-                });
+            ast = csstree.parse(css, {
+                filename: fullfn,
+                positions: true,
+                onParseError: function(e) {
+                    console.log('  [ERROR] Parsing: ' + e.message);
+                    parseErrors.push({
+                        message: e.message,
+                        details: typeof e.sourceFragment === 'function'
+                            ? e.message + '\n' + e.sourceFragment(0)
+                            : e.formattedMessage || e.message
+                    });
+                }
+            });
 
-                if (patch.patch) {
-                    report.patch = 'No patch needed';
-                }
-            } catch (e) {
-                if (typeof patch.patch === 'function') {
-                    parseError(e, report, true);
-                    if (patch.comment) {
-                        report.errorComment = patch.comment;
-                        console.log('  NOTE: ' + patch.comment);
-                    }
-                    console.log('  Patch CSS and parse again');
-                    report.patch = true;
-                    ast = csstree.parse(patch.patch(css), { filename: fullfn, positions: true });
-                } else {
-                    throw e;
-                }
+            if (parseErrors.length) {
+                report.parsing = parseErrors;
             }
-
-            console.log('  Parsed successful');
         } catch (e) {
-            if (patch.comment) {
-                report.errorComment = patch.comment;
-            }
-            parseError(e, report, false);
+            throw e;
         }
+
+        console.log('  Parsing done');
 
         if (ast !== null) {
             var errors = validate(ast);
@@ -160,26 +149,10 @@ var reports = sites.map(function(url, idx) {
     return report;
 });
 
-fs.writeFileSync(resultFile, JSON.stringify(reports.map(function(report) {
-    if (report.error) {
-        report.error = {
-            message: report.error.message,
-            details: report.error.details || report.error.message
-        };
-    }
-
-    if (report.fixedError) {
-        report.fixedError = {
-            message: report.fixedError.message,
-            details: report.fixedError.details || report.fixedError.message
-        };
-    }
-
-    return report;
-}, {}), null, 2), 'utf8')
+fs.writeFileSync(resultFile, JSON.stringify(reports, null, 2), 'utf8')
 
 var stat = testStat(reports);
 console.log('Sites:', stat.total);
 console.log('Downloaded:', (stat.total - stat.missed), '(' + stat.missed + ' failed)');
 console.log('Parsed:', stat.total - stat.missed - stat.parseError, '(' + stat.parseError + ' failed)');
-console.log('Validation passed:', stat.passed, '(' + (stat.total - stat.missed - stat.parseError - stat.passed) + ' failed)');
+console.log('Validation passed:', stat.passed, '(' + (stat.total - stat.missed - stat.passed) + ' failed)');

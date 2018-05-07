@@ -3,9 +3,9 @@
   "version": "1.0.0",
   "description": "Using CSSTree for real site CSS",
   "scripts": {
-    "test-and-triage": "npm run test && npm run triage",
     "test": "node scripts/test",
     "triage": "node scripts/triage",
+    "test-and-triage": "npm run test && npm run triage",
     "gen:table": "node scripts/gen-table",
     "gen:usage": "node scripts/usage > usage.md",
     "download:css": "node scripts/download-css",
@@ -20,9 +20,9 @@
   },
   "homepage": "https://github.com/csstree/real-web-css",
   "dependencies": {
-    "css-tree": "1.0.0-alpha24",
+    "css-tree": "1.0.0-alpha.28",
     "fixed-width-string": "^1.0.0",
-    "phantom": "^4.0.0",
+    "puppeteer": "^1.3.0",
     "unzip": "^0.1.11"
   },
   "basisjsConfig": {

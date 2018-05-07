@@ -4,9 +4,12 @@ var http = require('http');
 var https = require('https');
 var zlib = require('zlib');
 var fs = require('fs');
+const puppeteer = require('puppeteer');
+
 var sites = require('./lib/sites');
 var seedFile = path.join(__dirname, '../data/idx.txt');
 var outputDir = path.join(__dirname, '../data/css');
+var awaitTimer;
 
 if (!fs.existsSync(outputDir)) {
     fs.mkdir(outputDir);
@@ -21,10 +24,12 @@ if (siteIdx >= sites.length) {
 console.log('Start with #' + siteIdx);
 
 // create a browser
-require('phantom').create(['--load-images=false', '--ignore-ssl-errors=true'], { logger: {} })
+puppeteer.launch({
+    ignoreHTTPSErrors: true
+})
     .then(function(instance) {
-        process.on('exit', function() {
-            instance.exit();
+        process.on('exit', async function() {
+            await browser.close();
         });
         onError = onError.bind(instance);
         visit = visit.bind(instance);
@@ -33,6 +38,7 @@ require('phantom').create(['--load-images=false', '--ignore-ssl-errors=true'], {
 
 
 var onError = function(err) {
+    clearInterval(awaitTimer);
     console.log('    ❌  Failed ' + (err || ''));
     console.log();
     return downloadNext();
@@ -53,109 +59,106 @@ function downloadNext() {
 }
 
 function visit(siteUrl) {
-    this.createPage().then(function(page) {
-        var awaitRequests = {};
+    clearInterval(awaitTimer);
+    this.newPage().then(async function(page) {
+        var awaitRequests = new Map();
         var completeRequests = 0;
-        var awaitTimer = setInterval(function() {
-            var requests = Object.keys(awaitRequests).map(function(id) {
-                return awaitRequests[id];
-            });
+        var externalStylesheets = [];
+        var id = 1;
+        
+        awaitTimer = setInterval(function() {
+            var requests = [...awaitRequests.keys()];
             var longRequests = requests.filter(function(request) {
-                return Date.now() - new Date(request.time) > 5000
+                return Date.now() - new Date(awaitRequests.get(request).time) > 5000
             });
 
             console.log('    ⏳  Await ' + requests.length + ' requests (' + completeRequests + ' done)');
             longRequests.forEach(function(request) {
-                console.log('        🐢  #' + request.id + ' ' + request.url);
+                console.log('        🐢  #' + awaitRequests.get(request).id + ' ' + request.url());
             });
-            if (completeRequests > 0 && longRequests.length === requests.length) {
-                page.stop();
-            }
         }, 1000);
 
-        page.on('onResourceRequested', function(requestData, request) {
-            // console.info('Requesting', requestData.url)
-            awaitRequests[requestData.id] = requestData;
+        await page.setRequestInterception(true);
+        page.on('request', function(request) {
+            // console.info('Requesting', request.url)
+            awaitRequests.set(request, { id: id++, time: Date.now() });
+            if (request.resourceType() === 'image') {
+                request.abort();
+            } else {
+                request.continue();
+            }
         });
-        page.on('onResourceReceived', function(requestData) {
-            // console.info('Recieved', requestData.url)
+        page.on('requestfinished', function(request) {
+            // console.info('Recieved', request.url)
             completeRequests++;
-            delete awaitRequests[requestData.id];
+            awaitRequests.delete(request);
+        });
+        page.on('response', async function(response) {
+            if (response.request().resourceType() === 'stylesheet') {
+                const href = response.url();
+
+                console.log('    ✅  ' + href);
+                externalStylesheets.push(
+                    response.text().then(function(content) {
+                        return { href, content };
+                    })
+                );
+            }
+        })
+        page.on('requestfailed', function(request) {
+            // console.info('Recieved', request.url)
+            completeRequests++;
+            awaitRequests.delete(request);
         });
 
-        page.open(siteUrl).then(function() {
-            page.stop();
+        page.goto(siteUrl).then(function() {
             clearInterval(awaitTimer);
             console.log('    ✅  Page loaded');
-
-            page
-                .evaluate(function() {
-                    var refresh = document.querySelector('meta[http-equiv="refresh"]');
-                    return refresh ? refresh.content.split(/;url=/i)[1] : false;
-                })
-                .then(function(redirect) {
-                    if (redirect) {
-                        console.log('    ⚠️️  Redirect to ' + redirect);
-                        page.close();
-                        visit(redirect);
-                    } else {
-                        extractCSS(page, siteUrl);
-                    }
-                }, onError);
+            Promise.all(externalStylesheets)
+                .then(function(stylesheets) {
+                    extractCSS(page, siteUrl, stylesheets);
+                });
         }, onError);
     }, onError);
 }
 
-function extractCSS(page, siteUrl) {
+function extractCSS(page, siteUrl, external) {
     page.evaluate(function() {
         // collect stylesheets
         return [].slice.call(document.styleSheets).map(function(sheet) {
-            return sheet.href
-                ? { type: 'external', href: sheet.href }
-                : { type: 'inline', css: sheet.ownerNode.textContent };
+            return sheet.ownerNode.textContent;
         });
-    }).then(function(styles) {
-        var external = [];
-        var inline = [];
-
-        styles.forEach(function(sheet) {
-            if (sheet.type === 'inline') {
-                if (sheet.css) {
-                    inline.push('/**** inline ****/');
-                    inline.push(sheet.css);
-                    console.log('    🔸  inline style');
-                }
-            } else {
-                if (!sheet.href || /^data:/i.test(sheet.href)) {
-                    return;
-                }
-
-                console.log('    ⚡  Fetch ' + sheet.href);
-                external.push(
-                    fetch(sheet.href)
-                        .then(function(content) {
-                            console.log('    ✅  ' + sheet.href);
-                            content = content.replace(/^[\uFEFF\uFFFE]/, '');
-                            return (
-                                '/**** ' + sheet.href + ' ****/\n' +
-                                content
-                            );
-                        })
-                        .catch(function(error) {
-                            console.log('    ❌  ' + sheet.href + ' Error: ' + error);
-                        })
+    }).then(function(inline) {
+        inline = inline.reduce(function(result, content) {
+            if (content) {
+                result.push(
+                    '/**** inline ****/\n' +
+                    content
                 );
             }
-        });
 
-        page.close();
+            return result;
+        }, [])
 
-        Promise.all(external)
-            .then(function(sheets) {
-                var css = inline.concat(sheets).join('\n');
+        external = external.reduce(function(result, sheet) {
+            return result.concat(
+                '/**** ' + sheet.href + ' ****/\n' +
+                sheet.content
+            );
+        }, []);
 
-                if (css && !/\/rinet.ru/.test(css)) {
+        page.close()
+            .then(function() {
+                var css = inline.concat(external).join('\n');
+
+                if (css) {
                     fs.writeFileSync(path.join(outputDir, (siteIdx - 1) + '.css'), '/* ' + siteUrl + ' */\n' + css, 'utf8');
+
+                    console.log(`    🔸  Stylesheets: ${[
+                        external.length ? external.length + ' external' : '',
+                        inline.length ? inline.length + ' inline' : ''
+                    ].filter(Boolean).join(', ') || 'none'}`);
+
                     console.log('    🎉  DONE');
                     console.log();
                     // remember the place in the likely scenario that
@@ -172,45 +175,4 @@ function extractCSS(page, siteUrl) {
                 process.exit();
             });
     }, onError);
-}
-
-function fetch(resourceUrl) {
-    return new Promise(function(resolve, reject) {
-        (url.parse(resourceUrl).protocol === 'http:' ? http : https).get(resourceUrl, function(response) {
-            var contentType = response.headers['content-type'] || '';
-            var chunks = [];
-
-            if (!/^\s*text\/css(\s*;|$)/i.test(contentType)) {
-                return reject('Bad content type: ' + contentType);
-            }
-
-            if (response.statusCode < 200 && response.statusCode >= 400) {
-                return reject('Bad response code: ' + response.statusCode);
-            }
-
-            if (response.headers.location) {
-                return fetch(url.resolve(resourceUrl, response.headers.location)).then(resolve, reject);
-            }
-
-            response
-                .on('data', function (chunk) {
-                    chunks.push(chunk);
-                })
-                .on('end', function() {
-                    var buffer = Buffer.concat(chunks);
-
-                    try {
-                        if (response.headers['content-encoding'] === 'gzip') {
-                            buffer = zlib.gunzipSync(buffer);
-                        } else if (response.headers['content-encoding'] === 'deflate') {
-                            buffer = zlib.inflateSync(buffer);
-                        }
-
-                        resolve(buffer.toString());
-                    } catch(e) {
-                        reject(e);
-                    }
-                });
-        }).on('error', reject);
-    });
 }

@@ -57,7 +57,7 @@ fs.readdirSync('./data/css').forEach(function(fn, idx, list) {
                 if (name.custom) {
                     return;
                 }
-                name = name.vendor + name.name;// + (name.hack ? ' (with hack: ' + name.hack + ')' : '');
+                name = name.name;// + (name.hack ? ' (with hack: ' + name.hack + ')' : '');
             } else if (node.type === 'Dimension') {
                 name = node.unit.toLowerCase();
             } else {
@@ -121,7 +121,7 @@ Object.keys(names).sort().forEach((type) => {
 
         return (
             '  - ' +
-            fws(nameStatus + ' `' + name + '`', maxNameLength + 12) +
+            nameStatus + ' `' + fws(name, 52).replace(/\s+|$/, '`$&') +
             '*(sites: ' +
             fws(info.sites.size, 7) +
             ', occurrences: ' +
