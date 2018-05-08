@@ -38,14 +38,14 @@ npm run gen:usage
 
 ## Usage
 
-- [The list of used CSS features on Alexa TOP 250 sites](usage.md)
+- [The list of CSS features used on Alexa TOP 250 sites](usage.md)
 - [Dictionaries](scripts/usage) used for testing an existence of feature (mix of different sources and data found on Alexa TOP 250 sites)
 
 ## Alexa TOP 250
 
 <!-- date -->
 
-Update date: 2018-05-08T22:23:13.600Z
+Update date: 2018-05-08T22:30:10.373Z
 
 <!-- /date -->
 

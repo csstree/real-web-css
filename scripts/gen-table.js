@@ -37,11 +37,7 @@ function validationErrorStat(errors) {
 }
 
 var details = ['# Analysis of CSS of Alexa TOP ' + reports.length, ''];
-var detailsTOC = [];
-
-// table
-inject('date', 'Update date: ' + new Date().toISOString());
-inject('table',
+var table = 
     '* Sites: `' + stat.total + '`\n' +
     '* Downloaded: `' + (stat.total - stat.missed) + '` (' + stat.missed + ' failed)\n' +
     '* Parsed: `' + (stat.total - stat.missed - stat.parseError) + '` (' + stat.parseError + ' failed)\n' +
@@ -59,7 +55,6 @@ inject('table',
             report.name
         ];
 
-        detailsTOC.push('1. [' + report.name + '](#' + detailsRef + ')')
         details.push('', '## #' + (idx + 1) + ' ' + report.name, '');
         details.push('');
 
@@ -72,21 +67,6 @@ inject('table',
                 details.push('```');
                 details.push(escapeHTML(report.parsing.map(function(e) {
                     return e.details;
-
-                    // var lines = e.details.split('\n');
-                    // var numLength = lines[1].indexOf('|');
-                    // var offset = lines[2].length - numLength - 1;
-
-                    // if (offset > 15) {
-                    //     lines[2] = lines[2].slice(lines[2].length - numLength - 18);
-                    //     lines[1] = lines[1].slice(0, numLength + 1) + '…' + lines[1].slice(numLength + offset - 15);
-                    // }
-
-                    // if (lines[1].length > (numLength + 30)) {
-                    //     lines[1] = lines[1].substr(0, numLength + 30) + '…';
-                    // }
-
-                    // return lines.join('\n');
                 }).join('\n')));
                 details.push('```');
             } else {
@@ -124,10 +104,13 @@ inject('table',
             return '<tr><td>' + cells.join('</td><td>') + '</td><td colspan="2">–</td></tr>';
         }
         
-    }).join('\n') + '</table>'
-);
+    }).join('\n') + '</table>';
 
-details.splice(2, 0, detailsTOC.join('\n'));
+// table
+inject('date', 'Update date: ' + new Date().toISOString());
+inject('table', table);
+
+details.splice(2, 0, table.replace(/test-details\.md/g, ''));
 
 fs.writeFileSync('./test-details.md', details.join('\n'), 'utf8');
 fs.writeFileSync(readmeFile, readme, 'utf8');
