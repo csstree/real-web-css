@@ -59,7 +59,7 @@ inject('table',
         ];
 
         detailsTOC.push('1. [' + report.name + '](#' + (idx + 1) + '-' + report.name.replace(/[^a-z0-9]/g, '') + ')')
-        details.push('', '## #' + (idx + 1) + report.name, '');
+        details.push('', '## #' + (idx + 1) + ' ' + report.name, '');
         details.push('');
 
         if (report.downloaded) {
@@ -100,10 +100,12 @@ inject('table',
 
             cells.push(
                 report.parsing
-                    ? report.parsing.length + (report.parsing.length > 1 ? ' errors' : 'error')
+                    ? '[' + report.parsing.length + (report.parsing.length > 1 ? ' errors' : 'error') + ']' + 
+                      '(#' + (idx + 1) + '-' + report.name.replace(/[^a-z0-9]/g, '') + ')'
                     : '✅',
                 report.validation
-                    ? report.validation.length + (report.validation.length > 1 ? ' errors' : ' error')
+                    ? '[' + report.validation.length + (report.validation.length > 1 ? ' errors' : ' error') + ']' +
+                      '(#' + (idx + 1) + '-' + report.name.replace(/[^a-z0-9]/g, '') + ')'
                     : '✅'
             );
 
