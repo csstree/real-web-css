@@ -50,6 +50,7 @@
         "grid",
         "height",
         "hover",
+        "inverted-colors",
         "max--moz-device-pixel-ratio",
         "max-aspect-ratio",
         "max-color",
@@ -82,6 +83,7 @@
     ],
     "invalid": [
         "-moz-min-device-pixel-ratio",
+        "-ms-hight-contrast",
         "max-widwth",
         "max-device-pixel-ratio",
         "min-device-pixel-ratio",

@@ -14,6 +14,7 @@ var names = types.reduce(function(res, type) {
     res[type] = new Map();
     return res;
 }, Object.create(null));
+var statusOrder = ['❔', '🆗', '⚠'];
 var status = types.reduce(function(res, type) {
     var data = require('./usage/' + type + '.json');
     var status = Object.create(null);
@@ -110,25 +111,35 @@ console.log('');
 // Sections
 Object.keys(names).sort().forEach((type) => {
     console.log('## ' + type);
-    console.log([...names[type]].map(function([name, info]) {
-        var nameStatus = status[type][name] || '❔';
+    console.log([...names[type]]
+        .sort(function([a], [b]) {
+            return (
+                (statusOrder.indexOf(status[type][a] || '❔') - statusOrder.indexOf(status[type][b] || '❔'))
+                ||
+                (a < b ? -1 : a > b ? 1 : 0)
+            );
+        })
+        .map(function([name, info]) {
+            var nameStatus = status[type][name] || '❔';
 
-        switch (type) {
-            case 'Atrule': name = '@' + name; break;
-            case 'PseudoClassSelector': name = ':' + name; break;
-            case 'PseudoElementSelector': name = '::' + name; break;
-        }
+            switch (type) {
+                case 'Atrule': name = '@' + name; break;
+                case 'PseudoClassSelector': name = ':' + name; break;
+                case 'PseudoElementSelector': name = '::' + name; break;
+            }
 
-        return (
-            '  - ' +
-            nameStatus + ' `' + fws(name, 52).replace(/\s+|$/, '`$&') +
-            '*(sites: ' +
-            fws(info.sites.size, 7) +
-            ', occurrences: ' +
-            fws(info.count,      6) +
-            ')*'
-        );
-    }).sort().join('\n'));
+            return (
+                '  - ' +
+                nameStatus + ' `' + fws(name, 52).replace(/\s*$/, '`$&') +
+                '*(sites: ' +
+                fws(info.sites.size, 7) +
+                ', occurrences: ' +
+                fws(info.count,      6) +
+                ')*'
+            );
+        })
+        .join('\n')
+    );
     console.log();
 });
 

@@ -51,6 +51,14 @@
         "-moz-viewport",
         "-ms-keyframes",
         "inlcude",
-        "me"
+        "me",
+        "classic-demo-cdn",
+        "font",
+        "galleria-classic-min",
+        "galleria-flickr-min",
+        "galleria-history-min",
+        "galleria-picasa-min",
+        "nest",
+        "rotation"
     ]
 }

@@ -40,10 +40,17 @@
     "invalid": [
         "\\0",
         "bb",
+        "d2",
         "dpis",
         "dpx",
+        "e",
         "f",
         "p",
-        "spx"
+        "px05px",
+        "px9",
+        "pxauto",
+        "pxw",
+        "spx",
+        "xl"
     ]
 }
