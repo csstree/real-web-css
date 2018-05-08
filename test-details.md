@@ -1,259 +1,258 @@
 #Analysis of CSS of Alexa TOP 250
 
-- [google.com](#1)
-- [youtube.com](#2)
-- [facebook.com](#3)
-- [baidu.com](#4)
-- [wikipedia.org](#5)
-- [reddit.com](#6)
-- [yahoo.com](#7)
-- [qq.com](#8)
-- [taobao.com](#9)
-- [tmall.com](#10)
-- [twitter.com](#11)
-- [amazon.com](#12)
-- [google.co.in](#13)
-- [vk.com](#14)
-- [instagram.com](#15)
-- [sohu.com](#16)
-- [jd.com](#17)
-- [live.com](#18)
-- [sina.com.cn](#19)
-- [weibo.com](#20)
-- [360.cn](#21)
-- [yandex.ru](#22)
-- [netflix.com](#23)
-- [twitch.tv](#24)
-- [login.tmall.com](#25)
-- [pornhub.com](#26)
-- [google.ru](#27)
-- [google.co.uk](#28)
-- [google.com.br](#29)
-- [google.com.hk](#30)
-- [google.de](#31)
-- [google.co.jp](#32)
-- [google.fr](#33)
-- [yahoo.co.jp](#34)
-- [bing.com](#35)
-- [ebay.com](#36)
-- [xvideos.com](#37)
-- [t.co](#38)
-- [imgur.com](#39)
-- [alipay.com](#40)
-- [csdn.net](#41)
-- [ok.ru](#42)
-- [wikia.com](#43)
-- [google.it](#44)
-- [microsoft.com](#45)
-- [google.ca](#46)
-- [pages.tmall.com](#47)
-- [imdb.com](#48)
-- [mail.ru](#49)
-- [tumblr.com](#50)
-- [aliexpress.com](#51)
-- [google.es](#52)
-- [xhamster.com](#53)
-- [msn.com](#54)
-- [linkedin.com](#55)
-- [deloton.com](#56)
-- [google.com.mx](#57)
-- [amazon.co.jp](#58)
-- [popads.net](#59)
-- [hao123.com](#60)
-- [wordpress.com](#61)
-- [office.com](#62)
-- [whatsapp.com](#63)
-- [google.com.tw](#64)
-- [google.com.tr](#65)
-- [livejasmin.com](#66)
-- [blogspot.com](#67)
-- [bongacams.com](#68)
-- [google.com.au](#69)
-- [xnxx.com](#70)
-- [paypal.com](#71)
-- [microsoftonline.com](#72)
-- [github.com](#73)
-- [apple.com](#74)
-- [tribunnews.com](#75)
-- [stackoverflow.com](#76)
-- [diply.com](#77)
-- [savefrom.net](#78)
-- [providr.com](#79)
-- [pinterest.com](#80)
-- [fbcdn.net](#81)
-- [chaturbate.com](#82)
-- [google.pl](#83)
-- [amazon.de](#84)
-- [youth.cn](#85)
-- [soso.com](#86)
-- [txxx.com](#87)
-- [coccoc.com](#88)
-- [google.co.id](#89)
-- [detail.tmall.com](#90)
-- [k618.cn](#91)
-- [pixnet.net](#92)
-- [roblox.com](#93)
-- [adobe.com](#94)
-- [thepiratebay.org](#95)
-- [thestartmagazine.com](#96)
-- [googleusercontent.com](#97)
-- [bbc.com](#98)
-- [google.com.ua](#99)
-- [amazon.in](#100)
-- [nicovideo.jp](#101)
-- [dailymotion.com](#102)
-- [craigslist.org](#103)
-- [amazon.co.uk](#104)
-- [google.com.ar](#105)
-- [restorecosm.bid](#106)
-- [espn.com](#107)
-- [soundcloud.com](#108)
-- [bbc.co.uk](#109)
-- [google.co.th](#110)
-- [quora.com](#111)
-- [so.com](#112)
-- [booking.com](#113)
-- [dkn.tv](#114)
-- [openload.co](#115)
-- [xinhuanet.com](#116)
-- [onlinesbi.com](#117)
-- [ask.com](#118)
-- [google.com.eg](#119)
-- [dropbox.com](#120)
-- [google.com.sa](#121)
-- [tokopedia.com](#122)
-- [discordapp.com](#123)
-- [fc2.com](#124)
-- [google.com.pk](#125)
-- [exdynsrv.com](#126)
-- [nytimes.com](#127)
-- [tianya.cn](#128)
-- [amazonaws.com](#129)
-- [theepochtimes.com](#130)
-- [ebay.de](#131)
-- [mediafire.com](#132)
-- [douyu.com](#133)
-- [ettoday.net](#134)
-- [ntd.tv](#135)
-- [cnn.com](#136)
-- [spotify.com](#137)
-- [stackexchange.com](#138)
-- [rakuten.co.jp](#139)
-- [1688.com](#140)
-- [aparat.com](#141)
-- [steamcommunity.com](#142)
-- [google.cn](#143)
-- [cnblogs.com](#144)
-- [deviantart.com](#145)
-- [bet9ja.com](#146)
-- [google.nl](#147)
-- [avito.ru](#148)
-- [softonic.com](#149)
-- [google.co.za](#150)
-- [nextoptim.com](#151)
-- [detik.com](#152)
-- [google.az](#153)
-- [4chan.org](#154)
-- [ebay.co.uk](#155)
-- [hotmovs.com](#156)
-- [vimeo.com](#157)
-- [theguardian.com](#158)
-- [doublepimpssl.com](#159)
-- [nih.gov](#160)
-- [oath.com](#161)
-- [chase.com](#162)
-- [flipkart.com](#163)
-- [dailymail.co.uk](#164)
-- [google.com.vn](#165)
-- [google.co.ve](#166)
-- [bukalapak.com](#167)
-- [cricbuzz.com](#168)
-- [yts.am](#169)
-- [bles.com](#170)
-- [hotstar.com](#171)
-- [mozilla.org](#172)
-- [bet365.com](#173)
-- [google.se](#174)
-- [cnet.com](#175)
-- [twimg.com](#176)
-- [lifedaily.com](#177)
-- [redtube.com](#178)
-- [myfastappz.com](#179)
-- [fapmeth.com](#180)
-- [digitaldsp.com](#181)
-- [walmart.com](#182)
-- [globo.com](#183)
-- [google.com.co](#184)
-- [crptentry.com](#185)
-- [google.com.sg](#186)
-- [onlinevideoconverter.com](#187)
-- [mega.nz](#188)
-- [slideshare.net](#189)
-- [doubleclick.net](#190)
-- [steampowered.com](#191)
-- [etsy.com](#192)
-- [yelp.com](#193)
-- [speakol.com](#194)
-- [google.gr](#195)
-- [wikihow.com](#196)
-- [mercadolivre.com.br](#197)
-- [igmatik.com](#198)
-- [hulu.com](#199)
-- [jf71qh5v14.com](#200)
-- [youporn.com](#201)
-- [alibaba.com](#202)
-- [google.be](#203)
-- [rumble.com](#204)
-- [vice.com](#205)
-- [sogou.com](#206)
-- [youm7.com](#207)
-- [abs-cbn.com](#208)
-- [google.com.ph](#209)
-- [doublepimp.com](#210)
-- [fbspyster.com](#211)
-- [messenger.com](#212)
-- [coinmarketcap.com](#213)
-- [blastingnews.com](#214)
-- [scribd.com](#215)
-- [indeed.com](#216)
-- [babytree.com](#217)
-- [google.com.pe](#218)
-- [naver.com](#219)
-- [buzzfeed.com](#220)
-- [uol.com.br](#221)
-- [china.com.cn](#222)
-- [kissanime.ru](#223)
-- [qulsqiqrev.com](#224)
-- [amazon.fr](#225)
-- [kompas.com](#226)
-- [sciencedirect.com](#227)
-- [liputan6.com](#228)
-- [zhihu.com](#229)
-- [huanqiu.com](#230)
-- [1337x.to](#231)
-- [irctc.co.in](#232)
-- [hibids10.com](#233)
-- [ladbible.com](#234)
-- [exoclick.com](#235)
-- [mama.cn](#236)
-- [newsprofin.com](#237)
-- [metropcs.mobi](#238)
-- [rambler.ru](#239)
-- [amazon.it](#240)
-- [gamespot.com](#241)
-- [w3schools.com](#242)
-- [cloudfront.net](#243)
-- [thewhizmarketing.com](#244)
-- [caijing.com.cn](#245)
-- [bilibili.com](#246)
-- [speedtest.net](#247)
-- [eastday.com](#248)
-- [livejournal.com](#249)
-- [google.no](#250)
+1. [google.com](#1-googlecom)
+1. [youtube.com](#2-youtubecom)
+1. [facebook.com](#3-facebookcom)
+1. [baidu.com](#4-baiducom)
+1. [wikipedia.org](#5-wikipediaorg)
+1. [reddit.com](#6-redditcom)
+1. [yahoo.com](#7-yahoocom)
+1. [qq.com](#8-qqcom)
+1. [taobao.com](#9-taobaocom)
+1. [tmall.com](#10-tmallcom)
+1. [twitter.com](#11-twittercom)
+1. [amazon.com](#12-amazoncom)
+1. [google.co.in](#13-googlecoin)
+1. [vk.com](#14-vkcom)
+1. [instagram.com](#15-instagramcom)
+1. [sohu.com](#16-sohucom)
+1. [jd.com](#17-jdcom)
+1. [live.com](#18-livecom)
+1. [sina.com.cn](#19-sinacomcn)
+1. [weibo.com](#20-weibocom)
+1. [360.cn](#21-360cn)
+1. [yandex.ru](#22-yandexru)
+1. [netflix.com](#23-netflixcom)
+1. [twitch.tv](#24-twitchtv)
+1. [login.tmall.com](#25-logintmallcom)
+1. [pornhub.com](#26-pornhubcom)
+1. [google.ru](#27-googleru)
+1. [google.co.uk](#28-googlecouk)
+1. [google.com.br](#29-googlecombr)
+1. [google.com.hk](#30-googlecomhk)
+1. [google.de](#31-googlede)
+1. [google.co.jp](#32-googlecojp)
+1. [google.fr](#33-googlefr)
+1. [yahoo.co.jp](#34-yahoocojp)
+1. [bing.com](#35-bingcom)
+1. [ebay.com](#36-ebaycom)
+1. [xvideos.com](#37-xvideoscom)
+1. [t.co](#38-tco)
+1. [imgur.com](#39-imgurcom)
+1. [alipay.com](#40-alipaycom)
+1. [csdn.net](#41-csdnnet)
+1. [ok.ru](#42-okru)
+1. [wikia.com](#43-wikiacom)
+1. [google.it](#44-googleit)
+1. [microsoft.com](#45-microsoftcom)
+1. [google.ca](#46-googleca)
+1. [pages.tmall.com](#47-pagestmallcom)
+1. [imdb.com](#48-imdbcom)
+1. [mail.ru](#49-mailru)
+1. [tumblr.com](#50-tumblrcom)
+1. [aliexpress.com](#51-aliexpresscom)
+1. [google.es](#52-googlees)
+1. [xhamster.com](#53-xhamstercom)
+1. [msn.com](#54-msncom)
+1. [linkedin.com](#55-linkedincom)
+1. [deloton.com](#56-delotoncom)
+1. [google.com.mx](#57-googlecommx)
+1. [amazon.co.jp](#58-amazoncojp)
+1. [popads.net](#59-popadsnet)
+1. [hao123.com](#60-hao123com)
+1. [wordpress.com](#61-wordpresscom)
+1. [office.com](#62-officecom)
+1. [whatsapp.com](#63-whatsappcom)
+1. [google.com.tw](#64-googlecomtw)
+1. [google.com.tr](#65-googlecomtr)
+1. [livejasmin.com](#66-livejasmincom)
+1. [blogspot.com](#67-blogspotcom)
+1. [bongacams.com](#68-bongacamscom)
+1. [google.com.au](#69-googlecomau)
+1. [xnxx.com](#70-xnxxcom)
+1. [paypal.com](#71-paypalcom)
+1. [microsoftonline.com](#72-microsoftonlinecom)
+1. [github.com](#73-githubcom)
+1. [apple.com](#74-applecom)
+1. [tribunnews.com](#75-tribunnewscom)
+1. [stackoverflow.com](#76-stackoverflowcom)
+1. [diply.com](#77-diplycom)
+1. [savefrom.net](#78-savefromnet)
+1. [providr.com](#79-providrcom)
+1. [pinterest.com](#80-pinterestcom)
+1. [fbcdn.net](#81-fbcdnnet)
+1. [chaturbate.com](#82-chaturbatecom)
+1. [google.pl](#83-googlepl)
+1. [amazon.de](#84-amazonde)
+1. [youth.cn](#85-youthcn)
+1. [soso.com](#86-sosocom)
+1. [txxx.com](#87-txxxcom)
+1. [coccoc.com](#88-coccoccom)
+1. [google.co.id](#89-googlecoid)
+1. [detail.tmall.com](#90-detailtmallcom)
+1. [k618.cn](#91-k618cn)
+1. [pixnet.net](#92-pixnetnet)
+1. [roblox.com](#93-robloxcom)
+1. [adobe.com](#94-adobecom)
+1. [thepiratebay.org](#95-thepiratebayorg)
+1. [thestartmagazine.com](#96-thestartmagazinecom)
+1. [googleusercontent.com](#97-googleusercontentcom)
+1. [bbc.com](#98-bbccom)
+1. [google.com.ua](#99-googlecomua)
+1. [amazon.in](#100-amazonin)
+1. [nicovideo.jp](#101-nicovideojp)
+1. [dailymotion.com](#102-dailymotioncom)
+1. [craigslist.org](#103-craigslistorg)
+1. [amazon.co.uk](#104-amazoncouk)
+1. [google.com.ar](#105-googlecomar)
+1. [restorecosm.bid](#106-restorecosmbid)
+1. [espn.com](#107-espncom)
+1. [soundcloud.com](#108-soundcloudcom)
+1. [bbc.co.uk](#109-bbccouk)
+1. [google.co.th](#110-googlecoth)
+1. [quora.com](#111-quoracom)
+1. [so.com](#112-socom)
+1. [booking.com](#113-bookingcom)
+1. [dkn.tv](#114-dkntv)
+1. [openload.co](#115-openloadco)
+1. [xinhuanet.com](#116-xinhuanetcom)
+1. [onlinesbi.com](#117-onlinesbicom)
+1. [ask.com](#118-askcom)
+1. [google.com.eg](#119-googlecomeg)
+1. [dropbox.com](#120-dropboxcom)
+1. [google.com.sa](#121-googlecomsa)
+1. [tokopedia.com](#122-tokopediacom)
+1. [discordapp.com](#123-discordappcom)
+1. [fc2.com](#124-fc2com)
+1. [google.com.pk](#125-googlecompk)
+1. [exdynsrv.com](#126-exdynsrvcom)
+1. [nytimes.com](#127-nytimescom)
+1. [tianya.cn](#128-tianyacn)
+1. [amazonaws.com](#129-amazonawscom)
+1. [theepochtimes.com](#130-theepochtimescom)
+1. [ebay.de](#131-ebayde)
+1. [mediafire.com](#132-mediafirecom)
+1. [douyu.com](#133-douyucom)
+1. [ettoday.net](#134-ettodaynet)
+1. [ntd.tv](#135-ntdtv)
+1. [cnn.com](#136-cnncom)
+1. [spotify.com](#137-spotifycom)
+1. [stackexchange.com](#138-stackexchangecom)
+1. [rakuten.co.jp](#139-rakutencojp)
+1. [1688.com](#140-1688com)
+1. [aparat.com](#141-aparatcom)
+1. [steamcommunity.com](#142-steamcommunitycom)
+1. [google.cn](#143-googlecn)
+1. [cnblogs.com](#144-cnblogscom)
+1. [deviantart.com](#145-deviantartcom)
+1. [bet9ja.com](#146-bet9jacom)
+1. [google.nl](#147-googlenl)
+1. [avito.ru](#148-avitoru)
+1. [softonic.com](#149-softoniccom)
+1. [google.co.za](#150-googlecoza)
+1. [nextoptim.com](#151-nextoptimcom)
+1. [detik.com](#152-detikcom)
+1. [google.az](#153-googleaz)
+1. [4chan.org](#154-4chanorg)
+1. [ebay.co.uk](#155-ebaycouk)
+1. [hotmovs.com](#156-hotmovscom)
+1. [vimeo.com](#157-vimeocom)
+1. [theguardian.com](#158-theguardiancom)
+1. [doublepimpssl.com](#159-doublepimpsslcom)
+1. [nih.gov](#160-nihgov)
+1. [oath.com](#161-oathcom)
+1. [chase.com](#162-chasecom)
+1. [flipkart.com](#163-flipkartcom)
+1. [dailymail.co.uk](#164-dailymailcouk)
+1. [google.com.vn](#165-googlecomvn)
+1. [google.co.ve](#166-googlecove)
+1. [bukalapak.com](#167-bukalapakcom)
+1. [cricbuzz.com](#168-cricbuzzcom)
+1. [yts.am](#169-ytsam)
+1. [bles.com](#170-blescom)
+1. [hotstar.com](#171-hotstarcom)
+1. [mozilla.org](#172-mozillaorg)
+1. [bet365.com](#173-bet365com)
+1. [google.se](#174-googlese)
+1. [cnet.com](#175-cnetcom)
+1. [twimg.com](#176-twimgcom)
+1. [lifedaily.com](#177-lifedailycom)
+1. [redtube.com](#178-redtubecom)
+1. [myfastappz.com](#179-myfastappzcom)
+1. [fapmeth.com](#180-fapmethcom)
+1. [digitaldsp.com](#181-digitaldspcom)
+1. [walmart.com](#182-walmartcom)
+1. [globo.com](#183-globocom)
+1. [google.com.co](#184-googlecomco)
+1. [crptentry.com](#185-crptentrycom)
+1. [google.com.sg](#186-googlecomsg)
+1. [onlinevideoconverter.com](#187-onlinevideoconvertercom)
+1. [mega.nz](#188-meganz)
+1. [slideshare.net](#189-slidesharenet)
+1. [doubleclick.net](#190-doubleclicknet)
+1. [steampowered.com](#191-steampoweredcom)
+1. [etsy.com](#192-etsycom)
+1. [yelp.com](#193-yelpcom)
+1. [speakol.com](#194-speakolcom)
+1. [google.gr](#195-googlegr)
+1. [wikihow.com](#196-wikihowcom)
+1. [mercadolivre.com.br](#197-mercadolivrecombr)
+1. [igmatik.com](#198-igmatikcom)
+1. [hulu.com](#199-hulucom)
+1. [jf71qh5v14.com](#200-jf71qh5v14com)
+1. [youporn.com](#201-youporncom)
+1. [alibaba.com](#202-alibabacom)
+1. [google.be](#203-googlebe)
+1. [rumble.com](#204-rumblecom)
+1. [vice.com](#205-vicecom)
+1. [sogou.com](#206-sogoucom)
+1. [youm7.com](#207-youm7com)
+1. [abs-cbn.com](#208-abscbncom)
+1. [google.com.ph](#209-googlecomph)
+1. [doublepimp.com](#210-doublepimpcom)
+1. [fbspyster.com](#211-fbspystercom)
+1. [messenger.com](#212-messengercom)
+1. [coinmarketcap.com](#213-coinmarketcapcom)
+1. [blastingnews.com](#214-blastingnewscom)
+1. [scribd.com](#215-scribdcom)
+1. [indeed.com](#216-indeedcom)
+1. [babytree.com](#217-babytreecom)
+1. [google.com.pe](#218-googlecompe)
+1. [naver.com](#219-navercom)
+1. [buzzfeed.com](#220-buzzfeedcom)
+1. [uol.com.br](#221-uolcombr)
+1. [china.com.cn](#222-chinacomcn)
+1. [kissanime.ru](#223-kissanimeru)
+1. [qulsqiqrev.com](#224-qulsqiqrevcom)
+1. [amazon.fr](#225-amazonfr)
+1. [kompas.com](#226-kompascom)
+1. [sciencedirect.com](#227-sciencedirectcom)
+1. [liputan6.com](#228-liputan6com)
+1. [zhihu.com](#229-zhihucom)
+1. [huanqiu.com](#230-huanqiucom)
+1. [1337x.to](#231-1337xto)
+1. [irctc.co.in](#232-irctccoin)
+1. [hibids10.com](#233-hibids10com)
+1. [ladbible.com](#234-ladbiblecom)
+1. [exoclick.com](#235-exoclickcom)
+1. [mama.cn](#236-mamacn)
+1. [newsprofin.com](#237-newsprofincom)
+1. [metropcs.mobi](#238-metropcsmobi)
+1. [rambler.ru](#239-ramblerru)
+1. [amazon.it](#240-amazonit)
+1. [gamespot.com](#241-gamespotcom)
+1. [w3schools.com](#242-w3schoolscom)
+1. [cloudfront.net](#243-cloudfrontnet)
+1. [thewhizmarketing.com](#244-thewhizmarketingcom)
+1. [caijing.com.cn](#245-caijingcomcn)
+1. [bilibili.com](#246-bilibilicom)
+1. [speedtest.net](#247-speedtestnet)
+1. [eastday.com](#248-eastdaycom)
+1. [livejournal.com](#249-livejournalcom)
+1. [google.no](#250-googleno)
 
-## #1
+## #1google.com
 
-Site: google.com
 
 5 parsing errors:
 ```
@@ -357,9 +356,8 @@ Invalid value for `background-image`
     ------------------------^
 ```
 
-## #2
+## #2youtube.com
 
-Site: youtube.com
 
 4 parsing errors:
 ```
@@ -407,11 +405,11 @@ Invalid value for `background-image`
     ------------------------^
 ```
 
-## #3
+## #3facebook.com
 
-Site: facebook.com
 
 No parse errors
+
 3 syntax errors:
 ```
 Invalid value for `font`
@@ -425,16 +423,15 @@ Invalid value for `align-items`
     --------^
 ```
 
-## #4
-
-Site: baidu.com
+## #4baidu.com
 
 
-## #5
 
-Site: wikipedia.org
+## #5wikipedia.org
+
 
 No parse errors
+
 1 syntax error:
 ```
 Invalid value for `-moz-appearance`
@@ -442,9 +439,8 @@ Invalid value for `-moz-appearance`
     --------^
 ```
 
-## #6
+## #6reddit.com
 
-Site: reddit.com
 
 8 parsing errors:
 ```
@@ -511,9 +507,8 @@ Invalid value for `box-sizing`
     --------^
 ```
 
-## #7
+## #7yahoo.com
 
-Site: yahoo.com
 
 40 parsing errors:
 ```
@@ -693,9 +688,8 @@ Invalid value for `perspective`
     --------^
 ```
 
-## #8
+## #8qq.com
 
-Site: qq.com
 
 35 parsing errors:
 ```
@@ -810,9 +804,8 @@ Unexpected input
 Node has no children × 35
 ```
 
-## #9
+## #9taobao.com
 
-Site: taobao.com
 
 8 parsing errors:
 ```
@@ -864,9 +857,8 @@ The rest part of value can't be matched to `background` grammar
     ---------------------------------------------------------------------------…
 ```
 
-## #10
+## #10tmall.com
 
-Site: tmall.com
 
 22 parsing errors:
 ```
@@ -951,9 +943,8 @@ Invalid value for `text-justify`
     --------^
 ```
 
-## #11
+## #11twitter.com
 
-Site: twitter.com
 
 5 parsing errors:
 ```
@@ -985,9 +976,8 @@ Invalid value for `-moz-box-flex`
 Node has no children × 5
 ```
 
-## #12
+## #12amazon.com
 
-Site: amazon.com
 
 13 parsing errors:
 ```
@@ -1093,9 +1083,8 @@ Invalid value for `background-image`
     ---------------------------^
 ```
 
-## #13
+## #13google.co.in
 
-Site: google.co.in
 
 5 parsing errors:
 ```
@@ -1199,9 +1188,8 @@ Invalid value for `background-image`
     ------------------------^
 ```
 
-## #14
+## #14vk.com
 
-Site: vk.com
 
 77 parsing errors:
 ```
@@ -1451,9 +1439,8 @@ Invalid value for `width`
     --------^
 ```
 
-## #15
+## #15instagram.com
 
-Site: instagram.com
 
 2 parsing errors:
 ```
@@ -1502,9 +1489,8 @@ Invalid value for `margin-bottom`
 Node has no children
 ```
 
-## #16
+## #16sohu.com
 
-Site: sohu.com
 
 22 parsing errors:
 ```
@@ -1592,9 +1578,8 @@ The rest part of value can't be matched to `-webkit-transition` grammar
     --------------------------^
 ```
 
-## #17
+## #17jd.com
 
-Site: jd.com
 
 1parsing error:
 ```
@@ -1607,19 +1592,16 @@ RightParenthesis is expected
 Node has no children
 ```
 
-## #18
-
-Site: live.com
+## #18live.com
 
 
-## #19
 
-Site: sina.com.cn
+## #19sina.com.cn
 
 
-## #20
 
-Site: weibo.com
+## #20weibo.com
+
 
 9 parsing errors:
 ```
@@ -1692,9 +1674,8 @@ Invalid value for `right` × 2
     --------^
 ```
 
-## #21
+## #21360.cn
 
-Site: 360.cn
 
 5 parsing errors:
 ```
@@ -1728,11 +1709,11 @@ Invalid value for `width`
     --------^
 ```
 
-## #22
+## #22yandex.ru
 
-Site: yandex.ru
 
 No parse errors
+
 7 syntax errors:
 ```
 Invalid value for `-ms-grid-row-align`
@@ -1756,11 +1737,11 @@ The rest part of value can't be matched to `transition-property` grammar
     -------------------------^
 ```
 
-## #23
+## #23netflix.com
 
-Site: netflix.com
 
 No parse errors
+
 3 syntax errors:
 ```
 Unknown property `-webkit-margin-before`
@@ -1768,9 +1749,8 @@ Unknown property `-webkit-margin-after`
 Unknown property `min-font-size`
 ```
 
-## #24
+## #24twitch.tv
 
-Site: twitch.tv
 
 1parsing error:
 ```
@@ -1805,9 +1785,8 @@ Invalid value for `overflow-x`
     --------^
 ```
 
-## #25
+## #25login.tmall.com
 
-Site: login.tmall.com
 
 7 parsing errors:
 ```
@@ -1842,9 +1821,8 @@ Invalid value for `filter`
 Unknown property `*diplay`
 ```
 
-## #26
+## #26pornhub.com
 
-Site: pornhub.com
 
 1parsing error:
 ```
@@ -1921,9 +1899,8 @@ Invalid value for `-o-transform`
     --------^
 ```
 
-## #27
+## #27google.ru
 
-Site: google.ru
 
 5 parsing errors:
 ```
@@ -2027,115 +2004,8 @@ Invalid value for `background-image`
     ------------------------^
 ```
 
-## #28
+## #28google.co.uk
 
-Site: google.co.uk
-
-5 parsing errors:
-```
-Unexpected input
-    3 |…);filter:progid:DXImageTrans…
------------------------^
-Unexpected input
-    3 |…);filter:progid:DXImageTrans…
------------------------^
-Unexpected input
-    3 |…);filter:progid:DXImageTrans…
------------------------^
-Unexpected input
-   30 |…t;filter:progid:DXImageTrans…
------------------------^
-Unexpected input
-   30 |…);filter:progid:DXImageTrans…
------------------------^
-```
-28 syntax errors:
-```
-Invalid value for `unicode-bidi`
-     value: -webkit-isolate-override
-    --------^
-Invalid value for `background-image`
-     value: linear-gradient(top,#4d90fe,#4787ed)
-    ------------------------^
-Invalid value for `background-image`
-     value: linear-gradient(top,#4d90fe,#357ae8)
-    ------------------------^
-Invalid value for `background-image`
-     value: linear-gradient(top,#dd4b39,#d14836)
-    ------------------------^
-Invalid value for `background-image`
-     value: linear-gradient(top,#dd4b39,#c53727)
-    ------------------------^
-Invalid value for `background-image`
-     value: linear-gradient(top,#dd4b39,#b0281a)
-    ------------------------^
-Invalid value for `background-image`
-     value: linear-gradient(top,#3d9400,#398a00)
-    ------------------------^
-Invalid value for `background-image`
-     value: linear-gradient(top,#3d9400,#368200)
-    ------------------------^
-Invalid value for `background-image`
-     value: linear-gradient(top,#f5f5f5,#f1f1f1)
-    ------------------------^
-Invalid value for `background-image` × 2
-     value: linear-gradient(top,#f8f8f8,#f1f1f1)
-    ------------------------^
-The rest part of value can't be matched to `-webkit-flex` grammar × 3
-     value: 0 1 main-size
-    ------------^
-The rest part of value can't be matched to `flex` grammar × 3
-     value: 0 1 main-size
-    ------------^
-Invalid value for `background-image`
-     value: linear-gradient(top,#fff,#f8f8f8)
-    ------------------------^
-Node has no children × 5
-Invalid value for `background-image`
-     value: -webkit-image-set(url('//ssl.gstatic.com/gb/images/a/f5cdd88b65.png…
-    --------^
-Invalid value for `background`
-     value: linear-gradient(top,#4387fd,#4683ea)
-    ------------------------^
-Invalid value for `background`
-     value: linear-gradient(top,#3c7ae4,#3f76d3)
-    ------------------------^
-The rest part of value can't be matched to `-webkit-flex` grammar × 2
-     value: 0 0 main-size
-    ------------^
-The rest part of value can't be matched to `flex` grammar × 2
-     value: 0 0 main-size
-    ------------^
-The rest part of value can't be matched to `-webkit-flex` grammar
-     value: 1 1 main-size
-    ------------^
-The rest part of value can't be matched to `flex` grammar
-     value: 1 1 main-size
-    ------------^
-The rest part of value can't be matched to `-webkit-box-flex` grammar
-     value: 0 0 auto
-    ----------^
-The rest part of value can't be matched to `padding-top` grammar
-     value: 1px 0 2px 0
-    -----------------^
-Invalid value for `transition-delay` × 3
-     value: 0
-    --------^
-The rest part of value can't be matched to `animation` grammar
-     value: allow-alert .75s 0 infinite
-    ---------------------------^
-Unknown property `tap-highlight-color`
-Invalid value for `background-image`
-     value: linear-gradient(top,rgba(0,0,0,0.16),rgba(0,0,0,0.2))
-    ------------------------^
-Invalid value for `background-image`
-     value: linear-gradient(top,rgba(0,0,0,0.14),rgba(0,0,0,0.2))
-    ------------------------^
-```
-
-## #29
-
-Site: google.com.br
 
 5 parsing errors:
 ```
@@ -2239,115 +2109,8 @@ Invalid value for `background-image`
     ------------------------^
 ```
 
-## #30
+## #29google.com.br
 
-Site: google.com.hk
-
-5 parsing errors:
-```
-Unexpected input
-    3 |…);filter:progid:DXImageTrans…
------------------------^
-Unexpected input
-    3 |…);filter:progid:DXImageTrans…
------------------------^
-Unexpected input
-    3 |…);filter:progid:DXImageTrans…
------------------------^
-Unexpected input
-   30 |…t;filter:progid:DXImageTrans…
------------------------^
-Unexpected input
-   30 |…);filter:progid:DXImageTrans…
------------------------^
-```
-28 syntax errors:
-```
-Invalid value for `unicode-bidi`
-     value: -webkit-isolate-override
-    --------^
-Invalid value for `background-image`
-     value: linear-gradient(top,#4d90fe,#4787ed)
-    ------------------------^
-Invalid value for `background-image`
-     value: linear-gradient(top,#4d90fe,#357ae8)
-    ------------------------^
-Invalid value for `background-image`
-     value: linear-gradient(top,#dd4b39,#d14836)
-    ------------------------^
-Invalid value for `background-image`
-     value: linear-gradient(top,#dd4b39,#c53727)
-    ------------------------^
-Invalid value for `background-image`
-     value: linear-gradient(top,#dd4b39,#b0281a)
-    ------------------------^
-Invalid value for `background-image`
-     value: linear-gradient(top,#3d9400,#398a00)
-    ------------------------^
-Invalid value for `background-image`
-     value: linear-gradient(top,#3d9400,#368200)
-    ------------------------^
-Invalid value for `background-image`
-     value: linear-gradient(top,#f5f5f5,#f1f1f1)
-    ------------------------^
-Invalid value for `background-image` × 2
-     value: linear-gradient(top,#f8f8f8,#f1f1f1)
-    ------------------------^
-The rest part of value can't be matched to `-webkit-flex` grammar × 3
-     value: 0 1 main-size
-    ------------^
-The rest part of value can't be matched to `flex` grammar × 3
-     value: 0 1 main-size
-    ------------^
-Invalid value for `background-image`
-     value: linear-gradient(top,#fff,#f8f8f8)
-    ------------------------^
-Node has no children × 5
-Invalid value for `background-image`
-     value: -webkit-image-set(url('//ssl.gstatic.com/gb/images/a/f5cdd88b65.png…
-    --------^
-Invalid value for `background`
-     value: linear-gradient(top,#4387fd,#4683ea)
-    ------------------------^
-Invalid value for `background`
-     value: linear-gradient(top,#3c7ae4,#3f76d3)
-    ------------------------^
-The rest part of value can't be matched to `-webkit-flex` grammar × 2
-     value: 0 0 main-size
-    ------------^
-The rest part of value can't be matched to `flex` grammar × 2
-     value: 0 0 main-size
-    ------------^
-The rest part of value can't be matched to `-webkit-flex` grammar
-     value: 1 1 main-size
-    ------------^
-The rest part of value can't be matched to `flex` grammar
-     value: 1 1 main-size
-    ------------^
-The rest part of value can't be matched to `-webkit-box-flex` grammar
-     value: 0 0 auto
-    ----------^
-The rest part of value can't be matched to `padding-top` grammar
-     value: 1px 0 2px 0
-    -----------------^
-Invalid value for `transition-delay` × 3
-     value: 0
-    --------^
-The rest part of value can't be matched to `animation` grammar
-     value: allow-alert .75s 0 infinite
-    ---------------------------^
-Unknown property `tap-highlight-color`
-Invalid value for `background-image`
-     value: linear-gradient(top,rgba(0,0,0,0.16),rgba(0,0,0,0.2))
-    ------------------------^
-Invalid value for `background-image`
-     value: linear-gradient(top,rgba(0,0,0,0.14),rgba(0,0,0,0.2))
-    ------------------------^
-```
-
-## #31
-
-Site: google.de
 
 5 parsing errors:
 ```
@@ -2451,115 +2214,8 @@ Invalid value for `background-image`
     ------------------------^
 ```
 
-## #32
+## #30google.com.hk
 
-Site: google.co.jp
-
-5 parsing errors:
-```
-Unexpected input
-    3 |…);filter:progid:DXImageTrans…
------------------------^
-Unexpected input
-    3 |…);filter:progid:DXImageTrans…
------------------------^
-Unexpected input
-    3 |…);filter:progid:DXImageTrans…
------------------------^
-Unexpected input
-   30 |…t;filter:progid:DXImageTrans…
------------------------^
-Unexpected input
-   30 |…);filter:progid:DXImageTrans…
------------------------^
-```
-28 syntax errors:
-```
-Invalid value for `unicode-bidi`
-     value: -webkit-isolate-override
-    --------^
-Invalid value for `background-image`
-     value: linear-gradient(top,#4d90fe,#4787ed)
-    ------------------------^
-Invalid value for `background-image`
-     value: linear-gradient(top,#4d90fe,#357ae8)
-    ------------------------^
-Invalid value for `background-image`
-     value: linear-gradient(top,#dd4b39,#d14836)
-    ------------------------^
-Invalid value for `background-image`
-     value: linear-gradient(top,#dd4b39,#c53727)
-    ------------------------^
-Invalid value for `background-image`
-     value: linear-gradient(top,#dd4b39,#b0281a)
-    ------------------------^
-Invalid value for `background-image`
-     value: linear-gradient(top,#3d9400,#398a00)
-    ------------------------^
-Invalid value for `background-image`
-     value: linear-gradient(top,#3d9400,#368200)
-    ------------------------^
-Invalid value for `background-image`
-     value: linear-gradient(top,#f5f5f5,#f1f1f1)
-    ------------------------^
-Invalid value for `background-image` × 2
-     value: linear-gradient(top,#f8f8f8,#f1f1f1)
-    ------------------------^
-The rest part of value can't be matched to `-webkit-flex` grammar × 3
-     value: 0 1 main-size
-    ------------^
-The rest part of value can't be matched to `flex` grammar × 3
-     value: 0 1 main-size
-    ------------^
-Invalid value for `background-image`
-     value: linear-gradient(top,#fff,#f8f8f8)
-    ------------------------^
-Node has no children × 5
-Invalid value for `background-image`
-     value: -webkit-image-set(url('//ssl.gstatic.com/gb/images/a/f5cdd88b65.png…
-    --------^
-Invalid value for `background`
-     value: linear-gradient(top,#4387fd,#4683ea)
-    ------------------------^
-Invalid value for `background`
-     value: linear-gradient(top,#3c7ae4,#3f76d3)
-    ------------------------^
-The rest part of value can't be matched to `-webkit-flex` grammar × 2
-     value: 0 0 main-size
-    ------------^
-The rest part of value can't be matched to `flex` grammar × 2
-     value: 0 0 main-size
-    ------------^
-The rest part of value can't be matched to `-webkit-flex` grammar
-     value: 1 1 main-size
-    ------------^
-The rest part of value can't be matched to `flex` grammar
-     value: 1 1 main-size
-    ------------^
-The rest part of value can't be matched to `-webkit-box-flex` grammar
-     value: 0 0 auto
-    ----------^
-The rest part of value can't be matched to `padding-top` grammar
-     value: 1px 0 2px 0
-    -----------------^
-Invalid value for `transition-delay` × 3
-     value: 0
-    --------^
-The rest part of value can't be matched to `animation` grammar
-     value: allow-alert .75s 0 infinite
-    ---------------------------^
-Unknown property `tap-highlight-color`
-Invalid value for `background-image`
-     value: linear-gradient(top,rgba(0,0,0,0.16),rgba(0,0,0,0.2))
-    ------------------------^
-Invalid value for `background-image`
-     value: linear-gradient(top,rgba(0,0,0,0.14),rgba(0,0,0,0.2))
-    ------------------------^
-```
-
-## #33
-
-Site: google.fr
 
 5 parsing errors:
 ```
@@ -2663,9 +2319,323 @@ Invalid value for `background-image`
     ------------------------^
 ```
 
-## #34
+## #31google.de
 
-Site: yahoo.co.jp
+
+5 parsing errors:
+```
+Unexpected input
+    3 |…);filter:progid:DXImageTrans…
+-----------------------^
+Unexpected input
+    3 |…);filter:progid:DXImageTrans…
+-----------------------^
+Unexpected input
+    3 |…);filter:progid:DXImageTrans…
+-----------------------^
+Unexpected input
+   30 |…t;filter:progid:DXImageTrans…
+-----------------------^
+Unexpected input
+   30 |…);filter:progid:DXImageTrans…
+-----------------------^
+```
+28 syntax errors:
+```
+Invalid value for `unicode-bidi`
+     value: -webkit-isolate-override
+    --------^
+Invalid value for `background-image`
+     value: linear-gradient(top,#4d90fe,#4787ed)
+    ------------------------^
+Invalid value for `background-image`
+     value: linear-gradient(top,#4d90fe,#357ae8)
+    ------------------------^
+Invalid value for `background-image`
+     value: linear-gradient(top,#dd4b39,#d14836)
+    ------------------------^
+Invalid value for `background-image`
+     value: linear-gradient(top,#dd4b39,#c53727)
+    ------------------------^
+Invalid value for `background-image`
+     value: linear-gradient(top,#dd4b39,#b0281a)
+    ------------------------^
+Invalid value for `background-image`
+     value: linear-gradient(top,#3d9400,#398a00)
+    ------------------------^
+Invalid value for `background-image`
+     value: linear-gradient(top,#3d9400,#368200)
+    ------------------------^
+Invalid value for `background-image`
+     value: linear-gradient(top,#f5f5f5,#f1f1f1)
+    ------------------------^
+Invalid value for `background-image` × 2
+     value: linear-gradient(top,#f8f8f8,#f1f1f1)
+    ------------------------^
+The rest part of value can't be matched to `-webkit-flex` grammar × 3
+     value: 0 1 main-size
+    ------------^
+The rest part of value can't be matched to `flex` grammar × 3
+     value: 0 1 main-size
+    ------------^
+Invalid value for `background-image`
+     value: linear-gradient(top,#fff,#f8f8f8)
+    ------------------------^
+Node has no children × 5
+Invalid value for `background-image`
+     value: -webkit-image-set(url('//ssl.gstatic.com/gb/images/a/f5cdd88b65.png…
+    --------^
+Invalid value for `background`
+     value: linear-gradient(top,#4387fd,#4683ea)
+    ------------------------^
+Invalid value for `background`
+     value: linear-gradient(top,#3c7ae4,#3f76d3)
+    ------------------------^
+The rest part of value can't be matched to `-webkit-flex` grammar × 2
+     value: 0 0 main-size
+    ------------^
+The rest part of value can't be matched to `flex` grammar × 2
+     value: 0 0 main-size
+    ------------^
+The rest part of value can't be matched to `-webkit-flex` grammar
+     value: 1 1 main-size
+    ------------^
+The rest part of value can't be matched to `flex` grammar
+     value: 1 1 main-size
+    ------------^
+The rest part of value can't be matched to `-webkit-box-flex` grammar
+     value: 0 0 auto
+    ----------^
+The rest part of value can't be matched to `padding-top` grammar
+     value: 1px 0 2px 0
+    -----------------^
+Invalid value for `transition-delay` × 3
+     value: 0
+    --------^
+The rest part of value can't be matched to `animation` grammar
+     value: allow-alert .75s 0 infinite
+    ---------------------------^
+Unknown property `tap-highlight-color`
+Invalid value for `background-image`
+     value: linear-gradient(top,rgba(0,0,0,0.16),rgba(0,0,0,0.2))
+    ------------------------^
+Invalid value for `background-image`
+     value: linear-gradient(top,rgba(0,0,0,0.14),rgba(0,0,0,0.2))
+    ------------------------^
+```
+
+## #32google.co.jp
+
+
+5 parsing errors:
+```
+Unexpected input
+    3 |…);filter:progid:DXImageTrans…
+-----------------------^
+Unexpected input
+    3 |…);filter:progid:DXImageTrans…
+-----------------------^
+Unexpected input
+    3 |…);filter:progid:DXImageTrans…
+-----------------------^
+Unexpected input
+   30 |…t;filter:progid:DXImageTrans…
+-----------------------^
+Unexpected input
+   30 |…);filter:progid:DXImageTrans…
+-----------------------^
+```
+28 syntax errors:
+```
+Invalid value for `unicode-bidi`
+     value: -webkit-isolate-override
+    --------^
+Invalid value for `background-image`
+     value: linear-gradient(top,#4d90fe,#4787ed)
+    ------------------------^
+Invalid value for `background-image`
+     value: linear-gradient(top,#4d90fe,#357ae8)
+    ------------------------^
+Invalid value for `background-image`
+     value: linear-gradient(top,#dd4b39,#d14836)
+    ------------------------^
+Invalid value for `background-image`
+     value: linear-gradient(top,#dd4b39,#c53727)
+    ------------------------^
+Invalid value for `background-image`
+     value: linear-gradient(top,#dd4b39,#b0281a)
+    ------------------------^
+Invalid value for `background-image`
+     value: linear-gradient(top,#3d9400,#398a00)
+    ------------------------^
+Invalid value for `background-image`
+     value: linear-gradient(top,#3d9400,#368200)
+    ------------------------^
+Invalid value for `background-image`
+     value: linear-gradient(top,#f5f5f5,#f1f1f1)
+    ------------------------^
+Invalid value for `background-image` × 2
+     value: linear-gradient(top,#f8f8f8,#f1f1f1)
+    ------------------------^
+The rest part of value can't be matched to `-webkit-flex` grammar × 3
+     value: 0 1 main-size
+    ------------^
+The rest part of value can't be matched to `flex` grammar × 3
+     value: 0 1 main-size
+    ------------^
+Invalid value for `background-image`
+     value: linear-gradient(top,#fff,#f8f8f8)
+    ------------------------^
+Node has no children × 5
+Invalid value for `background-image`
+     value: -webkit-image-set(url('//ssl.gstatic.com/gb/images/a/f5cdd88b65.png…
+    --------^
+Invalid value for `background`
+     value: linear-gradient(top,#4387fd,#4683ea)
+    ------------------------^
+Invalid value for `background`
+     value: linear-gradient(top,#3c7ae4,#3f76d3)
+    ------------------------^
+The rest part of value can't be matched to `-webkit-flex` grammar × 2
+     value: 0 0 main-size
+    ------------^
+The rest part of value can't be matched to `flex` grammar × 2
+     value: 0 0 main-size
+    ------------^
+The rest part of value can't be matched to `-webkit-flex` grammar
+     value: 1 1 main-size
+    ------------^
+The rest part of value can't be matched to `flex` grammar
+     value: 1 1 main-size
+    ------------^
+The rest part of value can't be matched to `-webkit-box-flex` grammar
+     value: 0 0 auto
+    ----------^
+The rest part of value can't be matched to `padding-top` grammar
+     value: 1px 0 2px 0
+    -----------------^
+Invalid value for `transition-delay` × 3
+     value: 0
+    --------^
+The rest part of value can't be matched to `animation` grammar
+     value: allow-alert .75s 0 infinite
+    ---------------------------^
+Unknown property `tap-highlight-color`
+Invalid value for `background-image`
+     value: linear-gradient(top,rgba(0,0,0,0.16),rgba(0,0,0,0.2))
+    ------------------------^
+Invalid value for `background-image`
+     value: linear-gradient(top,rgba(0,0,0,0.14),rgba(0,0,0,0.2))
+    ------------------------^
+```
+
+## #33google.fr
+
+
+5 parsing errors:
+```
+Unexpected input
+    3 |…);filter:progid:DXImageTrans…
+-----------------------^
+Unexpected input
+    3 |…);filter:progid:DXImageTrans…
+-----------------------^
+Unexpected input
+    3 |…);filter:progid:DXImageTrans…
+-----------------------^
+Unexpected input
+   30 |…t;filter:progid:DXImageTrans…
+-----------------------^
+Unexpected input
+   30 |…);filter:progid:DXImageTrans…
+-----------------------^
+```
+28 syntax errors:
+```
+Invalid value for `unicode-bidi`
+     value: -webkit-isolate-override
+    --------^
+Invalid value for `background-image`
+     value: linear-gradient(top,#4d90fe,#4787ed)
+    ------------------------^
+Invalid value for `background-image`
+     value: linear-gradient(top,#4d90fe,#357ae8)
+    ------------------------^
+Invalid value for `background-image`
+     value: linear-gradient(top,#dd4b39,#d14836)
+    ------------------------^
+Invalid value for `background-image`
+     value: linear-gradient(top,#dd4b39,#c53727)
+    ------------------------^
+Invalid value for `background-image`
+     value: linear-gradient(top,#dd4b39,#b0281a)
+    ------------------------^
+Invalid value for `background-image`
+     value: linear-gradient(top,#3d9400,#398a00)
+    ------------------------^
+Invalid value for `background-image`
+     value: linear-gradient(top,#3d9400,#368200)
+    ------------------------^
+Invalid value for `background-image`
+     value: linear-gradient(top,#f5f5f5,#f1f1f1)
+    ------------------------^
+Invalid value for `background-image` × 2
+     value: linear-gradient(top,#f8f8f8,#f1f1f1)
+    ------------------------^
+The rest part of value can't be matched to `-webkit-flex` grammar × 3
+     value: 0 1 main-size
+    ------------^
+The rest part of value can't be matched to `flex` grammar × 3
+     value: 0 1 main-size
+    ------------^
+Invalid value for `background-image`
+     value: linear-gradient(top,#fff,#f8f8f8)
+    ------------------------^
+Node has no children × 5
+Invalid value for `background-image`
+     value: -webkit-image-set(url('//ssl.gstatic.com/gb/images/a/f5cdd88b65.png…
+    --------^
+Invalid value for `background`
+     value: linear-gradient(top,#4387fd,#4683ea)
+    ------------------------^
+Invalid value for `background`
+     value: linear-gradient(top,#3c7ae4,#3f76d3)
+    ------------------------^
+The rest part of value can't be matched to `-webkit-flex` grammar × 2
+     value: 0 0 main-size
+    ------------^
+The rest part of value can't be matched to `flex` grammar × 2
+     value: 0 0 main-size
+    ------------^
+The rest part of value can't be matched to `-webkit-flex` grammar
+     value: 1 1 main-size
+    ------------^
+The rest part of value can't be matched to `flex` grammar
+     value: 1 1 main-size
+    ------------^
+The rest part of value can't be matched to `-webkit-box-flex` grammar
+     value: 0 0 auto
+    ----------^
+The rest part of value can't be matched to `padding-top` grammar
+     value: 1px 0 2px 0
+    -----------------^
+Invalid value for `transition-delay` × 3
+     value: 0
+    --------^
+The rest part of value can't be matched to `animation` grammar
+     value: allow-alert .75s 0 infinite
+    ---------------------------^
+Unknown property `tap-highlight-color`
+Invalid value for `background-image`
+     value: linear-gradient(top,rgba(0,0,0,0.16),rgba(0,0,0,0.2))
+    ------------------------^
+Invalid value for `background-image`
+     value: linear-gradient(top,rgba(0,0,0,0.14),rgba(0,0,0,0.2))
+    ------------------------^
+```
+
+## #34yahoo.co.jp
+
 
 4 parsing errors:
 ```
@@ -2704,9 +2674,8 @@ The rest part of value can't be matched to `width` grammar
 Lexer matching doesn't applicable for custom properties × 2
 ```
 
-## #35
+## #35bing.com
 
-Site: bing.com
 
 14 parsing errors:
 ```
@@ -2759,9 +2728,8 @@ Node has no children × 14
 Unknown property `a`
 ```
 
-## #36
+## #36ebay.com
 
-Site: ebay.com
 
 30 parsing errors:
 ```
@@ -2924,9 +2892,8 @@ The rest part of value can't be matched to `transition` grammar
     -------------------^
 ```
 
-## #37
+## #37xvideos.com
 
-Site: xvideos.com
 
 7 parsing errors:
 ```
@@ -2969,16 +2936,16 @@ Invalid value for `-moz-background-clip`
     --------^
 ```
 
-## #38
+## #38t.co
 
-Site: t.co
 
 No parse errors
+
 No validation warnings
 
-## #39
 
-Site: imgur.com
+## #39imgur.com
+
 
 33 parsing errors:
 ```
@@ -3123,16 +3090,16 @@ Invalid value for `background`
     ------------------------^
 ```
 
-## #40
+## #40alipay.com
 
-Site: alipay.com
 
 No parse errors
+
 No validation warnings
 
-## #41
 
-Site: csdn.net
+## #41csdn.net
+
 
 14 parsing errors:
 ```
@@ -3200,9 +3167,8 @@ Invalid value for `-webkit-box-pack`
 Unknown property `ms-transform`
 ```
 
-## #42
+## #42ok.ru
 
-Site: ok.ru
 
 2 parsing errors:
 ```
@@ -3241,9 +3207,8 @@ Unknown property `scrollbar-3dlight-color`
 Unknown property `scrollbar-darkshadow-Color`
 ```
 
-## #43
+## #43wikia.com
 
-Site: wikia.com
 
 2 parsing errors:
 ```
@@ -3277,9 +3242,8 @@ Invalid value for `background-image`
     ---------------------------------------------------------------------------…
 ```
 
-## #44
+## #44google.it
 
-Site: google.it
 
 5 parsing errors:
 ```
@@ -3383,9 +3347,8 @@ Invalid value for `background-image`
     ------------------------^
 ```
 
-## #45
+## #45microsoft.com
 
-Site: microsoft.com
 
 1parsing error:
 ```
@@ -3469,9 +3432,8 @@ The rest part of value can't be matched to `background-color` grammar
 Unknown property `background-color-color`
 ```
 
-## #46
+## #46google.ca
 
-Site: google.ca
 
 5 parsing errors:
 ```
@@ -3575,9 +3537,8 @@ Invalid value for `background-image`
     ------------------------^
 ```
 
-## #47
+## #47pages.tmall.com
 
-Site: pages.tmall.com
 
 4 parsing errors:
 ```
@@ -3603,9 +3564,8 @@ Invalid value for `filter`
     --------^
 ```
 
-## #48
+## #48imdb.com
 
-Site: imdb.com
 
 21 parsing errors:
 ```
@@ -3743,9 +3703,8 @@ Invalid value for `background`
     ------------------------^
 ```
 
-## #49
+## #49mail.ru
 
-Site: mail.ru
 
 7 parsing errors:
 ```
@@ -3806,9 +3765,8 @@ The rest part of value can't be matched to `line-height` grammar
     ------------^
 ```
 
-## #50
+## #50tumblr.com
 
-Site: tumblr.com
 
 10 parsing errors:
 ```
@@ -3896,9 +3854,8 @@ The rest part of value can't be matched to `line-height` grammar
     ------------------------^
 ```
 
-## #51
+## #51aliexpress.com
 
-Site: aliexpress.com
 
 55 parsing errors:
 ```
@@ -4170,9 +4127,8 @@ Invalid value for `-webkit-perspective` × 2
     --------^
 ```
 
-## #52
+## #52google.es
 
-Site: google.es
 
 5 parsing errors:
 ```
@@ -4276,16 +4232,15 @@ Invalid value for `background-image`
     ------------------------^
 ```
 
-## #53
-
-Site: xhamster.com
+## #53xhamster.com
 
 
-## #54
 
-Site: msn.com
+## #54msn.com
+
 
 No parse errors
+
 5 syntax errors:
 ```
 Invalid value for `color` × 2
@@ -4305,21 +4260,20 @@ Invalid value for `background` × 2
     --------------------------------^
 ```
 
-## #55
-
-Site: linkedin.com
+## #55linkedin.com
 
 
-## #56
 
-Site: deloton.com
+## #56deloton.com
+
 
 No parse errors
+
 No validation warnings
 
-## #57
 
-Site: google.com.mx
+## #57google.com.mx
+
 
 5 parsing errors:
 ```
@@ -4423,9 +4377,8 @@ Invalid value for `background-image`
     ------------------------^
 ```
 
-## #58
+## #58amazon.co.jp
 
-Site: amazon.co.jp
 
 11 parsing errors:
 ```
@@ -4525,16 +4478,16 @@ Invalid value for `background`
     ------------------------^
 ```
 
-## #59
+## #59popads.net
 
-Site: popads.net
 
 No parse errors
+
 No validation warnings
 
-## #60
 
-Site: hao123.com
+## #60hao123.com
+
 
 23 parsing errors:
 ```
@@ -4616,9 +4569,8 @@ Invalid value for `line-height`
     --------^
 ```
 
-## #61
+## #61wordpress.com
 
-Site: wordpress.com
 
 2 parsing errors:
 ```
@@ -4651,11 +4603,11 @@ Invalid value for `left`
     --------^
 ```
 
-## #62
+## #62office.com
 
-Site: office.com
 
 No parse errors
+
 3 syntax errors:
 ```
 Invalid value for `-ms-filter`
@@ -4667,11 +4619,11 @@ The rest part of value can't be matched to `background-color` grammar
 Unknown property `background-color-color`
 ```
 
-## #63
+## #63whatsapp.com
 
-Site: whatsapp.com
 
 No parse errors
+
 10 syntax errors:
 ```
 Invalid value for `font`
@@ -4694,9 +4646,8 @@ Invalid value for `white-space` × 4
     --------^
 ```
 
-## #64
+## #64google.com.tw
 
-Site: google.com.tw
 
 5 parsing errors:
 ```
@@ -4800,9 +4751,8 @@ Invalid value for `background-image`
     ------------------------^
 ```
 
-## #65
+## #65google.com.tr
 
-Site: google.com.tr
 
 5 parsing errors:
 ```
@@ -4906,16 +4856,15 @@ Invalid value for `background-image`
     ------------------------^
 ```
 
-## #66
-
-Site: livejasmin.com
+## #66livejasmin.com
 
 
-## #67
 
-Site: blogspot.com
+## #67blogspot.com
+
 
 No parse errors
+
 11 syntax errors:
 ```
 Invalid value for `display` × 7
@@ -4951,9 +4900,8 @@ Invalid value for `transition-delay` × 2
     --------^
 ```
 
-## #68
+## #68bongacams.com
 
-Site: bongacams.com
 
 44 parsing errors:
 ```
@@ -5113,9 +5061,8 @@ Invalid value for `white-space`
     --------^
 ```
 
-## #69
+## #69google.com.au
 
-Site: google.com.au
 
 5 parsing errors:
 ```
@@ -5219,9 +5166,8 @@ Invalid value for `background-image`
     ------------------------^
 ```
 
-## #70
+## #70xnxx.com
 
-Site: xnxx.com
 
 7 parsing errors:
 ```
@@ -5258,9 +5204,8 @@ Invalid value for `color`
     --------^
 ```
 
-## #71
+## #71paypal.com
 
-Site: paypal.com
 
 7 parsing errors:
 ```
@@ -5308,16 +5253,15 @@ Invalid value for `-moz-background-clip`
     --------^
 ```
 
-## #72
-
-Site: microsoftonline.com
+## #72microsoftonline.com
 
 
-## #73
 
-Site: github.com
+## #73github.com
+
 
 No parse errors
+
 15 syntax errors:
 ```
 Invalid value for `background-color`
@@ -5367,11 +5311,11 @@ Invalid value for `border-color`
     --------^
 ```
 
-## #74
+## #74apple.com
 
-Site: apple.com
 
 No parse errors
+
 6 syntax errors:
 ```
 Unknown property `x-content` × 92
@@ -5390,9 +5334,8 @@ Invalid value for `transition-delay`
 Unknown property `alt` × 37
 ```
 
-## #75
+## #75tribunnews.com
 
-Site: tribunnews.com
 
 9 parsing errors:
 ```
@@ -5450,9 +5393,8 @@ Invalid value for `width` × 2
     --------^
 ```
 
-## #76
+## #76stackoverflow.com
 
-Site: stackoverflow.com
 
 1parsing error:
 ```
@@ -5492,9 +5434,8 @@ Invalid value for `display`
 Node has no children
 ```
 
-## #77
+## #77diply.com
 
-Site: diply.com
 
 2 parsing errors:
 ```
@@ -5511,9 +5452,8 @@ Node has no children
 Unknown property `-ms-grid-columns`
 ```
 
-## #78
+## #78savefrom.net
 
-Site: savefrom.net
 
 7 parsing errors:
 ```
@@ -5568,9 +5508,8 @@ Invalid value for `-ms-filter`
     --------^
 ```
 
-## #79
+## #79providr.com
 
-Site: providr.com
 
 8 parsing errors:
 ```
@@ -5621,9 +5560,8 @@ Unknown property `align-text`
 Unknown property `geight`
 ```
 
-## #80
+## #80pinterest.com
 
-Site: pinterest.com
 
 7 parsing errors:
 ```
@@ -5768,11 +5706,11 @@ The rest part of value can't be matched to `transition` grammar
     -------------^
 ```
 
-## #81
+## #81fbcdn.net
 
-Site: fbcdn.net
 
 No parse errors
+
 3 syntax errors:
 ```
 Invalid value for `font`
@@ -5786,11 +5724,11 @@ Invalid value for `align-items`
     --------^
 ```
 
-## #82
+## #82chaturbate.com
 
-Site: chaturbate.com
 
 No parse errors
+
 6 syntax errors:
 ```
 Invalid value for `filter`
@@ -5803,9 +5741,8 @@ Unknown property `-webkit-margin-end`
 Unknown property `-webkit-padding-start`
 ```
 
-## #83
+## #83google.pl
 
-Site: google.pl
 
 5 parsing errors:
 ```
@@ -5909,9 +5846,8 @@ Invalid value for `background-image`
     ------------------------^
 ```
 
-## #84
+## #84amazon.de
 
-Site: amazon.de
 
 11 parsing errors:
 ```
@@ -6011,14 +5947,12 @@ Invalid value for `background`
     ------------------------^
 ```
 
-## #85
-
-Site: youth.cn
+## #85youth.cn
 
 
-## #86
 
-Site: soso.com
+## #86soso.com
+
 
 15 parsing errors:
 ```
@@ -6149,9 +6083,8 @@ The rest part of value can't be matched to `outline` grammar
 Unknown property `hiehgt`
 ```
 
-## #87
+## #87txxx.com
 
-Site: txxx.com
 
 14 parsing errors:
 ```
@@ -6215,9 +6148,8 @@ Invalid value for `-webkit-perspective`
     --------^
 ```
 
-## #88
+## #88coccoc.com
 
-Site: coccoc.com
 
 6 parsing errors:
 ```
@@ -6269,14 +6201,12 @@ Invalid value for `background-image`
     ------------------------^
 ```
 
-## #89
-
-Site: google.co.id
+## #89google.co.id
 
 
-## #90
 
-Site: detail.tmall.com
+## #90detail.tmall.com
+
 
 4 parsing errors:
 ```
@@ -6302,9 +6232,8 @@ Invalid value for `filter`
     --------^
 ```
 
-## #91
+## #91k618.cn
 
-Site: k618.cn
 
 8 parsing errors:
 ```
@@ -6341,19 +6270,16 @@ Invalid value for `height` × 2
 Node has no children × 6
 ```
 
-## #92
-
-Site: pixnet.net
+## #92pixnet.net
 
 
-## #93
 
-Site: roblox.com
+## #93roblox.com
 
 
-## #94
 
-Site: adobe.com
+## #94adobe.com
+
 
 3 parsing errors:
 ```
@@ -6440,18 +6366,19 @@ Invalid value for `-ms-flex-pack`
     --------^
 ```
 
-## #95
+## #95thepiratebay.org
 
-Site: thepiratebay.org
 
 No parse errors
+
 No validation warnings
 
-## #96
 
-Site: thestartmagazine.com
+## #96thestartmagazine.com
+
 
 No parse errors
+
 11 syntax errors:
 ```
 The rest part of value can't be matched to `-webkit-animation` grammar
@@ -6483,14 +6410,12 @@ The rest part of value can't be matched to `content` grammar
     -------------------------------------^
 ```
 
-## #97
-
-Site: googleusercontent.com
+## #97googleusercontent.com
 
 
-## #98
 
-Site: bbc.com
+## #98bbc.com
+
 
 16 parsing errors:
 ```
@@ -6572,9 +6497,8 @@ Invalid value for `box-flex` × 23
     --------^
 ```
 
-## #99
+## #99google.com.ua
 
-Site: google.com.ua
 
 5 parsing errors:
 ```
@@ -6678,9 +6602,8 @@ Invalid value for `background-image`
     ------------------------^
 ```
 
-## #100
+## #100amazon.in
 
-Site: amazon.in
 
 11 parsing errors:
 ```
@@ -6780,9 +6703,8 @@ Invalid value for `background`
     ------------------------^
 ```
 
-## #101
+## #101nicovideo.jp
 
-Site: nicovideo.jp
 
 4 parsing errors:
 ```
@@ -6818,14 +6740,12 @@ Invalid value for `background` × 5
     ------------------------^
 ```
 
-## #102
-
-Site: dailymotion.com
+## #102dailymotion.com
 
 
-## #103
 
-Site: craigslist.org
+## #103craigslist.org
+
 
 14 parsing errors:
 ```
@@ -6883,9 +6803,8 @@ Invalid value for `font-style`
     --------^
 ```
 
-## #104
+## #104amazon.co.uk
 
-Site: amazon.co.uk
 
 11 parsing errors:
 ```
@@ -6985,14 +6904,12 @@ Invalid value for `background`
     ------------------------^
 ```
 
-## #105
-
-Site: google.com.ar
+## #105google.com.ar
 
 
-## #106
 
-Site: restorecosm.bid
+## #106restorecosm.bid
+
 
 14 parsing errors:
 ```
@@ -7159,9 +7076,8 @@ Invalid value for `font`
     --------^
 ```
 
-## #107
+## #107espn.com
 
-Site: espn.com
 
 310 parsing errors:
 ```
@@ -8204,11 +8120,11 @@ Invalid value for `text-decoration`
     --------^
 ```
 
-## #108
+## #108soundcloud.com
 
-Site: soundcloud.com
 
 No parse errors
+
 3 syntax errors:
 ```
 Invalid value for `-webkit-perspective`
@@ -8220,9 +8136,8 @@ Invalid value for `perspective`
 Lexer matching doesn't applicable for custom properties × 2
 ```
 
-## #109
+## #109bbc.co.uk
 
-Site: bbc.co.uk
 
 16 parsing errors:
 ```
@@ -8311,9 +8226,8 @@ Invalid value for `min-height`
     --------^
 ```
 
-## #110
+## #110google.co.th
 
-Site: google.co.th
 
 5 parsing errors:
 ```
@@ -8417,9 +8331,8 @@ Invalid value for `background-image`
     ------------------------^
 ```
 
-## #111
+## #111quora.com
 
-Site: quora.com
 
 11 parsing errors:
 ```
@@ -8679,9 +8592,8 @@ Invalid value for `overflow-y`
     --------^
 ```
 
-## #112
+## #112so.com
 
-Site: so.com
 
 6 parsing errors:
 ```
@@ -8748,9 +8660,8 @@ Invalid value for `background-image`
     --------^
 ```
 
-## #113
+## #113booking.com
 
-Site: booking.com
 
 48 parsing errors:
 ```
@@ -8999,9 +8910,8 @@ Invalid value for `border-color` × 3
     --------^
 ```
 
-## #114
+## #114dkn.tv
 
-Site: dkn.tv
 
 16 parsing errors:
 ```
@@ -9088,9 +8998,8 @@ The rest part of value can't be matched to `list-style` grammar
     ----------------^
 ```
 
-## #115
+## #115openload.co
 
-Site: openload.co
 
 17 parsing errors:
 ```
@@ -9154,9 +9063,8 @@ Invalid value for `width`
     --------^
 ```
 
-## #116
+## #116xinhuanet.com
 
-Site: xinhuanet.com
 
 32 parsing errors:
 ```
@@ -9272,9 +9180,8 @@ Invalid value for `width`
     --------^
 ```
 
-## #117
+## #117onlinesbi.com
 
-Site: onlinesbi.com
 
 4 parsing errors:
 ```
@@ -9306,9 +9213,8 @@ Invalid value for `top`
     --------^
 ```
 
-## #118
+## #118ask.com
 
-Site: ask.com
 
 9 parsing errors:
 ```
@@ -9342,9 +9248,9 @@ Semicolon or block is expected
 ```
 No validation warnings
 
-## #119
 
-Site: google.com.eg
+## #119google.com.eg
+
 
 5 parsing errors:
 ```
@@ -9448,9 +9354,8 @@ Invalid value for `background-image`
     ------------------------^
 ```
 
-## #120
+## #120dropbox.com
 
-Site: dropbox.com
 
 8 parsing errors:
 ```
@@ -9530,9 +9435,8 @@ Invalid value for `margin`
 Node has no children × 8
 ```
 
-## #121
+## #121google.com.sa
 
-Site: google.com.sa
 
 5 parsing errors:
 ```
@@ -9636,9 +9540,8 @@ Invalid value for `background-image`
     ------------------------^
 ```
 
-## #122
+## #122tokopedia.com
 
-Site: tokopedia.com
 
 36 parsing errors:
 ```
@@ -9895,9 +9798,8 @@ The rest part of value can't be matched to `transition` grammar
     ---------------------^
 ```
 
-## #123
+## #123discordapp.com
 
-Site: discordapp.com
 
 1parsing error:
 ```
@@ -9981,9 +9883,8 @@ Invalid value for `border-radius`
     --------^
 ```
 
-## #124
+## #124fc2.com
 
-Site: fc2.com
 
 3 parsing errors:
 ```
@@ -10011,9 +9912,8 @@ The rest part of value can't be matched to `background-repeat` grammar
     ---------------^
 ```
 
-## #125
+## #125google.com.pk
 
-Site: google.com.pk
 
 5 parsing errors:
 ```
@@ -10117,14 +10017,12 @@ Invalid value for `background-image`
     ------------------------^
 ```
 
-## #126
-
-Site: exdynsrv.com
+## #126exdynsrv.com
 
 
-## #127
 
-Site: nytimes.com
+## #127nytimes.com
+
 
 28 parsing errors:
 ```
@@ -10282,9 +10180,8 @@ Invalid value for `background-image`
     ------------------------^
 ```
 
-## #128
+## #128tianya.cn
 
-Site: tianya.cn
 
 11 parsing errors:
 ```
@@ -10330,9 +10227,8 @@ Invalid value for `vertical-align`
     --------^
 ```
 
-## #129
+## #129amazonaws.com
 
-Site: amazonaws.com
 
 61 parsing errors:
 ```
@@ -10564,14 +10460,12 @@ The rest part of value can't be matched to `box-shadow` grammar
     ------------------^
 ```
 
-## #130
-
-Site: theepochtimes.com
+## #130theepochtimes.com
 
 
-## #131
 
-Site: ebay.de
+## #131ebay.de
+
 
 16 parsing errors:
 ```
@@ -10669,9 +10563,8 @@ Invalid value for `background-color`
 Unknown property `font-display` × 2
 ```
 
-## #132
+## #132mediafire.com
 
-Site: mediafire.com
 
 43 parsing errors:
 ```
@@ -10938,9 +10831,8 @@ Invalid value for `background`
     --------------------------------^
 ```
 
-## #133
+## #133douyu.com
 
-Site: douyu.com
 
 46 parsing errors:
 ```
@@ -11135,14 +11027,12 @@ Invalid value for `*width`
 Unknown property `_png` × 6
 ```
 
-## #134
-
-Site: ettoday.net
+## #134ettoday.net
 
 
-## #135
 
-Site: ntd.tv
+## #135ntd.tv
+
 
 4 parsing errors:
 ```
@@ -11167,16 +11057,15 @@ Invalid value for `vertical-align` × 2
     --------^
 ```
 
-## #136
-
-Site: cnn.com
+## #136cnn.com
 
 
-## #137
 
-Site: spotify.com
+## #137spotify.com
+
 
 No parse errors
+
 6 syntax errors:
 ```
 The rest part of value can't be matched to `color` grammar × 3
@@ -11199,9 +11088,8 @@ Invalid value for `display` × 9
     --------^
 ```
 
-## #138
+## #138stackexchange.com
 
-Site: stackexchange.com
 
 3 parsing errors:
 ```
@@ -11244,14 +11132,12 @@ The rest part of value can't be matched to `content` grammar
     -----------------------------^
 ```
 
-## #139
-
-Site: rakuten.co.jp
+## #139rakuten.co.jp
 
 
-## #140
 
-Site: 1688.com
+## #1401688.com
+
 
 20 parsing errors:
 ```
@@ -11345,14 +11231,12 @@ Invalid value for `background-image`
     --------------------------------^
 ```
 
-## #141
-
-Site: aparat.com
+## #141aparat.com
 
 
-## #142
 
-Site: steamcommunity.com
+## #142steamcommunity.com
+
 
 11 parsing errors:
 ```
@@ -11395,18 +11279,19 @@ Unexpected input
 Node has no children × 6
 ```
 
-## #143
+## #143google.cn
 
-Site: google.cn
 
 No parse errors
+
 No validation warnings
 
-## #144
 
-Site: cnblogs.com
+## #144cnblogs.com
+
 
 No parse errors
+
 1 syntax error:
 ```
 Invalid value for `background`
@@ -11414,9 +11299,8 @@ Invalid value for `background`
     -----------------------------^
 ```
 
-## #145
+## #145deviantart.com
 
-Site: deviantart.com
 
 123 parsing errors:
 ```
@@ -12035,9 +11919,8 @@ Invalid value for `background`
     ------------------------^
 ```
 
-## #146
+## #146bet9ja.com
 
-Site: bet9ja.com
 
 9 parsing errors:
 ```
@@ -12074,9 +11957,8 @@ Unexpected input
 Node has no children × 9
 ```
 
-## #147
+## #147google.nl
 
-Site: google.nl
 
 5 parsing errors:
 ```
@@ -12180,9 +12062,8 @@ Invalid value for `background-image`
     ------------------------^
 ```
 
-## #148
+## #148avito.ru
 
-Site: avito.ru
 
 14 parsing errors:
 ```
@@ -12268,9 +12149,8 @@ Invalid value for `font-size`
 Unknown property `tap-highlight-color` × 2
 ```
 
-## #149
+## #149softonic.com
 
-Site: softonic.com
 
 2 parsing errors:
 ```
@@ -12316,9 +12196,8 @@ Invalid value for `overflow` × 2
     --------^
 ```
 
-## #150
+## #150google.co.za
 
-Site: google.co.za
 
 5 parsing errors:
 ```
@@ -12422,19 +12301,16 @@ Invalid value for `background-image`
     ------------------------^
 ```
 
-## #151
-
-Site: nextoptim.com
+## #151nextoptim.com
 
 
-## #152
 
-Site: detik.com
+## #152detik.com
 
 
-## #153
 
-Site: google.az
+## #153google.az
+
 
 5 parsing errors:
 ```
@@ -12538,11 +12414,11 @@ Invalid value for `background-image`
     ------------------------^
 ```
 
-## #154
+## #1544chan.org
 
-Site: 4chan.org
 
 No parse errors
+
 2 syntax errors:
 ```
 Invalid value for `*font`
@@ -12553,9 +12429,8 @@ Invalid value for `font`
     --------^
 ```
 
-## #155
+## #155ebay.co.uk
 
-Site: ebay.co.uk
 
 16 parsing errors:
 ```
@@ -12653,9 +12528,8 @@ The rest part of value can't be matched to `transition` grammar
     -------------------^
 ```
 
-## #156
+## #156hotmovs.com
 
-Site: hotmovs.com
 
 35 parsing errors:
 ```
@@ -12776,9 +12650,8 @@ Invalid value for `right`
     --------^
 ```
 
-## #157
+## #157vimeo.com
 
-Site: vimeo.com
 
 7 parsing errors:
 ```
@@ -12834,11 +12707,11 @@ Invalid value for `break-after`
     --------^
 ```
 
-## #158
+## #158theguardian.com
 
-Site: theguardian.com
 
 No parse errors
+
 21 syntax errors:
 ```
 The rest part of value can't be matched to `top` grammar
@@ -12906,16 +12779,16 @@ Invalid value for `color`
     --------^
 ```
 
-## #159
+## #159doublepimpssl.com
 
-Site: doublepimpssl.com
 
 No parse errors
+
 No validation warnings
 
-## #160
 
-Site: nih.gov
+## #160nih.gov
+
 
 24 parsing errors:
 ```
@@ -13019,9 +12892,8 @@ Invalid value for `background`
     ------------------------^
 ```
 
-## #161
+## #161oath.com
 
-Site: oath.com
 
 3 parsing errors:
 ```
@@ -13048,9 +12920,8 @@ Node has no children × 3
 Unknown property `font-smoothing` × 2
 ```
 
-## #162
+## #162chase.com
 
-Site: chase.com
 
 8 parsing errors:
 ```
@@ -13136,14 +13007,12 @@ Invalid value for `box-shadow` × 2
     --------^
 ```
 
-## #163
-
-Site: flipkart.com
+## #163flipkart.com
 
 
-## #164
 
-Site: dailymail.co.uk
+## #164dailymail.co.uk
+
 
 41 parsing errors:
 ```
@@ -13337,115 +13206,8 @@ Invalid value for `background-image`
     ------------------------^
 ```
 
-## #165
+## #165google.com.vn
 
-Site: google.com.vn
-
-5 parsing errors:
-```
-Unexpected input
-    3 |…);filter:progid:DXImageTrans…
------------------------^
-Unexpected input
-    3 |…);filter:progid:DXImageTrans…
------------------------^
-Unexpected input
-    3 |…);filter:progid:DXImageTrans…
------------------------^
-Unexpected input
-   30 |…t;filter:progid:DXImageTrans…
------------------------^
-Unexpected input
-   30 |…);filter:progid:DXImageTrans…
------------------------^
-```
-28 syntax errors:
-```
-Invalid value for `unicode-bidi`
-     value: -webkit-isolate-override
-    --------^
-Invalid value for `background-image`
-     value: linear-gradient(top,#4d90fe,#4787ed)
-    ------------------------^
-Invalid value for `background-image`
-     value: linear-gradient(top,#4d90fe,#357ae8)
-    ------------------------^
-Invalid value for `background-image`
-     value: linear-gradient(top,#dd4b39,#d14836)
-    ------------------------^
-Invalid value for `background-image`
-     value: linear-gradient(top,#dd4b39,#c53727)
-    ------------------------^
-Invalid value for `background-image`
-     value: linear-gradient(top,#dd4b39,#b0281a)
-    ------------------------^
-Invalid value for `background-image`
-     value: linear-gradient(top,#3d9400,#398a00)
-    ------------------------^
-Invalid value for `background-image`
-     value: linear-gradient(top,#3d9400,#368200)
-    ------------------------^
-Invalid value for `background-image`
-     value: linear-gradient(top,#f5f5f5,#f1f1f1)
-    ------------------------^
-Invalid value for `background-image` × 2
-     value: linear-gradient(top,#f8f8f8,#f1f1f1)
-    ------------------------^
-The rest part of value can't be matched to `-webkit-flex` grammar × 3
-     value: 0 1 main-size
-    ------------^
-The rest part of value can't be matched to `flex` grammar × 3
-     value: 0 1 main-size
-    ------------^
-Invalid value for `background-image`
-     value: linear-gradient(top,#fff,#f8f8f8)
-    ------------------------^
-Node has no children × 5
-Invalid value for `background-image`
-     value: -webkit-image-set(url('//ssl.gstatic.com/gb/images/a/f5cdd88b65.png…
-    --------^
-Invalid value for `background`
-     value: linear-gradient(top,#4387fd,#4683ea)
-    ------------------------^
-Invalid value for `background`
-     value: linear-gradient(top,#3c7ae4,#3f76d3)
-    ------------------------^
-The rest part of value can't be matched to `-webkit-flex` grammar × 2
-     value: 0 0 main-size
-    ------------^
-The rest part of value can't be matched to `flex` grammar × 2
-     value: 0 0 main-size
-    ------------^
-The rest part of value can't be matched to `-webkit-flex` grammar
-     value: 1 1 main-size
-    ------------^
-The rest part of value can't be matched to `flex` grammar
-     value: 1 1 main-size
-    ------------^
-The rest part of value can't be matched to `-webkit-box-flex` grammar
-     value: 0 0 auto
-    ----------^
-The rest part of value can't be matched to `padding-top` grammar
-     value: 1px 0 2px 0
-    -----------------^
-Invalid value for `transition-delay` × 3
-     value: 0
-    --------^
-The rest part of value can't be matched to `animation` grammar
-     value: allow-alert .75s 0 infinite
-    ---------------------------^
-Unknown property `tap-highlight-color`
-Invalid value for `background-image`
-     value: linear-gradient(top,rgba(0,0,0,0.16),rgba(0,0,0,0.2))
-    ------------------------^
-Invalid value for `background-image`
-     value: linear-gradient(top,rgba(0,0,0,0.14),rgba(0,0,0,0.2))
-    ------------------------^
-```
-
-## #166
-
-Site: google.co.ve
 
 5 parsing errors:
 ```
@@ -13549,9 +13311,113 @@ Invalid value for `background-image`
     ------------------------^
 ```
 
-## #167
+## #166google.co.ve
 
-Site: bukalapak.com
+
+5 parsing errors:
+```
+Unexpected input
+    3 |…);filter:progid:DXImageTrans…
+-----------------------^
+Unexpected input
+    3 |…);filter:progid:DXImageTrans…
+-----------------------^
+Unexpected input
+    3 |…);filter:progid:DXImageTrans…
+-----------------------^
+Unexpected input
+   30 |…t;filter:progid:DXImageTrans…
+-----------------------^
+Unexpected input
+   30 |…);filter:progid:DXImageTrans…
+-----------------------^
+```
+28 syntax errors:
+```
+Invalid value for `unicode-bidi`
+     value: -webkit-isolate-override
+    --------^
+Invalid value for `background-image`
+     value: linear-gradient(top,#4d90fe,#4787ed)
+    ------------------------^
+Invalid value for `background-image`
+     value: linear-gradient(top,#4d90fe,#357ae8)
+    ------------------------^
+Invalid value for `background-image`
+     value: linear-gradient(top,#dd4b39,#d14836)
+    ------------------------^
+Invalid value for `background-image`
+     value: linear-gradient(top,#dd4b39,#c53727)
+    ------------------------^
+Invalid value for `background-image`
+     value: linear-gradient(top,#dd4b39,#b0281a)
+    ------------------------^
+Invalid value for `background-image`
+     value: linear-gradient(top,#3d9400,#398a00)
+    ------------------------^
+Invalid value for `background-image`
+     value: linear-gradient(top,#3d9400,#368200)
+    ------------------------^
+Invalid value for `background-image`
+     value: linear-gradient(top,#f5f5f5,#f1f1f1)
+    ------------------------^
+Invalid value for `background-image` × 2
+     value: linear-gradient(top,#f8f8f8,#f1f1f1)
+    ------------------------^
+The rest part of value can't be matched to `-webkit-flex` grammar × 3
+     value: 0 1 main-size
+    ------------^
+The rest part of value can't be matched to `flex` grammar × 3
+     value: 0 1 main-size
+    ------------^
+Invalid value for `background-image`
+     value: linear-gradient(top,#fff,#f8f8f8)
+    ------------------------^
+Node has no children × 5
+Invalid value for `background-image`
+     value: -webkit-image-set(url('//ssl.gstatic.com/gb/images/a/f5cdd88b65.png…
+    --------^
+Invalid value for `background`
+     value: linear-gradient(top,#4387fd,#4683ea)
+    ------------------------^
+Invalid value for `background`
+     value: linear-gradient(top,#3c7ae4,#3f76d3)
+    ------------------------^
+The rest part of value can't be matched to `-webkit-flex` grammar × 2
+     value: 0 0 main-size
+    ------------^
+The rest part of value can't be matched to `flex` grammar × 2
+     value: 0 0 main-size
+    ------------^
+The rest part of value can't be matched to `-webkit-flex` grammar
+     value: 1 1 main-size
+    ------------^
+The rest part of value can't be matched to `flex` grammar
+     value: 1 1 main-size
+    ------------^
+The rest part of value can't be matched to `-webkit-box-flex` grammar
+     value: 0 0 auto
+    ----------^
+The rest part of value can't be matched to `padding-top` grammar
+     value: 1px 0 2px 0
+    -----------------^
+Invalid value for `transition-delay` × 3
+     value: 0
+    --------^
+The rest part of value can't be matched to `animation` grammar
+     value: allow-alert .75s 0 infinite
+    ---------------------------^
+Unknown property `tap-highlight-color`
+Invalid value for `background-image`
+     value: linear-gradient(top,rgba(0,0,0,0.16),rgba(0,0,0,0.2))
+    ------------------------^
+Invalid value for `background-image`
+     value: linear-gradient(top,rgba(0,0,0,0.14),rgba(0,0,0,0.2))
+    ------------------------^
+```
+
+## #167bukalapak.com
+
 
 20 parsing errors:
 ```
@@ -13692,9 +13558,8 @@ Invalid value for `font`
     --------^
 ```
 
-## #168
+## #168cricbuzz.com
 
-Site: cricbuzz.com
 
 3 parsing errors:
 ```
@@ -13716,9 +13581,8 @@ Invalid value for `max-height`
     --------^
 ```
 
-## #169
+## #169yts.am
 
-Site: yts.am
 
 64 parsing errors:
 ```
@@ -13944,9 +13808,8 @@ Invalid value for `display`
     --------^
 ```
 
-## #170
+## #170bles.com
 
-Site: bles.com
 
 15 parsing errors:
 ```
@@ -14038,9 +13901,8 @@ Invalid value for `background-image`
     ------------------------^
 ```
 
-## #171
+## #171hotstar.com
 
-Site: hotstar.com
 
 29 parsing errors:
 ```
@@ -14200,11 +14062,11 @@ Invalid value for `width`
     --------^
 ```
 
-## #172
+## #172mozilla.org
 
-Site: mozilla.org
 
 No parse errors
+
 2 syntax errors:
 ```
 Unknown property `font-display` × 6
@@ -14213,14 +14075,12 @@ Invalid value for `-webkit-box-pack`
     --------^
 ```
 
-## #173
-
-Site: bet365.com
+## #173bet365.com
 
 
-## #174
 
-Site: google.se
+## #174google.se
+
 
 5 parsing errors:
 ```
@@ -14324,9 +14184,8 @@ Invalid value for `background-image`
     ------------------------^
 ```
 
-## #175
+## #175cnet.com
 
-Site: cnet.com
 
 33 parsing errors:
 ```
@@ -14459,14 +14318,12 @@ Invalid value for `letter-spacing`
     --------^
 ```
 
-## #176
-
-Site: twimg.com
+## #176twimg.com
 
 
-## #177
 
-Site: lifedaily.com
+## #177lifedaily.com
+
 
 39 parsing errors:
 ```
@@ -14623,11 +14480,11 @@ Invalid value for `max-width`
     --------^
 ```
 
-## #178
+## #178redtube.com
 
-Site: redtube.com
 
 No parse errors
+
 3 syntax errors:
 ```
 Invalid value for `font-size` × 2
@@ -14639,11 +14496,11 @@ Invalid value for `right`
 Unknown property `textShadow` × 2
 ```
 
-## #179
+## #179myfastappz.com
 
-Site: myfastappz.com
 
 No parse errors
+
 4 syntax errors:
 ```
 Lexer matching doesn't applicable for custom properties × 29
@@ -14654,9 +14511,8 @@ Invalid value for `width`
 Unknown property `size`
 ```
 
-## #180
+## #180fapmeth.com
 
-Site: fapmeth.com
 
 5 parsing errors:
 ```
@@ -14760,14 +14616,12 @@ Invalid value for `background-image`
     ------------------------^
 ```
 
-## #181
-
-Site: digitaldsp.com
+## #181digitaldsp.com
 
 
-## #182
 
-Site: walmart.com
+## #182walmart.com
+
 
 3 parsing errors:
 ```
@@ -14793,9 +14647,8 @@ Invalid value for `font`
     --------^
 ```
 
-## #183
+## #183globo.com
 
-Site: globo.com
 
 16 parsing errors:
 ```
@@ -14874,9 +14727,8 @@ Invalid value for `background`
     ------------------------^
 ```
 
-## #184
+## #184google.com.co
 
-Site: google.com.co
 
 5 parsing errors:
 ```
@@ -14980,14 +14832,12 @@ Invalid value for `background-image`
     ------------------------^
 ```
 
-## #185
-
-Site: crptentry.com
+## #185crptentry.com
 
 
-## #186
 
-Site: google.com.sg
+## #186google.com.sg
+
 
 5 parsing errors:
 ```
@@ -15091,9 +14941,8 @@ Invalid value for `background-image`
     ------------------------^
 ```
 
-## #187
+## #187onlinevideoconverter.com
 
-Site: onlinevideoconverter.com
 
 16 parsing errors:
 ```
@@ -15169,23 +15018,23 @@ Invalid value for `-o-transform-origin`
     --------^
 ```
 
-## #188
+## #188mega.nz
 
-Site: mega.nz
 
 No parse errors
+
 No validation warnings
 
-## #189
 
-Site: slideshare.net
+## #189slideshare.net
 
 
-## #190
 
-Site: doubleclick.net
+## #190doubleclick.net
+
 
 No parse errors
+
 11 syntax errors:
 ```
 Invalid value for `min-height`
@@ -15221,9 +15070,8 @@ The rest part of value can't be matched to `transform-origin` grammar × 2
     ---------^
 ```
 
-## #191
+## #191steampowered.com
 
-Site: steampowered.com
 
 36 parsing errors:
 ```
@@ -15344,9 +15192,8 @@ Invalid value for `text-decoration`
     --------^
 ```
 
-## #192
+## #192etsy.com
 
-Site: etsy.com
 
 126 parsing errors:
 ```
@@ -15767,9 +15614,8 @@ Invalid value for `display`
     --------^
 ```
 
-## #193
+## #193yelp.com
 
-Site: yelp.com
 
 8 parsing errors:
 ```
@@ -15842,9 +15688,8 @@ Invalid value for `-moz-box-align`
     --------^
 ```
 
-## #194
+## #194speakol.com
 
-Site: speakol.com
 
 17 parsing errors:
 ```
@@ -15912,9 +15757,8 @@ Invalid value for `background`
     -------------------------^
 ```
 
-## #195
+## #195google.gr
 
-Site: google.gr
 
 5 parsing errors:
 ```
@@ -16018,9 +15862,8 @@ Invalid value for `background-image`
     ------------------------^
 ```
 
-## #196
+## #196wikihow.com
 
-Site: wikihow.com
 
 17 parsing errors:
 ```
@@ -16105,11 +15948,11 @@ Invalid value for `display` × 5
     --------^
 ```
 
-## #197
+## #197mercadolivre.com.br
 
-Site: mercadolivre.com.br
 
 No parse errors
+
 3 syntax errors:
 ```
 Unknown property `font-display` × 3
@@ -16121,9 +15964,8 @@ Invalid value for `background-image`
     ----------------------------------------------------------^
 ```
 
-## #198
+## #198igmatik.com
 
-Site: igmatik.com
 
 27 parsing errors:
 ```
@@ -16260,11 +16102,11 @@ Invalid value for `animation-delay`
 Unknown property `pointer-event`
 ```
 
-## #199
+## #199hulu.com
 
-Site: hulu.com
 
 No parse errors
+
 6 syntax errors:
 ```
 Invalid value for `-webkit-box-align` × 10
@@ -16287,19 +16129,16 @@ Invalid value for `-ms-flex-pack` × 7
     --------^
 ```
 
-## #200
-
-Site: jf71qh5v14.com
+## #200jf71qh5v14.com
 
 
-## #201
 
-Site: youporn.com
+## #201youporn.com
 
 
-## #202
 
-Site: alibaba.com
+## #202alibaba.com
+
 
 2 parsing errors:
 ```
@@ -16328,9 +16167,8 @@ Invalid value for `font`
     --------^
 ```
 
-## #203
+## #203google.be
 
-Site: google.be
 
 5 parsing errors:
 ```
@@ -16434,9 +16272,8 @@ Invalid value for `background-image`
     ------------------------^
 ```
 
-## #204
+## #204rumble.com
 
-Site: rumble.com
 
 9 parsing errors:
 ```
@@ -16480,11 +16317,11 @@ Invalid value for `max-width`
     --------^
 ```
 
-## #205
+## #205vice.com
 
-Site: vice.com
 
 No parse errors
+
 9 syntax errors:
 ```
 Invalid value for `-webkit-box-pack` × 5
@@ -16502,9 +16339,8 @@ Unknown property `-moz-scrollbar-track-color`
 Unknown property `scrollbar-track-color`
 ```
 
-## #206
+## #206sogou.com
 
-Site: sogou.com
 
 15 parsing errors:
 ```
@@ -16635,19 +16471,16 @@ The rest part of value can't be matched to `outline` grammar
 Unknown property `hiehgt`
 ```
 
-## #207
-
-Site: youm7.com
+## #207youm7.com
 
 
-## #208
 
-Site: abs-cbn.com
+## #208abs-cbn.com
 
 
-## #209
 
-Site: google.com.ph
+## #209google.com.ph
+
 
 5 parsing errors:
 ```
@@ -16751,9 +16584,8 @@ Invalid value for `background-image`
     ------------------------^
 ```
 
-## #210
+## #210doublepimp.com
 
-Site: doublepimp.com
 
 4 parsing errors:
 ```
@@ -16775,9 +16607,8 @@ RightParenthesis is expected
 Node has no children × 4
 ```
 
-## #211
+## #211fbspyster.com
 
-Site: fbspyster.com
 
 1parsing error:
 ```
@@ -16793,11 +16624,11 @@ Invalid value for `background`
 Node has no children
 ```
 
-## #212
+## #212messenger.com
 
-Site: messenger.com
 
 No parse errors
+
 1 syntax error:
 ```
 The rest part of value can't be matched to `content` grammar
@@ -16805,9 +16636,8 @@ The rest part of value can't be matched to `content` grammar
     -------------------^
 ```
 
-## #213
+## #213coinmarketcap.com
 
-Site: coinmarketcap.com
 
 12 parsing errors:
 ```
@@ -16877,9 +16707,8 @@ Invalid value for `position`
     --------^
 ```
 
-## #214
+## #214blastingnews.com
 
-Site: blastingnews.com
 
 24 parsing errors:
 ```
@@ -17028,9 +16857,8 @@ Invalid value for `background-image`
     ----------------------------------^
 ```
 
-## #215
+## #215scribd.com
 
-Site: scribd.com
 
 4 parsing errors:
 ```
@@ -17107,11 +16935,11 @@ Invalid value for `width` × 2
     --------^
 ```
 
-## #216
+## #216indeed.com
 
-Site: indeed.com
 
 No parse errors
+
 5 syntax errors:
 ```
 Unknown property `-webkit-highlight` × 9
@@ -17127,9 +16955,8 @@ Invalid value for `margin-right`
 Unknown property `-webkit-flex-align`
 ```
 
-## #217
+## #217babytree.com
 
-Site: babytree.com
 
 18 parsing errors:
 ```
@@ -17219,9 +17046,8 @@ Invalid value for `display`
     --------^
 ```
 
-## #218
+## #218google.com.pe
 
-Site: google.com.pe
 
 5 parsing errors:
 ```
@@ -17325,9 +17151,8 @@ Invalid value for `background-image`
     ------------------------^
 ```
 
-## #219
+## #219naver.com
 
-Site: naver.com
 
 43 parsing errors:
 ```
@@ -17467,9 +17292,8 @@ Node has no children × 43
 Unknown property `line-heught`
 ```
 
-## #220
+## #220buzzfeed.com
 
-Site: buzzfeed.com
 
 2 parsing errors:
 ```
@@ -17497,9 +17321,8 @@ Invalid value for `align-items` × 8
 Node has no children
 ```
 
-## #221
+## #221uol.com.br
 
-Site: uol.com.br
 
 56 parsing errors:
 ```
@@ -17704,26 +17527,24 @@ The rest part of value can't be matched to `-webkit-transform` grammar
     ---------------------^
 ```
 
-## #222
+## #222china.com.cn
 
-Site: china.com.cn
 
 No parse errors
+
 No validation warnings
 
-## #223
 
-Site: kissanime.ru
-
-
-## #224
-
-Site: qulsqiqrev.com
+## #223kissanime.ru
 
 
-## #225
 
-Site: amazon.fr
+## #224qulsqiqrev.com
+
+
+
+## #225amazon.fr
+
 
 11 parsing errors:
 ```
@@ -17823,9 +17644,8 @@ Invalid value for `background`
     ------------------------^
 ```
 
-## #226
+## #226kompas.com
 
-Site: kompas.com
 
 2 parsing errors:
 ```
@@ -17859,9 +17679,8 @@ Invalid value for `background-image`
     ------------------------^
 ```
 
-## #227
+## #227sciencedirect.com
 
-Site: sciencedirect.com
 
 6 parsing errors:
 ```
@@ -17892,9 +17711,8 @@ The rest part of value can't be matched to `list-style` grammar
 Node has no children × 6
 ```
 
-## #228
+## #228liputan6.com
 
-Site: liputan6.com
 
 5 parsing errors:
 ```
@@ -17931,9 +17749,8 @@ Invalid value for `width`
     --------^
 ```
 
-## #229
+## #229zhihu.com
 
-Site: zhihu.com
 
 3 parsing errors:
 ```
@@ -18000,16 +17817,16 @@ Invalid value for `-ms-grid-row-align`
     --------^
 ```
 
-## #230
+## #230huanqiu.com
 
-Site: huanqiu.com
 
 No parse errors
+
 No validation warnings
 
-## #231
 
-Site: 1337x.to
+## #2311337x.to
+
 
 9 parsing errors:
 ```
@@ -18091,9 +17908,8 @@ Invalid value for `width`
     --------^
 ```
 
-## #232
+## #232irctc.co.in
 
-Site: irctc.co.in
 
 15 parsing errors:
 ```
@@ -18173,19 +17989,16 @@ Invalid value for `font-size`
     --------^
 ```
 
-## #233
-
-Site: hibids10.com
+## #233hibids10.com
 
 
-## #234
 
-Site: ladbible.com
+## #234ladbible.com
 
 
-## #235
 
-Site: exoclick.com
+## #235exoclick.com
+
 
 2 parsing errors:
 ```
@@ -18203,9 +18016,8 @@ Invalid value for `width`
     --------^
 ```
 
-## #236
+## #236mama.cn
 
-Site: mama.cn
 
 16 parsing errors:
 ```
@@ -18263,21 +18075,20 @@ Unexpected input
 Node has no children × 15
 ```
 
-## #237
-
-Site: newsprofin.com
+## #237newsprofin.com
 
 
-## #238
 
-Site: metropcs.mobi
+## #238metropcs.mobi
+
 
 No parse errors
+
 No validation warnings
 
-## #239
 
-Site: rambler.ru
+## #239rambler.ru
+
 
 17 parsing errors:
 ```
@@ -18348,9 +18159,8 @@ Invalid value for `align-items`
     --------^
 ```
 
-## #240
+## #240amazon.it
 
-Site: amazon.it
 
 11 parsing errors:
 ```
@@ -18450,9 +18260,8 @@ Invalid value for `background-image`
     ---------------------------^
 ```
 
-## #241
+## #241gamespot.com
 
-Site: gamespot.com
 
 35 parsing errors:
 ```
@@ -18660,9 +18469,8 @@ Invalid value for `position`
     --------^
 ```
 
-## #242
+## #242w3schools.com
 
-Site: w3schools.com
 
 9 parsing errors:
 ```
@@ -18729,41 +18537,36 @@ Invalid value for `background-image`
     ------------------------^
 ```
 
-## #243
-
-Site: cloudfront.net
+## #243cloudfront.net
 
 
-## #244
 
-Site: thewhizmarketing.com
-
-
-## #245
-
-Site: caijing.com.cn
+## #244thewhizmarketing.com
 
 
-## #246
 
-Site: bilibili.com
+## #245caijing.com.cn
+
+
+
+## #246bilibili.com
+
 
 No parse errors
+
 No validation warnings
 
-## #247
 
-Site: speedtest.net
-
-
-## #248
-
-Site: eastday.com
+## #247speedtest.net
 
 
-## #249
 
-Site: livejournal.com
+## #248eastday.com
+
+
+
+## #249livejournal.com
+
 
 7 parsing errors:
 ```
@@ -18822,9 +18625,8 @@ Invalid value for `content`
 Unknown property `font-display` × 6
 ```
 
-## #250
+## #250google.no
 
-Site: google.no
 
 5 parsing errors:
 ```
