@@ -65,25 +65,28 @@ inject('table',
 
         if (report.downloaded) {
 
+            details.push('<a name="' + detailsRef + '-parsing"></a>');
             details.push('### Parsing');
             if (report.parsing) {
                 details.push(report.parsing.length + (report.parsing.length > 1 ? ' parsing errors' : 'parsing error') + ':');
                 details.push('```');
                 details.push(escapeHTML(report.parsing.map(function(e) {
-                    var lines = e.details.split('\n');
-                    var numLength = lines[1].indexOf('|');
-                    var offset = lines[2].length - numLength - 1;
+                    return e.details;
 
-                    if (offset > 15) {
-                        lines[2] = lines[2].slice(lines[2].length - numLength - 18);
-                        lines[1] = lines[1].slice(0, numLength + 1) + '…' + lines[1].slice(numLength + offset - 15);
-                    }
+                    // var lines = e.details.split('\n');
+                    // var numLength = lines[1].indexOf('|');
+                    // var offset = lines[2].length - numLength - 1;
 
-                    if (lines[1].length > (numLength + 30)) {
-                        lines[1] = lines[1].substr(0, numLength + 30) + '…';
-                    }
+                    // if (offset > 15) {
+                    //     lines[2] = lines[2].slice(lines[2].length - numLength - 18);
+                    //     lines[1] = lines[1].slice(0, numLength + 1) + '…' + lines[1].slice(numLength + offset - 15);
+                    // }
 
-                    return lines.join('\n');
+                    // if (lines[1].length > (numLength + 30)) {
+                    //     lines[1] = lines[1].substr(0, numLength + 30) + '…';
+                    // }
+
+                    // return lines.join('\n');
                 }).join('\n')));
                 details.push('```');
             } else {
@@ -91,6 +94,7 @@ inject('table',
                 details.push('');
             }
 
+            details.push('<a name="' + detailsRef + '-validation"></a>');
             details.push('### Validation');
             if (report.validation) {
                 details.push(report.validation.length + (report.validation.length > 1 ? ' syntax errors' : ' syntax error') + ':');
@@ -104,12 +108,12 @@ inject('table',
 
             cells.push(
                 report.parsing
-                    ? '<a href="test-details.md#' + (idx + 1) + '-' + report.name.replace(/[^a-z0-9]/g, '') + '">' +
-                        report.parsing.length + (report.parsing.length > 1 ? ' errors' : 'error') + ']' + 
+                    ? '<a href="test-details.md#' + (idx + 1) + '-' + report.name.replace(/[^a-z0-9]/g, '') + '-parsing">' +
+                        report.parsing.length + (report.parsing.length > 1 ? ' errors' : 'error') +
                       '</a>'
                     : '✅',
                 report.validation
-                    ? '<a href="test-details.md#' + (idx + 1) + '-' + report.name.replace(/[^a-z0-9]/g, '') + '">' +
+                    ? '<a href="test-details.md#' + (idx + 1) + '-' + report.name.replace(/[^a-z0-9]/g, '') + '-validation">' +
                         report.validation.length + (report.validation.length > 1 ? ' errors' : ' error') +
                       '</a>'
                     : '✅'
