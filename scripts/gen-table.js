@@ -36,7 +36,7 @@ function validationErrorStat(errors) {
     });
 }
 
-var details = ['#Analysis of CSS of Alexa TOP ' + reports.length, ''];
+var details = ['# Analysis of CSS of Alexa TOP ' + reports.length, ''];
 var detailsTOC = [];
 
 // table
@@ -65,7 +65,6 @@ inject('table',
 
         if (report.downloaded) {
 
-            details.push('<a name"' + detailsRef + '-parsing">');
             details.push('### Parsing');
             if (report.parsing) {
                 details.push(report.parsing.length + (report.parsing.length > 1 ? ' parsing errors' : 'parsing error') + ':');
@@ -92,7 +91,6 @@ inject('table',
                 details.push('');
             }
 
-            details.push('<a name"' + detailsRef + '-validation">');
             details.push('### Validation');
             if (report.validation) {
                 details.push(report.validation.length + (report.validation.length > 1 ? ' syntax errors' : ' syntax error') + ':');
@@ -106,12 +104,14 @@ inject('table',
 
             cells.push(
                 report.parsing
-                    ? '[' + report.parsing.length + (report.parsing.length > 1 ? ' errors' : 'error') + ']' + 
-                      '(test-details.md#' + (idx + 1) + '-' + report.name.replace(/[^a-z0-9]/g, '') + '-parsing)'
+                    ? '<a href="test-details.md#' + (idx + 1) + '-' + report.name.replace(/[^a-z0-9]/g, '') + '">' +
+                        report.parsing.length + (report.parsing.length > 1 ? ' errors' : 'error') + ']' + 
+                      '</a>'
                     : '✅',
                 report.validation
-                    ? '[' + report.validation.length + (report.validation.length > 1 ? ' errors' : ' error') + ']' +
-                      '(test-details.md#' + (idx + 1) + '-' + report.name.replace(/[^a-z0-9]/g, '') + '-validation)'
+                    ? '<a href="test-details.md#' + (idx + 1) + '-' + report.name.replace(/[^a-z0-9]/g, '') + '">' +
+                        report.validation.length + (report.validation.length > 1 ? ' errors' : ' error') +
+                      '</a>'
                     : '✅'
             );
 
