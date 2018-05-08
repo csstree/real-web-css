@@ -36,6 +36,9 @@ function validationErrorStat(errors) {
     });
 }
 
+var details = ['#Analysis of CSS of Alexa TOP ' + reports.length, ''];
+var detailsTOC = [];
+
 // table
 inject('date', 'Update date: ' + new Date().toISOString());
 inject('table',
@@ -55,23 +58,54 @@ inject('table',
             report.name
         ];
 
+        detailsTOC.push('- [' + report.name + '](#' + (idx + 1) + ')')
+        details.push('', '## #' + (idx + 1), '');
+        details.push('Site: ' + report.name);
+        details.push('');
+
         if (report.downloaded) {
+            if (report.parsing) {
+                details.push(report.parsing.length + (report.parsing.length > 1 ? ' parsing errors' : 'parsing error') + ':');
+                details.push('```');
+                details.push(escapeHTML(report.parsing.map(function(e) {
+                    var lines = e.details.split('\n');
+                    var numLength = lines[1].indexOf('|');
+                    var offset = lines[2].length - numLength - 1;
+
+                    if (offset > 15) {
+                        lines[2] = lines[2].slice(lines[2].length - numLength - 18);
+                        lines[1] = lines[1].slice(0, numLength + 1) + '…' + lines[1].slice(numLength + offset - 15);
+                    }
+
+                    if (lines[1].length > (numLength + 30)) {
+                        lines[1] = lines[1].substr(0, numLength + 30) + '…';
+                    }
+
+                    return lines.join('\n');
+                }).join('\n')));
+                details.push('```');
+            } else {
+                details.push('No parse errors');
+            }
+
+            if (report.validation) {
+                details.push(report.validation.length + (report.validation.length > 1 ? ' syntax errors' : ' syntax error') + ':');
+                details.push('```');
+                details.push(escapeHTML(report.validation.join('\n')));
+                details.push('```');
+            } else {
+                details.push('No validation warnings');
+            }
+
             cells.push(
                 report.parsing
-                    ? '<details>' +
-                        '<summary>Errors: ' + report.parsing.length + '</summary>' +
-                        '<pre>' + report.parsing.map(e => e.details).map(escapeHTML).join('\n') + '</pre>' +
-                      '</details>'
+                    ? report.parsing.length + (report.parsing.length > 1 ? ' errors' : 'error')
                     : 'OK',
                 report.validation
-                    ? '<details>' +
-                        '<summary>' +
-                            report.validation.length + (report.validation.length > 1 ? ' warnings' : ' warning') +
-                        '</summary>' +
-                        '<pre>' + escapeHTML(report.validation.join('\n')) + '</pre>' +
-                      '</details>'
-                    : (report.error ? '–' : 'OK')
+                    ? report.validation.length + (report.validation.length > 1 ? ' errors' : ' error')
+                    : 'OK'
             );
+
             return '<tr><td>' + cells.join('</td><td>') + '</td></tr>';
         } else {
             return '<tr><td>' + cells.join('</td><td>') + '</td><td colspan="2">–</td></tr>';
@@ -80,4 +114,7 @@ inject('table',
     }).join('\n') + '</table>'
 );
 
+details.splice(2, 0, detailsTOC.join('\n'));
+
+fs.writeFileSync('./test-details.md', details.join('\n'), 'utf8');
 fs.writeFileSync(readmeFile, readme, 'utf8');
