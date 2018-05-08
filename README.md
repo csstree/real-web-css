@@ -45,7 +45,7 @@ npm run gen:usage
 
 <!-- date -->
 
-Update date: 2018-05-08T22:07:31.255Z
+Update date: 2018-05-08T22:15:01.747Z
 
 <!-- /date -->
 
@@ -61,255 +61,255 @@ Update date: 2018-05-08T22:07:31.255Z
 <thead>
 <tr><th>#</th><th></th><th>Site</th><th>Parsing</th><th>Validation</th></tr>
 </thead>
-<tr><td>1</td><td>⚠️</td><td>google.com</td><td>[5 errors](#1-googlecom)</td><td>[28 errors](#1-googlecom)</td></tr>
-<tr><td>2</td><td>⚠️</td><td>youtube.com</td><td>[4 errors](#2-youtubecom)</td><td>[11 errors](#2-youtubecom)</td></tr>
-<tr><td>3</td><td>⚠️</td><td>facebook.com</td><td>✅</td><td>[3 errors](#3-facebookcom)</td></tr>
+<tr><td>1</td><td>⚠️</td><td>google.com</td><td>[5 errors](test-details.md#1-googlecom-parsing)</td><td>[28 errors](test-details.md#1-googlecom-validation)</td></tr>
+<tr><td>2</td><td>⚠️</td><td>youtube.com</td><td>[4 errors](test-details.md#2-youtubecom-parsing)</td><td>[11 errors](test-details.md#2-youtubecom-validation)</td></tr>
+<tr><td>3</td><td>⚠️</td><td>facebook.com</td><td>✅</td><td>[3 errors](test-details.md#3-facebookcom-validation)</td></tr>
 <tr><td>4</td><td>⚠️</td><td>baidu.com</td><td colspan="2">–</td></tr>
-<tr><td>5</td><td>⚠️</td><td>wikipedia.org</td><td>✅</td><td>[1 error](#5-wikipediaorg)</td></tr>
-<tr><td>6</td><td>⚠️</td><td>reddit.com</td><td>[8 errors](#6-redditcom)</td><td>[12 errors](#6-redditcom)</td></tr>
-<tr><td>7</td><td>⚠️</td><td>yahoo.com</td><td>[40 errors](#7-yahoocom)</td><td>[21 errors](#7-yahoocom)</td></tr>
-<tr><td>8</td><td>⚠️</td><td>qq.com</td><td>[35 errors](#8-qqcom)</td><td>[1 error](#8-qqcom)</td></tr>
-<tr><td>9</td><td>⚠️</td><td>taobao.com</td><td>[8 errors](#9-taobaocom)</td><td>[7 errors](#9-taobaocom)</td></tr>
-<tr><td>10</td><td>⚠️</td><td>tmall.com</td><td>[22 errors](#10-tmallcom)</td><td>[4 errors](#10-tmallcom)</td></tr>
-<tr><td>11</td><td>⚠️</td><td>twitter.com</td><td>[5 errors](#11-twittercom)</td><td>[4 errors](#11-twittercom)</td></tr>
-<tr><td>12</td><td>⚠️</td><td>amazon.com</td><td>[13 errors](#12-amazoncom)</td><td>[20 errors](#12-amazoncom)</td></tr>
-<tr><td>13</td><td>⚠️</td><td>google.co.in</td><td>[5 errors](#13-googlecoin)</td><td>[28 errors](#13-googlecoin)</td></tr>
-<tr><td>14</td><td>⚠️</td><td>vk.com</td><td>[77 errors](#14-vkcom)</td><td>[4 errors](#14-vkcom)</td></tr>
-<tr><td>15</td><td>⚠️</td><td>instagram.com</td><td>[2 errors](#15-instagramcom)</td><td>[12 errors](#15-instagramcom)</td></tr>
-<tr><td>16</td><td>⚠️</td><td>sohu.com</td><td>[22 errors](#16-sohucom)</td><td>[5 errors](#16-sohucom)</td></tr>
-<tr><td>17</td><td>⚠️</td><td>jd.com</td><td>[1error](#17-jdcom)</td><td>[1 error](#17-jdcom)</td></tr>
+<tr><td>5</td><td>⚠️</td><td>wikipedia.org</td><td>✅</td><td>[1 error](test-details.md#5-wikipediaorg-validation)</td></tr>
+<tr><td>6</td><td>⚠️</td><td>reddit.com</td><td>[8 errors](test-details.md#6-redditcom-parsing)</td><td>[12 errors](test-details.md#6-redditcom-validation)</td></tr>
+<tr><td>7</td><td>⚠️</td><td>yahoo.com</td><td>[40 errors](test-details.md#7-yahoocom-parsing)</td><td>[21 errors](test-details.md#7-yahoocom-validation)</td></tr>
+<tr><td>8</td><td>⚠️</td><td>qq.com</td><td>[35 errors](test-details.md#8-qqcom-parsing)</td><td>[1 error](test-details.md#8-qqcom-validation)</td></tr>
+<tr><td>9</td><td>⚠️</td><td>taobao.com</td><td>[8 errors](test-details.md#9-taobaocom-parsing)</td><td>[7 errors](test-details.md#9-taobaocom-validation)</td></tr>
+<tr><td>10</td><td>⚠️</td><td>tmall.com</td><td>[22 errors](test-details.md#10-tmallcom-parsing)</td><td>[4 errors](test-details.md#10-tmallcom-validation)</td></tr>
+<tr><td>11</td><td>⚠️</td><td>twitter.com</td><td>[5 errors](test-details.md#11-twittercom-parsing)</td><td>[4 errors](test-details.md#11-twittercom-validation)</td></tr>
+<tr><td>12</td><td>⚠️</td><td>amazon.com</td><td>[13 errors](test-details.md#12-amazoncom-parsing)</td><td>[20 errors](test-details.md#12-amazoncom-validation)</td></tr>
+<tr><td>13</td><td>⚠️</td><td>google.co.in</td><td>[5 errors](test-details.md#13-googlecoin-parsing)</td><td>[28 errors](test-details.md#13-googlecoin-validation)</td></tr>
+<tr><td>14</td><td>⚠️</td><td>vk.com</td><td>[77 errors](test-details.md#14-vkcom-parsing)</td><td>[4 errors](test-details.md#14-vkcom-validation)</td></tr>
+<tr><td>15</td><td>⚠️</td><td>instagram.com</td><td>[2 errors](test-details.md#15-instagramcom-parsing)</td><td>[12 errors](test-details.md#15-instagramcom-validation)</td></tr>
+<tr><td>16</td><td>⚠️</td><td>sohu.com</td><td>[22 errors](test-details.md#16-sohucom-parsing)</td><td>[5 errors](test-details.md#16-sohucom-validation)</td></tr>
+<tr><td>17</td><td>⚠️</td><td>jd.com</td><td>[1error](test-details.md#17-jdcom-parsing)</td><td>[1 error](test-details.md#17-jdcom-validation)</td></tr>
 <tr><td>18</td><td>⚠️</td><td>live.com</td><td colspan="2">–</td></tr>
 <tr><td>19</td><td>⚠️</td><td>sina.com.cn</td><td colspan="2">–</td></tr>
-<tr><td>20</td><td>⚠️</td><td>weibo.com</td><td>[9 errors](#20-weibocom)</td><td>[13 errors](#20-weibocom)</td></tr>
-<tr><td>21</td><td>⚠️</td><td>360.cn</td><td>[5 errors](#21-360cn)</td><td>[4 errors](#21-360cn)</td></tr>
-<tr><td>22</td><td>⚠️</td><td>yandex.ru</td><td>✅</td><td>[7 errors](#22-yandexru)</td></tr>
-<tr><td>23</td><td>⚠️</td><td>netflix.com</td><td>✅</td><td>[3 errors](#23-netflixcom)</td></tr>
-<tr><td>24</td><td>⚠️</td><td>twitch.tv</td><td>[1error](#24-twitchtv)</td><td>[9 errors](#24-twitchtv)</td></tr>
-<tr><td>25</td><td>⚠️</td><td>login.tmall.com</td><td>[7 errors](#25-logintmallcom)</td><td>[3 errors](#25-logintmallcom)</td></tr>
-<tr><td>26</td><td>⚠️</td><td>pornhub.com</td><td>[1error](#26-pornhubcom)</td><td>[23 errors](#26-pornhubcom)</td></tr>
-<tr><td>27</td><td>⚠️</td><td>google.ru</td><td>[5 errors](#27-googleru)</td><td>[28 errors](#27-googleru)</td></tr>
-<tr><td>28</td><td>⚠️</td><td>google.co.uk</td><td>[5 errors](#28-googlecouk)</td><td>[28 errors](#28-googlecouk)</td></tr>
-<tr><td>29</td><td>⚠️</td><td>google.com.br</td><td>[5 errors](#29-googlecombr)</td><td>[28 errors](#29-googlecombr)</td></tr>
-<tr><td>30</td><td>⚠️</td><td>google.com.hk</td><td>[5 errors](#30-googlecomhk)</td><td>[28 errors](#30-googlecomhk)</td></tr>
-<tr><td>31</td><td>⚠️</td><td>google.de</td><td>[5 errors](#31-googlede)</td><td>[28 errors](#31-googlede)</td></tr>
-<tr><td>32</td><td>⚠️</td><td>google.co.jp</td><td>[5 errors](#32-googlecojp)</td><td>[28 errors](#32-googlecojp)</td></tr>
-<tr><td>33</td><td>⚠️</td><td>google.fr</td><td>[5 errors](#33-googlefr)</td><td>[28 errors](#33-googlefr)</td></tr>
-<tr><td>34</td><td>⚠️</td><td>yahoo.co.jp</td><td>[4 errors](#34-yahoocojp)</td><td>[8 errors](#34-yahoocojp)</td></tr>
-<tr><td>35</td><td>⚠️</td><td>bing.com</td><td>[14 errors](#35-bingcom)</td><td>[2 errors](#35-bingcom)</td></tr>
-<tr><td>36</td><td>⚠️</td><td>ebay.com</td><td>[30 errors](#36-ebaycom)</td><td>[22 errors](#36-ebaycom)</td></tr>
-<tr><td>37</td><td>⚠️</td><td>xvideos.com</td><td>[7 errors](#37-xvideoscom)</td><td>[5 errors](#37-xvideoscom)</td></tr>
+<tr><td>20</td><td>⚠️</td><td>weibo.com</td><td>[9 errors](test-details.md#20-weibocom-parsing)</td><td>[13 errors](test-details.md#20-weibocom-validation)</td></tr>
+<tr><td>21</td><td>⚠️</td><td>360.cn</td><td>[5 errors](test-details.md#21-360cn-parsing)</td><td>[4 errors](test-details.md#21-360cn-validation)</td></tr>
+<tr><td>22</td><td>⚠️</td><td>yandex.ru</td><td>✅</td><td>[7 errors](test-details.md#22-yandexru-validation)</td></tr>
+<tr><td>23</td><td>⚠️</td><td>netflix.com</td><td>✅</td><td>[3 errors](test-details.md#23-netflixcom-validation)</td></tr>
+<tr><td>24</td><td>⚠️</td><td>twitch.tv</td><td>[1error](test-details.md#24-twitchtv-parsing)</td><td>[9 errors](test-details.md#24-twitchtv-validation)</td></tr>
+<tr><td>25</td><td>⚠️</td><td>login.tmall.com</td><td>[7 errors](test-details.md#25-logintmallcom-parsing)</td><td>[3 errors](test-details.md#25-logintmallcom-validation)</td></tr>
+<tr><td>26</td><td>⚠️</td><td>pornhub.com</td><td>[1error](test-details.md#26-pornhubcom-parsing)</td><td>[23 errors](test-details.md#26-pornhubcom-validation)</td></tr>
+<tr><td>27</td><td>⚠️</td><td>google.ru</td><td>[5 errors](test-details.md#27-googleru-parsing)</td><td>[28 errors](test-details.md#27-googleru-validation)</td></tr>
+<tr><td>28</td><td>⚠️</td><td>google.co.uk</td><td>[5 errors](test-details.md#28-googlecouk-parsing)</td><td>[28 errors](test-details.md#28-googlecouk-validation)</td></tr>
+<tr><td>29</td><td>⚠️</td><td>google.com.br</td><td>[5 errors](test-details.md#29-googlecombr-parsing)</td><td>[28 errors](test-details.md#29-googlecombr-validation)</td></tr>
+<tr><td>30</td><td>⚠️</td><td>google.com.hk</td><td>[5 errors](test-details.md#30-googlecomhk-parsing)</td><td>[28 errors](test-details.md#30-googlecomhk-validation)</td></tr>
+<tr><td>31</td><td>⚠️</td><td>google.de</td><td>[5 errors](test-details.md#31-googlede-parsing)</td><td>[28 errors](test-details.md#31-googlede-validation)</td></tr>
+<tr><td>32</td><td>⚠️</td><td>google.co.jp</td><td>[5 errors](test-details.md#32-googlecojp-parsing)</td><td>[28 errors](test-details.md#32-googlecojp-validation)</td></tr>
+<tr><td>33</td><td>⚠️</td><td>google.fr</td><td>[5 errors](test-details.md#33-googlefr-parsing)</td><td>[28 errors](test-details.md#33-googlefr-validation)</td></tr>
+<tr><td>34</td><td>⚠️</td><td>yahoo.co.jp</td><td>[4 errors](test-details.md#34-yahoocojp-parsing)</td><td>[8 errors](test-details.md#34-yahoocojp-validation)</td></tr>
+<tr><td>35</td><td>⚠️</td><td>bing.com</td><td>[14 errors](test-details.md#35-bingcom-parsing)</td><td>[2 errors](test-details.md#35-bingcom-validation)</td></tr>
+<tr><td>36</td><td>⚠️</td><td>ebay.com</td><td>[30 errors](test-details.md#36-ebaycom-parsing)</td><td>[22 errors](test-details.md#36-ebaycom-validation)</td></tr>
+<tr><td>37</td><td>⚠️</td><td>xvideos.com</td><td>[7 errors](test-details.md#37-xvideoscom-parsing)</td><td>[5 errors](test-details.md#37-xvideoscom-validation)</td></tr>
 <tr><td>38</td><td>🆗</td><td>t.co</td><td>✅</td><td>✅</td></tr>
-<tr><td>39</td><td>⚠️</td><td>imgur.com</td><td>[33 errors](#39-imgurcom)</td><td>[15 errors](#39-imgurcom)</td></tr>
+<tr><td>39</td><td>⚠️</td><td>imgur.com</td><td>[33 errors](test-details.md#39-imgurcom-parsing)</td><td>[15 errors](test-details.md#39-imgurcom-validation)</td></tr>
 <tr><td>40</td><td>🆗</td><td>alipay.com</td><td>✅</td><td>✅</td></tr>
-<tr><td>41</td><td>⚠️</td><td>csdn.net</td><td>[14 errors](#41-csdnnet)</td><td>[7 errors](#41-csdnnet)</td></tr>
-<tr><td>42</td><td>⚠️</td><td>ok.ru</td><td>[2 errors](#42-okru)</td><td>[18 errors](#42-okru)</td></tr>
-<tr><td>43</td><td>⚠️</td><td>wikia.com</td><td>[2 errors](#43-wikiacom)</td><td>[9 errors](#43-wikiacom)</td></tr>
-<tr><td>44</td><td>⚠️</td><td>google.it</td><td>[5 errors](#44-googleit)</td><td>[28 errors](#44-googleit)</td></tr>
-<tr><td>45</td><td>⚠️</td><td>microsoft.com</td><td>[1error](#45-microsoftcom)</td><td>[28 errors](#45-microsoftcom)</td></tr>
-<tr><td>46</td><td>⚠️</td><td>google.ca</td><td>[5 errors](#46-googleca)</td><td>[28 errors](#46-googleca)</td></tr>
-<tr><td>47</td><td>⚠️</td><td>pages.tmall.com</td><td>[4 errors](#47-pagestmallcom)</td><td>[3 errors](#47-pagestmallcom)</td></tr>
-<tr><td>48</td><td>⚠️</td><td>imdb.com</td><td>[21 errors](#48-imdbcom)</td><td>[24 errors](#48-imdbcom)</td></tr>
-<tr><td>49</td><td>⚠️</td><td>mail.ru</td><td>[7 errors](#49-mailru)</td><td>[11 errors](#49-mailru)</td></tr>
-<tr><td>50</td><td>⚠️</td><td>tumblr.com</td><td>[10 errors](#50-tumblrcom)</td><td>[19 errors](#50-tumblrcom)</td></tr>
-<tr><td>51</td><td>⚠️</td><td>aliexpress.com</td><td>[55 errors](#51-aliexpresscom)</td><td>[34 errors](#51-aliexpresscom)</td></tr>
-<tr><td>52</td><td>⚠️</td><td>google.es</td><td>[5 errors](#52-googlees)</td><td>[28 errors](#52-googlees)</td></tr>
+<tr><td>41</td><td>⚠️</td><td>csdn.net</td><td>[14 errors](test-details.md#41-csdnnet-parsing)</td><td>[7 errors](test-details.md#41-csdnnet-validation)</td></tr>
+<tr><td>42</td><td>⚠️</td><td>ok.ru</td><td>[2 errors](test-details.md#42-okru-parsing)</td><td>[18 errors](test-details.md#42-okru-validation)</td></tr>
+<tr><td>43</td><td>⚠️</td><td>wikia.com</td><td>[2 errors](test-details.md#43-wikiacom-parsing)</td><td>[9 errors](test-details.md#43-wikiacom-validation)</td></tr>
+<tr><td>44</td><td>⚠️</td><td>google.it</td><td>[5 errors](test-details.md#44-googleit-parsing)</td><td>[28 errors](test-details.md#44-googleit-validation)</td></tr>
+<tr><td>45</td><td>⚠️</td><td>microsoft.com</td><td>[1error](test-details.md#45-microsoftcom-parsing)</td><td>[28 errors](test-details.md#45-microsoftcom-validation)</td></tr>
+<tr><td>46</td><td>⚠️</td><td>google.ca</td><td>[5 errors](test-details.md#46-googleca-parsing)</td><td>[28 errors](test-details.md#46-googleca-validation)</td></tr>
+<tr><td>47</td><td>⚠️</td><td>pages.tmall.com</td><td>[4 errors](test-details.md#47-pagestmallcom-parsing)</td><td>[3 errors](test-details.md#47-pagestmallcom-validation)</td></tr>
+<tr><td>48</td><td>⚠️</td><td>imdb.com</td><td>[21 errors](test-details.md#48-imdbcom-parsing)</td><td>[24 errors](test-details.md#48-imdbcom-validation)</td></tr>
+<tr><td>49</td><td>⚠️</td><td>mail.ru</td><td>[7 errors](test-details.md#49-mailru-parsing)</td><td>[11 errors](test-details.md#49-mailru-validation)</td></tr>
+<tr><td>50</td><td>⚠️</td><td>tumblr.com</td><td>[10 errors](test-details.md#50-tumblrcom-parsing)</td><td>[19 errors](test-details.md#50-tumblrcom-validation)</td></tr>
+<tr><td>51</td><td>⚠️</td><td>aliexpress.com</td><td>[55 errors](test-details.md#51-aliexpresscom-parsing)</td><td>[34 errors](test-details.md#51-aliexpresscom-validation)</td></tr>
+<tr><td>52</td><td>⚠️</td><td>google.es</td><td>[5 errors](test-details.md#52-googlees-parsing)</td><td>[28 errors](test-details.md#52-googlees-validation)</td></tr>
 <tr><td>53</td><td>⚠️</td><td>xhamster.com</td><td colspan="2">–</td></tr>
-<tr><td>54</td><td>⚠️</td><td>msn.com</td><td>✅</td><td>[5 errors](#54-msncom)</td></tr>
+<tr><td>54</td><td>⚠️</td><td>msn.com</td><td>✅</td><td>[5 errors](test-details.md#54-msncom-validation)</td></tr>
 <tr><td>55</td><td>⚠️</td><td>linkedin.com</td><td colspan="2">–</td></tr>
 <tr><td>56</td><td>🆗</td><td>deloton.com</td><td>✅</td><td>✅</td></tr>
-<tr><td>57</td><td>⚠️</td><td>google.com.mx</td><td>[5 errors](#57-googlecommx)</td><td>[28 errors](#57-googlecommx)</td></tr>
-<tr><td>58</td><td>⚠️</td><td>amazon.co.jp</td><td>[11 errors](#58-amazoncojp)</td><td>[20 errors](#58-amazoncojp)</td></tr>
+<tr><td>57</td><td>⚠️</td><td>google.com.mx</td><td>[5 errors](test-details.md#57-googlecommx-parsing)</td><td>[28 errors](test-details.md#57-googlecommx-validation)</td></tr>
+<tr><td>58</td><td>⚠️</td><td>amazon.co.jp</td><td>[11 errors](test-details.md#58-amazoncojp-parsing)</td><td>[20 errors](test-details.md#58-amazoncojp-validation)</td></tr>
 <tr><td>59</td><td>🆗</td><td>popads.net</td><td>✅</td><td>✅</td></tr>
-<tr><td>60</td><td>⚠️</td><td>hao123.com</td><td>[23 errors](#60-hao123com)</td><td>[2 errors](#60-hao123com)</td></tr>
-<tr><td>61</td><td>⚠️</td><td>wordpress.com</td><td>[2 errors](#61-wordpresscom)</td><td>[6 errors](#61-wordpresscom)</td></tr>
-<tr><td>62</td><td>⚠️</td><td>office.com</td><td>✅</td><td>[3 errors](#62-officecom)</td></tr>
-<tr><td>63</td><td>⚠️</td><td>whatsapp.com</td><td>✅</td><td>[10 errors](#63-whatsappcom)</td></tr>
-<tr><td>64</td><td>⚠️</td><td>google.com.tw</td><td>[5 errors](#64-googlecomtw)</td><td>[28 errors](#64-googlecomtw)</td></tr>
-<tr><td>65</td><td>⚠️</td><td>google.com.tr</td><td>[5 errors](#65-googlecomtr)</td><td>[28 errors](#65-googlecomtr)</td></tr>
+<tr><td>60</td><td>⚠️</td><td>hao123.com</td><td>[23 errors](test-details.md#60-hao123com-parsing)</td><td>[2 errors](test-details.md#60-hao123com-validation)</td></tr>
+<tr><td>61</td><td>⚠️</td><td>wordpress.com</td><td>[2 errors](test-details.md#61-wordpresscom-parsing)</td><td>[6 errors](test-details.md#61-wordpresscom-validation)</td></tr>
+<tr><td>62</td><td>⚠️</td><td>office.com</td><td>✅</td><td>[3 errors](test-details.md#62-officecom-validation)</td></tr>
+<tr><td>63</td><td>⚠️</td><td>whatsapp.com</td><td>✅</td><td>[10 errors](test-details.md#63-whatsappcom-validation)</td></tr>
+<tr><td>64</td><td>⚠️</td><td>google.com.tw</td><td>[5 errors](test-details.md#64-googlecomtw-parsing)</td><td>[28 errors](test-details.md#64-googlecomtw-validation)</td></tr>
+<tr><td>65</td><td>⚠️</td><td>google.com.tr</td><td>[5 errors](test-details.md#65-googlecomtr-parsing)</td><td>[28 errors](test-details.md#65-googlecomtr-validation)</td></tr>
 <tr><td>66</td><td>⚠️</td><td>livejasmin.com</td><td colspan="2">–</td></tr>
-<tr><td>67</td><td>⚠️</td><td>blogspot.com</td><td>✅</td><td>[11 errors](#67-blogspotcom)</td></tr>
-<tr><td>68</td><td>⚠️</td><td>bongacams.com</td><td>[44 errors](#68-bongacamscom)</td><td>[7 errors](#68-bongacamscom)</td></tr>
-<tr><td>69</td><td>⚠️</td><td>google.com.au</td><td>[5 errors](#69-googlecomau)</td><td>[28 errors](#69-googlecomau)</td></tr>
-<tr><td>70</td><td>⚠️</td><td>xnxx.com</td><td>[7 errors](#70-xnxxcom)</td><td>[3 errors](#70-xnxxcom)</td></tr>
-<tr><td>71</td><td>⚠️</td><td>paypal.com</td><td>[7 errors](#71-paypalcom)</td><td>[8 errors](#71-paypalcom)</td></tr>
+<tr><td>67</td><td>⚠️</td><td>blogspot.com</td><td>✅</td><td>[11 errors](test-details.md#67-blogspotcom-validation)</td></tr>
+<tr><td>68</td><td>⚠️</td><td>bongacams.com</td><td>[44 errors](test-details.md#68-bongacamscom-parsing)</td><td>[7 errors](test-details.md#68-bongacamscom-validation)</td></tr>
+<tr><td>69</td><td>⚠️</td><td>google.com.au</td><td>[5 errors](test-details.md#69-googlecomau-parsing)</td><td>[28 errors](test-details.md#69-googlecomau-validation)</td></tr>
+<tr><td>70</td><td>⚠️</td><td>xnxx.com</td><td>[7 errors](test-details.md#70-xnxxcom-parsing)</td><td>[3 errors](test-details.md#70-xnxxcom-validation)</td></tr>
+<tr><td>71</td><td>⚠️</td><td>paypal.com</td><td>[7 errors](test-details.md#71-paypalcom-parsing)</td><td>[8 errors](test-details.md#71-paypalcom-validation)</td></tr>
 <tr><td>72</td><td>⚠️</td><td>microsoftonline.com</td><td colspan="2">–</td></tr>
-<tr><td>73</td><td>⚠️</td><td>github.com</td><td>✅</td><td>[15 errors](#73-githubcom)</td></tr>
-<tr><td>74</td><td>⚠️</td><td>apple.com</td><td>✅</td><td>[6 errors](#74-applecom)</td></tr>
-<tr><td>75</td><td>⚠️</td><td>tribunnews.com</td><td>[9 errors](#75-tribunnewscom)</td><td>[12 errors](#75-tribunnewscom)</td></tr>
-<tr><td>76</td><td>⚠️</td><td>stackoverflow.com</td><td>[1error](#76-stackoverflowcom)</td><td>[10 errors](#76-stackoverflowcom)</td></tr>
-<tr><td>77</td><td>⚠️</td><td>diply.com</td><td>[2 errors](#77-diplycom)</td><td>[2 errors](#77-diplycom)</td></tr>
-<tr><td>78</td><td>⚠️</td><td>savefrom.net</td><td>[7 errors](#78-savefromnet)</td><td>[9 errors](#78-savefromnet)</td></tr>
-<tr><td>79</td><td>⚠️</td><td>providr.com</td><td>[8 errors](#79-providrcom)</td><td>[10 errors](#79-providrcom)</td></tr>
-<tr><td>80</td><td>⚠️</td><td>pinterest.com</td><td>[7 errors](#80-pinterestcom)</td><td>[41 errors](#80-pinterestcom)</td></tr>
-<tr><td>81</td><td>⚠️</td><td>fbcdn.net</td><td>✅</td><td>[3 errors](#81-fbcdnnet)</td></tr>
-<tr><td>82</td><td>⚠️</td><td>chaturbate.com</td><td>✅</td><td>[6 errors](#82-chaturbatecom)</td></tr>
-<tr><td>83</td><td>⚠️</td><td>google.pl</td><td>[5 errors](#83-googlepl)</td><td>[28 errors](#83-googlepl)</td></tr>
-<tr><td>84</td><td>⚠️</td><td>amazon.de</td><td>[11 errors](#84-amazonde)</td><td>[20 errors](#84-amazonde)</td></tr>
+<tr><td>73</td><td>⚠️</td><td>github.com</td><td>✅</td><td>[15 errors](test-details.md#73-githubcom-validation)</td></tr>
+<tr><td>74</td><td>⚠️</td><td>apple.com</td><td>✅</td><td>[6 errors](test-details.md#74-applecom-validation)</td></tr>
+<tr><td>75</td><td>⚠️</td><td>tribunnews.com</td><td>[9 errors](test-details.md#75-tribunnewscom-parsing)</td><td>[12 errors](test-details.md#75-tribunnewscom-validation)</td></tr>
+<tr><td>76</td><td>⚠️</td><td>stackoverflow.com</td><td>[1error](test-details.md#76-stackoverflowcom-parsing)</td><td>[10 errors](test-details.md#76-stackoverflowcom-validation)</td></tr>
+<tr><td>77</td><td>⚠️</td><td>diply.com</td><td>[2 errors](test-details.md#77-diplycom-parsing)</td><td>[2 errors](test-details.md#77-diplycom-validation)</td></tr>
+<tr><td>78</td><td>⚠️</td><td>savefrom.net</td><td>[7 errors](test-details.md#78-savefromnet-parsing)</td><td>[9 errors](test-details.md#78-savefromnet-validation)</td></tr>
+<tr><td>79</td><td>⚠️</td><td>providr.com</td><td>[8 errors](test-details.md#79-providrcom-parsing)</td><td>[10 errors](test-details.md#79-providrcom-validation)</td></tr>
+<tr><td>80</td><td>⚠️</td><td>pinterest.com</td><td>[7 errors](test-details.md#80-pinterestcom-parsing)</td><td>[41 errors](test-details.md#80-pinterestcom-validation)</td></tr>
+<tr><td>81</td><td>⚠️</td><td>fbcdn.net</td><td>✅</td><td>[3 errors](test-details.md#81-fbcdnnet-validation)</td></tr>
+<tr><td>82</td><td>⚠️</td><td>chaturbate.com</td><td>✅</td><td>[6 errors](test-details.md#82-chaturbatecom-validation)</td></tr>
+<tr><td>83</td><td>⚠️</td><td>google.pl</td><td>[5 errors](test-details.md#83-googlepl-parsing)</td><td>[28 errors](test-details.md#83-googlepl-validation)</td></tr>
+<tr><td>84</td><td>⚠️</td><td>amazon.de</td><td>[11 errors](test-details.md#84-amazonde-parsing)</td><td>[20 errors](test-details.md#84-amazonde-validation)</td></tr>
 <tr><td>85</td><td>⚠️</td><td>youth.cn</td><td colspan="2">–</td></tr>
-<tr><td>86</td><td>⚠️</td><td>soso.com</td><td>[15 errors](#86-sosocom)</td><td>[27 errors](#86-sosocom)</td></tr>
-<tr><td>87</td><td>⚠️</td><td>txxx.com</td><td>[14 errors](#87-txxxcom)</td><td>[5 errors](#87-txxxcom)</td></tr>
-<tr><td>88</td><td>⚠️</td><td>coccoc.com</td><td>[6 errors](#88-coccoccom)</td><td>[9 errors](#88-coccoccom)</td></tr>
+<tr><td>86</td><td>⚠️</td><td>soso.com</td><td>[15 errors](test-details.md#86-sosocom-parsing)</td><td>[27 errors](test-details.md#86-sosocom-validation)</td></tr>
+<tr><td>87</td><td>⚠️</td><td>txxx.com</td><td>[14 errors](test-details.md#87-txxxcom-parsing)</td><td>[5 errors](test-details.md#87-txxxcom-validation)</td></tr>
+<tr><td>88</td><td>⚠️</td><td>coccoc.com</td><td>[6 errors](test-details.md#88-coccoccom-parsing)</td><td>[9 errors](test-details.md#88-coccoccom-validation)</td></tr>
 <tr><td>89</td><td>⚠️</td><td>google.co.id</td><td colspan="2">–</td></tr>
-<tr><td>90</td><td>⚠️</td><td>detail.tmall.com</td><td>[4 errors](#90-detailtmallcom)</td><td>[3 errors](#90-detailtmallcom)</td></tr>
-<tr><td>91</td><td>⚠️</td><td>k618.cn</td><td>[8 errors](#91-k618cn)</td><td>[2 errors](#91-k618cn)</td></tr>
+<tr><td>90</td><td>⚠️</td><td>detail.tmall.com</td><td>[4 errors](test-details.md#90-detailtmallcom-parsing)</td><td>[3 errors](test-details.md#90-detailtmallcom-validation)</td></tr>
+<tr><td>91</td><td>⚠️</td><td>k618.cn</td><td>[8 errors](test-details.md#91-k618cn-parsing)</td><td>[2 errors](test-details.md#91-k618cn-validation)</td></tr>
 <tr><td>92</td><td>⚠️</td><td>pixnet.net</td><td colspan="2">–</td></tr>
 <tr><td>93</td><td>⚠️</td><td>roblox.com</td><td colspan="2">–</td></tr>
-<tr><td>94</td><td>⚠️</td><td>adobe.com</td><td>[3 errors](#94-adobecom)</td><td>[25 errors](#94-adobecom)</td></tr>
+<tr><td>94</td><td>⚠️</td><td>adobe.com</td><td>[3 errors](test-details.md#94-adobecom-parsing)</td><td>[25 errors](test-details.md#94-adobecom-validation)</td></tr>
 <tr><td>95</td><td>🆗</td><td>thepiratebay.org</td><td>✅</td><td>✅</td></tr>
-<tr><td>96</td><td>⚠️</td><td>thestartmagazine.com</td><td>✅</td><td>[11 errors](#96-thestartmagazinecom)</td></tr>
+<tr><td>96</td><td>⚠️</td><td>thestartmagazine.com</td><td>✅</td><td>[11 errors](test-details.md#96-thestartmagazinecom-validation)</td></tr>
 <tr><td>97</td><td>⚠️</td><td>googleusercontent.com</td><td colspan="2">–</td></tr>
-<tr><td>98</td><td>⚠️</td><td>bbc.com</td><td>[16 errors](#98-bbccom)</td><td>[9 errors](#98-bbccom)</td></tr>
-<tr><td>99</td><td>⚠️</td><td>google.com.ua</td><td>[5 errors](#99-googlecomua)</td><td>[28 errors](#99-googlecomua)</td></tr>
-<tr><td>100</td><td>⚠️</td><td>amazon.in</td><td>[11 errors](#100-amazonin)</td><td>[20 errors](#100-amazonin)</td></tr>
-<tr><td>101</td><td>⚠️</td><td>nicovideo.jp</td><td>[4 errors](#101-nicovideojp)</td><td>[9 errors](#101-nicovideojp)</td></tr>
+<tr><td>98</td><td>⚠️</td><td>bbc.com</td><td>[16 errors](test-details.md#98-bbccom-parsing)</td><td>[9 errors](test-details.md#98-bbccom-validation)</td></tr>
+<tr><td>99</td><td>⚠️</td><td>google.com.ua</td><td>[5 errors](test-details.md#99-googlecomua-parsing)</td><td>[28 errors](test-details.md#99-googlecomua-validation)</td></tr>
+<tr><td>100</td><td>⚠️</td><td>amazon.in</td><td>[11 errors](test-details.md#100-amazonin-parsing)</td><td>[20 errors](test-details.md#100-amazonin-validation)</td></tr>
+<tr><td>101</td><td>⚠️</td><td>nicovideo.jp</td><td>[4 errors](test-details.md#101-nicovideojp-parsing)</td><td>[9 errors](test-details.md#101-nicovideojp-validation)</td></tr>
 <tr><td>102</td><td>⚠️</td><td>dailymotion.com</td><td colspan="2">–</td></tr>
-<tr><td>103</td><td>⚠️</td><td>craigslist.org</td><td>[14 errors](#103-craigslistorg)</td><td>[3 errors](#103-craigslistorg)</td></tr>
-<tr><td>104</td><td>⚠️</td><td>amazon.co.uk</td><td>[11 errors](#104-amazoncouk)</td><td>[20 errors](#104-amazoncouk)</td></tr>
+<tr><td>103</td><td>⚠️</td><td>craigslist.org</td><td>[14 errors](test-details.md#103-craigslistorg-parsing)</td><td>[3 errors](test-details.md#103-craigslistorg-validation)</td></tr>
+<tr><td>104</td><td>⚠️</td><td>amazon.co.uk</td><td>[11 errors](test-details.md#104-amazoncouk-parsing)</td><td>[20 errors](test-details.md#104-amazoncouk-validation)</td></tr>
 <tr><td>105</td><td>⚠️</td><td>google.com.ar</td><td colspan="2">–</td></tr>
-<tr><td>106</td><td>⚠️</td><td>restorecosm.bid</td><td>[14 errors](#106-restorecosmbid)</td><td>[40 errors](#106-restorecosmbid)</td></tr>
-<tr><td>107</td><td>⚠️</td><td>espn.com</td><td>[310 errors](#107-espncom)</td><td>[38 errors](#107-espncom)</td></tr>
-<tr><td>108</td><td>⚠️</td><td>soundcloud.com</td><td>✅</td><td>[3 errors](#108-soundcloudcom)</td></tr>
-<tr><td>109</td><td>⚠️</td><td>bbc.co.uk</td><td>[16 errors](#109-bbccouk)</td><td>[12 errors](#109-bbccouk)</td></tr>
-<tr><td>110</td><td>⚠️</td><td>google.co.th</td><td>[5 errors](#110-googlecoth)</td><td>[28 errors](#110-googlecoth)</td></tr>
-<tr><td>111</td><td>⚠️</td><td>quora.com</td><td>[11 errors](#111-quoracom)</td><td>[74 errors](#111-quoracom)</td></tr>
-<tr><td>112</td><td>⚠️</td><td>so.com</td><td>[6 errors](#112-socom)</td><td>[14 errors](#112-socom)</td></tr>
-<tr><td>113</td><td>⚠️</td><td>booking.com</td><td>[48 errors](#113-bookingcom)</td><td>[38 errors](#113-bookingcom)</td></tr>
-<tr><td>114</td><td>⚠️</td><td>dkn.tv</td><td>[16 errors](#114-dkntv)</td><td>[12 errors](#114-dkntv)</td></tr>
-<tr><td>115</td><td>⚠️</td><td>openload.co</td><td>[17 errors](#115-openloadco)</td><td>[2 errors](#115-openloadco)</td></tr>
-<tr><td>116</td><td>⚠️</td><td>xinhuanet.com</td><td>[32 errors](#116-xinhuanetcom)</td><td>[5 errors](#116-xinhuanetcom)</td></tr>
-<tr><td>117</td><td>⚠️</td><td>onlinesbi.com</td><td>[4 errors](#117-onlinesbicom)</td><td>[5 errors](#117-onlinesbicom)</td></tr>
-<tr><td>118</td><td>🆗</td><td>ask.com</td><td>[9 errors](#118-askcom)</td><td>✅</td></tr>
-<tr><td>119</td><td>⚠️</td><td>google.com.eg</td><td>[5 errors](#119-googlecomeg)</td><td>[28 errors](#119-googlecomeg)</td></tr>
-<tr><td>120</td><td>⚠️</td><td>dropbox.com</td><td>[8 errors](#120-dropboxcom)</td><td>[17 errors](#120-dropboxcom)</td></tr>
-<tr><td>121</td><td>⚠️</td><td>google.com.sa</td><td>[5 errors](#121-googlecomsa)</td><td>[28 errors](#121-googlecomsa)</td></tr>
-<tr><td>122</td><td>⚠️</td><td>tokopedia.com</td><td>[36 errors](#122-tokopediacom)</td><td>[52 errors](#122-tokopediacom)</td></tr>
-<tr><td>123</td><td>⚠️</td><td>discordapp.com</td><td>[1error](#123-discordappcom)</td><td>[28 errors](#123-discordappcom)</td></tr>
-<tr><td>124</td><td>⚠️</td><td>fc2.com</td><td>[3 errors](#124-fc2com)</td><td>[4 errors](#124-fc2com)</td></tr>
-<tr><td>125</td><td>⚠️</td><td>google.com.pk</td><td>[5 errors](#125-googlecompk)</td><td>[28 errors](#125-googlecompk)</td></tr>
+<tr><td>106</td><td>⚠️</td><td>restorecosm.bid</td><td>[14 errors](test-details.md#106-restorecosmbid-parsing)</td><td>[40 errors](test-details.md#106-restorecosmbid-validation)</td></tr>
+<tr><td>107</td><td>⚠️</td><td>espn.com</td><td>[310 errors](test-details.md#107-espncom-parsing)</td><td>[38 errors](test-details.md#107-espncom-validation)</td></tr>
+<tr><td>108</td><td>⚠️</td><td>soundcloud.com</td><td>✅</td><td>[3 errors](test-details.md#108-soundcloudcom-validation)</td></tr>
+<tr><td>109</td><td>⚠️</td><td>bbc.co.uk</td><td>[16 errors](test-details.md#109-bbccouk-parsing)</td><td>[12 errors](test-details.md#109-bbccouk-validation)</td></tr>
+<tr><td>110</td><td>⚠️</td><td>google.co.th</td><td>[5 errors](test-details.md#110-googlecoth-parsing)</td><td>[28 errors](test-details.md#110-googlecoth-validation)</td></tr>
+<tr><td>111</td><td>⚠️</td><td>quora.com</td><td>[11 errors](test-details.md#111-quoracom-parsing)</td><td>[74 errors](test-details.md#111-quoracom-validation)</td></tr>
+<tr><td>112</td><td>⚠️</td><td>so.com</td><td>[6 errors](test-details.md#112-socom-parsing)</td><td>[14 errors](test-details.md#112-socom-validation)</td></tr>
+<tr><td>113</td><td>⚠️</td><td>booking.com</td><td>[48 errors](test-details.md#113-bookingcom-parsing)</td><td>[38 errors](test-details.md#113-bookingcom-validation)</td></tr>
+<tr><td>114</td><td>⚠️</td><td>dkn.tv</td><td>[16 errors](test-details.md#114-dkntv-parsing)</td><td>[12 errors](test-details.md#114-dkntv-validation)</td></tr>
+<tr><td>115</td><td>⚠️</td><td>openload.co</td><td>[17 errors](test-details.md#115-openloadco-parsing)</td><td>[2 errors](test-details.md#115-openloadco-validation)</td></tr>
+<tr><td>116</td><td>⚠️</td><td>xinhuanet.com</td><td>[32 errors](test-details.md#116-xinhuanetcom-parsing)</td><td>[5 errors](test-details.md#116-xinhuanetcom-validation)</td></tr>
+<tr><td>117</td><td>⚠️</td><td>onlinesbi.com</td><td>[4 errors](test-details.md#117-onlinesbicom-parsing)</td><td>[5 errors](test-details.md#117-onlinesbicom-validation)</td></tr>
+<tr><td>118</td><td>🆗</td><td>ask.com</td><td>[9 errors](test-details.md#118-askcom-parsing)</td><td>✅</td></tr>
+<tr><td>119</td><td>⚠️</td><td>google.com.eg</td><td>[5 errors](test-details.md#119-googlecomeg-parsing)</td><td>[28 errors](test-details.md#119-googlecomeg-validation)</td></tr>
+<tr><td>120</td><td>⚠️</td><td>dropbox.com</td><td>[8 errors](test-details.md#120-dropboxcom-parsing)</td><td>[17 errors](test-details.md#120-dropboxcom-validation)</td></tr>
+<tr><td>121</td><td>⚠️</td><td>google.com.sa</td><td>[5 errors](test-details.md#121-googlecomsa-parsing)</td><td>[28 errors](test-details.md#121-googlecomsa-validation)</td></tr>
+<tr><td>122</td><td>⚠️</td><td>tokopedia.com</td><td>[36 errors](test-details.md#122-tokopediacom-parsing)</td><td>[52 errors](test-details.md#122-tokopediacom-validation)</td></tr>
+<tr><td>123</td><td>⚠️</td><td>discordapp.com</td><td>[1error](test-details.md#123-discordappcom-parsing)</td><td>[28 errors](test-details.md#123-discordappcom-validation)</td></tr>
+<tr><td>124</td><td>⚠️</td><td>fc2.com</td><td>[3 errors](test-details.md#124-fc2com-parsing)</td><td>[4 errors](test-details.md#124-fc2com-validation)</td></tr>
+<tr><td>125</td><td>⚠️</td><td>google.com.pk</td><td>[5 errors](test-details.md#125-googlecompk-parsing)</td><td>[28 errors](test-details.md#125-googlecompk-validation)</td></tr>
 <tr><td>126</td><td>⚠️</td><td>exdynsrv.com</td><td colspan="2">–</td></tr>
-<tr><td>127</td><td>⚠️</td><td>nytimes.com</td><td>[28 errors](#127-nytimescom)</td><td>[23 errors](#127-nytimescom)</td></tr>
-<tr><td>128</td><td>⚠️</td><td>tianya.cn</td><td>[11 errors](#128-tianyacn)</td><td>[2 errors](#128-tianyacn)</td></tr>
-<tr><td>129</td><td>⚠️</td><td>amazonaws.com</td><td>[61 errors](#129-amazonawscom)</td><td>[14 errors](#129-amazonawscom)</td></tr>
+<tr><td>127</td><td>⚠️</td><td>nytimes.com</td><td>[28 errors](test-details.md#127-nytimescom-parsing)</td><td>[23 errors](test-details.md#127-nytimescom-validation)</td></tr>
+<tr><td>128</td><td>⚠️</td><td>tianya.cn</td><td>[11 errors](test-details.md#128-tianyacn-parsing)</td><td>[2 errors](test-details.md#128-tianyacn-validation)</td></tr>
+<tr><td>129</td><td>⚠️</td><td>amazonaws.com</td><td>[61 errors](test-details.md#129-amazonawscom-parsing)</td><td>[14 errors](test-details.md#129-amazonawscom-validation)</td></tr>
 <tr><td>130</td><td>⚠️</td><td>theepochtimes.com</td><td colspan="2">–</td></tr>
-<tr><td>131</td><td>⚠️</td><td>ebay.de</td><td>[16 errors](#131-ebayde)</td><td>[15 errors](#131-ebayde)</td></tr>
-<tr><td>132</td><td>⚠️</td><td>mediafire.com</td><td>[43 errors](#132-mediafirecom)</td><td>[45 errors](#132-mediafirecom)</td></tr>
-<tr><td>133</td><td>⚠️</td><td>douyu.com</td><td>[46 errors](#133-douyucom)</td><td>[18 errors](#133-douyucom)</td></tr>
+<tr><td>131</td><td>⚠️</td><td>ebay.de</td><td>[16 errors](test-details.md#131-ebayde-parsing)</td><td>[15 errors](test-details.md#131-ebayde-validation)</td></tr>
+<tr><td>132</td><td>⚠️</td><td>mediafire.com</td><td>[43 errors](test-details.md#132-mediafirecom-parsing)</td><td>[45 errors](test-details.md#132-mediafirecom-validation)</td></tr>
+<tr><td>133</td><td>⚠️</td><td>douyu.com</td><td>[46 errors](test-details.md#133-douyucom-parsing)</td><td>[18 errors](test-details.md#133-douyucom-validation)</td></tr>
 <tr><td>134</td><td>⚠️</td><td>ettoday.net</td><td colspan="2">–</td></tr>
-<tr><td>135</td><td>⚠️</td><td>ntd.tv</td><td>[4 errors](#135-ntdtv)</td><td>[2 errors](#135-ntdtv)</td></tr>
+<tr><td>135</td><td>⚠️</td><td>ntd.tv</td><td>[4 errors](test-details.md#135-ntdtv-parsing)</td><td>[2 errors](test-details.md#135-ntdtv-validation)</td></tr>
 <tr><td>136</td><td>⚠️</td><td>cnn.com</td><td colspan="2">–</td></tr>
-<tr><td>137</td><td>⚠️</td><td>spotify.com</td><td>✅</td><td>[6 errors](#137-spotifycom)</td></tr>
-<tr><td>138</td><td>⚠️</td><td>stackexchange.com</td><td>[3 errors](#138-stackexchangecom)</td><td>[9 errors](#138-stackexchangecom)</td></tr>
+<tr><td>137</td><td>⚠️</td><td>spotify.com</td><td>✅</td><td>[6 errors](test-details.md#137-spotifycom-validation)</td></tr>
+<tr><td>138</td><td>⚠️</td><td>stackexchange.com</td><td>[3 errors](test-details.md#138-stackexchangecom-parsing)</td><td>[9 errors](test-details.md#138-stackexchangecom-validation)</td></tr>
 <tr><td>139</td><td>⚠️</td><td>rakuten.co.jp</td><td colspan="2">–</td></tr>
-<tr><td>140</td><td>⚠️</td><td>1688.com</td><td>[20 errors](#140-1688com)</td><td>[9 errors](#140-1688com)</td></tr>
+<tr><td>140</td><td>⚠️</td><td>1688.com</td><td>[20 errors](test-details.md#140-1688com-parsing)</td><td>[9 errors](test-details.md#140-1688com-validation)</td></tr>
 <tr><td>141</td><td>⚠️</td><td>aparat.com</td><td colspan="2">–</td></tr>
-<tr><td>142</td><td>⚠️</td><td>steamcommunity.com</td><td>[11 errors](#142-steamcommunitycom)</td><td>[1 error](#142-steamcommunitycom)</td></tr>
+<tr><td>142</td><td>⚠️</td><td>steamcommunity.com</td><td>[11 errors](test-details.md#142-steamcommunitycom-parsing)</td><td>[1 error](test-details.md#142-steamcommunitycom-validation)</td></tr>
 <tr><td>143</td><td>🆗</td><td>google.cn</td><td>✅</td><td>✅</td></tr>
-<tr><td>144</td><td>⚠️</td><td>cnblogs.com</td><td>✅</td><td>[1 error](#144-cnblogscom)</td></tr>
-<tr><td>145</td><td>⚠️</td><td>deviantart.com</td><td>[123 errors](#145-deviantartcom)</td><td>[85 errors](#145-deviantartcom)</td></tr>
-<tr><td>146</td><td>⚠️</td><td>bet9ja.com</td><td>[9 errors](#146-bet9jacom)</td><td>[1 error](#146-bet9jacom)</td></tr>
-<tr><td>147</td><td>⚠️</td><td>google.nl</td><td>[5 errors](#147-googlenl)</td><td>[28 errors](#147-googlenl)</td></tr>
-<tr><td>148</td><td>⚠️</td><td>avito.ru</td><td>[14 errors](#148-avitoru)</td><td>[13 errors](#148-avitoru)</td></tr>
-<tr><td>149</td><td>⚠️</td><td>softonic.com</td><td>[2 errors](#149-softoniccom)</td><td>[11 errors](#149-softoniccom)</td></tr>
-<tr><td>150</td><td>⚠️</td><td>google.co.za</td><td>[5 errors](#150-googlecoza)</td><td>[28 errors](#150-googlecoza)</td></tr>
+<tr><td>144</td><td>⚠️</td><td>cnblogs.com</td><td>✅</td><td>[1 error](test-details.md#144-cnblogscom-validation)</td></tr>
+<tr><td>145</td><td>⚠️</td><td>deviantart.com</td><td>[123 errors](test-details.md#145-deviantartcom-parsing)</td><td>[85 errors](test-details.md#145-deviantartcom-validation)</td></tr>
+<tr><td>146</td><td>⚠️</td><td>bet9ja.com</td><td>[9 errors](test-details.md#146-bet9jacom-parsing)</td><td>[1 error](test-details.md#146-bet9jacom-validation)</td></tr>
+<tr><td>147</td><td>⚠️</td><td>google.nl</td><td>[5 errors](test-details.md#147-googlenl-parsing)</td><td>[28 errors](test-details.md#147-googlenl-validation)</td></tr>
+<tr><td>148</td><td>⚠️</td><td>avito.ru</td><td>[14 errors](test-details.md#148-avitoru-parsing)</td><td>[13 errors](test-details.md#148-avitoru-validation)</td></tr>
+<tr><td>149</td><td>⚠️</td><td>softonic.com</td><td>[2 errors](test-details.md#149-softoniccom-parsing)</td><td>[11 errors](test-details.md#149-softoniccom-validation)</td></tr>
+<tr><td>150</td><td>⚠️</td><td>google.co.za</td><td>[5 errors](test-details.md#150-googlecoza-parsing)</td><td>[28 errors](test-details.md#150-googlecoza-validation)</td></tr>
 <tr><td>151</td><td>⚠️</td><td>nextoptim.com</td><td colspan="2">–</td></tr>
 <tr><td>152</td><td>⚠️</td><td>detik.com</td><td colspan="2">–</td></tr>
-<tr><td>153</td><td>⚠️</td><td>google.az</td><td>[5 errors](#153-googleaz)</td><td>[28 errors](#153-googleaz)</td></tr>
-<tr><td>154</td><td>⚠️</td><td>4chan.org</td><td>✅</td><td>[2 errors](#154-4chanorg)</td></tr>
-<tr><td>155</td><td>⚠️</td><td>ebay.co.uk</td><td>[16 errors](#155-ebaycouk)</td><td>[15 errors](#155-ebaycouk)</td></tr>
-<tr><td>156</td><td>⚠️</td><td>hotmovs.com</td><td>[35 errors](#156-hotmovscom)</td><td>[3 errors](#156-hotmovscom)</td></tr>
-<tr><td>157</td><td>⚠️</td><td>vimeo.com</td><td>[7 errors](#157-vimeocom)</td><td>[10 errors](#157-vimeocom)</td></tr>
-<tr><td>158</td><td>⚠️</td><td>theguardian.com</td><td>✅</td><td>[21 errors](#158-theguardiancom)</td></tr>
+<tr><td>153</td><td>⚠️</td><td>google.az</td><td>[5 errors](test-details.md#153-googleaz-parsing)</td><td>[28 errors](test-details.md#153-googleaz-validation)</td></tr>
+<tr><td>154</td><td>⚠️</td><td>4chan.org</td><td>✅</td><td>[2 errors](test-details.md#154-4chanorg-validation)</td></tr>
+<tr><td>155</td><td>⚠️</td><td>ebay.co.uk</td><td>[16 errors](test-details.md#155-ebaycouk-parsing)</td><td>[15 errors](test-details.md#155-ebaycouk-validation)</td></tr>
+<tr><td>156</td><td>⚠️</td><td>hotmovs.com</td><td>[35 errors](test-details.md#156-hotmovscom-parsing)</td><td>[3 errors](test-details.md#156-hotmovscom-validation)</td></tr>
+<tr><td>157</td><td>⚠️</td><td>vimeo.com</td><td>[7 errors](test-details.md#157-vimeocom-parsing)</td><td>[10 errors](test-details.md#157-vimeocom-validation)</td></tr>
+<tr><td>158</td><td>⚠️</td><td>theguardian.com</td><td>✅</td><td>[21 errors](test-details.md#158-theguardiancom-validation)</td></tr>
 <tr><td>159</td><td>🆗</td><td>doublepimpssl.com</td><td>✅</td><td>✅</td></tr>
-<tr><td>160</td><td>⚠️</td><td>nih.gov</td><td>[24 errors](#160-nihgov)</td><td>[9 errors](#160-nihgov)</td></tr>
-<tr><td>161</td><td>⚠️</td><td>oath.com</td><td>[3 errors](#161-oathcom)</td><td>[7 errors](#161-oathcom)</td></tr>
-<tr><td>162</td><td>⚠️</td><td>chase.com</td><td>[8 errors](#162-chasecom)</td><td>[23 errors](#162-chasecom)</td></tr>
+<tr><td>160</td><td>⚠️</td><td>nih.gov</td><td>[24 errors](test-details.md#160-nihgov-parsing)</td><td>[9 errors](test-details.md#160-nihgov-validation)</td></tr>
+<tr><td>161</td><td>⚠️</td><td>oath.com</td><td>[3 errors](test-details.md#161-oathcom-parsing)</td><td>[7 errors](test-details.md#161-oathcom-validation)</td></tr>
+<tr><td>162</td><td>⚠️</td><td>chase.com</td><td>[8 errors](test-details.md#162-chasecom-parsing)</td><td>[23 errors](test-details.md#162-chasecom-validation)</td></tr>
 <tr><td>163</td><td>⚠️</td><td>flipkart.com</td><td colspan="2">–</td></tr>
-<tr><td>164</td><td>⚠️</td><td>dailymail.co.uk</td><td>[41 errors](#164-dailymailcouk)</td><td>[30 errors](#164-dailymailcouk)</td></tr>
-<tr><td>165</td><td>⚠️</td><td>google.com.vn</td><td>[5 errors](#165-googlecomvn)</td><td>[28 errors](#165-googlecomvn)</td></tr>
-<tr><td>166</td><td>⚠️</td><td>google.co.ve</td><td>[5 errors](#166-googlecove)</td><td>[28 errors](#166-googlecove)</td></tr>
-<tr><td>167</td><td>⚠️</td><td>bukalapak.com</td><td>[20 errors](#167-bukalapakcom)</td><td>[26 errors](#167-bukalapakcom)</td></tr>
-<tr><td>168</td><td>⚠️</td><td>cricbuzz.com</td><td>[3 errors](#168-cricbuzzcom)</td><td>[2 errors](#168-cricbuzzcom)</td></tr>
-<tr><td>169</td><td>⚠️</td><td>yts.am</td><td>[64 errors](#169-ytsam)</td><td>[9 errors](#169-ytsam)</td></tr>
-<tr><td>170</td><td>⚠️</td><td>bles.com</td><td>[15 errors](#170-blescom)</td><td>[14 errors](#170-blescom)</td></tr>
-<tr><td>171</td><td>⚠️</td><td>hotstar.com</td><td>[29 errors](#171-hotstarcom)</td><td>[24 errors](#171-hotstarcom)</td></tr>
-<tr><td>172</td><td>⚠️</td><td>mozilla.org</td><td>✅</td><td>[2 errors](#172-mozillaorg)</td></tr>
+<tr><td>164</td><td>⚠️</td><td>dailymail.co.uk</td><td>[41 errors](test-details.md#164-dailymailcouk-parsing)</td><td>[30 errors](test-details.md#164-dailymailcouk-validation)</td></tr>
+<tr><td>165</td><td>⚠️</td><td>google.com.vn</td><td>[5 errors](test-details.md#165-googlecomvn-parsing)</td><td>[28 errors](test-details.md#165-googlecomvn-validation)</td></tr>
+<tr><td>166</td><td>⚠️</td><td>google.co.ve</td><td>[5 errors](test-details.md#166-googlecove-parsing)</td><td>[28 errors](test-details.md#166-googlecove-validation)</td></tr>
+<tr><td>167</td><td>⚠️</td><td>bukalapak.com</td><td>[20 errors](test-details.md#167-bukalapakcom-parsing)</td><td>[26 errors](test-details.md#167-bukalapakcom-validation)</td></tr>
+<tr><td>168</td><td>⚠️</td><td>cricbuzz.com</td><td>[3 errors](test-details.md#168-cricbuzzcom-parsing)</td><td>[2 errors](test-details.md#168-cricbuzzcom-validation)</td></tr>
+<tr><td>169</td><td>⚠️</td><td>yts.am</td><td>[64 errors](test-details.md#169-ytsam-parsing)</td><td>[9 errors](test-details.md#169-ytsam-validation)</td></tr>
+<tr><td>170</td><td>⚠️</td><td>bles.com</td><td>[15 errors](test-details.md#170-blescom-parsing)</td><td>[14 errors](test-details.md#170-blescom-validation)</td></tr>
+<tr><td>171</td><td>⚠️</td><td>hotstar.com</td><td>[29 errors](test-details.md#171-hotstarcom-parsing)</td><td>[24 errors](test-details.md#171-hotstarcom-validation)</td></tr>
+<tr><td>172</td><td>⚠️</td><td>mozilla.org</td><td>✅</td><td>[2 errors](test-details.md#172-mozillaorg-validation)</td></tr>
 <tr><td>173</td><td>⚠️</td><td>bet365.com</td><td colspan="2">–</td></tr>
-<tr><td>174</td><td>⚠️</td><td>google.se</td><td>[5 errors](#174-googlese)</td><td>[28 errors](#174-googlese)</td></tr>
-<tr><td>175</td><td>⚠️</td><td>cnet.com</td><td>[33 errors](#175-cnetcom)</td><td>[9 errors](#175-cnetcom)</td></tr>
+<tr><td>174</td><td>⚠️</td><td>google.se</td><td>[5 errors](test-details.md#174-googlese-parsing)</td><td>[28 errors](test-details.md#174-googlese-validation)</td></tr>
+<tr><td>175</td><td>⚠️</td><td>cnet.com</td><td>[33 errors](test-details.md#175-cnetcom-parsing)</td><td>[9 errors](test-details.md#175-cnetcom-validation)</td></tr>
 <tr><td>176</td><td>⚠️</td><td>twimg.com</td><td colspan="2">–</td></tr>
-<tr><td>177</td><td>⚠️</td><td>lifedaily.com</td><td>[39 errors](#177-lifedailycom)</td><td>[11 errors](#177-lifedailycom)</td></tr>
-<tr><td>178</td><td>⚠️</td><td>redtube.com</td><td>✅</td><td>[3 errors](#178-redtubecom)</td></tr>
-<tr><td>179</td><td>⚠️</td><td>myfastappz.com</td><td>✅</td><td>[4 errors](#179-myfastappzcom)</td></tr>
-<tr><td>180</td><td>⚠️</td><td>fapmeth.com</td><td>[5 errors](#180-fapmethcom)</td><td>[28 errors](#180-fapmethcom)</td></tr>
+<tr><td>177</td><td>⚠️</td><td>lifedaily.com</td><td>[39 errors](test-details.md#177-lifedailycom-parsing)</td><td>[11 errors](test-details.md#177-lifedailycom-validation)</td></tr>
+<tr><td>178</td><td>⚠️</td><td>redtube.com</td><td>✅</td><td>[3 errors](test-details.md#178-redtubecom-validation)</td></tr>
+<tr><td>179</td><td>⚠️</td><td>myfastappz.com</td><td>✅</td><td>[4 errors](test-details.md#179-myfastappzcom-validation)</td></tr>
+<tr><td>180</td><td>⚠️</td><td>fapmeth.com</td><td>[5 errors](test-details.md#180-fapmethcom-parsing)</td><td>[28 errors](test-details.md#180-fapmethcom-validation)</td></tr>
 <tr><td>181</td><td>⚠️</td><td>digitaldsp.com</td><td colspan="2">–</td></tr>
-<tr><td>182</td><td>⚠️</td><td>walmart.com</td><td>[3 errors](#182-walmartcom)</td><td>[4 errors](#182-walmartcom)</td></tr>
-<tr><td>183</td><td>⚠️</td><td>globo.com</td><td>[16 errors](#183-globocom)</td><td>[8 errors](#183-globocom)</td></tr>
-<tr><td>184</td><td>⚠️</td><td>google.com.co</td><td>[5 errors](#184-googlecomco)</td><td>[28 errors](#184-googlecomco)</td></tr>
+<tr><td>182</td><td>⚠️</td><td>walmart.com</td><td>[3 errors](test-details.md#182-walmartcom-parsing)</td><td>[4 errors](test-details.md#182-walmartcom-validation)</td></tr>
+<tr><td>183</td><td>⚠️</td><td>globo.com</td><td>[16 errors](test-details.md#183-globocom-parsing)</td><td>[8 errors](test-details.md#183-globocom-validation)</td></tr>
+<tr><td>184</td><td>⚠️</td><td>google.com.co</td><td>[5 errors](test-details.md#184-googlecomco-parsing)</td><td>[28 errors](test-details.md#184-googlecomco-validation)</td></tr>
 <tr><td>185</td><td>⚠️</td><td>crptentry.com</td><td colspan="2">–</td></tr>
-<tr><td>186</td><td>⚠️</td><td>google.com.sg</td><td>[5 errors](#186-googlecomsg)</td><td>[28 errors](#186-googlecomsg)</td></tr>
-<tr><td>187</td><td>⚠️</td><td>onlinevideoconverter.com</td><td>[16 errors](#187-onlinevideoconvertercom)</td><td>[7 errors](#187-onlinevideoconvertercom)</td></tr>
+<tr><td>186</td><td>⚠️</td><td>google.com.sg</td><td>[5 errors](test-details.md#186-googlecomsg-parsing)</td><td>[28 errors](test-details.md#186-googlecomsg-validation)</td></tr>
+<tr><td>187</td><td>⚠️</td><td>onlinevideoconverter.com</td><td>[16 errors](test-details.md#187-onlinevideoconvertercom-parsing)</td><td>[7 errors](test-details.md#187-onlinevideoconvertercom-validation)</td></tr>
 <tr><td>188</td><td>🆗</td><td>mega.nz</td><td>✅</td><td>✅</td></tr>
 <tr><td>189</td><td>⚠️</td><td>slideshare.net</td><td colspan="2">–</td></tr>
-<tr><td>190</td><td>⚠️</td><td>doubleclick.net</td><td>✅</td><td>[11 errors](#190-doubleclicknet)</td></tr>
-<tr><td>191</td><td>⚠️</td><td>steampowered.com</td><td>[36 errors](#191-steampoweredcom)</td><td>[2 errors](#191-steampoweredcom)</td></tr>
-<tr><td>192</td><td>⚠️</td><td>etsy.com</td><td>[126 errors](#192-etsycom)</td><td>[12 errors](#192-etsycom)</td></tr>
-<tr><td>193</td><td>⚠️</td><td>yelp.com</td><td>[8 errors](#193-yelpcom)</td><td>[14 errors](#193-yelpcom)</td></tr>
-<tr><td>194</td><td>⚠️</td><td>speakol.com</td><td>[17 errors](#194-speakolcom)</td><td>[4 errors](#194-speakolcom)</td></tr>
-<tr><td>195</td><td>⚠️</td><td>google.gr</td><td>[5 errors](#195-googlegr)</td><td>[28 errors](#195-googlegr)</td></tr>
-<tr><td>196</td><td>⚠️</td><td>wikihow.com</td><td>[17 errors](#196-wikihowcom)</td><td>[11 errors](#196-wikihowcom)</td></tr>
-<tr><td>197</td><td>⚠️</td><td>mercadolivre.com.br</td><td>✅</td><td>[3 errors](#197-mercadolivrecombr)</td></tr>
-<tr><td>198</td><td>⚠️</td><td>igmatik.com</td><td>[27 errors](#198-igmatikcom)</td><td>[17 errors](#198-igmatikcom)</td></tr>
-<tr><td>199</td><td>⚠️</td><td>hulu.com</td><td>✅</td><td>[6 errors](#199-hulucom)</td></tr>
+<tr><td>190</td><td>⚠️</td><td>doubleclick.net</td><td>✅</td><td>[11 errors](test-details.md#190-doubleclicknet-validation)</td></tr>
+<tr><td>191</td><td>⚠️</td><td>steampowered.com</td><td>[36 errors](test-details.md#191-steampoweredcom-parsing)</td><td>[2 errors](test-details.md#191-steampoweredcom-validation)</td></tr>
+<tr><td>192</td><td>⚠️</td><td>etsy.com</td><td>[126 errors](test-details.md#192-etsycom-parsing)</td><td>[12 errors](test-details.md#192-etsycom-validation)</td></tr>
+<tr><td>193</td><td>⚠️</td><td>yelp.com</td><td>[8 errors](test-details.md#193-yelpcom-parsing)</td><td>[14 errors](test-details.md#193-yelpcom-validation)</td></tr>
+<tr><td>194</td><td>⚠️</td><td>speakol.com</td><td>[17 errors](test-details.md#194-speakolcom-parsing)</td><td>[4 errors](test-details.md#194-speakolcom-validation)</td></tr>
+<tr><td>195</td><td>⚠️</td><td>google.gr</td><td>[5 errors](test-details.md#195-googlegr-parsing)</td><td>[28 errors](test-details.md#195-googlegr-validation)</td></tr>
+<tr><td>196</td><td>⚠️</td><td>wikihow.com</td><td>[17 errors](test-details.md#196-wikihowcom-parsing)</td><td>[11 errors](test-details.md#196-wikihowcom-validation)</td></tr>
+<tr><td>197</td><td>⚠️</td><td>mercadolivre.com.br</td><td>✅</td><td>[3 errors](test-details.md#197-mercadolivrecombr-validation)</td></tr>
+<tr><td>198</td><td>⚠️</td><td>igmatik.com</td><td>[27 errors](test-details.md#198-igmatikcom-parsing)</td><td>[17 errors](test-details.md#198-igmatikcom-validation)</td></tr>
+<tr><td>199</td><td>⚠️</td><td>hulu.com</td><td>✅</td><td>[6 errors](test-details.md#199-hulucom-validation)</td></tr>
 <tr><td>200</td><td>⚠️</td><td>jf71qh5v14.com</td><td colspan="2">–</td></tr>
 <tr><td>201</td><td>⚠️</td><td>youporn.com</td><td colspan="2">–</td></tr>
-<tr><td>202</td><td>⚠️</td><td>alibaba.com</td><td>[2 errors](#202-alibabacom)</td><td>[6 errors](#202-alibabacom)</td></tr>
-<tr><td>203</td><td>⚠️</td><td>google.be</td><td>[5 errors](#203-googlebe)</td><td>[28 errors](#203-googlebe)</td></tr>
-<tr><td>204</td><td>⚠️</td><td>rumble.com</td><td>[9 errors](#204-rumblecom)</td><td>[4 errors](#204-rumblecom)</td></tr>
-<tr><td>205</td><td>⚠️</td><td>vice.com</td><td>✅</td><td>[9 errors](#205-vicecom)</td></tr>
-<tr><td>206</td><td>⚠️</td><td>sogou.com</td><td>[15 errors](#206-sogoucom)</td><td>[27 errors](#206-sogoucom)</td></tr>
+<tr><td>202</td><td>⚠️</td><td>alibaba.com</td><td>[2 errors](test-details.md#202-alibabacom-parsing)</td><td>[6 errors](test-details.md#202-alibabacom-validation)</td></tr>
+<tr><td>203</td><td>⚠️</td><td>google.be</td><td>[5 errors](test-details.md#203-googlebe-parsing)</td><td>[28 errors](test-details.md#203-googlebe-validation)</td></tr>
+<tr><td>204</td><td>⚠️</td><td>rumble.com</td><td>[9 errors](test-details.md#204-rumblecom-parsing)</td><td>[4 errors](test-details.md#204-rumblecom-validation)</td></tr>
+<tr><td>205</td><td>⚠️</td><td>vice.com</td><td>✅</td><td>[9 errors](test-details.md#205-vicecom-validation)</td></tr>
+<tr><td>206</td><td>⚠️</td><td>sogou.com</td><td>[15 errors](test-details.md#206-sogoucom-parsing)</td><td>[27 errors](test-details.md#206-sogoucom-validation)</td></tr>
 <tr><td>207</td><td>⚠️</td><td>youm7.com</td><td colspan="2">–</td></tr>
 <tr><td>208</td><td>⚠️</td><td>abs-cbn.com</td><td colspan="2">–</td></tr>
-<tr><td>209</td><td>⚠️</td><td>google.com.ph</td><td>[5 errors](#209-googlecomph)</td><td>[28 errors](#209-googlecomph)</td></tr>
-<tr><td>210</td><td>⚠️</td><td>doublepimp.com</td><td>[4 errors](#210-doublepimpcom)</td><td>[1 error](#210-doublepimpcom)</td></tr>
-<tr><td>211</td><td>⚠️</td><td>fbspyster.com</td><td>[1error](#211-fbspystercom)</td><td>[2 errors](#211-fbspystercom)</td></tr>
-<tr><td>212</td><td>⚠️</td><td>messenger.com</td><td>✅</td><td>[1 error](#212-messengercom)</td></tr>
-<tr><td>213</td><td>⚠️</td><td>coinmarketcap.com</td><td>[12 errors](#213-coinmarketcapcom)</td><td>[9 errors](#213-coinmarketcapcom)</td></tr>
-<tr><td>214</td><td>⚠️</td><td>blastingnews.com</td><td>[24 errors](#214-blastingnewscom)</td><td>[26 errors](#214-blastingnewscom)</td></tr>
-<tr><td>215</td><td>⚠️</td><td>scribd.com</td><td>[4 errors](#215-scribdcom)</td><td>[20 errors](#215-scribdcom)</td></tr>
-<tr><td>216</td><td>⚠️</td><td>indeed.com</td><td>✅</td><td>[5 errors](#216-indeedcom)</td></tr>
-<tr><td>217</td><td>⚠️</td><td>babytree.com</td><td>[18 errors](#217-babytreecom)</td><td>[11 errors](#217-babytreecom)</td></tr>
-<tr><td>218</td><td>⚠️</td><td>google.com.pe</td><td>[5 errors](#218-googlecompe)</td><td>[28 errors](#218-googlecompe)</td></tr>
-<tr><td>219</td><td>⚠️</td><td>naver.com</td><td>[43 errors](#219-navercom)</td><td>[2 errors](#219-navercom)</td></tr>
-<tr><td>220</td><td>⚠️</td><td>buzzfeed.com</td><td>[2 errors](#220-buzzfeedcom)</td><td>[5 errors](#220-buzzfeedcom)</td></tr>
-<tr><td>221</td><td>⚠️</td><td>uol.com.br</td><td>[56 errors](#221-uolcombr)</td><td>[10 errors](#221-uolcombr)</td></tr>
+<tr><td>209</td><td>⚠️</td><td>google.com.ph</td><td>[5 errors](test-details.md#209-googlecomph-parsing)</td><td>[28 errors](test-details.md#209-googlecomph-validation)</td></tr>
+<tr><td>210</td><td>⚠️</td><td>doublepimp.com</td><td>[4 errors](test-details.md#210-doublepimpcom-parsing)</td><td>[1 error](test-details.md#210-doublepimpcom-validation)</td></tr>
+<tr><td>211</td><td>⚠️</td><td>fbspyster.com</td><td>[1error](test-details.md#211-fbspystercom-parsing)</td><td>[2 errors](test-details.md#211-fbspystercom-validation)</td></tr>
+<tr><td>212</td><td>⚠️</td><td>messenger.com</td><td>✅</td><td>[1 error](test-details.md#212-messengercom-validation)</td></tr>
+<tr><td>213</td><td>⚠️</td><td>coinmarketcap.com</td><td>[12 errors](test-details.md#213-coinmarketcapcom-parsing)</td><td>[9 errors](test-details.md#213-coinmarketcapcom-validation)</td></tr>
+<tr><td>214</td><td>⚠️</td><td>blastingnews.com</td><td>[24 errors](test-details.md#214-blastingnewscom-parsing)</td><td>[26 errors](test-details.md#214-blastingnewscom-validation)</td></tr>
+<tr><td>215</td><td>⚠️</td><td>scribd.com</td><td>[4 errors](test-details.md#215-scribdcom-parsing)</td><td>[20 errors](test-details.md#215-scribdcom-validation)</td></tr>
+<tr><td>216</td><td>⚠️</td><td>indeed.com</td><td>✅</td><td>[5 errors](test-details.md#216-indeedcom-validation)</td></tr>
+<tr><td>217</td><td>⚠️</td><td>babytree.com</td><td>[18 errors](test-details.md#217-babytreecom-parsing)</td><td>[11 errors](test-details.md#217-babytreecom-validation)</td></tr>
+<tr><td>218</td><td>⚠️</td><td>google.com.pe</td><td>[5 errors](test-details.md#218-googlecompe-parsing)</td><td>[28 errors](test-details.md#218-googlecompe-validation)</td></tr>
+<tr><td>219</td><td>⚠️</td><td>naver.com</td><td>[43 errors](test-details.md#219-navercom-parsing)</td><td>[2 errors](test-details.md#219-navercom-validation)</td></tr>
+<tr><td>220</td><td>⚠️</td><td>buzzfeed.com</td><td>[2 errors](test-details.md#220-buzzfeedcom-parsing)</td><td>[5 errors](test-details.md#220-buzzfeedcom-validation)</td></tr>
+<tr><td>221</td><td>⚠️</td><td>uol.com.br</td><td>[56 errors](test-details.md#221-uolcombr-parsing)</td><td>[10 errors](test-details.md#221-uolcombr-validation)</td></tr>
 <tr><td>222</td><td>🆗</td><td>china.com.cn</td><td>✅</td><td>✅</td></tr>
 <tr><td>223</td><td>⚠️</td><td>kissanime.ru</td><td colspan="2">–</td></tr>
 <tr><td>224</td><td>⚠️</td><td>qulsqiqrev.com</td><td colspan="2">–</td></tr>
-<tr><td>225</td><td>⚠️</td><td>amazon.fr</td><td>[11 errors](#225-amazonfr)</td><td>[20 errors](#225-amazonfr)</td></tr>
-<tr><td>226</td><td>⚠️</td><td>kompas.com</td><td>[2 errors](#226-kompascom)</td><td>[7 errors](#226-kompascom)</td></tr>
-<tr><td>227</td><td>⚠️</td><td>sciencedirect.com</td><td>[6 errors](#227-sciencedirectcom)</td><td>[2 errors](#227-sciencedirectcom)</td></tr>
-<tr><td>228</td><td>⚠️</td><td>liputan6.com</td><td>[5 errors](#228-liputan6com)</td><td>[5 errors](#228-liputan6com)</td></tr>
-<tr><td>229</td><td>⚠️</td><td>zhihu.com</td><td>[3 errors](#229-zhihucom)</td><td>[17 errors](#229-zhihucom)</td></tr>
+<tr><td>225</td><td>⚠️</td><td>amazon.fr</td><td>[11 errors](test-details.md#225-amazonfr-parsing)</td><td>[20 errors](test-details.md#225-amazonfr-validation)</td></tr>
+<tr><td>226</td><td>⚠️</td><td>kompas.com</td><td>[2 errors](test-details.md#226-kompascom-parsing)</td><td>[7 errors](test-details.md#226-kompascom-validation)</td></tr>
+<tr><td>227</td><td>⚠️</td><td>sciencedirect.com</td><td>[6 errors](test-details.md#227-sciencedirectcom-parsing)</td><td>[2 errors](test-details.md#227-sciencedirectcom-validation)</td></tr>
+<tr><td>228</td><td>⚠️</td><td>liputan6.com</td><td>[5 errors](test-details.md#228-liputan6com-parsing)</td><td>[5 errors](test-details.md#228-liputan6com-validation)</td></tr>
+<tr><td>229</td><td>⚠️</td><td>zhihu.com</td><td>[3 errors](test-details.md#229-zhihucom-parsing)</td><td>[17 errors](test-details.md#229-zhihucom-validation)</td></tr>
 <tr><td>230</td><td>🆗</td><td>huanqiu.com</td><td>✅</td><td>✅</td></tr>
-<tr><td>231</td><td>⚠️</td><td>1337x.to</td><td>[9 errors](#231-1337xto)</td><td>[16 errors](#231-1337xto)</td></tr>
-<tr><td>232</td><td>⚠️</td><td>irctc.co.in</td><td>[15 errors](#232-irctccoin)</td><td>[12 errors](#232-irctccoin)</td></tr>
+<tr><td>231</td><td>⚠️</td><td>1337x.to</td><td>[9 errors](test-details.md#231-1337xto-parsing)</td><td>[16 errors](test-details.md#231-1337xto-validation)</td></tr>
+<tr><td>232</td><td>⚠️</td><td>irctc.co.in</td><td>[15 errors](test-details.md#232-irctccoin-parsing)</td><td>[12 errors](test-details.md#232-irctccoin-validation)</td></tr>
 <tr><td>233</td><td>⚠️</td><td>hibids10.com</td><td colspan="2">–</td></tr>
 <tr><td>234</td><td>⚠️</td><td>ladbible.com</td><td colspan="2">–</td></tr>
-<tr><td>235</td><td>⚠️</td><td>exoclick.com</td><td>[2 errors](#235-exoclickcom)</td><td>[1 error](#235-exoclickcom)</td></tr>
-<tr><td>236</td><td>⚠️</td><td>mama.cn</td><td>[16 errors](#236-mamacn)</td><td>[1 error](#236-mamacn)</td></tr>
+<tr><td>235</td><td>⚠️</td><td>exoclick.com</td><td>[2 errors](test-details.md#235-exoclickcom-parsing)</td><td>[1 error](test-details.md#235-exoclickcom-validation)</td></tr>
+<tr><td>236</td><td>⚠️</td><td>mama.cn</td><td>[16 errors](test-details.md#236-mamacn-parsing)</td><td>[1 error](test-details.md#236-mamacn-validation)</td></tr>
 <tr><td>237</td><td>⚠️</td><td>newsprofin.com</td><td colspan="2">–</td></tr>
 <tr><td>238</td><td>🆗</td><td>metropcs.mobi</td><td>✅</td><td>✅</td></tr>
-<tr><td>239</td><td>⚠️</td><td>rambler.ru</td><td>[17 errors](#239-ramblerru)</td><td>[5 errors](#239-ramblerru)</td></tr>
-<tr><td>240</td><td>⚠️</td><td>amazon.it</td><td>[11 errors](#240-amazonit)</td><td>[20 errors](#240-amazonit)</td></tr>
-<tr><td>241</td><td>⚠️</td><td>gamespot.com</td><td>[35 errors](#241-gamespotcom)</td><td>[34 errors](#241-gamespotcom)</td></tr>
-<tr><td>242</td><td>⚠️</td><td>w3schools.com</td><td>[9 errors](#242-w3schoolscom)</td><td>[11 errors](#242-w3schoolscom)</td></tr>
+<tr><td>239</td><td>⚠️</td><td>rambler.ru</td><td>[17 errors](test-details.md#239-ramblerru-parsing)</td><td>[5 errors](test-details.md#239-ramblerru-validation)</td></tr>
+<tr><td>240</td><td>⚠️</td><td>amazon.it</td><td>[11 errors](test-details.md#240-amazonit-parsing)</td><td>[20 errors](test-details.md#240-amazonit-validation)</td></tr>
+<tr><td>241</td><td>⚠️</td><td>gamespot.com</td><td>[35 errors](test-details.md#241-gamespotcom-parsing)</td><td>[34 errors](test-details.md#241-gamespotcom-validation)</td></tr>
+<tr><td>242</td><td>⚠️</td><td>w3schools.com</td><td>[9 errors](test-details.md#242-w3schoolscom-parsing)</td><td>[11 errors](test-details.md#242-w3schoolscom-validation)</td></tr>
 <tr><td>243</td><td>⚠️</td><td>cloudfront.net</td><td colspan="2">–</td></tr>
 <tr><td>244</td><td>⚠️</td><td>thewhizmarketing.com</td><td colspan="2">–</td></tr>
 <tr><td>245</td><td>⚠️</td><td>caijing.com.cn</td><td colspan="2">–</td></tr>
 <tr><td>246</td><td>🆗</td><td>bilibili.com</td><td>✅</td><td>✅</td></tr>
 <tr><td>247</td><td>⚠️</td><td>speedtest.net</td><td colspan="2">–</td></tr>
 <tr><td>248</td><td>⚠️</td><td>eastday.com</td><td colspan="2">–</td></tr>
-<tr><td>249</td><td>⚠️</td><td>livejournal.com</td><td>[7 errors](#249-livejournalcom)</td><td>[11 errors](#249-livejournalcom)</td></tr>
-<tr><td>250</td><td>⚠️</td><td>google.no</td><td>[5 errors](#250-googleno)</td><td>[28 errors](#250-googleno)</td></tr></table>
+<tr><td>249</td><td>⚠️</td><td>livejournal.com</td><td>[7 errors](test-details.md#249-livejournalcom-parsing)</td><td>[11 errors](test-details.md#249-livejournalcom-validation)</td></tr>
+<tr><td>250</td><td>⚠️</td><td>google.no</td><td>[5 errors](test-details.md#250-googleno-parsing)</td><td>[28 errors](test-details.md#250-googleno-validation)</td></tr></table>
 
 <!-- /table -->

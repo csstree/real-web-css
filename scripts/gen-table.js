@@ -52,17 +52,21 @@ inject('table',
       '<tr><th>' + ['#', '', 'Site', 'Parsing', 'Validation'].join('</th><th>') + '</th></tr>\n' +
     '</thead>\n' +
     reports.map(function(report, idx) {
+        var detailsRef = (idx + 1) + '-' + report.name.replace(/[^a-z0-9]/g, '');
         var cells = [
             idx + 1,
             report.downloaded && !report.error && !report.validation ? '🆗' : '⚠️',
             report.name
         ];
 
-        detailsTOC.push('1. [' + report.name + '](#' + (idx + 1) + '-' + report.name.replace(/[^a-z0-9]/g, '') + ')')
+        detailsTOC.push('1. [' + report.name + '](#' + detailsRef + ')')
         details.push('', '## #' + (idx + 1) + ' ' + report.name, '');
         details.push('');
 
         if (report.downloaded) {
+
+            details.push('<a name"' + detailsRef + '-parsing">');
+            details.push('### Parsing');
             if (report.parsing) {
                 details.push(report.parsing.length + (report.parsing.length > 1 ? ' parsing errors' : 'parsing error') + ':');
                 details.push('```');
@@ -84,28 +88,30 @@ inject('table',
                 }).join('\n')));
                 details.push('```');
             } else {
-                details.push('No parse errors');
+                details.push('No errors');
                 details.push('');
             }
 
+            details.push('<a name"' + detailsRef + '-validation">');
+            details.push('### Validation');
             if (report.validation) {
                 details.push(report.validation.length + (report.validation.length > 1 ? ' syntax errors' : ' syntax error') + ':');
                 details.push('```');
                 details.push(escapeHTML(report.validation.join('\n')));
                 details.push('```');
             } else {
-                details.push('No validation warnings');
+                details.push('No errors');
                 details.push('');
             }
 
             cells.push(
                 report.parsing
                     ? '[' + report.parsing.length + (report.parsing.length > 1 ? ' errors' : 'error') + ']' + 
-                      '(#' + (idx + 1) + '-' + report.name.replace(/[^a-z0-9]/g, '') + ')'
+                      '(test-details.md#' + (idx + 1) + '-' + report.name.replace(/[^a-z0-9]/g, '') + '-parsing)'
                     : '✅',
                 report.validation
                     ? '[' + report.validation.length + (report.validation.length > 1 ? ' errors' : ' error') + ']' +
-                      '(#' + (idx + 1) + '-' + report.name.replace(/[^a-z0-9]/g, '') + ')'
+                      '(test-details.md#' + (idx + 1) + '-' + report.name.replace(/[^a-z0-9]/g, '') + '-validation)'
                     : '✅'
             );
 
