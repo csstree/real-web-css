@@ -1,8 +1,14 @@
 # CSS features used by Alexa TOP 250 sites
 
-Update date: 2018-05-09T11:06:29.462Z
+Update date: 2018-05-09T11:15:25.791Z
 
 [Dictionaries are used for a validity checking](scripts/usage)
+
+<table>
+<tr><td>❔</td><td>Unknown validity (need to check and add a decision to a dictionary)</td></tr>
+<tr><td>🆗</td><td>Valid (feature exists)</td></tr>
+<tr><td>⚠</td><td>Invalid (typos, pre-/post-processing artifacts, never exists prefixed version etc)</td></tr>
+</table>
 
 - [Atrule](#atrule)
 - [Declaration](#declaration)
@@ -1073,4 +1079,4 @@ Update date: 2018-05-09T11:06:29.462Z
   - ⚠ `::last-child`                                        *(sites: 2      , occurrences: 3     )*
   - ⚠ `::scrollbar`                                         *(sites: 1      , occurrences: 1     )*
 
-62944023 bytes of CSS from 208 sites in 11.0 sec
+62944023 bytes of CSS from 208 sites in 10.0 sec

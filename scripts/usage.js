@@ -103,6 +103,12 @@ console.log('Update date: ' + new Date().toISOString());
 console.log('');
 console.log('[Dictionaries are used for a validity checking](scripts/usage)');
 console.log('');
+console.log('<table>')
+console.log('<tr><td>❔</td><td>Unknown validity (need to check and add a decision to a dictionary)</td></tr>')
+console.log('<tr><td>🆗</td><td>Valid (feature exists)</td></tr>')
+console.log('<tr><td>⚠</td><td>Invalid (typos, pre-/post-processing artifacts, never exists prefixed version etc)</td></tr>')
+console.log('</table>')
+console.log('');
 
 // TOC
 Object.keys(names).sort().forEach((type) => {
