@@ -97,9 +97,11 @@ fs.readdirSync('./data/css').forEach(function(fn, idx, list) {
 
 // ============= output results ==================
 
-console.log('# TOP 250 Alexa sites CSS usage');
+console.log('# CSS features used by Alexa TOP 250 sites');
 console.log('');
 console.log('Update date: ' + new Date().toISOString());
+console.log('');
+console.log('[Dictionaries are used for a validity checking](scripts/usage)');
 console.log('');
 
 // TOC

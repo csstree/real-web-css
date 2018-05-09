@@ -1,6 +1,8 @@
-# TOP 250 Alexa sites CSS features usage
+# CSS features used by Alexa TOP 250 sites
 
-Update date: 2018-05-08T23:11:33.507Z
+Update date: 2018-05-09T11:06:29.462Z
+
+[Dictionaries are used for a validity checking](scripts/usage)
 
 - [Atrule](#atrule)
 - [Declaration](#declaration)
@@ -59,7 +61,6 @@ Update date: 2018-05-08T23:11:33.507Z
   - ❔ `-o-box-decoration-break`                             *(sites: 2      , occurrences: 2     )*
   - ❔ `-o-text-emphasis-style`                              *(sites: 1      , occurrences: 1     )*
   - ❔ `-o-writing-mode`                                     *(sites: 1      , occurrences: 3     )*
-  - ❔ `-webkit-box-shfavow`                                 *(sites: 1      , occurrences: 1     )*
   - ❔ `-webkit-letter-spacing`                              *(sites: 1      , occurrences: 20    )*
   - ❔ `-webkit-scrollbar-face-color`                        *(sites: 1      , occurrences: 1     )*
   - ❔ `-webkit-scrollbar-track-color`                       *(sites: 1      , occurrences: 1     )*
@@ -648,6 +649,7 @@ Update date: 2018-05-08T23:11:33.507Z
   - ⚠ `-webkit--moz-box-pack`                               *(sites: 1      , occurrences: 1     )*
   - ⚠ `-webkit--webkit-border-radius`                       *(sites: 1      , occurrences: 1     )*
   - ⚠ `-webkit-box-model`                                   *(sites: 1      , occurrences: 1     )*
+  - ⚠ `-webkit-box-shfavow`                                 *(sites: 1      , occurrences: 1     )*
   - ⚠ `-webkit-font-smooth`                                 *(sites: 2      , occurrences: 2     )*
   - ⚠ `-webkit-opacity`                                     *(sites: 13     , occurrences: 65    )*
   - ⚠ `-webkit-outline`                                     *(sites: 2      , occurrences: 2     )*
@@ -775,14 +777,13 @@ Update date: 2018-05-08T23:11:33.507Z
   - ❔ `color()`                                             *(sites: 1      , occurrences: 4     )*
   - ❔ `darken()`                                            *(sites: 1      , occurrences: 2     )*
   - ❔ `graydark()`                                          *(sites: 1      , occurrences: 1     )*
-  - ❔ `path()`                                              *(sites: 1      , occurrences: 12    )*
-  - ❔ `polygon()`                                           *(sites: 4      , occurrences: 26    )*
-  - ❔ `repeat()`                                            *(sites: 4      , occurrences: 9     )*
   - ❔ `spring()`                                            *(sites: 1      , occurrences: 2     )*
   - 🆗 `-moz-calc()`                                         *(sites: 6      , occurrences: 48    )*
   - 🆗 `-moz-image-set()`                                    *(sites: 2      , occurrences: 40    )*
   - 🆗 `-moz-linear-gradient()`                              *(sites: 70     , occurrences: 723   )*
   - 🆗 `-moz-radial-gradient()`                              *(sites: 2      , occurrences: 2     )*
+  - 🆗 `-o-linear-gradient()`                                *(sites: 105    , occurrences: 792   )*
+  - 🆗 `-o-radial-gradient()`                                *(sites: 2      , occurrences: 3     )*
   - 🆗 `-webkit-calc()`                                      *(sites: 54     , occurrences: 308   )*
   - 🆗 `-webkit-gradient()`                                  *(sites: 121    , occurrences: 1414  )*
   - 🆗 `-webkit-image-set()`                                 *(sites: 41     , occurrences: 107   )*
@@ -810,12 +811,16 @@ Update date: 2018-05-08T23:11:33.507Z
   - 🆗 `invert()`                                            *(sites: 4      , occurrences: 7     )*
   - 🆗 `linear-gradient()`                                   *(sites: 169    , occurrences: 3187  )*
   - 🆗 `local()`                                             *(sites: 58     , occurrences: 1214  )*
+  - 🆗 `matrix()`                                            *(sites: 2      , occurrences: 6     )*
   - 🆗 `matrix3d()`                                          *(sites: 2      , occurrences: 115   )*
   - 🆗 `minmax()`                                            *(sites: 3      , occurrences: 5     )*
   - 🆗 `opacity()`                                           *(sites: 9      , occurrences: 26    )*
+  - 🆗 `path()`                                              *(sites: 1      , occurrences: 12    )*
   - 🆗 `perspective()`                                       *(sites: 10     , occurrences: 130   )*
+  - 🆗 `polygon()`                                           *(sites: 4      , occurrences: 26    )*
   - 🆗 `radial-gradient()`                                   *(sites: 25     , occurrences: 159   )*
   - 🆗 `rect()`                                              *(sites: 133    , occurrences: 837   )*
+  - 🆗 `repeat()`                                            *(sites: 4      , occurrences: 9     )*
   - 🆗 `repeating-linear-gradient()`                         *(sites: 6      , occurrences: 17    )*
   - 🆗 `rgb()`                                               *(sites: 15     , occurrences: 85    )*
   - 🆗 `rgba()`                                              *(sites: 197    , occurrences: 27878 )*
@@ -846,8 +851,6 @@ Update date: 2018-05-08T23:11:33.507Z
   - ⚠ `-ms-linear-gradient()`                               *(sites: 42     , occurrences: 373   )*
   - ⚠ `-ms-radial-gradient()`                               *(sites: 1      , occurrences: 1     )*
   - ⚠ `-ms-translatey()`                                    *(sites: 1      , occurrences: 1     )*
-  - ⚠ `-o-linear-gradient()`                                *(sites: 105    , occurrences: 792   )*
-  - ⚠ `-o-radial-gradient()`                                *(sites: 2      , occurrences: 3     )*
   - ⚠ `-o-translatey()`                                     *(sites: 1      , occurrences: 1     )*
   - ⚠ `-webkit-translatey()`                                *(sites: 1      , occurrences: 1     )*
   - ⚠ `a_nullable_with_important()`                         *(sites: 7      , occurrences: 28    )*
@@ -857,7 +860,6 @@ Update date: 2018-05-08T23:11:33.507Z
   - ⚠ `g-fontsize()`                                        *(sites: 1      , occurrences: 1     )*
   - ⚠ `ligthen()`                                           *(sites: 1      , occurrences: 1     )*
   - ⚠ `mask()`                                              *(sites: 6      , occurrences: 7     )*
-  - ⚠ `matrix()`                                            *(sites: 2      , occurrences: 6     )*
   - ⚠ `max()`                                               *(sites: 2      , occurrences: 32    )*
   - ⚠ `not()`                                               *(sites: 1      , occurrences: 1     )*
   - ⚠ `obsidian-spacer-redux()`                             *(sites: 1      , occurrences: 1     )*
@@ -1071,4 +1073,4 @@ Update date: 2018-05-08T23:11:33.507Z
   - ⚠ `::last-child`                                        *(sites: 2      , occurrences: 3     )*
   - ⚠ `::scrollbar`                                         *(sites: 1      , occurrences: 1     )*
 
-62944023 bytes of CSS from 208 sites in 10.1 sec
+62944023 bytes of CSS from 208 sites in 11.0 sec

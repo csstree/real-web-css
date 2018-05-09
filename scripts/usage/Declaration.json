@@ -1290,6 +1290,7 @@
         "-webkit-bottom-left-radius",
         "-webkit-bottom-right-radius",
         "-webkit-box-model",
+        "-webkit-box-shfavow",
         "-webkit-focus-ring-color",
         "-webkit-font-language-override",
         "-webkit-font-smooth",
