@@ -140,9 +140,9 @@ Object.keys(names).sort().forEach((type) => {
                 '  - ' +
                 nameStatus + ' `' + fws(name, 52).replace(/\s*$/, '`$&') +
                 '*(sites: ' +
-                fws(info.sites.size, 7) +
+                fws(info.sites.size, 4, { align: 'right' }) +
                 ', occurrences: ' +
-                fws(info.count,      6) +
+                fws(info.count,      6, { align: 'right' }) +
                 ')*'
             );
         })
