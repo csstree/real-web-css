@@ -63,7 +63,7 @@ var table =
             details.push('<a name="' + detailsRef + '-parsing"></a>');
             details.push('### Parsing');
             if (report.parsing) {
-                details.push(report.parsing.length + (report.parsing.length > 1 ? ' parsing errors' : 'parsing error') + ':');
+                details.push(report.parsing.length + (report.parsing.length > 1 ? ' parsing errors' : ' parsing error') + ':');
                 details.push('```');
                 details.push(escapeHTML(report.parsing.map(function(e) {
                     return e.details;
@@ -89,7 +89,7 @@ var table =
             cells.push(
                 report.parsing
                     ? '<a href="test-details.md#' + (idx + 1) + '-' + report.name.replace(/[^a-z0-9]/g, '') + '-parsing">' +
-                        report.parsing.length + (report.parsing.length > 1 ? ' errors' : 'error') +
+                        report.parsing.length + (report.parsing.length > 1 ? ' errors' : ' error') +
                       '</a>'
                     : '✅',
                 report.validation
