@@ -6,6 +6,7 @@ var testStat = require('./lib/test-stat');
 var sites = require('./lib/sites');
 var cssDir = path.join(__dirname, '../data/css');
 var resultFile = path.join(__dirname, '../data/test-result.json');
+var startTime = Date.now();
 
 function validate(ast) {
     var errors = [];
@@ -79,13 +80,6 @@ function formatErrors(errors) {
     return output;
 }
 
-function parseError(e, report, fixed) {
-    console.log('  [ERROR] Parsing: ' + e.message);
-    report[fixed ? 'fixedError' : 'error'] = {
-        message: e.message,
-        details: e.formattedMessage || e.message
-    };
-}
 
 var reports = sites.map(function(url, idx) {
     var fullfn = cssDir + '/' + idx + '.css';
@@ -156,3 +150,4 @@ console.log('Sites:', stat.total);
 console.log('Downloaded:', (stat.total - stat.missed), '(' + stat.missed + ' failed)');
 console.log('Parsed:', stat.total - stat.missed - stat.parseError, '(' + stat.parseError + ' failed)');
 console.log('Validation passed:', stat.passed, '(' + (stat.total - stat.missed - stat.passed) + ' failed)');
+console.log('DONE in ' + (Date.now() - startTime) + 'ms');

@@ -20,7 +20,7 @@
   },
   "homepage": "https://github.com/csstree/real-web-css",
   "dependencies": {
-    "css-tree": "1.0.0-alpha.28",
+    "css-tree": "1.0.0-alpha.33",
     "fixed-width-string": "^1.0.0",
     "puppeteer": "^1.3.0",
     "unzip": "^0.1.11"

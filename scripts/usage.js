@@ -8,6 +8,7 @@ var types = [
     'PseudoElementSelector',
     'Function',
     'Declaration',
+    'Declaration hacks',
     'Dimension'
 ];
 var names = types.reduce(function(res, type) {
@@ -16,7 +17,7 @@ var names = types.reduce(function(res, type) {
 }, Object.create(null));
 var statusOrder = ['❔', '🆗', '⚠'];
 var status = types.reduce(function(res, type) {
-    var data = require('./usage/' + type + '.json');
+    var data = !/hacks/.test(type) ? require('./usage/' + type + '.json') : { invalid: [], valid: [] };
     var status = Object.create(null);
     data.invalid.forEach(function(name) {
         status[name] = '⚠'; // 🚫❌❗⛔️
@@ -55,6 +56,21 @@ fs.readdirSync('./data/css').forEach(function(fn, idx, list) {
         if (node.type in names) {
             if (node.type === 'Declaration') {
                 name = csstree.property(node.property);
+
+                if (name.hack) {
+                    var info = names['Declaration hacks'].get(name.hack);
+
+                    if (!info) {
+                        names['Declaration hacks'].set(name.hack, info = {
+                            sites: new Set(),
+                            count: 0
+                        });
+                    }
+
+                    info.sites.add(fn);
+                    info.count++;
+                }
+
                 if (name.custom) {
                     return;
                 }
@@ -82,13 +98,13 @@ fs.readdirSync('./data/css').forEach(function(fn, idx, list) {
             var info = names[node.type].get(name);
 
             if (!info) {
+                maxNameLength = Math.max(name.length, maxNameLength);
                 names[node.type].set(name, info = {
                     sites: new Set(),
                     count: 0
                 });
             }
 
-            maxNameLength = Math.max(name.length, maxNameLength);
             info.sites.add(fn);
             info.count++;
         }
@@ -112,7 +128,7 @@ console.log('');
 
 // TOC
 Object.keys(names).sort().forEach((type) => {
-    console.log('- [' + type + '](#' + type.toLowerCase() + ')');
+    console.log('- [' + type + '](#' + type.replace(/\s/g, '-').toLowerCase() + ')');
 });
 console.log('');
 
