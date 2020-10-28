@@ -21,6 +21,7 @@
   "homepage": "https://github.com/csstree/real-web-css",
   "dependencies": {
     "css-tree": "^1.0.0",
+    "eslint": "^7.12.1",
     "fixed-width-string": "^1.0.0",
     "puppeteer": "^5.4.1",
     "unzip-stream": "^0.3.1"

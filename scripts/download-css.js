@@ -1,178 +1,175 @@
-var path = require('path');
-var url = require('url');
-var http = require('http');
-var https = require('https');
-var zlib = require('zlib');
-var fs = require('fs');
+const path = require('path');
+const fs = require('fs');
 const puppeteer = require('puppeteer');
-
-var sites = require('./lib/sites');
-var seedFile = path.join(__dirname, '../data/idx.txt');
-var outputDir = path.join(__dirname, '../data/css');
-var awaitTimer;
+const sites = require('./lib/sites');
+const seedFile = path.join(__dirname, '../data/idx.txt');
+const outputDir = path.join(__dirname, '../data/css');
 
 if (!fs.existsSync(outputDir)) {
     fs.mkdirSync(outputDir, { recursive: true });
 }
 
-// where are we in the list of URLs
-var siteIdx = fs.existsSync(seedFile) ? parseInt(fs.readFileSync(seedFile)) : 0;
-if (siteIdx >= sites.length) {
-    siteIdx = 0;
-}
+async function downloadSiteCSS(browser, siteIdx, siteUrl) {
+    const page = await browser.newPage();
+    const styleSheetResponses = [];
+    const requests = new Set();
+    const awaitRequests = new Map();
 
-console.log('Start with #' + siteIdx);
+    // set up page listeners
+    await page.setRequestInterception(true);
+    page.on('request', request => {
+        // console.info('Requesting', request.url)
 
-// create a browser
-puppeteer.launch({
-    ignoreHTTPSErrors: true
-})
-    .then(function(instance) {
-        process.on('exit', async function() {
-            await browser.close();
+        if (['image', 'font', 'other'].includes(request.resourceType())) {
+            return request.abort();
+        }
+
+        request.continue();
+        requests.add(request);
+        awaitRequests.set(request, {
+            id: requests.size - 1,
+            startTime: Date.now()
         });
-        onError = onError.bind(instance);
-        visit = visit.bind(instance);
-        downloadNext();
+    });
+    page.on('requestfinished', request => {
+        // console.info('requestfinished', request.url)
+        awaitRequests.delete(request);
+    });
+    page.on('requestfailed', request => {
+        // console.info('requestfailed', request.url)
+        awaitRequests.delete(request);
+    });
+    page.on('response', response => {
+        if (response.request().resourceType() === 'stylesheet') {
+            const url = response.url();
+            const isDataUrl = /^data:/i.test(url);
+
+            console.log('    ✅  ' + (isDataUrl ? '<dataurl>' : url));
+            styleSheetResponses.push(response.text()
+                .then(
+                    content => ({ content }),
+                    error => ({ error })
+                )
+                .then(payload => {
+                    if (isDataUrl) {
+                        return {
+                            type: 'dataurl',
+                            ...payload
+                        };
+                    }
+
+                    return {
+                        type: 'external',
+                        url,
+                        ...payload
+                    };
+                })
+            );
+        }
     });
 
+    // timer to track long requests
+    const trackRequestsIntervalTimer = setInterval(() => {
+        console.log(`    ⏳  Await ${awaitRequests.size} requests (${requests.size - awaitRequests.size} done)`);
 
-var onError = function(err) {
-    clearInterval(awaitTimer);
-    console.log('    ❌  Failed ' + (err || ''));
-    console.log();
-    return downloadNext();
-}
+        for (const [request, { id, startTime }] of awaitRequests) {
+            if (Date.now() - startTime > 5000) {
+                console.log(`        🐢  #${id} ${request.url()} ${((Date.now() - startTime) / 1000).toFixed(1)}s`);
+            }
+        }
+    }, 1000);
 
-// main task 
-function downloadNext() { 
-    var domain = sites[siteIdx++];
- 
-    if (!domain) {
-        // we're done!
-        console.log('DONE 🎉');
-        process.exit();
+    // load page
+    try {
+        await page.goto(siteUrl);
+        console.log('    🏁  Page loaded');
+
+        // some requests may occur after page.goto(), await such requests but 15 sec max
+        const maxAwaitTime = Date.now() + 15000;
+        do {
+            await new Promise(r => setTimeout(r, 200));
+        } while (awaitRequests.size > 0 && Date.now() < maxAwaitTime);
+    } catch (e) {
+        console.error('    ❌ Page.goto failed', e);
+    } finally {
+        clearInterval(trackRequestsIntervalTimer);
     }
 
-    console.log('Visit site #' + (siteIdx - 1) + ' 🚀  ' + domain);
-    return visit('http://' + domain);
+    // extract CSS content
+    const externalStyleSheets = await Promise.all(styleSheetResponses);
+    const inlineStyleSheets = await page.evaluate(() =>
+        // eslint-disable-next-line no-undef
+        [...document.styleSheets]
+            .map(sheet => sheet.ownerNode.textContent)
+            .filter(Boolean)
+            .map(content => ({
+                type: 'inline',
+                content
+            }))
+    );
+
+    if (externalStyleSheets.length || inlineStyleSheets.length) {
+        console.log(`    🔸  Stylesheets: ${[
+            externalStyleSheets.length ? `${externalStyleSheets.length} external` : '',
+            inlineStyleSheets.length ? `${inlineStyleSheets.length} inline` : ''
+        ].filter(Boolean).join(', ') || 'none'}`);
+    } else {
+        console.log('    ❌  No CSS found');
+    }
+
+    // close page to free resources
+    await page.close();
+
+    return externalStyleSheets.concat(inlineStyleSheets);
 }
 
-function visit(siteUrl) {
-    clearInterval(awaitTimer);
-    return this.newPage().then(async function(page) {
-        var awaitRequests = new Map();
-        var completeRequests = 0;
-        var externalStylesheets = [];
-        var id = 1;
-        
-        awaitTimer = setInterval(function() {
-            var requests = [...awaitRequests.keys()];
-            var longRequests = requests.filter(function(request) {
-                return Date.now() - new Date(awaitRequests.get(request).time) > 5000
-            });
+async function main() {
+    // where are we in the list of URLs
+    let siteIdx = fs.existsSync(seedFile) ? parseInt(fs.readFileSync(seedFile)) : 0;
+    if (siteIdx >= sites.length) {
+        siteIdx = 0;
+    }
 
-            console.log('    ⏳  Await ' + requests.length + ' requests (' + completeRequests + ' done)');
-            longRequests.forEach(function(request) {
-                console.log('        🐢  #' + awaitRequests.get(request).id + ' ' + request.url());
-            });
-        }, 1000);
+    console.log('Start with site #' + siteIdx);
+    console.log();
 
-        await page.setRequestInterception(true);
-        page.on('request', function(request) {
-            // console.info('Requesting', request.url)
-            awaitRequests.set(request, { id: id++, time: Date.now() });
-            if (request.resourceType() === 'image') {
-                request.abort();
-            } else {
-                request.continue();
-            }
-        });
-        page.on('requestfinished', function(request) {
-            // console.info('Recieved', request.url)
-            completeRequests++;
-            awaitRequests.delete(request);
-        });
-        page.on('response', async function(response) {
-            if (response.request().resourceType() === 'stylesheet') {
-                const href = response.url();
+    // create a browser
+    const browser = await puppeteer.launch({
+        ignoreHTTPSErrors: true
+    });
 
-                console.log('    ✅  ' + href);
-                externalStylesheets.push(
-                    response.text().then(function(content) {
-                        return { href, content };
-                    })
-                );
-            }
-        })
-        page.on('requestfailed', function(request) {
-            // console.info('Recieved', request.url)
-            completeRequests++;
-            awaitRequests.delete(request);
-        });
+    process.on('exit', async () => await browser.close());
 
-        return page.goto(siteUrl).then(function() {
-            clearInterval(awaitTimer);
-            console.log('    ✅  Page loaded');
-            return Promise.all(externalStylesheets)
-                .then(function(stylesheets) {
-                    extractCSS(page, siteUrl, stylesheets);
-                });
-        }, onError);
-    }, onError);
+    for (const siteUrl of sites.slice(siteIdx)) {
+        console.log('Visit site #' + siteIdx + ' 🚀 ' + siteUrl);
+
+        try {
+            const outputFilename = path.join(outputDir, String(siteIdx).padStart(3, '0') + '.json');
+            const styleSheets = await downloadSiteCSS(browser, siteIdx, 'http://' + siteUrl);
+
+            // write data to file
+            console.log('    💾  Write data to ' + path.relative(process.cwd(), outputFilename));
+            fs.writeFileSync(outputFilename, JSON.stringify({
+                id: siteIdx,
+                url: siteUrl,
+                datetime: new Date(),
+                styleSheets
+            }), 'utf8');
+
+            console.log('    🎉  DONE');
+            console.log();
+        } catch (e) {
+            console.error('    ❌  Failed ', e);
+            console.error();
+        }
+
+        // remember the place in the likely scenario that
+        fs.writeFileSync(seedFile, String(++siteIdx));
+    }
+
+    // we're done!
+    console.log('DONE 🎉');
+    process.exit();
 }
 
-function extractCSS(page, siteUrl, external) {
-    return page.evaluate(function() {
-        // collect stylesheets
-        return [].slice.call(document.styleSheets).map(function(sheet) {
-            return sheet.ownerNode.textContent;
-        });
-    }).then(function(inline) {
-        inline = inline.reduce(function(result, content) {
-            if (content) {
-                result.push(
-                    '/**** inline ****/\n' +
-                    content
-                );
-            }
-
-            return result;
-        }, [])
-
-        external = external.reduce(function(result, sheet) {
-            return result.concat(
-                '/**** ' + sheet.href + ' ****/\n' +
-                sheet.content
-            );
-        }, []);
-
-        return page.close()
-            .then(function() {
-                var css = inline.concat(external).join('\n');
-
-                if (css) {
-                    fs.writeFileSync(path.join(outputDir, (siteIdx - 1) + '.css'), '/* ' + siteUrl + ' */\n' + css, 'utf8');
-
-                    console.log(`    🔸  Stylesheets: ${[
-                        external.length ? external.length + ' external' : '',
-                        inline.length ? inline.length + ' inline' : ''
-                    ].filter(Boolean).join(', ') || 'none'}`);
-
-                    console.log('    🎉  DONE');
-                    console.log();
-                    // remember the place in the likely scenario that
-                    fs.writeFileSync(seedFile, String(siteIdx));
-                } else {
-                    console.log('    ❌  No CSS found');
-                    console.log();
-                }
-
-                return downloadNext();
-            })
-            .catch(function(error) {
-                console.error('    ❌  ', error);
-                process.exit();
-            });
-    }, onError);
-}
+main();
