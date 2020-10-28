@@ -1,7 +1,7 @@
 var http = require('http');
 var path = require('path');
 var fs = require('fs');
-var unzip = require('unzip');
+var unzip = require('unzip-stream');
 var TOP = 250;
 var url = 'http://s3.amazonaws.com/alexa-static/top-1m.csv.zip';
 var outputFile = path.join(__dirname, '../data/sites.csv');
@@ -25,11 +25,7 @@ http.get(url, function(response) {
     response
         .pipe(unzip.Parse())
         .on('entry', function (entry) {
-            var fileName = entry.path;
-            var type = entry.type; // 'Directory' or 'File' 
-            var size = entry.size;
-
-            if (fileName === 'top-1m.csv') {
+            if (entry.path === 'top-1m.csv') {
                 entry.pipe(fs.createWriteStream(outputFile));
             } else {
                 entry.autodrain();

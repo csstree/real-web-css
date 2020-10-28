@@ -12,7 +12,7 @@ var outputDir = path.join(__dirname, '../data/css');
 var awaitTimer;
 
 if (!fs.existsSync(outputDir)) {
-    fs.mkdir(outputDir);
+    fs.mkdirSync(outputDir, { recursive: true });
 }
 
 // where are we in the list of URLs
@@ -55,12 +55,12 @@ function downloadNext() {
     }
 
     console.log('Visit site #' + (siteIdx - 1) + ' 🚀  ' + domain);
-    visit('http://' + domain);
+    return visit('http://' + domain);
 }
 
 function visit(siteUrl) {
     clearInterval(awaitTimer);
-    this.newPage().then(async function(page) {
+    return this.newPage().then(async function(page) {
         var awaitRequests = new Map();
         var completeRequests = 0;
         var externalStylesheets = [];
@@ -111,10 +111,10 @@ function visit(siteUrl) {
             awaitRequests.delete(request);
         });
 
-        page.goto(siteUrl).then(function() {
+        return page.goto(siteUrl).then(function() {
             clearInterval(awaitTimer);
             console.log('    ✅  Page loaded');
-            Promise.all(externalStylesheets)
+            return Promise.all(externalStylesheets)
                 .then(function(stylesheets) {
                     extractCSS(page, siteUrl, stylesheets);
                 });
@@ -123,7 +123,7 @@ function visit(siteUrl) {
 }
 
 function extractCSS(page, siteUrl, external) {
-    page.evaluate(function() {
+    return page.evaluate(function() {
         // collect stylesheets
         return [].slice.call(document.styleSheets).map(function(sheet) {
             return sheet.ownerNode.textContent;
@@ -147,7 +147,7 @@ function extractCSS(page, siteUrl, external) {
             );
         }, []);
 
-        page.close()
+        return page.close()
             .then(function() {
                 var css = inline.concat(external).join('\n');
 
@@ -162,16 +162,16 @@ function extractCSS(page, siteUrl, external) {
                     console.log('    🎉  DONE');
                     console.log();
                     // remember the place in the likely scenario that
-                    fs.writeFileSync(seedFile, siteIdx);
+                    fs.writeFileSync(seedFile, String(siteIdx));
                 } else {
                     console.log('    ❌  No CSS found');
                     console.log();
                 }
 
-                downloadNext();
+                return downloadNext();
             })
             .catch(function(error) {
-                console.log('    ❌  Error: ' + error + '\n');
+                console.error('    ❌  ', error);
                 process.exit();
             });
     }, onError);
