@@ -48,7 +48,7 @@ async function downloadSiteCSS(browser, siteIdx, siteUrl) {
             styleSheetResponses.push(response.text()
                 .then(
                     content => ({ content }),
-                    error => ({ error })
+                    error => ({ error: error.message })
                 )
                 .then(payload => {
                     if (isDataUrl) {
@@ -70,7 +70,7 @@ async function downloadSiteCSS(browser, siteIdx, siteUrl) {
 
     // timer to track long requests
     const trackRequestsIntervalTimer = setInterval(() => {
-        console.log(`    ⏳  Await ${awaitRequests.size} requests (${requests.size - awaitRequests.size} done)`);
+        console.log(`    ⏳  Await ${awaitRequests.size} / ${requests.size} requests`);
 
         for (const [request, { id, startTime }] of awaitRequests) {
             if (Date.now() - startTime > 5000) {
@@ -109,7 +109,7 @@ async function downloadSiteCSS(browser, siteIdx, siteUrl) {
     );
 
     if (externalStyleSheets.length || inlineStyleSheets.length) {
-        console.log(`    🔸  Stylesheets: ${[
+        console.log(`    🔸  Stylesheets found: ${[
             externalStyleSheets.length ? `${externalStyleSheets.length} external` : '',
             inlineStyleSheets.length ? `${inlineStyleSheets.length} inline` : ''
         ].filter(Boolean).join(', ') || 'none'}`);
@@ -145,7 +145,7 @@ async function main() {
 
         try {
             const outputFilename = path.join(outputDir, String(siteIdx).padStart(3, '0') + '.json');
-            const styleSheets = await downloadSiteCSS(browser, siteIdx, 'http://' + siteUrl);
+            const stylesheets = await downloadSiteCSS(browser, siteIdx, 'http://' + siteUrl);
 
             // write data to file
             console.log('    💾  Write data to ' + path.relative(process.cwd(), outputFilename));
@@ -153,7 +153,7 @@ async function main() {
                 id: siteIdx,
                 url: siteUrl,
                 datetime: new Date(),
-                styleSheets
+                stylesheets
             }), 'utf8');
 
             console.log('    🎉  DONE');

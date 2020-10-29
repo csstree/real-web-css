@@ -1,30 +1,30 @@
-var http = require('http');
-var path = require('path');
-var fs = require('fs');
-var unzip = require('unzip-stream');
-var TOP = 250;
-var url = 'http://s3.amazonaws.com/alexa-static/top-1m.csv.zip';
-var outputFile = path.join(__dirname, '../data/sites.csv');
-var topFile = path.join(__dirname, '../data/top-sites.csv');
+const http = require('http');
+const path = require('path');
+const fs = require('fs');
+const unzip = require('unzip-stream');
+const TOP = 250;
+const url = 'http://s3.amazonaws.com/alexa-static/top-1m.csv.zip';
+const outputFile = path.join(__dirname, '../data/sites.csv');
+const topFile = path.join(__dirname, '../data/top-sites.csv');
 
 console.log('Download ' + url + ' ...');
 http.get(url, function(response) {
-    var size = response.headers['content-length'];
-    var lastDownload = 0;
-    var downloaded = 0;
+    const size = response.headers['content-length'];
+    let lastDownload = 0;
+    let downloaded = 0;
 
-    var timer = setInterval(function() {
+    const timer = setInterval(function() {
         if (lastDownload === downloaded) {
             return;
         }
 
         lastDownload = downloaded;
         console.log((100 * downloaded / size).toFixed(1) + '% ' + downloaded);
-    }, 1000);
+    }, 200);
 
     response
         .pipe(unzip.Parse())
-        .on('entry', function (entry) {
+        .on('entry', function(entry) {
             if (entry.path === 'top-1m.csv') {
                 entry.pipe(fs.createWriteStream(outputFile));
             } else {
@@ -33,12 +33,13 @@ http.get(url, function(response) {
         });
 
     response
-        .on('data', function (chunk) {
+        .on('data', function(chunk) {
             downloaded += chunk.length;
         })
         .on('end', function() {
             clearInterval(timer);
 
+            console.log('100% ' + downloaded);
             console.log('DONE');
             console.log('');
 
