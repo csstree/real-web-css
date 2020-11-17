@@ -48,11 +48,11 @@ const dataFiles = fs.readdirSync(cssDir)
     .sort();
 
 const reports = dataFiles.map(filename => {
-    const { id, url, datetime, stylesheets } = require(path.join(cssDir, filename));
+    const { id, url: siteUrl, datetime, stylesheets } = require(path.join(cssDir, filename));
     const startTime = Date.now();
 
     console.log('');
-    console.log('Site #' + id + ' ' + url);
+    console.log('Site #' + id + ' ' + siteUrl);
     console.log(
         '  ' +
         stylesheets.length + ' stylesheet(s), ' +
@@ -63,24 +63,26 @@ const reports = dataFiles.map(filename => {
 
     const report = {
         id,
-        url,
-        dataDatetime: datetime,
-        reportDatetime: new Date(),
-        anlysisTime: 0,
-        stylesheets: stylesheets.map(({ type, url, content, error }) => {
+        url: siteUrl,
+        fetchedAt: datetime,
+        validatedAt: new Date(),
+        validationTime: 0,
+        stylesheets: stylesheets.map(({ type, url, content = '', error }) => {
             // console.log(`  * ${type}${url ? ' ' + url : ''}`);
+            const errors = [];
 
             if (error) {
-                return { type, url, size: 0, error };
+                errors.push({ name: 'FetchError', message: error });
             }
 
-            const parseErrors = [];
+            const beforeParse = Date.now();
             const ast = csstree.parse(content, {
                 filename: url || '<inline>',
                 positions: true,
                 onParseError: function(e) {
                     // console.log('    [ERROR] Parsing: ' + e.message);
-                    parseErrors.push({
+                    errors.push({
+                        name: 'ParseError',
                         message: e.message,
                         details: typeof e.sourceFragment === 'function'
                             ? e.message + '\n' + e.sourceFragment(0)
@@ -88,13 +90,20 @@ const reports = dataFiles.map(filename => {
                     });
                 }
             });
+            const parseTime = Date.now() - beforeParse;
+            const validateErrors = validate(ast);
 
             return {
                 type,
                 url,
                 size: content.length,
-                parseErrors,
-                syntaxErrors: validate(ast)
+                parseTime,
+                validateTime: Date.now() - parseTime - beforeParse,
+                errors: [...errors, ...validateErrors].map(error => ({
+                    name: error.name,
+                    message: error.message,
+                    ...error
+                }))
             };
         })
     };
@@ -102,8 +111,13 @@ const reports = dataFiles.map(filename => {
     report.anlysisTime = Date.now() - startTime;
 
     const errors = report.stylesheets.reduce((res, stylesheet) => {
-        res.parse += (stylesheet.parseErrors || []).length;
-        res.syntax += (stylesheet.syntaxErrors || []).length;
+        for (const error of stylesheet.errors) {
+            if (error.name === 'ParseError') {
+                res.parse++;
+            } else {
+                res.syntax++;
+            }
+        }
         return res;
     }, { parse: 0, syntax: 0 });
 

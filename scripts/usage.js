@@ -37,7 +37,6 @@ const status = types.reduce(function(res, type) {
 const startTime = Date.now();
 let maxNameLength = 0;
 let totalCssLength = 0;
-let totalCssCount = 0;
 
 const dataFiles = fs.readdirSync(cssDir)
     .filter(filename => path.extname(filename) === '.json')
@@ -55,7 +54,6 @@ const reports = dataFiles.map(filename => {
 
         const ast = csstree.parse(css);
 
-        totalCssCount++;
         totalCssLength += css.length;
         // console.error(`  ${String(css.length).padStart(6)} ${url ? ' ' + url : type}`);
 
