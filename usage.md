@@ -1,6 +1,6 @@
 # CSS features used by Alexa TOP 250 sites
 
-Update date: 2020-10-28T13:51:04.641Z
+Update date: 2020-11-17T13:21:42.816Z
 
 [Dictionaries are used for a validity checking](scripts/usage)
 
@@ -22,28 +22,29 @@ Update date: 2020-10-28T13:51:04.641Z
 ## Atrule
   - ❔ `@at-root`                                            *(sites:    1, occurrences:      1)*
   - ❔ `@use`                                                *(sites:    2, occurrences:      4)*
-  - 🆗 `@-moz-document`                                      *(sites:   38, occurrences:    132)*
-  - 🆗 `@-moz-keyframes`                                     *(sites:   42, occurrences:    320)*
-  - 🆗 `@-ms-viewport`                                       *(sites:   26, occurrences:     29)*
-  - 🆗 `@-o-keyframes`                                       *(sites:   26, occurrences:    235)*
+  - 🆗 `@-moz-document`                                      *(sites:   42, occurrences:    137)*
+  - 🆗 `@-moz-keyframes`                                     *(sites:   56, occurrences:    352)*
+  - 🆗 `@-ms-viewport`                                       *(sites:   29, occurrences:     33)*
+  - 🆗 `@-o-keyframes`                                       *(sites:   34, occurrences:    259)*
   - 🆗 `@-o-viewport`                                        *(sites:    1, occurrences:      1)*
-  - 🆗 `@-webkit-keyframes`                                  *(sites:  151, occurrences:   1674)*
+  - 🆗 `@-webkit-keyframes`                                  *(sites:  176, occurrences:   2402)*
   - 🆗 `@-webkit-viewport`                                   *(sites:    1, occurrences:      1)*
-  - 🆗 `@charset`                                            *(sites:   59, occurrences:    129)*
-  - 🆗 `@font-face`                                          *(sites:  151, occurrences:   4238)*
-  - 🆗 `@import`                                             *(sites:   20, occurrences:     24)*
-  - 🆗 `@keyframes`                                          *(sites:  183, occurrences:   3062)*
-  - 🆗 `@media`                                              *(sites:  198, occurrences:  38315)*
+  - 🆗 `@charset`                                            *(sites:   71, occurrences:    161)*
+  - 🆗 `@font-face`                                          *(sites:  170, occurrences:   5970)*
+  - 🆗 `@import`                                             *(sites:   24, occurrences:     37)*
+  - 🆗 `@keyframes`                                          *(sites:  205, occurrences:   4188)*
+  - 🆗 `@media`                                              *(sites:  222, occurrences:  41736)*
   - 🆗 `@namespace`                                          *(sites:    1, occurrences:      1)*
-  - 🆗 `@page`                                               *(sites:   14, occurrences:     14)*
-  - 🆗 `@supports`                                           *(sites:   72, occurrences:    652)*
+  - 🆗 `@page`                                               *(sites:   16, occurrences:     16)*
+  - 🆗 `@supports`                                           *(sites:   80, occurrences:    679)*
   - 🆗 `@viewport`                                           *(sites:    3, occurrences:      3)*
   - ⚠ `@-keyframes`                                         *(sites:    1, occurrences:      5)*
   - ⚠ `@-moz-viewport`                                      *(sites:    1, occurrences:      1)*
-  - ⚠ `@-ms-keyframes`                                      *(sites:   19, occurrences:    201)*
+  - ⚠ `@-ms-keyframes`                                      *(sites:   23, occurrences:    207)*
   - ⚠ `@inlcude`                                            *(sites:    1, occurrences:      1)*
 
 ## Declaration
+  - ❔ `-animation-iteration-count`                          *(sites:    1, occurrences:      2)*
   - ❔ `-apple-trailing-word`                                *(sites:    1, occurrences:      1)*
   - ❔ `-archetype`                                          *(sites:    1, occurrences:      4)*
   - ❔ `-controller-part-type`                               *(sites:    1, occurrences:      2)*
@@ -57,8 +58,8 @@ Update date: 2020-10-28T13:51:04.641Z
   - ❔ `-moz-column-break-after`                             *(sites:    1, occurrences:      1)*
   - ❔ `-moz-column-span`                                    *(sites:    1, occurrences:      1)*
   - ❔ `-moz-context-properties`                             *(sites:    1, occurrences:      1)*
-  - ❔ `-moz-flex-basis`                                     *(sites:    4, occurrences:    110)*
-  - ❔ `-moz-letter-spacing`                                 *(sites:    4, occurrences:     58)*
+  - ❔ `-moz-flex-basis`                                     *(sites:    5, occurrences:    114)*
+  - ❔ `-moz-letter-spacing`                                 *(sites:    4, occurrences:     63)*
   - ❔ `-moz-line-clamp`                                     *(sites:    2, occurrences:      2)*
   - ❔ `-moz-mask-image`                                     *(sites:    1, occurrences:      1)*
   - ❔ `-moz-page-break-inside`                              *(sites:    1, occurrences:      1)*
@@ -68,6 +69,7 @@ Update date: 2020-10-28T13:51:04.641Z
   - ❔ `-moz-scrollbar-shadow-color`                         *(sites:    1, occurrences:      1)*
   - ❔ `-moz-text-decoration-skip`                           *(sites:    1, occurrences:      1)*
   - ❔ `-moz-webkit-transform`                               *(sites:    1, occurrences:      3)*
+  - ❔ `-moz-writing-mode`                                   *(sites:    1, occurrences:      1)*
   - ❔ `-ms-backdrop-filter`                                 *(sites:    1, occurrences:      1)*
   - ❔ `-ms-background-clip`                                 *(sites:    2, occurrences:      2)*
   - ❔ `-ms-background-position-y`                           *(sites:    1, occurrences:      1)*
@@ -80,29 +82,33 @@ Update date: 2020-10-28T13:51:04.641Z
   - ❔ `-ms-column-gap`                                      *(sites:    1, occurrences:      5)*
   - ❔ `-ms-flex-basis`                                      *(sites:    1, occurrences:     16)*
   - ❔ `-ms-grid-column-end`                                 *(sites:    1, occurrences:     36)*
+  - ❔ `-ms-grid-template-columns`                           *(sites:    1, occurrences:      1)*
   - ❔ `-ms-high-contrast`                                   *(sites:    3, occurrences:      8)*
-  - ❔ `-ms-letter-spacing`                                  *(sites:    3, occurrences:     53)*
+  - ❔ `-ms-letter-spacing`                                  *(sites:    3, occurrences:     58)*
   - ❔ `-ms-line-clamp`                                      *(sites:    1, occurrences:      1)*
   - ❔ `-ms-scroll-snap-coordinate`                          *(sites:    3, occurrences:      6)*
   - ❔ `-ms-tranform`                                        *(sites:    1, occurrences:      2)*
   - ❔ `-mz-transition`                                      *(sites:    2, occurrences:      2)*
   - ❔ `-o-backdrop-filter`                                  *(sites:    1, occurrences:      1)*
-  - ❔ `-o-background-clip`                                  *(sites:    2, occurrences:      2)*
+  - ❔ `-o-background-clip`                                  *(sites:    3, occurrences:      5)*
   - ❔ `-o-border-top-left-radius`                           *(sites:    1, occurrences:      1)*
   - ❔ `-o-border-top-right-radius`                          *(sites:    1, occurrences:      1)*
   - ❔ `-o-box-decoration-break`                             *(sites:    1, occurrences:      2)*
   - ❔ `-o-box-direction`                                    *(sites:    1, occurrences:      8)*
   - ❔ `-o-box-flex`                                         *(sites:    1, occurrences:     92)*
   - ❔ `-o-box-ordinal-group`                                *(sites:    1, occurrences:     15)*
+  - ❔ `-o-flex-direction`                                   *(sites:    1, occurrences:      2)*
+  - ❔ `-o-flex-wrap`                                        *(sites:    1, occurrences:      1)*
   - ❔ `-o-line-clamp`                                       *(sites:    2, occurrences:      2)*
   - ❔ `-o-mask-image`                                       *(sites:    1, occurrences:      1)*
-  - ❔ `-o-perspective-origin`                               *(sites:    2, occurrences:      2)*
+  - ❔ `-o-perspective-origin`                               *(sites:    3, occurrences:      3)*
   - ❔ `-sand-transform`                                     *(sites:    1, occurrences:      4)*
   - ❔ `-st-extends`                                         *(sites:    1, occurrences:     16)*
+  - ❔ `-transition`                                         *(sites:    1, occurrences:      2)*
   - ❔ `-webkit-apperance`                                   *(sites:    1, occurrences:      1)*
   - ❔ `-webkit-box`                                         *(sites:    7, occurrences:    126)*
   - ❔ `-webkit-clip`                                        *(sites:    1, occurrences:      3)*
-  - ❔ `-webkit-letter-spacing`                              *(sites:    4, occurrences:     58)*
+  - ❔ `-webkit-letter-spacing`                              *(sites:    4, occurrences:     63)*
   - ❔ `-webkit-moz-property`                                *(sites:    1, occurrences:      7)*
   - ❔ `-webkit-scrollbar-3dlight-color`                     *(sites:    1, occurrences:      1)*
   - ❔ `-webkit-scrollbar-darkshadow-color`                  *(sites:    1, occurrences:      1)*
@@ -116,111 +122,148 @@ Update date: 2020-10-28T13:51:04.641Z
   - ❔ `-webkit-video-playable-inline`                       *(sites:    1, occurrences:      2)*
   - ❔ `-webktit-animation-timing-function`                  *(sites:    1, occurrences:      1)*
   - ❔ `-wekbit-flex-direction`                              *(sites:    1, occurrences:      1)*
+  - ❔ `after`                                               *(sites:    1, occurrences:      1)*
   - ❔ `align-left`                                          *(sites:    1, occurrences:      1)*
   - ❔ `alignment-adjust`                                    *(sites:    1, occurrences:      1)*
   - ❔ `background-attatchment`                              *(sites:    1, occurrences:      2)*
+  - ❔ `background-outline`                                  *(sites:    1, occurrences:      2)*
   - ❔ `border-bottom-right`                                 *(sites:    1, occurrences:      1)*
+  - ❔ `border-left-color-ltr-source`                        *(sites:    3, occurrences:      6)*
+  - ❔ `border-left-color-rtl-source`                        *(sites:    3, occurrences:      6)*
+  - ❔ `border-left-color-value`                             *(sites:    3, occurrences:      6)*
+  - ❔ `border-left-style-ltr-source`                        *(sites:    3, occurrences:      6)*
+  - ❔ `border-left-style-rtl-source`                        *(sites:    3, occurrences:      6)*
+  - ❔ `border-left-style-value`                             *(sites:    3, occurrences:      6)*
+  - ❔ `border-left-width-ltr-source`                        *(sites:    3, occurrences:      6)*
+  - ❔ `border-left-width-rtl-source`                        *(sites:    3, occurrences:      6)*
+  - ❔ `border-left-width-value`                             *(sites:    3, occurrences:      6)*
   - ❔ `border-radius-left`                                  *(sites:    1, occurrences:      1)*
+  - ❔ `border-right-color-ltr-source`                       *(sites:    3, occurrences:      6)*
+  - ❔ `border-right-color-rtl-source`                       *(sites:    3, occurrences:      6)*
+  - ❔ `border-right-color-value`                            *(sites:    3, occurrences:      6)*
   - ❔ `border-right-radius`                                 *(sites:    1, occurrences:      2)*
+  - ❔ `border-right-style-ltr-source`                       *(sites:    3, occurrences:      6)*
+  - ❔ `border-right-style-rtl-source`                       *(sites:    3, occurrences:      6)*
+  - ❔ `border-right-style-value`                            *(sites:    3, occurrences:      6)*
+  - ❔ `border-right-width-ltr-source`                       *(sites:    3, occurrences:      6)*
+  - ❔ `border-right-width-rtl-source`                       *(sites:    3, occurrences:      6)*
+  - ❔ `border-right-width-value`                            *(sites:    3, occurrences:      6)*
   - ❔ `border-sizing`                                       *(sites:    1, occurrences:      1)*
   - ❔ `box-flex-group`                                      *(sites:    1, occurrences:      1)*
+  - ❔ `box-shadow-outline`                                  *(sites:    1, occurrences:      2)*
   - ❔ `clean`                                               *(sites:    1, occurrences:      1)*
+  - ❔ `color-outline`                                       *(sites:    1, occurrences:      2)*
   - ❔ `color-scheme`                                        *(sites:    2, occurrences:      3)*
   - ❔ `contain-intrinsic-size`                              *(sites:    3, occurrences:      7)*
-  - ❔ `content-visibility`                                  *(sites:    3, occurrences:     13)*
+  - ❔ `content-visibility`                                  *(sites:    4, occurrences:     14)*
   - ❔ `contenttext-top`                                     *(sites:    1, occurrences:      1)*
+  - ❔ `diaplay`                                             *(sites:    3, occurrences:      3)*
   - ❔ `font-height`                                         *(sites:    1, occurrences:      1)*
+  - ❔ `font-named-instance`                                 *(sites:    1, occurrences:      2)*
   - ❔ `font-width`                                          *(sites:    2, occurrences:      2)*
+  - ❔ `font-wigth`                                          *(sites:    1, occurrences:      1)*
   - ❔ `form`                                                *(sites:    1, occurrences:      2)*
-  - ❔ `gap`                                                 *(sites:    3, occurrences:      7)*
+  - ❔ `frameborder`                                         *(sites:    1, occurrences:      1)*
+  - ❔ `gap`                                                 *(sites:    4, occurrences:      9)*
   - ❔ `horiz-align`                                         *(sites:    8, occurrences:      8)*
   - ❔ `hright`                                              *(sites:    1, occurrences:      1)*
+  - ❔ `hseight`                                             *(sites:    1, occurrences:      1)*
   - ❔ `label`                                               *(sites:    1, occurrences:      1)*
   - ❔ `li`                                                  *(sites:    1, occurrences:      1)*
-  - ❔ `line-clamp`                                          *(sites:    4, occurrences:      4)*
+  - ❔ `line-clamp`                                          *(sites:    6, occurrences:      8)*
   - ❔ `line-heigh`                                          *(sites:    1, occurrences:      1)*
   - ❔ `maargin`                                             *(sites:    1, occurrences:      1)*
   - ❔ `margin-botom`                                        *(sites:    1, occurrences:      1)*
   - ❔ `margin-botoom`                                       *(sites:    1, occurrences:      1)*
   - ❔ `margin-none`                                         *(sites:    1, occurrences:      2)*
+  - ❔ `marginheight`                                        *(sites:    1, occurrences:      1)*
+  - ❔ `marginwidth`                                         *(sites:    1, occurrences:      1)*
   - ❔ `min`                                                 *(sites:    1, occurrences:      1)*
   - ❔ `moz-opacity`                                         *(sites:    1, occurrences:      4)*
   - ❔ `ms-touch-action`                                     *(sites:    1, occurrences:      1)*
+  - ❔ `opaticy`                                             *(sites:    1, occurrences:      2)*
   - ❔ `osition`                                             *(sites:    1, occurrences:      1)*
   - ❔ `over-flow`                                           *(sites:    1, occurrences:      2)*
   - ❔ `overflow-clip-box`                                   *(sites:    1, occurrences:      1)*
   - ❔ `overscroll-behavior`                                 *(sites:    6, occurrences:     16)*
   - ❔ `overscroll-behavior-x`                               *(sites:    3, occurrences:      7)*
   - ❔ `overscroll-behavior-y`                               *(sites:    5, occurrences:     10)*
+  - ❔ `paddding`                                            *(sites:    1, occurrences:      1)*
   - ❔ `pading-bottom`                                       *(sites:    1, occurrences:      1)*
   - ❔ `pdding-bottom`                                       *(sites:    1, occurrences:      1)*
   - ❔ `pointer`                                             *(sites:    2, occurrences:      2)*
   - ❔ `poision`                                             *(sites:    1, occurrences:      1)*
   - ❔ `postion`                                             *(sites:    1, occurrences:      2)*
-  - ❔ `row-gap`                                             *(sites:    4, occurrences:      5)*
+  - ❔ `row-gap`                                             *(sites:    6, occurrences:      8)*
   - ❔ `scroll-behaiver`                                     *(sites:    1, occurrences:      1)*
   - ❔ `scroll-margin`                                       *(sites:    8, occurrences:     22)*
-  - ❔ `scrollbar-color`                                     *(sites:    6, occurrences:     42)*
-  - ❔ `scrollbar-width`                                     *(sites:   34, occurrences:     81)*
+  - ❔ `scrollbar-color`                                     *(sites:    8, occurrences:     44)*
+  - ❔ `scrollbar-width`                                     *(sites:   39, occurrences:     87)*
+  - ❔ `scrolling`                                           *(sites:    1, occurrences:      1)*
   - ❔ `stddeviation`                                        *(sites:    1, occurrences:      1)*
   - ❔ `taext-align`                                         *(sites:    1, occurrences:      2)*
-  - ❔ `text-decoration-skip-ink`                            *(sites:    8, occurrences:      8)*
+  - ❔ `text-decoration-skip-ink`                            *(sites:    7, occurrences:      7)*
+  - ❔ `text-decoraton`                                      *(sites:    1, occurrences:      1)*
   - ❔ `text-fill-color`                                     *(sites:    1, occurrences:      1)*
   - ❔ `transform-origin-left`                               *(sites:    1, occurrences:      2)*
   - ❔ `transform-origin-right`                              *(sites:    1, occurrences:      2)*
+  - ❔ `transfrom`                                           *(sites:    1, occurrences:      1)*
+  - ❔ `vert-align`                                          *(sites:    1, occurrences:      1)*
   - ❔ `webkit-backface-visibility`                          *(sites:    1, occurrences:      2)*
   - ❔ `webkit-box-sizing`                                   *(sites:    3, occurrences:      3)*
+  - ❔ `webkit-justify-content`                              *(sites:    2, occurrences:      2)*
   - ❔ `webkit-text-size-adjust`                             *(sites:    1, occurrences:      1)*
   - ❔ `webkit-transform`                                    *(sites:    1, occurrences:      1)*
   - ❔ `white-wpace`                                         *(sites:    2, occurrences:      5)*
   - ❔ `　　color`                                             *(sites:    1, occurrences:      4)*
-  - 🆗 `-moz-animation`                                      *(sites:   30, occurrences:    184)*
-  - 🆗 `-moz-animation-delay`                                *(sites:   10, occurrences:    100)*
+  - 🆗 `-moz-animation`                                      *(sites:   48, occurrences:    258)*
+  - 🆗 `-moz-animation-delay`                                *(sites:   11, occurrences:    101)*
   - 🆗 `-moz-animation-direction`                            *(sites:    1, occurrences:      1)*
-  - 🆗 `-moz-animation-duration`                             *(sites:   13, occurrences:     68)*
-  - 🆗 `-moz-animation-fill-mode`                            *(sites:    7, occurrences:     56)*
-  - 🆗 `-moz-animation-iteration-count`                      *(sites:   11, occurrences:     64)*
-  - 🆗 `-moz-animation-name`                                 *(sites:   13, occurrences:    127)*
+  - 🆗 `-moz-animation-duration`                             *(sites:   16, occurrences:     81)*
+  - 🆗 `-moz-animation-fill-mode`                            *(sites:    8, occurrences:     57)*
+  - 🆗 `-moz-animation-iteration-count`                      *(sites:   14, occurrences:     69)*
+  - 🆗 `-moz-animation-name`                                 *(sites:   16, occurrences:    140)*
   - 🆗 `-moz-animation-play-state`                           *(sites:    2, occurrences:      3)*
-  - 🆗 `-moz-animation-timing-function`                      *(sites:   12, occurrences:     65)*
-  - 🆗 `-moz-appearance`                                     *(sites:  103, occurrences:    438)*
-  - 🆗 `-moz-backface-visibility`                            *(sites:   25, occurrences:     62)*
-  - 🆗 `-moz-background-clip`                                *(sites:   10, occurrences:     41)*
-  - 🆗 `-moz-background-size`                                *(sites:   16, occurrences:    211)*
+  - 🆗 `-moz-animation-timing-function`                      *(sites:   13, occurrences:     68)*
+  - 🆗 `-moz-appearance`                                     *(sites:  116, occurrences:    499)*
+  - 🆗 `-moz-backface-visibility`                            *(sites:   28, occurrences:     69)*
+  - 🆗 `-moz-background-clip`                                *(sites:   13, occurrences:     50)*
+  - 🆗 `-moz-background-size`                                *(sites:   21, occurrences:    279)*
   - 🆗 `-moz-binding`                                        *(sites:    2, occurrences:     11)*
-  - 🆗 `-moz-border-bottom-colors`                           *(sites:    2, occurrences:      2)*
-  - 🆗 `-moz-border-image`                                   *(sites:   11, occurrences:     13)*
-  - 🆗 `-moz-border-left-colors`                             *(sites:    2, occurrences:      2)*
-  - 🆗 `-moz-border-radius`                                  *(sites:   80, occurrences:   1153)*
-  - 🆗 `-moz-border-radius-bottomleft`                       *(sites:   14, occurrences:     22)*
-  - 🆗 `-moz-border-radius-bottomright`                      *(sites:   10, occurrences:     18)*
-  - 🆗 `-moz-border-radius-topleft`                          *(sites:   16, occurrences:     27)*
-  - 🆗 `-moz-border-radius-topright`                         *(sites:   14, occurrences:     27)*
-  - 🆗 `-moz-border-right-colors`                            *(sites:    2, occurrences:      2)*
-  - 🆗 `-moz-border-top-colors`                              *(sites:    2, occurrences:      2)*
-  - 🆗 `-moz-box-align`                                      *(sites:   19, occurrences:    506)*
-  - 🆗 `-moz-box-direction`                                  *(sites:   17, occurrences:     37)*
-  - 🆗 `-moz-box-flex`                                       *(sites:   28, occurrences:    296)*
-  - 🆗 `-moz-box-ordinal-group`                              *(sites:    3, occurrences:     29)*
-  - 🆗 `-moz-box-orient`                                     *(sites:   22, occurrences:    563)*
-  - 🆗 `-moz-box-pack`                                       *(sites:   20, occurrences:    500)*
-  - 🆗 `-moz-box-shadow`                                     *(sites:   82, occurrences:    964)*
-  - 🆗 `-moz-box-sizing`                                     *(sites:   79, occurrences:    946)*
-  - 🆗 `-moz-column-count`                                   *(sites:   20, occurrences:     47)*
+  - 🆗 `-moz-border-bottom-colors`                           *(sites:    3, occurrences:      4)*
+  - 🆗 `-moz-border-image`                                   *(sites:   12, occurrences:     27)*
+  - 🆗 `-moz-border-left-colors`                             *(sites:    3, occurrences:      4)*
+  - 🆗 `-moz-border-radius`                                  *(sites:   97, occurrences:   1560)*
+  - 🆗 `-moz-border-radius-bottomleft`                       *(sites:   17, occurrences:     45)*
+  - 🆗 `-moz-border-radius-bottomright`                      *(sites:   12, occurrences:     40)*
+  - 🆗 `-moz-border-radius-topleft`                          *(sites:   19, occurrences:     51)*
+  - 🆗 `-moz-border-radius-topright`                         *(sites:   16, occurrences:     50)*
+  - 🆗 `-moz-border-right-colors`                            *(sites:    3, occurrences:      4)*
+  - 🆗 `-moz-border-top-colors`                              *(sites:    3, occurrences:      4)*
+  - 🆗 `-moz-box-align`                                      *(sites:   24, occurrences:    557)*
+  - 🆗 `-moz-box-direction`                                  *(sites:   21, occurrences:     56)*
+  - 🆗 `-moz-box-flex`                                       *(sites:   35, occurrences:    347)*
+  - 🆗 `-moz-box-ordinal-group`                              *(sites:    4, occurrences:     37)*
+  - 🆗 `-moz-box-orient`                                     *(sites:   27, occurrences:    584)*
+  - 🆗 `-moz-box-pack`                                       *(sites:   25, occurrences:    538)*
+  - 🆗 `-moz-box-shadow`                                     *(sites:  105, occurrences:   1196)*
+  - 🆗 `-moz-box-sizing`                                     *(sites:   97, occurrences:   1120)*
+  - 🆗 `-moz-column-count`                                   *(sites:   22, occurrences:     50)*
   - 🆗 `-moz-column-fill`                                    *(sites:    2, occurrences:      4)*
-  - 🆗 `-moz-column-gap`                                     *(sites:   20, occurrences:     47)*
-  - 🆗 `-moz-column-rule`                                    *(sites:    6, occurrences:     10)*
-  - 🆗 `-moz-column-width`                                   *(sites:    4, occurrences:      8)*
-  - 🆗 `-moz-columns`                                        *(sites:    5, occurrences:     10)*
+  - 🆗 `-moz-column-gap`                                     *(sites:   22, occurrences:     53)*
+  - 🆗 `-moz-column-rule`                                    *(sites:    7, occurrences:     11)*
+  - 🆗 `-moz-column-width`                                   *(sites:    6, occurrences:     10)*
+  - 🆗 `-moz-columns`                                        *(sites:    9, occurrences:     89)*
   - 🆗 `-moz-float-edge`                                     *(sites:    1, occurrences:      1)*
-  - 🆗 `-moz-font-feature-settings`                          *(sites:    8, occurrences:    101)*
-  - 🆗 `-moz-force-broken-image-icon`                        *(sites:    2, occurrences:      3)*
-  - 🆗 `-moz-hyphens`                                        *(sites:    8, occurrences:     97)*
+  - 🆗 `-moz-font-feature-settings`                          *(sites:   11, occurrences:    161)*
+  - 🆗 `-moz-font-language-override`                         *(sites:    1, occurrences:      1)*
+  - 🆗 `-moz-force-broken-image-icon`                        *(sites:    3, occurrences:      4)*
+  - 🆗 `-moz-hyphens`                                        *(sites:    9, occurrences:     98)*
   - 🆗 `-moz-image-region`                                   *(sites:    1, occurrences:      1)*
-  - 🆗 `-moz-opacity`                                        *(sites:   27, occurrences:    280)*
+  - 🆗 `-moz-opacity`                                        *(sites:   33, occurrences:    308)*
   - 🆗 `-moz-orient`                                         *(sites:    1, occurrences:      1)*
-  - 🆗 `-moz-osx-font-smoothing`                             *(sites:  115, occurrences:    716)*
-  - 🆗 `-moz-outline`                                        *(sites:    1, occurrences:      1)*
+  - 🆗 `-moz-osx-font-smoothing`                             *(sites:  126, occurrences:    769)*
+  - 🆗 `-moz-outline`                                        *(sites:    2, occurrences:      2)*
   - 🆗 `-moz-outline-radius`                                 *(sites:    1, occurrences:      1)*
   - 🆗 `-moz-outline-radius-bottomleft`                      *(sites:    1, occurrences:      1)*
   - 🆗 `-moz-outline-radius-bottomright`                     *(sites:    1, occurrences:      1)*
@@ -229,68 +272,68 @@ Update date: 2020-10-28T13:51:04.641Z
   - 🆗 `-moz-outline-style`                                  *(sites:    1, occurrences:      1)*
   - 🆗 `-moz-padding-end`                                    *(sites:    3, occurrences:      3)*
   - 🆗 `-moz-padding-start`                                  *(sites:    1, occurrences:      2)*
-  - 🆗 `-moz-perspective`                                    *(sites:    7, occurrences:      7)*
+  - 🆗 `-moz-perspective`                                    *(sites:    8, occurrences:      9)*
   - 🆗 `-moz-perspective-origin`                             *(sites:    1, occurrences:      1)*
   - 🆗 `-moz-stack-sizing`                                   *(sites:    1, occurrences:      1)*
-  - 🆗 `-moz-tab-size`                                       *(sites:    6, occurrences:     17)*
+  - 🆗 `-moz-tab-size`                                       *(sites:    7, occurrences:     18)*
   - 🆗 `-moz-text-align-last`                                *(sites:    2, occurrences:      2)*
   - 🆗 `-moz-text-blink`                                     *(sites:    1, occurrences:      1)*
-  - 🆗 `-moz-text-decoration-color`                          *(sites:    2, occurrences:      4)*
-  - 🆗 `-moz-text-size-adjust`                               *(sites:   14, occurrences:     19)*
-  - 🆗 `-moz-transform`                                      *(sites:   85, occurrences:   1617)*
-  - 🆗 `-moz-transform-origin`                               *(sites:   21, occurrences:    129)*
-  - 🆗 `-moz-transform-style`                                *(sites:   17, occurrences:     17)*
-  - 🆗 `-moz-transition`                                     *(sites:   99, occurrences:   1266)*
-  - 🆗 `-moz-transition-delay`                               *(sites:    9, occurrences:     25)*
-  - 🆗 `-moz-transition-duration`                            *(sites:    7, occurrences:     92)*
-  - 🆗 `-moz-transition-property`                            *(sites:   14, occurrences:    102)*
-  - 🆗 `-moz-transition-timing-function`                     *(sites:    7, occurrences:     10)*
+  - 🆗 `-moz-text-decoration-color`                          *(sites:    4, occurrences:     14)*
+  - 🆗 `-moz-text-size-adjust`                               *(sites:   13, occurrences:     18)*
+  - 🆗 `-moz-transform`                                      *(sites:  104, occurrences:   2121)*
+  - 🆗 `-moz-transform-origin`                               *(sites:   26, occurrences:    169)*
+  - 🆗 `-moz-transform-style`                                *(sites:   19, occurrences:     20)*
+  - 🆗 `-moz-transition`                                     *(sites:  120, occurrences:   1898)*
+  - 🆗 `-moz-transition-delay`                               *(sites:   12, occurrences:     36)*
+  - 🆗 `-moz-transition-duration`                            *(sites:    9, occurrences:     98)*
+  - 🆗 `-moz-transition-property`                            *(sites:   16, occurrences:    113)*
+  - 🆗 `-moz-transition-timing-function`                     *(sites:   13, occurrences:     23)*
   - 🆗 `-moz-user-focus`                                     *(sites:    2, occurrences:      3)*
   - 🆗 `-moz-user-input`                                     *(sites:    1, occurrences:      1)*
   - 🆗 `-moz-user-modify`                                    *(sites:    1, occurrences:      1)*
-  - 🆗 `-moz-user-select`                                    *(sites:  133, occurrences:    909)*
+  - 🆗 `-moz-user-select`                                    *(sites:  148, occurrences:   1066)*
   - 🆗 `-moz-window-shadow`                                  *(sites:    1, occurrences:      1)*
-  - 🆗 `-ms-accelerator`                                     *(sites:    4, occurrences:      6)*
-  - 🆗 `-ms-animation`                                       *(sites:   13, occurrences:     64)*
+  - 🆗 `-ms-accelerator`                                     *(sites:    5, occurrences:      7)*
+  - 🆗 `-ms-animation`                                       *(sites:   17, occurrences:     69)*
   - 🆗 `-ms-animation-delay`                                 *(sites:    5, occurrences:     73)*
-  - 🆗 `-ms-animation-duration`                              *(sites:    5, occurrences:     48)*
+  - 🆗 `-ms-animation-duration`                              *(sites:    7, occurrences:     51)*
   - 🆗 `-ms-animation-fill-mode`                             *(sites:    5, occurrences:     44)*
-  - 🆗 `-ms-animation-iteration-count`                       *(sites:    4, occurrences:     45)*
-  - 🆗 `-ms-animation-name`                                  *(sites:    5, occurrences:    108)*
+  - 🆗 `-ms-animation-iteration-count`                       *(sites:    6, occurrences:     48)*
+  - 🆗 `-ms-animation-name`                                  *(sites:    7, occurrences:    111)*
   - 🆗 `-ms-animation-play-state`                            *(sites:    1, occurrences:      1)*
-  - 🆗 `-ms-animation-timing-function`                       *(sites:    4, occurrences:     46)*
-  - 🆗 `-ms-backface-visibility`                             *(sites:   12, occurrences:     40)*
+  - 🆗 `-ms-animation-timing-function`                       *(sites:    5, occurrences:     48)*
+  - 🆗 `-ms-backface-visibility`                             *(sites:   15, occurrences:     55)*
   - 🆗 `-ms-behavior`                                        *(sites:    1, occurrences:      1)*
-  - 🆗 `-ms-filter`                                          *(sites:   60, occurrences:   1174)*
-  - 🆗 `-ms-flex`                                            *(sites:   93, occurrences:   3215)*
-  - 🆗 `-ms-flex-align`                                      *(sites:   99, occurrences:   4240)*
-  - 🆗 `-ms-flex-direction`                                  *(sites:   93, occurrences:   2565)*
-  - 🆗 `-ms-flex-flow`                                       *(sites:   41, occurrences:    401)*
-  - 🆗 `-ms-flex-item-align`                                 *(sites:   52, occurrences:    618)*
-  - 🆗 `-ms-flex-line-pack`                                  *(sites:   39, occurrences:    375)*
-  - 🆗 `-ms-flex-negative`                                   *(sites:   61, occurrences:    920)*
-  - 🆗 `-ms-flex-order`                                      *(sites:   41, occurrences:   1148)*
-  - 🆗 `-ms-flex-pack`                                       *(sites:   96, occurrences:   3849)*
-  - 🆗 `-ms-flex-positive`                                   *(sites:   61, occurrences:   1051)*
-  - 🆗 `-ms-flex-preferred-size`                             *(sites:   46, occurrences:    785)*
-  - 🆗 `-ms-flex-wrap`                                       *(sites:   80, occurrences:    921)*
-  - 🆗 `-ms-font-feature-settings`                           *(sites:    4, occurrences:      8)*
-  - 🆗 `-ms-grid-column`                                     *(sites:   15, occurrences:    219)*
+  - 🆗 `-ms-filter`                                          *(sites:   70, occurrences:   1232)*
+  - 🆗 `-ms-flex`                                            *(sites:  107, occurrences:   3452)*
+  - 🆗 `-ms-flex-align`                                      *(sites:  112, occurrences:   4646)*
+  - 🆗 `-ms-flex-direction`                                  *(sites:  103, occurrences:   2910)*
+  - 🆗 `-ms-flex-flow`                                       *(sites:   46, occurrences:    425)*
+  - 🆗 `-ms-flex-item-align`                                 *(sites:   61, occurrences:    628)*
+  - 🆗 `-ms-flex-line-pack`                                  *(sites:   42, occurrences:    362)*
+  - 🆗 `-ms-flex-negative`                                   *(sites:   66, occurrences:    933)*
+  - 🆗 `-ms-flex-order`                                      *(sites:   42, occurrences:   1196)*
+  - 🆗 `-ms-flex-pack`                                       *(sites:  107, occurrences:   4214)*
+  - 🆗 `-ms-flex-positive`                                   *(sites:   65, occurrences:   1067)*
+  - 🆗 `-ms-flex-preferred-size`                             *(sites:   51, occurrences:    814)*
+  - 🆗 `-ms-flex-wrap`                                       *(sites:   90, occurrences:   1025)*
+  - 🆗 `-ms-font-feature-settings`                           *(sites:    5, occurrences:     13)*
+  - 🆗 `-ms-grid-column`                                     *(sites:   17, occurrences:    225)*
   - 🆗 `-ms-grid-column-align`                               *(sites:    2, occurrences:      2)*
-  - 🆗 `-ms-grid-column-span`                                *(sites:    7, occurrences:     92)*
-  - 🆗 `-ms-grid-columns`                                    *(sites:   20, occurrences:     74)*
-  - 🆗 `-ms-grid-row`                                        *(sites:   13, occurrences:     77)*
-  - 🆗 `-ms-grid-row-align`                                  *(sites:   19, occurrences:    101)*
-  - 🆗 `-ms-grid-row-span`                                   *(sites:    4, occurrences:     14)*
-  - 🆗 `-ms-grid-rows`                                       *(sites:   12, occurrences:     30)*
-  - 🆗 `-ms-high-contrast-adjust`                            *(sites:   10, occurrences:    145)*
-  - 🆗 `-ms-hyphens`                                         *(sites:   27, occurrences:    123)*
-  - 🆗 `-ms-ime-align`                                       *(sites:   26, occurrences:     63)*
-  - 🆗 `-ms-interpolation-mode`                              *(sites:   25, occurrences:     30)*
+  - 🆗 `-ms-grid-column-span`                                *(sites:    9, occurrences:     97)*
+  - 🆗 `-ms-grid-columns`                                    *(sites:   22, occurrences:     77)*
+  - 🆗 `-ms-grid-row`                                        *(sites:   15, occurrences:     83)*
+  - 🆗 `-ms-grid-row-align`                                  *(sites:   20, occurrences:     78)*
+  - 🆗 `-ms-grid-row-span`                                   *(sites:    6, occurrences:     19)*
+  - 🆗 `-ms-grid-rows`                                       *(sites:   13, occurrences:     31)*
+  - 🆗 `-ms-high-contrast-adjust`                            *(sites:   13, occurrences:    190)*
+  - 🆗 `-ms-hyphens`                                         *(sites:   30, occurrences:    143)*
+  - 🆗 `-ms-ime-align`                                       *(sites:   31, occurrences:     70)*
+  - 🆗 `-ms-interpolation-mode`                              *(sites:   27, occurrences:     35)*
   - 🆗 `-ms-line-break`                                      *(sites:    1, occurrences:      1)*
-  - 🆗 `-ms-overflow-style`                                  *(sites:   62, occurrences:    125)*
-  - 🆗 `-ms-perspective`                                     *(sites:   11, occurrences:     15)*
-  - 🆗 `-ms-perspective-origin`                              *(sites:    2, occurrences:      2)*
+  - 🆗 `-ms-overflow-style`                                  *(sites:   70, occurrences:    143)*
+  - 🆗 `-ms-perspective`                                     *(sites:   13, occurrences:     18)*
+  - 🆗 `-ms-perspective-origin`                              *(sites:    3, occurrences:      3)*
   - 🆗 `-ms-scroll-chaining`                                 *(sites:    1, occurrences:      3)*
   - 🆗 `-ms-scroll-limit-x-max`                              *(sites:    1, occurrences:      1)*
   - 🆗 `-ms-scroll-limit-x-min`                              *(sites:    1, occurrences:      1)*
@@ -300,125 +343,126 @@ Update date: 2020-10-28T13:51:04.641Z
   - 🆗 `-ms-scrollbar-face-color`                            *(sites:    1, occurrences:      1)*
   - 🆗 `-ms-scrollbar-shadow-color`                          *(sites:    1, occurrences:      1)*
   - 🆗 `-ms-text-align-last`                                 *(sites:    1, occurrences:      1)*
-  - 🆗 `-ms-text-overflow`                                   *(sites:   15, occurrences:     18)*
-  - 🆗 `-ms-text-size-adjust`                                *(sites:   88, occurrences:    137)*
-  - 🆗 `-ms-touch-action`                                    *(sites:   69, occurrences:    180)*
-  - 🆗 `-ms-transform`                                       *(sites:  109, occurrences:   3156)*
-  - 🆗 `-ms-transform-origin`                                *(sites:   34, occurrences:    267)*
-  - 🆗 `-ms-transform-style`                                 *(sites:    4, occurrences:      4)*
-  - 🆗 `-ms-transition`                                      *(sites:   62, occurrences:    598)*
+  - 🆗 `-ms-text-overflow`                                   *(sites:   16, occurrences:     19)*
+  - 🆗 `-ms-text-size-adjust`                                *(sites:  103, occurrences:    163)*
+  - 🆗 `-ms-touch-action`                                    *(sites:   78, occurrences:    207)*
+  - 🆗 `-ms-transform`                                       *(sites:  126, occurrences:   3980)*
+  - 🆗 `-ms-transform-origin`                                *(sites:   44, occurrences:    368)*
+  - 🆗 `-ms-transform-style`                                 *(sites:    6, occurrences:      7)*
+  - 🆗 `-ms-transition`                                      *(sites:   72, occurrences:    712)*
   - 🆗 `-ms-transition-delay`                                *(sites:    6, occurrences:     13)*
   - 🆗 `-ms-transition-duration`                             *(sites:    1, occurrences:      6)*
-  - 🆗 `-ms-transition-property`                             *(sites:    6, occurrences:     15)*
-  - 🆗 `-ms-transition-timing-function`                      *(sites:    2, occurrences:      4)*
-  - 🆗 `-ms-user-select`                                     *(sites:  130, occurrences:    912)*
-  - 🆗 `-ms-word-break`                                      *(sites:    5, occurrences:      6)*
+  - 🆗 `-ms-transition-property`                             *(sites:    8, occurrences:     20)*
+  - 🆗 `-ms-transition-timing-function`                      *(sites:    3, occurrences:      8)*
+  - 🆗 `-ms-user-select`                                     *(sites:  146, occurrences:   1076)*
+  - 🆗 `-ms-word-break`                                      *(sites:    6, occurrences:      7)*
   - 🆗 `-ms-word-wrap`                                       *(sites:    4, occurrences:      4)*
-  - 🆗 `-ms-writing-mode`                                    *(sites:    2, occurrences:      4)*
+  - 🆗 `-ms-writing-mode`                                    *(sites:    3, occurrences:      5)*
   - 🆗 `-ms-zoom`                                            *(sites:    1, occurrences:      3)*
-  - 🆗 `-o-animation`                                        *(sites:   27, occurrences:    150)*
-  - 🆗 `-o-animation-delay`                                  *(sites:    7, occurrences:     83)*
+  - 🆗 `-o-animation`                                        *(sites:   37, occurrences:    170)*
+  - 🆗 `-o-animation-delay`                                  *(sites:    8, occurrences:     84)*
   - 🆗 `-o-animation-direction`                              *(sites:    1, occurrences:      1)*
-  - 🆗 `-o-animation-duration`                               *(sites:    6, occurrences:     53)*
-  - 🆗 `-o-animation-fill-mode`                              *(sites:    5, occurrences:     54)*
-  - 🆗 `-o-animation-iteration-count`                        *(sites:    6, occurrences:     51)*
-  - 🆗 `-o-animation-name`                                   *(sites:    6, occurrences:     55)*
+  - 🆗 `-o-animation-duration`                               *(sites:    7, occurrences:     62)*
+  - 🆗 `-o-animation-fill-mode`                              *(sites:    6, occurrences:     55)*
+  - 🆗 `-o-animation-iteration-count`                        *(sites:    8, occurrences:     53)*
+  - 🆗 `-o-animation-name`                                   *(sites:    7, occurrences:     64)*
   - 🆗 `-o-animation-play-state`                             *(sites:    2, occurrences:      3)*
   - 🆗 `-o-animation-timing-function`                        *(sites:    6, occurrences:     49)*
-  - 🆗 `-o-border-image`                                     *(sites:    7, occurrences:      9)*
-  - 🆗 `-o-object-fit`                                       *(sites:   37, occurrences:    201)*
+  - 🆗 `-o-border-image`                                     *(sites:   11, occurrences:     19)*
+  - 🆗 `-o-object-fit`                                       *(sites:   43, occurrences:    213)*
   - 🆗 `-o-object-position`                                  *(sites:    6, occurrences:     14)*
-  - 🆗 `-o-tab-size`                                         *(sites:    4, occurrences:      4)*
-  - 🆗 `-o-text-overflow`                                    *(sites:   29, occurrences:    116)*
-  - 🆗 `-o-transform`                                        *(sites:   80, occurrences:   1317)*
-  - 🆗 `-o-transform-origin`                                 *(sites:   16, occurrences:    113)*
-  - 🆗 `-o-transition`                                       *(sites:  100, occurrences:   1777)*
-  - 🆗 `-o-transition-delay`                                 *(sites:   13, occurrences:     39)*
-  - 🆗 `-o-transition-duration`                              *(sites:   12, occurrences:    113)*
-  - 🆗 `-o-transition-property`                              *(sites:   20, occurrences:    139)*
-  - 🆗 `-o-transition-timing-function`                       *(sites:   14, occurrences:     34)*
-  - 🆗 `-webkit-align-content`                               *(sites:   13, occurrences:     69)*
-  - 🆗 `-webkit-align-items`                                 *(sites:   82, occurrences:   1574)*
-  - 🆗 `-webkit-align-self`                                  *(sites:   22, occurrences:    200)*
-  - 🆗 `-webkit-animation`                                   *(sites:  137, occurrences:   1073)*
-  - 🆗 `-webkit-animation-delay`                             *(sites:   51, occurrences:    882)*
-  - 🆗 `-webkit-animation-direction`                         *(sites:   13, occurrences:     37)*
-  - 🆗 `-webkit-animation-duration`                          *(sites:   59, occurrences:    814)*
-  - 🆗 `-webkit-animation-fill-mode`                         *(sites:   55, occurrences:    699)*
-  - 🆗 `-webkit-animation-iteration-count`                   *(sites:   43, occurrences:    239)*
-  - 🆗 `-webkit-animation-name`                              *(sites:   57, occurrences:   1176)*
+  - 🆗 `-o-tab-size`                                         *(sites:    5, occurrences:      5)*
+  - 🆗 `-o-text-overflow`                                    *(sites:   30, occurrences:    181)*
+  - 🆗 `-o-transform`                                        *(sites:  102, occurrences:   1665)*
+  - 🆗 `-o-transform-origin`                                 *(sites:   18, occurrences:    123)*
+  - 🆗 `-o-transition`                                       *(sites:  123, occurrences:   2043)*
+  - 🆗 `-o-transition-delay`                                 *(sites:   14, occurrences:     40)*
+  - 🆗 `-o-transition-duration`                              *(sites:   16, occurrences:    121)*
+  - 🆗 `-o-transition-property`                              *(sites:   24, occurrences:    152)*
+  - 🆗 `-o-transition-timing-function`                       *(sites:   19, occurrences:     46)*
+  - 🆗 `-webkit-align-content`                               *(sites:   16, occurrences:     73)*
+  - 🆗 `-webkit-align-items`                                 *(sites:   96, occurrences:   1957)*
+  - 🆗 `-webkit-align-self`                                  *(sites:   32, occurrences:    249)*
+  - 🆗 `-webkit-animation`                                   *(sites:  165, occurrences:   1451)*
+  - 🆗 `-webkit-animation-delay`                             *(sites:   60, occurrences:    926)*
+  - 🆗 `-webkit-animation-direction`                         *(sites:   16, occurrences:     42)*
+  - 🆗 `-webkit-animation-duration`                          *(sites:   70, occurrences:    884)*
+  - 🆗 `-webkit-animation-fill-mode`                         *(sites:   64, occurrences:    728)*
+  - 🆗 `-webkit-animation-iteration-count`                   *(sites:   51, occurrences:    274)*
+  - 🆗 `-webkit-animation-name`                              *(sites:   69, occurrences:   1587)*
   - 🆗 `-webkit-animation-play-state`                        *(sites:    9, occurrences:     15)*
-  - 🆗 `-webkit-animation-timing-function`                   *(sites:   51, occurrences:    925)*
+  - 🆗 `-webkit-animation-timing-function`                   *(sites:   63, occurrences:   1172)*
   - 🆗 `-webkit-app-region`                                  *(sites:    1, occurrences:      1)*
-  - 🆗 `-webkit-appearance`                                  *(sites:  162, occurrences:   1297)*
-  - 🆗 `-webkit-backdrop-filter`                             *(sites:   15, occurrences:     78)*
-  - 🆗 `-webkit-backface-visibility`                         *(sites:   91, occurrences:    428)*
-  - 🆗 `-webkit-background-clip`                             *(sites:   24, occurrences:     86)*
+  - 🆗 `-webkit-appearance`                                  *(sites:  183, occurrences:   1471)*
+  - 🆗 `-webkit-backdrop-filter`                             *(sites:   18, occurrences:     96)*
+  - 🆗 `-webkit-backface-visibility`                         *(sites:  106, occurrences:    511)*
+  - 🆗 `-webkit-background-clip`                             *(sites:   31, occurrences:    108)*
   - 🆗 `-webkit-background-origin`                           *(sites:    1, occurrences:      1)*
-  - 🆗 `-webkit-background-size`                             *(sites:   56, occurrences:    396)*
+  - 🆗 `-webkit-background-size`                             *(sites:   62, occurrences:    624)*
   - 🆗 `-webkit-border-before-color`                         *(sites:    1, occurrences:      1)*
   - 🆗 `-webkit-border-before-style`                         *(sites:    1, occurrences:      1)*
   - 🆗 `-webkit-border-before-width`                         *(sites:    1, occurrences:      1)*
-  - 🆗 `-webkit-border-bottom-left-radius`                   *(sites:   19, occurrences:     40)*
-  - 🆗 `-webkit-border-bottom-right-radius`                  *(sites:   15, occurrences:     38)*
+  - 🆗 `-webkit-border-bottom-left-radius`                   *(sites:   23, occurrences:     65)*
+  - 🆗 `-webkit-border-bottom-right-radius`                  *(sites:   18, occurrences:     61)*
   - 🆗 `-webkit-border-horizontal-spacing`                   *(sites:    1, occurrences:      1)*
-  - 🆗 `-webkit-border-image`                                *(sites:   12, occurrences:     14)*
-  - 🆗 `-webkit-border-radius`                               *(sites:  105, occurrences:   1927)*
-  - 🆗 `-webkit-border-top-left-radius`                      *(sites:   23, occurrences:     49)*
-  - 🆗 `-webkit-border-top-right-radius`                     *(sites:   20, occurrences:     46)*
+  - 🆗 `-webkit-border-image`                                *(sites:   13, occurrences:     21)*
+  - 🆗 `-webkit-border-radius`                               *(sites:  124, occurrences:   2399)*
+  - 🆗 `-webkit-border-top-left-radius`                      *(sites:   27, occurrences:     75)*
+  - 🆗 `-webkit-border-top-right-radius`                     *(sites:   23, occurrences:     70)*
   - 🆗 `-webkit-border-vertical-spacing`                     *(sites:    1, occurrences:      1)*
-  - 🆗 `-webkit-box-align`                                   *(sites:   80, occurrences:   3306)*
-  - 🆗 `-webkit-box-decoration-break`                        *(sites:    7, occurrences:     21)*
-  - 🆗 `-webkit-box-direction`                               *(sites:   64, occurrences:   1377)*
-  - 🆗 `-webkit-box-flex`                                    *(sites:   90, occurrences:   2571)*
-  - 🆗 `-webkit-box-lines`                                   *(sites:   10, occurrences:    161)*
-  - 🆗 `-webkit-box-ordinal-group`                           *(sites:   29, occurrences:    621)*
-  - 🆗 `-webkit-box-orient`                                  *(sites:  104, occurrences:   2385)*
-  - 🆗 `-webkit-box-pack`                                    *(sites:   81, occurrences:   2808)*
+  - 🆗 `-webkit-box-align`                                   *(sites:   90, occurrences:   3583)*
+  - 🆗 `-webkit-box-decoration-break`                        *(sites:    8, occurrences:     23)*
+  - 🆗 `-webkit-box-direction`                               *(sites:   74, occurrences:   1544)*
+  - 🆗 `-webkit-box-flex`                                    *(sites:  103, occurrences:   2562)*
+  - 🆗 `-webkit-box-lines`                                   *(sites:   12, occurrences:    164)*
+  - 🆗 `-webkit-box-ordinal-group`                           *(sites:   29, occurrences:    581)*
+  - 🆗 `-webkit-box-orient`                                  *(sites:  120, occurrences:   2615)*
+  - 🆗 `-webkit-box-pack`                                    *(sites:   88, occurrences:   3044)*
   - 🆗 `-webkit-box-reflect`                                 *(sites:    2, occurrences:      2)*
-  - 🆗 `-webkit-box-shadow`                                  *(sites:  140, occurrences:   5484)*
-  - 🆗 `-webkit-box-sizing`                                  *(sites:  132, occurrences:   1854)*
+  - 🆗 `-webkit-box-shadow`                                  *(sites:  163, occurrences:   6034)*
+  - 🆗 `-webkit-box-sizing`                                  *(sites:  149, occurrences:   2020)*
   - 🆗 `-webkit-break-inside`                                *(sites:    1, occurrences:      1)*
-  - 🆗 `-webkit-clip-path`                                   *(sites:   26, occurrences:    155)*
+  - 🆗 `-webkit-clip-path`                                   *(sites:   27, occurrences:    158)*
   - 🆗 `-webkit-column-break-after`                          *(sites:    1, occurrences:      1)*
   - 🆗 `-webkit-column-break-before`                         *(sites:    2, occurrences:      2)*
-  - 🆗 `-webkit-column-break-inside`                         *(sites:   10, occurrences:     15)*
-  - 🆗 `-webkit-column-count`                                *(sites:   23, occurrences:     57)*
+  - 🆗 `-webkit-column-break-inside`                         *(sites:   11, occurrences:     16)*
+  - 🆗 `-webkit-column-count`                                *(sites:   25, occurrences:     59)*
   - 🆗 `-webkit-column-fill`                                 *(sites:    2, occurrences:      4)*
-  - 🆗 `-webkit-column-gap`                                  *(sites:   21, occurrences:     48)*
-  - 🆗 `-webkit-column-rule`                                 *(sites:    6, occurrences:     10)*
+  - 🆗 `-webkit-column-gap`                                  *(sites:   23, occurrences:     53)*
+  - 🆗 `-webkit-column-rule`                                 *(sites:    7, occurrences:     11)*
   - 🆗 `-webkit-column-span`                                 *(sites:    1, occurrences:      1)*
-  - 🆗 `-webkit-column-width`                                *(sites:    4, occurrences:      6)*
-  - 🆗 `-webkit-columns`                                     *(sites:    5, occurrences:     10)*
-  - 🆗 `-webkit-filter`                                      *(sites:   81, occurrences:    502)*
-  - 🆗 `-webkit-flex`                                        *(sites:   72, occurrences:   1307)*
-  - 🆗 `-webkit-flex-basis`                                  *(sites:   28, occurrences:    410)*
-  - 🆗 `-webkit-flex-direction`                              *(sites:   54, occurrences:   1115)*
-  - 🆗 `-webkit-flex-flow`                                   *(sites:   24, occurrences:    246)*
-  - 🆗 `-webkit-flex-grow`                                   *(sites:   34, occurrences:    424)*
+  - 🆗 `-webkit-column-width`                                *(sites:    6, occurrences:      8)*
+  - 🆗 `-webkit-columns`                                     *(sites:    8, occurrences:     87)*
+  - 🆗 `-webkit-cursor-visibility`                           *(sites:    1, occurrences:      1)*
+  - 🆗 `-webkit-filter`                                      *(sites:   96, occurrences:    591)*
+  - 🆗 `-webkit-flex`                                        *(sites:   82, occurrences:   1506)*
+  - 🆗 `-webkit-flex-basis`                                  *(sites:   31, occurrences:    453)*
+  - 🆗 `-webkit-flex-direction`                              *(sites:   68, occurrences:   1324)*
+  - 🆗 `-webkit-flex-flow`                                   *(sites:   28, occurrences:    269)*
+  - 🆗 `-webkit-flex-grow`                                   *(sites:   39, occurrences:    452)*
   - 🆗 `-webkit-flex-pack`                                   *(sites:    1, occurrences:     14)*
-  - 🆗 `-webkit-flex-shrink`                                 *(sites:   35, occurrences:    382)*
-  - 🆗 `-webkit-flex-wrap`                                   *(sites:   44, occurrences:    283)*
-  - 🆗 `-webkit-font-feature-settings`                       *(sites:   18, occurrences:     28)*
-  - 🆗 `-webkit-font-kerning`                                *(sites:    7, occurrences:      7)*
-  - 🆗 `-webkit-font-smoothing`                              *(sites:  167, occurrences:   1422)*
+  - 🆗 `-webkit-flex-shrink`                                 *(sites:   39, occurrences:    402)*
+  - 🆗 `-webkit-flex-wrap`                                   *(sites:   55, occurrences:    375)*
+  - 🆗 `-webkit-font-feature-settings`                       *(sites:   22, occurrences:     38)*
+  - 🆗 `-webkit-font-kerning`                                *(sites:    8, occurrences:     10)*
+  - 🆗 `-webkit-font-smoothing`                              *(sites:  178, occurrences:   1519)*
   - 🆗 `-webkit-font-variant-ligatures`                      *(sites:    4, occurrences:      6)*
   - 🆗 `-webkit-highlight`                                   *(sites:    2, occurrences:     28)*
   - 🆗 `-webkit-hyphenate-character`                         *(sites:    1, occurrences:      1)*
-  - 🆗 `-webkit-hyphens`                                     *(sites:   32, occurrences:    132)*
-  - 🆗 `-webkit-justify-content`                             *(sites:   74, occurrences:   1407)*
-  - 🆗 `-webkit-line-break`                                  *(sites:    1, occurrences:      1)*
-  - 🆗 `-webkit-line-clamp`                                  *(sites:   76, occurrences:    711)*
+  - 🆗 `-webkit-hyphens`                                     *(sites:   34, occurrences:    151)*
+  - 🆗 `-webkit-justify-content`                             *(sites:   85, occurrences:   1734)*
+  - 🆗 `-webkit-line-break`                                  *(sites:    2, occurrences:      2)*
+  - 🆗 `-webkit-line-clamp`                                  *(sites:   89, occurrences:    787)*
   - 🆗 `-webkit-locale`                                      *(sites:    1, occurrences:      1)*
-  - 🆗 `-webkit-margin-after`                                *(sites:    4, occurrences:      5)*
+  - 🆗 `-webkit-margin-after`                                *(sites:    5, occurrences:      6)*
   - 🆗 `-webkit-margin-after-collapse`                       *(sites:    1, occurrences:      1)*
-  - 🆗 `-webkit-margin-before`                               *(sites:    4, occurrences:      5)*
+  - 🆗 `-webkit-margin-before`                               *(sites:    5, occurrences:      6)*
   - 🆗 `-webkit-margin-before-collapse`                      *(sites:    1, occurrences:      1)*
-  - 🆗 `-webkit-margin-end`                                  *(sites:    2, occurrences:      3)*
-  - 🆗 `-webkit-margin-start`                                *(sites:    2, occurrences:      3)*
+  - 🆗 `-webkit-margin-end`                                  *(sites:    4, occurrences:      5)*
+  - 🆗 `-webkit-margin-start`                                *(sites:    4, occurrences:      6)*
   - 🆗 `-webkit-margin-top-collapse`                         *(sites:    1, occurrences:      1)*
   - 🆗 `-webkit-marquee-style`                               *(sites:    1, occurrences:      1)*
-  - 🆗 `-webkit-mask`                                        *(sites:    6, occurrences:     14)*
+  - 🆗 `-webkit-mask`                                        *(sites:    9, occurrences:     17)*
   - 🆗 `-webkit-mask-attachment`                             *(sites:    1, occurrences:      1)*
   - 🆗 `-webkit-mask-box-image`                              *(sites:    1, occurrences:      1)*
   - 🆗 `-webkit-mask-box-image-outset`                       *(sites:    1, occurrences:      1)*
@@ -428,284 +472,287 @@ Update date: 2020-10-28T13:51:04.641Z
   - 🆗 `-webkit-mask-box-image-width`                        *(sites:    1, occurrences:      1)*
   - 🆗 `-webkit-mask-clip`                                   *(sites:    2, occurrences:      2)*
   - 🆗 `-webkit-mask-composite`                              *(sites:    2, occurrences:      2)*
-  - 🆗 `-webkit-mask-image`                                  *(sites:   25, occurrences:     48)*
+  - 🆗 `-webkit-mask-image`                                  *(sites:   27, occurrences:     52)*
   - 🆗 `-webkit-mask-origin`                                 *(sites:    2, occurrences:      2)*
   - 🆗 `-webkit-mask-position`                               *(sites:    4, occurrences:      5)*
   - 🆗 `-webkit-mask-position-x`                             *(sites:    1, occurrences:      1)*
   - 🆗 `-webkit-mask-position-y`                             *(sites:    1, occurrences:      1)*
-  - 🆗 `-webkit-mask-repeat`                                 *(sites:    5, occurrences:      8)*
+  - 🆗 `-webkit-mask-repeat`                                 *(sites:    6, occurrences:     11)*
   - 🆗 `-webkit-mask-repeat-x`                               *(sites:    1, occurrences:      1)*
   - 🆗 `-webkit-mask-repeat-y`                               *(sites:    1, occurrences:      1)*
-  - 🆗 `-webkit-mask-size`                                   *(sites:    5, occurrences:      9)*
-  - 🆗 `-webkit-order`                                       *(sites:   44, occurrences:    509)*
-  - 🆗 `-webkit-overflow-scrolling`                          *(sites:   99, occurrences:    368)*
-  - 🆗 `-webkit-padding-after`                               *(sites:    1, occurrences:      1)*
-  - 🆗 `-webkit-padding-before`                              *(sites:    1, occurrences:      1)*
-  - 🆗 `-webkit-padding-end`                                 *(sites:    1, occurrences:      1)*
-  - 🆗 `-webkit-padding-start`                               *(sites:    7, occurrences:     20)*
-  - 🆗 `-webkit-perspective`                                 *(sites:   32, occurrences:     42)*
+  - 🆗 `-webkit-mask-size`                                   *(sites:    9, occurrences:     21)*
+  - 🆗 `-webkit-nbsp-mode`                                   *(sites:    1, occurrences:      1)*
+  - 🆗 `-webkit-order`                                       *(sites:   48, occurrences:    527)*
+  - 🆗 `-webkit-overflow-scrolling`                          *(sites:  113, occurrences:    414)*
+  - 🆗 `-webkit-padding-after`                               *(sites:    2, occurrences:      2)*
+  - 🆗 `-webkit-padding-before`                              *(sites:    2, occurrences:      2)*
+  - 🆗 `-webkit-padding-end`                                 *(sites:    2, occurrences:      2)*
+  - 🆗 `-webkit-padding-start`                               *(sites:    8, occurrences:     22)*
+  - 🆗 `-webkit-perspective`                                 *(sites:   36, occurrences:     49)*
   - 🆗 `-webkit-perspective-origin`                          *(sites:    2, occurrences:      2)*
-  - 🆗 `-webkit-print-color-adjust`                          *(sites:    7, occurrences:      8)*
+  - 🆗 `-webkit-print-color-adjust`                          *(sites:    9, occurrences:     10)*
   - 🆗 `-webkit-rtl-ordering`                                *(sites:    1, occurrences:      1)*
   - 🆗 `-webkit-scroll-snap-coordinate`                      *(sites:    3, occurrences:      6)*
   - 🆗 `-webkit-scroll-snap-type`                            *(sites:    3, occurrences:      6)*
-  - 🆗 `-webkit-tap-highlight-color`                         *(sites:  130, occurrences:    421)*
+  - 🆗 `-webkit-tap-highlight-color`                         *(sites:  147, occurrences:    487)*
   - 🆗 `-webkit-text-combine`                                *(sites:    1, occurrences:      1)*
-  - 🆗 `-webkit-text-decoration`                             *(sites:   23, occurrences:     35)*
-  - 🆗 `-webkit-text-decoration-color`                       *(sites:    7, occurrences:     12)*
+  - 🆗 `-webkit-text-decoration`                             *(sites:   24, occurrences:     34)*
+  - 🆗 `-webkit-text-decoration-color`                       *(sites:   10, occurrences:     24)*
   - 🆗 `-webkit-text-decoration-line`                        *(sites:    2, occurrences:      3)*
-  - 🆗 `-webkit-text-decoration-skip`                        *(sites:   16, occurrences:     17)*
-  - 🆗 `-webkit-text-decoration-style`                       *(sites:    2, occurrences:      4)*
+  - 🆗 `-webkit-text-decoration-skip`                        *(sites:   19, occurrences:     21)*
+  - 🆗 `-webkit-text-decoration-style`                       *(sites:    1, occurrences:      3)*
   - 🆗 `-webkit-text-decorations-in-effect`                  *(sites:    1, occurrences:      1)*
   - 🆗 `-webkit-text-emphasis-color`                         *(sites:    1, occurrences:      1)*
   - 🆗 `-webkit-text-emphasis-position`                      *(sites:    1, occurrences:      1)*
   - 🆗 `-webkit-text-emphasis-style`                         *(sites:    1, occurrences:      1)*
-  - 🆗 `-webkit-text-fill-color`                             *(sites:   19, occurrences:     53)*
+  - 🆗 `-webkit-text-fill-color`                             *(sites:   23, occurrences:     64)*
   - 🆗 `-webkit-text-orientation`                            *(sites:    1, occurrences:      1)*
   - 🆗 `-webkit-text-security`                               *(sites:    1, occurrences:      1)*
-  - 🆗 `-webkit-text-size-adjust`                            *(sites:  154, occurrences:    239)*
-  - 🆗 `-webkit-text-stroke`                                 *(sites:    5, occurrences:      5)*
-  - 🆗 `-webkit-text-stroke-color`                           *(sites:    3, occurrences:      7)*
-  - 🆗 `-webkit-text-stroke-width`                           *(sites:    9, occurrences:     31)*
-  - 🆗 `-webkit-touch-callout`                               *(sites:   69, occurrences:    177)*
-  - 🆗 `-webkit-transform`                                   *(sites:  167, occurrences:   9516)*
-  - 🆗 `-webkit-transform-origin`                            *(sites:   97, occurrences:    714)*
-  - 🆗 `-webkit-transform-style`                             *(sites:   36, occurrences:     65)*
-  - 🆗 `-webkit-transition`                                  *(sites:  166, occurrences:   4184)*
-  - 🆗 `-webkit-transition-delay`                            *(sites:   36, occurrences:    184)*
-  - 🆗 `-webkit-transition-duration`                         *(sites:   36, occurrences:    234)*
-  - 🆗 `-webkit-transition-property`                         *(sites:   40, occurrences:    293)*
-  - 🆗 `-webkit-transition-timing-function`                  *(sites:   31, occurrences:    151)*
-  - 🆗 `-webkit-user-drag`                                   *(sites:   21, occurrences:     38)*
-  - 🆗 `-webkit-user-modify`                                 *(sites:    4, occurrences:      4)*
-  - 🆗 `-webkit-user-select`                                 *(sites:  161, occurrences:   1219)*
-  - 🆗 `-webkit-writing-mode`                                *(sites:    3, occurrences:      4)*
-  - 🆗 `align-content`                                       *(sites:   74, occurrences:    766)*
-  - 🆗 `align-items`                                         *(sites:  176, occurrences:   7629)*
-  - 🆗 `align-self`                                          *(sites:  118, occurrences:   1690)*
-  - 🆗 `alignment-baseline`                                  *(sites:    1, occurrences:      1)*
-  - 🆗 `all`                                                 *(sites:    1, occurrences:      2)*
+  - 🆗 `-webkit-text-size-adjust`                            *(sites:  173, occurrences:    284)*
+  - 🆗 `-webkit-text-stroke`                                 *(sites:    6, occurrences:      6)*
+  - 🆗 `-webkit-text-stroke-color`                           *(sites:    4, occurrences:      8)*
+  - 🆗 `-webkit-text-stroke-width`                           *(sites:   11, occurrences:     35)*
+  - 🆗 `-webkit-touch-callout`                               *(sites:   84, occurrences:    204)*
+  - 🆗 `-webkit-transform`                                   *(sites:  193, occurrences:  12903)*
+  - 🆗 `-webkit-transform-origin`                            *(sites:  115, occurrences:   1072)*
+  - 🆗 `-webkit-transform-style`                             *(sites:   40, occurrences:     71)*
+  - 🆗 `-webkit-transition`                                  *(sites:  186, occurrences:   5006)*
+  - 🆗 `-webkit-transition-delay`                            *(sites:   38, occurrences:    195)*
+  - 🆗 `-webkit-transition-duration`                         *(sites:   40, occurrences:    249)*
+  - 🆗 `-webkit-transition-property`                         *(sites:   45, occurrences:    310)*
+  - 🆗 `-webkit-transition-timing-function`                  *(sites:   37, occurrences:    215)*
+  - 🆗 `-webkit-user-drag`                                   *(sites:   25, occurrences:     44)*
+  - 🆗 `-webkit-user-modify`                                 *(sites:    4, occurrences:      7)*
+  - 🆗 `-webkit-user-select`                                 *(sites:  177, occurrences:   1433)*
+  - 🆗 `-webkit-writing-mode`                                *(sites:    4, occurrences:      5)*
+  - 🆗 `align-content`                                       *(sites:   82, occurrences:    774)*
+  - 🆗 `align-items`                                         *(sites:  194, occurrences:   8633)*
+  - 🆗 `align-self`                                          *(sites:  133, occurrences:   1804)*
+  - 🆗 `alignment-baseline`                                  *(sites:    2, occurrences:      7)*
+  - 🆗 `all`                                                 *(sites:    3, occurrences:      4)*
   - 🆗 `alt`                                                 *(sites:    1, occurrences:      7)*
-  - 🆗 `animation`                                           *(sites:  177, occurrences:   2151)*
-  - 🆗 `animation-delay`                                     *(sites:   79, occurrences:   1237)*
-  - 🆗 `animation-direction`                                 *(sites:   43, occurrences:     88)*
-  - 🆗 `animation-duration`                                  *(sites:   88, occurrences:   1193)*
-  - 🆗 `animation-fill-mode`                                 *(sites:   79, occurrences:    824)*
-  - 🆗 `animation-iteration-count`                           *(sites:   58, occurrences:    343)*
-  - 🆗 `animation-name`                                      *(sites:   87, occurrences:   1813)*
-  - 🆗 `animation-play-state`                                *(sites:   23, occurrences:    132)*
-  - 🆗 `animation-timing-function`                           *(sites:   97, occurrences:   1329)*
-  - 🆗 `appearance`                                          *(sites:   95, occurrences:    410)*
+  - 🆗 `animation`                                           *(sites:  200, occurrences:   2674)*
+  - 🆗 `animation-delay`                                     *(sites:   89, occurrences:   1288)*
+  - 🆗 `animation-direction`                                 *(sites:   47, occurrences:     94)*
+  - 🆗 `animation-duration`                                  *(sites:  106, occurrences:   1307)*
+  - 🆗 `animation-fill-mode`                                 *(sites:   92, occurrences:    865)*
+  - 🆗 `animation-iteration-count`                           *(sites:   68, occurrences:    385)*
+  - 🆗 `animation-name`                                      *(sites:  106, occurrences:   2283)*
+  - 🆗 `animation-play-state`                                *(sites:   25, occurrences:    140)*
+  - 🆗 `animation-timing-function`                           *(sites:  112, occurrences:   1611)*
+  - 🆗 `appearance`                                          *(sites:  107, occurrences:    463)*
   - 🆗 `azimuth`                                             *(sites:    1, occurrences:      1)*
-  - 🆗 `backdrop-filter`                                     *(sites:   19, occurrences:     79)*
-  - 🆗 `backface-visibility`                                 *(sites:   79, occurrences:    349)*
-  - 🆗 `background`                                          *(sites:  207, occurrences:  36665)*
-  - 🆗 `background-attachment`                               *(sites:   30, occurrences:     60)*
+  - 🆗 `backdrop-filter`                                     *(sites:   22, occurrences:     97)*
+  - 🆗 `backface-visibility`                                 *(sites:   90, occurrences:    419)*
+  - 🆗 `background`                                          *(sites:  234, occurrences:  44450)*
+  - 🆗 `background-attachment`                               *(sites:   37, occurrences:     81)*
   - 🆗 `background-blend-mode`                               *(sites:    6, occurrences:     21)*
-  - 🆗 `background-clip`                                     *(sites:  102, occurrences:    532)*
-  - 🆗 `background-color`                                    *(sites:  206, occurrences:  45880)*
-  - 🆗 `background-image`                                    *(sites:  198, occurrences:  19072)*
-  - 🆗 `background-origin`                                   *(sites:   37, occurrences:    147)*
-  - 🆗 `background-position`                                 *(sites:  194, occurrences:  26582)*
-  - 🆗 `background-position-x`                               *(sites:   31, occurrences:    107)*
-  - 🆗 `background-position-y`                               *(sites:   37, occurrences:    208)*
-  - 🆗 `background-repeat`                                   *(sites:  172, occurrences:   5125)*
-  - 🆗 `background-size`                                     *(sites:  194, occurrences:   7802)*
+  - 🆗 `background-clip`                                     *(sites:  116, occurrences:    607)*
+  - 🆗 `background-color`                                    *(sites:  233, occurrences:  52831)*
+  - 🆗 `background-image`                                    *(sites:  223, occurrences:  22332)*
+  - 🆗 `background-origin`                                   *(sites:   46, occurrences:    165)*
+  - 🆗 `background-position`                                 *(sites:  219, occurrences:  35582)*
+  - 🆗 `background-position-x`                               *(sites:   35, occurrences:    122)*
+  - 🆗 `background-position-y`                               *(sites:   41, occurrences:    224)*
+  - 🆗 `background-repeat`                                   *(sites:  199, occurrences:   6014)*
+  - 🆗 `background-repeat-y`                                 *(sites:    1, occurrences:      1)*
+  - 🆗 `background-size`                                     *(sites:  217, occurrences:   9024)*
   - 🆗 `baseline-shift`                                      *(sites:    1, occurrences:      1)*
-  - 🆗 `behavior`                                            *(sites:    2, occurrences:      2)*
+  - 🆗 `behavior`                                            *(sites:    3, occurrences:      3)*
   - 🆗 `block-size`                                          *(sites:    1, occurrences:      1)*
-  - 🆗 `border`                                              *(sites:  214, occurrences:  21333)*
+  - 🆗 `border`                                              *(sites:  234, occurrences:  25808)*
   - 🆗 `border-block-end-color`                              *(sites:    1, occurrences:      1)*
   - 🆗 `border-block-end-style`                              *(sites:    1, occurrences:      1)*
   - 🆗 `border-block-end-width`                              *(sites:    1, occurrences:      1)*
   - 🆗 `border-block-start-color`                            *(sites:    1, occurrences:      1)*
   - 🆗 `border-block-start-style`                            *(sites:    1, occurrences:      1)*
   - 🆗 `border-block-start-width`                            *(sites:    1, occurrences:      1)*
-  - 🆗 `border-bottom`                                       *(sites:  209, occurrences:   8833)*
-  - 🆗 `border-bottom-color`                                 *(sites:  138, occurrences:   1921)*
-  - 🆗 `border-bottom-left-radius`                           *(sites:  140, occurrences:   1712)*
-  - 🆗 `border-bottom-right-radius`                          *(sites:  139, occurrences:   1681)*
-  - 🆗 `border-bottom-style`                                 *(sites:   47, occurrences:    149)*
-  - 🆗 `border-bottom-width`                                 *(sites:  102, occurrences:    582)*
-  - 🆗 `border-collapse`                                     *(sites:  150, occurrences:    475)*
-  - 🆗 `border-color`                                        *(sites:  191, occurrences:  15402)*
-  - 🆗 `border-image`                                        *(sites:   23, occurrences:     38)*
-  - 🆗 `border-image-outset`                                 *(sites:    9, occurrences:      9)*
-  - 🆗 `border-image-repeat`                                 *(sites:    9, occurrences:      9)*
-  - 🆗 `border-image-slice`                                  *(sites:   12, occurrences:     20)*
-  - 🆗 `border-image-source`                                 *(sites:    3, occurrences:      3)*
-  - 🆗 `border-image-width`                                  *(sites:    9, occurrences:      9)*
+  - 🆗 `border-bottom`                                       *(sites:  230, occurrences:  10277)*
+  - 🆗 `border-bottom-color`                                 *(sites:  155, occurrences:   2128)*
+  - 🆗 `border-bottom-left-radius`                           *(sites:  154, occurrences:   1862)*
+  - 🆗 `border-bottom-right-radius`                          *(sites:  155, occurrences:   1833)*
+  - 🆗 `border-bottom-style`                                 *(sites:   57, occurrences:    175)*
+  - 🆗 `border-bottom-width`                                 *(sites:  118, occurrences:    687)*
+  - 🆗 `border-collapse`                                     *(sites:  172, occurrences:    578)*
+  - 🆗 `border-color`                                        *(sites:  216, occurrences:  16870)*
+  - 🆗 `border-image`                                        *(sites:   32, occurrences:     64)*
+  - 🆗 `border-image-outset`                                 *(sites:   13, occurrences:     16)*
+  - 🆗 `border-image-repeat`                                 *(sites:   13, occurrences:     16)*
+  - 🆗 `border-image-slice`                                  *(sites:   18, occurrences:     29)*
+  - 🆗 `border-image-source`                                 *(sites:    8, occurrences:     11)*
+  - 🆗 `border-image-width`                                  *(sites:   13, occurrences:     16)*
   - 🆗 `border-inline-end-color`                             *(sites:    1, occurrences:      1)*
   - 🆗 `border-inline-end-style`                             *(sites:    1, occurrences:      1)*
   - 🆗 `border-inline-end-width`                             *(sites:    1, occurrences:      1)*
   - 🆗 `border-inline-start-color`                           *(sites:    1, occurrences:      1)*
   - 🆗 `border-inline-start-style`                           *(sites:    1, occurrences:      1)*
   - 🆗 `border-inline-start-width`                           *(sites:    1, occurrences:      1)*
-  - 🆗 `border-left`                                         *(sites:  187, occurrences:   3844)*
-  - 🆗 `border-left-color`                                   *(sites:   91, occurrences:   1178)*
-  - 🆗 `border-left-style`                                   *(sites:   25, occurrences:    106)*
-  - 🆗 `border-left-width`                                   *(sites:   75, occurrences:    542)*
-  - 🆗 `border-radius`                                       *(sites:  205, occurrences:  21025)*
-  - 🆗 `border-right`                                        *(sites:  186, occurrences:   3259)*
-  - 🆗 `border-right-color`                                  *(sites:   85, occurrences:   1076)*
-  - 🆗 `border-right-style`                                  *(sites:   26, occurrences:     91)*
-  - 🆗 `border-right-width`                                  *(sites:   81, occurrences:    422)*
-  - 🆗 `border-spacing`                                      *(sites:  133, occurrences:    316)*
-  - 🆗 `border-style`                                        *(sites:  157, occurrences:   1749)*
-  - 🆗 `border-top`                                          *(sites:  206, occurrences:   6285)*
-  - 🆗 `border-top-color`                                    *(sites:  136, occurrences:   2079)*
-  - 🆗 `border-top-left-radius`                              *(sites:  129, occurrences:   1580)*
-  - 🆗 `border-top-right-radius`                             *(sites:  113, occurrences:   1623)*
-  - 🆗 `border-top-style`                                    *(sites:   32, occurrences:    149)*
-  - 🆗 `border-top-width`                                    *(sites:   81, occurrences:    541)*
-  - 🆗 `border-width`                                        *(sites:  167, occurrences:   2801)*
-  - 🆗 `bottom`                                              *(sites:  204, occurrences:  11723)*
-  - 🆗 `box-decoration-break`                                *(sites:    6, occurrences:     16)*
-  - 🆗 `box-shadow`                                          *(sites:  197, occurrences:  13435)*
-  - 🆗 `box-sizing`                                          *(sites:  196, occurrences:   5879)*
+  - 🆗 `border-left`                                         *(sites:  213, occurrences:   4477)*
+  - 🆗 `border-left-color`                                   *(sites:  104, occurrences:   1311)*
+  - 🆗 `border-left-style`                                   *(sites:   29, occurrences:    111)*
+  - 🆗 `border-left-width`                                   *(sites:   80, occurrences:    581)*
+  - 🆗 `border-radius`                                       *(sites:  232, occurrences:  25050)*
+  - 🆗 `border-right`                                        *(sites:  212, occurrences:   3851)*
+  - 🆗 `border-right-color`                                  *(sites:  100, occurrences:   1177)*
+  - 🆗 `border-right-style`                                  *(sites:   32, occurrences:     99)*
+  - 🆗 `border-right-width`                                  *(sites:   91, occurrences:    452)*
+  - 🆗 `border-spacing`                                      *(sites:  153, occurrences:    366)*
+  - 🆗 `border-style`                                        *(sites:  178, occurrences:   1995)*
+  - 🆗 `border-top`                                          *(sites:  224, occurrences:   7416)*
+  - 🆗 `border-top-color`                                    *(sites:  154, occurrences:   2254)*
+  - 🆗 `border-top-left-radius`                              *(sites:  146, occurrences:   1737)*
+  - 🆗 `border-top-right-radius`                             *(sites:  131, occurrences:   1785)*
+  - 🆗 `border-top-style`                                    *(sites:   40, occurrences:    165)*
+  - 🆗 `border-top-width`                                    *(sites:   90, occurrences:    586)*
+  - 🆗 `border-width`                                        *(sites:  188, occurrences:   3286)*
+  - 🆗 `bottom`                                              *(sites:  231, occurrences:  14618)*
+  - 🆗 `box-decoration-break`                                *(sites:    7, occurrences:     18)*
+  - 🆗 `box-shadow`                                          *(sites:  223, occurrences:  15247)*
+  - 🆗 `box-sizing`                                          *(sites:  218, occurrences:   6968)*
   - 🆗 `break-after`                                         *(sites:    3, occurrences:      3)*
   - 🆗 `break-before`                                        *(sites:    5, occurrences:      5)*
-  - 🆗 `break-inside`                                        *(sites:   16, occurrences:     23)*
+  - 🆗 `break-inside`                                        *(sites:   18, occurrences:     25)*
   - 🆗 `buffered-rendering`                                  *(sites:    1, occurrences:      1)*
-  - 🆗 `caption-side`                                        *(sites:   14, occurrences:     15)*
-  - 🆗 `caret-color`                                         *(sites:    9, occurrences:     21)*
-  - 🆗 `clear`                                               *(sites:  184, occurrences:   3787)*
-  - 🆗 `clip`                                                *(sites:  138, occurrences:    638)*
-  - 🆗 `clip-path`                                           *(sites:   42, occurrences:    206)*
+  - 🆗 `caption-side`                                        *(sites:   13, occurrences:     14)*
+  - 🆗 `caret-color`                                         *(sites:   10, occurrences:     22)*
+  - 🆗 `clear`                                               *(sites:  212, occurrences:   4463)*
+  - 🆗 `clip`                                                *(sites:  154, occurrences:    756)*
+  - 🆗 `clip-path`                                           *(sites:   43, occurrences:    209)*
   - 🆗 `clip-rule`                                           *(sites:    1, occurrences:      1)*
-  - 🆗 `color`                                               *(sites:  216, occurrences:  82842)*
+  - 🆗 `color`                                               *(sites:  236, occurrences:  97050)*
   - 🆗 `color-adjust`                                        *(sites:    1, occurrences:      1)*
   - 🆗 `color-interpolation`                                 *(sites:    1, occurrences:      1)*
   - 🆗 `color-interpolation-filters`                         *(sites:    1, occurrences:      1)*
   - 🆗 `color-rendering`                                     *(sites:    1, occurrences:      1)*
-  - 🆗 `column-count`                                        *(sites:   31, occurrences:     73)*
+  - 🆗 `column-count`                                        *(sites:   35, occurrences:     84)*
   - 🆗 `column-fill`                                         *(sites:    3, occurrences:      4)*
-  - 🆗 `column-gap`                                          *(sites:   27, occurrences:     62)*
-  - 🆗 `column-rule`                                         *(sites:    7, occurrences:     11)*
+  - 🆗 `column-gap`                                          *(sites:   33, occurrences:     75)*
+  - 🆗 `column-rule`                                         *(sites:    9, occurrences:     13)*
   - 🆗 `column-rule-color`                                   *(sites:    3, occurrences:      3)*
   - 🆗 `column-rule-style`                                   *(sites:    2, occurrences:      2)*
   - 🆗 `column-rule-width`                                   *(sites:    2, occurrences:      2)*
-  - 🆗 `column-span`                                         *(sites:    6, occurrences:      6)*
-  - 🆗 `column-width`                                        *(sites:    6, occurrences:      7)*
-  - 🆗 `columns`                                             *(sites:    9, occurrences:     20)*
+  - 🆗 `column-span`                                         *(sites:    7, occurrences:      7)*
+  - 🆗 `column-width`                                        *(sites:    9, occurrences:     10)*
+  - 🆗 `columns`                                             *(sites:   13, occurrences:     99)*
   - 🆗 `contain`                                             *(sites:    7, occurrences:     33)*
-  - 🆗 `content`                                             *(sites:  202, occurrences:  34889)*
-  - 🆗 `counter-increment`                                   *(sites:   26, occurrences:     48)*
-  - 🆗 `counter-reset`                                       *(sites:   24, occurrences:     58)*
-  - 🆗 `cursor`                                              *(sites:  205, occurrences:  13001)*
+  - 🆗 `content`                                             *(sites:  227, occurrences:  41686)*
+  - 🆗 `counter-increment`                                   *(sites:   31, occurrences:     72)*
+  - 🆗 `counter-reset`                                       *(sites:   28, occurrences:     82)*
+  - 🆗 `cursor`                                              *(sites:  232, occurrences:  16129)*
   - 🆗 `cx`                                                  *(sites:    3, occurrences:     21)*
   - 🆗 `cy`                                                  *(sites:    2, occurrences:      4)*
   - 🆗 `d`                                                   *(sites:    1, occurrences:      1)*
-  - 🆗 `direction`                                           *(sites:   90, occurrences:    777)*
-  - 🆗 `display`                                             *(sites:  210, occurrences:  99270)*
+  - 🆗 `direction`                                           *(sites:  100, occurrences:    978)*
+  - 🆗 `display`                                             *(sites:  236, occurrences: 117890)*
   - 🆗 `dominant-baseline`                                   *(sites:    2, occurrences:      2)*
-  - 🆗 `empty-cells`                                         *(sites:   14, occurrences:     14)*
-  - 🆗 `fill`                                                *(sites:  131, occurrences:   4407)*
-  - 🆗 `fill-opacity`                                        *(sites:   13, occurrences:    112)*
+  - 🆗 `empty-cells`                                         *(sites:   14, occurrences:     17)*
+  - 🆗 `enable-background`                                   *(sites:    1, occurrences:     32)*
+  - 🆗 `fill`                                                *(sites:  143, occurrences:   5740)*
+  - 🆗 `fill-opacity`                                        *(sites:   16, occurrences:    137)*
   - 🆗 `fill-rule`                                           *(sites:    2, occurrences:      9)*
-  - 🆗 `filter`                                              *(sites:  167, occurrences:   3039)*
-  - 🆗 `flex`                                                *(sites:  158, occurrences:   5822)*
-  - 🆗 `flex-basis`                                          *(sites:  104, occurrences:   2174)*
-  - 🆗 `flex-direction`                                      *(sites:  169, occurrences:   4650)*
-  - 🆗 `flex-flow`                                           *(sites:   79, occurrences:    667)*
-  - 🆗 `flex-grow`                                           *(sites:  120, occurrences:   1964)*
-  - 🆗 `flex-shrink`                                         *(sites:  109, occurrences:   1513)*
-  - 🆗 `flex-wrap`                                           *(sites:  150, occurrences:   1838)*
-  - 🆗 `float`                                               *(sites:  193, occurrences:  15974)*
+  - 🆗 `filter`                                              *(sites:  193, occurrences:   3559)*
+  - 🆗 `flex`                                                *(sites:  176, occurrences:   6233)*
+  - 🆗 `flex-basis`                                          *(sites:  111, occurrences:   2272)*
+  - 🆗 `flex-direction`                                      *(sites:  184, occurrences:   5278)*
+  - 🆗 `flex-flow`                                           *(sites:   90, occurrences:    717)*
+  - 🆗 `flex-grow`                                           *(sites:  131, occurrences:   2072)*
+  - 🆗 `flex-shrink`                                         *(sites:  116, occurrences:   1599)*
+  - 🆗 `flex-wrap`                                           *(sites:  168, occurrences:   2016)*
+  - 🆗 `float`                                               *(sites:  222, occurrences:  19478)*
   - 🆗 `flood-color`                                         *(sites:    1, occurrences:      1)*
   - 🆗 `flood-opacity`                                       *(sites:    1, occurrences:      1)*
-  - 🆗 `font`                                                *(sites:  180, occurrences:   2585)*
-  - 🆗 `font-display`                                        *(sites:   59, occurrences:   1504)*
-  - 🆗 `font-family`                                         *(sites:  214, occurrences:  18211)*
-  - 🆗 `font-feature-settings`                               *(sites:   28, occurrences:     44)*
-  - 🆗 `font-kerning`                                        *(sites:    9, occurrences:     10)*
+  - 🆗 `font`                                                *(sites:  202, occurrences:   3566)*
+  - 🆗 `font-display`                                        *(sites:   66, occurrences:   1945)*
+  - 🆗 `font-family`                                         *(sites:  234, occurrences:  21458)*
+  - 🆗 `font-feature-settings`                               *(sites:   33, occurrences:     63)*
+  - 🆗 `font-kerning`                                        *(sites:   10, occurrences:     13)*
   - 🆗 `font-language-override`                              *(sites:    5, occurrences:      5)*
   - 🆗 `font-optical-sizing`                                 *(sites:    1, occurrences:      1)*
-  - 🆗 `font-size`                                           *(sites:  215, occurrences:  57734)*
+  - 🆗 `font-size`                                           *(sites:  235, occurrences:  68634)*
   - 🆗 `font-size-adjust`                                    *(sites:    3, occurrences:      3)*
-  - 🆗 `font-stretch`                                        *(sites:   34, occurrences:    389)*
-  - 🆗 `font-style`                                          *(sites:  206, occurrences:   6046)*
-  - 🆗 `font-synthesis`                                      *(sites:    7, occurrences:     22)*
-  - 🆗 `font-variant`                                        *(sites:   63, occurrences:    234)*
+  - 🆗 `font-stretch`                                        *(sites:   37, occurrences:    389)*
+  - 🆗 `font-style`                                          *(sites:  228, occurrences:   8061)*
+  - 🆗 `font-synthesis`                                      *(sites:    7, occurrences:     26)*
+  - 🆗 `font-variant`                                        *(sites:   71, occurrences:    268)*
   - 🆗 `font-variant-alternates`                             *(sites:    1, occurrences:      1)*
   - 🆗 `font-variant-caps`                                   *(sites:    6, occurrences:     10)*
   - 🆗 `font-variant-east-asian`                             *(sites:    2, occurrences:      2)*
-  - 🆗 `font-variant-ligatures`                              *(sites:    7, occurrences:     10)*
+  - 🆗 `font-variant-ligatures`                              *(sites:    8, occurrences:     15)*
   - 🆗 `font-variant-numeric`                                *(sites:   12, occurrences:     35)*
   - 🆗 `font-variant-position`                               *(sites:    1, occurrences:      1)*
-  - 🆗 `font-variation-settings`                             *(sites:    1, occurrences:      2)*
-  - 🆗 `font-weight`                                         *(sites:  214, occurrences:  27565)*
+  - 🆗 `font-variation-settings`                             *(sites:    2, occurrences:      3)*
+  - 🆗 `font-weight`                                         *(sites:  234, occurrences:  33559)*
   - 🆗 `grid`                                                *(sites:    2, occurrences:      5)*
-  - 🆗 `grid-area`                                           *(sites:   10, occurrences:    302)*
+  - 🆗 `grid-area`                                           *(sites:   12, occurrences:    315)*
   - 🆗 `grid-auto-columns`                                   *(sites:    6, occurrences:     25)*
-  - 🆗 `grid-auto-flow`                                      *(sites:    8, occurrences:     18)*
-  - 🆗 `grid-auto-rows`                                      *(sites:    6, occurrences:      9)*
-  - 🆗 `grid-column`                                         *(sites:   24, occurrences:    170)*
-  - 🆗 `grid-column-end`                                     *(sites:    7, occurrences:     69)*
-  - 🆗 `grid-column-gap`                                     *(sites:   23, occurrences:     47)*
-  - 🆗 `grid-column-start`                                   *(sites:    8, occurrences:     80)*
-  - 🆗 `grid-gap`                                            *(sites:   23, occurrences:    115)*
-  - 🆗 `grid-row`                                            *(sites:   16, occurrences:     59)*
-  - 🆗 `grid-row-end`                                        *(sites:    2, occurrences:      2)*
-  - 🆗 `grid-row-gap`                                        *(sites:   13, occurrences:     27)*
-  - 🆗 `grid-row-start`                                      *(sites:    5, occurrences:     14)*
+  - 🆗 `grid-auto-flow`                                      *(sites:   12, occurrences:     25)*
+  - 🆗 `grid-auto-rows`                                      *(sites:    7, occurrences:     11)*
+  - 🆗 `grid-column`                                         *(sites:   27, occurrences:    185)*
+  - 🆗 `grid-column-end`                                     *(sites:   10, occurrences:     94)*
+  - 🆗 `grid-column-gap`                                     *(sites:   25, occurrences:     86)*
+  - 🆗 `grid-column-start`                                   *(sites:   11, occurrences:    142)*
+  - 🆗 `grid-gap`                                            *(sites:   25, occurrences:    163)*
+  - 🆗 `grid-row`                                            *(sites:   19, occurrences:     69)*
+  - 🆗 `grid-row-end`                                        *(sites:    4, occurrences:     13)*
+  - 🆗 `grid-row-gap`                                        *(sites:   16, occurrences:     44)*
+  - 🆗 `grid-row-start`                                      *(sites:    7, occurrences:     26)*
   - 🆗 `grid-template`                                       *(sites:    1, occurrences:      1)*
-  - 🆗 `grid-template-areas`                                 *(sites:   10, occurrences:     40)*
-  - 🆗 `grid-template-columns`                               *(sites:   54, occurrences:    415)*
-  - 🆗 `grid-template-rows`                                  *(sites:   30, occurrences:    134)*
-  - 🆗 `height`                                              *(sites:  214, occurrences:  70450)*
-  - 🆗 `hyphens`                                             *(sites:   36, occurrences:    154)*
+  - 🆗 `grid-template-areas`                                 *(sites:   12, occurrences:     47)*
+  - 🆗 `grid-template-columns`                               *(sites:   60, occurrences:    629)*
+  - 🆗 `grid-template-rows`                                  *(sites:   35, occurrences:    197)*
+  - 🆗 `height`                                              *(sites:  234, occurrences:  86709)*
+  - 🆗 `hyphens`                                             *(sites:   39, occurrences:    174)*
   - 🆗 `image-orientation`                                   *(sites:    2, occurrences:      2)*
-  - 🆗 `image-rendering`                                     *(sites:    9, occurrences:     29)*
+  - 🆗 `image-rendering`                                     *(sites:   11, occurrences:     35)*
   - 🆗 `image-resolution`                                    *(sites:    1, occurrences:      1)*
   - 🆗 `ime-mode`                                            *(sites:    2, occurrences:      2)*
   - 🆗 `inline-size`                                         *(sites:    1, occurrences:      1)*
   - 🆗 `isolation`                                           *(sites:    5, occurrences:      8)*
-  - 🆗 `justify-content`                                     *(sites:  176, occurrences:   6621)*
-  - 🆗 `justify-items`                                       *(sites:    8, occurrences:     21)*
-  - 🆗 `justify-self`                                        *(sites:   15, occurrences:    246)*
-  - 🆗 `left`                                                *(sites:  203, occurrences:  29270)*
-  - 🆗 `letter-spacing`                                      *(sites:  176, occurrences:   4804)*
+  - 🆗 `justify-content`                                     *(sites:  191, occurrences:   7477)*
+  - 🆗 `justify-items`                                       *(sites:   10, occurrences:     46)*
+  - 🆗 `justify-self`                                        *(sites:   17, occurrences:    251)*
+  - 🆗 `left`                                                *(sites:  231, occurrences:  34870)*
+  - 🆗 `letter-spacing`                                      *(sites:  192, occurrences:   5427)*
   - 🆗 `lighting-color`                                      *(sites:    1, occurrences:      1)*
-  - 🆗 `line-break`                                          *(sites:   13, occurrences:     24)*
-  - 🆗 `line-height`                                         *(sites:  207, occurrences:  35427)*
-  - 🆗 `list-style`                                          *(sites:  190, occurrences:   2148)*
-  - 🆗 `list-style-image`                                    *(sites:   22, occurrences:     68)*
-  - 🆗 `list-style-position`                                 *(sites:   49, occurrences:    119)*
-  - 🆗 `list-style-type`                                     *(sites:  147, occurrences:    909)*
-  - 🆗 `margin`                                              *(sites:  216, occurrences:  37267)*
-  - 🆗 `margin-block-end`                                    *(sites:    4, occurrences:      4)*
-  - 🆗 `margin-block-start`                                  *(sites:    4, occurrences:      4)*
-  - 🆗 `margin-bottom`                                       *(sites:  211, occurrences:  22586)*
-  - 🆗 `margin-inline-end`                                   *(sites:    6, occurrences:      6)*
-  - 🆗 `margin-inline-start`                                 *(sites:    6, occurrences:      6)*
-  - 🆗 `margin-left`                                         *(sites:  208, occurrences:  27682)*
-  - 🆗 `margin-right`                                        *(sites:  207, occurrences:  20084)*
-  - 🆗 `margin-top`                                          *(sites:  207, occurrences:  25363)*
+  - 🆗 `line-break`                                          *(sites:   14, occurrences:     26)*
+  - 🆗 `line-height`                                         *(sites:  234, occurrences:  41302)*
+  - 🆗 `list-style`                                          *(sites:  206, occurrences:   2495)*
+  - 🆗 `list-style-image`                                    *(sites:   29, occurrences:     78)*
+  - 🆗 `list-style-position`                                 *(sites:   62, occurrences:    139)*
+  - 🆗 `list-style-type`                                     *(sites:  162, occurrences:   1009)*
+  - 🆗 `margin`                                              *(sites:  236, occurrences:  45849)*
+  - 🆗 `margin-block-end`                                    *(sites:    5, occurrences:      5)*
+  - 🆗 `margin-block-start`                                  *(sites:    5, occurrences:      5)*
+  - 🆗 `margin-bottom`                                       *(sites:  231, occurrences:  25873)*
+  - 🆗 `margin-inline-end`                                   *(sites:    9, occurrences:      9)*
+  - 🆗 `margin-inline-start`                                 *(sites:    7, occurrences:      7)*
+  - 🆗 `margin-left`                                         *(sites:  233, occurrences:  31535)*
+  - 🆗 `margin-right`                                        *(sites:  232, occurrences:  23003)*
+  - 🆗 `margin-top`                                          *(sites:  232, occurrences:  29534)*
   - 🆗 `marker-end`                                          *(sites:    1, occurrences:      1)*
   - 🆗 `marker-mid`                                          *(sites:    1, occurrences:      1)*
   - 🆗 `marker-offset`                                       *(sites:    1, occurrences:      1)*
   - 🆗 `marker-start`                                        *(sites:    1, occurrences:      1)*
-  - 🆗 `mask`                                                *(sites:    7, occurrences:     15)*
+  - 🆗 `mask`                                                *(sites:   10, occurrences:     18)*
   - 🆗 `mask-clip`                                           *(sites:    1, occurrences:      1)*
   - 🆗 `mask-composite`                                      *(sites:    1, occurrences:      1)*
-  - 🆗 `mask-image`                                          *(sites:   16, occurrences:     35)*
+  - 🆗 `mask-image`                                          *(sites:   17, occurrences:     36)*
   - 🆗 `mask-mode`                                           *(sites:    2, occurrences:      2)*
   - 🆗 `mask-origin`                                         *(sites:    1, occurrences:      1)*
   - 🆗 `mask-position`                                       *(sites:    3, occurrences:      4)*
   - 🆗 `mask-repeat`                                         *(sites:    4, occurrences:      7)*
-  - 🆗 `mask-size`                                           *(sites:    5, occurrences:      9)*
+  - 🆗 `mask-size`                                           *(sites:    8, occurrences:     12)*
   - 🆗 `mask-type`                                           *(sites:    3, occurrences:      4)*
-  - 🆗 `max-height`                                          *(sites:  190, occurrences:   5822)*
+  - 🆗 `max-height`                                          *(sites:  217, occurrences:   6862)*
   - 🆗 `max-lines`                                           *(sites:    1, occurrences:      1)*
-  - 🆗 `max-width`                                           *(sites:  204, occurrences:  14840)*
+  - 🆗 `max-width`                                           *(sites:  229, occurrences:  16953)*
   - 🆗 `min-block-size`                                      *(sites:    1, occurrences:      1)*
-  - 🆗 `min-height`                                          *(sites:  195, occurrences:   6652)*
+  - 🆗 `min-height`                                          *(sites:  218, occurrences:   7475)*
   - 🆗 `min-inline-size`                                     *(sites:    1, occurrences:      1)*
-  - 🆗 `min-width`                                           *(sites:  197, occurrences:   6834)*
-  - 🆗 `mix-blend-mode`                                      *(sites:   22, occurrences:     53)*
-  - 🆗 `object-fit`                                          *(sites:   78, occurrences:    476)*
-  - 🆗 `object-position`                                     *(sites:   28, occurrences:     83)*
+  - 🆗 `min-width`                                           *(sites:  221, occurrences:   7858)*
+  - 🆗 `mix-blend-mode`                                      *(sites:   25, occurrences:     61)*
+  - 🆗 `object-fit`                                          *(sites:   91, occurrences:    522)*
+  - 🆗 `object-position`                                     *(sites:   26, occurrences:     81)*
   - 🆗 `offset-block-end`                                    *(sites:    1, occurrences:      1)*
   - 🆗 `offset-block-start`                                  *(sites:    1, occurrences:      1)*
   - 🆗 `offset-distance`                                     *(sites:    1, occurrences:      1)*
@@ -713,247 +760,262 @@ Update date: 2020-10-28T13:51:04.641Z
   - 🆗 `offset-inline-start`                                 *(sites:    1, occurrences:      1)*
   - 🆗 `offset-path`                                         *(sites:    1, occurrences:      1)*
   - 🆗 `offset-rotate`                                       *(sites:    1, occurrences:      1)*
-  - 🆗 `opacity`                                             *(sites:  202, occurrences:  20957)*
-  - 🆗 `order`                                               *(sites:  110, occurrences:   2233)*
-  - 🆗 `orphans`                                             *(sites:   24, occurrences:     32)*
-  - 🆗 `outline`                                             *(sites:  201, occurrences:   6808)*
-  - 🆗 `outline-color`                                       *(sites:   39, occurrences:    585)*
-  - 🆗 `outline-offset`                                      *(sites:  111, occurrences:    490)*
-  - 🆗 `outline-style`                                       *(sites:   31, occurrences:     91)*
-  - 🆗 `outline-width`                                       *(sites:   43, occurrences:    132)*
-  - 🆗 `overflow`                                            *(sites:  209, occurrences:  16687)*
-  - 🆗 `overflow-anchor`                                     *(sites:    8, occurrences:     14)*
-  - 🆗 `overflow-wrap`                                       *(sites:   71, occurrences:    128)*
-  - 🆗 `overflow-x`                                          *(sites:  163, occurrences:    979)*
-  - 🆗 `overflow-y`                                          *(sites:  177, occurrences:   1359)*
-  - 🆗 `padding`                                             *(sites:  216, occurrences:  46743)*
+  - 🆗 `opacity`                                             *(sites:  228, occurrences:  25634)*
+  - 🆗 `order`                                               *(sites:  121, occurrences:   2325)*
+  - 🆗 `orphans`                                             *(sites:   26, occurrences:     33)*
+  - 🆗 `outline`                                             *(sites:  227, occurrences:   7566)*
+  - 🆗 `outline-color`                                       *(sites:   47, occurrences:    667)*
+  - 🆗 `outline-offset`                                      *(sites:  125, occurrences:    553)*
+  - 🆗 `outline-style`                                       *(sites:   38, occurrences:    125)*
+  - 🆗 `outline-width`                                       *(sites:   51, occurrences:    145)*
+  - 🆗 `overflow`                                            *(sites:  229, occurrences:  20411)*
+  - 🆗 `overflow-anchor`                                     *(sites:    9, occurrences:     16)*
+  - 🆗 `overflow-wrap`                                       *(sites:   79, occurrences:    150)*
+  - 🆗 `overflow-x`                                          *(sites:  194, occurrences:   1170)*
+  - 🆗 `overflow-y`                                          *(sites:  207, occurrences:   1643)*
+  - 🆗 `padding`                                             *(sites:  236, occurrences:  56905)*
   - 🆗 `padding-block-end`                                   *(sites:    1, occurrences:      1)*
   - 🆗 `padding-block-start`                                 *(sites:    1, occurrences:      1)*
-  - 🆗 `padding-bottom`                                      *(sites:  211, occurrences:  10480)*
+  - 🆗 `padding-bottom`                                      *(sites:  231, occurrences:  11716)*
   - 🆗 `padding-inline-end`                                  *(sites:    1, occurrences:      1)*
   - 🆗 `padding-inline-start`                                *(sites:    6, occurrences:      8)*
-  - 🆗 `padding-left`                                        *(sites:  203, occurrences:  15704)*
-  - 🆗 `padding-right`                                       *(sites:  203, occurrences:  13777)*
-  - 🆗 `padding-top`                                         *(sites:  211, occurrences:  12839)*
-  - 🆗 `page-break-after`                                    *(sites:   30, occurrences:     32)*
-  - 🆗 `page-break-before`                                   *(sites:    3, occurrences:      3)*
-  - 🆗 `page-break-inside`                                   *(sites:   31, occurrences:     63)*
-  - 🆗 `paint-order`                                         *(sites:    1, occurrences:      1)*
-  - 🆗 `perspective`                                         *(sites:   42, occurrences:     64)*
-  - 🆗 `perspective-origin`                                  *(sites:    8, occurrences:     12)*
+  - 🆗 `padding-left`                                        *(sites:  230, occurrences:  17607)*
+  - 🆗 `padding-right`                                       *(sites:  229, occurrences:  15111)*
+  - 🆗 `padding-top`                                         *(sites:  230, occurrences:  14506)*
+  - 🆗 `page-break-after`                                    *(sites:   33, occurrences:     36)*
+  - 🆗 `page-break-before`                                   *(sites:    4, occurrences:      4)*
+  - 🆗 `page-break-inside`                                   *(sites:   35, occurrences:     73)*
+  - 🆗 `paint-order`                                         *(sites:    2, occurrences:      7)*
+  - 🆗 `perspective`                                         *(sites:   46, occurrences:     71)*
+  - 🆗 `perspective-origin`                                  *(sites:    9, occurrences:     13)*
   - 🆗 `place-content`                                       *(sites:    1, occurrences:      2)*
   - 🆗 `place-self`                                          *(sites:    1, occurrences:      1)*
-  - 🆗 `pointer-events`                                      *(sites:  169, occurrences:   3182)*
-  - 🆗 `position`                                            *(sites:  207, occurrences:  56197)*
-  - 🆗 `quotes`                                              *(sites:   64, occurrences:     94)*
+  - 🆗 `pointer-events`                                      *(sites:  189, occurrences:   3911)*
+  - 🆗 `position`                                            *(sites:  234, occurrences:  67629)*
+  - 🆗 `quotes`                                              *(sites:   73, occurrences:    104)*
   - 🆗 `r`                                                   *(sites:    2, occurrences:     20)*
-  - 🆗 `resize`                                              *(sites:   98, occurrences:    253)*
-  - 🆗 `right`                                               *(sites:  202, occurrences:  20239)*
+  - 🆗 `resize`                                              *(sites:  115, occurrences:    300)*
+  - 🆗 `right`                                               *(sites:  229, occurrences:  24122)*
   - 🆗 `rotation`                                            *(sites:    1, occurrences:      4)*
   - 🆗 `ruby-align`                                          *(sites:    1, occurrences:      1)*
   - 🆗 `ruby-merge`                                          *(sites:    1, occurrences:      1)*
   - 🆗 `ruby-position`                                       *(sites:    1, occurrences:      1)*
-  - 🆗 `rx`                                                  *(sites:    2, occurrences:      2)*
-  - 🆗 `ry`                                                  *(sites:    2, occurrences:      2)*
-  - 🆗 `scroll-behavior`                                     *(sites:   20, occurrences:     38)*
+  - 🆗 `rx`                                                  *(sites:    3, occurrences:      3)*
+  - 🆗 `ry`                                                  *(sites:    3, occurrences:      3)*
+  - 🆗 `scroll-behavior`                                     *(sites:   22, occurrences:     42)*
   - 🆗 `scroll-padding`                                      *(sites:    4, occurrences:     13)*
-  - 🆗 `scroll-snap-align`                                   *(sites:   12, occurrences:     26)*
+  - 🆗 `scroll-snap-align`                                   *(sites:   13, occurrences:     27)*
   - 🆗 `scroll-snap-coordinate`                              *(sites:    4, occurrences:      7)*
   - 🆗 `scroll-snap-destination`                             *(sites:    3, occurrences:      6)*
   - 🆗 `scroll-snap-points-x`                                *(sites:    3, occurrences:      6)*
   - 🆗 `scroll-snap-points-y`                                *(sites:    1, occurrences:      1)*
   - 🆗 `scroll-snap-stop`                                    *(sites:    2, occurrences:      3)*
-  - 🆗 `scroll-snap-type`                                    *(sites:   12, occurrences:     22)*
+  - 🆗 `scroll-snap-type`                                    *(sites:   13, occurrences:     24)*
   - 🆗 `scroll-snap-type-x`                                  *(sites:    1, occurrences:      1)*
   - 🆗 `scroll-snap-type-y`                                  *(sites:    1, occurrences:      1)*
   - 🆗 `scrollbar-3dlight-color`                             *(sites:    2, occurrences:      5)*
-  - 🆗 `scrollbar-arrow-color`                               *(sites:   10, occurrences:     20)*
-  - 🆗 `scrollbar-darkshadow-color`                          *(sites:   11, occurrences:     20)*
-  - 🆗 `scrollbar-face-color`                                *(sites:   11, occurrences:     23)*
+  - 🆗 `scrollbar-arrow-color`                               *(sites:   15, occurrences:     30)*
+  - 🆗 `scrollbar-darkshadow-color`                          *(sites:   16, occurrences:     30)*
+  - 🆗 `scrollbar-face-color`                                *(sites:   16, occurrences:     33)*
   - 🆗 `scrollbar-highlight-color`                           *(sites:    1, occurrences:      4)*
-  - 🆗 `scrollbar-shadow-color`                              *(sites:   11, occurrences:     20)*
+  - 🆗 `scrollbar-shadow-color`                              *(sites:   16, occurrences:     30)*
   - 🆗 `scrollbar-track-color`                               *(sites:    2, occurrences:      5)*
   - 🆗 `shape-image-threshold`                               *(sites:    2, occurrences:      2)*
   - 🆗 `shape-margin`                                        *(sites:    2, occurrences:      2)*
   - 🆗 `shape-outside`                                       *(sites:    2, occurrences:      2)*
   - 🆗 `shape-rendering`                                     *(sites:    7, occurrences:     13)*
   - 🆗 `size`                                                *(sites:    7, occurrences:      8)*
-  - 🆗 `speak`                                               *(sites:   41, occurrences:    150)*
-  - 🆗 `src`                                                 *(sites:  151, occurrences:   5027)*
-  - 🆗 `stop-color`                                          *(sites:    3, occurrences:      5)*
+  - 🆗 `speak`                                               *(sites:   47, occurrences:    170)*
+  - 🆗 `src`                                                 *(sites:  170, occurrences:   7046)*
+  - 🆗 `stop-color`                                          *(sites:    4, occurrences:     31)*
   - 🆗 `stop-opacity`                                        *(sites:    2, occurrences:      3)*
-  - 🆗 `stroke`                                              *(sites:   71, occurrences:    635)*
+  - 🆗 `stroke`                                              *(sites:   78, occurrences:    733)*
   - 🆗 `stroke-color`                                        *(sites:    2, occurrences:      3)*
-  - 🆗 `stroke-dasharray`                                    *(sites:   24, occurrences:    151)*
-  - 🆗 `stroke-dashoffset`                                   *(sites:   25, occurrences:    669)*
-  - 🆗 `stroke-linecap`                                      *(sites:   33, occurrences:     67)*
-  - 🆗 `stroke-linejoin`                                     *(sites:    8, occurrences:     24)*
-  - 🆗 `stroke-miterlimit`                                   *(sites:    3, occurrences:      4)*
-  - 🆗 `stroke-opacity`                                      *(sites:    8, occurrences:     37)*
-  - 🆗 `stroke-width`                                        *(sites:   48, occurrences:    194)*
-  - 🆗 `tab-size`                                            *(sites:    8, occurrences:     19)*
-  - 🆗 `table-layout`                                        *(sites:   64, occurrences:    210)*
-  - 🆗 `text-align`                                          *(sites:  215, occurrences:  19606)*
+  - 🆗 `stroke-dasharray`                                    *(sites:   28, occurrences:    195)*
+  - 🆗 `stroke-dashoffset`                                   *(sites:   28, occurrences:    725)*
+  - 🆗 `stroke-linecap`                                      *(sites:   35, occurrences:     77)*
+  - 🆗 `stroke-linejoin`                                     *(sites:    9, occurrences:     31)*
+  - 🆗 `stroke-miterlimit`                                   *(sites:    5, occurrences:      7)*
+  - 🆗 `stroke-opacity`                                      *(sites:   11, occurrences:     45)*
+  - 🆗 `stroke-width`                                        *(sites:   55, occurrences:    247)*
+  - 🆗 `tab-size`                                            *(sites:    9, occurrences:     20)*
+  - 🆗 `table-layout`                                        *(sites:   70, occurrences:    236)*
+  - 🆗 `text-align`                                          *(sites:  234, occurrences:  24017)*
   - 🆗 `text-align-last`                                     *(sites:    5, occurrences:      6)*
-  - 🆗 `text-anchor`                                         *(sites:    6, occurrences:      8)*
+  - 🆗 `text-anchor`                                         *(sites:    7, occurrences:     14)*
   - 🆗 `text-combine-upright`                                *(sites:    1, occurrences:      1)*
-  - 🆗 `text-decoration`                                     *(sites:  212, occurrences:  13104)*
-  - 🆗 `text-decoration-color`                               *(sites:   14, occurrences:     25)*
-  - 🆗 `text-decoration-line`                                *(sites:    5, occurrences:     26)*
-  - 🆗 `text-decoration-skip`                                *(sites:    1, occurrences:      1)*
-  - 🆗 `text-decoration-style`                               *(sites:    5, occurrences:      8)*
+  - 🆗 `text-decoration`                                     *(sites:  233, occurrences:  15115)*
+  - 🆗 `text-decoration-color`                               *(sites:   17, occurrences:     40)*
+  - 🆗 `text-decoration-line`                                *(sites:    6, occurrences:     26)*
+  - 🆗 `text-decoration-skip`                                *(sites:    2, occurrences:      2)*
+  - 🆗 `text-decoration-style`                               *(sites:    5, occurrences:      7)*
   - 🆗 `text-emphasis-color`                                 *(sites:    1, occurrences:      1)*
   - 🆗 `text-emphasis-position`                              *(sites:    1, occurrences:      1)*
   - 🆗 `text-emphasis-style`                                 *(sites:    1, occurrences:      1)*
-  - 🆗 `text-indent`                                         *(sites:  140, occurrences:   1289)*
+  - 🆗 `text-indent`                                         *(sites:  164, occurrences:   1445)*
   - 🆗 `text-justify`                                        *(sites:    4, occurrences:      4)*
-  - 🆗 `text-orientation`                                    *(sites:    1, occurrences:      1)*
-  - 🆗 `text-overflow`                                       *(sites:  186, occurrences:   2891)*
-  - 🆗 `text-rendering`                                      *(sites:   64, occurrences:    185)*
-  - 🆗 `text-shadow`                                         *(sites:  130, occurrences:   1292)*
-  - 🆗 `text-size-adjust`                                    *(sites:   20, occurrences:     36)*
-  - 🆗 `text-transform`                                      *(sites:  172, occurrences:   3605)*
+  - 🆗 `text-orientation`                                    *(sites:    2, occurrences:      2)*
+  - 🆗 `text-overflow`                                       *(sites:  204, occurrences:   3543)*
+  - 🆗 `text-rendering`                                      *(sites:   69, occurrences:    213)*
+  - 🆗 `text-shadow`                                         *(sites:  149, occurrences:   1801)*
+  - 🆗 `text-size-adjust`                                    *(sites:   19, occurrences:     35)*
+  - 🆗 `text-transform`                                      *(sites:  190, occurrences:   4482)*
   - 🆗 `text-underline-position`                             *(sites:    4, occurrences:      4)*
-  - 🆗 `top`                                                 *(sites:  204, occurrences:  32357)*
-  - 🆗 `touch-action`                                        *(sites:   78, occurrences:    198)*
-  - 🆗 `transform`                                           *(sites:  196, occurrences:  18051)*
+  - 🆗 `top`                                                 *(sites:  232, occurrences:  39162)*
+  - 🆗 `touch-action`                                        *(sites:   91, occurrences:    237)*
+  - 🆗 `transform`                                           *(sites:  221, occurrences:  22868)*
   - 🆗 `transform-box`                                       *(sites:    3, occurrences:      5)*
-  - 🆗 `transform-origin`                                    *(sites:  138, occurrences:   1257)*
-  - 🆗 `transform-style`                                     *(sites:   48, occurrences:     89)*
-  - 🆗 `transition`                                          *(sites:  201, occurrences:  12124)*
-  - 🆗 `transition-delay`                                    *(sites:  103, occurrences:    932)*
-  - 🆗 `transition-duration`                                 *(sites:   71, occurrences:    946)*
-  - 🆗 `transition-property`                                 *(sites:   75, occurrences:    883)*
-  - 🆗 `transition-timing-function`                          *(sites:   64, occurrences:    461)*
-  - 🆗 `unicode-bidi`                                        *(sites:   40, occurrences:    120)*
-  - 🆗 `unicode-range`                                       *(sites:   49, occurrences:   2284)*
-  - 🆗 `user-select`                                         *(sites:  161, occurrences:   1071)*
-  - 🆗 `vector-effect`                                       *(sites:    3, occurrences:      5)*
-  - 🆗 `vertical-align`                                      *(sites:  202, occurrences:  11147)*
-  - 🆗 `visibility`                                          *(sites:  192, occurrences:   4160)*
-  - 🆗 `white-space`                                         *(sites:  208, occurrences:   6935)*
-  - 🆗 `widows`                                              *(sites:   26, occurrences:     36)*
-  - 🆗 `width`                                               *(sites:  215, occurrences:  96019)*
-  - 🆗 `will-change`                                         *(sites:   60, occurrences:    410)*
-  - 🆗 `word-break`                                          *(sites:  144, occurrences:    776)*
-  - 🆗 `word-spacing`                                        *(sites:   47, occurrences:    148)*
-  - 🆗 `word-wrap`                                           *(sites:  148, occurrences:    907)*
-  - 🆗 `writing-mode`                                        *(sites:    6, occurrences:     10)*
+  - 🆗 `transform-origin`                                    *(sites:  157, occurrences:   1748)*
+  - 🆗 `transform-style`                                     *(sites:   54, occurrences:    102)*
+  - 🆗 `transition`                                          *(sites:  224, occurrences:  13956)*
+  - 🆗 `transition-delay`                                    *(sites:  112, occurrences:    998)*
+  - 🆗 `transition-duration`                                 *(sites:   85, occurrences:    991)*
+  - 🆗 `transition-property`                                 *(sites:   90, occurrences:    956)*
+  - 🆗 `transition-timing-function`                          *(sites:   77, occurrences:    546)*
+  - 🆗 `unicode-bidi`                                        *(sites:   47, occurrences:    145)*
+  - 🆗 `unicode-range`                                       *(sites:   67, occurrences:   3707)*
+  - 🆗 `user-select`                                         *(sites:  178, occurrences:   1237)*
+  - 🆗 `vector-effect`                                       *(sites:    5, occurrences:      8)*
+  - 🆗 `vertical-align`                                      *(sites:  228, occurrences:  13571)*
+  - 🆗 `visibility`                                          *(sites:  217, occurrences:   4863)*
+  - 🆗 `white-space`                                         *(sites:  228, occurrences:   8435)*
+  - 🆗 `widows`                                              *(sites:   28, occurrences:     37)*
+  - 🆗 `width`                                               *(sites:  234, occurrences: 116634)*
+  - 🆗 `will-change`                                         *(sites:   69, occurrences:    453)*
+  - 🆗 `word-break`                                          *(sites:  170, occurrences:    920)*
+  - 🆗 `word-spacing`                                        *(sites:   53, occurrences:    162)*
+  - 🆗 `word-wrap`                                           *(sites:  171, occurrences:   1172)*
+  - 🆗 `writing-mode`                                        *(sites:    8, occurrences:     12)*
   - 🆗 `x`                                                   *(sites:    2, occurrences:      2)*
   - 🆗 `y`                                                   *(sites:    2, occurrences:      2)*
-  - 🆗 `z-index`                                             *(sites:  205, occurrences:  14376)*
-  - 🆗 `zoom`                                                *(sites:  106, occurrences:   1061)*
+  - 🆗 `z-index`                                             *(sites:  229, occurrences:  17718)*
+  - 🆗 `zoom`                                                *(sites:  125, occurrences:   1347)*
+  - ⚠ `-content`                                            *(sites:    1, occurrences:      1)*
+  - ⚠ `-display`                                            *(sites:    1, occurrences:      1)*
+  - ⚠ `-height`                                             *(sites:    1, occurrences:      1)*
   - ⚠ `-html-opacity`                                       *(sites:    1, occurrences:      1)*
   - ⚠ `-khtml-border-bottom-left-radius`                    *(sites:    2, occurrences:      2)*
   - ⚠ `-khtml-border-bottom-right-radius`                   *(sites:    2, occurrences:      2)*
-  - ⚠ `-khtml-border-radius`                                *(sites:    5, occurrences:      8)*
+  - ⚠ `-khtml-border-radius`                                *(sites:    6, occurrences:      9)*
   - ⚠ `-khtml-border-top-left-radius`                       *(sites:    1, occurrences:      1)*
   - ⚠ `-khtml-border-top-right-radius`                      *(sites:    1, occurrences:      1)*
-  - ⚠ `-khtml-opacity`                                      *(sites:    7, occurrences:    215)*
+  - ⚠ `-khtml-box-shadow`                                   *(sites:    1, occurrences:      2)*
+  - ⚠ `-khtml-opacity`                                      *(sites:   10, occurrences:    234)*
   - ⚠ `-khtml-user-drag`                                    *(sites:    1, occurrences:      2)*
-  - ⚠ `-khtml-user-select`                                  *(sites:   32, occurrences:     50)*
-  - ⚠ `-moz-align-items`                                    *(sites:   14, occurrences:    256)*
-  - ⚠ `-moz-align-self`                                     *(sites:    4, occurrences:     33)*
+  - ⚠ `-khtml-user-select`                                  *(sites:   37, occurrences:     66)*
+  - ⚠ `-margin-bottom`                                      *(sites:    1, occurrences:      1)*
+  - ⚠ `-margin-left`                                        *(sites:    1, occurrences:      1)*
+  - ⚠ `-margin-right`                                       *(sites:    1, occurrences:      1)*
+  - ⚠ `-mos-osx-font-smoothing`                             *(sites:    1, occurrences:      2)*
+  - ⚠ `-moz-align-items`                                    *(sites:   16, occurrences:    269)*
+  - ⚠ `-moz-align-self`                                     *(sites:    5, occurrences:     35)*
   - ⚠ `-moz-border-bottom-left-radius`                      *(sites:    1, occurrences:      3)*
   - ⚠ `-moz-border-bottom-right-radius`                     *(sites:    1, occurrences:      3)*
   - ⚠ `-moz-border-top-left-radius`                         *(sites:    5, occurrences:      9)*
   - ⚠ `-moz-border-top-right-radius`                        *(sites:    4, occurrences:      5)*
-  - ⚠ `-moz-box-lines`                                      *(sites:    8, occurrences:    155)*
+  - ⚠ `-moz-box-lines`                                      *(sites:   10, occurrences:    158)*
   - ⚠ `-moz-clip-path`                                      *(sites:    1, occurrences:      1)*
-  - ⚠ `-moz-column-break-inside`                            *(sites:    4, occurrences:      6)*
-  - ⚠ `-moz-filter`                                         *(sites:   15, occurrences:     42)*
-  - ⚠ `-moz-flex`                                           *(sites:   12, occurrences:    138)*
-  - ⚠ `-moz-flex-direction`                                 *(sites:   11, occurrences:    113)*
+  - ⚠ `-moz-column-break-inside`                            *(sites:    5, occurrences:      7)*
+  - ⚠ `-moz-filter`                                         *(sites:   18, occurrences:     49)*
+  - ⚠ `-moz-flex`                                           *(sites:   13, occurrences:    151)*
+  - ⚠ `-moz-flex-direction`                                 *(sites:   13, occurrences:    116)*
   - ⚠ `-moz-flex-flow`                                      *(sites:    2, occurrences:     14)*
-  - ⚠ `-moz-flex-grow`                                      *(sites:    7, occurrences:    233)*
+  - ⚠ `-moz-flex-grow`                                      *(sites:    8, occurrences:    234)*
   - ⚠ `-moz-flex-shrink`                                    *(sites:   13, occurrences:    263)*
-  - ⚠ `-moz-flex-wrap`                                      *(sites:    9, occurrences:     73)*
-  - ⚠ `-moz-font-kerning`                                   *(sites:    2, occurrences:      2)*
+  - ⚠ `-moz-flex-wrap`                                      *(sites:   11, occurrences:     75)*
+  - ⚠ `-moz-font-kerning`                                   *(sites:    3, occurrences:      5)*
   - ⚠ `-moz-font-smoothing`                                 *(sites:    3, occurrences:      8)*
-  - ⚠ `-moz-justify-content`                                *(sites:   14, occurrences:    278)*
+  - ⚠ `-moz-justify-content`                                *(sites:   17, occurrences:    305)*
   - ⚠ `-moz-order`                                          *(sites:    4, occurrences:     71)*
   - ⚠ `-moz-text-overflow`                                  *(sites:    2, occurrences:      2)*
-  - ⚠ `-moz-text-shadow`                                    *(sites:    1, occurrences:      1)*
+  - ⚠ `-moz-text-shadow`                                    *(sites:    2, occurrences:      2)*
   - ⚠ `-moz-user-drag`                                      *(sites:    3, occurrences:      6)*
   - ⚠ `-ms-align-content`                                   *(sites:    4, occurrences:     20)*
-  - ⚠ `-ms-align-items`                                     *(sites:    7, occurrences:     47)*
-  - ⚠ `-ms-align-self`                                      *(sites:    6, occurrences:     33)*
+  - ⚠ `-ms-align-items`                                     *(sites:   10, occurrences:     85)*
+  - ⚠ `-ms-align-self`                                      *(sites:    7, occurrences:     40)*
   - ⚠ `-ms-animations`                                      *(sites:    1, occurrences:     15)*
   - ⚠ `-ms-animations-delay`                                *(sites:    1, occurrences:     10)*
-  - ⚠ `-ms-appearance`                                      *(sites:   14, occurrences:     26)*
-  - ⚠ `-ms-border-radius`                                   *(sites:   25, occurrences:    140)*
-  - ⚠ `-ms-box-shadow`                                      *(sites:   11, occurrences:     34)*
-  - ⚠ `-ms-box-sizing`                                      *(sites:    9, occurrences:     23)*
-  - ⚠ `-ms-display`                                         *(sites:    1, occurrences:      4)*
-  - ⚠ `-ms-flex-grow`                                       *(sites:    3, occurrences:     19)*
+  - ⚠ `-ms-appearance`                                      *(sites:   17, occurrences:     42)*
+  - ⚠ `-ms-border-radius`                                   *(sites:   32, occurrences:    271)*
+  - ⚠ `-ms-box-shadow`                                      *(sites:   17, occurrences:     70)*
+  - ⚠ `-ms-box-sizing`                                      *(sites:   12, occurrences:     45)*
+  - ⚠ `-ms-display`                                         *(sites:    2, occurrences:     23)*
+  - ⚠ `-ms-flex-grow`                                       *(sites:    4, occurrences:     20)*
   - ⚠ `-ms-flex-shrink`                                     *(sites:    1, occurrences:     14)*
   - ⚠ `-ms-font-smoothing`                                  *(sites:    1, occurrences:      1)*
-  - ⚠ `-ms-justify-content`                                 *(sites:    8, occurrences:     70)*
+  - ⚠ `-ms-justify-content`                                 *(sites:   10, occurrences:    100)*
   - ⚠ `-ms-order`                                           *(sites:    2, occurrences:     18)*
+  - ⚠ `-ms-overflow-x`                                      *(sites:    1, occurrences:      2)*
+  - ⚠ `-ms-overflow-y`                                      *(sites:    1, occurrences:      2)*
   - ⚠ `-ms-position`                                        *(sites:    1, occurrences:      1)*
   - ⚠ `-ms-top`                                             *(sites:    1, occurrences:      1)*
   - ⚠ `-ms-user-drag`                                       *(sites:    3, occurrences:      6)*
   - ⚠ `-mz-transition-duration`                             *(sites:    1, occurrences:      3)*
   - ⚠ `-mz-transition-property`                             *(sites:    1, occurrences:      3)*
-  - ⚠ `-o-align-items`                                      *(sites:    3, occurrences:     16)*
-  - ⚠ `-o-appearance`                                       *(sites:   11, occurrences:     18)*
+  - ⚠ `-o-align-items`                                      *(sites:    5, occurrences:     29)*
+  - ⚠ `-o-appearance`                                       *(sites:   13, occurrences:     29)*
   - ⚠ `-o-backface-visibility`                              *(sites:    4, occurrences:     26)*
-  - ⚠ `-o-background-size`                                  *(sites:    5, occurrences:      6)*
-  - ⚠ `-o-border-radius`                                    *(sites:   17, occurrences:     97)*
+  - ⚠ `-o-background-size`                                  *(sites:    7, occurrences:     26)*
+  - ⚠ `-o-border-radius`                                    *(sites:   23, occurrences:    226)*
   - ⚠ `-o-box-align`                                        *(sites:    1, occurrences:    405)*
   - ⚠ `-o-box-lines`                                        *(sites:    1, occurrences:    101)*
   - ⚠ `-o-box-orient`                                       *(sites:    3, occurrences:    499)*
   - ⚠ `-o-box-pack`                                         *(sites:    1, occurrences:    379)*
-  - ⚠ `-o-box-shadow`                                       *(sites:   19, occurrences:     51)*
-  - ⚠ `-o-box-sizing`                                       *(sites:    5, occurrences:     12)*
-  - ⚠ `-o-filter`                                           *(sites:   13, occurrences:     35)*
+  - ⚠ `-o-box-shadow`                                       *(sites:   28, occurrences:     96)*
+  - ⚠ `-o-box-sizing`                                       *(sites:    8, occurrences:     22)*
+  - ⚠ `-o-filter`                                           *(sites:   16, occurrences:     42)*
   - ⚠ `-o-flex`                                             *(sites:    1, occurrences:      2)*
   - ⚠ `-o-font-feature-settings`                            *(sites:    3, occurrences:      7)*
   - ⚠ `-o-font-smoothing`                                   *(sites:    1, occurrences:      6)*
   - ⚠ `-o-hyphens`                                          *(sites:    2, occurrences:      4)*
-  - ⚠ `-o-justify-content`                                  *(sites:    4, occurrences:     40)*
-  - ⚠ `-o-opacity`                                          *(sites:    8, occurrences:     24)*
-  - ⚠ `-o-perspective`                                      *(sites:    4, occurrences:      4)*
-  - ⚠ `-o-transform-style`                                  *(sites:    2, occurrences:      2)*
+  - ⚠ `-o-justify-content`                                  *(sites:    6, occurrences:     53)*
+  - ⚠ `-o-opacity`                                          *(sites:    9, occurrences:     38)*
+  - ⚠ `-o-perspective`                                      *(sites:    6, occurrences:      7)*
+  - ⚠ `-o-transform-style`                                  *(sites:    3, occurrences:      3)*
   - ⚠ `-o-user-drag`                                        *(sites:    1, occurrences:      2)*
-  - ⚠ `-o-user-select`                                      *(sites:    9, occurrences:     18)*
+  - ⚠ `-o-user-select`                                      *(sites:   15, occurrences:     31)*
+  - ⚠ `-padding-top`                                        *(sites:    1, occurrences:      1)*
   - ⚠ `-pie-background`                                     *(sites:    1, occurrences:      3)*
   - ⚠ `-webkit--moz-box-pack`                               *(sites:    2, occurrences:      2)*
   - ⚠ `-webkit-bottom-left-radius`                          *(sites:    1, occurrences:      6)*
   - ⚠ `-webkit-bottom-right-radius`                         *(sites:    1, occurrences:      6)*
+  - ⚠ `-webkit-focus-ring-color`                            *(sites:    1, occurrences:      1)*
   - ⚠ `-webkit-font-language-override`                      *(sites:    4, occurrences:      4)*
-  - ⚠ `-webkit-opacity`                                     *(sites:   12, occurrences:     33)*
+  - ⚠ `-webkit-opacity`                                     *(sites:   15, occurrences:     53)*
   - ⚠ `-webkit-overflow-scroll`                             *(sites:    1, occurrences:      1)*
   - ⚠ `-webkit-text-align-last`                             *(sites:    1, occurrences:      1)*
-  - ⚠ `-webkit-text-overflow`                               *(sites:    2, occurrences:      5)*
-  - ⚠ `-webkit-text-shadow`                                 *(sites:    4, occurrences:      4)*
+  - ⚠ `-webkit-text-overflow`                               *(sites:    3, occurrences:      6)*
+  - ⚠ `-webkit-text-shadow`                                 *(sites:    5, occurrences:      5)*
   - ⚠ `-webkit-top-left-radius`                             *(sites:    1, occurrences:      4)*
   - ⚠ `-webkit-top-right-radius`                            *(sites:    1, occurrences:      4)*
   - ⚠ `-webkit-word-break`                                  *(sites:    1, occurrences:      1)*
   - ⚠ `-webskit-transition`                                 *(sites:    1, occurrences:      1)*
   - ⚠ `align`                                               *(sites:   20, occurrences:     20)*
   - ⚠ `align-item`                                          *(sites:    1, occurrences:      5)*
+  - ⚠ `backgrond-color`                                     *(sites:    1, occurrences:      1)*
   - ⚠ `background-color-color`                              *(sites:    3, occurrences:      3)*
   - ⚠ `bb`                                                  *(sites:    1, occurrences:      1)*
-  - ⚠ `box-align`                                           *(sites:    7, occurrences:     30)*
-  - ⚠ `box-direction`                                       *(sites:    3, occurrences:      3)*
-  - ⚠ `box-flex`                                            *(sites:    9, occurrences:    166)*
-  - ⚠ `box-lines`                                           *(sites:    6, occurrences:     53)*
+  - ⚠ `box-align`                                           *(sites:    8, occurrences:     33)*
+  - ⚠ `box-direction`                                       *(sites:    4, occurrences:      4)*
+  - ⚠ `box-flex`                                            *(sites:   10, occurrences:    179)*
+  - ⚠ `box-lines`                                           *(sites:    7, occurrences:     54)*
   - ⚠ `box-ordinal-group`                                   *(sites:    4, occurrences:     22)*
-  - ⚠ `box-orient`                                          *(sites:    5, occurrences:     17)*
-  - ⚠ `box-pack`                                            *(sites:    8, occurrences:     44)*
+  - ⚠ `box-orient`                                          *(sites:    6, occurrences:     18)*
+  - ⚠ `box-pack`                                            *(sites:    9, occurrences:     46)*
   - ⚠ `center`                                              *(sites:    1, occurrences:      3)*
   - ⚠ `column-break-inside`                                 *(sites:    1, occurrences:      1)*
   - ⚠ `composes`                                            *(sites:    1, occurrences:      3)*
   - ⚠ `diplay`                                              *(sites:    1, occurrences:      1)*
   - ⚠ `font-color`                                          *(sites:    1, occurrences:      1)*
-  - ⚠ `font-smooth`                                         *(sites:    4, occurrences:     87)*
-  - ⚠ `font-smoothing`                                      *(sites:    8, occurrences:     58)*
+  - ⚠ `font-smooth`                                         *(sites:    5, occurrences:     88)*
+  - ⚠ `font-smoothing`                                      *(sites:    9, occurrences:     59)*
   - ⚠ `font-weigth`                                         *(sites:    1, occurrences:      1)*
   - ⚠ `hiehgt`                                              *(sites:    1, occurrences:      1)*
   - ⚠ `moz-box-shadow`                                      *(sites:    1, occurrences:      1)*
+  - ⚠ `moz-transition`                                      *(sites:    1, occurrences:      1)*
   - ⚠ `ms-transform`                                        *(sites:    1, occurrences:      1)*
   - ⚠ `overflow-scrolling`                                  *(sites:    5, occurrences:     11)*
+  - ⚠ `pading-right`                                        *(sites:    1, occurrences:      1)*
   - ⚠ `pointer-event`                                       *(sites:    1, occurrences:      1)*
   - ⚠ `print-color-adjust`                                  *(sites:    1, occurrences:      1)*
   - ⚠ `star`                                                *(sites:    1, occurrences:      1)*
@@ -962,19 +1024,21 @@ Update date: 2020-10-28T13:51:04.641Z
   - ⚠ `top-left-border-radius`                              *(sites:    1, occurrences:      2)*
   - ⚠ `tranform`                                            *(sites:    1, occurrences:      1)*
   - ⚠ `transtion`                                           *(sites:    2, occurrences:     10)*
-  - ⚠ `user-drag`                                           *(sites:    8, occurrences:     16)*
+  - ⚠ `user-drag`                                           *(sites:    9, occurrences:     17)*
+  - ⚠ `verticle-align`                                      *(sites:    1, occurrences:      1)*
   - ⚠ `viewbox`                                             *(sites:    1, occurrences:      1)*
+  - ⚠ `visiility`                                           *(sites:    1, occurrences:      1)*
   - ⚠ `webkit-border-radius`                                *(sites:    1, occurrences:      1)*
   - ⚠ `webkit-box-shadow`                                   *(sites:    1, occurrences:      1)*
   - ⚠ `webkit-transition`                                   *(sites:    2, occurrences:      2)*
   - ⚠ `x-content`                                           *(sites:    1, occurrences:      4)*
 
 ## Declaration hacks
-  - ❔ `#`                                                   *(sites:    2, occurrences:     49)*
-  - ❔ `*`                                                   *(sites:   63, occurrences:   1612)*
-  - ❔ `+`                                                   *(sites:    4, occurrences:     34)*
+  - ❔ `#`                                                   *(sites:    3, occurrences:     58)*
+  - ❔ `*`                                                   *(sites:   78, occurrences:   2026)*
+  - ❔ `+`                                                   *(sites:    5, occurrences:     36)*
   - ❔ `//`                                                  *(sites:    1, occurrences:      2)*
-  - ❔ `_`                                                   *(sites:   44, occurrences:    861)*
+  - ❔ `_`                                                   *(sites:   53, occurrences:   1138)*
 
 ## Dimension
   - ❔ `\9`                                                  *(sites:   14, occurrences:    219)*
@@ -982,41 +1046,46 @@ Update date: 2020-10-28T13:51:04.641Z
                                                  *(sites:    1, occurrences:      1)*
   - ❔ `abd`                                                 *(sites:    1, occurrences:      7)*
   - ❔ `b73`                                                 *(sites:    1, occurrences:      1)*
+  - ❔ `ba`                                                  *(sites:    3, occurrences:      3)*
+  - ❔ `css0px`                                              *(sites:    1, occurrences:      2)*
+  - ❔ `pm`                                                  *(sites:    1, occurrences:      1)*
   - ❔ `pnx`                                                 *(sites:    1, occurrences:      1)*
   - ❔ `px-2px`                                              *(sites:    1, occurrences:      2)*
-  - ❔ `px\0`                                                *(sites:    6, occurrences:     18)*
-  - ❔ `px\9`                                                *(sites:   19, occurrences:    100)*
-  - ❔ `px\9`
-                                               *(sites:    1, occurrences:      1)*
+  - ❔ `px\0`                                                *(sites:    7, occurrences:     20)*
+  - ❔ `px\9`                                                *(sites:   25, occurrences:    122)*
   - ❔ `px\9`                                                *(sites:    1, occurrences:      2)*
   - ❔ `px\9\0`                                              *(sites:    1, occurrences:      1)*
   - ❔ `pxpx`                                                *(sites:    2, occurrences:      2)*
   - ❔ `vh-144px`                                            *(sites:    1, occurrences:      2)*
   - ❔ `vh-260px`                                            *(sites:    2, occurrences:      5)*
   - ❔ `wh`                                                  *(sites:    2, occurrences:      5)*
-  - 🆗 `ch`                                                  *(sites:   15, occurrences:     66)*
+  - ❔ ` rgba`                                               *(sites:    1, occurrences:      1)*
+  - 🆗 `ch`                                                  *(sites:   18, occurrences:     74)*
   - 🆗 `cm`                                                  *(sites:   11, occurrences:     27)*
-  - 🆗 `deg`                                                 *(sites:  183, occurrences:   9415)*
+  - 🆗 `deg`                                                 *(sites:  207, occurrences:  12338)*
   - 🆗 `dpcm`                                                *(sites:   12, occurrences:     42)*
-  - 🆗 `dpi`                                                 *(sites:   43, occurrences:   1492)*
-  - 🆗 `dppx`                                                *(sites:   63, occurrences:   1686)*
-  - 🆗 `em`                                                  *(sites:  196, occurrences:  25494)*
-  - 🆗 `ex`                                                  *(sites:   14, occurrences:     28)*
-  - 🆗 `fr`                                                  *(sites:   46, occurrences:    474)*
+  - 🆗 `dpi`                                                 *(sites:   50, occurrences:   1874)*
+  - 🆗 `dppx`                                                *(sites:   69, occurrences:   1728)*
+  - 🆗 `em`                                                  *(sites:  221, occurrences:  30094)*
+  - 🆗 `ex`                                                  *(sites:   20, occurrences:     44)*
+  - 🆗 `fr`                                                  *(sites:   51, occurrences:    703)*
   - 🆗 `in`                                                  *(sites:    3, occurrences:      7)*
-  - 🆗 `ms`                                                  *(sites:  135, occurrences:   3733)*
-  - 🆗 `pc`                                                  *(sites:    4, occurrences:    119)*
-  - 🆗 `pt`                                                  *(sites:   60, occurrences:    675)*
-  - 🆗 `px`                                                  *(sites:  216, occurrences: 604494)*
-  - 🆗 `rem`                                                 *(sites:  107, occurrences:  37294)*
-  - 🆗 `s`                                                   *(sites:  198, occurrences:  35623)*
-  - 🆗 `turn`                                                *(sites:   45, occurrences:    445)*
-  - 🆗 `vh`                                                  *(sites:  131, occurrences:   1920)*
+  - 🆗 `ms`                                                  *(sites:  149, occurrences:   4340)*
+  - 🆗 `pc`                                                  *(sites:    4, occurrences:    183)*
+  - 🆗 `pt`                                                  *(sites:   65, occurrences:    770)*
+  - 🆗 `px`                                                  *(sites:  237, occurrences: 730390)*
+  - 🆗 `rad`                                                 *(sites:    2, occurrences:      4)*
+  - 🆗 `rem`                                                 *(sites:  118, occurrences:  38146)*
+  - 🆗 `s`                                                   *(sites:  225, occurrences:  41384)*
+  - 🆗 `turn`                                                *(sites:   51, occurrences:    497)*
+  - 🆗 `vh`                                                  *(sites:  146, occurrences:   2180)*
   - 🆗 `vmax`                                                *(sites:    1, occurrences:      9)*
-  - 🆗 `vw`                                                  *(sites:  124, occurrences:   3754)*
-  - 🆗 `x`                                                   *(sites:   16, occurrences:    201)*
+  - 🆗 `vmin`                                                *(sites:    3, occurrences:      4)*
+  - 🆗 `vw`                                                  *(sites:  140, occurrences:   4489)*
+  - 🆗 `x`                                                   *(sites:   19, occurrences:    214)*
   - ⚠ `\0`                                                  *(sites:   10, occurrences:     14)*
   - ⚠ `dpx`                                                 *(sites:    1, occurrences:      1)*
+  - ⚠ `p`                                                   *(sites:    1, occurrences:      2)*
 
 ## Function
   - ❔ `--var()`                                             *(sites:    2, occurrences:      5)*
@@ -1031,96 +1100,102 @@ Update date: 2020-10-28T13:51:04.641Z
   - ❔ `get-cover-width()`                                   *(sites:    1, occurrences:      1)*
   - ❔ `layoutflexchildspacing()`                            *(sites:    1, occurrences:      2)*
   - ❔ `legacy-background()`                                 *(sites:    1, occurrences:      1)*
-  - ❔ `min()`                                               *(sites:    3, occurrences:     16)*
-  - ❔ `oldlinear-gradient()`                                *(sites:    2, occurrences:     30)*
+  - ❔ `oldlinear-gradient()`                                *(sites:    3, occurrences:     67)*
   - ❔ `oldradial-gradient()`                                *(sites:    1, occurrences:      2)*
   - ❔ `sclae()`                                             *(sites:    1, occurrences:      1)*
   - ❔ `spring()`                                            *(sites:    1, occurrences:      2)*
+  - ❔ `toprgba()`                                           *(sites:    1, occurrences:      1)*
   - ❔ `transition()`                                        *(sites:    1, occurrences:      1)*
   - ❔ `vars()`                                              *(sites:    1, occurrences:      1)*
-  - 🆗 `-moz-calc()`                                         *(sites:    8, occurrences:     76)*
-  - 🆗 `-moz-image-set()`                                    *(sites:    2, occurrences:      3)*
-  - 🆗 `-moz-linear-gradient()`                              *(sites:   56, occurrences:    509)*
+  - 🆗 `-moz-calc()`                                         *(sites:    9, occurrences:    184)*
+  - 🆗 `-moz-image-set()`                                    *(sites:    3, occurrences:      4)*
+  - 🆗 `-moz-linear-gradient()`                              *(sites:   74, occurrences:    678)*
   - 🆗 `-moz-radial-gradient()`                              *(sites:   14, occurrences:     16)*
-  - 🆗 `-o-linear-gradient()`                                *(sites:   66, occurrences:    824)*
-  - 🆗 `-o-radial-gradient()`                                *(sites:   14, occurrences:     17)*
-  - 🆗 `-webkit-calc()`                                      *(sites:   36, occurrences:    300)*
-  - 🆗 `-webkit-gradient()`                                  *(sites:  104, occurrences:    789)*
-  - 🆗 `-webkit-image-set()`                                 *(sites:    8, occurrences:     88)*
-  - 🆗 `-webkit-linear-gradient()`                           *(sites:  109, occurrences:   1570)*
+  - 🆗 `-o-linear-gradient()`                                *(sites:   83, occurrences:   1005)*
+  - 🆗 `-o-radial-gradient()`                                *(sites:   15, occurrences:     18)*
+  - 🆗 `-webkit-calc()`                                      *(sites:   38, occurrences:    415)*
+  - 🆗 `-webkit-gradient()`                                  *(sites:  122, occurrences:   1002)*
+  - 🆗 `-webkit-image-set()`                                 *(sites:    9, occurrences:     90)*
+  - 🆗 `-webkit-linear-gradient()`                           *(sites:  129, occurrences:   1792)*
   - 🆗 `-webkit-radial-gradient()`                           *(sites:   24, occurrences:     31)*
   - 🆗 `-webkit-repeating-linear-gradient()`                 *(sites:    3, occurrences:      8)*
-  - 🆗 `attr()`                                              *(sites:   67, occurrences:    293)*
-  - 🆗 `blur()`                                              *(sites:   65, occurrences:    457)*
-  - 🆗 `brightness()`                                        *(sites:   32, occurrences:    204)*
-  - 🆗 `calc()`                                              *(sites:  168, occurrences:  11162)*
+  - 🆗 `attr()`                                              *(sites:   77, occurrences:    347)*
+  - 🆗 `blur()`                                              *(sites:   77, occurrences:    566)*
+  - 🆗 `brightness()`                                        *(sites:   35, occurrences:    211)*
+  - 🆗 `calc()`                                              *(sites:  186, occurrences:  12333)*
   - 🆗 `circle()`                                            *(sites:   13, occurrences:     45)*
-  - 🆗 `color-stop()`                                        *(sites:   66, occurrences:    884)*
-  - 🆗 `contrast()`                                          *(sites:   10, occurrences:     42)*
-  - 🆗 `counter()`                                           *(sites:   20, occurrences:     41)*
+  - 🆗 `color-stop()`                                        *(sites:   81, occurrences:   1163)*
+  - 🆗 `contrast()`                                          *(sites:   11, occurrences:     47)*
+  - 🆗 `counter()`                                           *(sites:   25, occurrences:     64)*
   - 🆗 `counters()`                                          *(sites:    5, occurrences:      8)*
-  - 🆗 `cubic-bezier()`                                      *(sites:  139, occurrences:   5528)*
-  - 🆗 `drop-shadow()`                                       *(sites:   32, occurrences:    151)*
-  - 🆗 `expression()`                                        *(sites:   25, occurrences:     63)*
+  - 🆗 `cubic-bezier()`                                      *(sites:  156, occurrences:   7623)*
+  - 🆗 `drop-shadow()`                                       *(sites:   38, occurrences:    198)*
+  - 🆗 `env()`                                               *(sites:    8, occurrences:     53)*
+  - 🆗 `expression()`                                        *(sites:   30, occurrences:     73)*
   - 🆗 `fit-content()`                                       *(sites:    1, occurrences:      6)*
-  - 🆗 `format()`                                            *(sites:  151, occurrences:   7623)*
-  - 🆗 `from()`                                              *(sites:   90, occurrences:    501)*
-  - 🆗 `grayscale()`                                         *(sites:   37, occurrences:    255)*
-  - 🆗 `hsl()`                                               *(sites:    4, occurrences:     35)*
-  - 🆗 `hsla()`                                              *(sites:   59, occurrences:   2759)*
-  - 🆗 `hue-rotate()`                                        *(sites:    6, occurrences:     44)*
+  - 🆗 `format()`                                            *(sites:  170, occurrences:   9938)*
+  - 🆗 `from()`                                              *(sites:  100, occurrences:    603)*
+  - 🆗 `grayscale()`                                         *(sites:   42, occurrences:    291)*
+  - 🆗 `hsl()`                                               *(sites:    5, occurrences:     51)*
+  - 🆗 `hsla()`                                              *(sites:   70, occurrences:   3188)*
+  - 🆗 `hue-rotate()`                                        *(sites:    6, occurrences:     50)*
   - 🆗 `image-set()`                                         *(sites:    1, occurrences:      1)*
   - 🆗 `inset()`                                             *(sites:   24, occurrences:    184)*
-  - 🆗 `invert()`                                            *(sites:    9, occurrences:     32)*
-  - 🆗 `linear-gradient()`                                   *(sites:  177, occurrences:   3552)*
-  - 🆗 `local()`                                             *(sites:   70, occurrences:   4768)*
-  - 🆗 `matrix()`                                            *(sites:    7, occurrences:     46)*
+  - 🆗 `invert()`                                            *(sites:   10, occurrences:     39)*
+  - 🆗 `linear-gradient()`                                   *(sites:  201, occurrences:   4142)*
+  - 🆗 `local()`                                             *(sites:   83, occurrences:   7545)*
+  - 🆗 `matrix()`                                            *(sites:    8, occurrences:     54)*
   - 🆗 `matrix3d()`                                          *(sites:    1, occurrences:      1)*
-  - 🆗 `minmax()`                                            *(sites:   13, occurrences:     79)*
-  - 🆗 `opacity()`                                           *(sites:   13, occurrences:     41)*
-  - 🆗 `perspective()`                                       *(sites:   12, occurrences:    573)*
-  - 🆗 `polygon()`                                           *(sites:   15, occurrences:     96)*
-  - 🆗 `radial-gradient()`                                   *(sites:   40, occurrences:    279)*
-  - 🆗 `rect()`                                              *(sites:  138, occurrences:    551)*
-  - 🆗 `repeat()`                                            *(sites:   31, occurrences:    253)*
-  - 🆗 `repeating-linear-gradient()`                         *(sites:    7, occurrences:     27)*
-  - 🆗 `rgb()`                                               *(sites:   21, occurrences:    478)*
-  - 🆗 `rgba()`                                              *(sites:  203, occurrences:  31953)*
-  - 🆗 `rotate()`                                            *(sites:  177, occurrences:   7019)*
-  - 🆗 `rotate3d()`                                          *(sites:    6, occurrences:    250)*
-  - 🆗 `rotatex()`                                           *(sites:   19, occurrences:    200)*
-  - 🆗 `rotatey()`                                           *(sites:   28, occurrences:    267)*
-  - 🆗 `rotatez()`                                           *(sites:   18, occurrences:    172)*
-  - 🆗 `saturate()`                                          *(sites:    7, occurrences:     49)*
-  - 🆗 `scale()`                                             *(sites:  170, occurrences:   5906)*
-  - 🆗 `scale3d()`                                           *(sites:   37, occurrences:    736)*
-  - 🆗 `scalex()`                                            *(sites:   63, occurrences:    726)*
-  - 🆗 `scaley()`                                            *(sites:   46, occurrences:    752)*
+  - 🆗 `max()`                                               *(sites:    7, occurrences:     61)*
+  - 🆗 `min()`                                               *(sites:    3, occurrences:     16)*
+  - 🆗 `minmax()`                                            *(sites:   18, occurrences:    145)*
+  - 🆗 `opacity()`                                           *(sites:   14, occurrences:     49)*
+  - 🆗 `perspective()`                                       *(sites:   17, occurrences:   1008)*
+  - 🆗 `polygon()`                                           *(sites:   15, occurrences:     98)*
+  - 🆗 `radial-gradient()`                                   *(sites:   45, occurrences:    290)*
+  - 🆗 `rect()`                                              *(sites:  154, occurrences:    657)*
+  - 🆗 `repeat()`                                            *(sites:   36, occurrences:    417)*
+  - 🆗 `repeating-linear-gradient()`                         *(sites:    8, occurrences:     28)*
+  - 🆗 `rgb()`                                               *(sites:   31, occurrences:    533)*
+  - 🆗 `rgba()`                                              *(sites:  226, occurrences:  37443)*
+  - 🆗 `rotate()`                                            *(sites:  199, occurrences:   9064)*
+  - 🆗 `rotate3d()`                                          *(sites:    8, occurrences:    754)*
+  - 🆗 `rotatex()`                                           *(sites:   26, occurrences:    293)*
+  - 🆗 `rotatey()`                                           *(sites:   33, occurrences:    401)*
+  - 🆗 `rotatez()`                                           *(sites:   22, occurrences:    212)*
+  - 🆗 `saturate()`                                          *(sites:    9, occurrences:     62)*
+  - 🆗 `scale()`                                             *(sites:  192, occurrences:   7409)*
+  - 🆗 `scale3d()`                                           *(sites:   42, occurrences:   1248)*
+  - 🆗 `scalex()`                                            *(sites:   69, occurrences:    868)*
+  - 🆗 `scaley()`                                            *(sites:   53, occurrences:    871)*
+  - 🆗 `scalez()`                                            *(sites:    1, occurrences:      2)*
   - 🆗 `sepia()`                                             *(sites:    3, occurrences:     18)*
-  - 🆗 `skew()`                                              *(sites:   12, occurrences:    101)*
-  - 🆗 `skewx()`                                             *(sites:   12, occurrences:    185)*
-  - 🆗 `skewy()`                                             *(sites:    5, occurrences:     92)*
-  - 🆗 `steps()`                                             *(sites:   41, occurrences:    187)*
-  - 🆗 `to()`                                                *(sites:   95, occurrences:    543)*
-  - 🆗 `translate()`                                         *(sites:  135, occurrences:   3266)*
-  - 🆗 `translate3d()`                                       *(sites:  119, occurrences:   2662)*
-  - 🆗 `translatex()`                                        *(sites:  133, occurrences:   5615)*
-  - 🆗 `translatey()`                                        *(sites:  163, occurrences:   7303)*
-  - 🆗 `translatez()`                                        *(sites:  109, occurrences:   1149)*
-  - 🆗 `url-prefix()`                                        *(sites:   38, occurrences:    132)*
-  - 🆗 `var()`                                               *(sites:   48, occurrences:  24625)*
-  - ⚠ `-ms-image-set()`                                     *(sites:    1, occurrences:      1)*
-  - ⚠ `-ms-linear-gradient()`                               *(sites:   36, occurrences:    335)*
-  - ⚠ `-ms-radial-gradient()`                               *(sites:    5, occurrences:      5)*
-  - ⚠ `-o-image-set()`                                      *(sites:    1, occurrences:      1)*
+  - 🆗 `skew()`                                              *(sites:   19, occurrences:    166)*
+  - 🆗 `skewx()`                                             *(sites:   16, occurrences:    325)*
+  - 🆗 `skewy()`                                             *(sites:    8, occurrences:    126)*
+  - 🆗 `steps()`                                             *(sites:   51, occurrences:    238)*
+  - 🆗 `to()`                                                *(sites:  107, occurrences:    679)*
+  - 🆗 `translate()`                                         *(sites:  155, occurrences:   4122)*
+  - 🆗 `translate3d()`                                       *(sites:  133, occurrences:   4124)*
+  - 🆗 `translatex()`                                        *(sites:  151, occurrences:   7213)*
+  - 🆗 `translatey()`                                        *(sites:  184, occurrences:   8657)*
+  - 🆗 `translatez()`                                        *(sites:  126, occurrences:   1411)*
+  - 🆗 `url-prefix()`                                        *(sites:   42, occurrences:    137)*
+  - 🆗 `var()`                                               *(sites:   55, occurrences:  25451)*
+  - ⚠ `-moz-translatey()`                                   *(sites:    1, occurrences:      1)*
+  - ⚠ `-ms-image-set()`                                     *(sites:    2, occurrences:      2)*
+  - ⚠ `-ms-linear-gradient()`                               *(sites:   49, occurrences:    451)*
+  - ⚠ `-ms-radial-gradient()`                               *(sites:    6, occurrences:      6)*
+  - ⚠ `-ms-translatey()`                                    *(sites:    1, occurrences:      1)*
+  - ⚠ `-o-image-set()`                                      *(sites:    2, occurrences:      2)*
+  - ⚠ `-o-translatey()`                                     *(sites:    1, occurrences:      1)*
+  - ⚠ `-webkit-translatey()`                                *(sites:    1, occurrences:      1)*
   - ⚠ `a_nullable_with_important()`                         *(sites:    9, occurrences:     36)*
   - ⚠ `col()`                                               *(sites:    1, occurrences:      1)*
   - ⚠ `constant()`                                          *(sites:    2, occurrences:     17)*
-  - ⚠ `env()`                                               *(sites:    9, occurrences:     54)*
   - ⚠ `g-fontsize()`                                        *(sites:    1, occurrences:      2)*
   - ⚠ `ligthen()`                                           *(sites:    1, occurrences:      2)*
   - ⚠ `mask()`                                              *(sites:    3, occurrences:      4)*
-  - ⚠ `max()`                                               *(sites:    7, occurrences:     61)*
   - ⚠ `not()`                                               *(sites:    3, occurrences:      3)*
   - ⚠ `obsidian-spacer-redux()`                             *(sites:    1, occurrences:      1)*
   - ⚠ `or()`                                                *(sites:    1, occurrences:      1)*
@@ -1130,113 +1205,291 @@ Update date: 2020-10-28T13:51:04.641Z
 
 ## MediaFeature
   - ❔ `-ms-min-device-pixel-ratio`                          *(sites:    1, occurrences:      6)*
-  - ❔ `prefers-color-scheme`                                *(sites:    7, occurrences:    413)*
-  - ❔ `prefers-reduced-motion`                              *(sites:   16, occurrences:    112)*
-  - ❔ `print`                                               *(sites:    2, occurrences:      2)*
+  - ❔ `prefers-color-scheme`                                *(sites:    8, occurrences:    417)*
+  - ❔ `prefers-reduced-motion`                              *(sites:   15, occurrences:    111)*
+  - ❔ `print`                                               *(sites:    1, occurrences:      1)*
   - 🆗 `-moz-touch-enabled`                                  *(sites:    1, occurrences:      4)*
-  - 🆗 `-ms-high-contrast`                                   *(sites:   57, occurrences:   1069)*
-  - 🆗 `-o-min-device-pixel-ratio`                           *(sites:   52, occurrences:    357)*
-  - 🆗 `-webkit-device-pixel-ratio`                          *(sites:    4, occurrences:      7)*
+  - 🆗 `-ms-high-contrast`                                   *(sites:   66, occurrences:   1181)*
+  - 🆗 `-o-min-device-pixel-ratio`                           *(sites:   54, occurrences:    359)*
+  - 🆗 `-webkit-device-pixel-ratio`                          *(sites:    4, occurrences:      8)*
   - 🆗 `-webkit-max-device-pixel-ratio`                      *(sites:    2, occurrences:      7)*
-  - 🆗 `-webkit-min-device-pixel-ratio`                      *(sites:  113, occurrences:   2197)*
-  - 🆗 `-webkit-transform-3d`                                *(sites:    8, occurrences:      8)*
-  - 🆗 `any-hover`                                           *(sites:    1, occurrences:    685)*
+  - 🆗 `-webkit-min-device-pixel-ratio`                      *(sites:  128, occurrences:   2635)*
+  - 🆗 `-webkit-transform-3d`                                *(sites:    9, occurrences:      9)*
+  - 🆗 `any-hover`                                           *(sites:    1, occurrences:    663)*
   - 🆗 `color`                                               *(sites:    1, occurrences:      1)*
   - 🆗 `device-aspect-ratio`                                 *(sites:    1, occurrences:      1)*
-  - 🆗 `device-height`                                       *(sites:    5, occurrences:     13)*
-  - 🆗 `device-width`                                        *(sites:    9, occurrences:     17)*
-  - 🆗 `hover`                                               *(sites:   11, occurrences:     66)*
+  - 🆗 `device-height`                                       *(sites:    6, occurrences:     14)*
+  - 🆗 `device-width`                                        *(sites:   10, occurrences:     18)*
+  - 🆗 `hover`                                               *(sites:   13, occurrences:     71)*
   - 🆗 `inverted-colors`                                     *(sites:    2, occurrences:      2)*
-  - 🆗 `max-aspect-ratio`                                    *(sites:    4, occurrences:     16)*
+  - 🆗 `max-aspect-ratio`                                    *(sites:    5, occurrences:     32)*
   - 🆗 `max-device-height`                                   *(sites:    2, occurrences:      4)*
-  - 🆗 `max-device-width`                                    *(sites:   31, occurrences:    184)*
-  - 🆗 `max-height`                                          *(sites:   69, occurrences:    576)*
+  - 🆗 `max-device-width`                                    *(sites:   38, occurrences:    210)*
+  - 🆗 `max-height`                                          *(sites:   89, occurrences:    667)*
   - 🆗 `max-resolution`                                      *(sites:    2, occurrences:      8)*
-  - 🆗 `max-width`                                           *(sites:  181, occurrences:  17683)*
-  - 🆗 `min--moz-device-pixel-ratio`                         *(sites:   36, occurrences:   1034)*
-  - 🆗 `min-aspect-ratio`                                    *(sites:    5, occurrences:     16)*
+  - 🆗 `max-width`                                           *(sites:  201, occurrences:  19331)*
+  - 🆗 `min--moz-device-pixel-ratio`                         *(sites:   40, occurrences:   1017)*
+  - 🆗 `min-aspect-ratio`                                    *(sites:    6, occurrences:     35)*
   - 🆗 `min-device-height`                                   *(sites:    1, occurrences:     29)*
-  - 🆗 `min-device-width`                                    *(sites:   19, occurrences:    105)*
-  - 🆗 `min-height`                                          *(sites:   31, occurrences:    531)*
-  - 🆗 `min-resolution`                                      *(sites:   79, occurrences:   3212)*
-  - 🆗 `min-width`                                           *(sites:  171, occurrences:  20124)*
-  - 🆗 `orientation`                                         *(sites:   46, occurrences:    355)*
-  - 🆗 `pointer`                                             *(sites:    8, occurrences:     35)*
+  - 🆗 `min-device-width`                                    *(sites:   24, occurrences:    117)*
+  - 🆗 `min-height`                                          *(sites:   35, occurrences:    571)*
+  - 🆗 `min-resolution`                                      *(sites:   88, occurrences:   3636)*
+  - 🆗 `min-width`                                           *(sites:  188, occurrences:  21550)*
+  - 🆗 `orientation`                                         *(sites:   55, occurrences:    368)*
+  - 🆗 `pointer`                                             *(sites:    9, occurrences:     37)*
+  - 🆗 `width`                                               *(sites:    1, occurrences:      1)*
   - ⚠ `-moz-min-device-pixel-ratio`                         *(sites:    6, occurrences:     39)*
   - ⚠ `-ms-hight-contrast`                                  *(sites:    2, occurrences:      2)*
-  - ⚠ `min-device-pixel-ratio`                              *(sites:   62, occurrences:   1200)*
-  - ⚠ `transform-3d`                                        *(sites:    8, occurrences:      8)*
+  - ⚠ `min-device-pixel-ratio`                              *(sites:   69, occurrences:   1225)*
+  - ⚠ `transform-3d`                                        *(sites:    9, occurrences:      9)*
 
 ## PseudoClassSelector
+  - ❔ `:-internal-autofill-selected`                        *(sites:    1, occurrences:      4)*
   - ❔ `:-moz-placeholder-shown`                             *(sites:    1, occurrences:      1)*
+  - ❔ `:before--bold`                                       *(sites:    1, occurrences:     12)*
   - ❔ `:checked--theme-dark`                                *(sites:    3, occurrences:      6)*
   - ❔ `:child`                                              *(sites:    1, occurrences:      1)*
   - ❔ `:focus-icon`                                         *(sites:    1, occurrences:      1)*
   - ❔ `:focus-text`                                         *(sites:    1, occurrences:      1)*
-  - ❔ `:focus-visible`                                      *(sites:   10, occurrences:    260)*
+  - ❔ `:focus-visible`                                      *(sites:    9, occurrences:    259)*
   - ❔ `:hiver`                                              *(sites:    2, occurrences:      2)*
   - ❔ `:hove`                                               *(sites:    1, occurrences:      1)*
   - ❔ `:hover-icon`                                         *(sites:    1, occurrences:      1)*
   - ❔ `:hover-text`                                         *(sites:    1, occurrences:      1)*
+  - ❔ `:hover__background--badge`                           *(sites:    1, occurrences:      1)*
+  - ❔ `:hover__background--badge-inverted`                  *(sites:    1, occurrences:      1)*
+  - ❔ `:hover__background--body`                            *(sites:    1, occurrences:      1)*
+  - ❔ `:hover__background--body-inverted`                   *(sites:    1, occurrences:      1)*
+  - ❔ `:hover__background--dropdown`                        *(sites:    1, occurrences:      1)*
+  - ❔ `:hover__background--footer`                          *(sites:    1, occurrences:      1)*
+  - ❔ `:hover__background--footer-secondary`                *(sites:    1, occurrences:      1)*
+  - ❔ `:hover__background--header`                          *(sites:    1, occurrences:      1)*
+  - ❔ `:hover__background--header-inverted`                 *(sites:    1, occurrences:      1)*
+  - ❔ `:hover__background--input`                           *(sites:    1, occurrences:      1)*
+  - ❔ `:hover__background--input-inverted`                  *(sites:    1, occurrences:      1)*
+  - ❔ `:hover__background--light`                           *(sites:    1, occurrences:      1)*
+  - ❔ `:hover__background--modal`                           *(sites:    1, occurrences:      1)*
+  - ❔ `:hover__background--notification`                    *(sites:    1, occurrences:      1)*
+  - ❔ `:hover__background--overlay`                         *(sites:    1, occurrences:      1)*
+  - ❔ `:hover__background--popover`                         *(sites:    1, occurrences:      1)*
+  - ❔ `:hover__background--popular-tags`                    *(sites:    1, occurrences:      1)*
+  - ❔ `:hover__background--secondary`                       *(sites:    1, occurrences:      1)*
+  - ❔ `:hover__background--showcase`                        *(sites:    1, occurrences:      1)*
+  - ❔ `:hover__background--showcase-item`                   *(sites:    1, occurrences:      1)*
+  - ❔ `:hover__background--showcase-item-inverted`          *(sites:    1, occurrences:      1)*
+  - ❔ `:hover__background--slider`                          *(sites:    1, occurrences:      1)*
+  - ❔ `:hover__background--switch`                          *(sites:    1, occurrences:      1)*
+  - ❔ `:hover__background--table`                           *(sites:    1, occurrences:      1)*
+  - ❔ `:hover__background--table-head`                      *(sites:    1, occurrences:      1)*
+  - ❔ `:hover__background--table-odd`                       *(sites:    1, occurrences:      1)*
+  - ❔ `:hover__background--tabs`                            *(sites:    1, occurrences:      1)*
+  - ❔ `:hover__background--tabs-active`                     *(sites:    1, occurrences:      1)*
+  - ❔ `:hover__background--tags`                            *(sites:    1, occurrences:      1)*
+  - ❔ `:hover__background--tags-inverted`                   *(sites:    1, occurrences:      1)*
+  - ❔ `:hover__background--tooltip`                         *(sites:    1, occurrences:      1)*
+  - ❔ `:hover__blue--1`                                     *(sites:    1, occurrences:      1)*
+  - ❔ `:hover__blue--2`                                     *(sites:    1, occurrences:      1)*
+  - ❔ `:hover__blue--3`                                     *(sites:    1, occurrences:      1)*
+  - ❔ `:hover__blue--4`                                     *(sites:    1, occurrences:      1)*
+  - ❔ `:hover__blue--5`                                     *(sites:    1, occurrences:      1)*
+  - ❔ `:hover__blue--6`                                     *(sites:    1, occurrences:      1)*
+  - ❔ `:hover__blue--7`                                     *(sites:    1, occurrences:      1)*
+  - ❔ `:hover__blue--8`                                     *(sites:    1, occurrences:      1)*
+  - ❔ `:hover__blue--campu`                                 *(sites:    1, occurrences:      1)*
+  - ❔ `:hover__blue--congress`                              *(sites:    1, occurrences:      1)*
+  - ❔ `:hover__blue--endeavour`                             *(sites:    1, occurrences:      1)*
+  - ❔ `:hover__blue--freepik`                               *(sites:    1, occurrences:      1)*
+  - ❔ `:hover__blue--malibu`                                *(sites:    1, occurrences:      1)*
+  - ❔ `:hover__blue--onahau`                                *(sites:    1, occurrences:      1)*
+  - ❔ `:hover__blue--picton`                                *(sites:    1, occurrences:      1)*
+  - ❔ `:hover__blue--science`                               *(sites:    1, occurrences:      1)*
+  - ❔ `:hover__currency-symbol_extra`                       *(sites:    1, occurrences:      1)*
+  - ❔ `:hover__dark-blue--1`                                *(sites:    1, occurrences:      1)*
+  - ❔ `:hover__dark-blue--2`                                *(sites:    1, occurrences:      1)*
+  - ❔ `:hover__dark-blue--3`                                *(sites:    1, occurrences:      1)*
+  - ❔ `:hover__dark-blue--4`                                *(sites:    1, occurrences:      1)*
+  - ❔ `:hover__dark-blue--5`                                *(sites:    1, occurrences:      1)*
+  - ❔ `:hover__dark-blue--6`                                *(sites:    1, occurrences:      1)*
+  - ❔ `:hover__dark-blue--7`                                *(sites:    1, occurrences:      1)*
+  - ❔ `:hover__dark-blue--bay`                              *(sites:    1, occurrences:      1)*
+  - ❔ `:hover__dark-blue--biscay`                           *(sites:    1, occurrences:      1)*
+  - ❔ `:hover__dark-blue--blackale`                         *(sites:    1, occurrences:      1)*
+  - ❔ `:hover__dark-blue--blumine`                          *(sites:    1, occurrences:      1)*
+  - ❔ `:hover__dark-blue--chathams`                         *(sites:    1, occurrences:      1)*
+  - ❔ `:hover__dark-blue--fc`                               *(sites:    1, occurrences:      1)*
+  - ❔ `:hover__dark-blue--zodiac`                           *(sites:    1, occurrences:      1)*
+  - ❔ `:hover__general--accordion`                          *(sites:    1, occurrences:      1)*
+  - ❔ `:hover__general--border`                             *(sites:    1, occurrences:      1)*
+  - ❔ `:hover__general--border-inverted`                    *(sites:    1, occurrences:      1)*
+  - ❔ `:hover__general--button`                             *(sites:    1, occurrences:      1)*
+  - ❔ `:hover__general--button-inverted`                    *(sites:    1, occurrences:      1)*
+  - ❔ `:hover__general--footer`                             *(sites:    1, occurrences:      1)*
+  - ❔ `:hover__general--form-border`                        *(sites:    1, occurrences:      1)*
+  - ❔ `:hover__general--gray-1`                             *(sites:    1, occurrences:      1)*
+  - ❔ `:hover__general--gray-2`                             *(sites:    1, occurrences:      1)*
+  - ❔ `:hover__general--gray-3`                             *(sites:    1, occurrences:      1)*
+  - ❔ `:hover__general--gray-4`                             *(sites:    1, occurrences:      1)*
+  - ❔ `:hover__general--heading`                            *(sites:    1, occurrences:      1)*
+  - ❔ `:hover__general--heading-inverted`                   *(sites:    1, occurrences:      1)*
+  - ❔ `:hover__general--icon`                               *(sites:    1, occurrences:      1)*
+  - ❔ `:hover__general--icon-inverted`                      *(sites:    1, occurrences:      1)*
+  - ❔ `:hover__general--link`                               *(sites:    1, occurrences:      1)*
+  - ❔ `:hover__general--link-inverted`                      *(sites:    1, occurrences:      1)*
+  - ❔ `:hover__general--shadow`                             *(sites:    1, occurrences:      1)*
+  - ❔ `:hover__general--tabs`                               *(sites:    1, occurrences:      1)*
+  - ❔ `:hover__general--tabs-active`                        *(sites:    1, occurrences:      1)*
+  - ❔ `:hover__general--tabs-border`                        *(sites:    1, occurrences:      1)*
+  - ❔ `:hover__general--tabs-triangle`                      *(sites:    1, occurrences:      1)*
+  - ❔ `:hover__general--tabs-triangle-active`               *(sites:    1, occurrences:      1)*
+  - ❔ `:hover__general--tags`                               *(sites:    1, occurrences:      1)*
+  - ❔ `:hover__general--tags-inverted`                      *(sites:    1, occurrences:      1)*
+  - ❔ `:hover__general--text`                               *(sites:    1, occurrences:      1)*
+  - ❔ `:hover__general--text-dark`                          *(sites:    1, occurrences:      1)*
+  - ❔ `:hover__general--text-inverted`                      *(sites:    1, occurrences:      1)*
+  - ❔ `:hover__general--text-secondary`                     *(sites:    1, occurrences:      1)*
+  - ❔ `:hover__general--triangle`                           *(sites:    1, occurrences:      1)*
+  - ❔ `:hover__general--triangle-active`                    *(sites:    1, occurrences:      1)*
+  - ❔ `:hover__gray--1`                                     *(sites:    1, occurrences:      1)*
+  - ❔ `:hover__gray--2`                                     *(sites:    1, occurrences:      1)*
+  - ❔ `:hover__gray--3`                                     *(sites:    1, occurrences:      1)*
+  - ❔ `:hover__gray--4`                                     *(sites:    1, occurrences:      1)*
+  - ❔ `:hover__gray--5`                                     *(sites:    1, occurrences:      1)*
+  - ❔ `:hover__gray--6`                                     *(sites:    1, occurrences:      1)*
+  - ❔ `:hover__gray--7`                                     *(sites:    1, occurrences:      1)*
+  - ❔ `:hover__gray--8`                                     *(sites:    1, occurrences:      1)*
+  - ❔ `:hover__gray--9`                                     *(sites:    1, occurrences:      1)*
+  - ❔ `:hover__gray--aqua`                                  *(sites:    1, occurrences:      1)*
+  - ❔ `:hover__gray--bali`                                  *(sites:    1, occurrences:      1)*
+  - ❔ `:hover__gray--bayoux`                                *(sites:    1, occurrences:      1)*
+  - ❔ `:hover__gray--cadet`                                 *(sites:    1, occurrences:      1)*
+  - ❔ `:hover__gray--ebony`                                 *(sites:    1, occurrences:      1)*
+  - ❔ `:hover__gray--ebony-clay`                            *(sites:    1, occurrences:      1)*
+  - ❔ `:hover__gray--gaysir`                                *(sites:    1, occurrences:      1)*
+  - ❔ `:hover__gray--hades`                                 *(sites:    1, occurrences:      1)*
+  - ❔ `:hover__gray--heather`                               *(sites:    1, occurrences:      1)*
+  - ❔ `:hover__gray--hoki`                                  *(sites:    1, occurrences:      1)*
+  - ❔ `:hover__gray--mystic`                                *(sites:    1, occurrences:      1)*
+  - ❔ `:hover__gray--oxford`                                *(sites:    1, occurrences:      1)*
+  - ❔ `:hover__green--1`                                    *(sites:    1, occurrences:      1)*
+  - ❔ `:hover__green--2`                                    *(sites:    1, occurrences:      1)*
+  - ❔ `:hover__green--3`                                    *(sites:    1, occurrences:      1)*
+  - ❔ `:hover__green--4`                                    *(sites:    1, occurrences:      1)*
+  - ❔ `:hover__green--5`                                    *(sites:    1, occurrences:      1)*
+  - ❔ `:hover__green--6`                                    *(sites:    1, occurrences:      1)*
+  - ❔ `:hover__green--7`                                    *(sites:    1, occurrences:      1)*
+  - ❔ `:hover__green--8`                                    *(sites:    1, occurrences:      1)*
+  - ❔ `:hover__green--flaticon`                             *(sites:    1, occurrences:      1)*
+  - ❔ `:hover__green--hint`                                 *(sites:    1, occurrences:      1)*
+  - ❔ `:hover__green--jade`                                 *(sites:    1, occurrences:      1)*
+  - ❔ `:hover__green--jungle`                               *(sites:    1, occurrences:      1)*
+  - ❔ `:hover__green--pepinen`                              *(sites:    1, occurrences:      1)*
+  - ❔ `:hover__green--shamrock`                             *(sites:    1, occurrences:      1)*
+  - ❔ `:hover__green--snowy`                                *(sites:    1, occurrences:      1)*
+  - ❔ `:hover__green--sugar`                                *(sites:    1, occurrences:      1)*
+  - ❔ `:hover__project--flaticon`                           *(sites:    1, occurrences:      1)*
+  - ❔ `:hover__project--main`                               *(sites:    1, occurrences:      1)*
+  - ❔ `:hover__project--main-dark`                          *(sites:    1, occurrences:      1)*
+  - ❔ `:hover__project--main-inverted`                      *(sites:    1, occurrences:      1)*
+  - ❔ `:hover__project--main-light`                         *(sites:    1, occurrences:      1)*
+  - ❔ `:hover__project--premium`                            *(sites:    1, occurrences:      1)*
+  - ❔ `:hover__project--tutpad`                             *(sites:    1, occurrences:      1)*
+  - ❔ `:hover__scale-gray--1`                               *(sites:    1, occurrences:      1)*
+  - ❔ `:hover__scale-gray--2`                               *(sites:    1, occurrences:      1)*
+  - ❔ `:hover__scale-gray--3`                               *(sites:    1, occurrences:      1)*
+  - ❔ `:hover__scale-gray--4`                               *(sites:    1, occurrences:      1)*
+  - ❔ `:hover__scale-gray--5`                               *(sites:    1, occurrences:      1)*
+  - ❔ `:hover__scale-gray--6`                               *(sites:    1, occurrences:      1)*
+  - ❔ `:hover__scale-gray--7`                               *(sites:    1, occurrences:      1)*
+  - ❔ `:hover__scale-gray--8`                               *(sites:    1, occurrences:      1)*
+  - ❔ `:hover__state--blue`                                 *(sites:    1, occurrences:      1)*
+  - ❔ `:hover__state--gray`                                 *(sites:    1, occurrences:      1)*
+  - ❔ `:hover__state--green`                                *(sites:    1, occurrences:      1)*
+  - ❔ `:hover__state--premium`                              *(sites:    1, occurrences:      1)*
+  - ❔ `:hover__state--purple`                               *(sites:    1, occurrences:      1)*
+  - ❔ `:hover__state--red`                                  *(sites:    1, occurrences:      1)*
+  - ❔ `:hover__state--yellow`                               *(sites:    1, occurrences:      1)*
+  - ❔ `:hover__yellow--1`                                   *(sites:    1, occurrences:      1)*
+  - ❔ `:hover__yellow--2`                                   *(sites:    1, occurrences:      1)*
+  - ❔ `:hover__yellow--3`                                   *(sites:    1, occurrences:      1)*
+  - ❔ `:hover__yellow--4`                                   *(sites:    1, occurrences:      1)*
+  - ❔ `:hover__yellow--5`                                   *(sites:    1, occurrences:      1)*
+  - ❔ `:hover__yellow--6`                                   *(sites:    1, occurrences:      1)*
+  - ❔ `:hover__yellow--7`                                   *(sites:    1, occurrences:      1)*
+  - ❔ `:hover__yellow--8`                                   *(sites:    1, occurrences:      1)*
+  - ❔ `:hover__yellow--bea`                                 *(sites:    1, occurrences:      1)*
+  - ❔ `:hover__yellow--buttermilk`                          *(sites:    1, occurrences:      1)*
+  - ❔ `:hover__yellow--dandelion`                           *(sites:    1, occurrences:      1)*
+  - ❔ `:hover__yellow--paco`                                *(sites:    1, occurrences:      1)*
+  - ❔ `:hover__yellow--poppy`                               *(sites:    1, occurrences:      1)*
+  - ❔ `:hover__yellow--premium`                             *(sites:    1, occurrences:      1)*
+  - ❔ `:hover__yellow--sin`                                 *(sites:    1, occurrences:      1)*
+  - ❔ `:hover__yellow--tango`                               *(sites:    1, occurrences:      1)*
+  - ❔ `:hoverr`                                             *(sites:    1, occurrences:      1)*
+  - ❔ `:hover，`                                             *(sites:    1, occurrences:      1)*
   - ❔ `:inline-block`                                       *(sites:    1, occurrences:     12)*
   - ❔ `:second-child`                                       *(sites:    1, occurrences:      1)*
   - 🆗 `:-moz-any-link`                                      *(sites:    2, occurrences:      2)*
-  - 🆗 `:-moz-focusring`                                     *(sites:   38, occurrences:    285)*
-  - 🆗 `:-moz-full-screen`                                   *(sites:   13, occurrences:     13)*
-  - 🆗 `:-moz-loading`                                       *(sites:    2, occurrences:      2)*
-  - 🆗 `:-moz-placeholder`                                   *(sites:   65, occurrences:    241)*
-  - 🆗 `:-moz-ui-invalid`                                    *(sites:    2, occurrences:      6)*
-  - 🆗 `:-ms-fullscreen`                                     *(sites:    7, occurrences:     95)*
-  - 🆗 `:-ms-input-placeholder`                              *(sites:  105, occurrences:    650)*
-  - 🆗 `:-ms-lang()`                                         *(sites:    4, occurrences:     29)*
+  - 🆗 `:-moz-broken`                                        *(sites:    1, occurrences:      1)*
+  - 🆗 `:-moz-focusring`                                     *(sites:   42, occurrences:    300)*
+  - 🆗 `:-moz-full-screen`                                   *(sites:   15, occurrences:     20)*
+  - 🆗 `:-moz-loading`                                       *(sites:    3, occurrences:      3)*
+  - 🆗 `:-moz-placeholder`                                   *(sites:   75, occurrences:    285)*
+  - 🆗 `:-moz-read-only`                                     *(sites:    1, occurrences:      1)*
+  - 🆗 `:-moz-ui-invalid`                                    *(sites:    3, occurrences:      7)*
+  - 🆗 `:-ms-fullscreen`                                     *(sites:    8, occurrences:     96)*
+  - 🆗 `:-ms-input-placeholder`                              *(sites:  124, occurrences:    743)*
+  - 🆗 `:-ms-lang()`                                         *(sites:    5, occurrences:     30)*
   - 🆗 `:-o-prefocus`                                        *(sites:   24, occurrences:     27)*
-  - 🆗 `:-webkit-autofill`                                   *(sites:   20, occurrences:     78)*
-  - 🆗 `:-webkit-full-screen`                                *(sites:   21, occurrences:    107)*
+  - 🆗 `:-webkit-autofill`                                   *(sites:   24, occurrences:    119)*
+  - 🆗 `:-webkit-full-screen`                                *(sites:   24, occurrences:    117)*
   - 🆗 `:-webkit-full-screen-ancestor`                       *(sites:    1, occurrences:      2)*
-  - 🆗 `:active`                                             *(sites:  195, occurrences:  13395)*
-  - 🆗 `:after`                                              *(sites:  199, occurrences:  19010)*
+  - 🆗 `:active`                                             *(sites:  210, occurrences:  15337)*
+  - 🆗 `:after`                                              *(sites:  224, occurrences:  21493)*
   - 🆗 `:any-link`                                           *(sites:    1, occurrences:      1)*
-  - 🆗 `:before`                                             *(sites:  194, occurrences:  45634)*
-  - 🆗 `:checked`                                            *(sites:  105, occurrences:   2127)*
+  - 🆗 `:before`                                             *(sites:  214, occurrences:  53488)*
+  - 🆗 `:checked`                                            *(sites:  117, occurrences:   2916)*
   - 🆗 `:decrement`                                          *(sites:    1, occurrences:      1)*
   - 🆗 `:default`                                            *(sites:    1, occurrences:      1)*
   - 🆗 `:dir()`                                              *(sites:    1, occurrences:      2)*
-  - 🆗 `:disabled`                                           *(sites:  106, occurrences:   3834)*
-  - 🆗 `:empty`                                              *(sites:   71, occurrences:    721)*
-  - 🆗 `:enabled`                                            *(sites:    5, occurrences:     28)*
+  - 🆗 `:disabled`                                           *(sites:  122, occurrences:   4068)*
+  - 🆗 `:empty`                                              *(sites:   82, occurrences:    770)*
+  - 🆗 `:enabled`                                            *(sites:    9, occurrences:     46)*
   - 🆗 `:end`                                                *(sites:    1, occurrences:      1)*
   - 🆗 `:first`                                              *(sites:    4, occurrences:      5)*
-  - 🆗 `:first-child`                                        *(sites:  193, occurrences:   8606)*
-  - 🆗 `:first-letter`                                       *(sites:   12, occurrences:     49)*
-  - 🆗 `:first-of-type`                                      *(sites:   95, occurrences:    795)*
-  - 🆗 `:focus`                                              *(sites:  195, occurrences:  25835)*
-  - 🆗 `:focus-within`                                       *(sites:   28, occurrences:    413)*
-  - 🆗 `:fullscreen`                                         *(sites:    5, occurrences:     89)*
+  - 🆗 `:first-child`                                        *(sites:  214, occurrences:  10543)*
+  - 🆗 `:first-letter`                                       *(sites:   13, occurrences:     53)*
+  - 🆗 `:first-line`                                         *(sites:    1, occurrences:      4)*
+  - 🆗 `:first-of-type`                                      *(sites:  106, occurrences:    917)*
+  - 🆗 `:focus`                                              *(sites:  220, occurrences:  28631)*
+  - 🆗 `:focus-within`                                       *(sites:   30, occurrences:    424)*
+  - 🆗 `:fullscreen`                                         *(sites:    6, occurrences:     90)*
+  - 🆗 `:future`                                             *(sites:    2, occurrences:      3)*
   - 🆗 `:horizontal`                                         *(sites:    5, occurrences:     12)*
-  - 🆗 `:hover`                                              *(sites:  212, occurrences:  47809)*
+  - 🆗 `:hover`                                              *(sites:  233, occurrences:  56515)*
   - 🆗 `:increment`                                          *(sites:    1, occurrences:      1)*
   - 🆗 `:indeterminate`                                      *(sites:   13, occurrences:     53)*
-  - 🆗 `:invalid`                                            *(sites:   26, occurrences:    205)*
-  - 🆗 `:lang()`                                             *(sites:   28, occurrences:   1754)*
-  - 🆗 `:last-child`                                         *(sites:  184, occurrences:   7365)*
-  - 🆗 `:last-of-type`                                       *(sites:   90, occurrences:    763)*
-  - 🆗 `:link`                                               *(sites:  110, occurrences:   2130)*
-  - 🆗 `:not()`                                              *(sites:  176, occurrences:  23641)*
-  - 🆗 `:nth-child()`                                        *(sites:  143, occurrences:   4571)*
-  - 🆗 `:nth-last-child()`                                   *(sites:   38, occurrences:    359)*
-  - 🆗 `:nth-last-of-type()`                                 *(sites:    7, occurrences:     26)*
-  - 🆗 `:nth-of-type()`                                      *(sites:   77, occurrences:   2201)*
-  - 🆗 `:only-child`                                         *(sites:   50, occurrences:    290)*
+  - 🆗 `:invalid`                                            *(sites:   28, occurrences:    209)*
+  - 🆗 `:lang()`                                             *(sites:   30, occurrences:   1792)*
+  - 🆗 `:last-child`                                         *(sites:  210, occurrences:   9567)*
+  - 🆗 `:last-of-type`                                       *(sites:  102, occurrences:    824)*
+  - 🆗 `:link`                                               *(sites:  116, occurrences:   2257)*
+  - 🆗 `:not()`                                              *(sites:  195, occurrences:  26860)*
+  - 🆗 `:nth-child()`                                        *(sites:  159, occurrences:   5312)*
+  - 🆗 `:nth-last-child()`                                   *(sites:   45, occurrences:    381)*
+  - 🆗 `:nth-last-of-type()`                                 *(sites:    8, occurrences:     32)*
+  - 🆗 `:nth-of-type()`                                      *(sites:   85, occurrences:   2183)*
+  - 🆗 `:only-child`                                         *(sites:   52, occurrences:    329)*
   - 🆗 `:only-of-type`                                       *(sites:   14, occurrences:     27)*
   - 🆗 `:optional`                                           *(sites:    1, occurrences:      1)*
-  - 🆗 `:placeholder-shown`                                  *(sites:   13, occurrences:     70)*
-  - 🆗 `:required`                                           *(sites:    3, occurrences:     16)*
-  - 🆗 `:root`                                               *(sites:   99, occurrences:    443)*
+  - 🆗 `:placeholder-shown`                                  *(sites:   14, occurrences:     76)*
+  - 🆗 `:read-only`                                          *(sites:    1, occurrences:      1)*
+  - 🆗 `:required`                                           *(sites:    4, occurrences:     17)*
+  - 🆗 `:root`                                               *(sites:  117, occurrences:    507)*
   - 🆗 `:start`                                              *(sites:    1, occurrences:      1)*
-  - 🆗 `:target`                                             *(sites:   11, occurrences:    166)*
+  - 🆗 `:target`                                             *(sites:   13, occurrences:    168)*
   - 🆗 `:valid`                                              *(sites:   17, occurrences:    249)*
   - 🆗 `:vertical`                                           *(sites:    3, occurrences:      8)*
-  - 🆗 `:visited`                                            *(sites:  149, occurrences:   3973)*
+  - 🆗 `:visited`                                            *(sites:  160, occurrences:   4576)*
   - 🆗 `:window-inactive`                                    *(sites:    1, occurrences:      1)*
   - ⚠ `:-moz-focus-inner`                                   *(sites:    2, occurrences:      4)*
   - ⚠ `:-ms-full-screen`                                    *(sites:    1, occurrences:      1)*
@@ -1248,10 +1501,11 @@ Update date: 2020-10-28T13:51:04.641Z
   - ⚠ `:global()`                                           *(sites:    1, occurrences:      2)*
   - ⚠ `:last`                                               *(sites:    1, occurrences:      1)*
   - ⚠ `:moz-placeholder`                                    *(sites:    1, occurrences:      3)*
+  - ⚠ `:nth-first-of-type()`                                *(sites:    1, occurrences:      2)*
   - ⚠ `:placeholder`                                        *(sites:    5, occurrences:      8)*
 
 ## PseudoElementSelector
-  - ❔ `::--webkit-media-controls-play-button`               *(sites:    1, occurrences:      1)*
+  - ❔ `::--webkit-media-controls-play-button`               *(sites:    2, occurrences:      2)*
   - ❔ `::-internal-media-controls-download-button`          *(sites:    1, occurrences:      1)*
   - ❔ `::-moz-input-placeholder，`                           *(sites:    1, occurrences:      1)*
   - ❔ `::-ms-inppput-placeholder`                           *(sites:    1, occurrences:      3)*
@@ -1259,92 +1513,97 @@ Update date: 2020-10-28T13:51:04.641Z
   - ❔ `::-webkit-autofill`                                  *(sites:    1, occurrences:      1)*
   - ❔ `::-webkit-clear-button`                              *(sites:    1, occurrences:      4)*
   - ❔ `::-webkit-input-placeholder，`                        *(sites:    1, occurrences:      1)*
-  - ❔ `::-webkit-input-safebox-button`                      *(sites:    1, occurrences:      1)*
+  - ❔ `::-webkit-input-safebox-button`                      *(sites:    1, occurrences:      2)*
   - ❔ `::-webkit-media-controls-start-playback-background`  *(sites:    1, occurrences:      1)*
   - ❔ `::-webkit-media-controls-start-playback-glyph`       *(sites:    1, occurrences:      1)*
   - ❔ `::-webkit-media-controls-start-playback-tint`        *(sites:    1, occurrences:      1)*
+  - ❔ `::-webkit-media-controls-wireless-playback-picker-b…`*(sites:    2, occurrences:      2)*
+  - ❔ `::-webkit-media-text-track-display-backdrop`         *(sites:    2, occurrences:      3)*
   - ❔ `::hover`                                             *(sites:    2, occurrences:      3)*
   - ❔ `::ms-clear`                                          *(sites:    1, occurrences:      2)*
   - ❔ `::nth-of-type()`                                     *(sites:    1, occurrences:      1)*
   - ❔ `::slotted()`                                         *(sites:    1, occurrences:      1)*
-  - 🆗 `::-moz-focus-inner`                                  *(sites:  140, occurrences:    521)*
-  - 🆗 `::-moz-focus-outer`                                  *(sites:    9, occurrences:     14)*
-  - 🆗 `::-moz-placeholder`                                  *(sites:   97, occurrences:    521)*
+  - 🆗 `::-moz-focus-inner`                                  *(sites:  158, occurrences:    590)*
+  - 🆗 `::-moz-focus-outer`                                  *(sites:   10, occurrences:     15)*
+  - 🆗 `::-moz-placeholder`                                  *(sites:  117, occurrences:    594)*
   - 🆗 `::-moz-progress-bar`                                 *(sites:    1, occurrences:      1)*
-  - 🆗 `::-moz-range-progress`                               *(sites:    3, occurrences:      9)*
-  - 🆗 `::-moz-range-thumb`                                  *(sites:   14, occurrences:     66)*
-  - 🆗 `::-moz-range-track`                                  *(sites:   13, occurrences:     45)*
-  - 🆗 `::-moz-selection`                                    *(sites:   23, occurrences:     39)*
+  - 🆗 `::-moz-range-progress`                               *(sites:    4, occurrences:     12)*
+  - 🆗 `::-moz-range-thumb`                                  *(sites:   18, occurrences:     77)*
+  - 🆗 `::-moz-range-track`                                  *(sites:   16, occurrences:     51)*
+  - 🆗 `::-moz-selection`                                    *(sites:   29, occurrences:     48)*
   - 🆗 `::-ms-backdrop`                                      *(sites:    5, occurrences:     22)*
   - 🆗 `::-ms-check`                                         *(sites:    3, occurrences:     16)*
-  - 🆗 `::-ms-clear`                                         *(sites:   88, occurrences:    200)*
-  - 🆗 `::-ms-expand`                                        *(sites:   43, occurrences:     87)*
-  - 🆗 `::-ms-fill-lower`                                    *(sites:   13, occurrences:     39)*
-  - 🆗 `::-ms-fill-upper`                                    *(sites:   13, occurrences:     27)*
-  - 🆗 `::-ms-reveal`                                        *(sites:   19, occurrences:     27)*
-  - 🆗 `::-ms-thumb`                                         *(sites:   13, occurrences:     64)*
-  - 🆗 `::-ms-tooltip`                                       *(sites:    3, occurrences:      6)*
-  - 🆗 `::-ms-track`                                         *(sites:   13, occurrences:     39)*
+  - 🆗 `::-ms-clear`                                         *(sites:  102, occurrences:    227)*
+  - 🆗 `::-ms-expand`                                        *(sites:   47, occurrences:     96)*
+  - 🆗 `::-ms-fill-lower`                                    *(sites:   15, occurrences:     44)*
+  - 🆗 `::-ms-fill-upper`                                    *(sites:   15, occurrences:     29)*
+  - 🆗 `::-ms-reveal`                                        *(sites:   23, occurrences:     35)*
+  - 🆗 `::-ms-thumb`                                         *(sites:   16, occurrences:     73)*
+  - 🆗 `::-ms-tooltip`                                       *(sites:    6, occurrences:     13)*
+  - 🆗 `::-ms-track`                                         *(sites:   16, occurrences:     48)*
   - 🆗 `::-ms-value`                                         *(sites:   10, occurrences:     18)*
-  - 🆗 `::-webkit-calendar-picker-indicator`                 *(sites:    2, occurrences:      5)*
+  - 🆗 `::-webkit-calendar-picker-indicator`                 *(sites:    3, occurrences:      7)*
   - 🆗 `::-webkit-color-swatch`                              *(sites:    3, occurrences:      6)*
   - 🆗 `::-webkit-color-swatch-wrapper`                      *(sites:    3, occurrences:      6)*
   - 🆗 `::-webkit-contacts-auto-fill-button`                 *(sites:    5, occurrences:      9)*
   - 🆗 `::-webkit-credentials-auto-fill-button`              *(sites:    4, occurrences:      7)*
   - 🆗 `::-webkit-details-marker`                            *(sites:    2, occurrences:      3)*
-  - 🆗 `::-webkit-file-upload-button`                        *(sites:   34, occurrences:     36)*
-  - 🆗 `::-webkit-inner-spin-button`                         *(sites:   83, occurrences:    177)*
-  - 🆗 `::-webkit-input-placeholder`                         *(sites:  120, occurrences:    734)*
-  - 🆗 `::-webkit-media-controls`                            *(sites:    5, occurrences:      7)*
-  - 🆗 `::-webkit-media-controls-current-time-display`       *(sites:    1, occurrences:      2)*
-  - 🆗 `::-webkit-media-controls-enclosure`                  *(sites:    2, occurrences:      2)*
-  - 🆗 `::-webkit-media-controls-fullscreen-button`          *(sites:    1, occurrences:      2)*
+  - 🆗 `::-webkit-file-upload-button`                        *(sites:   36, occurrences:     39)*
+  - 🆗 `::-webkit-full-page-media`                           *(sites:    2, occurrences:      3)*
+  - 🆗 `::-webkit-inner-spin-button`                         *(sites:   93, occurrences:    196)*
+  - 🆗 `::-webkit-input-placeholder`                         *(sites:  139, occurrences:    820)*
+  - 🆗 `::-webkit-media-controls`                            *(sites:   10, occurrences:     12)*
+  - 🆗 `::-webkit-media-controls-current-time-display`       *(sites:    3, occurrences:      4)*
+  - 🆗 `::-webkit-media-controls-enclosure`                  *(sites:    4, occurrences:      4)*
+  - 🆗 `::-webkit-media-controls-fullscreen-button`          *(sites:    3, occurrences:      4)*
   - 🆗 `::-webkit-media-controls-mute-button`                *(sites:    1, occurrences:      2)*
   - 🆗 `::-webkit-media-controls-overlay-play-button`        *(sites:    1, occurrences:      1)*
-  - 🆗 `::-webkit-media-controls-panel`                      *(sites:    3, occurrences:      9)*
-  - 🆗 `::-webkit-media-controls-play-button`                *(sites:    2, occurrences:      3)*
+  - 🆗 `::-webkit-media-controls-panel`                      *(sites:    5, occurrences:     12)*
+  - 🆗 `::-webkit-media-controls-panel-container`            *(sites:    1, occurrences:      1)*
+  - 🆗 `::-webkit-media-controls-play-button`                *(sites:    4, occurrences:      5)*
   - 🆗 `::-webkit-media-controls-return-to-realtime-button`  *(sites:    1, occurrences:      2)*
   - 🆗 `::-webkit-media-controls-rewind-button`              *(sites:    1, occurrences:      2)*
   - 🆗 `::-webkit-media-controls-seek-back-button`           *(sites:    1, occurrences:      2)*
   - 🆗 `::-webkit-media-controls-seek-forward-button`        *(sites:    1, occurrences:      2)*
-  - 🆗 `::-webkit-media-controls-start-playback-button`      *(sites:    6, occurrences:      9)*
-  - 🆗 `::-webkit-media-controls-time-remaining-display`     *(sites:    1, occurrences:      2)*
-  - 🆗 `::-webkit-media-controls-timeline`                   *(sites:    1, occurrences:      2)*
+  - 🆗 `::-webkit-media-controls-start-playback-button`      *(sites:   11, occurrences:     17)*
+  - 🆗 `::-webkit-media-controls-time-remaining-display`     *(sites:    3, occurrences:      4)*
+  - 🆗 `::-webkit-media-controls-timeline`                   *(sites:    3, occurrences:      4)*
   - 🆗 `::-webkit-media-controls-timeline-container`         *(sites:    1, occurrences:      2)*
   - 🆗 `::-webkit-media-controls-toggle-closed-captions-but…`*(sites:    1, occurrences:      2)*
   - 🆗 `::-webkit-media-controls-volume-slider`              *(sites:    1, occurrences:      2)*
   - 🆗 `::-webkit-media-controls-volume-slider-container`    *(sites:    1, occurrences:      2)*
-  - 🆗 `::-webkit-media-text-track-display`                  *(sites:    8, occurrences:     16)*
+  - 🆗 `::-webkit-media-text-track-container`                *(sites:    1, occurrences:      7)*
+  - 🆗 `::-webkit-media-text-track-display`                  *(sites:   11, occurrences:     20)*
   - 🆗 `::-webkit-meter-bar`                                 *(sites:    1, occurrences:      1)*
-  - 🆗 `::-webkit-outer-spin-button`                         *(sites:   83, occurrences:    166)*
+  - 🆗 `::-webkit-outer-spin-button`                         *(sites:   93, occurrences:    184)*
   - 🆗 `::-webkit-progress-bar`                              *(sites:    2, occurrences:      2)*
   - 🆗 `::-webkit-progress-value`                            *(sites:    2, occurrences:      2)*
-  - 🆗 `::-webkit-scrollbar`                                 *(sites:   94, occurrences:    403)*
-  - 🆗 `::-webkit-scrollbar-button`                          *(sites:   24, occurrences:     43)*
-  - 🆗 `::-webkit-scrollbar-corner`                          *(sites:    7, occurrences:     76)*
-  - 🆗 `::-webkit-scrollbar-thumb`                           *(sites:   65, occurrences:    327)*
-  - 🆗 `::-webkit-scrollbar-track`                           *(sites:   45, occurrences:    173)*
+  - 🆗 `::-webkit-scrollbar`                                 *(sites:  113, occurrences:    467)*
+  - 🆗 `::-webkit-scrollbar-button`                          *(sites:   29, occurrences:     49)*
+  - 🆗 `::-webkit-scrollbar-corner`                          *(sites:    8, occurrences:     76)*
+  - 🆗 `::-webkit-scrollbar-thumb`                           *(sites:   81, occurrences:    391)*
+  - 🆗 `::-webkit-scrollbar-track`                           *(sites:   57, occurrences:    207)*
   - 🆗 `::-webkit-scrollbar-track-piece`                     *(sites:    5, occurrences:     10)*
-  - 🆗 `::-webkit-search-cancel-button`                      *(sites:   95, occurrences:    126)*
-  - 🆗 `::-webkit-search-decoration`                         *(sites:  105, occurrences:    136)*
-  - 🆗 `::-webkit-search-results-button`                     *(sites:   15, occurrences:     25)*
-  - 🆗 `::-webkit-search-results-decoration`                 *(sites:   15, occurrences:     25)*
+  - 🆗 `::-webkit-search-cancel-button`                      *(sites:  107, occurrences:    144)*
+  - 🆗 `::-webkit-search-decoration`                         *(sites:  115, occurrences:    153)*
+  - 🆗 `::-webkit-search-results-button`                     *(sites:   17, occurrences:     27)*
+  - 🆗 `::-webkit-search-results-decoration`                 *(sites:   17, occurrences:     27)*
   - 🆗 `::-webkit-selection`                                 *(sites:    1, occurrences:      1)*
-  - 🆗 `::-webkit-slider-runnable-track`                     *(sites:   13, occurrences:    158)*
-  - 🆗 `::-webkit-slider-thumb`                              *(sites:   16, occurrences:     83)*
-  - 🆗 `::after`                                             *(sites:  125, occurrences:   4442)*
-  - 🆗 `::before`                                            *(sites:  135, occurrences:   6012)*
-  - 🆗 `::cue`                                               *(sites:    1, occurrences:      1)*
+  - 🆗 `::-webkit-slider-runnable-track`                     *(sites:   16, occurrences:    167)*
+  - 🆗 `::-webkit-slider-thumb`                              *(sites:   20, occurrences:     95)*
+  - 🆗 `::after`                                             *(sites:  145, occurrences:   5183)*
+  - 🆗 `::before`                                            *(sites:  153, occurrences:   8818)*
+  - 🆗 `::cue`                                               *(sites:    3, occurrences:     10)*
   - 🆗 `::first-letter`                                      *(sites:    1, occurrences:      1)*
   - 🆗 `::first-line`                                        *(sites:    2, occurrences:      4)*
-  - 🆗 `::placeholder`                                       *(sites:   84, occurrences:    569)*
-  - 🆗 `::selection`                                         *(sites:   35, occurrences:     60)*
+  - 🆗 `::placeholder`                                       *(sites:   99, occurrences:    629)*
+  - 🆗 `::selection`                                         *(sites:   40, occurrences:     67)*
   - 🆗 `::shadow`                                            *(sites:    1, occurrences:      2)*
   - ⚠ `::-moz-input-placeholder`                            *(sites:    1, occurrences:      1)*
-  - ⚠ `::-ms-input-placeholder`                             *(sites:   53, occurrences:    290)*
+  - ⚠ `::-ms-input-placeholder`                             *(sites:   60, occurrences:    312)*
   - ⚠ `::i-block-chrome`                                    *(sites:    1, occurrences:      1)*
   - ⚠ `::scrollbar`                                         *(sites:    2, occurrences:      2)*
   - ⚠ `::scrollbar-thumb`                                   *(sites:    1, occurrences:      1)*
   - ⚠ `::scrollbar-track`                                   *(sites:    1, occurrences:      1)*
 
-75864661 bytes of CSS from 216 sites in 8.5 sec
+90692103 bytes of CSS from 249 sites in 8.8 sec
