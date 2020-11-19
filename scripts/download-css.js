@@ -80,8 +80,9 @@ async function downloadSiteCSS(browser, siteIdx, siteUrl) {
     }, 1000);
 
     // load page
+    let gotoOk = true;
     try {
-        await page.goto(siteUrl);
+        await page.goto(siteUrl, { timeout: 10000 });
         console.log('    🏁  Page loaded');
 
         // some requests may occur after page.goto(), await such requests but 15 sec max
@@ -90,14 +91,15 @@ async function downloadSiteCSS(browser, siteIdx, siteUrl) {
             await new Promise(r => setTimeout(r, 200));
         } while (awaitRequests.size > 0 && Date.now() < maxAwaitTime);
     } catch (e) {
-        console.error('    ❌ Page.goto failed', e);
+        gotoOk = false;
+        console.error('    ❌ Page.goto failed', e.message);
     } finally {
         clearInterval(trackRequestsIntervalTimer);
     }
 
     // extract CSS content
     const externalStyleSheets = await Promise.all(styleSheetResponses);
-    const inlineStyleSheets = await page.evaluate(() =>
+    const inlineStyleSheets = gotoOk ? await page.evaluate(() =>
         // eslint-disable-next-line no-undef
         [...document.styleSheets]
             .map(sheet => sheet.ownerNode.textContent)
@@ -106,7 +108,7 @@ async function downloadSiteCSS(browser, siteIdx, siteUrl) {
                 type: 'inline',
                 content
             }))
-    );
+    ) : [];
 
     if (externalStyleSheets.length || inlineStyleSheets.length) {
         console.log(`    🔸  Stylesheets found: ${[
