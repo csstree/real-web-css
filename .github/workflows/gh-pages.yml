@@ -18,7 +18,7 @@ jobs:
         uses: actions/setup-node@v1
         with:
           node-version: '14.x'
-      - run: npm ci --ignore-scripts
+      - run: npm ci
       - run: npm run sync:sites
       - run: npm run download:css 25
       - run: npm test
