@@ -6,8 +6,9 @@
     "license": "CC-BY-SA 3.0",
     "repository": "csstree/real-web-css",
     "keywords": [],
+    "discovery": "ui",
     "scripts": {
-        "start": "discovery --config ui",
+        "start": "discovery",
         "test": "node scripts/test",
         "build": "discovery-build",
         "download:css": "node scripts/download-css",

@@ -1,7 +1,7 @@
 const path = require('path');
 const fs = require('fs');
 const puppeteer = require('puppeteer');
-const sites = require('./utils').getSiteList();
+const sites = require('./utils').getSiteList(process.argv[2]);
 const seedFile = path.join(__dirname, '../data/idx.txt');
 const outputDir = path.join(__dirname, '../data/css');
 
