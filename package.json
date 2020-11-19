@@ -4,12 +4,8 @@
   "description": "Using CSSTree for real site CSS",
   "scripts": {
     "test": "node scripts/test",
-    "triage": "node scripts/triage",
-    "test-and-triage": "npm run test && npm run triage",
-    "gen:table": "node scripts/gen-table",
-    "gen:usage": "node scripts/usage > usage.md",
     "download:css": "node scripts/download-css",
-    "update:sites": "node scripts/download-sites"
+    "sync:sites": "node scripts/download-sites"
   },
   "repository": "csstree/real-web-css",
   "keywords": [],
@@ -26,13 +22,5 @@
     "fixed-width-string": "^1.0.0",
     "puppeteer": "^5.4.1",
     "unzip-stream": "^0.3.1"
-  },
-  "basisjsConfig": {
-    "server": {
-      "base": "triage"
-    },
-    "plugins": [
-      "./triage/symlink.js"
-    ]
   }
 }
