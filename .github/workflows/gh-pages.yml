@@ -2,6 +2,10 @@ name: Deploy to GH-pages
 
 on:
   workflow_dispatch:
+    inputs:
+      count:
+        description: 'Site count'
+        default: '25'
 
 # A workflow run is made up of one or more jobs that can run sequentially or in parallel
 jobs:
@@ -20,7 +24,7 @@ jobs:
           node-version: '14.x'
       - run: npm ci
       - run: npm run sync:sites
-      - run: npm run download:css 25
+      - run: npm run download:css ${{ github.event.inputs.count }}"
       - run: npm test
       - run: npm run build
       - name: Deploy

@@ -82,7 +82,14 @@ async function downloadSiteCSS(browser, siteIdx, siteUrl) {
     // load page
     let gotoOk = true;
     try {
-        await page.goto(siteUrl, { timeout: 10000 });
+        await Promise.race([
+            page.goto(siteUrl),
+            new Promise((_, reject) => setTimeout(() => {
+                if (requests.size <= 1) {
+                    reject(new Error('No response from site in 5000 ms'));
+                }
+            }, 5000))
+        ]);
         console.log('    🏁  Page loaded');
 
         // some requests may occur after page.goto(), await such requests but 15 sec max
