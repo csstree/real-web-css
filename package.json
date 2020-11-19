@@ -1,26 +1,26 @@
 {
-  "name": "real-web-css",
-  "version": "1.0.0",
-  "description": "Using CSSTree for real site CSS",
-  "scripts": {
-    "test": "node scripts/test",
-    "download:css": "node scripts/download-css",
-    "sync:sites": "node scripts/download-sites"
-  },
-  "repository": "csstree/real-web-css",
-  "keywords": [],
-  "author": "Roman Dvornov <rdvornov@gmail.com>",
-  "license": "CC-BY-SA 3.0",
-  "bugs": {
-    "url": "https://github.com/csstree/real-web-css/issues"
-  },
-  "homepage": "https://github.com/csstree/real-web-css",
-  "dependencies": {
-    "css-tree": "^1.1.1",
-    "csstree-validator": "^2.0.0",
-    "eslint": "^7.12.1",
-    "fixed-width-string": "^1.0.0",
-    "puppeteer": "^5.4.1",
-    "unzip-stream": "^0.3.1"
-  }
+    "name": "real-web-css",
+    "version": "1.0.0",
+    "description": "Using CSSTree for real site CSS",
+    "author": "Roman Dvornov <rdvornov@gmail.com>",
+    "license": "CC-BY-SA 3.0",
+    "repository": "csstree/real-web-css",
+    "keywords": [],
+    "scripts": {
+        "start": "discovery --config ui",
+        "test": "node scripts/test",
+        "build": "discovery-build",
+        "download:css": "node scripts/download-css",
+        "sync:sites": "node scripts/download-sites"
+    },
+    "dependencies": {
+        "@discoveryjs/cli": "^1.15.0",
+        "@discoveryjs/discovery": "^1.0.0-beta.51",
+        "css-tree": "^1.1.1",
+        "csstree-validator": "^2.0.0",
+        "eslint": "^7.12.1",
+        "fixed-width-string": "^1.0.0",
+        "puppeteer": "^5.4.1",
+        "unzip-stream": "^0.3.1"
+    }
 }

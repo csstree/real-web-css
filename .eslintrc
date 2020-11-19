@@ -7,6 +7,9 @@
     "parserOptions": {
         "ecmaVersion": 2018
     },
+    "globals": {
+        "discovery": "readonly"
+    },
     "rules": {
         "no-duplicate-case": 2,
         "no-undef": 2,
