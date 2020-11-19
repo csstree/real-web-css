@@ -3,34 +3,9 @@ const path = require('path');
 const csstree = require('css-tree');
 const fws = require('fixed-width-string');
 const cssDir = path.join(__dirname, '../data/css');
-const types = [
-    'Atrule',
-    'MediaFeature',
-    'PseudoClassSelector',
-    'PseudoElementSelector',
-    'Function',
-    'Declaration',
-    'Declaration hacks',
-    'Dimension'
-];
+const { types, statusOrder, status } = require('./usage/');
 const names = types.reduce(function(res, type) {
     res[type] = new Map();
-    return res;
-}, Object.create(null));
-const statusOrder = ['❔', '🆗', '⚠'];
-const status = types.reduce(function(res, type) {
-    const data = !/hacks/.test(type) ? require('./usage/' + type + '.json') : { invalid: [], valid: [] };
-    const status = Object.create(null);
-    data.invalid.forEach(function(name) {
-        status[name] = '⚠'; // 🚫❌❗⛔️
-    });
-    data.valid.forEach(function(name) {
-        if (name in status) {
-            throw new Error('Duplicate status for `' + type + '/' + name + '`');
-        }
-        status[name] = '🆗';
-    });
-    res[type] = status;
     return res;
 }, Object.create(null));
 
