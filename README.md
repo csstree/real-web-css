@@ -1,8 +1,8 @@
 # Real Web CSS
 
-Using [CSSTree](https://github.com/csstree/csstree) to test a real site's CSS and collect usage data
+Real site's CSS usage data analysis. Powered by [CSSTree](https://github.com/csstree/csstree) & [Discoveryjs](https://github.com/discoveryjs/discovery)
 
-[Real Web CSS](...)
+[Real Web CSS](https://csstree.github.io/real-web-css/)
 
 ## How to use locally
 
@@ -20,20 +20,23 @@ npm run download:css
 
 > If something goes wrong on CSS downloading (freezing, network issue or errors on console), you can abort the process. Downloading will continue from the last successful processed site. You can set the start site by editing `data/idx.txt` file (if file doesn't exist downloading is start from the first one), which contains just a single number – site index.
 
-3. To test collected CSS (`data/test-results.json`):
+1. Extract data from collected CSS (`data/test-results.json`):
 
 ```
 npm test
 ```
 
-To generate a table with a test results and details (`README.md` and `test-details.md`):
+1. Discover data
+
+There are two options:
+
+- Run a server that provides user interface:
+```
+npm start
+```
+
+- Build static version (no server is required, see report in `build` folder):
 
 ```
-npm run gen:table
-```
-
-To extract a usage data (`usage.md`):
-
-```
-npm run gen:usage
+npm run build
 ```
