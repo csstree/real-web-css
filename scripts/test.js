@@ -30,8 +30,8 @@ const reports = dataFiles.map(filename => {
         id,
         domain: siteUrl,
         fetchedAt: datetime,
-        validatedAt: new Date(),
-        validationTime: 0,
+        processedAt: new Date(),
+        processingTime: 0,
         stylesheets: stylesheets.map(({ type, url, content = '', error }) => {
             // console.log(`  * ${type}${url ? ' ' + url : ''}`);
             const errors = [];
@@ -125,7 +125,7 @@ const reports = dataFiles.map(filename => {
         })
     };
 
-    report.anlysisTime = Date.now() - startTime;
+    report.processingTime = Date.now() - startTime;
 
     const errors = report.stylesheets.reduce((res, stylesheet) => {
         for (const error of stylesheet.errors) {
@@ -149,7 +149,7 @@ const reports = dataFiles.map(filename => {
             : '  ✅  No syntax errors'
     );
 
-    console.log('  ⏳  Finished in ' + report.anlysisTime + 'ms');
+    console.log('  ⏳  Finished in ' + report.processingTime + 'ms');
 
     return report;
 });
