@@ -15,13 +15,13 @@
         "sync:sites": "node scripts/download-sites"
     },
     "dependencies": {
-        "@discoveryjs/cli": "^2.0.0-alpha.8",
-        "@discoveryjs/discovery": "^1.0.0-beta.56",
-        "css-tree": "^1.1.1",
-        "csstree-validator": "^2.0.0",
-        "eslint": "^7.12.1",
+        "@discoveryjs/cli": "^2.2.0",
+        "@discoveryjs/discovery": "^1.0.0-beta.67",
+        "css-tree": "^2.2.1",
+        "csstree-validator": "^3.0.0",
+        "eslint": "^8.22.0",
         "fixed-width-string": "^1.0.0",
-        "puppeteer": "^5.4.1",
+        "puppeteer": "^16.1.1",
         "unzip-stream": "^0.3.1"
     }
 }

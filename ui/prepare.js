@@ -1,5 +1,5 @@
-discovery.setPrepare((data, { defineObjectMarker }) => {
+export default function(data, { defineObjectMarker }) {
     data.sites.forEach(defineObjectMarker('site', {
         ref: 'domain'
     }));
-});
+}
