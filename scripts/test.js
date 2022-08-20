@@ -119,7 +119,8 @@ const reports = dataFiles.map(filename => {
                 errors: [...errors, ...validateErrors].map(error => ({
                     name: error.name,
                     message: error.message,
-                    ...error
+                    ...error,
+                    stack: undefined
                 }))
             };
         })

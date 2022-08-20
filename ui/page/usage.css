@@ -1,0 +1,13 @@
+.page-usage .name {
+    font-family: var(--discovery-monospace-font-family);
+    margin: 0 .6ex;
+}
+
+.page-usage .view-button {
+    padding: 1px 6px;
+    margin: 0 4px 0 0;
+    opacity: .8;
+}
+.page-usage .view-button:hover {
+    opacity: 1;
+}
