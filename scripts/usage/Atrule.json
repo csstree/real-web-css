@@ -1,8 +1,16 @@
 {
     "sources": [
-        { "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/At-rule" },
-        { "url": "https://github.com/tabatkins/parse-css", "comment": "Standards-based CSS Parser by @tabatkins" },
-        { "url": "https://drafts.csswg.org/css-page-3/#at-page-rule", "comment": "https://drafts.csswg.org/css-page-3/#at-page-rule" }
+        {
+            "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/At-rule"
+        },
+        {
+            "url": "https://github.com/tabatkins/parse-css",
+            "comment": "Standards-based CSS Parser by @tabatkins"
+        },
+        {
+            "url": "https://drafts.csswg.org/css-page-3/#at-page-rule",
+            "comment": "https://drafts.csswg.org/css-page-3/#at-page-rule"
+        }
     ],
     "valid": [
         "-moz-document",
@@ -21,10 +29,12 @@
         "character-variants",
         "charset",
         "counter-style",
+        "document",
         "font-face",
         "font-feature-values",
         "import",
         "keyframes",
+        "layer",
         "left-bottom",
         "left-middle",
         "left-top",
@@ -32,9 +42,11 @@
         "namespace",
         "ornaments",
         "page",
+        "property",
         "right-bottom",
         "right-middle",
         "right-top",
+        "scroll-timeline",
         "styleset",
         "stylistic",
         "supports",
@@ -50,14 +62,14 @@
         "-keyframes",
         "-moz-viewport",
         "-ms-keyframes",
-        "inlcude",
-        "me",
         "classic-demo-cdn",
         "font",
         "galleria-classic-min",
         "galleria-flickr-min",
         "galleria-history-min",
         "galleria-picasa-min",
+        "inlcude",
+        "me",
         "nest",
         "rotation"
     ]
