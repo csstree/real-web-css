@@ -3,42 +3,36 @@ const { lexer } = require('css-tree');
 const knownCssProperties = require('known-css-properties').all;
 
 const csstreeDict = lexer.dump();
+const usageFilenameDir = __dirname + '/usage/';
+
+function sync(type, syncValid) {
+    const current = JSON.parse(fs.readFileSync(`${usageFilenameDir}${type}.json`));
+    const invalid = new Set(current.invalid);
+    const valid = new Set([
+        ...current.valid,
+        ...syncValid
+    ]);
+
+    for (const name of valid) {
+        invalid.delete(name);
+    }
+
+    fs.writeFileSync(`${usageFilenameDir}${type}.json`, JSON.stringify({
+        ...current,
+        valid: [...valid].sort(),
+        invalid: [...invalid].sort()
+    }, null, 4) + '\n');
+
+}
 
 // declaration
-const declarations = require('./usage/Declaration.json');
-const validDecl = new Set([
-    ...declarations.valid,
+sync('Declaration', [
     ...knownCssProperties,
-    ...Object.keys(csstreeDict.properties)
+    ...Object.keys(csstreeDict.properties).filter(name => name !== '--*')
 ]);
-const invalidDecl = new Set(declarations.invalid);
-
-for (const name of validDecl) {
-    invalidDecl.delete(name);
-}
-
-validDecl.delete('--*');
-
-fs.writeFileSync(__dirname + '/usage/Declaration.json', JSON.stringify({
-    ...declarations,
-    valid: [...validDecl].sort(),
-    invalid: [...invalidDecl].sort()
-}, null, 4) + '\n');
 
 // atrule
-const atrules = require('./usage/Atrule.json');
-const validAtrule = new Set([
-    ...atrules.valid,
-    ...Object.keys(csstreeDict.atrules)
-]);
-const invalidAtrule = new Set(atrules.invalid);
+sync('Atrule', Object.keys(csstreeDict.atrules));
 
-for (const name of validAtrule) {
-    invalidAtrule.delete(name);
-}
-
-fs.writeFileSync(__dirname + '/usage/Atrule.json', JSON.stringify({
-    ...atrules,
-    valid: [...validAtrule].sort(),
-    invalid: [...invalidAtrule].sort()
-}, null, 4) + '\n');
+// demension units
+sync('Dimension', [].concat(...Object.values(csstreeDict.units)));
