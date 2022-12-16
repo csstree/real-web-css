@@ -15,9 +15,9 @@
         "sync:sites": "node scripts/download-sites"
     },
     "dependencies": {
-        "@discoveryjs/cli": "^2.2.0",
-        "@discoveryjs/discovery": "^1.0.0-beta.67",
-        "css-tree": "^2.2.1",
+        "@discoveryjs/cli": "^2.2.1",
+        "@discoveryjs/discovery": "^1.0.0-beta.70",
+        "css-tree": "^2.3.1",
         "csstree-validator": "^3.0.0",
         "eslint": "^8.22.0",
         "fixed-width-string": "^1.0.0",
