@@ -2,3 +2,10 @@
     font-size: 12px;
     opacity: .8;
 }
+
+.page-default .view-chart {
+    max-width: 1000px;
+}
+.page-default .view-expand > .header .view-source {
+    background: none;
+}

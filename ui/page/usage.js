@@ -1,3 +1,32 @@
+/* eslint-env browser */
+
+const statBadge = {
+    view: 'badge',
+    data: `{
+        $name;
+        $type;
+        $siteCount: sites.size();
+        $stylesheetCount: stylesheets.size();
+        $entryCount: stylesheets.stylesheet.usage.reduce(=> $$ + $[$type][$name], 0);
+
+        sites,
+        $siteCount,
+        $stylesheetCount,
+        $entryCount,
+        text: [
+            $entryCount,
+            $stylesheetCount,
+            $siteCount
+        ].join(' / ')
+    }`,
+    tooltip: [
+        { view: 'block', content: 'text:"Entries: " + entryCount' },
+        { view: 'block', content: 'text:"StyleSheets: " + stylesheetCount' },
+        { view: 'block', content: 'text:"Sites: " + siteCount' },
+        { view: 'ol', data: 'sites', item: 'text:domain', limit: 10 }
+    ]
+};
+
 function setStateHandler(toSet) {
     return function (_, data, context) {
         const stat = context.data.usage[data.type];
@@ -48,7 +77,7 @@ discovery.page.define('usage', [
                             'h4:`✅ Valid (${size()})`',
                             { view: 'ul', item: [
                                 'html:`<span class="name">${fullName}</pre>`',
-                                'badge:{ text: sites.size() }'
+                                statBadge
                             ] }
                         ]
                     },
@@ -59,7 +88,7 @@ discovery.page.define('usage', [
                             'h4:`❌ Invalid (${size()})`',
                             { view: 'ul', item: [
                                 'html:`<span class="name">${fullName}</pre>`',
-                                'badge:{ text: sites.size() }'
+                                statBadge
                             ] }
                         ]
                     },
@@ -70,10 +99,14 @@ discovery.page.define('usage', [
                         content: [
                             'h4:`⚠️ Unknown (${size()})`',
                             { view: 'ul', item: [
-                                { view: 'button', content: 'text:"✅"', onClick: setStateHandler('valid') },
-                                { view: 'button', content: 'text:"❌"', onClick: setStateHandler('invalid') },
+                                ...location.hostname === 'localhost'
+                                    ? [
+                                        { view: 'button', content: 'text:"✅"', onClick: setStateHandler('valid') },
+                                        { view: 'button', content: 'text:"❌"', onClick: setStateHandler('invalid') }
+                                    ]
+                                    : [],
                                 'html:`<span class="name">${fullName}</pre>`',
-                                'badge:{ text: sites.size() }'
+                                statBadge
                             ] }
                         ]
                     }
