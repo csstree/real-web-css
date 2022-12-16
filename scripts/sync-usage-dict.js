@@ -5,16 +5,22 @@ const knownCssProperties = require('known-css-properties').all;
 const csstreeDict = lexer.dump();
 const usageFilenameDir = __dirname + '/usage/';
 
-function sync(type, syncValid) {
+function sync(type, syncValid, ignoreCurrent) {
     const current = JSON.parse(fs.readFileSync(`${usageFilenameDir}${type}.json`));
     const invalid = new Set(current.invalid);
     const valid = new Set([
-        ...current.valid,
+        ...ignoreCurrent ? [] : current.valid,
         ...syncValid
     ]);
 
     for (const name of valid) {
         invalid.delete(name);
+    }
+
+    for (const name of current.valid) {
+        if (!valid.has(name)) {
+            invalid.add(name);
+        }
     }
 
     fs.writeFileSync(`${usageFilenameDir}${type}.json`, JSON.stringify({
@@ -35,4 +41,4 @@ sync('Declaration', [
 sync('Atrule', Object.keys(csstreeDict.atrules));
 
 // demension units
-sync('Dimension', [].concat(...Object.values(csstreeDict.units)));
+sync('Dimension', [].concat(...Object.values(csstreeDict.units)), true);

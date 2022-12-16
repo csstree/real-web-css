@@ -6,7 +6,7 @@
         }
     ],
     "comments": [
-        "dp & st from https://www.w3.org/TR/css3-speech"
+        "db & st from https://www.w3.org/TR/css3-speech"
     ],
     "valid": [
         "cap",
@@ -20,7 +20,6 @@
         "cqw",
         "db",
         "deg",
-        "dp",
         "dpcm",
         "dpi",
         "dppx",
@@ -70,7 +69,6 @@
         "vb",
         "vh",
         "vi",
-        "vm",
         "vmax",
         "vmin",
         "vw",
@@ -80,6 +78,7 @@
         "\\0",
         "bb",
         "d2",
+        "dp",
         "dpis",
         "dpx",
         "e",
@@ -90,6 +89,7 @@
         "pxauto",
         "pxw",
         "spx",
+        "vm",
         "xl"
     ]
 }

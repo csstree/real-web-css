@@ -12,7 +12,8 @@
         "test": "node scripts/test",
         "build": "discovery-build",
         "download:css": "node scripts/download-css",
-        "sync:sites": "node scripts/download-sites"
+        "sync:sites": "node scripts/download-sites",
+        "sync:usage": "node scripts/sync-usage-dict"
     },
     "dependencies": {
         "@discoveryjs/cli": "^2.2.1",
