@@ -1,7 +1,7 @@
 module.exports = {
-    getSiteList(count = 10) {
+    getSiteList(count = 25) {
         return require('fs')
-            .readFileSync(__dirname + '/../data/top-sites.csv', 'utf8')
+            .readFileSync(__dirname + '/../data/sites.csv', 'utf8')
             .trim()
             .split(/\r\n?|\n/)
             .slice(0, count);

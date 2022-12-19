@@ -1,14 +1,23 @@
-const http = require('http');
+const { get } = require('https');
 const path = require('path');
 const fs = require('fs');
-const unzip = require('unzip-stream');
-const TOP = 250;
-const url = 'http://s3.amazonaws.com/alexa-static/top-1m.csv.zip';
+const url = 'https://downloads.majestic.com/majestic_million.csv';
+const outputRawFile = path.join(__dirname, '../data/sites-raw.csv');
 const outputFile = path.join(__dirname, '../data/sites.csv');
-const topFile = path.join(__dirname, '../data/top-sites.csv');
+
+function bytes(n) {
+    const units = ['bytes', 'Kb', 'MB'];
+
+    while (n > 1000 && units.length > 1) {
+        n /= 1000;
+        units.shift();
+    }
+
+    return `${Number.isInteger(n) ? n : n.toFixed(1)}${units[0]}`;
+}
 
 console.log('Download ' + url + ' ...');
-http.get(url, function(response) {
+get(url, function(response) {
     const size = response.headers['content-length'];
     let lastDownload = 0;
     let downloaded = 0;
@@ -19,18 +28,11 @@ http.get(url, function(response) {
         }
 
         lastDownload = downloaded;
-        console.log((100 * downloaded / size).toFixed(1) + '% ' + downloaded);
+        console.log(`${(100 * downloaded / size).toFixed(1).padStart(4)}% (${bytes(downloaded)})`);
     }, 200);
 
     response
-        .pipe(unzip.Parse())
-        .on('entry', function(entry) {
-            if (entry.path === 'top-1m.csv') {
-                entry.pipe(fs.createWriteStream(outputFile));
-            } else {
-                entry.autodrain();
-            }
-        });
+        .pipe(fs.createWriteStream(outputRawFile));
 
     response
         .on('data', function(chunk) {
@@ -39,19 +41,17 @@ http.get(url, function(response) {
         .on('end', function() {
             clearInterval(timer);
 
-            console.log('100% ' + downloaded);
+            console.log(' 100% (' + bytes(downloaded) + ')');
             console.log('DONE');
             console.log('');
 
-            console.log('Write to ' + topFile);
+            console.log('Write to ' + outputFile);
             fs.writeFileSync(
-                topFile,
-                fs.readFileSync(outputFile, 'utf8')
+                outputFile,
+                fs.readFileSync(outputRawFile, 'utf8')
                     .split(/\r\n?|\n/)
-                    .map(function(line) {
-                        return line.split(',')[1];
-                    })
-                    .slice(0, TOP)
+                    .slice(1)
+                    .map((line) => line.split(',')[2])
                     .join('\n'),
                 'utf8'
             );

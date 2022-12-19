@@ -139,7 +139,7 @@ async function main() {
         siteIdx = 0;
     }
 
-    console.log('Start with site #' + siteIdx);
+    console.log(`Download CSS for sites #${siteIdx}...${sites.length - 1}`);
     console.log();
 
     // create a browser
